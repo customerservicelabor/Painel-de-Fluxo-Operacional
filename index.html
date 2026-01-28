@@ -27,6 +27,10 @@
       --mustard:#D4A017;         /* mostarda */
       --totalGreen:#22c55e;      /* verde vivo */
       --blinkYellow:#FFE731;     /* rgb(255,231,49) */
+
+      /* Gestão de pedidos (refino TV) */
+      --icon: rgba(11,27,58,.72);
+      --dividerStrong: rgba(11,27,58,.22);
     }
 
     *{ box-sizing:border-box; }
@@ -87,15 +91,13 @@
       align-items: start;
     }
 
-    /* Coluna esquerda sincronizada com a altura do painel de pedidos */
     .leftCol{
       display:flex;
       flex-direction:column;
       gap: 14px;
-      height: auto; /* JS vai setar */
+      height: auto;
     }
 
-    /* Cards (caixa clara) */
     .cardsBox{
       border-radius: var(--radius);
       background: rgba(255,255,255,.92);
@@ -153,7 +155,6 @@
       white-space:nowrap;
     }
 
-    /* Painel base */
     .panel{
       border-radius: var(--radius);
       box-shadow: var(--shadow);
@@ -201,7 +202,6 @@
       min-height: 0;
     }
 
-    /* Painéis claros (pedidos + transportadores) */
     .panelLight{
       background: rgba(255,255,255,.92);
       border:1px solid rgba(255,255,255,.35);
@@ -225,7 +225,57 @@
       border-bottom: 1px solid rgba(255,255,255,.12);
     }
 
-    /* Notas (painéis escuros) */
+    /* ======== GESTÃO DE PEDIDOS (REFINOS TV) ======== */
+    .tblPedidos td:nth-child(2){ font-weight: 500; }         /* quantidade normal */
+    .tblPedidos td:nth-child(3){ font-weight: 650; }         /* valor semi-bold (mais “peso”) */
+
+    .pedidoCell{
+      display:flex;
+      align-items:center;
+      gap:10px;
+    }
+    .pedidoIcon{
+      width:16px;
+      height:16px;
+      flex: 0 0 16px;
+      color: var(--icon);
+    }
+    .pedidoText{
+      font-weight: 800;
+      letter-spacing:.1px;
+    }
+
+    /* Pedidos: faturado (mostarda) e total (verde vivo) */
+    .rowFaturado{
+      background: color-mix(in srgb, var(--mustard) 35%, transparent);
+    }
+
+    /* Total: mais “final” (alto + divisor + valor maior) */
+    .rowTotalGreen{
+      background: color-mix(in srgb, var(--totalGreen) 35%, transparent);
+      font-weight: 950;
+    }
+    .rowTotalGreen td{
+      padding-top: 14px;
+      padding-bottom: 14px;
+      border-top: 2px solid var(--dividerStrong); /* divisor acima */
+    }
+    .rowTotalGreen td:nth-child(3){
+      font-size: 16px; /* valor maior no total */
+      font-weight: 950;
+    }
+    .rowTotalGreen td:nth-child(2){
+      font-weight: 900;
+    }
+
+    /* Pisca pisca amarelo (mantido como estava) */
+    @keyframes blinkWarn {
+      0%, 100% { background: transparent; }
+      50% { background: color-mix(in srgb, var(--blinkYellow) 70%, transparent); }
+    }
+    .blinkWarn{ animation: blinkWarn 1.1s ease-in-out infinite; }
+    /* =============================================== */
+
     .panelDark{
       background: rgba(255,255,255,.06);
       border: 1px solid rgba(255,255,255,.10);
@@ -258,28 +308,9 @@
     }
     .headDark td .muted{ color: var(--muted); font-size:12px; }
 
-    /* Destaques */
     .rowArrived{ background: rgba(245,158,11,.16); }
     .rowLeft{ background: rgba(34,197,94,.18); }
     .rowDelivered{ background: rgba(34,197,94,.18); }
-
-    /* Pedidos: faturado (mostarda) e total (verde vivo) */
-    .rowFaturado{
-      background: color-mix(in srgb, var(--mustard) 35%, transparent);
-    }
-    .rowTotalGreen{
-      background: color-mix(in srgb, var(--totalGreen) 35%, transparent);
-      font-weight: 900;
-    }
-
-    /* Pisca pisca amarelo */
-    @keyframes blinkWarn {
-      0%, 100% { background: transparent; }
-      50% { background: color-mix(in srgb, var(--blinkYellow) 70%, transparent); }
-    }
-    .blinkWarn{
-      animation: blinkWarn 1.1s ease-in-out infinite;
-    }
 
     .grid2{
       display:grid;
@@ -330,7 +361,6 @@
     </header>
 
     <section class="topRow">
-      <!-- ESQUERDA: cards + transportadores (altura = pedidos) -->
       <div class="leftCol" id="leftCol">
         <div class="cardsBox" id="cardsBox">
           <div class="miniKpis" aria-label="KPIs do dia">
@@ -371,7 +401,6 @@
         </div>
       </div>
 
-      <!-- DIREITA: Gestão de Pedidos -->
       <div class="panel panelLight" id="panelPedidos">
         <div class="ph">
           <div class="ttl">Gestão de Pedidos</div>
@@ -393,7 +422,6 @@
       </div>
     </section>
 
-    <!-- ✅ GRID de notas com altura igual à Gestão de Pedidos + scroll lento -->
     <section class="grid2">
       <div class="panel panelDark" id="panelAtraso">
         <div class="ph">
@@ -512,6 +540,39 @@
       return Number.isFinite(n) ? n : 0;
     }
 
+    /* ===== ÍCONES SVG (monocromáticos) ===== */
+    function svgIcon(kind){
+      // stroke="currentColor" mantém monocromático (herda cor da classe)
+      const common = 'xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"';
+
+      if (kind === 'cart') { // ecommerce
+        return `<svg ${common}><circle cx="9" cy="20" r="1"/><circle cx="17" cy="20" r="1"/><path d="M3 4h2l2.2 10.5a2 2 0 0 0 2 1.5h7.6a2 2 0 0 0 2-1.6L21 8H6"/></svg>`;
+      }
+      if (kind === 'stop') { // bloqueado
+        return `<svg ${common}><path d="M7 3h10l4 4v10l-4 4H7l-4-4V7z"/><path d="M9 9l6 6"/><path d="M15 9l-6 6"/></svg>`;
+      }
+      if (kind === 'doc') { // faturado
+        return `<svg ${common}><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M8 13h8"/><path d="M8 17h8"/></svg>`;
+      }
+      if (kind === 'hourglass') { // análise crédito
+        return `<svg ${common}><path d="M6 2h12"/><path d="M6 22h12"/><path d="M8 2c0 6 8 6 8 12"/><path d="M16 2c0 6-8 6-8 12"/></svg>`;
+      }
+      // default "tag"
+      return `<svg ${common}><path d="M20.6 13.4 12 22l-10-10V2h10z"/><path d="M7 7h.01"/></svg>`;
+    }
+
+    function iconKindForStatus(status){
+      const s = String(status || '').toLowerCase();
+
+      if (s.includes('ecommerce') || s.includes('e-commerce')) return 'cart';
+      if (s.includes('bloque')) return 'stop';
+      if (s.includes('fatur')) return 'doc';
+      if (s.includes('análise de crédito') || s.includes('analise de credito')) return 'hourglass';
+
+      return 'tag';
+    }
+    /* ====================================== */
+
     function renderTransportadores(data){
       const list = Array.isArray(data.transportadores) ? data.transportadores : [];
       const body = document.getElementById('tbodyTransp');
@@ -572,8 +633,15 @@
 
         if (isBlink) tr.classList.add('blinkWarn');
 
+        const iconKind = iconKindForStatus(status);
+
         tr.innerHTML = `
-          <td><strong>${status}</strong></td>
+          <td>
+            <div class="pedidoCell">
+              <span class="pedidoIcon">${svgIcon(iconKind)}</span>
+              <span class="pedidoText">${status}</span>
+            </div>
+          </td>
           <td>${qtd.toLocaleString('pt-BR')}</td>
           <td>${isTotal ? `<strong>${fmtBRL.format(valorNum)}</strong>` : fmtBRL.format(valorNum)}</td>
         `;
@@ -619,7 +687,7 @@
       const hojeBody = document.getElementById('tbodyHoje');
       hojeBody.innerHTML = '';
 
-      for (const it of hojeList){
+      for (const it of hojeAll){
         const dataEntrega = (it.data_entrega ?? '').toString().trim();
         const tr = document.createElement('tr');
         if (dataEntrega) tr.className = 'rowDelivered';
@@ -714,7 +782,6 @@
       scrollTransp.style.maxHeight = (transpH - phH) + 'px';
     }
 
-    /* ✅ NOVO: deixa os painéis de notas com a MESMA altura do painel de pedidos */
     function syncNotesToPedidosHeight(){
       const panelPedidos = document.getElementById('panelPedidos');
       const panelAtraso = document.getElementById('panelAtraso');
@@ -724,13 +791,11 @@
 
       if (!panelPedidos || !panelAtraso || !panelHoje || !scrollAtraso || !scrollHoje) return;
 
-      // altura alvo = altura do painel pedidos
       const h = panelPedidos.offsetHeight;
 
       panelAtraso.style.height = h + 'px';
       panelHoje.style.height = h + 'px';
 
-      // ajusta altura útil do scroll = painel - cabeçalho
       const phA = panelAtraso.querySelector('.ph');
       const phH_A = phA ? phA.offsetHeight : 56;
       scrollAtraso.style.maxHeight = (h - phH_A) + 'px';
@@ -741,65 +806,14 @@
     }
 
     function initAutoScrollTV() {
-      // ✅ lento para TV
       startAutoScroll(document.getElementById('scrollTransp'), { speedPxPerTick: 1, tickMs: 75, pauseAtEndMs: 1500 });
-
-      // ✅ notas também lentas
       startAutoScroll(document.getElementById('scrollAtraso'), { speedPxPerTick: 1, tickMs: 70, pauseAtEndMs: 1700 });
       startAutoScroll(document.getElementById('scrollHoje'),   { speedPxPerTick: 1, tickMs: 72, pauseAtEndMs: 1700 });
-    }
-
-    const AUDIO_STORAGE_KEY = "last_audio_announcement_id_v1";
-
-    function parseISODateSafe(iso){
-      const t = Date.parse(String(iso || ''));
-      return Number.isFinite(t) ? t : NaN;
-    }
-
-    function isAnnouncementExpired(createdAtISO, ttlMinutes){
-      const createdMs = parseISODateSafe(createdAtISO);
-      if (!Number.isFinite(createdMs)) return false;
-      const ttl = Number(ttlMinutes) || 0;
-      if (ttl <= 0) return false;
-      return (Date.now() - createdMs) > (ttl * 60 * 1000);
-    }
-
-    function speakPTBR(text){
-      if (!text) return;
-      if (!("speechSynthesis" in window) || !("SpeechSynthesisUtterance" in window)) return;
-
-      window.speechSynthesis.cancel();
-
-      const u = new SpeechSynthesisUtterance(String(text));
-      u.lang = "pt-BR";
-      u.rate = 1.0;
-      u.pitch = 1.0;
-
-      window.speechSynthesis.speak(u);
-    }
-
-    function tryPlayAnnouncement(data){
-      const ann = data?.audio_announcement;
-      if (!ann || ann.enabled !== true) return;
-
-      const id = String(ann.id || '').trim();
-      const msg = String(ann.message || '').trim();
-      if (!id || !msg) return;
-
-      if (isAnnouncementExpired(ann.created_at, ann.ttl_minutes)) return;
-
-      const lastId = localStorage.getItem(AUDIO_STORAGE_KEY);
-      if (lastId === id) return;
-
-      localStorage.setItem(AUDIO_STORAGE_KEY, id);
-      speakPTBR(msg);
     }
 
     async function load(){
       const res = await fetch(`data.json?t=${Date.now()}`, { cache: 'no-store' });
       const data = await res.json();
-
-      tryPlayAnnouncement(data);
 
       document.getElementById('updatedAt').textContent = 'Atualizado em: ' + data.updated_at;
 
@@ -823,12 +837,10 @@
 
       render();
 
-      // ✅ Sincroniza altura geral para TV
       syncLeftToPedidosHeight();
       syncNotesToPedidosHeight();
 
       setTimeout(() => {
-        // re-sinc após layout estabilizar
         syncLeftToPedidosHeight();
         syncNotesToPedidosHeight();
         initAutoScrollTV();
