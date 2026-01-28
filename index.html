@@ -31,6 +31,12 @@
       /* Gestão de pedidos (refino TV) */
       --icon: rgba(11,27,58,.72);
       --dividerStrong: rgba(11,27,58,.22);
+
+      /* Badge staleness */
+      --staleWarnBg: rgba(245,158,11,.22);
+      --staleWarnBd: rgba(245,158,11,.45);
+      --staleBadBg:  rgba(239,68,68,.22);
+      --staleBadBd:  rgba(239,68,68,.45);
     }
 
     *{ box-sizing:border-box; }
@@ -54,6 +60,7 @@
     .rightHead{
       display:flex; gap:10px; align-items:center; flex-wrap:wrap; justify-content:flex-end;
     }
+
     .updated{
       color:var(--muted);
       font-size:13px;
@@ -63,7 +70,20 @@
       background: rgba(255,255,255,.04);
       backdrop-filter: blur(8px);
       white-space:nowrap;
+      transition: background .2s ease, border-color .2s ease, color .2s ease;
     }
+    /* staleness states */
+    .updated.stale-warn{
+      background: var(--staleWarnBg);
+      border-color: var(--staleWarnBd);
+      color: rgba(233,236,245,.92);
+    }
+    .updated.stale-bad{
+      background: var(--staleBadBg);
+      border-color: var(--staleBadBd);
+      color: rgba(233,236,245,.92);
+    }
+
     .filter{
       display:flex; align-items:center; gap:8px;
       padding:8px 10px;
@@ -131,9 +151,9 @@
       border-radius: 14px;
       border: 1px solid rgba(11,27,58,.10);
       background: rgba(255,255,255,.85);
-      padding: 10px 10px;
+      padding: 9px 10px;                 /* ✅ ligeiramente menor */
       box-shadow: 0 10px 24px rgba(0,0,0,.10);
-      min-height: 70px;
+      min-height: 62px;                  /* ✅ - ~12% (antes 70px) */
       display:flex;
       flex-direction:column;
       justify-content:center;
@@ -147,9 +167,9 @@
       text-overflow:ellipsis;
     }
     .miniKpi .v{
-      margin-top: 6px;
+      margin-top: 5px;                   /* ✅ menor */
       font-weight: 900;
-      font-size: clamp(22px, 2.2vw, 34px);
+      font-size: clamp(21px, 2.1vw, 33px); /* ✅ ligeiramente menor */
       line-height: 1.05;
       color: var(--ink);
       white-space:nowrap;
@@ -226,6 +246,14 @@
     }
 
     /* ======== GESTÃO DE PEDIDOS (REFINOS TV) ======== */
+    /* Alinhamento executivo */
+    .tblPedidos td:nth-child(2),
+    .tblPedidos td:nth-child(3),
+    .tblPedidos thead th:nth-child(2),
+    .tblPedidos thead th:nth-child(3){
+      text-align: right;                 /* ✅ números à direita */
+    }
+
     .tblPedidos td:nth-child(2){ font-weight: 500; }         /* quantidade normal */
     .tblPedidos td:nth-child(3){ font-weight: 650; }         /* valor semi-bold (mais “peso”) */
 
@@ -268,13 +296,28 @@
       font-weight: 900;
     }
 
-    /* Pisca pisca amarelo (mantido como estava) */
+    /* Pisca pisca mais corporativo: mais lento e menos agressivo */
     @keyframes blinkWarn {
       0%, 100% { background: transparent; }
-      50% { background: color-mix(in srgb, var(--blinkYellow) 70%, transparent); }
+      50% { background: rgba(255,231,49,.45); }  /* ✅ menos amarelo */
     }
-    .blinkWarn{ animation: blinkWarn 1.1s ease-in-out infinite; }
+    .blinkWarn{ animation: blinkWarn 1.45s ease-in-out infinite; } /* ✅ mais lento */
     /* =============================================== */
+
+    /* ===== Transportadores: menos contraste + fonte menor ===== */
+    .panelTranspSoft .scroll{
+      background: rgba(11,27,58,.03);    /* ✅ mais neutro */
+    }
+    .panelTranspSoft td, .panelTranspSoft th{
+      font-size: 12px;                  /* ✅ menor que o resto */
+    }
+    .panelTranspSoft th{
+      color: rgba(11,27,58,.70);
+    }
+    .panelTranspSoft td{
+      color: rgba(11,27,58,.90);
+    }
+    /* ========================================================= */
 
     .panelDark{
       background: rgba(255,255,255,.06);
@@ -379,7 +422,7 @@
           </div>
         </div>
 
-        <div class="panel panelLight" id="panelTransp" style="min-height: 0; flex: 1 1 auto;">
+        <div class="panel panelLight panelTranspSoft" id="panelTransp" style="min-height: 0; flex: 1 1 auto;">
           <div class="ph">
             <div class="ttl">Status de Coleta Transportadores</div>
             <div class="badge" id="transpCount">— itens</div>
@@ -485,6 +528,26 @@
       return new Date(yyyy, (mm || 1)-1, dd || 1, HH || 0, MM || 0, 0, 0);
     }
 
+    function formatUpdatedAtToBadge(data){
+      const el = document.getElementById('updatedAt');
+      if (!el) return;
+
+      el.classList.remove('stale-warn','stale-bad');
+      el.textContent = 'Atualizado em: ' + (data.updated_at || '--/--/----');
+
+      const updated = parseUpdatedDate(data.updated_at);
+      const diffMs = Date.now() - updated.getTime();
+      if (!Number.isFinite(diffMs)) return;
+
+      const diffMin = Math.floor(diffMs / 60000);
+
+      if (diffMin > 120){
+        el.classList.add('stale-bad');   // vermelho
+      } else if (diffMin > 60){
+        el.classList.add('stale-warn');  // amarelo
+      }
+    }
+
     function isoToBR(iso){
       const [y,m,d] = String(iso || '').split("-").map(Number);
       const dt = new Date(y, (m||1)-1, d||1);
@@ -542,33 +605,29 @@
 
     /* ===== ÍCONES SVG (monocromáticos) ===== */
     function svgIcon(kind){
-      // stroke="currentColor" mantém monocromático (herda cor da classe)
       const common = 'xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"';
 
-      if (kind === 'cart') { // ecommerce
+      if (kind === 'cart') {
         return `<svg ${common}><circle cx="9" cy="20" r="1"/><circle cx="17" cy="20" r="1"/><path d="M3 4h2l2.2 10.5a2 2 0 0 0 2 1.5h7.6a2 2 0 0 0 2-1.6L21 8H6"/></svg>`;
       }
-      if (kind === 'stop') { // bloqueado
+      if (kind === 'stop') {
         return `<svg ${common}><path d="M7 3h10l4 4v10l-4 4H7l-4-4V7z"/><path d="M9 9l6 6"/><path d="M15 9l-6 6"/></svg>`;
       }
-      if (kind === 'doc') { // faturado
+      if (kind === 'doc') {
         return `<svg ${common}><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M8 13h8"/><path d="M8 17h8"/></svg>`;
       }
-      if (kind === 'hourglass') { // análise crédito
+      if (kind === 'hourglass') {
         return `<svg ${common}><path d="M6 2h12"/><path d="M6 22h12"/><path d="M8 2c0 6 8 6 8 12"/><path d="M16 2c0 6-8 6-8 12"/></svg>`;
       }
-      // default "tag"
       return `<svg ${common}><path d="M20.6 13.4 12 22l-10-10V2h10z"/><path d="M7 7h.01"/></svg>`;
     }
 
     function iconKindForStatus(status){
       const s = String(status || '').toLowerCase();
-
       if (s.includes('ecommerce') || s.includes('e-commerce')) return 'cart';
       if (s.includes('bloque')) return 'stop';
       if (s.includes('fatur')) return 'doc';
       if (s.includes('análise de crédito') || s.includes('analise de credito')) return 'hourglass';
-
       return 'tag';
     }
     /* ====================================== */
@@ -630,7 +689,6 @@
         const tr = document.createElement('tr');
         if (isTotal) tr.classList.add('rowTotalGreen');
         else if (isFaturado) tr.classList.add('rowFaturado');
-
         if (isBlink) tr.classList.add('blinkWarn');
 
         const iconKind = iconKindForStatus(status);
@@ -806,16 +864,20 @@
     }
 
     function initAutoScrollTV() {
-      startAutoScroll(document.getElementById('scrollTransp'), { speedPxPerTick: 1, tickMs: 75, pauseAtEndMs: 1500 });
-      startAutoScroll(document.getElementById('scrollAtraso'), { speedPxPerTick: 1, tickMs: 70, pauseAtEndMs: 1700 });
-      startAutoScroll(document.getElementById('scrollHoje'),   { speedPxPerTick: 1, tickMs: 72, pauseAtEndMs: 1700 });
+      /* ✅ Atraso/Previstas ~30% mais lento + pausa maior no final */
+      startAutoScroll(document.getElementById('scrollAtraso'), { speedPxPerTick: 1, tickMs: 92, pauseAtEndMs: 2400, pauseAtTopMs: 900 });
+      startAutoScroll(document.getElementById('scrollHoje'),   { speedPxPerTick: 1, tickMs: 92, pauseAtEndMs: 2400, pauseAtTopMs: 900 });
+
+      /* Transportadores: mantém lento e discreto */
+      startAutoScroll(document.getElementById('scrollTransp'), { speedPxPerTick: 1, tickMs: 95, pauseAtEndMs: 2200, pauseAtTopMs: 900 });
     }
 
     async function load(){
       const res = await fetch(`data.json?t=${Date.now()}`, { cache: 'no-store' });
       const data = await res.json();
 
-      document.getElementById('updatedAt').textContent = 'Atualizado em: ' + data.updated_at;
+      /* ✅ Badge staleness */
+      formatUpdatedAtToBadge(data);
 
       document.getElementById('kpiAtraso').textContent = Number(data.kpis.notas_em_atraso || 0).toLocaleString('pt-BR');
       document.getElementById('kpiPrevistasHoje').textContent = Number(data.kpis.previstas_para_hoje || 0).toLocaleString('pt-BR');
