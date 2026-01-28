@@ -6,7 +6,7 @@ kpis: {
  "entregues_hoje":	67	,								
   },										
  "pedidos_status": [										
-{ "status": 	Ecommerce	, "quantidade":	1	, "valor": "	 R$ 573,76 	" },				
+{ "status":Ecommerce,"quantidade":1,"valor":"R$ 573,76"},				
 { "status": 	Aguardando Liberação	, "quantidade":	5	, "valor": "	 R$ 91.749,94 	" },				
 { "status": 	Alvará Sanitário	, "quantidade":	6	, "valor": "	 R$ 16.717,27 	" },				
 { "status": 	Bloqueado por regra	, "quantidade":	1	, "valor": "	 R$ 2.575,75 	" },				
@@ -141,3 +141,4 @@ kpis: {
  { "nota_fiscal": "	199126	", destinatario": "	MED IMAGEM SC	", transportador": "	TECMAR	", cidade_destino": "	TERESINA - PI	", data_entrega": "		 },
  { "nota_fiscal": "	199079	", destinatario": "	DISTRIBEN DIST PROD FARMAC HOSP EIRELI	", transportador": "	LOGDI	", cidade_destino": "	BELEM - PA	", data_entrega": "	26/01/2026	 },
  { "nota_fiscal": "	198914	", destinatario": "	CLASSMED - PRODUTOS HOSPITALARES LT	", transportador": "	FEDEX	", cidade_destino": "	ARAPONGAS - PR	", data_entrega": "		 },
+
