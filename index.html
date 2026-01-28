@@ -94,7 +94,7 @@
       overflow:hidden;
       position:relative;
       color: var(--ink);
-      height: auto; /* ✅ agora a hero ajusta pela altura do conteúdo */
+      height: auto;
     }
     .hero::before{
       content:"";
@@ -110,7 +110,7 @@
       position:relative;
       z-index:1;
       display:grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr)); /* ✅ agora são 3 cards */
+      grid-template-columns: repeat(3, minmax(0, 1fr));
       gap: 10px;
       width: 100%;
       flex: 0 0 auto;
@@ -216,6 +216,48 @@
       flex-wrap:wrap;
     }
 
+    /* =========================
+       ✅ NOVO: Variantes de painel
+       ========================= */
+
+    /* Gestão de Pedidos (claro, tipo "hero") */
+    .panelLight{
+      background: rgba(255,255,255,.92);
+      border:1px solid rgba(255,255,255,.35);
+      color: var(--ink);
+    }
+    .panelLight .ph{
+      background: rgba(255,255,255,.70);
+      border-bottom: 1px solid rgba(11,27,58,.10);
+    }
+    .panelLight th, .panelLight td{
+      border-bottom: 1px solid rgba(11,27,58,.10);
+    }
+    .panelLight thead th{
+      background: rgba(255,255,255,.92);
+      color: rgba(11,27,58,.75);
+      border-bottom: 1px solid rgba(11,27,58,.10);
+    }
+    .panelLight .badge{
+      background: rgba(11,27,58,.06);
+      border: 1px solid rgba(11,27,58,.12);
+      color: rgba(11,27,58,.82);
+    }
+
+    /* Status de Coleta (escuro igual quadros de notas) */
+    .panelDark{
+      background: rgba(255,255,255,.06);
+      border: 1px solid rgba(255,255,255,.10);
+      color: var(--text);
+    }
+
+    /* Gestão de Pedidos sem scroll */
+    .noScroll{
+      padding: 6px 0;
+      flex: 1 1 auto;
+      background: rgba(0,0,0,0);
+    }
+
     @media (max-width: 1200px){
       .topRow{ grid-template-columns: 1fr; }
       .miniKpis{ grid-template-columns: 1fr; }
@@ -247,7 +289,6 @@
       </div>
     </header>
 
-    <!-- ✅ Topo: Esquerda (3 cards + transportadores embaixo) | Direita (Gestão de Pedidos) -->
     <section class="topRow">
       <section class="hero">
         <div class="miniKpis" aria-label="KPIs do dia">
@@ -265,14 +306,14 @@
           </div>
         </div>
 
-        <!-- ✅ Transportadores agora ficam abaixo dos 3 cards -->
-        <div class="panel" style="height:auto; margin-top:12px;">
+        <!-- ✅ Status de Coleta (escuro igual notas) + scroll lento -->
+        <div class="panel panelDark" style="margin-top:12px; height: var(--topRowH);">
           <div class="ph">
             <div class="ttl">Status de Coleta Transportadores</div>
             <div class="badge" id="transpCount">— itens</div>
           </div>
 
-          <div class="scroll" id="scrollTransp">
+          <div class="scroll" id="scrollTransp" style="max-height: calc(var(--topRowH) - 56px);">
             <table>
               <thead>
                 <tr>
@@ -288,14 +329,14 @@
         </div>
       </section>
 
-      <!-- ✅ Lugar antigo do painel de transportadores: vira Gestão de Pedidos -->
-      <div class="panel">
+      <!-- ✅ Gestão de Pedidos (claro, sem scroll) -->
+      <div class="panel panelLight" style="height: var(--topRowH);">
         <div class="ph">
           <div class="ttl">Gestão de Pedidos</div>
           <div class="badge" id="pedidosCount">— itens</div>
         </div>
 
-        <div class="scroll" id="scrollPedidos">
+        <div class="noScroll">
           <table>
             <thead>
               <tr>
@@ -423,8 +464,6 @@
         const nome = (it.transportador ?? it.nome ?? '').toString().trim();
         const chegada = (it.chegada ?? '').toString().trim();
         const saida = (it.saida ?? '').toString().trim();
-
-        // ✅ somente "agendado" (como já estava)
         const agendado = (it.agendado ?? '').toString().trim();
 
         let cls = '';
@@ -590,8 +629,9 @@
     function initAutoScroll() {
       startAutoScroll(document.getElementById('scrollAtraso'), { speedPxPerTick: 1, tickMs: 45, pauseAtEndMs: 1500 });
       startAutoScroll(document.getElementById('scrollHoje'),   { speedPxPerTick: 1, tickMs: 50, pauseAtEndMs: 1400 });
-      startAutoScroll(document.getElementById('scrollTransp'), { speedPxPerTick: 1, tickMs: 55, pauseAtEndMs: 1200 });
-      startAutoScroll(document.getElementById('scrollPedidos'), { speedPxPerTick: 1, tickMs: 55, pauseAtEndMs: 1200 });
+
+      /* ✅ Transportadores mais lento */
+      startAutoScroll(document.getElementById('scrollTransp'), { speedPxPerTick: 1, tickMs: 75, pauseAtEndMs: 1500 });
     }
 
     const AUDIO_STORAGE_KEY = "last_audio_announcement_id_v1";
@@ -648,7 +688,6 @@
 
       document.getElementById('updatedAt').textContent = 'Atualizado em: ' + data.updated_at;
 
-      // ✅ KPIs (3 cards)
       document.getElementById('kpiAtraso').textContent = Number(data.kpis.notas_em_atraso || 0).toLocaleString('pt-BR');
       document.getElementById('kpiPrevistasHoje').textContent = Number(data.kpis.previstas_para_hoje || 0).toLocaleString('pt-BR');
       document.getElementById('kpiEntreguesHoje').textContent = Number(data.kpis.entregues_hoje || 0).toLocaleString('pt-BR');
