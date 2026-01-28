@@ -21,11 +21,12 @@
 
       --ink:#0b1b3a;
 
-      /* Altura mínima dos painéis do topo (agora eles podem crescer) */
       --topRowMinH: 360px;
 
-      /* Azul do cabeçalho da tabela de pedidos */
-      --blueHead: rgba(11,134,255,.95);
+      /* Destaques pedidos */
+      --mustard:#D4A017;         /* mostarda */
+      --totalGreen:#22c55e;      /* verde vivo */
+      --blinkYellow:#FFE731;     /* rgb(255,231,49) */
     }
 
     *{ box-sizing:border-box; }
@@ -86,21 +87,27 @@
       align-items: start;
     }
 
-    .hero{
+    /* Coluna esquerda vira um container “sincado” com a altura do painel de pedidos */
+    .leftCol{
+      display:flex;
+      flex-direction:column;
+      gap: 14px;
+      height: auto; /* JS vai setar */
+    }
+
+    /* Cards (em caixa clara) */
+    .cardsBox{
       border-radius: var(--radius);
       background: rgba(255,255,255,.92);
       border:1px solid rgba(255,255,255,.35);
       box-shadow: var(--shadow);
       padding: 16px 16px;
-      display:flex;
-      flex-direction:column;
-      gap: 12px;
-      overflow:hidden;
       position:relative;
       color: var(--ink);
-      height:auto;
+      overflow:hidden;
+      flex: 0 0 auto;
     }
-    .hero::before{
+    .cardsBox::before{
       content:"";
       position:absolute; inset:-80px -120px auto auto;
       width: 360px; height: 360px;
@@ -117,7 +124,6 @@
       grid-template-columns: repeat(3, minmax(0, 1fr));
       gap: 10px;
       width: 100%;
-      flex: 0 0 auto;
     }
     .miniKpi{
       border-radius: 14px;
@@ -187,15 +193,53 @@
       color: var(--ink);
     }
 
-    /* Scroll padrão para quadros escuros (notas) */
     .scroll{
       overflow:auto;
       position: relative;
       background: rgba(0,0,0,.04);
       flex: 1 1 auto;
+      min-height: 0;
     }
 
-    /* Cabeçalho padrão (dark) — usado nos quadros de notas */
+    /* Painéis claros (pedidos + transportadores) */
+    .panelLight{
+      background: rgba(255,255,255,.92);
+      border:1px solid rgba(255,255,255,.35);
+      color: var(--ink);
+    }
+    .panelLight .ph{
+      background: rgba(255,255,255,.70);
+      border-bottom: 1px solid rgba(11,27,58,.10);
+    }
+
+    /* Cabeçalho dos pedidos: azul escuro igual fundo do site */
+    .tblPedidos thead th{
+      position: sticky;
+      top: 0;
+      z-index: 5;
+      background: var(--bg);
+      color: rgba(233,236,245,.95);
+      text-transform:uppercase;
+      letter-spacing:.35px;
+      font-size:11px;
+      border-bottom: 1px solid rgba(255,255,255,.12);
+    }
+
+    /* Notas (painéis escuros) */
+    .panelDark{
+      background: rgba(255,255,255,.06);
+      border: 1px solid rgba(255,255,255,.10);
+      color: var(--text);
+    }
+    .panelDark .ph{
+      background: rgba(0,0,0,.14);
+      border-bottom:1px solid rgba(255,255,255,.10);
+    }
+    .panelDark .badge{
+      border: 1px solid rgba(255,255,255,.14);
+      background: rgba(255,255,255,.06);
+      color: rgba(233,236,245,.92);
+    }
     .headDark thead th{
       position: sticky;
       top: 0;
@@ -214,56 +258,28 @@
     }
     .headDark td .muted{ color: var(--muted); font-size:12px; }
 
-    /* Painéis claros do topo (pedidos + transportadores) */
-    .panelLight{
-      background: rgba(255,255,255,.92);
-      border:1px solid rgba(255,255,255,.35);
-      color: var(--ink);
-    }
-    .panelLight .ph{
-      background: rgba(255,255,255,.70);
-      border-bottom: 1px solid rgba(11,27,58,.10);
-    }
-
-    /* Cabeçalho AZUL apenas para tabela de pedidos */
-    .tblBlueHead thead th{
-      position: sticky;
-      top: 0;
-      z-index: 5;
-      background: var(--blueHead);
-      color: #fff;
-      text-transform:uppercase;
-      letter-spacing:.35px;
-      font-size:11px;
-      border-bottom: 1px solid rgba(255,255,255,.20);
-    }
-
-    /* Gestão de pedidos sem scroll */
-    .noScroll{
-      padding: 6px 0;
-      flex: 1 1 auto;
-      background: transparent;
-    }
-
-    /* Notas (painéis escuros) */
-    .panelDark{
-      background: rgba(255,255,255,.06);
-      border: 1px solid rgba(255,255,255,.10);
-      color: var(--text);
-    }
-    .panelDark .ph{
-      background: rgba(0,0,0,.14);
-      border-bottom:1px solid rgba(255,255,255,.10);
-    }
-    .panelDark .badge{
-      border: 1px solid rgba(255,255,255,.14);
-      background: rgba(255,255,255,.06);
-      color: rgba(233,236,245,.92);
-    }
-
+    /* Destaques */
     .rowArrived{ background: rgba(245,158,11,.16); }
     .rowLeft{ background: rgba(34,197,94,.18); }
     .rowDelivered{ background: rgba(34,197,94,.18); }
+
+    /* Pedidos: faturado (mostarda) e total (verde vivo) */
+    .rowFaturado{
+      background: color-mix(in srgb, var(--mustard) 35%, transparent);
+    }
+    .rowTotalGreen{
+      background: color-mix(in srgb, var(--totalGreen) 35%, transparent);
+      font-weight: 900;
+    }
+
+    /* Pisca pisca amarelo */
+    @keyframes blinkWarn {
+      0%, 100% { background: transparent; }
+      50% { background: color-mix(in srgb, var(--blinkYellow) 70%, transparent); }
+    }
+    .blinkWarn{
+      animation: blinkWarn 1.1s ease-in-out infinite;
+    }
 
     .grid2{
       display:grid;
@@ -285,6 +301,7 @@
     @media (max-width: 1200px){
       .topRow{ grid-template-columns: 1fr; }
       .miniKpis{ grid-template-columns: 1fr; }
+      .leftCol{ height:auto !important; }
     }
     @media (max-width: 980px){
       .grid2{ grid-template-columns: 1fr; }
@@ -312,25 +329,26 @@
     </header>
 
     <section class="topRow">
-      <!-- ESQUERDA: KPIs + Transportadores (altura sincronizada com Pedidos) -->
-      <section class="hero">
-        <div class="miniKpis" aria-label="KPIs do dia">
-          <div class="miniKpi">
-            <div class="t">Notas em Atraso</div>
-            <div class="v" id="kpiAtraso">—</div>
-          </div>
-          <div class="miniKpi">
-            <div class="t">Previstas para Hoje</div>
-            <div class="v" id="kpiPrevistasHoje">—</div>
-          </div>
-          <div class="miniKpi">
-            <div class="t">Entregas Realizadas Hoje</div>
-            <div class="v" id="kpiEntreguesHoje">—</div>
+      <!-- ESQUERDA: cards + transportadores (vai ficar igual altura de pedidos) -->
+      <div class="leftCol" id="leftCol">
+        <div class="cardsBox" id="cardsBox">
+          <div class="miniKpis" aria-label="KPIs do dia">
+            <div class="miniKpi">
+              <div class="t">Notas em Atraso</div>
+              <div class="v" id="kpiAtraso">—</div>
+            </div>
+            <div class="miniKpi">
+              <div class="t">Previstas para Hoje</div>
+              <div class="v" id="kpiPrevistasHoje">—</div>
+            </div>
+            <div class="miniKpi">
+              <div class="t">Entregas Realizadas Hoje</div>
+              <div class="v" id="kpiEntreguesHoje">—</div>
+            </div>
           </div>
         </div>
 
-        <!-- Transportadores (claro, texto preto) -->
-        <div class="panel panelLight" id="panelTransp" style="margin-top:12px;">
+        <div class="panel panelLight" id="panelTransp" style="min-height: 0; flex: 1 1 auto;">
           <div class="ph">
             <div class="ttl">Status de Coleta Transportadores</div>
             <div class="badge" id="transpCount">— itens</div>
@@ -350,17 +368,17 @@
             </table>
           </div>
         </div>
-      </section>
+      </div>
 
-      <!-- DIREITA: Gestão de Pedidos (claro, sem scroll, cabeçalho azul) -->
+      <!-- DIREITA: Gestão de Pedidos -->
       <div class="panel panelLight" id="panelPedidos">
         <div class="ph">
           <div class="ttl">Gestão de Pedidos</div>
           <div class="badge" id="pedidosCount">— itens</div>
         </div>
 
-        <div class="noScroll">
-          <table class="tblBlueHead">
+        <div style="flex:1 1 auto;">
+          <table class="tblPedidos">
             <thead>
               <tr>
                 <th>Pedidos</th>
@@ -477,13 +495,12 @@
     }
 
     function parseBRLValue(v){
-      // Se já vier como número no JSON, usa direto (corrige o bug 91.749,94 -> 9.174.994,00)
+      // Se vier como número: usa direto (evita bug de multiplicar por 100/1000)
       if (typeof v === 'number' && Number.isFinite(v)) return v;
 
       const s = String(v ?? '').trim();
       if (!s) return 0;
 
-      // remove "R$", espaços e normaliza separadores
       // Ex: "R$ 91.749,94" -> "91749.94"
       const cleaned = s
         .replace(/\s+/g,' ')
@@ -543,10 +560,19 @@
         const qtd = Number(it.quantidade ?? it.qtd ?? 0) || 0;
 
         const valorNum = parseBRLValue(it.valor);
-        const isTotal = status.toLowerCase() === 'total';
+        const key = status.toLowerCase();
+
+        const isTotal = key === 'total';
+        const isFaturado = key === 'faturado';
+        const isBlink = (key === 'análise de crédito' || key === 'analise de credito' || key === 'alvará sanitário' || key === 'alvara sanitario');
 
         const tr = document.createElement('tr');
-        if (isTotal) tr.className = 'rowLeft';
+
+        // prioridades de classe: total/faturado > blink (se preferir blink também no faturado/total, me avisa)
+        if (isTotal) tr.classList.add('rowTotalGreen');
+        else if (isFaturado) tr.classList.add('rowFaturado');
+
+        if (isBlink) tr.classList.add('blinkWarn');
 
         tr.innerHTML = `
           <td><strong>${status}</strong></td>
@@ -665,37 +691,44 @@
       return { start, stop };
     }
 
-    function syncTopPanelsHeight(){
-      const pPedidos = document.getElementById('panelPedidos');
-      const pTransp  = document.getElementById('panelTransp');
+    function syncLeftToPedidosHeight(){
+      const leftCol = document.getElementById('leftCol');
+      const panelPedidos = document.getElementById('panelPedidos');
+      const cardsBox = document.getElementById('cardsBox');
+      const panelTransp = document.getElementById('panelTransp');
       const scrollTransp = document.getElementById('scrollTransp');
-      if (!pPedidos || !pTransp || !scrollTransp) return;
 
-      // reseta para medir corretamente
-      pPedidos.style.height = 'auto';
-      pTransp.style.height  = 'auto';
+      if (!leftCol || !panelPedidos || !cardsBox || !panelTransp || !scrollTransp) return;
 
-      // garante layout atualizado
-      const pedidosH = pPedidos.offsetHeight;
+      // reset
+      leftCol.style.height = 'auto';
+      panelTransp.style.height = 'auto';
 
-      // trava os dois com a mesma altura (a altura do maior)
-      const transpH  = pTransp.offsetHeight;
-      const finalH = Math.max(pedidosH, transpH, parseInt(getComputedStyle(document.documentElement).getPropertyValue('--topRowMinH')) || 0);
+      // altura alvo = altura real do painel pedidos (que cresce para caber tudo)
+      const pedidosH = panelPedidos.offsetHeight;
 
-      pPedidos.style.height = finalH + 'px';
-      pTransp.style.height  = finalH + 'px';
+      // trava altura da coluna esquerda para bater com a direita
+      leftCol.style.height = pedidosH + 'px';
 
-      // ajusta área útil do scrollTransp = altura do painel - altura do header
-      const ph = pTransp.querySelector('.ph');
+      // agora calcula o espaço sobrando para o painel de transportadores
+      // leftCol é: cardsBox + gap(14px) + panelTransp
+      const gap = 14;
+      const cardsH = cardsBox.offsetHeight;
+      const transpH = Math.max(140, pedidosH - cardsH - gap);
+
+      panelTransp.style.height = transpH + 'px';
+
+      // ajusta maxHeight do scroll dos transportadores = painel - header
+      const ph = panelTransp.querySelector('.ph');
       const phH = ph ? ph.offsetHeight : 56;
-      scrollTransp.style.maxHeight = (finalH - phH) + 'px';
+      scrollTransp.style.maxHeight = (transpH - phH) + 'px';
     }
 
     function initAutoScroll() {
       startAutoScroll(document.getElementById('scrollAtraso'), { speedPxPerTick: 1, tickMs: 45, pauseAtEndMs: 1500 });
       startAutoScroll(document.getElementById('scrollHoje'),   { speedPxPerTick: 1, tickMs: 50, pauseAtEndMs: 1400 });
 
-      // ✅ Transportadores mais lento (como você pediu)
+      // transportadores bem lento
       startAutoScroll(document.getElementById('scrollTransp'), { speedPxPerTick: 1, tickMs: 75, pauseAtEndMs: 1500 });
     }
 
@@ -762,8 +795,8 @@
       renderTransportadores(data);
       renderPedidos(data);
 
-      // ✅ após renderizar pedidos, sincroniza alturas para não cortar
-      syncTopPanelsHeight();
+      // Sincroniza alturas depois do render (pedidos define a altura “real”)
+      syncLeftToPedidosHeight();
 
       const sel = document.getElementById('carrierFilter');
       const render = () => renderTables(data, sel.value);
@@ -778,10 +811,10 @@
 
       setTimeout(() => {
         initAutoScroll();
-        syncTopPanelsHeight();
+        syncLeftToPedidosHeight();
       }, 350);
 
-      window.addEventListener('resize', () => syncTopPanelsHeight());
+      window.addEventListener('resize', () => syncLeftToPedidosHeight());
     }
 
     load().catch(err => {
