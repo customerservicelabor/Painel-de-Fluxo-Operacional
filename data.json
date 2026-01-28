@@ -97,7 +97,7 @@
     { "nota_fiscal": "199717", "destinatario": "LAGOLD COMER HOSP LTDA", "transportador": "AZUL", "cidade_destino": "UBERABA - MG", "data_entrega": "28/01/2026" }
   ],
   "tv_alert": {
-    "enabled": true,
+    "enabled": false,
     "id": "2026-01-28-fedex-descredenciada-01",
     "title": "Atenção",
     "message": "Atenção: Devido ao encerramento das operações da FedEx no Brasil, a transportadora já está descredenciada do nosso sistema. Entretanto, as notas faturadas por essa transportadora e que estão em rota de entrega podem sofrer atrasos nos prazos. Já estamos monitorando e comunicando os clientes sobre possíveis gargalos. Procure o Customer Service.",
@@ -106,4 +106,5 @@
     "ttl_minutes": 720
   }
 }
+
 
