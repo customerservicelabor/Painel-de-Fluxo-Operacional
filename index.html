@@ -72,7 +72,6 @@
       white-space:nowrap;
       transition: background .2s ease, border-color .2s ease, color .2s ease;
     }
-    /* staleness states */
     .updated.stale-warn{
       background: var(--staleWarnBg);
       border-color: var(--staleWarnBd);
@@ -151,9 +150,9 @@
       border-radius: 14px;
       border: 1px solid rgba(11,27,58,.10);
       background: rgba(255,255,255,.85);
-      padding: 9px 10px;                 /* ✅ ligeiramente menor */
+      padding: 9px 10px;
       box-shadow: 0 10px 24px rgba(0,0,0,.10);
-      min-height: 62px;                  /* ✅ - ~12% (antes 70px) */
+      min-height: 62px;
       display:flex;
       flex-direction:column;
       justify-content:center;
@@ -167,9 +166,9 @@
       text-overflow:ellipsis;
     }
     .miniKpi .v{
-      margin-top: 5px;                   /* ✅ menor */
+      margin-top: 5px;
       font-weight: 900;
-      font-size: clamp(21px, 2.1vw, 33px); /* ✅ ligeiramente menor */
+      font-size: clamp(21px, 2.1vw, 33px);
       line-height: 1.05;
       color: var(--ink);
       white-space:nowrap;
@@ -246,16 +245,14 @@
     }
 
     /* ======== GESTÃO DE PEDIDOS (REFINOS TV) ======== */
-    /* Alinhamento executivo */
     .tblPedidos td:nth-child(2),
     .tblPedidos td:nth-child(3),
     .tblPedidos thead th:nth-child(2),
     .tblPedidos thead th:nth-child(3){
-      text-align: right;                 /* ✅ números à direita */
+      text-align: right;
     }
-
-    .tblPedidos td:nth-child(2){ font-weight: 500; }         /* quantidade normal */
-    .tblPedidos td:nth-child(3){ font-weight: 650; }         /* valor semi-bold (mais “peso”) */
+    .tblPedidos td:nth-child(2){ font-weight: 500; }
+    .tblPedidos td:nth-child(3){ font-weight: 650; }
 
     .pedidoCell{
       display:flex;
@@ -273,12 +270,10 @@
       letter-spacing:.1px;
     }
 
-    /* Pedidos: faturado (mostarda) e total (verde vivo) */
     .rowFaturado{
       background: color-mix(in srgb, var(--mustard) 35%, transparent);
     }
 
-    /* Total: mais “final” (alto + divisor + valor maior) */
     .rowTotalGreen{
       background: color-mix(in srgb, var(--totalGreen) 35%, transparent);
       font-weight: 950;
@@ -286,30 +281,29 @@
     .rowTotalGreen td{
       padding-top: 14px;
       padding-bottom: 14px;
-      border-top: 2px solid var(--dividerStrong); /* divisor acima */
+      border-top: 2px solid var(--dividerStrong);
     }
     .rowTotalGreen td:nth-child(3){
-      font-size: 16px; /* valor maior no total */
+      font-size: 16px;
       font-weight: 950;
     }
     .rowTotalGreen td:nth-child(2){
       font-weight: 900;
     }
 
-    /* Pisca pisca mais corporativo: mais lento e menos agressivo */
     @keyframes blinkWarn {
       0%, 100% { background: transparent; }
-      50% { background: rgba(255,231,49,.45); }  /* ✅ menos amarelo */
+      50% { background: rgba(255,231,49,.45); }
     }
-    .blinkWarn{ animation: blinkWarn 1.45s ease-in-out infinite; } /* ✅ mais lento */
+    .blinkWarn{ animation: blinkWarn 1.45s ease-in-out infinite; }
     /* =============================================== */
 
     /* ===== Transportadores: menos contraste + fonte menor ===== */
     .panelTranspSoft .scroll{
-      background: rgba(11,27,58,.03);    /* ✅ mais neutro */
+      background: rgba(11,27,58,.03);
     }
     .panelTranspSoft td, .panelTranspSoft th{
-      font-size: 12px;                  /* ✅ menor que o resto */
+      font-size: 12px;
     }
     .panelTranspSoft th{
       color: rgba(11,27,58,.70);
@@ -382,6 +376,73 @@
       .grid2{ grid-template-columns: 1fr; }
       h1{ font-size:30px; }
     }
+
+    /* ================= TV ALERT OVERLAY ================= */
+    .tvAlertOverlay{
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 28px;
+      background: rgba(11,16,32,.86);
+      backdrop-filter: blur(8px);
+    }
+
+    .tvAlertCard{
+      width: min(980px, 92vw);
+      border-radius: 22px;
+      box-shadow: 0 20px 60px rgba(0,0,0,.45);
+      border: 1px solid rgba(255,255,255,.14);
+      background: rgba(255,255,255,.94);
+      color: #0b1b3a;
+      overflow: hidden;
+    }
+
+    .tvAlertTop{
+      display:flex;
+      align-items:center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 14px 16px;
+      background: rgba(239,68,68,.12);
+      border-bottom: 1px solid rgba(11,27,58,.12);
+    }
+
+    .tvAlertTitle{
+      font-weight: 950;
+      font-size: 18px;
+      letter-spacing: .2px;
+      text-transform: uppercase;
+    }
+
+    .tvAlertBadge{
+      font-size: 12px;
+      font-weight: 800;
+      padding: 8px 10px;
+      border-radius: 999px;
+      border: 1px solid rgba(239,68,68,.35);
+      background: rgba(239,68,68,.14);
+      white-space: nowrap;
+    }
+
+    .tvAlertBody{
+      padding: 18px 18px 16px;
+    }
+
+    .tvAlertMsg{
+      font-size: clamp(18px, 2.2vw, 26px);
+      line-height: 1.25;
+      font-weight: 800;
+    }
+
+    .tvAlertSub{
+      margin-top: 10px;
+      color: rgba(11,27,58,.72);
+      font-size: 13px;
+    }
+    /* ==================================================== */
   </style>
 </head>
 
@@ -516,6 +577,20 @@
     </div>
   </div>
 
+  <!-- TV Alert Overlay (aparece apenas se tv_alert.enabled === true) -->
+  <div class="tvAlertOverlay" id="tvAlertOverlay" aria-live="assertive" aria-atomic="true">
+    <div class="tvAlertCard">
+      <div class="tvAlertTop">
+        <div class="tvAlertTitle" id="tvAlertTitle">Atenção</div>
+        <div class="tvAlertBadge" id="tvAlertTimer">20s</div>
+      </div>
+      <div class="tvAlertBody">
+        <div class="tvAlertMsg" id="tvAlertMsg">—</div>
+        <div class="tvAlertSub">Mensagem operacional • Some automaticamente</div>
+      </div>
+    </div>
+  </div>
+
   <script>
     const fmtBRL = new Intl.NumberFormat('pt-BR', { style:'currency', currency:'BRL' });
 
@@ -542,11 +617,76 @@
       const diffMin = Math.floor(diffMs / 60000);
 
       if (diffMin > 120){
-        el.classList.add('stale-bad');   // vermelho
+        el.classList.add('stale-bad');
       } else if (diffMin > 60){
-        el.classList.add('stale-warn');  // amarelo
+        el.classList.add('stale-warn');
       }
     }
+
+    function parseISODateSafe(iso){
+      const t = Date.parse(String(iso || ''));
+      return Number.isFinite(t) ? t : NaN;
+    }
+
+    function isExpired(createdAtISO, ttlMinutes){
+      const createdMs = parseISODateSafe(createdAtISO);
+      if (!Number.isFinite(createdMs)) return false;
+      const ttl = Number(ttlMinutes) || 0;
+      if (ttl <= 0) return false;
+      return (Date.now() - createdMs) > (ttl * 60 * 1000);
+    }
+
+    /* =================== TV ALERT (CONTROLADO PELO data.json) =================== */
+    const TV_ALERT_STORAGE_KEY = "last_tv_alert_id_v1";
+
+    function showTvAlert(alertObj){
+      const overlay = document.getElementById('tvAlertOverlay');
+      const titleEl = document.getElementById('tvAlertTitle');
+      const msgEl   = document.getElementById('tvAlertMsg');
+      const timerEl = document.getElementById('tvAlertTimer');
+      if (!overlay || !titleEl || !msgEl || !timerEl) return;
+
+      const title = String(alertObj.title || 'Atenção').trim();
+      const msg   = String(alertObj.message || '').trim();
+      const secs  = Math.max(5, Math.min(60, Number(alertObj.duration_seconds) || 20));
+
+      titleEl.textContent = title;
+      msgEl.textContent = msg;
+
+      overlay.style.display = 'flex';
+
+      let remaining = secs;
+      timerEl.textContent = `${remaining}s`;
+
+      const t = setInterval(() => {
+        remaining -= 1;
+        timerEl.textContent = `${Math.max(0, remaining)}s`;
+        if (remaining <= 0){
+          clearInterval(t);
+          overlay.style.display = 'none';
+        }
+      }, 1000);
+    }
+
+    function tryShowTvAlert(data){
+      const a = data?.tv_alert;
+      if (!a || a.enabled !== true) return;
+
+      const id = String(a.id || '').trim();
+      const msg = String(a.message || '').trim();
+      if (!id || !msg) return;
+
+      if (isExpired(a.created_at, a.ttl_minutes)) return;
+
+      // Mostra 1x por refresh (volta no próximo refresh/F5),
+      // ou se mudar o id.
+      const lastId = sessionStorage.getItem(TV_ALERT_STORAGE_KEY);
+      if (lastId === id) return;
+
+      sessionStorage.setItem(TV_ALERT_STORAGE_KEY, id);
+      showTvAlert(a);
+    }
+    /* =========================================================================== */
 
     function isoToBR(iso){
       const [y,m,d] = String(iso || '').split("-").map(Number);
@@ -603,7 +743,6 @@
       return Number.isFinite(n) ? n : 0;
     }
 
-    /* ===== ÍCONES SVG (monocromáticos) ===== */
     function svgIcon(kind){
       const common = 'xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"';
 
@@ -630,7 +769,6 @@
       if (s.includes('análise de crédito') || s.includes('analise de credito')) return 'hourglass';
       return 'tag';
     }
-    /* ====================================== */
 
     function renderTransportadores(data){
       const list = Array.isArray(data.transportadores) ? data.transportadores : [];
@@ -864,11 +1002,8 @@
     }
 
     function initAutoScrollTV() {
-      /* ✅ Atraso/Previstas ~30% mais lento + pausa maior no final */
       startAutoScroll(document.getElementById('scrollAtraso'), { speedPxPerTick: 1, tickMs: 92, pauseAtEndMs: 2400, pauseAtTopMs: 900 });
       startAutoScroll(document.getElementById('scrollHoje'),   { speedPxPerTick: 1, tickMs: 92, pauseAtEndMs: 2400, pauseAtTopMs: 900 });
-
-      /* Transportadores: mantém lento e discreto */
       startAutoScroll(document.getElementById('scrollTransp'), { speedPxPerTick: 1, tickMs: 95, pauseAtEndMs: 2200, pauseAtTopMs: 900 });
     }
 
@@ -876,8 +1011,10 @@
       const res = await fetch(`data.json?t=${Date.now()}`, { cache: 'no-store' });
       const data = await res.json();
 
-      /* ✅ Badge staleness */
       formatUpdatedAtToBadge(data);
+
+      // ✅ Mostra o alerta APENAS se tv_alert.enabled === true
+      tryShowTvAlert(data);
 
       document.getElementById('kpiAtraso').textContent = Number(data.kpis.notas_em_atraso || 0).toLocaleString('pt-BR');
       document.getElementById('kpiPrevistasHoje').textContent = Number(data.kpis.previstas_para_hoje || 0).toLocaleString('pt-BR');
