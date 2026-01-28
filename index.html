@@ -21,7 +21,11 @@
 
       --ink:#0b1b3a;
 
-      --topRowH: 400px;
+      /* Altura mínima dos painéis do topo (agora eles podem crescer) */
+      --topRowMinH: 360px;
+
+      /* Azul do cabeçalho da tabela de pedidos */
+      --blueHead: rgba(11,134,255,.95);
     }
 
     *{ box-sizing:border-box; }
@@ -79,7 +83,7 @@
       display:grid;
       grid-template-columns: 1fr 1fr;
       gap: 14px;
-      align-items: stretch;
+      align-items: start;
     }
 
     .hero{
@@ -94,7 +98,7 @@
       overflow:hidden;
       position:relative;
       color: var(--ink);
-      height: auto;
+      height:auto;
     }
     .hero::before{
       content:"";
@@ -143,15 +147,14 @@
       white-space:nowrap;
     }
 
+    /* Painel base */
     .panel{
-      background: rgba(255,255,255,.06);
-      border: 1px solid rgba(255,255,255,.10);
       border-radius: var(--radius);
       box-shadow: var(--shadow);
       overflow:hidden;
       display:flex;
       flex-direction:column;
-      height: var(--topRowH);
+      min-height: var(--topRowMinH);
     }
     .panel .ph{
       padding: 14px 14px;
@@ -159,28 +162,41 @@
       align-items:center;
       justify-content:space-between;
       gap:10px;
-      border-bottom:1px solid rgba(255,255,255,.10);
-      background: rgba(0,0,0,.14);
+      border-bottom:1px solid rgba(11,27,58,.10);
+      background: rgba(255,255,255,.70);
       flex: 0 0 auto;
     }
     .ph .ttl{ font-weight:800; display:flex; align-items:center; gap:10px; }
 
+    .badge{
+      font-size:12px;
+      padding: 6px 10px;
+      border-radius:999px;
+      border: 1px solid rgba(11,27,58,.12);
+      background: rgba(11,27,58,.06);
+      color: rgba(11,27,58,.82);
+      white-space:nowrap;
+    }
+
     table{ width:100%; border-collapse:collapse; }
     th, td{
       padding: 10px 12px;
-      border-bottom: 1px solid rgba(255,255,255,.08);
+      border-bottom: 1px solid rgba(11,27,58,.10);
       vertical-align:middle;
       font-size:13px;
+      color: var(--ink);
     }
 
+    /* Scroll padrão para quadros escuros (notas) */
     .scroll{
-      max-height: 420px;
       overflow:auto;
       position: relative;
       background: rgba(0,0,0,.04);
       flex: 1 1 auto;
     }
-    thead th{
+
+    /* Cabeçalho padrão (dark) — usado nos quadros de notas */
+    .headDark thead th{
       position: sticky;
       top: 0;
       z-index: 5;
@@ -192,8 +208,58 @@
       backdrop-filter: blur(8px);
       border-bottom: 1px solid rgba(255,255,255,.12);
     }
+    .headDark th, .headDark td{
+      border-bottom: 1px solid rgba(255,255,255,.08);
+      color: rgba(233,236,245,.92);
+    }
+    .headDark td .muted{ color: var(--muted); font-size:12px; }
 
-    td .muted{ color: var(--muted); font-size:12px; }
+    /* Painéis claros do topo (pedidos + transportadores) */
+    .panelLight{
+      background: rgba(255,255,255,.92);
+      border:1px solid rgba(255,255,255,.35);
+      color: var(--ink);
+    }
+    .panelLight .ph{
+      background: rgba(255,255,255,.70);
+      border-bottom: 1px solid rgba(11,27,58,.10);
+    }
+
+    /* Cabeçalho AZUL apenas para tabela de pedidos */
+    .tblBlueHead thead th{
+      position: sticky;
+      top: 0;
+      z-index: 5;
+      background: var(--blueHead);
+      color: #fff;
+      text-transform:uppercase;
+      letter-spacing:.35px;
+      font-size:11px;
+      border-bottom: 1px solid rgba(255,255,255,.20);
+    }
+
+    /* Gestão de pedidos sem scroll */
+    .noScroll{
+      padding: 6px 0;
+      flex: 1 1 auto;
+      background: transparent;
+    }
+
+    /* Notas (painéis escuros) */
+    .panelDark{
+      background: rgba(255,255,255,.06);
+      border: 1px solid rgba(255,255,255,.10);
+      color: var(--text);
+    }
+    .panelDark .ph{
+      background: rgba(0,0,0,.14);
+      border-bottom:1px solid rgba(255,255,255,.10);
+    }
+    .panelDark .badge{
+      border: 1px solid rgba(255,255,255,.14);
+      background: rgba(255,255,255,.06);
+      color: rgba(233,236,245,.92);
+    }
 
     .rowArrived{ background: rgba(245,158,11,.16); }
     .rowLeft{ background: rgba(34,197,94,.18); }
@@ -216,57 +282,13 @@
       flex-wrap:wrap;
     }
 
-    /* =========================
-       ✅ NOVO: Variantes de painel
-       ========================= */
-
-    /* Gestão de Pedidos (claro, tipo "hero") */
-    .panelLight{
-      background: rgba(255,255,255,.92);
-      border:1px solid rgba(255,255,255,.35);
-      color: var(--ink);
-    }
-    .panelLight .ph{
-      background: rgba(255,255,255,.70);
-      border-bottom: 1px solid rgba(11,27,58,.10);
-    }
-    .panelLight th, .panelLight td{
-      border-bottom: 1px solid rgba(11,27,58,.10);
-    }
-    .panelLight thead th{
-      background: rgba(255,255,255,.92);
-      color: rgba(11,27,58,.75);
-      border-bottom: 1px solid rgba(11,27,58,.10);
-    }
-    .panelLight .badge{
-      background: rgba(11,27,58,.06);
-      border: 1px solid rgba(11,27,58,.12);
-      color: rgba(11,27,58,.82);
-    }
-
-    /* Status de Coleta (escuro igual quadros de notas) */
-    .panelDark{
-      background: rgba(255,255,255,.06);
-      border: 1px solid rgba(255,255,255,.10);
-      color: var(--text);
-    }
-
-    /* Gestão de Pedidos sem scroll */
-    .noScroll{
-      padding: 6px 0;
-      flex: 1 1 auto;
-      background: rgba(0,0,0,0);
-    }
-
     @media (max-width: 1200px){
       .topRow{ grid-template-columns: 1fr; }
       .miniKpis{ grid-template-columns: 1fr; }
-      .hero, .panel{ height: auto; }
     }
     @media (max-width: 980px){
       .grid2{ grid-template-columns: 1fr; }
       h1{ font-size:30px; }
-      .hero, .panel{ height: auto; }
     }
   </style>
 </head>
@@ -290,6 +312,7 @@
     </header>
 
     <section class="topRow">
+      <!-- ESQUERDA: KPIs + Transportadores (altura sincronizada com Pedidos) -->
       <section class="hero">
         <div class="miniKpis" aria-label="KPIs do dia">
           <div class="miniKpi">
@@ -306,14 +329,14 @@
           </div>
         </div>
 
-        <!-- ✅ Status de Coleta (escuro igual notas) + scroll lento -->
-        <div class="panel panelDark" style="margin-top:12px; height: var(--topRowH);">
+        <!-- Transportadores (claro, texto preto) -->
+        <div class="panel panelLight" id="panelTransp" style="margin-top:12px;">
           <div class="ph">
             <div class="ttl">Status de Coleta Transportadores</div>
             <div class="badge" id="transpCount">— itens</div>
           </div>
 
-          <div class="scroll" id="scrollTransp" style="max-height: calc(var(--topRowH) - 56px);">
+          <div class="scroll" id="scrollTransp">
             <table>
               <thead>
                 <tr>
@@ -329,15 +352,15 @@
         </div>
       </section>
 
-      <!-- ✅ Gestão de Pedidos (claro, sem scroll) -->
-      <div class="panel panelLight" style="height: var(--topRowH);">
+      <!-- DIREITA: Gestão de Pedidos (claro, sem scroll, cabeçalho azul) -->
+      <div class="panel panelLight" id="panelPedidos">
         <div class="ph">
           <div class="ttl">Gestão de Pedidos</div>
           <div class="badge" id="pedidosCount">— itens</div>
         </div>
 
         <div class="noScroll">
-          <table>
+          <table class="tblBlueHead">
             <thead>
               <tr>
                 <th>Pedidos</th>
@@ -352,12 +375,12 @@
     </section>
 
     <section class="grid2">
-      <div class="panel" style="height:auto;">
+      <div class="panel panelDark" style="min-height:auto;">
         <div class="ph">
           <div class="ttl">Notas em Atraso</div>
           <div class="badge" id="atrasoCount">— itens</div>
         </div>
-        <div class="scroll" id="scrollAtraso">
+        <div class="scroll headDark" id="scrollAtraso">
           <table>
             <thead>
               <tr>
@@ -374,12 +397,12 @@
         </div>
       </div>
 
-      <div class="panel" style="height:auto;">
+      <div class="panel panelDark" style="min-height:auto;">
         <div class="ph">
           <div class="ttl">Notas Previstas para Hoje</div>
           <div class="badge" id="hojeCount">— itens</div>
         </div>
-        <div class="scroll" id="scrollHoje">
+        <div class="scroll headDark" id="scrollHoje">
           <table>
             <thead>
               <tr>
@@ -453,6 +476,25 @@
       }
     }
 
+    function parseBRLValue(v){
+      // Se já vier como número no JSON, usa direto (corrige o bug 91.749,94 -> 9.174.994,00)
+      if (typeof v === 'number' && Number.isFinite(v)) return v;
+
+      const s = String(v ?? '').trim();
+      if (!s) return 0;
+
+      // remove "R$", espaços e normaliza separadores
+      // Ex: "R$ 91.749,94" -> "91749.94"
+      const cleaned = s
+        .replace(/\s+/g,' ')
+        .replace(/R\$\s?/i,'')
+        .replace(/\./g,'')
+        .replace(',','.');
+
+      const n = Number(cleaned);
+      return Number.isFinite(n) ? n : 0;
+    }
+
     function renderTransportadores(data){
       const list = Array.isArray(data.transportadores) ? data.transportadores : [];
       const body = document.getElementById('tbodyTransp');
@@ -500,19 +542,16 @@
         const status = (it.status ?? it.pedidos ?? '').toString().trim() || '—';
         const qtd = Number(it.quantidade ?? it.qtd ?? 0) || 0;
 
-        const vRaw = it.valor;
-        const valorNum = Number(String(vRaw ?? 0).replace(/\./g,'').replace(',','.')) || Number(vRaw) || 0;
-        const valorFmt = status.toLowerCase() === 'total'
-          ? `<strong>${fmtBRL.format(valorNum)}</strong>`
-          : fmtBRL.format(valorNum);
+        const valorNum = parseBRLValue(it.valor);
+        const isTotal = status.toLowerCase() === 'total';
 
         const tr = document.createElement('tr');
-        if (status.toLowerCase() === 'total') tr.className = 'rowLeft';
+        if (isTotal) tr.className = 'rowLeft';
 
         tr.innerHTML = `
           <td><strong>${status}</strong></td>
           <td>${qtd.toLocaleString('pt-BR')}</td>
-          <td>${valorFmt}</td>
+          <td>${isTotal ? `<strong>${fmtBRL.format(valorNum)}</strong>` : fmtBRL.format(valorNum)}</td>
         `;
         body.appendChild(tr);
       }
@@ -626,11 +665,37 @@
       return { start, stop };
     }
 
+    function syncTopPanelsHeight(){
+      const pPedidos = document.getElementById('panelPedidos');
+      const pTransp  = document.getElementById('panelTransp');
+      const scrollTransp = document.getElementById('scrollTransp');
+      if (!pPedidos || !pTransp || !scrollTransp) return;
+
+      // reseta para medir corretamente
+      pPedidos.style.height = 'auto';
+      pTransp.style.height  = 'auto';
+
+      // garante layout atualizado
+      const pedidosH = pPedidos.offsetHeight;
+
+      // trava os dois com a mesma altura (a altura do maior)
+      const transpH  = pTransp.offsetHeight;
+      const finalH = Math.max(pedidosH, transpH, parseInt(getComputedStyle(document.documentElement).getPropertyValue('--topRowMinH')) || 0);
+
+      pPedidos.style.height = finalH + 'px';
+      pTransp.style.height  = finalH + 'px';
+
+      // ajusta área útil do scrollTransp = altura do painel - altura do header
+      const ph = pTransp.querySelector('.ph');
+      const phH = ph ? ph.offsetHeight : 56;
+      scrollTransp.style.maxHeight = (finalH - phH) + 'px';
+    }
+
     function initAutoScroll() {
       startAutoScroll(document.getElementById('scrollAtraso'), { speedPxPerTick: 1, tickMs: 45, pauseAtEndMs: 1500 });
       startAutoScroll(document.getElementById('scrollHoje'),   { speedPxPerTick: 1, tickMs: 50, pauseAtEndMs: 1400 });
 
-      /* ✅ Transportadores mais lento */
+      // ✅ Transportadores mais lento (como você pediu)
       startAutoScroll(document.getElementById('scrollTransp'), { speedPxPerTick: 1, tickMs: 75, pauseAtEndMs: 1500 });
     }
 
@@ -697,6 +762,9 @@
       renderTransportadores(data);
       renderPedidos(data);
 
+      // ✅ após renderizar pedidos, sincroniza alturas para não cortar
+      syncTopPanelsHeight();
+
       const sel = document.getElementById('carrierFilter');
       const render = () => renderTables(data, sel.value);
 
@@ -708,7 +776,12 @@
 
       render();
 
-      setTimeout(initAutoScroll, 350);
+      setTimeout(() => {
+        initAutoScroll();
+        syncTopPanelsHeight();
+      }, 350);
+
+      window.addEventListener('resize', () => syncTopPanelsHeight());
     }
 
     load().catch(err => {
