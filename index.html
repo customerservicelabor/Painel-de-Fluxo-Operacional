@@ -87,7 +87,7 @@
       align-items: start;
     }
 
-    /* Coluna esquerda vira um container “sincado” com a altura do painel de pedidos */
+    /* Coluna esquerda sincronizada com a altura do painel de pedidos */
     .leftCol{
       display:flex;
       flex-direction:column;
@@ -95,7 +95,7 @@
       height: auto; /* JS vai setar */
     }
 
-    /* Cards (em caixa clara) */
+    /* Cards (caixa clara) */
     .cardsBox{
       border-radius: var(--radius);
       background: rgba(255,255,255,.92);
@@ -286,6 +286,7 @@
       grid-template-columns: 1fr 1fr;
       gap: 14px;
       margin-top: 14px;
+      align-items: start;
     }
 
     .foot{
@@ -329,7 +330,7 @@
     </header>
 
     <section class="topRow">
-      <!-- ESQUERDA: cards + transportadores (vai ficar igual altura de pedidos) -->
+      <!-- ESQUERDA: cards + transportadores (altura = pedidos) -->
       <div class="leftCol" id="leftCol">
         <div class="cardsBox" id="cardsBox">
           <div class="miniKpis" aria-label="KPIs do dia">
@@ -392,8 +393,9 @@
       </div>
     </section>
 
+    <!-- ✅ GRID de notas com altura igual à Gestão de Pedidos + scroll lento -->
     <section class="grid2">
-      <div class="panel panelDark" style="min-height:auto;">
+      <div class="panel panelDark" id="panelAtraso">
         <div class="ph">
           <div class="ttl">Notas em Atraso</div>
           <div class="badge" id="atrasoCount">— itens</div>
@@ -415,7 +417,7 @@
         </div>
       </div>
 
-      <div class="panel panelDark" style="min-height:auto;">
+      <div class="panel panelDark" id="panelHoje">
         <div class="ph">
           <div class="ttl">Notas Previstas para Hoje</div>
           <div class="badge" id="hojeCount">— itens</div>
@@ -495,13 +497,11 @@
     }
 
     function parseBRLValue(v){
-      // Se vier como número: usa direto (evita bug de multiplicar por 100/1000)
       if (typeof v === 'number' && Number.isFinite(v)) return v;
 
       const s = String(v ?? '').trim();
       if (!s) return 0;
 
-      // Ex: "R$ 91.749,94" -> "91749.94"
       const cleaned = s
         .replace(/\s+/g,' ')
         .replace(/R\$\s?/i,'')
@@ -567,8 +567,6 @@
         const isBlink = (key === 'análise de crédito' || key === 'analise de credito' || key === 'alvará sanitário' || key === 'alvara sanitario');
 
         const tr = document.createElement('tr');
-
-        // prioridades de classe: total/faturado > blink (se preferir blink também no faturado/total, me avisa)
         if (isTotal) tr.classList.add('rowTotalGreen');
         else if (isFaturado) tr.classList.add('rowFaturado');
 
@@ -697,39 +695,58 @@
       const cardsBox = document.getElementById('cardsBox');
       const panelTransp = document.getElementById('panelTransp');
       const scrollTransp = document.getElementById('scrollTransp');
-
       if (!leftCol || !panelPedidos || !cardsBox || !panelTransp || !scrollTransp) return;
 
-      // reset
       leftCol.style.height = 'auto';
       panelTransp.style.height = 'auto';
 
-      // altura alvo = altura real do painel pedidos (que cresce para caber tudo)
       const pedidosH = panelPedidos.offsetHeight;
-
-      // trava altura da coluna esquerda para bater com a direita
       leftCol.style.height = pedidosH + 'px';
 
-      // agora calcula o espaço sobrando para o painel de transportadores
-      // leftCol é: cardsBox + gap(14px) + panelTransp
       const gap = 14;
       const cardsH = cardsBox.offsetHeight;
-      const transpH = Math.max(140, pedidosH - cardsH - gap);
+      const transpH = Math.max(160, pedidosH - cardsH - gap);
 
       panelTransp.style.height = transpH + 'px';
 
-      // ajusta maxHeight do scroll dos transportadores = painel - header
       const ph = panelTransp.querySelector('.ph');
       const phH = ph ? ph.offsetHeight : 56;
       scrollTransp.style.maxHeight = (transpH - phH) + 'px';
     }
 
-    function initAutoScroll() {
-      startAutoScroll(document.getElementById('scrollAtraso'), { speedPxPerTick: 1, tickMs: 45, pauseAtEndMs: 1500 });
-      startAutoScroll(document.getElementById('scrollHoje'),   { speedPxPerTick: 1, tickMs: 50, pauseAtEndMs: 1400 });
+    /* ✅ NOVO: deixa os painéis de notas com a MESMA altura do painel de pedidos */
+    function syncNotesToPedidosHeight(){
+      const panelPedidos = document.getElementById('panelPedidos');
+      const panelAtraso = document.getElementById('panelAtraso');
+      const panelHoje = document.getElementById('panelHoje');
+      const scrollAtraso = document.getElementById('scrollAtraso');
+      const scrollHoje = document.getElementById('scrollHoje');
 
-      // transportadores bem lento
+      if (!panelPedidos || !panelAtraso || !panelHoje || !scrollAtraso || !scrollHoje) return;
+
+      // altura alvo = altura do painel pedidos
+      const h = panelPedidos.offsetHeight;
+
+      panelAtraso.style.height = h + 'px';
+      panelHoje.style.height = h + 'px';
+
+      // ajusta altura útil do scroll = painel - cabeçalho
+      const phA = panelAtraso.querySelector('.ph');
+      const phH_A = phA ? phA.offsetHeight : 56;
+      scrollAtraso.style.maxHeight = (h - phH_A) + 'px';
+
+      const phB = panelHoje.querySelector('.ph');
+      const phH_B = phB ? phB.offsetHeight : 56;
+      scrollHoje.style.maxHeight = (h - phH_B) + 'px';
+    }
+
+    function initAutoScrollTV() {
+      // ✅ lento para TV
       startAutoScroll(document.getElementById('scrollTransp'), { speedPxPerTick: 1, tickMs: 75, pauseAtEndMs: 1500 });
+
+      // ✅ notas também lentas
+      startAutoScroll(document.getElementById('scrollAtraso'), { speedPxPerTick: 1, tickMs: 70, pauseAtEndMs: 1700 });
+      startAutoScroll(document.getElementById('scrollHoje'),   { speedPxPerTick: 1, tickMs: 72, pauseAtEndMs: 1700 });
     }
 
     const AUDIO_STORAGE_KEY = "last_audio_announcement_id_v1";
@@ -795,9 +812,6 @@
       renderTransportadores(data);
       renderPedidos(data);
 
-      // Sincroniza alturas depois do render (pedidos define a altura “real”)
-      syncLeftToPedidosHeight();
-
       const sel = document.getElementById('carrierFilter');
       const render = () => renderTables(data, sel.value);
 
@@ -809,12 +823,21 @@
 
       render();
 
+      // ✅ Sincroniza altura geral para TV
+      syncLeftToPedidosHeight();
+      syncNotesToPedidosHeight();
+
       setTimeout(() => {
-        initAutoScroll();
+        // re-sinc após layout estabilizar
         syncLeftToPedidosHeight();
+        syncNotesToPedidosHeight();
+        initAutoScrollTV();
       }, 350);
 
-      window.addEventListener('resize', () => syncLeftToPedidosHeight());
+      window.addEventListener('resize', () => {
+        syncLeftToPedidosHeight();
+        syncNotesToPedidosHeight();
+      });
     }
 
     load().catch(err => {
