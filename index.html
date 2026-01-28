@@ -21,7 +21,22 @@
 
       --ink:#0b1b3a;
 
-      --topRowH: 400px;
+      --topRowMinH: 360px;
+
+      /* Destaques pedidos */
+      --mustard:#D4A017;         /* mostarda */
+      --totalGreen:#22c55e;      /* verde vivo */
+      --blinkYellow:#FFE731;     /* rgb(255,231,49) */
+
+      /* Gestão de pedidos (refino TV) */
+      --icon: rgba(11,27,58,.72);
+      --dividerStrong: rgba(11,27,58,.22);
+
+      /* Badge staleness */
+      --staleWarnBg: rgba(245,158,11,.22);
+      --staleWarnBd: rgba(245,158,11,.45);
+      --staleBadBg:  rgba(239,68,68,.22);
+      --staleBadBd:  rgba(239,68,68,.45);
     }
 
     *{ box-sizing:border-box; }
@@ -45,6 +60,7 @@
     .rightHead{
       display:flex; gap:10px; align-items:center; flex-wrap:wrap; justify-content:flex-end;
     }
+
     .updated{
       color:var(--muted);
       font-size:13px;
@@ -54,7 +70,19 @@
       background: rgba(255,255,255,.04);
       backdrop-filter: blur(8px);
       white-space:nowrap;
+      transition: background .2s ease, border-color .2s ease, color .2s ease;
     }
+    .updated.stale-warn{
+      background: var(--staleWarnBg);
+      border-color: var(--staleWarnBd);
+      color: rgba(233,236,245,.92);
+    }
+    .updated.stale-bad{
+      background: var(--staleBadBg);
+      border-color: var(--staleBadBd);
+      color: rgba(233,236,245,.92);
+    }
+
     .filter{
       display:flex; align-items:center; gap:8px;
       padding:8px 10px;
@@ -79,24 +107,28 @@
       display:grid;
       grid-template-columns: 1fr 1fr;
       gap: 14px;
-      align-items: stretch;
+      align-items: start;
     }
 
-    .hero{
+    .leftCol{
+      display:flex;
+      flex-direction:column;
+      gap: 14px;
+      height: auto;
+    }
+
+    .cardsBox{
       border-radius: var(--radius);
       background: rgba(255,255,255,.92);
       border:1px solid rgba(255,255,255,.35);
       box-shadow: var(--shadow);
       padding: 16px 16px;
-      display:flex;
-      flex-direction:column;
-      gap: 12px;
-      overflow:hidden;
       position:relative;
       color: var(--ink);
-      height: auto;
+      overflow:hidden;
+      flex: 0 0 auto;
     }
-    .hero::before{
+    .cardsBox::before{
       content:"";
       position:absolute; inset:-80px -120px auto auto;
       width: 360px; height: 360px;
@@ -113,15 +145,14 @@
       grid-template-columns: repeat(3, minmax(0, 1fr));
       gap: 10px;
       width: 100%;
-      flex: 0 0 auto;
     }
     .miniKpi{
       border-radius: 14px;
       border: 1px solid rgba(11,27,58,.10);
       background: rgba(255,255,255,.85);
-      padding: 9px 10px;             /* ✅ levemente menor */
+      padding: 9px 10px;
       box-shadow: 0 10px 24px rgba(0,0,0,.10);
-      min-height: 60px;               /* ✅ -~15% */
+      min-height: 62px;
       display:flex;
       flex-direction:column;
       justify-content:center;
@@ -137,20 +168,19 @@
     .miniKpi .v{
       margin-top: 5px;
       font-weight: 900;
-      font-size: clamp(20px, 2.0vw, 32px);
+      font-size: clamp(21px, 2.1vw, 33px);
       line-height: 1.05;
       color: var(--ink);
       white-space:nowrap;
     }
 
     .panel{
-      background: rgba(255,255,255,.06);
-      border: 1px solid rgba(255,255,255,.10);
       border-radius: var(--radius);
       box-shadow: var(--shadow);
       overflow:hidden;
       display:flex;
       flex-direction:column;
+      min-height: var(--topRowMinH);
     }
     .panel .ph{
       padding: 14px 14px;
@@ -158,18 +188,29 @@
       align-items:center;
       justify-content:space-between;
       gap:10px;
-      border-bottom:1px solid rgba(255,255,255,.10);
-      background: rgba(0,0,0,.14);
+      border-bottom:1px solid rgba(11,27,58,.10);
+      background: rgba(255,255,255,.70);
       flex: 0 0 auto;
     }
     .ph .ttl{ font-weight:800; display:flex; align-items:center; gap:10px; }
 
+    .badge{
+      font-size:12px;
+      padding: 6px 10px;
+      border-radius:999px;
+      border: 1px solid rgba(11,27,58,.12);
+      background: rgba(11,27,58,.06);
+      color: rgba(11,27,58,.82);
+      white-space:nowrap;
+    }
+
     table{ width:100%; border-collapse:collapse; }
     th, td{
       padding: 10px 12px;
-      border-bottom: 1px solid rgba(255,255,255,.08);
+      border-bottom: 1px solid rgba(11,27,58,.10);
       vertical-align:middle;
       font-size:13px;
+      color: var(--ink);
     }
 
     .scroll{
@@ -177,8 +218,116 @@
       position: relative;
       background: rgba(0,0,0,.04);
       flex: 1 1 auto;
+      min-height: 0;
     }
-    thead th{
+
+    .panelLight{
+      background: rgba(255,255,255,.92);
+      border:1px solid rgba(255,255,255,.35);
+      color: var(--ink);
+    }
+    .panelLight .ph{
+      background: rgba(255,255,255,.70);
+      border-bottom: 1px solid rgba(11,27,58,.10);
+    }
+
+    /* Cabeçalho dos pedidos: azul escuro igual fundo do site */
+    .tblPedidos thead th{
+      position: sticky;
+      top: 0;
+      z-index: 5;
+      background: var(--bg);
+      color: rgba(233,236,245,.95);
+      text-transform:uppercase;
+      letter-spacing:.35px;
+      font-size:11px;
+      border-bottom: 1px solid rgba(255,255,255,.12);
+    }
+
+    /* ======== GESTÃO DE PEDIDOS (REFINOS TV) ======== */
+    .tblPedidos td:nth-child(2),
+    .tblPedidos td:nth-child(3),
+    .tblPedidos thead th:nth-child(2),
+    .tblPedidos thead th:nth-child(3){
+      text-align: right;
+    }
+    .tblPedidos td:nth-child(2){ font-weight: 500; }
+    .tblPedidos td:nth-child(3){ font-weight: 650; }
+
+    .pedidoCell{
+      display:flex;
+      align-items:center;
+      gap:10px;
+    }
+    .pedidoIcon{
+      width:16px;
+      height:16px;
+      flex: 0 0 16px;
+      color: var(--icon);
+    }
+    .pedidoText{
+      font-weight: 800;
+      letter-spacing:.1px;
+    }
+
+    .rowFaturado{
+      background: color-mix(in srgb, var(--mustard) 35%, transparent);
+    }
+
+    .rowTotalGreen{
+      background: color-mix(in srgb, var(--totalGreen) 35%, transparent);
+      font-weight: 950;
+    }
+    .rowTotalGreen td{
+      padding-top: 14px;
+      padding-bottom: 14px;
+      border-top: 2px solid var(--dividerStrong);
+    }
+    .rowTotalGreen td:nth-child(3){
+      font-size: 16px;
+      font-weight: 950;
+    }
+    .rowTotalGreen td:nth-child(2){
+      font-weight: 900;
+    }
+
+    @keyframes blinkWarn {
+      0%, 100% { background: transparent; }
+      50% { background: rgba(255,231,49,.45); }
+    }
+    .blinkWarn{ animation: blinkWarn 1.45s ease-in-out infinite; }
+    /* =============================================== */
+
+    /* ===== Transportadores: menos contraste + fonte menor ===== */
+    .panelTranspSoft .scroll{
+      background: rgba(11,27,58,.03);
+    }
+    .panelTranspSoft td, .panelTranspSoft th{
+      font-size: 12px;
+    }
+    .panelTranspSoft th{
+      color: rgba(11,27,58,.70);
+    }
+    .panelTranspSoft td{
+      color: rgba(11,27,58,.90);
+    }
+    /* ========================================================= */
+
+    .panelDark{
+      background: rgba(255,255,255,.06);
+      border: 1px solid rgba(255,255,255,.10);
+      color: var(--text);
+    }
+    .panelDark .ph{
+      background: rgba(0,0,0,.14);
+      border-bottom:1px solid rgba(255,255,255,.10);
+    }
+    .panelDark .badge{
+      border: 1px solid rgba(255,255,255,.14);
+      background: rgba(255,255,255,.06);
+      color: rgba(233,236,245,.92);
+    }
+    .headDark thead th{
       position: sticky;
       top: 0;
       z-index: 5;
@@ -190,8 +339,11 @@
       backdrop-filter: blur(8px);
       border-bottom: 1px solid rgba(255,255,255,.12);
     }
-
-    td .muted{ color: var(--muted); font-size:12px; }
+    .headDark th, .headDark td{
+      border-bottom: 1px solid rgba(255,255,255,.08);
+      color: rgba(233,236,245,.92);
+    }
+    .headDark td .muted{ color: var(--muted); font-size:12px; }
 
     .rowArrived{ background: rgba(245,158,11,.16); }
     .rowLeft{ background: rgba(34,197,94,.18); }
@@ -202,6 +354,7 @@
       grid-template-columns: 1fr 1fr;
       gap: 14px;
       margin-top: 14px;
+      align-items: start;
     }
 
     .foot{
@@ -214,111 +367,86 @@
       flex-wrap:wrap;
     }
 
-    /* ===========================
-       ✅ ALERTA (OVERLAY) + SOM
-       =========================== */
-    .tvAlertOverlay{
-      position: fixed;
-      inset: 0;
-      display: none;
-      align-items: center;
-      justify-content: center;
-      z-index: 9999;
-      background: rgba(0,0,0,.55);
-      backdrop-filter: blur(6px);
-      padding: 18px;
-    }
-    .tvAlertOverlay.show{ display:flex; }
-
-    .tvAlertCard{
-      width: min(1100px, 96vw);
-      border-radius: 22px;
-      box-shadow: 0 18px 60px rgba(0,0,0,.45);
-      overflow:hidden;
-      border: 1px solid rgba(255,255,255,.18);
-      background: rgba(255,255,255,.95);
-      color: #0b1b3a;
-    }
-    .tvAlertHead{
-      display:flex;
-      align-items:center;
-      justify-content:space-between;
-      gap: 10px;
-      padding: 16px 18px;
-      background: #0b1020; /* ✅ azul escuro do fundo */
-      color: #fff;
-    }
-    .tvAlertHead .ttl{
-      font-weight: 950;
-      font-size: 22px;
-      letter-spacing: .2px;
-    }
-    .tvAlertHead .tag{
-      font-size: 12px;
-      font-weight: 800;
-      padding: 6px 10px;
-      border-radius: 999px;
-      background: rgba(255,255,255,.12);
-      border: 1px solid rgba(255,255,255,.18);
-      white-space: nowrap;
-    }
-    .tvAlertBody{
-      padding: 18px 18px 20px;
-      font-size: 18px;
-      line-height: 1.35;
-      font-weight: 650;
-    }
-
-    /* ===========================
-       ✅ BADGE "DADOS ANTIGOS"
-       =========================== */
-    .stale{
-      border-radius:999px;
-      padding:10px 12px;
-      font-size:13px;
-      font-weight: 850;
-      border:1px solid rgba(255,255,255,.10);
-      backdrop-filter: blur(8px);
-      white-space:nowrap;
-    }
-    .stale.ok{
-      color:var(--muted);
-      background: rgba(255,255,255,.04);
-    }
-    .stale.warn{
-      color:#2a2100;
-      background: rgba(255, 231, 49, .92);
-      border-color: rgba(255, 231, 49, .55);
-    }
-    .stale.bad{
-      color:#fff;
-      background: rgba(239, 68, 68, .92);
-      border-color: rgba(239, 68, 68, .55);
-    }
-
     @media (max-width: 1200px){
       .topRow{ grid-template-columns: 1fr; }
       .miniKpis{ grid-template-columns: 1fr; }
+      .leftCol{ height:auto !important; }
     }
     @media (max-width: 980px){
       .grid2{ grid-template-columns: 1fr; }
       h1{ font-size:30px; }
     }
+
+    /* ================= TV ALERT OVERLAY ================= */
+    .tvAlertOverlay{
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 28px;
+      background: rgba(11,16,32,.86);
+      backdrop-filter: blur(8px);
+    }
+
+    .tvAlertCard{
+      width: min(980px, 92vw);
+      border-radius: 22px;
+      box-shadow: 0 20px 60px rgba(0,0,0,.45);
+      border: 1px solid rgba(255,255,255,.14);
+      background: rgba(255,255,255,.94);
+      color: #0b1b3a;
+      overflow: hidden;
+    }
+
+    .tvAlertTop{
+      display:flex;
+      align-items:center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 14px 16px;
+      background: rgba(239,68,68,.12);
+      border-bottom: 1px solid rgba(11,27,58,.12);
+    }
+
+    .tvAlertTitle{
+      font-weight: 950;
+      font-size: 18px;
+      letter-spacing: .2px;
+      text-transform: uppercase;
+    }
+
+    .tvAlertBadge{
+      font-size: 12px;
+      font-weight: 800;
+      padding: 8px 10px;
+      border-radius: 999px;
+      border: 1px solid rgba(239,68,68,.35);
+      background: rgba(239,68,68,.14);
+      white-space: nowrap;
+    }
+
+    .tvAlertBody{
+      padding: 18px 18px 16px;
+    }
+
+    .tvAlertMsg{
+      font-size: clamp(18px, 2.2vw, 26px);
+      line-height: 1.25;
+      font-weight: 800;
+    }
+
+    .tvAlertSub{
+      margin-top: 10px;
+      color: rgba(11,27,58,.72);
+      font-size: 13px;
+    }
+    /* ==================================================== */
   </style>
 </head>
 
 <body>
-  <!-- ✅ Overlay do alerta -->
-  <div class="tvAlertOverlay" id="tvAlertOverlay" aria-hidden="true">
-    <div class="tvAlertCard" role="dialog" aria-modal="true">
-      <div class="tvAlertHead">
-        <div class="ttl" id="tvAlertTitle">Atenção</div>
-        <div class="tag" id="tvAlertTimer">Mensagem</div>
-      </div>
-      <div class="tvAlertBody" id="tvAlertMessage"></div>
-    </div>
-  </div>
-
   <div class="wrap">
     <header>
       <div>
@@ -332,39 +460,36 @@
             <option value="__ALL__">Todos</option>
           </select>
         </div>
-
-        <!-- ✅ badge de dados antigos -->
-        <div class="stale ok" id="staleBadge">Dados OK</div>
-
         <div class="updated" id="updatedAt">Atualizado em: --/--/----</div>
       </div>
     </header>
 
     <section class="topRow">
-      <section class="hero">
-        <div class="miniKpis" aria-label="KPIs do dia">
-          <div class="miniKpi">
-            <div class="t">Notas em Atraso</div>
-            <div class="v" id="kpiAtraso">—</div>
-          </div>
-          <div class="miniKpi">
-            <div class="t">Previstas para Hoje</div>
-            <div class="v" id="kpiPrevistasHoje">—</div>
-          </div>
-          <div class="miniKpi">
-            <div class="t">Entregas Realizadas Hoje</div>
-            <div class="v" id="kpiEntreguesHoje">—</div>
+      <div class="leftCol" id="leftCol">
+        <div class="cardsBox" id="cardsBox">
+          <div class="miniKpis" aria-label="KPIs do dia">
+            <div class="miniKpi">
+              <div class="t">Notas em Atraso</div>
+              <div class="v" id="kpiAtraso">—</div>
+            </div>
+            <div class="miniKpi">
+              <div class="t">Previstas para Hoje</div>
+              <div class="v" id="kpiPrevistasHoje">—</div>
+            </div>
+            <div class="miniKpi">
+              <div class="t">Entregas Realizadas Hoje</div>
+              <div class="v" id="kpiEntreguesHoje">—</div>
+            </div>
           </div>
         </div>
 
-        <!-- Transportadores (fica abaixo) -->
-        <div class="panel" style="height:auto; margin-top:12px;">
+        <div class="panel panelLight panelTranspSoft" id="panelTransp" style="min-height: 0; flex: 1 1 auto;">
           <div class="ph">
             <div class="ttl">Status de Coleta Transportadores</div>
             <div class="badge" id="transpCount">— itens</div>
           </div>
 
-          <div class="scroll" id="scrollTransp" style="max-height: 360px;">
+          <div class="scroll" id="scrollTransp">
             <table>
               <thead>
                 <tr>
@@ -378,23 +503,21 @@
             </table>
           </div>
         </div>
-      </section>
+      </div>
 
-      <!-- Gestão de Pedidos -->
-      <div class="panel" style="background: rgba(255,255,255,.92); color:#0b1b3a;">
-        <div class="ph" style="background: rgba(11,16,32,1);">
-          <div class="ttl" style="color:#fff;">Gestão de Pedidos</div>
+      <div class="panel panelLight" id="panelPedidos">
+        <div class="ph">
+          <div class="ttl">Gestão de Pedidos</div>
           <div class="badge" id="pedidosCount">— itens</div>
         </div>
 
-        <!-- Sem scroll -->
-        <div style="background: rgba(255,255,255,.96);">
-          <table>
+        <div style="flex:1 1 auto;">
+          <table class="tblPedidos">
             <thead>
               <tr>
-                <th style="background:#0b1020; color:#fff;">Pedidos</th>
-                <th style="background:#0b1020; color:#fff; text-align:right;">Quantidade</th>
-                <th style="background:#0b1020; color:#fff; text-align:right;">Valor</th>
+                <th>Pedidos</th>
+                <th>Quantidade</th>
+                <th>Valor</th>
               </tr>
             </thead>
             <tbody id="tbodyPedidos"></tbody>
@@ -404,12 +527,12 @@
     </section>
 
     <section class="grid2">
-      <div class="panel" style="height:auto;">
+      <div class="panel panelDark" id="panelAtraso">
         <div class="ph">
           <div class="ttl">Notas em Atraso</div>
           <div class="badge" id="atrasoCount">— itens</div>
         </div>
-        <div class="scroll" id="scrollAtraso" style="max-height: 520px;">
+        <div class="scroll headDark" id="scrollAtraso">
           <table>
             <thead>
               <tr>
@@ -426,12 +549,12 @@
         </div>
       </div>
 
-      <div class="panel" style="height:auto;">
+      <div class="panel panelDark" id="panelHoje">
         <div class="ph">
           <div class="ttl">Notas Previstas para Hoje</div>
           <div class="badge" id="hojeCount">— itens</div>
         </div>
-        <div class="scroll" id="scrollHoje" style="max-height: 520px;">
+        <div class="scroll headDark" id="scrollHoje">
           <table>
             <thead>
               <tr>
@@ -454,6 +577,20 @@
     </div>
   </div>
 
+  <!-- TV Alert Overlay (aparece apenas se tv_alert.enabled === true) -->
+  <div class="tvAlertOverlay" id="tvAlertOverlay" aria-live="assertive" aria-atomic="true">
+    <div class="tvAlertCard">
+      <div class="tvAlertTop">
+        <div class="tvAlertTitle" id="tvAlertTitle">Atenção</div>
+        <div class="tvAlertBadge" id="tvAlertTimer">20s</div>
+      </div>
+      <div class="tvAlertBody">
+        <div class="tvAlertMsg" id="tvAlertMsg">—</div>
+        <div class="tvAlertSub">Mensagem operacional • Some automaticamente</div>
+      </div>
+    </div>
+  </div>
+
   <script>
     const fmtBRL = new Intl.NumberFormat('pt-BR', { style:'currency', currency:'BRL' });
 
@@ -465,6 +602,91 @@
       const [HH, MM] = timePart.split(":").map(Number);
       return new Date(yyyy, (mm || 1)-1, dd || 1, HH || 0, MM || 0, 0, 0);
     }
+
+    function formatUpdatedAtToBadge(data){
+      const el = document.getElementById('updatedAt');
+      if (!el) return;
+
+      el.classList.remove('stale-warn','stale-bad');
+      el.textContent = 'Atualizado em: ' + (data.updated_at || '--/--/----');
+
+      const updated = parseUpdatedDate(data.updated_at);
+      const diffMs = Date.now() - updated.getTime();
+      if (!Number.isFinite(diffMs)) return;
+
+      const diffMin = Math.floor(diffMs / 60000);
+
+      if (diffMin > 120){
+        el.classList.add('stale-bad');
+      } else if (diffMin > 60){
+        el.classList.add('stale-warn');
+      }
+    }
+
+    function parseISODateSafe(iso){
+      const t = Date.parse(String(iso || ''));
+      return Number.isFinite(t) ? t : NaN;
+    }
+
+    function isExpired(createdAtISO, ttlMinutes){
+      const createdMs = parseISODateSafe(createdAtISO);
+      if (!Number.isFinite(createdMs)) return false;
+      const ttl = Number(ttlMinutes) || 0;
+      if (ttl <= 0) return false;
+      return (Date.now() - createdMs) > (ttl * 60 * 1000);
+    }
+
+    /* =================== TV ALERT (CONTROLADO PELO data.json) =================== */
+    const TV_ALERT_STORAGE_KEY = "last_tv_alert_id_v1";
+
+    function showTvAlert(alertObj){
+      const overlay = document.getElementById('tvAlertOverlay');
+      const titleEl = document.getElementById('tvAlertTitle');
+      const msgEl   = document.getElementById('tvAlertMsg');
+      const timerEl = document.getElementById('tvAlertTimer');
+      if (!overlay || !titleEl || !msgEl || !timerEl) return;
+
+      const title = String(alertObj.title || 'Atenção').trim();
+      const msg   = String(alertObj.message || '').trim();
+      const secs  = Math.max(5, Math.min(60, Number(alertObj.duration_seconds) || 20));
+
+      titleEl.textContent = title;
+      msgEl.textContent = msg;
+
+      overlay.style.display = 'flex';
+
+      let remaining = secs;
+      timerEl.textContent = `${remaining}s`;
+
+      const t = setInterval(() => {
+        remaining -= 1;
+        timerEl.textContent = `${Math.max(0, remaining)}s`;
+        if (remaining <= 0){
+          clearInterval(t);
+          overlay.style.display = 'none';
+        }
+      }, 1000);
+    }
+
+    function tryShowTvAlert(data){
+      const a = data?.tv_alert;
+      if (!a || a.enabled !== true) return;
+
+      const id = String(a.id || '').trim();
+      const msg = String(a.message || '').trim();
+      if (!id || !msg) return;
+
+      if (isExpired(a.created_at, a.ttl_minutes)) return;
+
+      // Mostra 1x por refresh (volta no próximo refresh/F5),
+      // ou se mudar o id.
+      const lastId = sessionStorage.getItem(TV_ALERT_STORAGE_KEY);
+      if (lastId === id) return;
+
+      sessionStorage.setItem(TV_ALERT_STORAGE_KEY, id);
+      showTvAlert(a);
+    }
+    /* =========================================================================== */
 
     function isoToBR(iso){
       const [y,m,d] = String(iso || '').split("-").map(Number);
@@ -505,146 +727,49 @@
       }
     }
 
-    /* ===========================
-       ✅ ALERTA: VISUAL + SOM
-       (som toca TODA vez que aparecer)
-       =========================== */
+    function parseBRLValue(v){
+      if (typeof v === 'number' && Number.isFinite(v)) return v;
 
-    function parseISODateSafe(iso){
-      const t = Date.parse(String(iso || ''));
-      return Number.isFinite(t) ? t : NaN;
+      const s = String(v ?? '').trim();
+      if (!s) return 0;
+
+      const cleaned = s
+        .replace(/\s+/g,' ')
+        .replace(/R\$\s?/i,'')
+        .replace(/\./g,'')
+        .replace(',','.');
+
+      const n = Number(cleaned);
+      return Number.isFinite(n) ? n : 0;
     }
 
-    function isExpired(createdAtISO, ttlMinutes){
-      const createdMs = parseISODateSafe(createdAtISO);
-      if (!Number.isFinite(createdMs)) return false;
-      const ttl = Number(ttlMinutes) || 0;
-      if (ttl <= 0) return false; // ttl 0 => não expira
-      return (Date.now() - createdMs) > (ttl * 60 * 1000);
-    }
+    function svgIcon(kind){
+      const common = 'xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"';
 
-    function playAlertTone(){
-      // Bip curto e corporativo: 2 tons rápidos
-      try{
-        const AudioContext = window.AudioContext || window.webkitAudioContext;
-        if (!AudioContext) return;
-
-        const ctx = new AudioContext();
-        const now = ctx.currentTime;
-
-        const gain = ctx.createGain();
-        gain.gain.setValueAtTime(0.0001, now);
-        gain.connect(ctx.destination);
-
-        const beep = (freq, start, dur) => {
-          const osc = ctx.createOscillator();
-          osc.type = 'sine';
-          osc.frequency.setValueAtTime(freq, start);
-          osc.connect(gain);
-
-          // envelope suave (evita "click")
-          gain.gain.setValueAtTime(0.0001, start);
-          gain.gain.exponentialRampToValueAtTime(0.12, start + 0.02);
-          gain.gain.exponentialRampToValueAtTime(0.0001, start + dur);
-
-          osc.start(start);
-          osc.stop(start + dur + 0.01);
-        };
-
-        beep(880, now + 0.00, 0.22);
-        beep(660, now + 0.28, 0.22);
-
-        // fecha o contexto depois
-        setTimeout(() => { try{ ctx.close(); }catch(e){} }, 900);
-      }catch(e){
-        // Se o browser bloquear autoplay, apenas ignora
-        console.warn('Áudio bloqueado ou indisponível:', e);
+      if (kind === 'cart') {
+        return `<svg ${common}><circle cx="9" cy="20" r="1"/><circle cx="17" cy="20" r="1"/><path d="M3 4h2l2.2 10.5a2 2 0 0 0 2 1.5h7.6a2 2 0 0 0 2-1.6L21 8H6"/></svg>`;
       }
-    }
-
-    function showTvAlert(tvAlert){
-      const overlay = document.getElementById('tvAlertOverlay');
-      const titleEl = document.getElementById('tvAlertTitle');
-      const msgEl   = document.getElementById('tvAlertMessage');
-      const timerEl = document.getElementById('tvAlertTimer');
-
-      if (!overlay || !titleEl || !msgEl || !timerEl) return;
-
-      const title = String(tvAlert.title || 'Atenção').trim();
-      const msg   = String(tvAlert.message || '').trim();
-      const seconds = Math.max(5, Number(tvAlert.duration_seconds || 20) || 20);
-
-      titleEl.textContent = title;
-      msgEl.textContent = msg;
-
-      overlay.classList.add('show');
-      overlay.setAttribute('aria-hidden', 'false');
-
-      // ✅ SOM SEMPRE QUE EXIBIR (a cada refresh)
-      playAlertTone();
-
-      // contador simples no tag
-      let left = seconds;
-      timerEl.textContent = `Exibindo: ${left}s`;
-      const t = setInterval(() => {
-        left -= 1;
-        if (left <= 0){
-          clearInterval(t);
-          overlay.classList.remove('show');
-          overlay.setAttribute('aria-hidden', 'true');
-          return;
-        }
-        timerEl.textContent = `Exibindo: ${left}s`;
-      }, 1000);
-    }
-
-    function maybeShowTvAlert(data){
-      const tvAlert = data?.tv_alert;
-      if (!tvAlert || tvAlert.enabled !== true) return;
-
-      const msg = String(tvAlert.message || '').trim();
-      if (!msg) return;
-
-      if (isExpired(tvAlert.created_at, tvAlert.ttl_minutes)) return;
-
-      showTvAlert(tvAlert);
-    }
-
-    /* ===========================
-       ✅ INDICADOR DE DADOS ANTIGOS
-       > 60 min => amarelo
-       > 120 min => vermelho
-       =========================== */
-    function setStaleBadge(updatedAtStr){
-      const badge = document.getElementById('staleBadge');
-      if (!badge) return;
-
-      const updated = parseUpdatedDate(updatedAtStr);
-      const diffMin = Math.floor((Date.now() - updated.getTime()) / 60000);
-
-      if (!Number.isFinite(diffMin)){
-        badge.className = 'stale warn';
-        badge.textContent = 'Dados: inválidos';
-        return;
+      if (kind === 'stop') {
+        return `<svg ${common}><path d="M7 3h10l4 4v10l-4 4H7l-4-4V7z"/><path d="M9 9l6 6"/><path d="M15 9l-6 6"/></svg>`;
       }
-
-      if (diffMin > 120){
-        badge.className = 'stale bad';
-        badge.textContent = `Dados antigos: ${diffMin} min`;
-      } else if (diffMin > 60){
-        badge.className = 'stale warn';
-        badge.textContent = `Dados antigos: ${diffMin} min`;
-      } else {
-        badge.className = 'stale ok';
-        badge.textContent = 'Dados OK';
+      if (kind === 'doc') {
+        return `<svg ${common}><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M8 13h8"/><path d="M8 17h8"/></svg>`;
       }
+      if (kind === 'hourglass') {
+        return `<svg ${common}><path d="M6 2h12"/><path d="M6 22h12"/><path d="M8 2c0 6 8 6 8 12"/><path d="M16 2c0 6-8 6-8 12"/></svg>`;
+      }
+      return `<svg ${common}><path d="M20.6 13.4 12 22l-10-10V2h10z"/><path d="M7 7h.01"/></svg>`;
     }
 
-    /* ===========================
-       ✅ Transportadores
-       - fonte menor
-       - fundo menos contrastado
-       =========================== */
+    function iconKindForStatus(status){
+      const s = String(status || '').toLowerCase();
+      if (s.includes('ecommerce') || s.includes('e-commerce')) return 'cart';
+      if (s.includes('bloque')) return 'stop';
+      if (s.includes('fatur')) return 'doc';
+      if (s.includes('análise de crédito') || s.includes('analise de credito')) return 'hourglass';
+      return 'tag';
+    }
+
     function renderTransportadores(data){
       const list = Array.isArray(data.transportadores) ? data.transportadores : [];
       const body = document.getElementById('tbodyTransp');
@@ -665,47 +790,13 @@
         const tr = document.createElement('tr');
         tr.className = cls;
         tr.innerHTML = `
-          <td style="font-size:12px;"><strong>${nome || '—'}</strong></td>
-          <td style="font-size:12px;">${chegada || '—'}</td>
-          <td style="font-size:12px;">${saida || '—'}</td>
-          <td style="font-size:12px;">${agendado || '—'}</td>
+          <td><strong>${nome || '—'}</strong></td>
+          <td>${chegada || '—'}</td>
+          <td>${saida || '—'}</td>
+          <td>${agendado || '—'}</td>
         `;
         body.appendChild(tr);
       }
-
-      // fundo mais neutro do scroll
-      const sc = document.getElementById('scrollTransp');
-      if (sc) sc.style.background = 'rgba(0,0,0,.02)';
-    }
-
-    /* ===========================
-       ✅ Gestão de Pedidos (peso no valor + alinhamentos)
-       =========================== */
-    function parseBRLToNumber(vRaw){
-      const s = String(vRaw ?? '').trim();
-      if (!s) return 0;
-
-      // se vier "R$ 1.115.566,44"
-      const cleaned = s
-        .replace(/\s/g,'')
-        .replace('R$','')
-        .replace(/\./g,'')
-        .replace(',','.');
-
-      const n = Number(cleaned);
-      return Number.isFinite(n) ? n : 0;
-    }
-
-    function iconForStatus(status){
-      const s = String(status || '').toLowerCase();
-      if (s.includes('ecommerce')) return '🛒';
-      if (s.includes('bloqueado')) return '🛑';
-      if (s.includes('faturado')) return '🧾';
-      if (s.includes('crédito')) return '⏳';
-      if (s.includes('alvar')) return '⏳';
-      if (s.includes('separ')) return '📦';
-      if (s.includes('libera')) return '⏱️';
-      return '•';
     }
 
     function renderPedidos(data){
@@ -726,55 +817,33 @@
         const status = (it.status ?? it.pedidos ?? '').toString().trim() || '—';
         const qtd = Number(it.quantidade ?? it.qtd ?? 0) || 0;
 
-        const valorNum = parseBRLToNumber(it.valor);
-        const isTotal = status.toLowerCase() === 'total';
-        const isFaturado = status.toLowerCase() === 'faturado';
-        const isBlink = /crédito|alvar/i.test(status);
+        const valorNum = parseBRLValue(it.valor);
+        const key = status.toLowerCase();
+
+        const isTotal = key === 'total';
+        const isFaturado = key === 'faturado';
+        const isBlink = (key === 'análise de crédito' || key === 'analise de credito' || key === 'alvará sanitário' || key === 'alvara sanitario');
 
         const tr = document.createElement('tr');
+        if (isTotal) tr.classList.add('rowTotalGreen');
+        else if (isFaturado) tr.classList.add('rowFaturado');
+        if (isBlink) tr.classList.add('blinkWarn');
 
-        // estilo por linha
-        if (isTotal){
-          tr.style.background = 'rgba(34,197,94,.35)';
-          tr.style.borderTop = '2px solid rgba(11,16,32,.35)';
-        } else if (isFaturado){
-          tr.style.background = 'rgba(245,158,11,.35)'; // mostarda
-        }
-
-        // pisca mais lento e corporativo (menos agressivo)
-        if (isBlink){
-          tr.style.animation = 'blinkCorp 2.8s ease-in-out infinite';
-        }
-
-        const icon = iconForStatus(status);
+        const iconKind = iconKindForStatus(status);
 
         tr.innerHTML = `
-          <td style="font-weight:800;">${icon} ${status}</td>
-          <td style="text-align:right; font-weight:${isTotal ? 950 : 650};">${qtd.toLocaleString('pt-BR')}</td>
-          <td style="text-align:right; font-weight:${isTotal ? 950 : 850}; font-size:${isTotal ? '16px' : '13px'};">
-            ${fmtBRL.format(valorNum)}
+          <td>
+            <div class="pedidoCell">
+              <span class="pedidoIcon">${svgIcon(iconKind)}</span>
+              <span class="pedidoText">${status}</span>
+            </div>
           </td>
+          <td>${qtd.toLocaleString('pt-BR')}</td>
+          <td>${isTotal ? `<strong>${fmtBRL.format(valorNum)}</strong>` : fmtBRL.format(valorNum)}</td>
         `;
-
-        if (isTotal){
-          tr.querySelector('td:last-child').style.fontSize = '18px';
-          tr.querySelectorAll('td').forEach(td => td.style.paddingTop = '12px');
-          tr.querySelectorAll('td').forEach(td => td.style.paddingBottom = '12px');
-        }
-
         body.appendChild(tr);
       }
     }
-
-    // animação corporativa (lenta, leve, sem “piscão”)
-    const style = document.createElement('style');
-    style.textContent = `
-      @keyframes blinkCorp{
-        0%, 100% { background-color: rgba(255, 231, 49, .00); }
-        50%      { background-color: rgba(255, 231, 49, .22); }
-      }
-    `;
-    document.head.appendChild(style);
 
     function renderTables(data, carrier){
       const now = parseUpdatedDate(data.updated_at);
@@ -796,6 +865,7 @@
         const prev = new Date(String(it.previsao_entrega) + "T00:00:00");
         const lateDays = Math.max(0, daysDiff(now, prev));
         const pillClass = lateDays >= 10 ? 'pill bad' : (lateDays >= 5 ? 'pill' : 'pill good');
+
         const ocorr = (it.ocorrencia && String(it.ocorrencia).trim()) ? String(it.ocorrencia).trim() : '—';
 
         const tr = document.createElement('tr');
@@ -813,7 +883,7 @@
       const hojeBody = document.getElementById('tbodyHoje');
       hojeBody.innerHTML = '';
 
-      for (const it of hojeList){
+      for (const it of hojeAll){
         const dataEntrega = (it.data_entrega ?? '').toString().trim();
         const tr = document.createElement('tr');
         if (dataEntrega) tr.className = 'rowDelivered';
@@ -829,11 +899,6 @@
       }
     }
 
-    /* ===========================
-       ✅ AutoScroll TV (mais lento)
-       - reduzir velocidade ~30%
-       - aumentar pausa no final
-       =========================== */
     function startAutoScroll(el, opts = {}) {
       if (!el) return;
 
@@ -888,27 +953,72 @@
       return { start, stop };
     }
 
-    function initAutoScroll() {
-      // ✅ ~30% mais lento + pausa maior no final
-      startAutoScroll(document.getElementById('scrollAtraso'), { speedPxPerTick: 0.7, tickMs: 55, pauseAtEndMs: 2400, pauseAtTopMs: 900 });
-      startAutoScroll(document.getElementById('scrollHoje'),   { speedPxPerTick: 0.7, tickMs: 58, pauseAtEndMs: 2400, pauseAtTopMs: 900 });
-      startAutoScroll(document.getElementById('scrollTransp'), { speedPxPerTick: 0.7, tickMs: 60, pauseAtEndMs: 2000, pauseAtTopMs: 900 });
+    function syncLeftToPedidosHeight(){
+      const leftCol = document.getElementById('leftCol');
+      const panelPedidos = document.getElementById('panelPedidos');
+      const cardsBox = document.getElementById('cardsBox');
+      const panelTransp = document.getElementById('panelTransp');
+      const scrollTransp = document.getElementById('scrollTransp');
+      if (!leftCol || !panelPedidos || !cardsBox || !panelTransp || !scrollTransp) return;
+
+      leftCol.style.height = 'auto';
+      panelTransp.style.height = 'auto';
+
+      const pedidosH = panelPedidos.offsetHeight;
+      leftCol.style.height = pedidosH + 'px';
+
+      const gap = 14;
+      const cardsH = cardsBox.offsetHeight;
+      const transpH = Math.max(160, pedidosH - cardsH - gap);
+
+      panelTransp.style.height = transpH + 'px';
+
+      const ph = panelTransp.querySelector('.ph');
+      const phH = ph ? ph.offsetHeight : 56;
+      scrollTransp.style.maxHeight = (transpH - phH) + 'px';
+    }
+
+    function syncNotesToPedidosHeight(){
+      const panelPedidos = document.getElementById('panelPedidos');
+      const panelAtraso = document.getElementById('panelAtraso');
+      const panelHoje = document.getElementById('panelHoje');
+      const scrollAtraso = document.getElementById('scrollAtraso');
+      const scrollHoje = document.getElementById('scrollHoje');
+
+      if (!panelPedidos || !panelAtraso || !panelHoje || !scrollAtraso || !scrollHoje) return;
+
+      const h = panelPedidos.offsetHeight;
+
+      panelAtraso.style.height = h + 'px';
+      panelHoje.style.height = h + 'px';
+
+      const phA = panelAtraso.querySelector('.ph');
+      const phH_A = phA ? phA.offsetHeight : 56;
+      scrollAtraso.style.maxHeight = (h - phH_A) + 'px';
+
+      const phB = panelHoje.querySelector('.ph');
+      const phH_B = phB ? phB.offsetHeight : 56;
+      scrollHoje.style.maxHeight = (h - phH_B) + 'px';
+    }
+
+    function initAutoScrollTV() {
+      startAutoScroll(document.getElementById('scrollAtraso'), { speedPxPerTick: 1, tickMs: 92, pauseAtEndMs: 2400, pauseAtTopMs: 900 });
+      startAutoScroll(document.getElementById('scrollHoje'),   { speedPxPerTick: 1, tickMs: 92, pauseAtEndMs: 2400, pauseAtTopMs: 900 });
+      startAutoScroll(document.getElementById('scrollTransp'), { speedPxPerTick: 1, tickMs: 95, pauseAtEndMs: 2200, pauseAtTopMs: 900 });
     }
 
     async function load(){
       const res = await fetch(`data.json?t=${Date.now()}`, { cache: 'no-store' });
       const data = await res.json();
 
-      // ✅ alerta (visual + som a cada refresh)
-      maybeShowTvAlert(data);
+      formatUpdatedAtToBadge(data);
 
-      document.getElementById('updatedAt').textContent = 'Atualizado em: ' + data.updated_at;
-      setStaleBadge(data.updated_at);
+      // ✅ Mostra o alerta APENAS se tv_alert.enabled === true
+      tryShowTvAlert(data);
 
-      // KPIs (3 cards)
-      document.getElementById('kpiAtraso').textContent = Number(data.kpis?.notas_em_atraso || 0).toLocaleString('pt-BR');
-      document.getElementById('kpiPrevistasHoje').textContent = Number(data.kpis?.previstas_para_hoje || 0).toLocaleString('pt-BR');
-      document.getElementById('kpiEntreguesHoje').textContent = Number(data.kpis?.entregues_hoje || 0).toLocaleString('pt-BR');
+      document.getElementById('kpiAtraso').textContent = Number(data.kpis.notas_em_atraso || 0).toLocaleString('pt-BR');
+      document.getElementById('kpiPrevistasHoje').textContent = Number(data.kpis.previstas_para_hoje || 0).toLocaleString('pt-BR');
+      document.getElementById('kpiEntreguesHoje').textContent = Number(data.kpis.entregues_hoje || 0).toLocaleString('pt-BR');
 
       buildCarrierOptions(data);
 
@@ -925,7 +1035,20 @@
       });
 
       render();
-      setTimeout(initAutoScroll, 350);
+
+      syncLeftToPedidosHeight();
+      syncNotesToPedidosHeight();
+
+      setTimeout(() => {
+        syncLeftToPedidosHeight();
+        syncNotesToPedidosHeight();
+        initAutoScrollTV();
+      }, 350);
+
+      window.addEventListener('resize', () => {
+        syncLeftToPedidosHeight();
+        syncNotesToPedidosHeight();
+      });
     }
 
     load().catch(err => {
