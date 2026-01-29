@@ -6,16 +6,16 @@
     "entregues_hoje": 3
   },
   "pedidos_status": [
-    { "status": "Ecommerce", "quantidade":0, "valor": "0" },
-    { "status": "Aguardando Liberação", "quantidade":1, "valor": "27560" },
-    { "status": "Alvará Sanitário", "quantidade":4, "valor": "5974,54" },
-    { "status": "Bloqueado por regra", "quantidade":0, "valor": "0" },
-    { "status": "Análise de Crédito", "quantidade":20, "valor": "229387,47" },
-    { "status": "Aguard. Envio Separação", "quantidade":5, "valor": "3818,09" },
-    { "status": "Em Separação", "quantidade":11, "valor": "308642,42" },
-    { "status": "Separado", "quantidade":2, "valor": "9900,64" },
-    { "status": "Faturado", "quantidade":45, "valor": "261618,06" },
-    { "status": "Total", "quantidade":88, "valor": "846901,22" },
+    { "status": "Ecommerce","quantidade":0,"valor":"0"},
+    { "status": "Aguardando Liberação","quantidade":1,"valor":"27560"},
+    { "status": "Alvará Sanitário","quantidade":4, "valor":"5974,54"},
+    { "status": "Bloqueado por regra","quantidade":0, "valor":"0"},
+    { "status": "Análise de Crédito","quantidade":20, "valor":"229387,47"},
+    { "status": "Aguard. Envio Separação","quantidade":5, "valor":"3818,09"},
+    { "status": "Em Separação","quantidade":11,"valor":"308642,42"},
+    { "status": "Separado","quantidade":2,"valor":"9900,64"},
+    { "status": "Faturado","quantidade":45,"valor":"261618,06"},
+    { "status": "Total","quantidade":88,"valor":"846901,22"},
 
   ],
   "transportadores": [
@@ -86,5 +86,6 @@
     "ttl_minutes": 720
   }
 }
+
 
 
