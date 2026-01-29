@@ -3,7 +3,7 @@
   "kpis": {
     "notas_em_atraso": 21,
     "previstas_para_hoje": 21,
-    "entregues_hoje": 5
+    "entregues_hoje": 6
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 1, "valor": "27560" },
@@ -86,6 +86,7 @@
     "ttl_minutes": 720
   }
 }
+
 
 
 
