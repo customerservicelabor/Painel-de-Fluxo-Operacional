@@ -1,39 +1,37 @@
 {
-  "updated_at": "29/01/2026 10:40",
+  "updated_at": "29/01/2026 13:20",
   "kpis": {
-    "notas_em_atraso": 23,
+    "notas_em_atraso": 21,
     "previstas_para_hoje": 21,
-    "entregues_hoje": 0
+    "entregues_hoje": 3
   },
   "pedidos_status": [
     { "status": "Ecommerce", "quantidade": 0, "valor": "R$ -" },
-    { "status": "Aguardando Liberação", "quantidade": 2, "valor": "R$ 27.987,50" },
-    { "status": "Alvará Sanitário", "quantidade": 5, "valor": "R$ 26.706,77" },
+    { "status": "Aguardando Liberação", "quantidade": 1, "valor": "R$ 27.560,00" },
+    { "status": "Alvará Sanitário", "quantidade": 4, "valor": "R$ 5.974,54" },
     { "status": "Bloqueado por regra", "quantidade": 0, "valor": "R$ -" },
-    { "status": "Análise de Crédito", "quantidade": 24, "valor": "R$ 434.698,08" },
-    { "status": "Aguard. Envio Separação", "quantidade": 8, "valor": "R$ 105.377,81" },
-    { "status": "Em Separação", "quantidade": 11, "valor": "R$ 138.567,61" },
-    { "status": "Separado", "quantidade": 2, "valor": "R$ 9.900,64" },
-    { "status": "Faturado", "quantidade": 13, "valor": "R$ 45.899,81" },
-    { "status": "Total", "quantidade": 65, "valor": "R$ 789.138,22" }
+    { "status": "Análise de Crédito", "quantidade": 19, "valor": "R$ 228.871,47" },
+    { "status": "Aguard. Envio Separação", "quantidade": 6, "valor": "R$ 45.176,98" },
+    { "status": "Em Separação", "quantidade": 15, "valor": "R$ 327.639,63" },
+    { "status": "Separado", "quantidade": 5, "valor": "R$ 44.159,63" },
+    { "status": "Faturado", "quantidade": 35, "valor": "R$ 161.062,05" },
+    { "status": "Total", "quantidade": 85, "valor": "R$ 840.444,30" }
   ],
   "transportadores": [
-    { "transportador": "Azul", "chegada": "10:30", "saida": "", "agendado": "10:00" },
+    { "transportador": "Azul", "chegada": "10:30", "saida": "11:20", "agendado": "10:00" },
     { "transportador": "Latam", "chegada": "10:00", "saida": "10:50", "agendado": "10:00" },
-    { "transportador": "Azurelog", "chegada": "10:44", "saida": "", "agendado": "10:30" },
+    { "transportador": "Azurelog", "chegada": "10:44", "saida": "11:45", "agendado": "10:30" },
     { "transportador": "Tecmar", "chegada": "", "saida": "", "agendado": "11:00" },
     { "transportador": "Logdi", "chegada": "10:05", "saida": "", "agendado": "11:00" },
     { "transportador": "Translovato", "chegada": "", "saida": "", "agendado": "14:00" },
     { "transportador": "Patrus", "chegada": "", "saida": "", "agendado": "14:30" },
-    { "transportador": "Gran Cargo", "chegada": "", "saida": "", "agendado": "15:00" },
-    { "transportador": "Schreiber", "chegada": "", "saida": "", "agendado": "16:30" },
+    { "transportador": "Gran Cargo", "chegada": "13:00", "saida": "", "agendado": "15:00" },
+    { "transportador": "Schreiber", "chegada": "12:00", "saida": "", "agendado": "16:30" },
     { "transportador": "TGL", "chegada": "", "saida": "", "agendado": "17:00" }
   ],
   "notas_em_atraso": [
     { "nota_fiscal": "199916", "destinatario": "CASTELLI PRODUTOS ODONTOLOGICOS EIRELI", "transportador": "TGL", "previsao_entrega": "2026-01-28", "ocorrencia": "Atrasado" },
-    { "nota_fiscal": "199889", "destinatario": "PREMISSE HOSPITALAR LTDA", "transportador": "TRANSLOVATO", "previsao_entrega": "2026-01-28", "ocorrencia": "Atrasado" },
     { "nota_fiscal": "199599", "destinatario": "JMGOL HOSPITALAR LTDA", "transportador": "PATRUS", "previsao_entrega": "2026-01-28", "ocorrencia": "Atrasado" },
-    { "nota_fiscal": "199589", "destinatario": "LABORATORIO SAO LOURENCO LTDA", "transportador": "TRANSLOVATO", "previsao_entrega": "2026-01-28", "ocorrencia": "Atrasado" },
     { "nota_fiscal": "199577", "destinatario": "LABORATORIO SANTA MONIKA (74028)", "transportador": "PATRUS", "previsao_entrega": "2026-01-27", "ocorrencia": "Atrasado" },
     { "nota_fiscal": "199539", "destinatario": "CIRURGICA PORTO LTDA.", "transportador": "LATAM", "previsao_entrega": "2026-01-27", "ocorrencia": "Atrasado" },
     { "nota_fiscal": "199532", "destinatario": "DIAGNOSTICOS DA AMERICA S.A .", "transportador": "FEDEX", "previsao_entrega": "2026-01-28", "ocorrencia": "Atrasado" },
@@ -55,10 +53,10 @@
     { "nota_fiscal": "198914", "destinatario": "CLASSMED - PRODUTOS HOSPITALARES LT", "transportador": "FEDEX", "previsao_entrega": "2026-01-28", "ocorrencia": "Atrasado" }
   ],
   "notas_previstas_hoje": [
-    { "nota_fiscal": "200162", "destinatario": "MINUZZI & PINTARELLI PRODUTOS MEDICO-HOS", "transportador": "TGL", "cidade_destino": "CURITIBA - PR", "data_entrega": "" },
+    { "nota_fiscal": "200162", "destinatario": "MINUZZI & PINTARELLI PRODUTOS MEDICO-HOS", "transportador": "TGL", "cidade_destino": "CURITIBA - PR", "data_entrega": "29/01/2025" },
     { "nota_fiscal": "200118", "destinatario": "CICLA DIST PROD DIAGNOSTICOS LTDA", "transportador": "TRANSLOVATO", "cidade_destino": "PORTO ALEGRE - RS", "data_entrega": "" },
-    { "nota_fiscal": "200114", "destinatario": "VICTORIA REGIA", "transportador": "TGL", "cidade_destino": "PINHAIS - PR", "data_entrega": "" },
-    { "nota_fiscal": "200076", "destinatario": "CENTRO ULTRASSONOGRAFICO LTDA", "transportador": "SCHREIBER", "cidade_destino": "SAO PAULO - SP", "data_entrega": "" },
+    { "nota_fiscal": "200114", "destinatario": "VICTORIA REGIA", "transportador": "TGL", "cidade_destino": "PINHAIS - PR", "data_entrega": "29/01/2026" },
+    { "nota_fiscal": "200076", "destinatario": "CENTRO ULTRASSONOGRAFICO LTDA", "transportador": "SCHREIBER", "cidade_destino": "SAO PAULO - SP", "data_entrega": "29/01/2026" },
     { "nota_fiscal": "200050", "destinatario": "DENTAL KAMINSKI LTDA", "transportador": "TRANSLOVATO", "cidade_destino": "PELOTAS - RS", "data_entrega": "" },
     { "nota_fiscal": "200041", "destinatario": "LAB OSWALDO CRUZ", "transportador": "TRANSLOVATO", "cidade_destino": "LONDRINA - PR", "data_entrega": "" },
     { "nota_fiscal": "200037", "destinatario": "G W MENON", "transportador": "TRANSLOVATO", "cidade_destino": "GUARAPUAVA - PR", "data_entrega": "" },
@@ -87,3 +85,4 @@
     "ttl_minutes": 720
   }
 }
+
