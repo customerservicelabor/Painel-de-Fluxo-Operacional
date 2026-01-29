@@ -3,7 +3,7 @@
   "kpis": {
     "notas_em_atraso": 21,
     "previstas_para_hoje": 21,
-    "entregues_hoje": 5
+    "entregues_hoje": 6
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 1, "valor": "27560" },
@@ -61,7 +61,7 @@
     { "nota_fiscal": "200076", "destinatario": "CENTRO ULTRASSONOGRAFICO LTDA", "transportador": "SCHREIBER", "cidade_destino": "SAO PAULO - SP", "data_entrega": "29/01/2026" },
     { "nota_fiscal": "200050", "destinatario": "DENTAL KAMINSKI LTDA", "transportador": "TRANSLOVATO", "cidade_destino": "PELOTAS - RS", "data_entrega": "" },
     { "nota_fiscal": "200041", "destinatario": "LAB OSWALDO CRUZ", "transportador": "TRANSLOVATO", "cidade_destino": "LONDRINA - PR", "data_entrega": "" },
-    { "nota_fiscal": "200037", "destinatario": "G W MENON", "transportador": "TRANSLOVATO", "cidade_destino": "GUARAPUAVA - PR", "data_entrega": "" },
+    { "nota_fiscal": "200037", "destinatario": "G W MENON", "transportador": "TRANSLOVATO", "cidade_destino": "GUARAPUAVA - PR", "data_entrega": "29/01/2026" },
     { "nota_fiscal": "200035", "destinatario": "LCCP LABORATORIO ANALISES CLINICAS LTDA", "transportador": "TRANSLOVATO", "cidade_destino": "LONDRINA - PR", "data_entrega": "" },
     { "nota_fiscal": "199985", "destinatario": "LAB MARIALVA ANALISES CLINICAS LTDA", "transportador": "TRANSLOVATO", "cidade_destino": "MARIALVA - PR", "data_entrega": "" },
     { "nota_fiscal": "199949", "destinatario": "CIRURGICA MODERNA LTDA", "transportador": "TRANSLOVATO", "cidade_destino": "JAU - SP", "data_entrega": "" },
@@ -87,6 +87,7 @@
     "ttl_minutes": 720
   }
 }
+
 
 
 
