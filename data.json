@@ -3,7 +3,7 @@
   "kpis": {
     "notas_em_atraso": 21,
     "previstas_para_hoje": 21,
-    "entregues_hoje": 3
+    "entregues_hoje": 4
   },
   "pedidos_status": [
     { "status": "Ecommerce", "quantidade": 0, "valor": "0" },
@@ -89,6 +89,7 @@
     "ttl_minutes": 720
   }
 }
+
 
 
 
