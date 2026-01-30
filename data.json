@@ -1,5 +1,5 @@
 {
-  "updated_at": "30/01/2026 08:18",
+  "updated_at": "30/01/2026 08:24",
   "kpis": {
     "notas_em_atraso": 22,
     "previstas_para_hoje": 21,
@@ -7,7 +7,7 @@
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 0, "valor": "0" },
-    { "status": "Alvará Sanitário", "quantidade": 1, "valor": "2631,60" },
+    { "status": "Alvará Sanitário", "quantidade": 1, "valor": "2631,6" },
     { "status": "Bloqueado por regra", "quantidade": 0, "valor": "0" },
     { "status": "Análise de Crédito", "quantidade": 14, "valor": "201386,25" },
     { "status": "Total em Disputa", "quantidade": 15, "valor": "204017,85" },
@@ -15,7 +15,8 @@
     { "status": "Em Separação", "quantidade": 0, "valor": "0" },
     { "status": "Separado", "quantidade": 0, "valor": "0" },
     { "status": "Faturado", "quantidade": 0, "valor": "0" },
-    { "status": "Total Faturamento Previsto", "quantidade": 3, "valor": "3153,79" }
+    { "status": "Total", "quantidade": 3, "valor": "3153,79" }
+
   ],
   "transportadores": [
     { "transportador": "Azul", "chegada": "", "saida": "", "agendado": "10:00" },
@@ -86,3 +87,4 @@
     "ttl_minutes": 720
   }
 }
+
