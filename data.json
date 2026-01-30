@@ -1,7 +1,7 @@
 {
   "updated_at": "30/01/2026 14:50",
   "kpis": {
-    "notas_em_atraso": 22,
+    "notas_em_atraso": 16,
     "previstas_para_hoje": 21,
     "entregues_hoje": 1
   },
@@ -32,12 +32,8 @@
     { "transportador": "TGL", "chegada": "", "saida": "", "agendado": "17:00" }
   ],
   "notas_em_atraso": [
-    { "nota_fiscal": "200050", "destinatario": "DENTAL KAMINSKI LTDA", "transportador": "TRANSLOVATO", "previsao_entrega": "2026-01-29", "ocorrencia": "Atrasado" },
-    { "nota_fiscal": "200041", "destinatario": "LAB OSWALDO CRUZ", "transportador": "TRANSLOVATO", "previsao_entrega": "2026-01-29", "ocorrencia": "Atrasado" },
     { "nota_fiscal": "200035", "destinatario": "LCCP LABORATORIO ANALISES CLINICAS LTDA", "transportador": "TRANSLOVATO", "previsao_entrega": "2026-01-29", "ocorrencia": "Atrasado" },
-    { "nota_fiscal": "199949", "destinatario": "CIRURGICA MODERNA LTDA", "transportador": "TRANSLOVATO", "previsao_entrega": "2026-01-29", "ocorrencia": "Atrasado" },
     { "nota_fiscal": "199916", "destinatario": "CASTELLI PRODUTOS ODONTOLOGICOS EIRELI", "transportador": "TGL", "previsao_entrega": "2026-01-28", "ocorrencia": "Atrasado" },
-    { "nota_fiscal": "199878", "destinatario": "LABORATORIO ROSETTI LTDA", "transportador": "TGL", "previsao_entrega": "2026-01-29", "ocorrencia": "Atrasado" },
     { "nota_fiscal": "199820", "destinatario": "DIAGNOSTICOS DA AMERICA S.A", "transportador": "PATRUS", "previsao_entrega": "2026-01-29", "ocorrencia": "Atrasado" },
     { "nota_fiscal": "199755", "destinatario": "HOSPITAL DAS CLINICAS DE SAO PAULO", "transportador": "PATRUS", "previsao_entrega": "2026-01-29", "ocorrencia": "Atrasado" },
     { "nota_fiscal": "199599", "destinatario": "JMGOL HOSPITALAR LTDA", "transportador": "PATRUS", "previsao_entrega": "2026-01-28", "ocorrencia": "Atrasado" },
@@ -52,8 +48,6 @@
     { "nota_fiscal": "199126", "destinatario": "MED IMAGEM SC", "transportador": "TECMAR", "previsao_entrega": "2026-01-28", "ocorrencia": "Atrasado" },
     { "nota_fiscal": "199115", "destinatario": "DICOREL DISTRIB MEDICAMENTOS EIRELI", "transportador": "FEDEX", "previsao_entrega": "2026-01-23", "ocorrencia": "Atrasado" },
     { "nota_fiscal": "199098", "destinatario": "LABORATORIO CLEMENTINO FRAGA LTDA", "transportador": "FEDEX", "previsao_entrega": "2026-01-21", "ocorrencia": "Atrasado" },
-    { "nota_fiscal": "198944", "destinatario": "GLOBALMOR COMERCIO DE ARTIGOS HOSPITALARES LTDA", "transportador": "LATAM", "previsao_entrega": "2026-01-21", "ocorrencia": "Atrasado" },
-    { "nota_fiscal": "198914", "destinatario": "CLASSMED - PRODUTOS HOSPITALARES LT", "transportador": "FEDEX", "previsao_entrega": "2026-01-28", "ocorrencia": "Atrasado" }
   ],
   "notas_previstas_hoje": [
     { "nota_fiscal": "200332", "destinatario": "MINUZZI & PINTARELLI PRODUTOS MEDICO-HOS", "transportador": "TGL", "cidade_destino": "CURITIBA - PR", "data_entrega": "" },
@@ -88,6 +82,7 @@
     "ttl_minutes": 720
   }
 }
+
 
 
 
