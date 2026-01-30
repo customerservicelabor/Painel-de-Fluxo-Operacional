@@ -3,7 +3,7 @@
   "kpis": {
     "notas_em_atraso": 22,
     "previstas_para_hoje": 21,
-    "entregues_hoje": 0
+    "entregues_hoje": 1
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 0, "valor": "0" },
@@ -66,7 +66,7 @@
     { "nota_fiscal": "199985", "destinatario": "LAB MARIALVA ANALISES CLINICAS LTDA", "transportador": "TRANSLOVATO", "cidade_destino": "MARIALVA - PR", "data_entrega": "" },
     { "nota_fiscal": "199929", "destinatario": "RUIZ COMERCIO DE EQUIPAMENTOS HOSPITALARES LTDA", "transportador": "TRANSLOVATO", "cidade_destino": "PERUIBE - SP", "data_entrega": "" },
     { "nota_fiscal": "199920", "destinatario": "J.J.COMERCIAL PROD. HOSPITALARES LTDA ME", "transportador": "PATRUS", "cidade_destino": "ARARAQUARA - SP", "data_entrega": "" },
-    { "nota_fiscal": "199808", "destinatario": "TECHMED DISTRIBUIDORA DE PRODUTOS HOSPIT", "transportador": "TRANSLOVATO", "cidade_destino": "ITAPEVA - SP", "data_entrega": "" },
+    { "nota_fiscal": "199808", "destinatario": "TECHMED DISTRIBUIDORA DE PRODUTOS HOSPIT", "transportador": "TRANSLOVATO", "cidade_destino": "ITAPEVA - SP", "data_entrega": "29/01/2026" },
     { "nota_fiscal": "199682", "destinatario": "DU BOM DIST. DE PRODUTOS MEDICO-HOSPITAL", "transportador": "AZURELOG", "cidade_destino": "CAMPO GRANDE - MS", "data_entrega": "" },
     { "nota_fiscal": "199580", "destinatario": "FLEURY S.A.", "transportador": "LOGDI", "cidade_destino": "RECIFE - PE", "data_entrega": "" },
     { "nota_fiscal": "199553", "destinatario": "KG MED PROD HOSP ORTOPEDICOS LTDA", "transportador": "AZURELOG", "cidade_destino": "COSTA RICA - MS", "data_entrega": "" },
@@ -87,5 +87,6 @@
     "ttl_minutes": 720
   }
 }
+
 
 
