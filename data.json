@@ -3,7 +3,7 @@
   "kpis": {
     "notas_em_atraso": 16,
     "previstas_para_hoje": 21,
-    "entregues_hoje": 1
+    "entregues_hoje": 4
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 1, "valor": "25622,23" },
@@ -50,15 +50,15 @@
     { "nota_fiscal": "199098", "destinatario": "LABORATORIO CLEMENTINO FRAGA LTDA", "transportador": "FEDEX", "previsao_entrega": "2026-01-21", "ocorrencia": "Atrasado" },
   ],
   "notas_previstas_hoje": [
-    { "nota_fiscal": "200332", "destinatario": "MINUZZI & PINTARELLI PRODUTOS MEDICO-HOS", "transportador": "TGL", "cidade_destino": "CURITIBA - PR", "data_entrega": "" },
+    { "nota_fiscal": "200332", "destinatario": "MINUZZI & PINTARELLI PRODUTOS MEDICO-HOS", "transportador": "TGL", "cidade_destino": "CURITIBA - PR", "data_entrega": "30/01/2026" },
     { "nota_fiscal": "200331", "destinatario": "XLAB SUPRIMENTOS PARA LABORATORIO LTDA", "transportador": "TGL", "cidade_destino": "PINHAIS - PR", "data_entrega": "" },
     { "nota_fiscal": "200277", "destinatario": "ODONTOPAR COM DE PROD ODONTOLOGICOS LTDA", "transportador": "TGL", "cidade_destino": "CURITIBA - PR", "data_entrega": "" },
     { "nota_fiscal": "200109", "destinatario": "L E COMERCIO DE MEDICAMENTOS E MAT HOSPITALARES LTDA", "transportador": "TRANSLOVATO", "cidade_destino": "TOLEDO - PR", "data_entrega": "" },
     { "nota_fiscal": "200088", "destinatario": "LABORATORIO BIOANALISES S/S LTDA", "transportador": "TGL", "cidade_destino": "PORTO ALEGRE - RS", "data_entrega": "" },
     { "nota_fiscal": "200087", "destinatario": "CBS MEDICO CIENTIFICA COMERCIO E REPRESENTACAO LTD", "transportador": "SCHREIBER", "cidade_destino": "SAO PAULO - SP", "data_entrega": "" },
     { "nota_fiscal": "200073", "destinatario": "LABORATORIO EXAME DE ANALISES CLINICAS LTDA", "transportador": "TGL", "cidade_destino": "CANOAS - RS", "data_entrega": "" },
-    { "nota_fiscal": "200049", "destinatario": "NITEROI DISTRIBUIDORA LTDA", "transportador": "TGL", "cidade_destino": "PORTO ALEGRE - RS", "data_entrega": "" },
-    { "nota_fiscal": "199985", "destinatario": "LAB MARIALVA ANALISES CLINICAS LTDA", "transportador": "TRANSLOVATO", "cidade_destino": "MARIALVA - PR", "data_entrega": "" },
+    { "nota_fiscal": "200049", "destinatario": "NITEROI DISTRIBUIDORA LTDA", "transportador": "TGL", "cidade_destino": "PORTO ALEGRE - RS", "data_entrega": "30/01/2026" },
+    { "nota_fiscal": "199985", "destinatario": "LAB MARIALVA ANALISES CLINICAS LTDA", "transportador": "TRANSLOVATO", "cidade_destino": "MARIALVA - PR", "data_entrega": "30/01/2026" },
     { "nota_fiscal": "199929", "destinatario": "RUIZ COMERCIO DE EQUIPAMENTOS HOSPITALARES LTDA", "transportador": "TRANSLOVATO", "cidade_destino": "PERUIBE - SP", "data_entrega": "" },
     { "nota_fiscal": "199920", "destinatario": "J.J.COMERCIAL PROD. HOSPITALARES LTDA ME", "transportador": "PATRUS", "cidade_destino": "ARARAQUARA - SP", "data_entrega": "" },
     { "nota_fiscal": "199808", "destinatario": "TECHMED DISTRIBUIDORA DE PRODUTOS HOSPIT", "transportador": "TRANSLOVATO", "cidade_destino": "ITAPEVA - SP", "data_entrega": "29/01/2026" },
@@ -82,6 +82,7 @@
     "ttl_minutes": 720
   }
 }
+
 
 
 
