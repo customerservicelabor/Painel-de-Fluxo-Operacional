@@ -29,6 +29,8 @@
     { "transportador": "Schreiber", "chegada": "", "saida": "", "agendado": "16:30" },
     { "transportador": "TGL", "chegada": "", "saida": "", "agendado": "17:00" }
   ],
+ "notas_em_atraso": [
+   {"nota_fiscal": "200331 ", "destinatario": "XLAB SUPRIMENTOS PARA LABORATORIO LTDA ", "transportador": "TGL ", "previsao_entrega": "2026/01/30","ocorrencia": "Atrasado" },
    {"nota_fiscal": "200088 ", "destinatario": "LABORATORIO BIOANALISES S/S LTDA ", "transportador": "TGL ", "previsao_entrega": "2026/01/30","ocorrencia": "Atrasado" },
    {"nota_fiscal": "200073 ", "destinatario": "LABORATORIO EXAME DE ANALISES CLINICAS LTDA ", "transportador": "TGL ", "previsao_entrega": "2026/01/30","ocorrencia": "Atrasado" },
    {"nota_fiscal": "200050 ", "destinatario": "DENTAL KAMINSKI LTDA ", "transportador": "TRANSLOVATO ", "previsao_entrega": "2026/01/30","ocorrencia": "Atrasado" },
@@ -136,4 +138,3 @@
     "ttl_minutes": 720
   }
 }
-
