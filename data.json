@@ -1,9 +1,9 @@
 {
   "updated_at": "02/02/2026 15:20",
   "kpis": {
-    "notas_em_atraso": 0,
-    "previstas_para_hoje": 0,
-    "entregues_hoje": 73
+    "notas_em_atraso": 15,
+    "previstas_para_hoje": 52,
+    "entregues_hoje": 35
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 1, "valor": "8305,56" },
@@ -138,3 +138,4 @@
     "ttl_minutes": 720
   }
 }
+
