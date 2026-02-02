@@ -274,24 +274,6 @@
       background: color-mix(in srgb, var(--mustard) 35%, transparent);
     }
 
-    /* (mantido) Total antigo, se algum dia quiser usar */
-    .rowTotalGreen{
-      background: color-mix(in srgb, var(--totalGreen) 35%, transparent);
-      font-weight: 950;
-    }
-    .rowTotalGreen td{
-      padding-top: 14px;
-      padding-bottom: 14px;
-      border-top: 2px solid var(--dividerStrong);
-    }
-    .rowTotalGreen td:nth-child(3){
-      font-size: 16px;
-      font-weight: 950;
-    }
-    .rowTotalGreen td:nth-child(2){
-      font-weight: 900;
-    }
-
     /* ===== NOVOS TOTAIS DO QUADRO ===== */
     .rowDisputaTotal{
       background: color-mix(in srgb, var(--mustard) 22%, transparent);
@@ -643,13 +625,52 @@
   <script>
     const fmtBRL = new Intl.NumberFormat('pt-BR', { style:'currency', currency:'BRL' });
 
+    /* ========= (NOVO) PARSER FLEXÍVEL: aceita dd/mm/aaaa, yyyy-mm-dd, yyyy/mm/dd ========= */
+    function parseDateFlex(s){
+      if(!s) return null;
+      s = String(s).trim();
+
+      // yyyy-mm-dd ou yyyy/mm/dd
+      let m = s.match(/^(\d{4})[-\/](\d{2})[-\/](\d{2})$/);
+      if(m){
+        const [_, yy, mm, dd] = m;
+        const d = new Date(`${yy}-${mm}-${dd}T00:00:00`);
+        return Number.isFinite(d.getTime()) ? d : null;
+      }
+
+      // dd/mm/yyyy
+      m = s.match(/^(\d{2})\/(\d{2})\/(\d{4})$/);
+      if(m){
+        const [_, dd, mm, yy] = m;
+        const d = new Date(`${yy}-${mm}-${dd}T00:00:00`);
+        return Number.isFinite(d.getTime()) ? d : null;
+      }
+
+      return null;
+    }
+
+    function formatBRDateFlex(s){
+      const d = parseDateFlex(s);
+      return d ? d.toLocaleDateString('pt-BR') : '—';
+    }
+    /* =================================================================================== */
+
     function parseUpdatedDate(updatedAtStr){
       const parts = String(updatedAtStr || '').split(" ");
       const datePart = parts[0] || "01/01/1970";
       const timePart = parts[1] || "00:00";
-      const [dd, mm, yyyy] = datePart.split("/").map(Number);
+
+      // updated_at costuma vir BR: dd/mm/aaaa HH:MM
+      let d = parseDateFlex(datePart);
+      if(!d){
+        // fallback bem defensivo
+        const [dd, mm, yyyy] = datePart.split("/").map(Number);
+        d = new Date(yyyy || 1970, (mm || 1)-1, dd || 1);
+      }
+
       const [HH, MM] = timePart.split(":").map(Number);
-      return new Date(yyyy, (mm || 1)-1, dd || 1, HH || 0, MM || 0, 0, 0);
+      d.setHours(HH || 0, MM || 0, 0, 0);
+      return d;
     }
 
     function formatUpdatedAtToBadge(data){
@@ -727,8 +748,6 @@
 
       if (isExpired(a.created_at, a.ttl_minutes)) return;
 
-      // Mostra 1x por refresh (volta no próximo refresh/F5),
-      // ou se mudar o id.
       const lastId = sessionStorage.getItem(TV_ALERT_STORAGE_KEY);
       if (lastId === id) return;
 
@@ -736,12 +755,6 @@
       showTvAlert(a);
     }
     /* =========================================================================== */
-
-    function isoToBR(iso){
-      const [y,m,d] = String(iso || '').split("-").map(Number);
-      const dt = new Date(y, (m||1)-1, d||1);
-      return dt.toLocaleDateString('pt-BR');
-    }
 
     function daysDiff(later, earlier){
       const ms = later.getTime() - earlier.getTime();
@@ -848,12 +861,7 @@
       }
     }
 
-    /* ======= GESTÃO DE PEDIDOS (ATUALIZADA) =======
-       - Total em Disputa = Aguard. Liberação + Alvará + Bloqueado + Análise
-       - Total Faturamento Previsto = Aguard. Envio Sep + Em Sep + Separado + Faturado
-       - Pisca: Alvará, Análise e Bloqueado
-       - Ordem fixa conforme solicitado
-    */
+    /* ======= GESTÃO DE PEDIDOS (ATUALIZADA) ======= */
     function renderPedidos(data){
       const raw = Array.isArray(data.pedidos_status) ? data.pedidos_status : [];
       const body = document.getElementById('tbodyPedidos');
@@ -964,7 +972,8 @@
       const now = parseUpdatedDate(data.updated_at);
 
       const atrasoAll = (data.notas_em_atraso || []).slice()
-        .sort((a,b) => (a.previsao_entrega > b.previsao_entrega ? 1 : -1));
+        .sort((a,b) => String(a.previsao_entrega||'').localeCompare(String(b.previsao_entrega||'')));
+
       const hojeAll = (data.notas_previstas_hoje || []).slice();
 
       const atrasoList = applyCarrierFilter(atrasoAll, carrier);
@@ -977,18 +986,19 @@
       atrasoBody.innerHTML = '';
 
       for (const it of atrasoList){
-        const prev = new Date(String(it.previsao_entrega) + "T00:00:00");
-        const lateDays = Math.max(0, daysDiff(now, prev));
+        const prev = parseDateFlex(it.previsao_entrega);
+        const lateDays = prev ? Math.max(0, daysDiff(now, prev)) : 0;
+
         const pillClass = lateDays >= 10 ? 'pill bad' : (lateDays >= 5 ? 'pill' : 'pill good');
 
         const ocorr = (it.ocorrencia && String(it.ocorrencia).trim()) ? String(it.ocorrencia).trim() : '—';
 
         const tr = document.createElement('tr');
         tr.innerHTML = `
-          <td><strong>${it.nota_fiscal}</strong></td>
-          <td>${it.destinatario}</td>
-          <td><span class="muted">${it.transportador}</span></td>
-          <td>${isoToBR(it.previsao_entrega)}</td>
+          <td><strong>${String(it.nota_fiscal ?? '—').trim()}</strong></td>
+          <td>${String(it.destinatario ?? '—').trim()}</td>
+          <td><span class="muted">${String(it.transportador ?? '—').trim()}</span></td>
+          <td>${formatBRDateFlex(it.previsao_entrega)}</td>
           <td>${ocorr}</td>
           <td><span class="${pillClass}">${lateDays}d</span></td>
         `;
@@ -998,16 +1008,19 @@
       const hojeBody = document.getElementById('tbodyHoje');
       hojeBody.innerHTML = '';
 
-      for (const it of hojeAll){
-        const dataEntrega = (it.data_entrega ?? '').toString().trim();
+      /* (CORRIGIDO) aqui era hojeAll; agora aplica filtro corretamente */
+      for (const it of hojeList){
+        const dataEntrega = (it.data_entrega ?? it.Data_de_entrega ?? '').toString().trim();
+        const cidade = (it.cidade_destino ?? it.Cidade_Destino ?? '').toString().trim();
+
         const tr = document.createElement('tr');
         if (dataEntrega) tr.className = 'rowDelivered';
 
         tr.innerHTML = `
-          <td><strong>${it.nota_fiscal}</strong></td>
-          <td>${it.destinatario}</td>
-          <td><span class="muted">${it.transportador}</span></td>
-          <td>${it.cidade_destino || '—'}</td>
+          <td><strong>${String(it.nota_fiscal ?? '—').trim()}</strong></td>
+          <td>${String(it.destinatario ?? '—').trim()}</td>
+          <td><span class="muted">${String(it.transportador ?? '—').trim()}</span></td>
+          <td>${cidade || '—'}</td>
           <td>${dataEntrega || '—'}</td>
         `;
         hojeBody.appendChild(tr);
