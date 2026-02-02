@@ -46,27 +46,6 @@
    {"nota_fiscal": "199155 ", "destinatario": "HEALTH MED ATACADO LTDA ", "transportador": "FEDEX ", "previsao_entrega": "30/01/2026 ", "ocorrencia": "Atrasado" },
    {"nota_fiscal": "199115 ", "destinatario": "DICOREL DISTRIB MEDICAMENTOS EIRELI ", "transportador": "FEDEX ", "previsao_entrega": "23/01/2026 ", "ocorrencia": "Atrasado" },
    {"nota_fiscal": "199098 ", "destinatario": "LABORATORIO CLEMENTINO FRAGA LTDA ", "transportador": "FEDEX ", "previsao_entrega": "21/01/2026 ", "ocorrencia": "Atrasado" }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   ],
   "notas_previstas_hoje": [
    {"nota_fiscal": "200413 ", "destinatario": "ROYAL TECH DISTRIB HOSP FARMACEUTICA LT ", "transportador": "TRANSLOVATO ", "Cidade_Destino": "CURITIBA - PR ", "Data_de_entrega": "" },
@@ -108,25 +87,6 @@
    {"nota_fiscal": "199295 ", "destinatario": "ALLFAMED COMERCIO ATAC DE MEDIC LTDA ", "transportador": "FEDEX ", "Cidade_Destino": "CAMPINA GRANDE - PB ", "Data_de_entrega": "" },
    {"nota_fiscal": "199210 ", "destinatario": "S DE ALMEIDA MAIA CONSULTORIA EM SAUDE E ", "transportador": "LOGDI ", "Cidade_Destino": "BREU BRANCO - PA ", "Data_de_entrega": "" }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   ],
   "tv_alert": {
     "enabled": false,
@@ -136,4 +96,5 @@
     "duration_seconds": 20,
     "created_at": "2026-01-28T14:10:00-03:00",
     "ttl_minutes": 720
+
 
