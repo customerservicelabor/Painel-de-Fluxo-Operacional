@@ -1,7 +1,7 @@
 {
-  "updated_at": "02/02/2026 08:18",
+  "updated_at": "02/02/2026 09:38",
   "kpis": {
-    "notas_em_atraso": 18,
+    "notas_em_atraso": 17,
     "previstas_para_hoje": 38,
     "entregues_hoje": 0
   },
@@ -39,7 +39,6 @@
     { "nota_fiscal": "199820", "destinatario": "DIAGNOSTICOS DA AMERICA S.A", "transportador": "PATRUS", "previsao_entrega": "2026-01-29", "ocorrencia": "Atrasado" },
     { "nota_fiscal": "199755", "destinatario": "HOSPITAL DAS CLINICAS DE SAO PAULO", "transportador": "PATRUS", "previsao_entrega": "2026-01-29", "ocorrencia": "Atrasado" },
     { "nota_fiscal": "199580", "destinatario": "FLEURY S.A.", "transportador": "LOGDI", "previsao_entrega": "2026-01-30", "ocorrencia": "Atrasado" },
-    { "nota_fiscal": "199539", "destinatario": "CIRURGICA PORTO LTDA.", "transportador": "LATAM", "previsao_entrega": "2026-01-27", "ocorrencia": "Atrasado" },
     { "nota_fiscal": "199525", "destinatario": "DIAGNOSTICOS DA AMERICA S.A", "transportador": "PATRUS", "previsao_entrega": "2026-01-23", "ocorrencia": "Atrasado" },
     { "nota_fiscal": "199484", "destinatario": "PRO MED & COMERCIO LTDA", "transportador": "LATAM", "previsao_entrega": "2026-01-30", "ocorrencia": "Atrasado" },
     { "nota_fiscal": "199414", "destinatario": "LABNORTE MATERIAIS PARA LABORATORIO", "transportador": "FEDEX", "previsao_entrega": "2026-01-21", "ocorrencia": "Atrasado" },
@@ -99,4 +98,5 @@
     "ttl_minutes": 720
   }
 }
+
 
