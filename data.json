@@ -1,9 +1,9 @@
 {
-  "updated_at": "02/02/2026 15:19",
+  "updated_at": "02/02/2026 15:20",
   "kpis": {
     "notas_em_atraso": 0,
     "previstas_para_hoje": 0,
-    "entregues_hoje": 38
+    "entregues_hoje": 73
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 1, "valor": "8305,56" },
@@ -106,21 +106,21 @@
    {"nota_fiscal": "200286 ", "destinatario": "21487927000178 - NEUPHARMA DISTRIBUICAO DE MAT. MED. HOSPITALAR LTD ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "30/01/2026" },
    {"nota_fiscal": "200246 ", "destinatario": "05652452000171 - INSTITUTO DE BIOMEDICINA DO ABC LTDA - EPP ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "30/01/2026" },
    {"nota_fiscal": "200346 ", "destinatario": "12841848000122 - DB GENETICA SERVICOS LABORATORIAIS LTDA ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "30/01/2026" },
-   {"nota_fiscal": "200241 ", "destinatario": "44217568000134 - ALEXANDRE LAZARO AQUINO 16383859803 ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "30/01/2026" }
-   {"nota_fiscal": "200255 ", "destinatario": "18009840000180 - CLINICA VETERINARIA SPACAO LTDA ", "cidade_destino": "SP30/01/2026
-   {"nota_fiscal": "200179 ", "destinatario": "29032826000114 - DATA MEDICAL PROD MEDICOS HOSP LTDA ", "cidade_destino": "PR
-   {"nota_fiscal": "200238 ", "destinatario": "57161603000192 - DRESCH E RODRIGUES DISTRIB VETERIN LTDA ", "cidade_destino": "PR
-   {"nota_fiscal": "200413 ", "destinatario": "39887396000176 - ROYAL TECH DISTRIB HOSP FARMACEUTICA LT ", "cidade_destino": "PR02/02/2026
-   {"nota_fiscal": "199972 ", "destinatario": "64440688000103 - CIRURGICA JOAO PROD MEDICO HOSP LTDA ", "cidade_destino": "MG29/01/2026
-   {"nota_fiscal": "200000 ", "destinatario": "18127309770 - THAYNA GONCALVES CAETANO ", "cidade_destino": "ES28/01/2026
-   {"nota_fiscal": "200035 ", "destinatario": "35143547000120 - LCCP LABORATORIO ANALISES CLINICAS LTDA ", "cidade_destino": "PR30/01/2026
-   {"nota_fiscal": "200160 ", "destinatario": "27599457000110 - DACAS SERVICOS MEDICOS LTDA ", "cidade_destino": "RS
-   {"nota_fiscal": "200197 ", "destinatario": "36569236000190 - GMT LIFE CARE MAT HOSPITALARES LTDA ", "cidade_destino": "SP29/01/2026
-   {"nota_fiscal": "200206 ", "destinatario": "75869263000130 - LABORATORIO DE ANALISES CLINICAS LEDRA LTDA ", "cidade_destino": "SC30/01/2026
-   {"nota_fiscal": "200311 ", "destinatario": "32579035885 - LILIA RAMOS DOS SANTOS GUADANHIM ", "cidade_destino": "SP30/01/2026
-   {"nota_fiscal": "200353 ", "destinatario": "35951053000172 - PARAMETRO OZONIO COM MAT HOSP LTDA ", "cidade_destino": "SP30/01/2026
-   {"nota_fiscal": "200182 ", "destinatario": "00814559001208 - SURYA DENTAL COMERCIO DE PRODUTOS ODONTO ", "cidade_destino": "SC
-   {"nota_fiscal": "200539 ", "destinatario": "32350180000128 - NOVA LINEA COMERCIO DE PRODUTOS FARMACEUTICOS EIRELI ", "cidade_destino": "RJ02/02/2026
+   {"nota_fiscal": "200241 ", "destinatario": "44217568000134 - ALEXANDRE LAZARO AQUINO 16383859803 ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "30/01/2026" },
+   {"nota_fiscal": "200255 ", "destinatario": "18009840000180 - CLINICA VETERINARIA SPACAO LTDA ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "30/01/2026" },
+   {"nota_fiscal": "200179 ", "destinatario": "29032826000114 - DATA MEDICAL PROD MEDICOS HOSP LTDA ", "transportador": "TRANSLOVATO ", "cidade_destino": "PR ", "data_entrega": "" },
+   {"nota_fiscal": "200238 ", "destinatario": "57161603000192 - DRESCH E RODRIGUES DISTRIB VETERIN LTDA ", "transportador": "TRANSLOVATO ", "cidade_destino": "PR ", "data_entrega": "" },
+   {"nota_fiscal": "200413 ", "destinatario": "39887396000176 - ROYAL TECH DISTRIB HOSP FARMACEUTICA LT ", "transportador": "TRANSLOVATO ", "cidade_destino": "PR ", "data_entrega": "02/02/2026" },
+   {"nota_fiscal": "199972 ", "destinatario": "64440688000103 - CIRURGICA JOAO PROD MEDICO HOSP LTDA ", "transportador": "AZUL ", "cidade_destino": "MG ", "data_entrega": "29/01/2026" },
+   {"nota_fiscal": "200000 ", "destinatario": "18127309770 - THAYNA GONCALVES CAETANO ", "transportador": "PATRUS ", "cidade_destino": "ES ", "data_entrega": "28/01/2026" },
+   {"nota_fiscal": "200035 ", "destinatario": "35143547000120 - LCCP LABORATORIO ANALISES CLINICAS LTDA ", "transportador": "TRANSLOVATO ", "cidade_destino": "PR ", "data_entrega": "30/01/2026" },
+   {"nota_fiscal": "200160 ", "destinatario": "27599457000110 - DACAS SERVICOS MEDICOS LTDA ", "transportador": "TGL ", "cidade_destino": "RS ", "data_entrega": "" },
+   {"nota_fiscal": "200197 ", "destinatario": "36569236000190 - GMT LIFE CARE MAT HOSPITALARES LTDA ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "29/01/2026" },
+   {"nota_fiscal": "200206 ", "destinatario": "75869263000130 - LABORATORIO DE ANALISES CLINICAS LEDRA LTDA ", "transportador": "TGL ", "cidade_destino": "SC ", "data_entrega": "30/01/2026" },
+   {"nota_fiscal": "200311 ", "destinatario": "32579035885 - LILIA RAMOS DOS SANTOS GUADANHIM ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "30/01/2026" },
+   {"nota_fiscal": "200353 ", "destinatario": "35951053000172 - PARAMETRO OZONIO COM MAT HOSP LTDA ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "30/01/2026" },
+   {"nota_fiscal": "200182 ", "destinatario": "00814559001208 - SURYA DENTAL COMERCIO DE PRODUTOS ODONTO ", "transportador": "TRANSLOVATO ", "cidade_destino": "SC ", "data_entrega": "" },
+   {"nota_fiscal": "200539 ", "destinatario": "32350180000128 - NOVA LINEA COMERCIO DE PRODUTOS FARMACEUTICOS EIRELI ", "transportador": "TELE CARGA ", "cidade_destino": "RJ ", "data_entrega": "02/02/2026" }
 
 
 
