@@ -1,5 +1,5 @@
 {
-  "updated_at": "03/02/2026 17:39",
+  "updated_at": "03/02/2026 17:43",
   "kpis": {
     "notas_em_atraso": 14,
     "previstas_para_hoje": 80,
@@ -39,11 +39,11 @@
    {"nota_fiscal": "199850 ", "destinatario": "05988182000174 - CLAUDIA TREVISAN ", "transportador": "PATRUS ", "previsao_entrega": "02/02/2026","ocorrencia": "Atrasado" },
    {"nota_fiscal": "199234 ", "destinatario": "27699258000184 - CEB SOLUCOES AMBIENTAIS LTDA ", "transportador": "LATAM ", "previsao_entrega": "30/01/2026","ocorrencia": "Atrasado" },
    {"nota_fiscal": "199996 ", "destinatario": "57624462000105 - OURO FINO SAUDE ANIMAL LTDA ", "transportador": "PATRUS ", "previsao_entrega": "02/02/2026","ocorrencia": "Atrasado" },
-   {"nota_fiscal": "200073 ", "destinatario": "91687376001810 - LABORATORIO EXAME DE ANALISES CLINICAS LTDA ", "transportador": "TGL ", "previsao_entrega": "30/01/2026","ocorrencia": "Atrasado" }
-   {"nota_fiscal": "200585 ", "destinatario": "02771547000116 - NATAN COMERCIO LTDA ", "previsao_entrega": "00/01/1900","ocorrencia": "Atrasado
-   {"nota_fiscal": "200588 ", "destinatario": "39625691000154 - GOLDEN MED COM VAR ARTIGOS MEDICOS LTDA ", "previsao_entrega": "00/01/1900","ocorrencia": "Atrasado
-   {"nota_fiscal": "200580 ", "destinatario": "39625691000154 - GOLDEN MED COM VAR ARTIGOS MEDICOS LTDA ", "previsao_entrega": "00/01/1900","ocorrencia": "Atrasado
-   {"nota_fiscal": "200587 ", "destinatario": "02771547000116 - NATAN COMERCIO LTDA ", "previsao_entrega": "00/01/1900","ocorrencia": "Atrasado
+   {"nota_fiscal": "200073 ", "destinatario": "91687376001810 - LABORATORIO EXAME DE ANALISES CLINICAS LTDA ", "transportador": "TGL ", "previsao_entrega": "30/01/2026","ocorrencia": "Atrasado" },
+   {"nota_fiscal": "200585 ", "destinatario": "02771547000116 - NATAN COMERCIO LTDA ", "transportador": "AZUL ", "previsao_entrega": "00/01/1900","ocorrencia": "Atrasado" },
+   {"nota_fiscal": "200588 ", "destinatario": "39625691000154 - GOLDEN MED COM VAR ARTIGOS MEDICOS LTDA ", "transportador": "AZUL ", "previsao_entrega": "00/01/1900","ocorrencia": "Atrasado" },
+   {"nota_fiscal": "200580 ", "destinatario": "39625691000154 - GOLDEN MED COM VAR ARTIGOS MEDICOS LTDA ", "transportador": "AZUL ", "previsao_entrega": "00/01/1900","ocorrencia": "Atrasado" },
+   {"nota_fiscal": "200587 ", "destinatario": "02771547000116 - NATAN COMERCIO LTDA ", "transportador": "AZUL ", "previsao_entrega": "00/01/1900","ocorrencia": "Atrasado" }
 
 
 
