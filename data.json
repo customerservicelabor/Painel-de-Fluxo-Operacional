@@ -1,5 +1,5 @@
 {
-  "updated_at": "03/02/2026 15:49",
+  "updated_at": "03/02/2026 15:50",
   "kpis": {
     "notas_em_atraso": 15,
     "previstas_para_hoje": 76,
@@ -126,24 +126,24 @@
    {"nota_fiscal": "200182 ", "destinatario": "00814559001208 - SURYA DENTAL COMERCIO DE PRODUTOS ODONTO ", "transportador": "TRANSLOVATO ", "cidade_destino": "SC ", "data_entrega": "02/02/2026" },
    {"nota_fiscal": "200394 ", "destinatario": "15779566000130 - PROCLINICA DIAGNOSTICOS E EQUIPAMENTOS L ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "02/02/2026" },
    {"nota_fiscal": "200402 ", "destinatario": "07411338000185 - MILITELLO CENTRO DE ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "" },
-   {"nota_fiscal": "200407 ", "destinatario": "43775690824 - BEATRIZ ROBERTA BARBOSA ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "02/02/2026" }
-   {"nota_fiscal": "200467 ", "destinatario": "43508613000147 - CIRURGICA SAO PAULO LTDA ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "02/02/2026" }
-   {"nota_fiscal": "200487 ", "destinatario": "19378769013405 - INSTITUTO HERMES PARDINI S A  (35191) ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "02/02/2026" }
-   {"nota_fiscal": "200444 ", "destinatario": "18009840000180 - CLINICA VETERINARIA SPACAO LTDA ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "02/02/2026" }
-   {"nota_fiscal": "200434 ", "destinatario": "44842829000107 - DAFMED COM MAT CIRURGICOS HOSP LTDA ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "02/02/2026" }
-   {"nota_fiscal": "200359 ", "destinatario": "74377607000121 - PLUSVET COM PROD PA LABOR VETERINARIO LT ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "02/02/2026" }
-   {"nota_fiscal": "200510 ", "destinatario": "61486650041378 - DIAGNOSTICOS DA AMERICA ", "transportador": "TGL ", "cidade_destino": "PR ", "data_entrega": "" }
-   {"nota_fiscal": "200645 ", "destinatario": "03951140000133 - DE PAULI COM. REPR. IMPORT. EXPORT. LTDA ", "transportador": "GUINHA ", "cidade_destino": "SP ", "data_entrega": "03/02/2026" }
-   {"nota_fiscal": "200743 ", "destinatario": "36448078000110 - VICAP MAT CIRURGICOS DESCARTAVEIS LTDA ", "transportador": "RODONAVES ", "cidade_destino": "SP ", "data_entrega": "03/02/2026" }
-   {"nota_fiscal": "200475 ", "destinatario": "03951140000133 - DE PAULI COM. REPR. IMPORT. EXPORT. LTDA ", "transportador": "GUINHA ", "cidade_destino": "SP ", "data_entrega": "03/02/2026" }
-   {"nota_fiscal": "200406 ", "destinatario": "34064557000108 - MEDMED COM.MATS.HOSP.EIRELI ", "transportador": "RETIRA ", "cidade_destino": "SC ", "data_entrega": "03/02/2026" }
-   {"nota_fiscal": "200678 ", "destinatario": "29877177000152 - NN LEA CO MA MEDIC HO ODONTOLOGIC LAB LT ", "transportador": "RODONAVES ", "cidade_destino": "SP ", "data_entrega": "03/02/2026" }
-   {"nota_fiscal": "74040 ", "destinatario": "01005728001140 - LABOR - HEALTH SUPPLY ", "transportador": "CORREIOS ", "cidade_destino": "SC ", "data_entrega": "03/02/2026" }
-   {"nota_fiscal": "200511 ", "destinatario": "21284068000110 - FARMATEX DO BRASIL SA ", "transportador": "ATIVALOG ", "cidade_destino": "PR ", "data_entrega": "03/02/2026" }
-   {"nota_fiscal": "200739 ", "destinatario": "27325768000191 - PREMIUM HOSPITALAR EIRELI-ME ", "cidade_destino": "GO03/02/2026
-   {"nota_fiscal": "199933 ", "destinatario": "03951140000133 - DE PAULI COM. REPR. IMPORT. EXPORT. LTDA ", "transportador": "GUINHA ", "cidade_destino": "SP ", "data_entrega": "03/02/2026" }
-   {"nota_fiscal": "200486 ", "destinatario": "21284068000110 - FARMATEX DO BRASIL SA ", "transportador": "ATIVALOG ", "cidade_destino": "PR ", "data_entrega": "03/02/2026" }
-   {"nota_fiscal": "200379 ", "destinatario": "21284068000110 - FARMATEX DO BRASIL SA ", "transportador": "ATIVALOG ", "cidade_destino": "PR ", "data_entrega": "03/02/2026" }
+   {"nota_fiscal": "200407 ", "destinatario": "43775690824 - BEATRIZ ROBERTA BARBOSA ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "02/02/2026" },
+   {"nota_fiscal": "200467 ", "destinatario": "43508613000147 - CIRURGICA SAO PAULO LTDA ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "02/02/2026" },
+   {"nota_fiscal": "200487 ", "destinatario": "19378769013405 - INSTITUTO HERMES PARDINI S A  (35191) ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "02/02/2026" },
+   {"nota_fiscal": "200444 ", "destinatario": "18009840000180 - CLINICA VETERINARIA SPACAO LTDA ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "02/02/2026" },
+   {"nota_fiscal": "200434 ", "destinatario": "44842829000107 - DAFMED COM MAT CIRURGICOS HOSP LTDA ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "02/02/2026" },
+   {"nota_fiscal": "200359 ", "destinatario": "74377607000121 - PLUSVET COM PROD PA LABOR VETERINARIO LT ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "02/02/2026" },
+   {"nota_fiscal": "200510 ", "destinatario": "61486650041378 - DIAGNOSTICOS DA AMERICA ", "transportador": "TGL ", "cidade_destino": "PR ", "data_entrega": "" },
+   {"nota_fiscal": "200645 ", "destinatario": "03951140000133 - DE PAULI COM. REPR. IMPORT. EXPORT. LTDA ", "transportador": "GUINHA ", "cidade_destino": "SP ", "data_entrega": "03/02/2026" },
+   {"nota_fiscal": "200743 ", "destinatario": "36448078000110 - VICAP MAT CIRURGICOS DESCARTAVEIS LTDA ", "transportador": "RODONAVES ", "cidade_destino": "SP ", "data_entrega": "03/02/2026" },
+   {"nota_fiscal": "200475 ", "destinatario": "03951140000133 - DE PAULI COM. REPR. IMPORT. EXPORT. LTDA ", "transportador": "GUINHA ", "cidade_destino": "SP ", "data_entrega": "03/02/2026" },
+   {"nota_fiscal": "200406 ", "destinatario": "34064557000108 - MEDMED COM.MATS.HOSP.EIRELI ", "transportador": "RETIRA ", "cidade_destino": "SC ", "data_entrega": "03/02/2026" },
+   {"nota_fiscal": "200678 ", "destinatario": "29877177000152 - NN LEA CO MA MEDIC HO ODONTOLOGIC LAB LT ", "transportador": "RODONAVES ", "cidade_destino": "SP ", "data_entrega": "03/02/2026" },
+   {"nota_fiscal": "74040 ", "destinatario": "01005728001140 - LABOR - HEALTH SUPPLY ", "transportador": "CORREIOS ", "cidade_destino": "SC ", "data_entrega": "03/02/2026" },
+   {"nota_fiscal": "200511 ", "destinatario": "21284068000110 - FARMATEX DO BRASIL SA ", "transportador": "ATIVALOG ", "cidade_destino": "PR ", "data_entrega": "03/02/2026" },
+   {"nota_fiscal": "200739 ", "destinatario": "27325768000191 - PREMIUM HOSPITALAR EIRELI-ME ", "transportador": "PRATICA ", "cidade_destino": "GO ", "data_entrega": "03/02/2026" },
+   {"nota_fiscal": "199933 ", "destinatario": "03951140000133 - DE PAULI COM. REPR. IMPORT. EXPORT. LTDA ", "transportador": "GUINHA ", "cidade_destino": "SP ", "data_entrega": "03/02/2026" },
+   {"nota_fiscal": "200486 ", "destinatario": "21284068000110 - FARMATEX DO BRASIL SA ", "transportador": "ATIVALOG ", "cidade_destino": "PR ", "data_entrega": "03/02/2026" },
+   {"nota_fiscal": "200379 ", "destinatario": "21284068000110 - FARMATEX DO BRASIL SA ", "transportador": "ATIVALOG ", "cidade_destino": "PR ", "data_entrega": "03/02/2026" },
    {"nota_fiscal": "200686 ", "destinatario": "36448078000110 - VICAP MAT CIRURGICOS DESCARTAVEIS LTDA ", "transportador": "RODONAVES ", "cidade_destino": "SP ", "data_entrega": "03/02/2026" }
 
 
