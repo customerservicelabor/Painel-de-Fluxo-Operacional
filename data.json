@@ -1,26 +1,26 @@
 {
-  "updated_at": "04/02/2026 08:38",
+  "updated_at": "04/02/2026 10:52",
   "kpis": {
     "notas_em_atraso": 26,
     "previstas_para_hoje": 19,
     "entregues_hoje": 12
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 4, "valor": "10963,94" },
-    { "status": "Alvará Sanitário", "quantidade": 11, "valor": "37067,27" },
+    { "status": "Aguardando Liberação", "quantidade": 3, "valor": "10577,56" },
+    { "status": "Alvará Sanitário", "quantidade": 9, "valor": "22225,71" },
     { "status": "Bloqueado por regra", "quantidade": 0, "valor": "0" },
-    { "status": "Análise de Crédito", "quantidade": 11, "valor": "25858,76" },
-    { "status": "Total em Disputa", "quantidade": 26, "valor": "73889,97" },
-    { "status": "Aguard. Envio Separação", "quantidade": 22, "valor": "276224,35" },
-    { "status": "Em Separação", "quantidade": 1, "valor": "6993,8" },
-    { "status": "Separado", "quantidade": 1, "valor": "1063,35" },
-    { "status": "Faturado", "quantidade": 0, "valor": "0" },
-    { "status": "Total", "quantidade": 24, "valor": "284281,5" }
+    { "status": "Análise de Crédito", "quantidade": 7, "valor": "13229,13" },
+    { "status": "Total em Disputa", "quantidade": 19, "valor": "46032,4" },
+    { "status": "Aguard. Envio Separação", "quantidade": 4, "valor": "4272,39" },
+    { "status": "Em Separação", "quantidade": 7, "valor": "37659,68" },
+    { "status": "Separado", "quantidade": 1, "valor": "18897,4" },
+    { "status": "Faturado", "quantidade": 9, "valor": "26127,14" },
+    { "status": "Total", "quantidade": 21, "valor": "86956,61" }
  ],
   "transportadores": [
-    { "transportador": "Azul", "chegada": "10:25", "saida": "11:10", "agendado": "10:00" },
-    { "transportador": "Latam", "chegada": "10:00", "saida": "11:00", "agendado": "10:00" },
-    { "transportador": "Azurelog", "chegada": "12:41", "saida": "13:48", "agendado": "10:30" },
+    { "transportador": "Azul", "chegada": "", "saida": "", "agendado": "10:00" },
+    { "transportador": "Latam", "chegada": "09:58", "saida": "10:30", "agendado": "10:00" },
+    { "transportador": "Azurelog", "chegada": "", "saida": "", "agendado": "10:30" },
     { "transportador": "Tecmar", "chegada": "", "saida": "", "agendado": "11:00" },
     { "transportador": "Logdi", "chegada": "", "saida": "", "agendado": "11:00" },
     { "transportador": "Translovato", "chegada": "", "saida": "", "agendado": "14:00" },
