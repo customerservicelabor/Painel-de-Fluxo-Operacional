@@ -1,5 +1,5 @@
 {
-  "updated_at": "05/02/2026 10:59",
+  "updated_at": "05/02/2026 11:17",
   "kpis": {
     "notas_em_atraso": 10,
     "previstas_para_hoje": 89,
@@ -18,11 +18,11 @@
     { "status": "Total", "quantidade": 21, "valor": "235417,44" }
  ],
   "transportadores": [
-    { "transportador": "Azul", "chegada": "", "saida": "", "agendado": "10:00" },
-    { "transportador": "Latam", "chegada": "", "saida": "", "agendado": "10:00" },
-    { "transportador": "Azurelog", "chegada": "", "saida": "", "agendado": "10:30" },
+    { "transportador": "Azul", "chegada": "10:40", "saida": "", "agendado": "10:00" },
+    { "transportador": "Latam", "chegada": "09:40", "saida": "10:40", "agendado": "10:00" },
+    { "transportador": "Azurelog", "chegada": "11:09", "saida": "", "agendado": "10:30" },
     { "transportador": "Tecmar", "chegada": "", "saida": "", "agendado": "11:00" },
-    { "transportador": "Logdi", "chegada": "", "saida": "", "agendado": "11:00" },
+    { "transportador": "Logdi", "chegada": "10:47", "saida": "", "agendado": "11:00" },
     { "transportador": "Translovato", "chegada": "", "saida": "", "agendado": "14:00" },
     { "transportador": "Patrus", "chegada": "", "saida": "", "agendado": "14:30" },
     { "transportador": "Gran Cargo", "chegada": "", "saida": "", "agendado": "15:00" },
