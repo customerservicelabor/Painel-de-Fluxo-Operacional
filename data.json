@@ -1,5 +1,5 @@
 {
-  "updated_at": "05/02/2026 08:50",
+  "updated_at": "05/02/2026 09:01",
   "kpis": {
     "notas_em_atraso": 20,
     "previstas_para_hoje": 88,
@@ -145,15 +145,15 @@
    {"nota_fiscal": "200173 ", "destinatario": "00248232000163 - DENTAL BRASIL PRODUTOS ADONTOLOGICOS EIRELI ", "transportador": "PATRUS ", "cidade_destino": "SP ", "data_entrega": "02/02/2026" },
    {"nota_fiscal": "200126 ", "destinatario": "10369301000140 - CENTERVIDA DIAGNOSTICA LTDA ", "transportador": "PATRUS ", "cidade_destino": "MG ", "data_entrega": "03/02/2026" },
    {"nota_fiscal": "200375 ", "destinatario": "05876102000199 - PARAMED PROD MEDICO HOSPITALARES LTDA ", "transportador": "AZUL ", "cidade_destino": "MG ", "data_entrega": "04/02/2026" },
-   {"nota_fiscal": "200372 ", "destinatario": "03402979000112 - M.N.P CUSTODIO COM PROD HOSP EIRELI ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "" }
-   {"nota_fiscal": "200527 ", "destinatario": "36569236000190 - GMT LIFE CARE MAT HOSPITALARES LTDA ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "04/02/2026" }
-   {"nota_fiscal": "200550 ", "destinatario": "06643570000186 - AGROZOOTEC IND. E COM. DE PROD. AGROPEC. ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "03/02/2026" }
-   {"nota_fiscal": "200639 ", "destinatario": "38178338000100 - CIRURGICA ANALIA FRANCO LTDA ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "04/02/2026" }
-   {"nota_fiscal": "199662 ", "destinatario": "05195603375 - DALVAN FORTALEZA ALENCAR ", "transportador": "TECMAR ", "cidade_destino": "PI ", "data_entrega": "29/01/2026" }
-   {"nota_fiscal": "200282 ", "destinatario": "52094817000170 - LUANA RIBEIRO ESTETICA LTDA ", "transportador": "AZUL ", "cidade_destino": "RJ ", "data_entrega": "03/02/2026" }
-   {"nota_fiscal": "200366 ", "destinatario": "42795205000150 - AMB DISTRIBUIDORA DE PRODUTOS HOSPITALARES LTDA ", "transportador": "AZUL ", "cidade_destino": "DF ", "data_entrega": "03/02/2026" }
-   {"nota_fiscal": "200401 ", "destinatario": "40011952000125 - DISTRIBUIDORA VL FARM LTDA ", "transportador": "AZUL ", "cidade_destino": "ES ", "data_entrega": "02/02/2026" }
-   {"nota_fiscal": "200442 ", "destinatario": "37931064000116 - LEMED COM MAT MEDICAMENTOS HOSP EIRELI ", "transportador": "SCHREIBER ", "cidade_destino": "SC ", "data_entrega": "03/02/2026" }
+   {"nota_fiscal": "200372 ", "destinatario": "03402979000112 - M.N.P CUSTODIO COM PROD HOSP EIRELI ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "" },
+   {"nota_fiscal": "200527 ", "destinatario": "36569236000190 - GMT LIFE CARE MAT HOSPITALARES LTDA ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "04/02/2026" },
+   {"nota_fiscal": "200550 ", "destinatario": "06643570000186 - AGROZOOTEC IND. E COM. DE PROD. AGROPEC. ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "03/02/2026" },
+   {"nota_fiscal": "200639 ", "destinatario": "38178338000100 - CIRURGICA ANALIA FRANCO LTDA ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "04/02/2026" },
+   {"nota_fiscal": "199662 ", "destinatario": "05195603375 - DALVAN FORTALEZA ALENCAR ", "transportador": "TECMAR ", "cidade_destino": "PI ", "data_entrega": "29/01/2026" },
+   {"nota_fiscal": "200282 ", "destinatario": "52094817000170 - LUANA RIBEIRO ESTETICA LTDA ", "transportador": "AZUL ", "cidade_destino": "RJ ", "data_entrega": "03/02/2026" },
+   {"nota_fiscal": "200366 ", "destinatario": "42795205000150 - AMB DISTRIBUIDORA DE PRODUTOS HOSPITALARES LTDA ", "transportador": "AZUL ", "cidade_destino": "DF ", "data_entrega": "03/02/2026" },
+   {"nota_fiscal": "200401 ", "destinatario": "40011952000125 - DISTRIBUIDORA VL FARM LTDA ", "transportador": "AZUL ", "cidade_destino": "ES ", "data_entrega": "02/02/2026" },
+   {"nota_fiscal": "200442 ", "destinatario": "37931064000116 - LEMED COM MAT MEDICAMENTOS HOSP EIRELI ", "transportador": "SCHREIBER ", "cidade_destino": "SC ", "data_entrega": "03/02/2026" },
 
 
 
