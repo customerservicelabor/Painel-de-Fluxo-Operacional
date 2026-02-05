@@ -1,5 +1,5 @@
 {
-  "updated_at": "05/02/2026 08:30",
+  "updated_at": "05/02/2026 08:45",
   "kpis": {
     "notas_em_atraso": 20,
     "previstas_para_hoje": 88,
@@ -11,11 +11,11 @@
     { "status": "Bloqueado por regra", "quantidade": 0, "valor": "0" },
     { "status": "Análise de Crédito", "quantidade": 7, "valor": "40953,38" },
     { "status": "Total em Disputa", "quantidade": 20, "valor": "77189,36" },
-    { "status": "Aguard. Envio Separação", "quantidade": 23, "valor": "277293,47" },
+    { "status": "Aguard. Envio Separação", "quantidade": 2, "valor": "4184,97" },
     { "status": "Em Separação", "quantidade": 2, "valor": "121363,94" },
     { "status": "Separado", "quantidade": 2, "valor": "62376,99" },
     { "status": "Faturado", "quantidade": 0, "valor": "0" },
-    { "status": "Total", "quantidade": 27, "valor": "461034,4" }
+    { "status": "Total", "quantidade": 6, "valor": "187925,9" }
  ],
   "transportadores": [
     { "transportador": "Azul", "chegada": "10:25", "saida": "11:10", "agendado": "10:00" },
