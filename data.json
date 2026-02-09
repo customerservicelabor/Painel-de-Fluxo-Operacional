@@ -19,10 +19,10 @@
  ],
   "transportadores": [
     { "transportador": "Azul", "chegada": "", "saida": "", "agendado": "10:00" },
-    { "transportador": "Latam", "chegada": "10:04", "saida": "", "agendado": "10:00" },
-    { "transportador": "Azurelog", "chegada": "11:10", "saida": "", "agendado": "10:30" },
+    { "transportador": "Latam", "chegada": "", "saida": "", "agendado": "10:00" },
+    { "transportador": "Azurelog", "chegada": "", "saida": "", "agendado": "10:30" },
     { "transportador": "Tecmar", "chegada": "", "saida": "", "agendado": "11:00" },
-    { "transportador": "Logdi", "chegada": "11:15", "saida": "", "agendado": "11:00" },
+    { "transportador": "Logdi", "chegada": "", "saida": "", "agendado": "11:00" },
     { "transportador": "Translovato", "chegada": "", "saida": "", "agendado": "14:00" },
     { "transportador": "Patrus", "chegada": "", "saida": "", "agendado": "14:30" },
     { "transportador": "Gran Cargo", "chegada": "", "saida": "", "agendado": "15:00" },
@@ -129,7 +129,6 @@
    {"nota_fiscal": "200445 ", "destinatario": "13253705000162 - LUIZ GONZAGA GOMES PEREIRA ME ", "transportador": "AZUL ", "cidade_destino": "GO ", "data_entrega": "04/02/2026" },
    {"nota_fiscal": "200517 ", "destinatario": "09222496000112 - CIRURGICA OESTE PAULISTA LTDA ME ", "transportador": "PATRUS ", "cidade_destino": "SP ", "data_entrega": "06/02/2026" },
    {"nota_fiscal": "200734 ", "destinatario": "04759433000186 - FERNAMED LTDA ", "transportador": "TRANSLOVATO ", "cidade_destino": "PR ", "data_entrega": "" }
-   {"nota_fiscal": "200842 ", "destinatario": "60840055040869 - FLEURY S.A. ", "cidade_destino": "RS
    {"nota_fiscal": "200802 ", "destinatario": "61844783000184 - KOURO'S MEDICINA DIAGNOSTICA EIRELI ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "06/02/2026" },
    {"nota_fiscal": "200814 ", "destinatario": "22525517000137 - JF COMERCIO DE MATERIAL E MEDICAMENTOS H ", "transportador": "SCHREIBER ", "cidade_destino": "SC ", "data_entrega": "05/02/2026" },
    {"nota_fiscal": "200369 ", "destinatario": "24702356000135 - CAPITAL MEDH IMP DIST REP COMERCIAL LTDA ", "transportador": "AZURELOG ", "cidade_destino": "DF ", "data_entrega": "04/02/2026" },
@@ -344,4 +343,5 @@
     "ttl_minutes": 720
   }
 }
+
 
