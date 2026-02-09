@@ -128,7 +128,7 @@
    {"nota_fiscal": "200417 ", "destinatario": "54164607000136 - NPR DISTRIBUIDORA LTDA ", "transportador": "AZUL ", "cidade_destino": "GO ", "data_entrega": "05/02/2026" },
    {"nota_fiscal": "200445 ", "destinatario": "13253705000162 - LUIZ GONZAGA GOMES PEREIRA ME ", "transportador": "AZUL ", "cidade_destino": "GO ", "data_entrega": "04/02/2026" },
    {"nota_fiscal": "200517 ", "destinatario": "09222496000112 - CIRURGICA OESTE PAULISTA LTDA ME ", "transportador": "PATRUS ", "cidade_destino": "SP ", "data_entrega": "06/02/2026" },
-   {"nota_fiscal": "200734 ", "destinatario": "04759433000186 - FERNAMED LTDA ", "transportador": "TRANSLOVATO ", "cidade_destino": "PR ", "data_entrega": "" }
+   {"nota_fiscal": "200734 ", "destinatario": "04759433000186 - FERNAMED LTDA ", "transportador": "TRANSLOVATO ", "cidade_destino": "PR ", "data_entrega": "" },
    {"nota_fiscal": "200802 ", "destinatario": "61844783000184 - KOURO'S MEDICINA DIAGNOSTICA EIRELI ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "06/02/2026" },
    {"nota_fiscal": "200814 ", "destinatario": "22525517000137 - JF COMERCIO DE MATERIAL E MEDICAMENTOS H ", "transportador": "SCHREIBER ", "cidade_destino": "SC ", "data_entrega": "05/02/2026" },
    {"nota_fiscal": "200369 ", "destinatario": "24702356000135 - CAPITAL MEDH IMP DIST REP COMERCIAL LTDA ", "transportador": "AZURELOG ", "cidade_destino": "DF ", "data_entrega": "04/02/2026" },
@@ -170,3 +170,4 @@
     "ttl_minutes": 720
   }
 }
+
