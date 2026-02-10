@@ -1,5 +1,5 @@
 {
-  "updated_at": "10/02/2026 10:39",
+  "updated_at": "10/02/2026 11:32",
   "kpis": {
     "notas_em_atraso": 23,
     "previstas_para_hoje": 100,
@@ -18,9 +18,9 @@
     { "status": "Total", "quantidade": 9, "valor": "41340,14" }
  ],
   "transportadores": [
-    { "transportador": "Azul", "chegada": "10:35", "saida": "", "agendado": "10:00" },
-    { "transportador": "Latam", "chegada": "10:00", "saida": "", "agendado": "10:00" },
-    { "transportador": "Azurelog", "chegada": "10:10", "saida": "", "agendado": "10:30" },
+    { "transportador": "Azul", "chegada": "10:35", "saida": "10:40", "agendado": "10:00" },
+    { "transportador": "Latam", "chegada": "10:00", "saida": "10:10", "agendado": "10:00" },
+    { "transportador": "Azurelog", "chegada": "10:10", "saida": "10:27", "agendado": "10:30" },
     { "transportador": "Tecmar", "chegada": "", "saida": "", "agendado": "11:00" },
     { "transportador": "Logdi", "chegada": "", "saida": "", "agendado": "11:00" },
     { "transportador": "Translovato", "chegada": "", "saida": "", "agendado": "14:00" },
