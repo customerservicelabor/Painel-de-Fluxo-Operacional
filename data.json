@@ -1,5 +1,5 @@
 {
-  "updated_at": "10/02/2026 09:27",
+  "updated_at": "10/02/2026 09:36",
   "kpis": {
     "notas_em_atraso": 23,
     "previstas_para_hoje": 100,
@@ -69,8 +69,8 @@
 
   ],
   "notas_previstas_hoje": [
-   {"nota_fiscal": "199819 ", "destinatario": "35230010000106 - REPIFARMA COML MEDICAMENTOS LTDA ", "transportador": "LOGDI ", "cidade_destino": "CE ", "data_entrega": "" }
-   {"nota_fiscal": "199512 ", "destinatario": "10463662000151 - DISFARMOC DIST DE PROD FARMACEUTICOS LTD ", "cidade_destino": "MG30/01/2026
+   {"nota_fiscal": "199819 ", "destinatario": "35230010000106 - REPIFARMA COML MEDICAMENTOS LTDA ", "transportador": "LOGDI ", "cidade_destino": "CE ", "data_entrega": "" },
+   {"nota_fiscal": "199512 ", "destinatario": "10463662000151 - DISFARMOC DIST DE PROD FARMACEUTICOS LTD ", "transportador": "AZUL ", "cidade_destino": "MG ", "data_entrega": "30/01/2026" },
    {"nota_fiscal": "200594 ", "destinatario": "35514416000102 - QUALIMMED COM ATAC MEDICAMENTO MA HOS LT ", "transportador": "AZUL ", "cidade_destino": "PE ", "data_entrega": "06/02/2026" },
    {"nota_fiscal": "200894 ", "destinatario": "73524928000149 - ALLMED SERVICOS MEDICOS S S LTDA ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "09/02/2026" },
    {"nota_fiscal": "199857 ", "destinatario": "10541396000138 - CYN FARMA DISTRIBUIDORA LTDA - ME ", "transportador": "LATAM ", "cidade_destino": "RO ", "data_entrega": "27/01/2026" },
