@@ -18,11 +18,11 @@
     { "status": "Total", "quantidade": 85, "valor": "514827,34" }
  ],
   "transportadores": [
-    { "transportador": "Azul", "chegada": "00:00", "saida": "00:00", "agendado": "10:00" },
-    { "transportador": "Latam", "chegada": "00:00", "saida": "00:00", "agendado": "10:00" },
-    { "transportador": "Azurelog", "chegada": "00:00", "saida": "00:00", "agendado": "10:30" },
-    { "transportador": "Tecmar", "chegada": "00:00", "saida": "00:00", "agendado": "11:00" },
-    { "transportador": "Logdi", "chegada": "00:00", "saida": "00:00", "agendado": "11:00" },
+    { "transportador": "Azul", "chegada": "", "saida": "", "agendado": "10:00" },
+    { "transportador": "Latam", "chegada": "", "saida": "", "agendado": "10:00" },
+    { "transportador": "Azurelog", "chegada": "", "saida": "", "agendado": "10:30" },
+    { "transportador": "Tecmar", "chegada": "", "saida": "", "agendado": "11:00" },
+    { "transportador": "Logdi", "chegada": "", "saida": "", "agendado": "11:00" },
     { "transportador": "Translovato", "chegada": "", "saida": "", "agendado": "14:00" },
     { "transportador": "Patrus", "chegada": "", "saida": "", "agendado": "14:30" },
     { "transportador": "Gran Cargo", "chegada": "", "saida": "", "agendado": "15:00" },
@@ -171,3 +171,4 @@
     "ttl_minutes": 720
   }
 }
+
