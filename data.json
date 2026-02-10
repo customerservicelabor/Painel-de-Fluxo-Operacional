@@ -1,5 +1,5 @@
 {
-  "updated_at": "10/02/2026 09:36",
+  "updated_at": "10/02/2026 10:18",
   "kpis": {
     "notas_em_atraso": 23,
     "previstas_para_hoje": 100,
@@ -19,7 +19,7 @@
  ],
   "transportadores": [
     { "transportador": "Azul", "chegada": "", "saida": "", "agendado": "10:00" },
-    { "transportador": "Latam", "chegada": "", "saida": "", "agendado": "10:00" },
+    { "transportador": "Latam", "chegada": "10:00", "saida": "", "agendado": "10:00" },
     { "transportador": "Azurelog", "chegada": "", "saida": "", "agendado": "10:30" },
     { "transportador": "Tecmar", "chegada": "", "saida": "", "agendado": "11:00" },
     { "transportador": "Logdi", "chegada": "", "saida": "", "agendado": "11:00" },
