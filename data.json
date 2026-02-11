@@ -50,8 +50,8 @@
    {"nota_fiscal": "200450 ", "destinatario": "43307039000169 - ALAMO DIST MEDICO HOSPITALAR LTDA ", "transportador": "LATAM ", "previsao_entrega": "10/02/2026","ocorrencia": "Atrasado" },
    {"nota_fiscal": "200510 ", "destinatario": "61486650041378 - DIAGNOSTICOS DA AMERICA ", "transportador": "TGL ", "previsao_entrega": "03/02/2026","ocorrencia": "Atrasado" },
    {"nota_fiscal": "200458 ", "destinatario": "38370336000119 - LINEHOSP MEDICAL COM PROD HOSP LTDA ", "transportador": "TRANSLOVATO ", "previsao_entrega": "10/02/2026","ocorrencia": "Atrasado" },
-   {"nota_fiscal": "200661 ", "destinatario": "67729178000572 - COMERCIAL CIRURGICA RIOCLARENSE LTDA ", "transportador": "TRANSLOVATO ", "previsao_entrega": "09/02/2026","ocorrencia": "Atrasado" }
-   {"nota_fiscal": "199234 ", "destinatario": "27699258000184 - CEB SOLUCOES AMBIENTAIS LTDA ", "previsao_entrega": "00/01/1900","ocorrencia": "Atrasado
+   {"nota_fiscal": "200661 ", "destinatario": "67729178000572 - COMERCIAL CIRURGICA RIOCLARENSE LTDA ", "transportador": "TRANSLOVATO ", "previsao_entrega": "09/02/2026","ocorrencia": "Atrasado" },
+   {"nota_fiscal": "199234 ", "destinatario": "27699258000184 - CEB SOLUCOES AMBIENTAIS LTDA ", "previsao_entrega": "00/01/1900","ocorrencia": "Atrasado"}
 
 
 
@@ -171,3 +171,4 @@
     "ttl_minutes": 720
   }
 }
+
