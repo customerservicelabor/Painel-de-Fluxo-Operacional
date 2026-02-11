@@ -1,5 +1,5 @@
 {
-  "updated_at": "11/02/2026 08:35",
+  "updated_at": "11/02/2026 10:20",
   "kpis": {
     "notas_em_atraso": 31,
     "previstas_para_hoje": 80,
@@ -18,16 +18,16 @@
     { "status": "Total", "quantidade": 19, "valor": "114565,82" }
  ],
   "transportadores": [
-    { "transportador": "Azul", "chegada": "00:00", "saida": "00:00", "agendado": "10:00" },
-    { "transportador": "Latam", "chegada": "00:00", "saida": "00:00", "agendado": "10:00" },
-    { "transportador": "Azurelog", "chegada": "00:00", "saida": "00:00", "agendado": "10:30" },
-    { "transportador": "Tecmar", "chegada": "00:00", "saida": "00:00", "agendado": "11:00" },
-    { "transportador": "Logdi", "chegada": "00:00", "saida": "00:00", "agendado": "11:00" },
-    { "transportador": "Translovato", "chegada": "00:00", "saida": "00:00", "agendado": "14:00" },
-    { "transportador": "Patrus", "chegada": "00:00", "saida": "00:00", "agendado": "14:30" },
-    { "transportador": "Gran Cargo", "chegada": "00:00", "saida": "00:00", "agendado": "15:00" },
-    { "transportador": "Schreiber", "chegada": "00:00", "saida": "00:00", "agendado": "16:30" },
-    { "transportador": "TGL", "chegada": "00:00", "saida": "00:00", "agendado": "17:00" }
+    { "transportador": "Azul", "chegada": "-", "saida": "-", "agendado": "10:00" },
+    { "transportador": "Latam", "chegada": "-", "saida": "-", "agendado": "10:00" },
+    { "transportador": "Azurelog", "chegada": "-", "saida": "-", "agendado": "10:30" },
+    { "transportador": "Tecmar", "chegada": "-", "saida": "-", "agendado": "11:00" },
+    { "transportador": "Logdi", "chegada": "-", "saida": "-", "agendado": "11:00" },
+    { "transportador": "Translovato", "chegada": "-", "saida": "-", "agendado": "14:00" },
+    { "transportador": "Patrus", "chegada": "-", "saida": "-", "agendado": "14:30" },
+    { "transportador": "Gran Cargo", "chegada": "-", "saida": "-", "agendado": "15:00" },
+    { "transportador": "Schreiber", "chegada": "-", "saida": "-", "agendado": "16:30" },
+    { "transportador": "TGL", "chegada": "-", "saida": "-", "agendado": "17:00" }
   ],
  "notas_em_atraso": [
    {"nota_fiscal": "199819 ", "destinatario": "35230010000106 - REPIFARMA COML MEDICAMENTOS LTDA ", "transportador": "LOGDI ", "previsao_entrega": "10/02/2026","ocorrencia": "Atrasado" },
