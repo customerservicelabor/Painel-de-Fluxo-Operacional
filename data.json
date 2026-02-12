@@ -153,7 +153,7 @@
    {"nota_fiscal": "200680 ", "destinatario": "44268493000110 - CIRURGICA ABREU LTDA ", "transportador": "PATRUS ", "cidade_destino": "MG ", "data_entrega": "10/02/2026" },
    {"nota_fiscal": "200712 ", "destinatario": "40446855000165 - CVDE  JA VET DIAGNOSTICO LTDA ", "transportador": "PATRUS ", "cidade_destino": "MG ", "data_entrega": "10/02/2026" },
    {"nota_fiscal": "200700 ", "destinatario": "43090089000137 - BIOVIX ARTIGOS PARA LABORATORIOS LTDA ", "transportador": "TRANSLOVATO ", "cidade_destino": "ES ", "data_entrega": "09/02/2026" }
-   {"nota_fiscal": "200771 ", "destinatario": "17812790000102 - ALIANCA MEDICAL COM MAT HOSP LTDA ", "cidade_destino": "BA09/02/2026
+   {"nota_fiscal": "200771 ", "destinatario": "17812790000102 - ALIANCA MEDICAL COM MAT HOSP LTDA ", "cidade_destino": "BA", "data_entrega": "09/02/2026"},
    {"nota_fiscal": "200775 ", "destinatario": "01272659000160 - CACV CLINIC ANGIOLOGI CIRURGI VASCULA LT ", "transportador": "PATRUS ", "cidade_destino": "SP ", "data_entrega": "11/02/2026" }
 
 
@@ -171,3 +171,4 @@
     "ttl_minutes": 720
   }
 }
+
