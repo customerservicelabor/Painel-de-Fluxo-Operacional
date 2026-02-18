@@ -1,5 +1,5 @@
 {
-  "updated_at": "18/02/2026 17:25",
+  "updated_at": "18/02/2026 17:27",
   "kpis": {
     "notas_em_atraso": 18,
     "previstas_para_hoje": 57,
@@ -47,7 +47,7 @@
    {"nota_fiscal": "200453 ", "destinatario": "14944236000190 - GANEM SERVICOS MEDICOS LTDA ", "transportador": "LATAM ", "previsao_entrega": "13/02/2026","ocorrencia": "Atrasado" },
    {"nota_fiscal": "200176 ", "destinatario": "30847267000180 - CLINICALABALBCAMARAO (73189) ", "transportador": "LOGDI ", "previsao_entrega": "12/02/2026","ocorrencia": "Atrasado" },
    {"nota_fiscal": "200977 ", "destinatario": "50008812002014 - VALECLIN LABORATORIO DE ANALISES CLINICAS LTDA. ", "transportador": "SCHREIBER ", "previsao_entrega": "11/02/2026","ocorrencia": "Atrasado" },
-   {"nota_fiscal": "200951 ", "destinatario": "16566588000185 - SERMED COMERCIO DE MATERIAL HO ", "previsao_entrega": "16/02/2026","ocorrencia": "Atrasado"}
+   {"nota_fiscal": "200951 ", "destinatario": "16566588000185 - SERMED COMERCIO DE MATERIAL HO ", "transportador": "PATRUS ", "previsao_entrega": "16/02/2026","ocorrencia": "Atrasado" }
 
 
 
@@ -171,4 +171,3 @@
     "ttl_minutes": 720
   }
 }
-
