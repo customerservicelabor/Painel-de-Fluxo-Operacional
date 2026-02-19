@@ -70,7 +70,7 @@
   ],
   "notas_previstas_hoje": [
    {"nota_fiscal": "201265 ", "destinatario": "24512324000177 - CEPAC - CENTRO PAULISTA DE ANALISES CLINICAS EIRELI - ME ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "13/02/2026" }
-   {"nota_fiscal": "201203 ", "destinatario": "12267003000175 - CELAPE - CENTRO LABORATORIAL PERIOLO ", "cidade_destino": "PR13/02/2026
+   {"nota_fiscal": "201203 ", "destinatario": "12267003000175 - CELAPE - CENTRO LABORATORIAL PERIOLO ", "cidade_destino": "PR" , "13/02/2026"},
    {"nota_fiscal": "200234 ", "destinatario": "20088088000152 - REAL NORTE BR LTDA ", "transportador": "LOGDI ", "cidade_destino": "PA ", "data_entrega": "" },
    {"nota_fiscal": "200164 ", "destinatario": "21245728000153 - LABLUZ SERVICOS LABORATORIAIS LTDA ", "transportador": "PATRUS ", "cidade_destino": "CE ", "data_entrega": "" },
    {"nota_fiscal": "200323 ", "destinatario": "15218561000139 - NNMED DISTRIBUICAO IMP. E EXP. DE MED LT ", "transportador": "TECMAR ", "cidade_destino": "PB ", "data_entrega": "" },
@@ -171,3 +171,4 @@
     "ttl_minutes": 720
   }
 }
+
