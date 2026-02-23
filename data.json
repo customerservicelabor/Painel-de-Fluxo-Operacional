@@ -1,21 +1,21 @@
 {
-  "updated_at": "23/02/2026 10:55",
+  "updated_at": "23/02/2026 12:22",
   "kpis": {
     "notas_em_atraso": 21,
     "previstas_para_hoje": 81,
     "entregues_hoje": 45
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 1, "valor": "3648" },
-    { "status": "Alvará Sanitário", "quantidade": 4, "valor": "17805,77" },
-    { "status": "Bloqueado por regra", "quantidade": 2, "valor": "3694,03" },
-    { "status": "Análise de Crédito", "quantidade": 8, "valor": "218535,24" },
-    { "status": "Total em Disputa", "quantidade": 15, "valor": "243683,04" },
+    { "status": "Aguardando Liberação", "quantidade": 2, "valor": "63593" },
+    { "status": "Alvará Sanitário", "quantidade": 3, "valor": "14507,86" },
+    { "status": "Bloqueado por regra", "quantidade": 3, "valor": "6493,38" },
+    { "status": "Análise de Crédito", "quantidade": 9, "valor": "223259,56" },
+    { "status": "Total em Disputa", "quantidade": 17, "valor": "307853,8" },
     { "status": "Aguard. Envio Separação", "quantidade": 0, "valor": "0" },
-    { "status": "Em Separação", "quantidade": 8, "valor": "38046,25" },
-    { "status": "Separado", "quantidade": 1, "valor": "2801,43" },
-    { "status": "Faturado", "quantidade": 11, "valor": "23549" },
-    { "status": "Total", "quantidade": 20, "valor": "64396,68" }
+    { "status": "Em Separação", "quantidade": 13, "valor": "51629,07" },
+    { "status": "Separado", "quantidade": 2, "valor": "23956,3" },
+    { "status": "Faturado", "quantidade": 25, "valor": "71751,14" },
+    { "status": "Total", "quantidade": 40, "valor": "147336,51" }
  ],
   "transportadores": [
     { "transportador": "Azul", "chegada": "", "saida": "", "agendado": "10:00" },
@@ -183,7 +183,7 @@
 
 
 
-  ],
+ ],
   "tv_alert": {
     "enabled": true,
     "id": "Nova Transportadora: JAMEF",
@@ -194,5 +194,3 @@
     "ttl_minutes": 720
   }
 }
-
-
