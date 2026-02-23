@@ -1,5 +1,5 @@
 {
-  "updated_at": "23/02/2026 08:15",
+  "updated_at": "23/02/2026 08:26",
   "kpis": {
     "notas_em_atraso": 29,
     "previstas_para_hoje": 79,
@@ -194,4 +194,3 @@
     "ttl_minutes": 720
   }
 }
-
