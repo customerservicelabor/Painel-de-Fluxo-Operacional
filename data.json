@@ -18,9 +18,9 @@
     { "status": "Total", "quantidade": 5, "valor": "8300,25" }
  ],
   "transportadores": [
-    { "transportador": "Azul", "chegada": "10:25", "saida": "11:10", "agendado": "10:00" },
-    { "transportador": "Latam", "chegada": "10:00", "saida": "11:00", "agendado": "10:00" },
-    { "transportador": "Azurelog", "chegada": "12:41", "saida": "13:48", "agendado": "10:30" },
+    { "transportador": "Azul", "chegada": "", "saida": "", "agendado": "10:00" },
+    { "transportador": "Latam", "chegada": "", "saida": "", "agendado": "10:00" },
+    { "transportador": "Azurelog", "chegada": "", "saida": "", "agendado": "10:30" },
     { "transportador": "Tecmar", "chegada": "", "saida": "", "agendado": "11:00" },
     { "transportador": "Logdi", "chegada": "", "saida": "", "agendado": "11:00" },
     { "transportador": "Translovato", "chegada": "", "saida": "", "agendado": "14:00" },
@@ -194,3 +194,4 @@
     "ttl_minutes": 720
   }
 }
+
