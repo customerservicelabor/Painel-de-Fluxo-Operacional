@@ -185,12 +185,13 @@
 
   ],
   "tv_alert": {
-    "enabled": false,
-    "id": "2026-01-28-fedex-descredenciada-01",
+    "enabled": true,
+    "id": "Nova Transportadora: JAMEF",
     "title": "Atenção",
-    "message": "Atenção: Devido ao encerramento das operações da FedEx no Brasil, a transportadora já está descredenciada do nosso sistema. Entretanto, as notas faturadas por essa transportadora e que estão em rota de entrega podem sofrer atrasos nos prazos. Já estamos monitorando e comunicando os clientes sobre possíveis gargalos. Procure o Customer Service.",
-    "duration_seconds": 20,
+    "message": "Atenção: nova transportadora liberada. A Jamef já está disponível para envio de encomendas urgentes. Fiquem atentos aos orçamentos.",
+    "duration_seconds": 25,
     "created_at": "2026-01-28T14:10:00-03:00",
     "ttl_minutes": 720
   }
 }
+
