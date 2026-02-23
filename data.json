@@ -1,5 +1,5 @@
 {
-  "updated_at": "23/02/2026 08:26",
+  "updated_at": "23/02/2026 08:31",
   "kpis": {
     "notas_em_atraso": 29,
     "previstas_para_hoje": 79,
@@ -151,8 +151,8 @@
    {"nota_fiscal": "201711 ", "destinatario": "05783807000161 - MINUZZI & PINTARELLI PRODUTOS MEDICO-HOS ", "transportador": "ARLETE ", "cidade_destino": "PR ", "data_entrega": "" },
    {"nota_fiscal": "200615 ", "destinatario": "04836964393 - REIMAGNO VIEIRA MACIEL ", "transportador": "LOGDI ", "cidade_destino": "CE ", "data_entrega": "20/02/2026" },
    {"nota_fiscal": "200955 ", "destinatario": "04811428000175 - LABORATORIO GUADALUPE S S LTDA ", "transportador": "LOGDI ", "cidade_destino": "PA ", "data_entrega": "" },
-   {"nota_fiscal": "200978 ", "destinatario": "00207500000107 - MULTIMEDIC COMERCIAL LTDA ", "transportador": "PATRUS ", "cidade_destino": "MG ", "data_entrega": "11/02/2026" }
-   {"nota_fiscal": "200951 ", "destinatario": "16566588000185 - SERMED COMERCIO DE MATERIAL HO ", "cidade_destino": "RJ
+   {"nota_fiscal": "200978 ", "destinatario": "00207500000107 - MULTIMEDIC COMERCIAL LTDA ", "transportador": "PATRUS ", "cidade_destino": "MG ", "data_entrega": "11/02/2026" },
+   {"nota_fiscal": "200951 ", "destinatario": "16566588000185 - SERMED COMERCIO DE MATERIAL HO ", "transportador": "PATRUS ", "cidade_destino": "RJ ", "data_entrega": "" },
    {"nota_fiscal": "200967 ", "destinatario": "07038425000139 - LABORATORIO CLEMENTINO FRAGA LTDA ", "transportador": "PATRUS ", "cidade_destino": "CE ", "data_entrega": "" },
    {"nota_fiscal": "200910 ", "destinatario": "34957154000198 - J F COM.PROD MEDICOS E HOSP. ", "transportador": "LATAM ", "cidade_destino": "AM ", "data_entrega": "20/02/2026" },
    {"nota_fiscal": "201076 ", "destinatario": "00874929000140 - MED CENTER COMERCIAL LTDA ", "transportador": "PATRUS ", "cidade_destino": "MG ", "data_entrega": "" },
@@ -168,8 +168,8 @@
    {"nota_fiscal": "201460 ", "destinatario": "04539279019407 - CIENTIFICALAB PRODUTOS LABORATORIAIS E S ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "20/02/2026" },
    {"nota_fiscal": "201409 ", "destinatario": "35174786000148 - CANEM ARTIGOS MEDICOS HOSPITALARES LTDA ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "18/02/2026" },
    {"nota_fiscal": "201377 ", "destinatario": "46066743856 - RAISSA FABIANA PEREIRA DI MICHELE ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "18/02/2026" },
-   {"nota_fiscal": "201461 ", "destinatario": "09220982000100 - MED FLEX COMERCIO DE EQUIPAMENTOS MEDICO ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "18/02/2026" }
-   {"nota_fiscal": "201390 ", "destinatario": "07298851000101 - MONTE ALTO COM MED CORRELATOS LTDA EPP ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "18/02/2026" }
+   {"nota_fiscal": "201461 ", "destinatario": "09220982000100 - MED FLEX COMERCIO DE EQUIPAMENTOS MEDICO ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "18/02/2026" },
+   {"nota_fiscal": "201390 ", "destinatario": "07298851000101 - MONTE ALTO COM MED CORRELATOS LTDA EPP ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "18/02/2026" },
    {"nota_fiscal": "200172 ", "destinatario": "51683046000193 - R R ARAUJO LTDA ", "transportador": "LOGDI ", "cidade_destino": "PA ", "data_entrega": "" }
 
 
