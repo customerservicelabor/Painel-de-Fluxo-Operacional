@@ -24,9 +24,9 @@
       --topRowMinH: 360px;
 
       /* Destaques pedidos */
-      --mustard:#D4A017;         /* mostarda */
-      --totalGreen:#22c55e;      /* verde vivo */
-      --blinkYellow:#FFE731;     /* rgb(255,231,49) */
+      --mustard:#D4A017;
+      --totalGreen:#22c55e;
+      --blinkYellow:#FFE731;
 
       /* Gestão de pedidos (refino TV) */
       --icon: rgba(11,27,58,.72);
@@ -37,6 +37,12 @@
       --staleWarnBd: rgba(245,158,11,.45);
       --staleBadBg:  rgba(239,68,68,.22);
       --staleBadBd:  rgba(239,68,68,.45);
+
+      /* Performance */
+      --perfBadBg: rgba(236, 72, 153, .18); /* rosa */
+      --perfBadBd: rgba(236, 72, 153, .35);
+      --perfGoodBg: rgba(34, 197, 94, .14);
+      --perfGoodBd: rgba(34, 197, 94, .28);
     }
 
     *{ box-sizing:border-box; }
@@ -310,22 +316,69 @@
       50% { background: rgba(255,231,49,.45); }
     }
     .blinkWarn{ animation: blinkWarn 1.45s ease-in-out infinite; }
-    /* =============================================== */
 
-    /* ===== Transportadores: menos contraste + fonte menor ===== */
-    .panelTranspSoft .scroll{
-      background: rgba(11,27,58,.03);
+    /* ===== Performance por Transportadora (REFINO TV) ===== */
+    .panelPerfSoft .scroll{ background: rgba(11,27,58,.03); }
+    .panelPerfSoft th, .panelPerfSoft td{ font-size: 12px; }
+    .panelPerfSoft th{ color: rgba(11,27,58,.70); }
+    .panelPerfSoft td{ color: rgba(11,27,58,.92); }
+
+    .tblPerf thead th{
+      position: sticky;
+      top: 0;
+      z-index: 5;
+      background: rgba(12,18,38,.96);
+      color: rgba(233,236,245,.92);
+      text-transform: uppercase;
+      letter-spacing: .35px;
+      font-size: 11px;
+      border-bottom: 1px solid rgba(255,255,255,.12);
+      backdrop-filter: blur(8px);
     }
-    .panelTranspSoft td, .panelTranspSoft th{
-      font-size: 12px;
+    .tblPerf td:nth-child(n+2):nth-child(-n+5),
+    .tblPerf thead th:nth-child(n+2):nth-child(-n+5){
+      text-align: right;
     }
-    .panelTranspSoft th{
-      color: rgba(11,27,58,.70);
+    .tblPerf td:last-child, .tblPerf thead th:last-child{ text-align: right; }
+
+    .perfBadge{
+      display:inline-flex;
+      align-items:center;
+      justify-content:flex-end;
+      gap:8px;
+      font-weight: 950;
+      padding: 6px 10px;
+      border-radius: 999px;
+      border: 1px solid rgba(11,27,58,.12);
+      background: rgba(11,27,58,.06);
+      min-width: 104px;
     }
-    .panelTranspSoft td{
-      color: rgba(11,27,58,.90);
+    .perfBadge.good{
+      border-color: var(--perfGoodBd);
+      background: var(--perfGoodBg);
     }
-    /* ========================================================= */
+    .perfBadge.bad{
+      border-color: var(--perfBadBd);
+      background: var(--perfBadBg);
+    }
+    .perfDot{
+      width:8px;
+      height:8px;
+      border-radius:50%;
+      background: rgba(34,197,94,.85);
+      box-shadow: 0 0 0 4px rgba(34,197,94,.12);
+    }
+    .perfDot.bad{
+      background: rgba(239,68,68,.85);
+      box-shadow: 0 0 0 4px rgba(239,68,68,.12);
+    }
+    .rowPerfBad{
+      background: linear-gradient(90deg,
+        rgba(236, 72, 153, .12),
+        rgba(239, 68, 68, .10)
+      );
+    }
+    /* =============================================== */
 
     .panelDark{
       background: rgba(255,255,255,.06);
@@ -441,9 +494,7 @@
       white-space: nowrap;
     }
 
-    .tvAlertBody{
-      padding: 18px 18px 16px;
-    }
+    .tvAlertBody{ padding: 18px 18px 16px; }
 
     .tvAlertMsg{
       font-size: clamp(18px, 2.2vw, 26px);
@@ -514,23 +565,26 @@
           </div>
         </div>
 
-        <div class="panel panelLight panelTranspSoft" id="panelTransp" style="min-height: 0; flex: 1 1 auto;">
+        <!-- NOVO QUADRO: PERFORMANCE POR TRANSPORTADORA -->
+        <div class="panel panelLight panelPerfSoft" id="panelPerf" style="min-height: 0; flex: 1 1 auto;">
           <div class="ph">
-            <div class="ttl">Status de Coleta Transportadores</div>
-            <div class="badge" id="transpCount">— itens</div>
+            <div class="ttl">Performance por Transportadora</div>
+            <div class="badge" id="perfCount">— itens</div>
           </div>
 
-          <div class="scroll" id="scrollTransp">
-            <table>
+          <div class="scroll headDark" id="scrollPerf">
+            <table class="tblPerf">
               <thead>
                 <tr>
-                  <th>Transportador</th>
-                  <th>Chegada</th>
-                  <th>Saída</th>
-                  <th>Horário da coleta</th>
+                  <th>Transportadora</th>
+                  <th>Notas</th>
+                  <th>Entregas</th>
+                  <th>Atrasados</th>
+                  <th>Pendente de entrega</th>
+                  <th>Performance</th>
                 </tr>
               </thead>
-              <tbody id="tbodyTransp"></tbody>
+              <tbody id="tbodyPerf"></tbody>
             </table>
           </div>
         </div>
@@ -625,7 +679,7 @@
   <script>
     const fmtBRL = new Intl.NumberFormat('pt-BR', { style:'currency', currency:'BRL' });
 
-    /* ========= (NOVO) PARSER FLEXÍVEL: aceita dd/mm/aaaa, yyyy-mm-dd, yyyy/mm/dd ========= */
+    /* ========= PARSER FLEXÍVEL: aceita dd/mm/aaaa, yyyy-mm-dd, yyyy/mm/dd ========= */
     function parseDateFlex(s){
       if(!s) return null;
       s = String(s).trim();
@@ -774,7 +828,9 @@
       const carriers = new Set();
       for (const it of (data.notas_em_atraso || [])) carriers.add(normalizeCarrier(it.transportador));
       for (const it of (data.notas_previstas_hoje || [])) carriers.add(normalizeCarrier(it.transportador));
-      for (const it of (data.transportadores || [])) carriers.add(normalizeCarrier(it.transportador || it.nome));
+      for (const it of (data.performance_transportadoras || [])){
+        carriers.add(normalizeCarrier(it.transportadora || it.transportador || it.nome));
+      }
 
       const sorted = Array.from(carriers).filter(Boolean).sort((a,b) => a.localeCompare(b, 'pt-BR'));
       const sel = document.getElementById('carrierFilter');
@@ -805,6 +861,19 @@
       return Number.isFinite(n) ? n : 0;
     }
 
+    function parsePercentFlex(v){
+      if (typeof v === 'number' && Number.isFinite(v)) return v;
+      const s = String(v ?? '').trim();
+      if (!s) return NaN;
+      const cleaned = s
+        .replace('%','')
+        .replace(/\./g,'')
+        .replace(',','.')
+        .trim();
+      const n = Number(cleaned);
+      return Number.isFinite(n) ? n : NaN;
+    }
+
     function svgIcon(kind){
       const common = 'xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"';
 
@@ -832,30 +901,69 @@
       return 'tag';
     }
 
-    function renderTransportadores(data){
-      const list = Array.isArray(data.transportadores) ? data.transportadores : [];
-      const body = document.getElementById('tbodyTransp');
+    /* ================= PERFORMANCE POR TRANSPORTADORA =================
+       Espera no data.json:
+       performance_transportadoras: [
+         { transportadora:"Azul", notas:123, entregas:120, atrasados:2, pendente_de_entrega:1, performance:"98,45%" }
+       ]
+       Aceita também chaves alternativas: transportador/nome, pendente/pendente_entrega/performance_num
+    =================================================================== */
+    function renderPerformance(data){
+      const list = Array.isArray(data.performance_transportadoras) ? data.performance_transportadoras : [];
+      const body = document.getElementById('tbodyPerf');
       body.innerHTML = '';
 
-      document.getElementById('transpCount').textContent = `${list.length} itens`;
+      document.getElementById('perfCount').textContent = `${list.length} itens`;
 
-      for (const it of list){
-        const nome = (it.transportador ?? it.nome ?? '').toString().trim();
-        const chegada = (it.chegada ?? '').toString().trim();
-        const saida = (it.saida ?? '').toString().trim();
-        const agendado = (it.agendado ?? '').toString().trim();
+      // Ordena por performance desc (opcional)
+      const sorted = list.slice().sort((a,b) => {
+        const pa = parsePercentFlex(a.performance ?? a.performance_pct ?? a.performance_num);
+        const pb = parsePercentFlex(b.performance ?? b.performance_pct ?? b.performance_num);
+        const na = Number.isFinite(pa) ? pa : -999;
+        const nb = Number.isFinite(pb) ? pb : -999;
+        return nb - na;
+      });
 
-        let cls = '';
-        if (saida) cls = 'rowLeft';
-        else if (chegada) cls = 'rowArrived';
+      for (const it of sorted){
+        const nome = String(it.transportadora ?? it.transportador ?? it.nome ?? '').trim() || '—';
+
+        const notas = Number(it.notas ?? it.total_notas ?? 0) || 0;
+        const entregas = Number(it.entregas ?? it.total_entregas ?? 0) || 0;
+        const atrasados = Number(it.atrasados ?? it.em_atraso ?? 0) || 0;
+        const pendente = Number(it.pendente_de_entrega ?? it.pendente_entrega ?? it.pendente ?? 0) || 0;
+
+        const pct = parsePercentFlex(it.performance ?? it.performance_pct ?? it.performance_num);
+        const perf = Number.isFinite(pct) ? pct : 0;
+
+        const isBad = perf < 95;
+
+        // Intensidade rosa->vermelho quando < 95
+        // 95 => leve rosa | 85 => vermelho mais forte
+        const intensity = Math.max(0, Math.min(1, (95 - perf) / 10)); // 0..1
+        const bg = isBad
+          ? `linear-gradient(90deg, rgba(236,72,153, ${0.10 + 0.18*intensity}), rgba(239,68,68, ${0.10 + 0.18*intensity}))`
+          : `linear-gradient(90deg, rgba(34,197,94, .08), rgba(34,197,94, .04))`;
 
         const tr = document.createElement('tr');
-        tr.className = cls;
+        if (isBad) tr.classList.add('rowPerfBad');
+        tr.style.backgroundImage = bg;
+
+        const perfLabel = Number.isFinite(pct)
+          ? `${perf.toFixed(2).replace('.', ',')}%`
+          : (String(it.performance || '').trim() || '—');
+
         tr.innerHTML = `
-          <td><strong>${nome || '—'}</strong></td>
-          <td>${chegada || '—'}</td>
-          <td>${saida || '—'}</td>
-          <td>${agendado || '—'}</td>
+          <td><strong>${nome}</strong></td>
+          <td>${notas.toLocaleString('pt-BR')}</td>
+          <td>${entregas.toLocaleString('pt-BR')}</td>
+          <td>${atrasados.toLocaleString('pt-BR')}</td>
+          <td>${pendente.toLocaleString('pt-BR')}</td>
+          <td>
+            <span class="perfBadge ${isBad ? 'bad' : 'good'}">
+              <span class="perfDot ${isBad ? 'bad' : ''}"></span>
+              ${perfLabel}
+            </span>
+          </td>
         `;
         body.appendChild(tr);
       }
@@ -1008,7 +1116,6 @@
       const hojeBody = document.getElementById('tbodyHoje');
       hojeBody.innerHTML = '';
 
-      /* (CORRIGIDO) aqui era hojeAll; agora aplica filtro corretamente */
       for (const it of hojeList){
         const dataEntrega = (it.data_entrega ?? it.Data_de_entrega ?? '').toString().trim();
         const cidade = (it.cidade_destino ?? it.Cidade_Destino ?? '').toString().trim();
@@ -1085,25 +1192,25 @@
       const leftCol = document.getElementById('leftCol');
       const panelPedidos = document.getElementById('panelPedidos');
       const cardsBox = document.getElementById('cardsBox');
-      const panelTransp = document.getElementById('panelTransp');
-      const scrollTransp = document.getElementById('scrollTransp');
-      if (!leftCol || !panelPedidos || !cardsBox || !panelTransp || !scrollTransp) return;
+      const panelPerf = document.getElementById('panelPerf');
+      const scrollPerf = document.getElementById('scrollPerf');
+      if (!leftCol || !panelPedidos || !cardsBox || !panelPerf || !scrollPerf) return;
 
       leftCol.style.height = 'auto';
-      panelTransp.style.height = 'auto';
+      panelPerf.style.height = 'auto';
 
       const pedidosH = panelPedidos.offsetHeight;
       leftCol.style.height = pedidosH + 'px';
 
       const gap = 14;
       const cardsH = cardsBox.offsetHeight;
-      const transpH = Math.max(160, pedidosH - cardsH - gap);
+      const perfH = Math.max(160, pedidosH - cardsH - gap);
 
-      panelTransp.style.height = transpH + 'px';
+      panelPerf.style.height = perfH + 'px';
 
-      const ph = panelTransp.querySelector('.ph');
+      const ph = panelPerf.querySelector('.ph');
       const phH = ph ? ph.offsetHeight : 56;
-      scrollTransp.style.maxHeight = (transpH - phH) + 'px';
+      scrollPerf.style.maxHeight = (perfH - phH) + 'px';
     }
 
     function syncNotesToPedidosHeight(){
@@ -1132,7 +1239,7 @@
     function initAutoScrollTV() {
       startAutoScroll(document.getElementById('scrollAtraso'), { speedPxPerTick: 1, tickMs: 92, pauseAtEndMs: 2400, pauseAtTopMs: 900 });
       startAutoScroll(document.getElementById('scrollHoje'),   { speedPxPerTick: 1, tickMs: 92, pauseAtEndMs: 2400, pauseAtTopMs: 900 });
-      startAutoScroll(document.getElementById('scrollTransp'), { speedPxPerTick: 1, tickMs: 95, pauseAtEndMs: 2200, pauseAtTopMs: 900 });
+      startAutoScroll(document.getElementById('scrollPerf'),   { speedPxPerTick: 1, tickMs: 95, pauseAtEndMs: 2200, pauseAtTopMs: 900 });
     }
 
     async function load(){
@@ -1150,7 +1257,9 @@
 
       buildCarrierOptions(data);
 
-      renderTransportadores(data);
+      // NOVO: performance por transportadora
+      renderPerformance(data);
+
       renderPedidos(data);
 
       const sel = document.getElementById('carrierFilter');
