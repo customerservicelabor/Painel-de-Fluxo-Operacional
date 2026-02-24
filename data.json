@@ -1,5 +1,5 @@
 {
-  "updated_at": "24/02/2026 07:57",
+  "updated_at": "24/02/2026 08:00",
   "kpis": {
     "notas_em_atraso": 37,
     "previstas_para_hoje": 93,
@@ -177,7 +177,7 @@
    {"nota_fiscal": "201498 ", "destinatario": "61486650035300 - DIAGNOSTICOS DA AMERICA S.A ", "transportador": "TGL ", "cidade_destino": "PR ", "data_entrega": "23/02/2026" },
    {"nota_fiscal": "201479 ", "destinatario": "43396342000185 - MED FLEX IND COM EQUIP MEDICOS LTDA ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "23/02/2026" },
    {"nota_fiscal": "201475 ", "destinatario": "04539279019407 - CIENTIFICALAB PRODUTOS LABORATORIAIS E S ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "" },
-
+   {"nota_fiscal": "201494 ", "destinatario": "25029414000174 - RM HOSP. LTDA ", "transportador": "SCHREIBER ", "cidade_destino": "GO ", "data_entrega": "20/02/2026" }
 
 
 
