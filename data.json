@@ -1,5 +1,5 @@
 {
-  "updated_at": "24/02/2026 07:53",
+  "updated_at": "24/02/2026 07:57",
   "kpis": {
     "notas_em_atraso": 37,
     "previstas_para_hoje": 93,
@@ -185,7 +185,7 @@
 
  ],
   "tv_alert": {
-    "enabled": true,
+    "enabled": false,
     "id": "Nova Transportadora: JAMEF",
     "title": "Atenção",
     "message": "Atenção: nova transportadora liberada. A Jamef já está disponível para envio de encomendas urgentes. Fiquem atentos aos orçamentos.",
