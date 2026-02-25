@@ -246,7 +246,7 @@
       color: rgba(233,236,245,.95);
       text-transform:uppercase;
       letter-spacing:.35px;
-      font-size:11px;
+      font-size:11px; /* <- será sobrescrito no AJUSTE abaixo */
       border-bottom: 1px solid rgba(255,255,255,.12);
     }
 
@@ -319,6 +319,8 @@
 
     /* ===== Performance por Transportadora (REFINO TV) ===== */
     .panelPerfSoft .scroll{ background: rgba(11,27,58,.03); }
+
+    /* (ANTES era 12px) — vai ser sobrescrito no AJUSTE abaixo */
     .panelPerfSoft th, .panelPerfSoft td{ font-size: 12px; }
     .panelPerfSoft th{ color: rgba(11,27,58,.70); }
     .panelPerfSoft td{ color: rgba(11,27,58,.92); }
@@ -331,13 +333,13 @@
       color: rgba(233,236,245,.92);
       text-transform: uppercase;
       letter-spacing: .35px;
-      font-size: 11px;
+      font-size: 11px; /* <- será sobrescrito no AJUSTE abaixo */
       border-bottom: 1px solid rgba(255,255,255,.12);
       backdrop-filter: blur(8px);
     }
     .tblPerf td:nth-child(n+2):nth-child(-n+5),
     .tblPerf thead th:nth-child(n+2):nth-child(-n+5){
-      text-align: right;
+      text-align: right; /* <- será sobrescrito no AJUSTE abaixo */
     }
     .tblPerf td:last-child, .tblPerf thead th:last-child{ text-align: right; }
 
@@ -352,6 +354,7 @@
       border: 1px solid rgba(11,27,58,.12);
       background: rgba(11,27,58,.06);
       min-width: 104px;
+      color: var(--ink);
     }
     .perfBadge.good{
       border-color: var(--perfGoodBd);
@@ -526,35 +529,24 @@
     .pill.good{ background: rgba(34,197,94,.18); }
     .pill.bad{ background: rgba(239,68,68,.20); }
 
-    /* ======================================================
-       AJUSTES SOLICITADOS:
-       - Performance: fonte maior (tabela inteira)
-       - Centralizar todas as colunas (inclusive numéricas)
-       - Badge centralizado e maior
-    ======================================================= */
-    .tblPerf th,
-    .tblPerf td{
-      font-size: 16px !important;
-      text-align: center !important;
-      padding-top: 12px !important;
-      padding-bottom: 12px !important;
-    }
+    /* ==========================================================
+       AJUSTES SOLICITADOS (Gestão de Pedidos + Performance)
+       - Pedidos: corpo 16px / cabeçalho 14px
+       - Performance: corpo 16px / cabeçalho 14px + centralizado
+    ========================================================== */
 
-    .tblPerf td:first-child strong{
-      font-size: 14px !important;
-    }
+    /* Gestão de Pedidos */
+    .tblPedidos thead th{ font-size: 14px !important; }
+    .tblPedidos td{ font-size: 16px !important; }
+    .pedidoText{ font-size: 16px !important; }
 
-    .tblPerf td:last-child,
-    .tblPerf thead th:last-child{
-      text-align: center !important;
-    }
-
-    .perfBadge{
-      font-size: 14px !important;
-      min-width: 118px;
-      justify-content: center;
-    }
-    /* ====================================================== */
+    /* Performance por Transportadora */
+    .panelPerfSoft th, .panelPerfSoft td{ font-size: 16px !important; }
+    .tblPerf thead th{ font-size: 14px !important; }
+    .tblPerf td, .tblPerf th{ text-align: center !important; }
+    .tblPerf tbody td{ color: var(--ink) !important; }
+    .perfBadge{ justify-content: center !important; font-size: 14px; }
+    /* ========================================================== */
   </style>
 </head>
 
@@ -602,7 +594,7 @@
             <div class="badge" id="perfCount">— itens</div>
           </div>
 
-          <!-- (CORRIGIDO) removido headDark daqui para não “puxar” fonte branca -->
+          <!-- (IMPORTANTE) removido "headDark" daqui para não forçar texto branco -->
           <div class="scroll" id="scrollPerf">
             <table class="tblPerf">
               <thead>
@@ -932,13 +924,7 @@
       return 'tag';
     }
 
-    /* ================= PERFORMANCE POR TRANSPORTADORA =================
-       Espera no data.json:
-       performance_transportadoras: [
-         { transportadora:"Azul", notas:123, entregas:120, atrasados:2, pendente_de_entrega:1, performance:"98,45%" }
-       ]
-       Aceita também chaves alternativas: transportador/nome, pendente/pendente_entrega/performance_num
-    =================================================================== */
+    /* ================= PERFORMANCE POR TRANSPORTADORA ================= */
     function renderPerformance(data){
       const list = Array.isArray(data.performance_transportadoras) ? data.performance_transportadoras : [];
       const body = document.getElementById('tbodyPerf');
@@ -946,7 +932,6 @@
 
       document.getElementById('perfCount').textContent = `${list.length} itens`;
 
-      // Ordena por performance desc (opcional)
       const sorted = list.slice().sort((a,b) => {
         const pa = parsePercentFlex(a.performance ?? a.performance_pct ?? a.performance_num);
         const pb = parsePercentFlex(b.performance ?? b.performance_pct ?? b.performance_num);
@@ -968,9 +953,7 @@
 
         const isBad = perf < 95;
 
-        // Intensidade rosa->vermelho quando < 95
-        // 95 => leve rosa | 85 => vermelho mais forte
-        const intensity = Math.max(0, Math.min(1, (95 - perf) / 10)); // 0..1
+        const intensity = Math.max(0, Math.min(1, (95 - perf) / 10));
         const bg = isBad
           ? `linear-gradient(90deg, rgba(236,72,153, ${0.10 + 0.18*intensity}), rgba(239,68,68, ${0.10 + 0.18*intensity}))`
           : `linear-gradient(90deg, rgba(34,197,94, .08), rgba(34,197,94, .04))`;
@@ -1288,7 +1271,7 @@
 
       buildCarrierOptions(data);
 
-      // NOVO: performance por transportadora
+      // performance por transportadora
       renderPerformance(data);
 
       renderPedidos(data);
@@ -1326,4 +1309,3 @@
   </script>
 </body>
 </html>
-
