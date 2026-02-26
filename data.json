@@ -1,7 +1,7 @@
 {
-  "updated_at": "26/02/2026 08:01",
+  "updated_at": "26/02/2026 08:03",
   "kpis": {
-    "notas_em_atraso": 42,
+    "notas_em_atraso": 41,
     "previstas_para_hoje": 103,
     "entregues_hoje": 82
   },
@@ -74,7 +74,7 @@
    {"nota_fiscal": "200854 ", "destinatario": "35517881000105 - MEDICAR MED LTDA ", "transportador": "LOGDI ", "previsao_entrega": "25/02/2026","ocorrencia": "Atrasado" },
    {"nota_fiscal": "200974 ", "destinatario": "17106184000171 - DENTAL FEIRENSE MATERIAIS ODONTOLOGICOS ", "transportador": "LOGDI ", "previsao_entrega": "24/02/2026","ocorrencia": "Atrasado" },
    {"nota_fiscal": "201531 ", "destinatario": "39365257000182 - MEDSEN REPR COM PROD HOSPITALARES LTDA ", "transportador": "ARLETE ", "previsao_entrega": "25/02/2026","ocorrencia": "Atrasado" }
-   {"nota_fiscal": "201952 ", "destinatario": "21812728000198 - C N ALMEIDA JUNIOR DISTRIBUIDORA MEDICAM ", "previsao_entrega": "00/01/1900","ocorrencia": "Atrasado
+
 
 
 
