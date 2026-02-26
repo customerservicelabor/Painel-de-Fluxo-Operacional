@@ -1,21 +1,21 @@
 {
-  "updated_at": "26/02/2026 16:35",
+  "updated_at": "26/02/2026 16:54",
   "kpis": {
     "notas_em_atraso": 28,
     "previstas_para_hoje": 106,
     "entregues_hoje": 83
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 2, "valor": "30666,1" },
-    { "status": "Alvará Sanitário", "quantidade": 10, "valor": "26872,86" },
+    { "status": "Aguardando Liberação", "quantidade": 2, "valor": "5611,1" },
+    { "status": "Alvará Sanitário", "quantidade": 12, "valor": "36361,46" },
     { "status": "Bloqueado por regra", "quantidade": 3, "valor": "3225,13" },
-    { "status": "Análise de Crédito", "quantidade": 18, "valor": "138384,23" },
-    { "status": "Total em Disputa", "quantidade": 33, "valor": "199148,32" },
-    { "status": "Aguard. Envio Separação", "quantidade": 0, "valor": "0" },
-    { "status": "Em Separação", "quantidade": 72, "valor": "772453,25" },
-    { "status": "Separado", "quantidade": 1, "valor": "5500" },
+    { "status": "Análise de Crédito", "quantidade": 14, "valor": "76983,47" },
+    { "status": "Total em Disputa", "quantidade": 31, "valor": "122181,16" },
+    { "status": "Aguard. Envio Separação", "quantidade": 2, "valor": "49328,62" },
+    { "status": "Em Separação", "quantidade": 79, "valor": "878583,51" },
+    { "status": "Separado", "quantidade": 2, "valor": "9836,15" },
     { "status": "Faturado", "quantidade": 78, "valor": "643012,14" },
-    { "status": "Total", "quantidade": 151, "valor": "1420965,39" }
+    { "status": "Total", "quantidade": 161, "valor": "1580760,42" }
  ],
   "performance_transportadoras": [
    { "transportadora": "Azul", "notas": "221", "entregas": "151", "atrasados": "1", "pendente_de_entrega": "70", "performance": "99,34%" },
