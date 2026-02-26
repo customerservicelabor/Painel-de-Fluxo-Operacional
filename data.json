@@ -1,5 +1,5 @@
 {
-  "updated_at": "26/02/2026 07:56",
+  "updated_at": "26/02/2026 08:01",
   "kpis": {
     "notas_em_atraso": 42,
     "previstas_para_hoje": 103,
@@ -180,7 +180,24 @@
    {"nota_fiscal": "201295 ", "destinatario": "39288518000108 - RIO MATERIAIS LTDA ", "transportador": "AZUL ", "cidade_destino": "BA ", "data_entrega": "25/02/2026" },
    {"nota_fiscal": "201300 ", "destinatario": "40929669000187 - MEDDY SOLUCOES INTEGRADAS EM SAUDE LTDA ", "transportador": "AZUL ", "cidade_destino": "RJ ", "data_entrega": "20/02/2026" },
    {"nota_fiscal": "201274 ", "destinatario": "03047218000190 - LABCLIN LAB ANAL CLINICAS RIO POMBA LT ", "transportador": "TRANSLOVATO ", "cidade_destino": "MG ", "data_entrega": "20/02/2026" },
-   {"nota_fiscal": "201395 ", "destinatario": "47742451000168 - KRP DISTRIBUIDORA DE MEDICAMENTOS LTDA ", "transportador": "AZURELOG ", "cidade_destino": "GO ", "data_entrega": "23/02/2026" }
+   {"nota_fiscal": "201395 ", "destinatario": "47742451000168 - KRP DISTRIBUIDORA DE MEDICAMENTOS LTDA ", "transportador": "AZURELOG ", "cidade_destino": "GO ", "data_entrega": "23/02/2026" },
+   {"nota_fiscal": "201428 ", "destinatario": "60979509000150 - E B COMERCIO DE MATERIAIS HOSPITALARES L ", "transportador": "AZUL ", "cidade_destino": "TO ", "data_entrega": "24/02/2026" },
+   {"nota_fiscal": "201532 ", "destinatario": "00733472000153 - DINAMICA ODONTO HOSPITALAR LTDA EPP ", "transportador": "PATRUS ", "cidade_destino": "SP ", "data_entrega": "23/02/2026" },
+   {"nota_fiscal": "201533 ", "destinatario": "07298851000101 - MONTE ALTO COM MED CORRELATOS LTDA EPP ", "transportador": "AZUL ", "cidade_destino": "SP ", "data_entrega": "20/02/2026" },
+   {"nota_fiscal": "201599 ", "destinatario": "25164814000192 - MUNDO MEDICO PRODS HOSPS EIRELI-EPP ", "transportador": "ARLETE ", "cidade_destino": "PR ", "data_entrega": "" },
+   {"nota_fiscal": "201607 ", "destinatario": "31378288000409 - MEDICAMENTAL HOSPITALAR LTDA ", "transportador": "PATRUS ", "cidade_destino": "RJ ", "data_entrega": "" },
+   {"nota_fiscal": "201668 ", "destinatario": "85345528000155 - QUIMIOLAB COM E IMP DE PROD DE LAB LTDA ", "transportador": "TGL ", "cidade_destino": "SC ", "data_entrega": "" },
+   {"nota_fiscal": "201669 ", "destinatario": "06643570000186 - AGROZOOTEC IND. E COM. DE PROD. AGROPEC. ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "25/02/2026" },
+   {"nota_fiscal": "201703 ", "destinatario": "06643570000186 - AGROZOOTEC IND. E COM. DE PROD. AGROPEC. ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "25/02/2026" },
+   {"nota_fiscal": "201752 ", "destinatario": "68258268000161 - BAND COM MEDICAMENTOS PROD P SAUD EIRELI ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "" },
+   {"nota_fiscal": "201757 ", "destinatario": "72315153000139 - CASA MEDICA COM. PROD. HOSPITALARES LTDA ", "transportador": "ARLETE ", "cidade_destino": "PR ", "data_entrega": "" },
+   {"nota_fiscal": "201773 ", "destinatario": "31354710000305 - IACSP ANALISES CLNICAS ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "25/02/2026" },
+   {"nota_fiscal": "201737 ", "destinatario": "10349885000273 - OCEAN PROD. HOSP. LTDA ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "25/02/2026" },
+   {"nota_fiscal": "201741 ", "destinatario": "06264065000120 - VITAL LAB ", "transportador": "TRANSLOVATO ", "cidade_destino": "SP ", "data_entrega": "25/02/2026" },
+   {"nota_fiscal": "202017 ", "destinatario": "51328113000151 - EUROLLABE DISTRIBUIDORA HOSPITALAR LTDA ", "transportador": "ARLETE ", "cidade_destino": "PR ", "data_entrega": "" },
+   {"nota_fiscal": "201972 ", "destinatario": "39887396000176 - ROYAL TECH DISTRIB HOSP FARMACEUTICA LT ", "transportador": "ARLETE ", "cidade_destino": "PR ", "data_entrega": "" },
+   {"nota_fiscal": "201126 ", "destinatario": "40269624000123 - RV DISTRIBUIDORA DE MEDICAMENTOS E PRODU ", "transportador": "LOGDI ", "cidade_destino": "MA ", "data_entrega": "24/02/2026" },
+   {"nota_fiscal": "201665 ", "destinatario": "44134704000122 - L E COMERCIO DE MEDICAMENTOS E MAT HOSPITALARES LTDA ", "transportador": "TGL ", "cidade_destino": "PR ", "data_entrega": "" }
 
 
 
