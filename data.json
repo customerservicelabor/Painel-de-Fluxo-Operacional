@@ -1,7 +1,6 @@
-{
   "updated_at": "26/02/2026 23:58",
   "kpis": {
-    "notas_em_atraso": 47,
+    "notas_em_atraso": 50,
     "previstas_para_hoje": 84,
     "entregues_hoje": 56
   },
@@ -79,10 +78,10 @@
    {"nota_fiscal": "201722 ", "destinatario": "12236887000109 - PAULO SACOMAN FILHO - ME ", "transportador": "ARLETE ", "previsao_entrega": "26/02/2026","ocorrencia": "Atrasado" },
    {"nota_fiscal": "201757 ", "destinatario": "72315153000139 - CASA MEDICA COM. PROD. HOSPITALARES LTDA ", "transportador": "ARLETE ", "previsao_entrega": "26/02/2026","ocorrencia": "Atrasado" },
    {"nota_fiscal": "202017 ", "destinatario": "51328113000151 - EUROLLABE DISTRIBUIDORA HOSPITALAR LTDA ", "transportador": "ARLETE ", "previsao_entrega": "26/02/2026","ocorrencia": "Atrasado" },
-   {"nota_fiscal": "201972 ", "destinatario": "39887396000176 - ROYAL TECH DISTRIB HOSP FARMACEUTICA LT ", "transportador": "ARLETE ", "previsao_entrega": "26/02/2026","ocorrencia": "Atrasado" }
- ", "previsao_entrega": "25/02/2026","ocorrencia": "Atrasado
- ", "previsao_entrega": "26/02/2026","ocorrencia": "Atrasado
-
+   {"nota_fiscal": "201972 ", "destinatario": "39887396000176 - ROYAL TECH DISTRIB HOSP FARMACEUTICA LT ", "transportador": "ARLETE ", "previsao_entrega": "26/02/2026","ocorrencia": "Atrasado" },
+   {"nota_fiscal": "201531 ", "destinatario": "39365257000182 - MEDSEN REPR COM PROD HOSPITALARES LTDA ", "transportador": "ARLETE ", "previsao_entrega": "25/02/2026","ocorrencia": "Atrasado" },
+   {"nota_fiscal": "201607 ", "destinatario": "31378288000409 - MEDICAMENTAL HOSPITALAR LTDA ", "transportador": "PATRUS ", "previsao_entrega": "26/02/2026","ocorrencia": "Atrasado" },
+   {"nota_fiscal": "201665 ", "destinatario": "44134704000122 - L E COMERCIO DE MEDICAMENTOS E MAT HOSPITALARES LTDA ", "transportador": "TGL ", "previsao_entrega": "26/02/2026","ocorrencia": "Atrasado" }
 
 
 
