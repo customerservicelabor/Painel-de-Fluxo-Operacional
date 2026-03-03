@@ -1,5 +1,5 @@
 {
-  "updated_at": "03/03/2026 08:18",
+  "updated_at": "03/03/2026 08:30",
   "kpis": {
     "notas_em_atraso": 34,
     "previstas_para_hoje": 94,
@@ -64,9 +64,9 @@
    {"nota_fiscal": "201878 ", "destinatario": "00814559000155 - SURYA DENTAL COM.PROD.ODONT. ", "transportador": "ARLETE ", "previsao_entrega": "27/02/2026","ocorrencia": "Atrasado" },
    {"nota_fiscal": "201897 ", "destinatario": "47365250000199 - BONATTO DISTRIBUIDORA  DE MEDICAMENTOS L ", "transportador": "TGL ", "previsao_entrega": "02/03/2026","ocorrencia": "Atrasado" },
    {"nota_fiscal": "201915 ", "destinatario": "04539279019407 - CIENTIFICALAB PRODUTOS LABORATORIAIS E S ", "transportador": "SCHREIBER ", "previsao_entrega": "02/03/2026","ocorrencia": "Atrasado" },
-   {"nota_fiscal": "202070 ", "destinatario": "00453863000203 - MEDTOUR ADMINISTRADORA DE BENEFICIOS E E ", "transportador": "JAMEF ", "previsao_entrega": "02/03/2026","ocorrencia": "Atrasado" }
-   {"nota_fiscal": "202301 ", "destinatario": "21137157000133 - DISTRIBUIDORA ESPLANADA LTDA ", "previsao_entrega": "00/01/1900","ocorrencia": "Atrasado"},
-   {"nota_fiscal": "202318 ", "destinatario": "14929894000103 - PROTESE VIDA COMERCIO DE MATERIAIS HOSPI ", "previsao_entrega": "00/01/1900","ocorrencia": "Atrasado"}
+   {"nota_fiscal": "202070 ", "destinatario": "00453863000203 - MEDTOUR ADMINISTRADORA DE BENEFICIOS E E ", "transportador": "JAMEF ", "previsao_entrega": "02/03/2026","ocorrencia": "Atrasado" },
+   {"nota_fiscal": "202301 ", "destinatario": "21137157000133 - DISTRIBUIDORA ESPLANADA LTDA ", "transportador": "PATRUS ", "previsao_entrega": "00/01/1900","ocorrencia": "Atrasado" },
+   {"nota_fiscal": "202318 ", "destinatario": "14929894000103 - PROTESE VIDA COMERCIO DE MATERIAIS HOSPI ", "transportador": "PATRUS ", "previsao_entrega": "00/01/1900","ocorrencia": "Atrasado" }
 
 
 
@@ -214,4 +214,3 @@
     "ttl_minutes": 720
   }
 }
-
