@@ -1,5 +1,5 @@
 {
-  "updated_at": "05/03/2026 09:11",
+  "updated_at": "05/03/2026 09:17",
   "kpis": {
     "notas_em_atraso": 33,
     "previstas_para_hoje": 102,
@@ -63,9 +63,9 @@
    {"nota_fiscal": "201954 ", "destinatario": "51578226000105 - VITIMED COM PRODUTOS PARA SAUDE LTDA ", "transportador": "ARLETE ", "previsao_entrega": "04/03/2026","ocorrencia": "Atrasado" },
    {"nota_fiscal": "202161 ", "destinatario": "45983087000100 - SERVICO DE HEMOTERAPIA 9 DE JULHO LTDA ", "transportador": "AZUL ", "previsao_entrega": "04/03/2026","ocorrencia": "Atrasado" },
    {"nota_fiscal": "202024 ", "destinatario": "89620298000146 - LABORATORIO ROSETTI LTDA ", "transportador": "TGL ", "previsao_entrega": "04/03/2026","ocorrencia": "Atrasado" },
-   {"nota_fiscal": "202008 ", "destinatario": "45727574000102 - PET CARE DIAGNOSTICO LTDA ", "transportador": "JAMEF ", "previsao_entrega": "04/03/2026","ocorrencia": "Atrasado" }
-   {"nota_fiscal": "202546 ", "destinatario": "05783807000161 - MINUZZI & PINTARELLI PRODUTOS MEDICO-HOS ", "previsao_entrega": "00/01/1900","ocorrencia": "Atrasado
-   {"nota_fiscal": "202432 ", "destinatario": "05783807000161 - MINUZZI & PINTARELLI PRODUTOS MEDICO-HOS ", "previsao_entrega": "00/01/1900","ocorrencia": "Atrasado
+   {"nota_fiscal": "202008 ", "destinatario": "45727574000102 - PET CARE DIAGNOSTICO LTDA ", "transportador": "JAMEF ", "previsao_entrega": "04/03/2026","ocorrencia": "Atrasado" },
+   {"nota_fiscal": "202546 ", "destinatario": "05783807000161 - MINUZZI & PINTARELLI PRODUTOS MEDICO-HOS ", "transportador": "ARLETE ", "previsao_entrega": "00/01/1900","ocorrencia": "Atrasado" },
+   {"nota_fiscal": "202432 ", "destinatario": "05783807000161 - MINUZZI & PINTARELLI PRODUTOS MEDICO-HOS ", "transportador": "ARLETE ", "previsao_entrega": "00/01/1900","ocorrencia": "Atrasado" }
 
 
 
