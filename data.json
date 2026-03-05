@@ -1,5 +1,5 @@
 {
-  "updated_at": "05/03/2026 12:23",
+  "updated_at": "05/03/2026 12:25",
   "kpis": {
     "notas_em_atraso": 24,
     "previstas_para_hoje": 104,
@@ -54,9 +54,9 @@
    {"nota_fiscal": "201807 ", "destinatario": "92818954005436 - LABORATORIO NOBEL S.A ", "transportador": "ARLETE ", "previsao_entrega": "27/02/2026","ocorrencia": "Atrasado" },
    {"nota_fiscal": "202022 ", "destinatario": "33475145000106 - FUNCIONAL MAT HOSP ASSESSORIAS LTDA ", "transportador": "ARLETE ", "previsao_entrega": "04/03/2026","ocorrencia": "Atrasado" },
    {"nota_fiscal": "201954 ", "destinatario": "51578226000105 - VITIMED COM PRODUTOS PARA SAUDE LTDA ", "transportador": "ARLETE ", "previsao_entrega": "04/03/2026","ocorrencia": "Atrasado" },
-   {"nota_fiscal": "202024 ", "destinatario": "89620298000146 - LABORATORIO ROSETTI LTDA ", "transportador": "TGL ", "previsao_entrega": "04/03/2026","ocorrencia": "Atrasado" }
-   {"nota_fiscal": "202546 ", "destinatario": "05783807000161 - MINUZZI & PINTARELLI PRODUTOS MEDICO-HOS ", "previsao_entrega": "00/01/1900","ocorrencia": "Atrasado
-   {"nota_fiscal": "202432 ", "destinatario": "05783807000161 - MINUZZI & PINTARELLI PRODUTOS MEDICO-HOS ", "previsao_entrega": "00/01/1900","ocorrencia": "Atrasado
+   {"nota_fiscal": "202024 ", "destinatario": "89620298000146 - LABORATORIO ROSETTI LTDA ", "transportador": "TGL ", "previsao_entrega": "04/03/2026","ocorrencia": "Atrasado" },
+   {"nota_fiscal": "202546 ", "destinatario": "05783807000161 - MINUZZI & PINTARELLI PRODUTOS MEDICO-HOS ", "transportador": "ARLETE ", "previsao_entrega": "00/01/1900","ocorrencia": "Atrasado" },
+   {"nota_fiscal": "202432 ", "destinatario": "05783807000161 - MINUZZI & PINTARELLI PRODUTOS MEDICO-HOS ", "transportador": "ARLETE ", "previsao_entrega": "00/01/1900","ocorrencia": "Atrasado" }
 
 
 
