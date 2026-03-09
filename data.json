@@ -202,7 +202,7 @@
    {"nota_fiscal": "202503 ", "destinatario": "09720594000180 - BENFAZ ATACADISTA LTDA ", "transportador": "TGL ", "cidade_destino": "RS ", "data_entrega": "" },
    {"nota_fiscal": "202601 ", "destinatario": "34024955000109 - W.J. ANDRADE COMERCIO DE ARTIGOS HOSPITALARES EIRELI ", "transportador": "TGL ", "cidade_destino": "PR ", "data_entrega": "" },
    {"nota_fiscal": "202589 ", "destinatario": "30870164000130 - TRIADE HEALTH COM PROD HOSPITALARES LTDA ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "06/03/2026" },
-   {"nota_fiscal": "202537 ", "destinatario": "18633316000186 - A.M.R SANTOS PRODUTOS VETERINARIOS LTDA ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "06/03/2026" },
+   {"nota_fiscal": "202537 ", "destinatario": "18633316000186 - A.M.R SANTOS PRODUTOS VETERINARIOS LTDA ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "06/03/2026" }
  ],
   "tv_alert": {
     "enabled": false,
@@ -214,3 +214,4 @@
     "ttl_minutes": 720
   }
 }
+
