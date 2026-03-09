@@ -1,7 +1,7 @@
 {
-  "updated_at": "09/03/2026 08:29",
+  "updated_at": "09/03/2026 08:39",
   "kpis": {
-    "notas_em_atraso": 33,
+    "notas_em_atraso": 32,
     "previstas_para_hoje": 114,
     "entregues_hoje": 76
   },
@@ -63,9 +63,9 @@
    {"nota_fiscal": "201807 ", "destinatario": "92818954005436 - LABORATORIO NOBEL S.A ", "transportador": "ARLETE ", "previsao_entrega": "27/02/2026","ocorrencia": "Atrasado" },
    {"nota_fiscal": "201915 ", "destinatario": "04539279019407 - CIENTIFICALAB PRODUTOS LABORATORIAIS E S ", "transportador": "SCHREIBER ", "previsao_entrega": "05/03/2026","ocorrencia": "Atrasado" },
    {"nota_fiscal": "202022 ", "destinatario": "33475145000106 - FUNCIONAL MAT HOSP ASSESSORIAS LTDA ", "transportador": "ARLETE ", "previsao_entrega": "04/03/2026","ocorrencia": "Atrasado" },
-   {"nota_fiscal": "200538 ", "destinatario": "49130101000176 - JEC COMERCIO E REPRESENTACAO LTDA ", "transportador": "LOGDI ", "previsao_entrega": "06/03/2026","ocorrencia": "Atrasado" },
    {"nota_fiscal": "202449 ", "destinatario": "89169379000171 - LABORATORIO BIOANALISES S/S LTDA ", "transportador": "TGL ", "previsao_entrega": "06/03/2026","ocorrencia": "Atrasado" },
    {"nota_fiscal": "202500 ", "destinatario": "17763528000115 - BIMED EXAMES COMPLEMENTARES NR7 LTDA ", "transportador": "JAMEF ", "previsao_entrega": "06/03/2026","ocorrencia": "Atrasado" }
+
 
 
 
@@ -159,8 +159,8 @@
    {"nota_fiscal": "51 ", "destinatario": "01005728001140 - LABOR - HEALTH SUPPLY ", "transportador": "PATRUS ", "cidade_destino": "SC ", "data_entrega": "" },
    {"nota_fiscal": "202035 ", "destinatario": "26792580000190 - DIHOL DISTRIBUIDORA HOSPITALAR LTDA ", "transportador": "AZURELOG ", "cidade_destino": "MT ", "data_entrega": "03/03/2026" },
    {"nota_fiscal": "202573 ", "destinatario": "48515470000114 - REGINA MARIA ZANETI CORDEIRO 26516332835 ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "06/03/2026" },
-   {"nota_fiscal": "201513 ", "destinatario": "14921470000100 - LABORATORIO ARAGUAIA ", "transportador": "AZURELOG ", "cidade_destino": "TO ", "data_entrega": "02/03/2026" }
-   {"nota_fiscal": "200538 ", "destinatario": "49130101000176 - JEC COMERCIO E REPRESENTACAO LTDA ", "cidade_destino": "SC
+   {"nota_fiscal": "201513 ", "destinatario": "14921470000100 - LABORATORIO ARAGUAIA ", "transportador": "AZURELOG ", "cidade_destino": "TO ", "data_entrega": "02/03/2026" },
+   {"nota_fiscal": "200538 ", "destinatario": "49130101000176 - JEC COMERCIO E REPRESENTACAO LTDA ", "transportador": "LOGDI ", "cidade_destino": "SC ", "data_entrega": "" },
    {"nota_fiscal": "201697 ", "destinatario": "35230010000106 - REPIFARMA COML MEDICAMENTOS LTDA ", "transportador": "PATRUS ", "cidade_destino": "CE ", "data_entrega": "05/03/2026" },
    {"nota_fiscal": "201935 ", "destinatario": "24607646000108 - EXAM COM. DE PRODUTOS LABORATORAIS E HOS ", "transportador": "AZURELOG ", "cidade_destino": "TO ", "data_entrega": "04/03/2026" },
    {"nota_fiscal": "201888 ", "destinatario": "07620987000196 - CIRURGICA GRAPIUNA COMERCIO PRODUTOS HOS ", "transportador": "PATRUS ", "cidade_destino": "BA ", "data_entrega": "06/03/2026" },
@@ -202,7 +202,7 @@
    {"nota_fiscal": "202503 ", "destinatario": "09720594000180 - BENFAZ ATACADISTA LTDA ", "transportador": "TGL ", "cidade_destino": "RS ", "data_entrega": "" },
    {"nota_fiscal": "202601 ", "destinatario": "34024955000109 - W.J. ANDRADE COMERCIO DE ARTIGOS HOSPITALARES EIRELI ", "transportador": "TGL ", "cidade_destino": "PR ", "data_entrega": "" },
    {"nota_fiscal": "202589 ", "destinatario": "30870164000130 - TRIADE HEALTH COM PROD HOSPITALARES LTDA ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "06/03/2026" },
-   {"nota_fiscal": "202537 ", "destinatario": "18633316000186 - A.M.R SANTOS PRODUTOS VETERINARIOS LTDA ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "06/03/2026" }
+   {"nota_fiscal": "202537 ", "destinatario": "18633316000186 - A.M.R SANTOS PRODUTOS VETERINARIOS LTDA ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "06/03/2026" },
  ],
   "tv_alert": {
     "enabled": false,
@@ -214,4 +214,3 @@
     "ttl_minutes": 720
   }
 }
-
