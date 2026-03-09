@@ -202,7 +202,7 @@
    {"nota_fiscal": "200861 ", "destinatario": "44852012000110 - JCM COM ATAC MEDIC INSTR USO MED CIR HOSP LABORATORIOS LTDA ", "transportador": "GRAN CARGO ", "cidade_destino": "AM ", "data_entrega": "" },
    {"nota_fiscal": "201840 ", "destinatario": "47401028000102 - FARMA NORTE LTDA ", "transportador": "PATRUS ", "cidade_destino": "MG ", "data_entrega": "04/03/2026" },
    {"nota_fiscal": "201927 ", "destinatario": "02108076000160 - LABORATORIO SAO GERALDO RIO POMBA LTDA ", "transportador": "JAMEF ", "cidade_destino": "MG ", "data_entrega": "05/03/2026" },
-   {"nota_fiscal": "202081 ", "destinatario": "42705829000130 - HUB HEALTH DISTRIBUIDORA DE PRODUTOS HOS ", "transportador": "LATAM ", "cidade_destino": "CE ", "data_entrega": "02/03/2026" },
+   {"nota_fiscal": "202081 ", "destinatario": "42705829000130 - HUB HEALTH DISTRIBUIDORA DE PRODUTOS HOS ", "transportador": "LATAM ", "cidade_destino": "CE ", "data_entrega": "02/03/2026" }
  ],
   "tv_alert": {
     "enabled": false,
@@ -214,3 +214,4 @@
     "ttl_minutes": 720
   }
 }
+
