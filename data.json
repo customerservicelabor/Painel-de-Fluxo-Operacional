@@ -1,5 +1,5 @@
 {
-  "updated_at": "12/03/2026 15:30",
+  "updated_at": "12/03/2026 15:40",
   "kpis": {
     "notas_em_atraso": 15,
     "previstas_para_hoje": 114,
@@ -205,10 +205,10 @@
    {"nota_fiscal": "202921 ", "destinatario": "54480260000130 - PROTEGE MED.C.M.MED.E HOSPITALAR LTDA ", "transportador": "SCHREIBER ", "cidade_destino": "SP ", "data_entrega": "11/03/2026" },
    {"nota_fiscal": "202363 ", "destinatario": "08077211000134 - T S COML MEDICAMENTOS REPRESENTACAO LTDA ", "transportador": "JAMEF ", "cidade_destino": "CE ", "data_entrega": "" },
    {"nota_fiscal": "202799 ", "destinatario": "54607222000104 - INOVA MED PRODUTOS HOSP E LABORAT LTDA ", "transportador": "TGL ", "cidade_destino": "PR ", "data_entrega": "" },
-   {"nota_fiscal": "202870 ", "destinatario": "10474392000184 - NOVAMED PRODUTOS PARA SAUDE- ME ", "transportador": "TGL ", "cidade_destino": "PR ", "data_entrega": "11/03/2026" }
-   {"nota_fiscal": "203151 ", "destinatario": "35293198807 - MICHELE PADOVAN ", "cidade_destino": "SP12/03/2026
-   {"nota_fiscal": "203086 ", "destinatario": "26390164823 - MARCELO FORNAZARO MUNOZ GAETA ", "cidade_destino": "SP12/03/2026
-   {"nota_fiscal": "203123 ", "destinatario": "20423730000102 - ALFA EXCELENCIA DIAGNOSTICA LTDA ", "cidade_destino": "SP12/03/2026
+   {"nota_fiscal": "202870 ", "destinatario": "10474392000184 - NOVAMED PRODUTOS PARA SAUDE- ME ", "transportador": "TGL ", "cidade_destino": "PR ", "data_entrega": "11/03/2026" },
+   {"nota_fiscal": "203151 ", "destinatario": "35293198807 - MICHELE PADOVAN ", "transportador": "ATIVA ", "cidade_destino": "SP ", "data_entrega": "12/03/2026" },
+   {"nota_fiscal": "203086 ", "destinatario": "26390164823 - MARCELO FORNAZARO MUNOZ GAETA ", "transportador": "ATIVA ", "cidade_destino": "SP ", "data_entrega": "12/03/2026" },
+   {"nota_fiscal": "203123 ", "destinatario": "20423730000102 - ALFA EXCELENCIA DIAGNOSTICA LTDA ", "transportador": "ATIVA ", "cidade_destino": "SP ", "data_entrega": "12/03/2026" }
 
 
 
