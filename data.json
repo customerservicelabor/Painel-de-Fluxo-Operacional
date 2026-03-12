@@ -1,5 +1,5 @@
 {
-  "updated_at": "12/03/2026 19:19",
+  "updated_at": "12/03/2026 19:41",
   "kpis": {
     "notas_em_atraso": 15,
     "previstas_para_hoje": 114,
@@ -12,9 +12,9 @@
     { "status": "Análise de Crédito", "quantidade": 12, "valor": "141246,58" },
     { "status": "Total em Disputa", "quantidade": 28, "valor": "247815,26" },
     { "status": "Aguard. Envio Separação", "quantidade": 0, "valor": "0" },
-    { "status": "Em Separação", "quantidade": 6, "valor": "138586,51" },
+    { "status": "Em Separação", "quantidade": 3, "valor": "64790,46" },
     { "status": "Separado", "quantidade": 2, "valor": "3,9" },
-    { "status": "Faturado", "quantidade": 111, "valor": "903568,29" },
+    { "status": "Faturado", "quantidade": 114, "valor": "977364,34" },
     { "status": "Total", "quantidade": 119, "valor": "1042158,7" }
  ],
   "performance_transportadoras": [
