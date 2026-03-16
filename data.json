@@ -1,7 +1,7 @@
 {
-  "updated_at": "16/03/2026 12:00",
+  "updated_at": "16/03/2026 12:03",
   "kpis": {
-    "notas_em_atraso": 20,
+    "notas_em_atraso": 18,
     "previstas_para_hoje": 100,
     "entregues_hoje": 75
   },
@@ -50,9 +50,9 @@
    {"nota_fiscal": "201969 ", "destinatario": "15227236000132 - ATOS MEDICA COM REPR PROD MEDICOS HOS LT ", "transportador": "LOGDI ", "previsao_entrega": "13/03/2026","ocorrencia": "Atrasado" },
    {"nota_fiscal": "202548 ", "destinatario": "11406214000189 - TECHMED DISTRIBUIDORA DE PRODUTOS HOSPIT ", "transportador": "JAMEF ", "previsao_entrega": "13/03/2026","ocorrencia": "Atrasado" },
    {"nota_fiscal": "202874 ", "destinatario": "43909380000194 - FARMACIA E DROGARIA ZONA SUL LTDA ", "transportador": "AZUL ", "previsao_entrega": "12/03/2026","ocorrencia": "Atrasado" },
-   {"nota_fiscal": "202955 ", "destinatario": "03951140000133 - DE PAULI COM. REPR. IMPORT. EXPORT. LTDA ", "transportador": "AZUL ", "previsao_entrega": "13/03/2026","ocorrencia": "Atrasado" },
-   {"nota_fiscal": "203273 ", "destinatario": "33475145000106 - FUNCIONAL MAT HOSP ASSESSORIAS LTDA ", "transportador": "ARLETE ", "previsao_entrega": "00/01/1900","ocorrencia": "Atrasado" },
-   {"nota_fiscal": "203199 ", "destinatario": "33475145000106 - FUNCIONAL MAT HOSP ASSESSORIAS LTDA ", "transportador": "ARLETE ", "previsao_entrega": "00/01/1900","ocorrencia": "Atrasado" }
+   {"nota_fiscal": "202955 ", "destinatario": "03951140000133 - DE PAULI COM. REPR. IMPORT. EXPORT. LTDA ", "transportador": "AZUL ", "previsao_entrega": "13/03/2026","ocorrencia": "Atrasado" }
+
+
 
 
 
