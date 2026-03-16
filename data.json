@@ -1,5 +1,5 @@
 {
-  "updated_at": "16/03/2026 08:07",
+  "updated_at": "16/03/2026 08:20",
   "kpis": {
     "notas_em_atraso": 34,
     "previstas_para_hoje": 103,
@@ -145,8 +145,8 @@
    {"nota_fiscal": "202417 ", "destinatario": "13467667000140 - GRANJA BERIMBAU LTDA EPP ", "transportador": "PATRUS ", "cidade_destino": "BA ", "data_entrega": "11/03/2026" },
    {"nota_fiscal": "202532 ", "destinatario": "06965077000182 - AFRAMED PRODUTOS HOSPITALARES LTDA ", "transportador": "AZUL ", "cidade_destino": "RJ ", "data_entrega": "09/03/2026" },
    {"nota_fiscal": "202505 ", "destinatario": "08065240000186 - FELBRA DISTR. DE ART. MED. E HOSP.LTDA ", "transportador": "PATRUS ", "cidade_destino": "MG ", "data_entrega": "10/03/2026" },
-   {"nota_fiscal": "201766 ", "destinatario": "70104344000126 - ENDOMED COM E REP DE MEDICAMENTOS LTDA ", "transportador": "TECMAR ", "cidade_destino": "PB ", "data_entrega": "13/03/2026" }
-   {"nota_fiscal": "200566 ", "destinatario": "15153745000249 - SANTA CASA DE MISERICORDIA DA BAHIA ", "cidade_destino": "SC
+   {"nota_fiscal": "201766 ", "destinatario": "70104344000126 - ENDOMED COM E REP DE MEDICAMENTOS LTDA ", "transportador": "TECMAR ", "cidade_destino": "PB ", "data_entrega": "13/03/2026" },
+   {"nota_fiscal": "200566 ", "destinatario": "15153745000249 - SANTA CASA DE MISERICORDIA DA BAHIA ", "transportador": "LOGDI ", "cidade_destino": "SC ", "data_entrega": "" },
    {"nota_fiscal": "202027 ", "destinatario": "11958026000163 - PRATEC SERVICOS ", "transportador": "PATRUS ", "cidade_destino": "CE ", "data_entrega": "14/03/2026" },
    {"nota_fiscal": "202343 ", "destinatario": "34456947000123 - MINAS DIST DE PROD FARM E PERF LTDA ", "transportador": "CARVALIMA ", "cidade_destino": "RO ", "data_entrega": "13/03/2026" },
    {"nota_fiscal": "202511 ", "destinatario": "49071100000106 - DEZEMBRO HOSPITALAR LTDA ", "transportador": "AZURELOG ", "cidade_destino": "GO ", "data_entrega": "10/03/2026" },
