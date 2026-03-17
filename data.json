@@ -1,5 +1,5 @@
 {
-  "updated_at": "17/03/2026 08:28",
+  "updated_at": "17/03/2026 08:34",
   "kpis": {
     "notas_em_atraso": 26,
     "previstas_para_hoje": 116,
@@ -147,8 +147,8 @@
    {"nota_fiscal": "201774 ", "destinatario": "10445253000122 - VIAMED LTDA ME ", "transportador": "LOGDI ", "cidade_destino": "PB ", "data_entrega": "" },
    {"nota_fiscal": "201807 ", "destinatario": "92818954005436 - LABORATORIO NOBEL S.A ", "transportador": "ARLETE ", "cidade_destino": "RS ", "data_entrega": "" },
    {"nota_fiscal": "200490 ", "destinatario": "15153745000249 - SANTA CASA DE MISERICORDIA DA BAHIA ", "transportador": "LOGDI ", "cidade_destino": "SC ", "data_entrega": "" },
-   {"nota_fiscal": "203121 ", "destinatario": "40524583000174 - TRISUL DISTRIBUIDORA LTDA ", "transportador": "TGL ", "cidade_destino": "RS ", "data_entrega": "" }
-   {"nota_fiscal": "203151 ", "destinatario": "35293198807 - MICHELE PADOVAN ", "cidade_destino": "SP
+   {"nota_fiscal": "203121 ", "destinatario": "40524583000174 - TRISUL DISTRIBUIDORA LTDA ", "transportador": "TGL ", "cidade_destino": "RS ", "data_entrega": "" },
+   {"nota_fiscal": "203151 ", "destinatario": "35293198807 - MICHELE PADOVAN ", "transportador": "ATIVA ", "cidade_destino": "SP ", "data_entrega": "" },
    {"nota_fiscal": "201661 ", "destinatario": "07166697000114 - DIAGNOSTIKUS LABORATORIO LTDA ", "transportador": "TECMAR ", "cidade_destino": "MA ", "data_entrega": "04/03/2026" },
    {"nota_fiscal": "202192 ", "destinatario": "44287334000163 - A HOSPITALAR MATERIAIS E MEDICAMENTOS LTDA ", "transportador": "AZURELOG ", "cidade_destino": "TO ", "data_entrega": "05/03/2026" },
    {"nota_fiscal": "202237 ", "destinatario": "41389750000184 - J LAERCIO SOUZA DE VASCONCELOS &AMP; CIA ", "transportador": "PATRUS ", "cidade_destino": "CE ", "data_entrega": "16/03/2026" },
