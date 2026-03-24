@@ -1,5 +1,5 @@
 {
-  "updated_at": "24/03/2026 18:01",
+  "updated_at": "24/03/2026 18:23",
   "kpis": {
     "notas_em_atraso": 31,
     "previstas_para_hoje": 107,
@@ -11,11 +11,11 @@
     { "status": "Bloqueado por regra", "quantidade": 1, "valor": "305,08" },
     { "status": "Análise de Crédito", "quantidade": 16, "valor": "154325,51" },
     { "status": "Total em Disputa", "quantidade": 30, "valor": "277090,74" },
-    { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "17,5" },
-    { "status": "Em Separação", "quantidade": 33, "valor": "331231,32" },
-    { "status": "Separado", "quantidade": 11, "valor": "19729,06" },
-    { "status": "Faturado", "quantidade": 103, "valor": "510237,51" },
-    { "status": "Total", "quantidade": 148, "valor": "861215,39" }
+    { "status": "Aguard. Envio Separação", "quantidade": 0, "valor": "0" },
+    { "status": "Em Separação", "quantidade": 28, "valor": "301473,17" },
+    { "status": "Separado", "quantidade": 6, "valor": "11545,67" },
+    { "status": "Faturado", "quantidade": 116, "valor": "560279,49" },
+    { "status": "Total", "quantidade": 150, "valor": "873298,33" }
  ],
   "performance_transportadoras": [
    { "transportadora": "Azul", "notas": "319", "entregas": "235", "atrasados": "12", "pendente_de_entrega": "84", "performance": "94,89%" },
