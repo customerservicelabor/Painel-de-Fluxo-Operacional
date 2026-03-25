@@ -21,7 +21,8 @@
 
       --ink:#0b1b3a;
 
-      --topRowMinH: 360px;
+      --topRowMinH: 430px;
+      --bottomPanelH: 430px;
 
       --mustard:#D4A017;
       --totalGreen:#22c55e;
@@ -55,7 +56,7 @@
 
     .wrap{
       max-width: min(1800px, 96vw);
-      margin: 28px auto 60px;
+      margin: 18px auto 28px;
       padding: 0 18px;
     }
 
@@ -64,7 +65,7 @@
       align-items:flex-end;
       justify-content:space-between;
       gap:16px;
-      margin-bottom:18px;
+      margin-bottom:14px;
       flex-wrap:wrap;
     }
 
@@ -130,18 +131,20 @@
     }
 
     .topRow{
-      margin:16px 0 16px;
+      margin:14px 0 14px;
       display:grid;
       grid-template-columns: 1fr 1fr;
       gap: 14px;
-      align-items: start;
+      align-items: stretch;
+      min-height: var(--topRowMinH);
     }
 
     .leftCol{
       display:flex;
       flex-direction:column;
       gap: 14px;
-      height: auto;
+      height: var(--topRowMinH);
+      min-height: var(--topRowMinH);
     }
 
     .cardsBox{
@@ -149,7 +152,7 @@
       background: rgba(255,255,255,.92);
       border:1px solid rgba(255,255,255,.35);
       box-shadow: var(--shadow);
-      padding: 16px 16px;
+      padding: 14px 16px;
       position:relative;
       color: var(--ink);
       overflow:hidden;
@@ -214,10 +217,11 @@
       display:flex;
       flex-direction:column;
       min-height: var(--topRowMinH);
+      height:100%;
     }
 
     .panel .ph{
-      padding: 14px 14px;
+      padding: 12px 14px;
       display:flex;
       align-items:center;
       justify-content:space-between;
@@ -287,6 +291,11 @@
       background: rgba(0,0,0,.04);
       flex: 1 1 auto;
       min-height: 0;
+      scrollbar-width: none;
+    }
+    .scroll::-webkit-scrollbar{
+      width:0;
+      height:0;
     }
 
     .panelLight{
@@ -465,6 +474,8 @@
       background: rgba(255,255,255,.06);
       border: 1px solid rgba(255,255,255,.10);
       color: var(--text);
+      min-height: var(--bottomPanelH);
+      height: var(--bottomPanelH);
     }
 
     .panelDark .ph{
@@ -509,12 +520,12 @@
       display:grid;
       grid-template-columns: 1fr 1fr;
       gap: 14px;
-      margin-top: 14px;
-      align-items: start;
+      margin-top: 12px;
+      align-items: stretch;
     }
 
     .foot{
-      margin-top: 16px;
+      margin-top: 12px;
       color: var(--muted);
       font-size: 12px;
       display:flex;
@@ -725,9 +736,20 @@
     }
 
     @media (max-width: 1200px){
-      .topRow{ grid-template-columns: 1fr; }
+      .topRow{ grid-template-columns: 1fr; min-height: auto; }
       .miniKpis{ grid-template-columns: 1fr; }
-      .leftCol{ height:auto !important; }
+      .leftCol{
+        height:auto !important;
+        min-height:auto !important;
+      }
+      #panelPedidos{
+        height:auto !important;
+        min-height:auto !important;
+      }
+      .panelDark{
+        height:auto !important;
+        min-height: 360px !important;
+      }
     }
 
     @media (max-width: 980px){
@@ -775,7 +797,7 @@
           </div>
         </div>
 
-        <div class="panel panelLight panelPerfSoft" id="panelPerf" style="min-height: 0; flex: 1 1 auto;">
+        <div class="panel panelLight panelPerfSoft" id="panelPerf" style="min-height:0; flex:1 1 auto;">
           <div class="ph">
             <div class="ttl">Performance por Transportadora</div>
             <div class="badge" id="perfCount">— itens</div>
@@ -789,7 +811,7 @@
                   <th>Notas</th>
                   <th>Entregas</th>
                   <th>Atrasados</th>
-                  <th>Pendente de entrega</th>
+                  <th>Pendente de Entrega</th>
                   <th>Performance</th>
                 </tr>
               </thead>
@@ -802,7 +824,6 @@
       <div class="panel panelLight" id="panelPedidos">
         <div class="ph">
           <div class="ttl">Gestão de Pedidos</div>
-
           <div class="headerActions">
             <button class="miniBtn" onclick="openPedidosModal('alvara')">Ver Alvará</button>
             <button class="miniBtn" onclick="openPedidosModal('credito')">Ver Crédito</button>
@@ -810,7 +831,7 @@
           </div>
         </div>
 
-        <div style="flex:1 1 auto;">
+        <div class="scroll" id="scrollPedidos" style="flex:1 1 auto; min-height:0;">
           <table class="tblPedidos">
             <thead>
               <tr>
@@ -860,8 +881,8 @@
                 <th>NF</th>
                 <th>Destinatário</th>
                 <th>Transportador</th>
-                <th>Cidade destino</th>
-                <th>Data de entrega</th>
+                <th>Cidade Destino</th>
+                <th>Data de Entrega</th>
               </tr>
             </thead>
             <tbody id="tbodyHoje"></tbody>
@@ -923,6 +944,73 @@
   <script>
     const fmtBRL = new Intl.NumberFormat('pt-BR', { style:'currency', currency:'BRL' });
     let DATA_CACHE = null;
+
+    let autoScrollInstances = [];
+
+    function stopAllAutoScroll(){
+      autoScrollInstances.forEach(inst => inst && inst.stop && inst.stop());
+      autoScrollInstances = [];
+    }
+
+    function startAutoScroll(el, {
+      speedPxPerTick = 1,
+      tickMs = 90,
+      pauseAtEndMs = 2200,
+      pauseAtTopMs = 900
+    } = {}){
+      if (!el) return null;
+
+      let timer = null;
+      let pause = false;
+      let direction = 1;
+
+      const run = () => {
+        clearInterval(timer);
+
+        timer = setInterval(() => {
+          if (pause) return;
+
+          const maxScroll = el.scrollHeight - el.clientHeight;
+          if (maxScroll <= 0) return;
+
+          el.scrollTop += speedPxPerTick * direction;
+
+          if (el.scrollTop >= maxScroll){
+            el.scrollTop = maxScroll;
+            direction = -1;
+            pause = true;
+            setTimeout(() => { pause = false; }, pauseAtEndMs);
+          } else if (el.scrollTop <= 0){
+            el.scrollTop = 0;
+            direction = 1;
+            pause = true;
+            setTimeout(() => { pause = false; }, pauseAtTopMs);
+          }
+        }, tickMs);
+      };
+
+      run();
+
+      return {
+        stop(){
+          clearInterval(timer);
+        }
+      };
+    }
+
+    function initAutoScrollTV() {
+      stopAllAutoScroll();
+
+      autoScrollInstances.push(
+        startAutoScroll(document.getElementById('scrollAtraso'), { speedPxPerTick: 1, tickMs: 92, pauseAtEndMs: 2400, pauseAtTopMs: 900 })
+      );
+      autoScrollInstances.push(
+        startAutoScroll(document.getElementById('scrollHoje'), { speedPxPerTick: 1, tickMs: 92, pauseAtEndMs: 2400, pauseAtTopMs: 900 })
+      );
+      autoScrollInstances.push(
+        startAutoScroll(document.getElementById('scrollPerf'), { speedPxPerTick: 1, tickMs: 95, pauseAtEndMs: 2200, pauseAtTopMs: 900 })
+      );
+    }
 
     function parseDateFlex(s){
       if(!s) return null;
@@ -1076,6 +1164,7 @@
 
       const sorted = Array.from(carriers).filter(Boolean).sort((a,b) => a.localeCompare(b, 'pt-BR'));
       const sel = document.getElementById('carrierFilter');
+      const currentValue = sel.value;
 
       sel.querySelectorAll('option:not([value="__ALL__"])').forEach(o => o.remove());
 
@@ -1085,6 +1174,9 @@
         opt.textContent = c;
         sel.appendChild(opt);
       }
+
+      const exists = Array.from(sel.options).some(o => o.value === currentValue);
+      sel.value = exists ? currentValue : '__ALL__';
     }
 
     function parseBRLValue(v){
@@ -1304,7 +1396,6 @@
           <td>${qtd.toLocaleString('pt-BR')}</td>
           <td>${fmtBRL.format(valorNum)}</td>
         `;
-
         body.appendChild(tr);
       }
     }
@@ -1398,9 +1489,24 @@
         }
       }
 
-      document.getElementById('kpiAtraso').textContent = atrasoList.length.toLocaleString('pt-BR');
-      document.getElementById('kpiPrevistasHoje').textContent = hojeList.length.toLocaleString('pt-BR');
-      document.getElementById('kpiEntreguesHoje').textContent = entreguesHoje.toLocaleString('pt-BR');
+      const kpiAtraso = Number(data.kpis?.notas_em_atraso);
+      const kpiHoje = Number(data.kpis?.previstas_para_hoje);
+      const kpiEntregues = Number(data.kpis?.entregues_hoje);
+
+      document.getElementById('kpiAtraso').textContent =
+        Number.isFinite(kpiAtraso) && carrier === '__ALL__'
+          ? kpiAtraso.toLocaleString('pt-BR')
+          : atrasoList.length.toLocaleString('pt-BR');
+
+      document.getElementById('kpiPrevistasHoje').textContent =
+        Number.isFinite(kpiHoje) && carrier === '__ALL__'
+          ? kpiHoje.toLocaleString('pt-BR')
+          : hojeList.length.toLocaleString('pt-BR');
+
+      document.getElementById('kpiEntreguesHoje').textContent =
+        Number.isFinite(kpiEntregues) && carrier === '__ALL__'
+          ? kpiEntregues.toLocaleString('pt-BR')
+          : entreguesHoje.toLocaleString('pt-BR');
     }
 
     function getPedidosFiltradosPorTipo(tipo){
@@ -1482,6 +1588,57 @@
       document.getElementById('pedidosModal').style.display = 'flex';
     }
 
+    function syncLeftToPedidosHeight(){
+      const panelPedidos = document.getElementById('panelPedidos');
+      const leftCol = document.getElementById('leftCol');
+      const cardsBox = document.getElementById('cardsBox');
+      const panelPerf = document.getElementById('panelPerf');
+      const scrollPerf = document.getElementById('scrollPerf');
+
+      if (!panelPedidos || !leftCol || !cardsBox || !panelPerf || !scrollPerf) return;
+      if (window.innerWidth <= 1200) return;
+
+      const pedidosH = panelPedidos.offsetHeight;
+      leftCol.style.height = pedidosH + 'px';
+      leftCol.style.minHeight = pedidosH + 'px';
+
+      const cardsH = cardsBox.offsetHeight;
+      const gap = 14;
+      const perfH = Math.max(180, pedidosH - cardsH - gap);
+
+      panelPerf.style.height = perfH + 'px';
+      panelPerf.style.minHeight = perfH + 'px';
+
+      const ph = panelPerf.querySelector('.ph');
+      const phH = ph ? ph.offsetHeight : 56;
+      scrollPerf.style.maxHeight = Math.max(120, perfH - phH) + 'px';
+    }
+
+    function syncNotesToPedidosHeight(){
+      const panelPedidos = document.getElementById('panelPedidos');
+      const panelAtraso = document.getElementById('panelAtraso');
+      const panelHoje = document.getElementById('panelHoje');
+      const scrollAtraso = document.getElementById('scrollAtraso');
+      const scrollHoje = document.getElementById('scrollHoje');
+
+      if (!panelPedidos || !panelAtraso || !panelHoje || !scrollAtraso || !scrollHoje) return;
+      if (window.innerWidth <= 980) return;
+
+      const h = panelPedidos.offsetHeight;
+      panelAtraso.style.height = h + 'px';
+      panelHoje.style.height = h + 'px';
+      panelAtraso.style.minHeight = h + 'px';
+      panelHoje.style.minHeight = h + 'px';
+
+      const phA = panelAtraso.querySelector('.ph');
+      const phH_A = phA ? phA.offsetHeight : 56;
+      scrollAtraso.style.maxHeight = Math.max(120, h - phH_A) + 'px';
+
+      const phB = panelHoje.querySelector('.ph');
+      const phH_B = phB ? phB.offsetHeight : 56;
+      scrollHoje.style.maxHeight = Math.max(120, h - phH_B) + 'px';
+    }
+
     function renderAll(data){
       const carrier = document.getElementById('carrierFilter').value;
       renderKpis(data, carrier);
@@ -1490,32 +1647,50 @@
       renderTables(data, carrier);
       formatUpdatedAtToBadge(data);
       tryShowTvAlert(data);
+
+      syncLeftToPedidosHeight();
+      syncNotesToPedidosHeight();
+
+      setTimeout(() => {
+        syncLeftToPedidosHeight();
+        syncNotesToPedidosHeight();
+        initAutoScrollTV();
+      }, 350);
     }
 
     async function load(){
-      try{
-        const res = await fetch(`data.json?v=${Date.now()}`, { cache: 'no-store' });
-        if (!res.ok) throw new Error(`Erro HTTP ${res.status}`);
+      const res = await fetch(`data.json?t=${Date.now()}`, { cache: 'no-store' });
+      const data = await res.json();
+      DATA_CACHE = data;
 
-        const data = await res.json();
-        DATA_CACHE = data;
+      buildCarrierOptions(data);
+      renderAll(data);
 
-        buildCarrierOptions(data);
-        renderAll(data);
-      } catch (err){
-        console.error('Erro ao carregar data.json:', err);
+      const sel = document.getElementById('carrierFilter');
+      sel.onchange = () => {
+        renderKpis(DATA_CACHE, sel.value);
+        renderTables(DATA_CACHE, sel.value);
 
-        document.getElementById('updatedAt').textContent = 'Erro ao carregar data.json';
-        document.getElementById('tbodyPerf').innerHTML = `<tr><td colspan="6">Erro ao carregar dados.</td></tr>`;
-        document.getElementById('tbodyPedidos').innerHTML = `<tr><td colspan="3">Erro ao carregar dados.</td></tr>`;
-        document.getElementById('tbodyAtraso').innerHTML = `<tr><td colspan="6">Erro ao carregar dados.</td></tr>`;
-        document.getElementById('tbodyHoje').innerHTML = `<tr><td colspan="5">Erro ao carregar dados.</td></tr>`;
-      }
+        document.getElementById('scrollAtraso').scrollTop = 0;
+        document.getElementById('scrollHoje').scrollTop = 0;
+
+        setTimeout(() => {
+          syncLeftToPedidosHeight();
+          syncNotesToPedidosHeight();
+          initAutoScrollTV();
+        }, 220);
+      };
+
+      window.addEventListener('resize', () => {
+        syncLeftToPedidosHeight();
+        syncNotesToPedidosHeight();
+
+        setTimeout(() => {
+          syncLeftToPedidosHeight();
+          syncNotesToPedidosHeight();
+        }, 180);
+      });
     }
-
-    document.getElementById('carrierFilter').addEventListener('change', () => {
-      if (DATA_CACHE) renderAll(DATA_CACHE);
-    });
 
     document.getElementById('pedidosModal').addEventListener('click', (e) => {
       if (e.target.id === 'pedidosModal'){
@@ -1529,7 +1704,10 @@
       }
     });
 
-    load();
+    load().catch(err => {
+      console.error(err);
+      alert('Erro ao carregar data.json. Verifique se index.html e data.json estão na mesma pasta.');
+    });
   </script>
 </body>
 </html>
