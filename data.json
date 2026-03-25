@@ -223,7 +223,7 @@
 
 
 
-},
+ ],
 "pedidos_nao_faturados": [
   {"numero_pedido":"682818 ", "emissao_pv": "12/03/2026 ", "vlr_total_produtos": "3106,95 ", "margem": "20,33 ", "nome_cliente": " ", "uf_cliente": " ", "tipo_cliente": "CONS.FINAL ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"684415 ", "emissao_pv": "23/03/2026 ", "vlr_total_produtos": "879,9 ", "margem": "36,97 ", "nome_cliente": " ", "uf_cliente": " ", "tipo_cliente": "CONS.FINAL ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Alvará Sanitário" },
