@@ -23,48 +23,63 @@
 
       --topRowMinH: 360px;
 
-      /* Destaques pedidos */
       --mustard:#D4A017;
       --totalGreen:#22c55e;
       --blinkYellow:#FFE731;
 
-      /* Gestão de pedidos (refino TV) */
       --icon: rgba(11,27,58,.72);
       --dividerStrong: rgba(11,27,58,.22);
 
-      /* Badge staleness */
       --staleWarnBg: rgba(245,158,11,.22);
       --staleWarnBd: rgba(245,158,11,.45);
       --staleBadBg:  rgba(239,68,68,.22);
       --staleBadBd:  rgba(239,68,68,.45);
 
-      /* Performance */
-      --perfBadBg: rgba(236, 72, 153, .18); /* rosa */
+      --perfBadBg: rgba(236, 72, 153, .18);
       --perfBadBd: rgba(236, 72, 153, .35);
       --perfGoodBg: rgba(34, 197, 94, .14);
       --perfGoodBd: rgba(34, 197, 94, .28);
     }
 
     *{ box-sizing:border-box; }
+
     body{
       margin:0;
       font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-      background: radial-gradient(1200px 600px at 30% 0%, rgba(11,134,255,.22), transparent 55%),
-                  radial-gradient(900px 700px at 80% 20%, rgba(34,197,94,.12), transparent 60%),
-                  var(--bg);
+      background:
+        radial-gradient(1200px 600px at 30% 0%, rgba(11,134,255,.22), transparent 55%),
+        radial-gradient(900px 700px at 80% 20%, rgba(34,197,94,.12), transparent 60%),
+        var(--bg);
       color:var(--text);
     }
 
-    .wrap{ max-width: min(1800px, 96vw); margin: 28px auto 60px; padding: 0 18px; }
+    .wrap{
+      max-width: min(1800px, 96vw);
+      margin: 28px auto 60px;
+      padding: 0 18px;
+    }
 
     header{
-      display:flex; align-items:flex-end; justify-content:space-between;
-      gap:16px; margin-bottom:18px; flex-wrap:wrap;
+      display:flex;
+      align-items:flex-end;
+      justify-content:space-between;
+      gap:16px;
+      margin-bottom:18px;
+      flex-wrap:wrap;
     }
-    h1{ margin:0; font-size:38px; letter-spacing:.2px; }
+
+    h1{
+      margin:0;
+      font-size:38px;
+      letter-spacing:.2px;
+    }
 
     .rightHead{
-      display:flex; gap:10px; align-items:center; flex-wrap:wrap; justify-content:flex-end;
+      display:flex;
+      gap:10px;
+      align-items:center;
+      flex-wrap:wrap;
+      justify-content:flex-end;
     }
 
     .updated{
@@ -90,14 +105,20 @@
     }
 
     .filter{
-      display:flex; align-items:center; gap:8px;
+      display:flex;
+      align-items:center;
+      gap:8px;
       padding:8px 10px;
       border:1px solid rgba(255,255,255,.10);
       border-radius:999px;
       background: rgba(255,255,255,.04);
       backdrop-filter: blur(8px);
     }
-    .filter label{ font-size:12px; color: rgba(233,236,245,.80); }
+    .filter label{
+      font-size:12px;
+      color: rgba(233,236,245,.80);
+    }
+
     select{
       background: rgba(0,0,0,.25);
       color: var(--text);
@@ -134,10 +155,13 @@
       overflow:hidden;
       flex: 0 0 auto;
     }
+
     .cardsBox::before{
       content:"";
-      position:absolute; inset:-80px -120px auto auto;
-      width: 360px; height: 360px;
+      position:absolute;
+      inset:-80px -120px auto auto;
+      width: 360px;
+      height: 360px;
       background: radial-gradient(circle at 30% 30%, rgba(11,27,58,.10), transparent 60%);
       transform: rotate(10deg);
       opacity:.70;
@@ -152,6 +176,7 @@
       gap: 10px;
       width: 100%;
     }
+
     .miniKpi{
       border-radius: 14px;
       border: 1px solid rgba(11,27,58,.10);
@@ -163,6 +188,7 @@
       flex-direction:column;
       justify-content:center;
     }
+
     .miniKpi .t{
       font-size: 12px;
       color: rgba(11,27,58,.72);
@@ -171,6 +197,7 @@
       overflow:hidden;
       text-overflow:ellipsis;
     }
+
     .miniKpi .v{
       margin-top: 5px;
       font-weight: 900;
@@ -188,6 +215,7 @@
       flex-direction:column;
       min-height: var(--topRowMinH);
     }
+
     .panel .ph{
       padding: 14px 14px;
       display:flex;
@@ -198,7 +226,13 @@
       background: rgba(255,255,255,.70);
       flex: 0 0 auto;
     }
-    .ph .ttl{ font-weight:800; display:flex; align-items:center; gap:10px; }
+
+    .ph .ttl{
+      font-weight:800;
+      display:flex;
+      align-items:center;
+      gap:10px;
+    }
 
     .badge{
       font-size:12px;
@@ -210,7 +244,35 @@
       white-space:nowrap;
     }
 
-    table{ width:100%; border-collapse:collapse; }
+    .headerActions{
+      display:flex;
+      align-items:center;
+      gap:8px;
+      flex-wrap:wrap;
+      justify-content:flex-end;
+    }
+
+    .miniBtn{
+      border: 1px solid rgba(11,27,58,.14);
+      background: rgba(11,27,58,.08);
+      color: var(--ink);
+      padding: 8px 12px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 800;
+      cursor: pointer;
+      transition: .15s ease;
+    }
+    .miniBtn:hover{
+      background: rgba(11,27,58,.14);
+      transform: translateY(-1px);
+    }
+
+    table{
+      width:100%;
+      border-collapse:collapse;
+    }
+
     th, td{
       padding: 10px 12px;
       border-bottom: 1px solid rgba(11,27,58,.10);
@@ -232,12 +294,12 @@
       border:1px solid rgba(255,255,255,.35);
       color: var(--ink);
     }
+
     .panelLight .ph{
       background: rgba(255,255,255,.70);
       border-bottom: 1px solid rgba(11,27,58,.10);
     }
 
-    /* Cabeçalho dos pedidos: azul escuro igual fundo do site */
     .tblPedidos thead th{
       position: sticky;
       top: 0;
@@ -246,17 +308,21 @@
       color: rgba(233,236,245,.95);
       text-transform:uppercase;
       letter-spacing:.35px;
-      font-size:11px; /* <- será sobrescrito no AJUSTE abaixo */
+      font-size:14px !important;
       border-bottom: 1px solid rgba(255,255,255,.12);
     }
 
-    /* ======== GESTÃO DE PEDIDOS (REFINOS TV) ======== */
     .tblPedidos td:nth-child(2),
     .tblPedidos td:nth-child(3),
     .tblPedidos thead th:nth-child(2),
     .tblPedidos thead th:nth-child(3){
       text-align: right;
     }
+
+    .tblPedidos td{
+      font-size:16px !important;
+    }
+
     .tblPedidos td:nth-child(2){ font-weight: 500; }
     .tblPedidos td:nth-child(3){ font-weight: 650; }
 
@@ -265,29 +331,33 @@
       align-items:center;
       gap:10px;
     }
+
     .pedidoIcon{
       width:16px;
       height:16px;
       flex: 0 0 16px;
       color: var(--icon);
     }
+
     .pedidoText{
       font-weight: 800;
       letter-spacing:.1px;
+      font-size:16px !important;
     }
 
     .rowFaturado{
       background: color-mix(in srgb, var(--mustard) 35%, transparent);
     }
 
-    /* ===== NOVOS TOTAIS DO QUADRO ===== */
     .rowDisputaTotal{
       background: color-mix(in srgb, var(--mustard) 22%, transparent);
       font-weight: 900;
     }
+
     .rowDisputaTotal td{
       border-top: 2px solid var(--dividerStrong);
     }
+
     .rowDisputaTotal td:nth-child(3){
       font-size: 15px;
       font-weight: 950;
@@ -297,19 +367,21 @@
       background: color-mix(in srgb, var(--totalGreen) 28%, transparent);
       font-weight: 950;
     }
+
     .rowPrevistoTotal td{
       padding-top: 14px;
       padding-bottom: 14px;
       border-top: 2px solid var(--dividerStrong);
     }
+
     .rowPrevistoTotal td:nth-child(3){
       font-size: 16px;
       font-weight: 950;
     }
+
     .rowPrevistoTotal td:nth-child(2){
       font-weight: 900;
     }
-    /* ================================ */
 
     @keyframes blinkWarn {
       0%, 100% { background: transparent; }
@@ -317,11 +389,8 @@
     }
     .blinkWarn{ animation: blinkWarn 1.45s ease-in-out infinite; }
 
-    /* ===== Performance por Transportadora (REFINO TV) ===== */
     .panelPerfSoft .scroll{ background: rgba(11,27,58,.03); }
-
-    /* (ANTES era 12px) — vai ser sobrescrito no AJUSTE abaixo */
-    .panelPerfSoft th, .panelPerfSoft td{ font-size: 12px; }
+    .panelPerfSoft th, .panelPerfSoft td{ font-size: 16px !important; }
     .panelPerfSoft th{ color: rgba(11,27,58,.70); }
     .panelPerfSoft td{ color: rgba(11,27,58,.92); }
 
@@ -333,22 +402,27 @@
       color: rgba(233,236,245,.92);
       text-transform: uppercase;
       letter-spacing: .35px;
-      font-size: 11px; /* <- será sobrescrito no AJUSTE abaixo */
+      font-size: 14px !important;
       border-bottom: 1px solid rgba(255,255,255,.12);
       backdrop-filter: blur(8px);
+      text-align:center !important;
     }
-    .tblPerf td:nth-child(n+2):nth-child(-n+5),
-    .tblPerf thead th:nth-child(n+2):nth-child(-n+5){
-      text-align: right; /* <- será sobrescrito no AJUSTE abaixo */
+
+    .tblPerf td, .tblPerf th{
+      text-align: center !important;
     }
-    .tblPerf td:last-child, .tblPerf thead th:last-child{ text-align: right; }
+
+    .tblPerf tbody td{
+      color: var(--ink) !important;
+    }
 
     .perfBadge{
       display:inline-flex;
       align-items:center;
-      justify-content:flex-end;
+      justify-content:center !important;
       gap:8px;
       font-weight: 950;
+      font-size: 14px;
       padding: 6px 10px;
       border-radius: 999px;
       border: 1px solid rgba(11,27,58,.12);
@@ -356,14 +430,17 @@
       min-width: 104px;
       color: var(--ink);
     }
+
     .perfBadge.good{
       border-color: var(--perfGoodBd);
       background: var(--perfGoodBg);
     }
+
     .perfBadge.bad{
       border-color: var(--perfBadBd);
       background: var(--perfBadBg);
     }
+
     .perfDot{
       width:8px;
       height:8px;
@@ -371,32 +448,36 @@
       background: rgba(34,197,94,.85);
       box-shadow: 0 0 0 4px rgba(34,197,94,.12);
     }
+
     .perfDot.bad{
       background: rgba(239,68,68,.85);
       box-shadow: 0 0 0 4px rgba(239,68,68,.12);
     }
+
     .rowPerfBad{
       background: linear-gradient(90deg,
         rgba(236, 72, 153, .12),
         rgba(239, 68, 68, .10)
       );
     }
-    /* =============================================== */
 
     .panelDark{
       background: rgba(255,255,255,.06);
       border: 1px solid rgba(255,255,255,.10);
       color: var(--text);
     }
+
     .panelDark .ph{
       background: rgba(0,0,0,.14);
       border-bottom:1px solid rgba(255,255,255,.10);
     }
+
     .panelDark .badge{
       border: 1px solid rgba(255,255,255,.14);
       background: rgba(255,255,255,.06);
       color: rgba(233,236,245,.92);
     }
+
     .headDark thead th{
       position: sticky;
       top: 0;
@@ -409,11 +490,16 @@
       backdrop-filter: blur(8px);
       border-bottom: 1px solid rgba(255,255,255,.12);
     }
+
     .headDark th, .headDark td{
       border-bottom: 1px solid rgba(255,255,255,.08);
       color: rgba(233,236,245,.92);
     }
-    .headDark td .muted{ color: var(--muted); font-size:12px; }
+
+    .headDark td .muted{
+      color: var(--muted);
+      font-size:12px;
+    }
 
     .rowArrived{ background: rgba(245,158,11,.16); }
     .rowLeft{ background: rgba(34,197,94,.18); }
@@ -437,17 +523,6 @@
       flex-wrap:wrap;
     }
 
-    @media (max-width: 1200px){
-      .topRow{ grid-template-columns: 1fr; }
-      .miniKpis{ grid-template-columns: 1fr; }
-      .leftCol{ height:auto !important; }
-    }
-    @media (max-width: 980px){
-      .grid2{ grid-template-columns: 1fr; }
-      h1{ font-size:30px; }
-    }
-
-    /* ================= TV ALERT OVERLAY ================= */
     .tvAlertOverlay{
       position: fixed;
       inset: 0;
@@ -510,9 +585,7 @@
       color: rgba(11,27,58,.72);
       font-size: 13px;
     }
-    /* ==================================================== */
 
-    /* Pills (atraso) */
     .pill{
       display:inline-flex;
       align-items:center;
@@ -526,27 +599,142 @@
       color: rgba(233,236,245,.95);
       min-width: 36px;
     }
+
     .pill.good{ background: rgba(34,197,94,.18); }
     .pill.bad{ background: rgba(239,68,68,.20); }
 
-    /* ==========================================================
-       AJUSTES SOLICITADOS (Gestão de Pedidos + Performance)
-       - Pedidos: corpo 16px / cabeçalho 14px
-       - Performance: corpo 16px / cabeçalho 14px + centralizado
-    ========================================================== */
+    .modalOverlay{
+      position: fixed;
+      inset: 0;
+      background: rgba(11,16,32,.82);
+      backdrop-filter: blur(6px);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 10000;
+      padding: 20px;
+    }
 
-    /* Gestão de Pedidos */
-    .tblPedidos thead th{ font-size: 14px !important; }
-    .tblPedidos td{ font-size: 16px !important; }
-    .pedidoText{ font-size: 16px !important; }
+    .modalCard{
+      width: min(1400px, 96vw);
+      max-height: 88vh;
+      background: rgba(255,255,255,.97);
+      color: var(--ink);
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 24px 60px rgba(0,0,0,.38);
+      display: flex;
+      flex-direction: column;
+    }
 
-    /* Performance por Transportadora */
-    .panelPerfSoft th, .panelPerfSoft td{ font-size: 16px !important; }
-    .tblPerf thead th{ font-size: 14px !important; }
-    .tblPerf td, .tblPerf th{ text-align: center !important; }
-    .tblPerf tbody td{ color: var(--ink) !important; }
-    .perfBadge{ justify-content: center !important; font-size: 14px; }
-    /* ========================================================== */
+    .modalHead{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:12px;
+      padding:14px 16px;
+      border-bottom:1px solid rgba(11,27,58,.10);
+      background: rgba(255,255,255,.92);
+    }
+
+    .modalTitle{
+      font-size:18px;
+      font-weight:900;
+    }
+
+    .modalActions{
+      display:flex;
+      gap:8px;
+      align-items:center;
+      flex-wrap:wrap;
+    }
+
+    .modalClose{
+      border:none;
+      background: rgba(11,27,58,.08);
+      color: var(--ink);
+      padding: 8px 12px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-weight: 800;
+    }
+
+    .modalBody{
+      overflow:auto;
+      background: rgba(11,27,58,.03);
+    }
+
+    .modalTable{
+      width:100%;
+      border-collapse:collapse;
+    }
+
+    .modalTable th{
+      position: sticky;
+      top: 0;
+      background: var(--bg);
+      color: rgba(233,236,245,.95);
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: .3px;
+      z-index: 2;
+    }
+
+    .modalTable th,
+    .modalTable td{
+      padding: 12px 14px;
+      border-bottom: 1px solid rgba(11,27,58,.10);
+      font-size: 14px;
+      color: var(--ink);
+      background: rgba(255,255,255,.92);
+    }
+
+    .modalTable td:nth-child(1),
+    .modalTable td:nth-child(7){
+      white-space: nowrap;
+    }
+
+    .modalEmpty{
+      padding: 22px;
+      text-align:center;
+      color: rgba(11,27,58,.72);
+      font-weight: 700;
+    }
+
+    .statusTag{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      padding: 6px 10px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 800;
+      border: 1px solid rgba(11,27,58,.12);
+      background: rgba(11,27,58,.06);
+      white-space: nowrap;
+    }
+
+    .statusTag.alvara{
+      background: rgba(245,158,11,.18);
+      border-color: rgba(245,158,11,.30);
+    }
+
+    .statusTag.credito{
+      background: rgba(59,130,246,.14);
+      border-color: rgba(59,130,246,.28);
+    }
+
+    @media (max-width: 1200px){
+      .topRow{ grid-template-columns: 1fr; }
+      .miniKpis{ grid-template-columns: 1fr; }
+      .leftCol{ height:auto !important; }
+    }
+
+    @media (max-width: 980px){
+      .grid2{ grid-template-columns: 1fr; }
+      h1{ font-size:30px; }
+      .modalCard{ width: 98vw; }
+    }
   </style>
 </head>
 
@@ -587,14 +775,12 @@
           </div>
         </div>
 
-        <!-- NOVO QUADRO: PERFORMANCE POR TRANSPORTADORA -->
         <div class="panel panelLight panelPerfSoft" id="panelPerf" style="min-height: 0; flex: 1 1 auto;">
           <div class="ph">
             <div class="ttl">Performance por Transportadora</div>
             <div class="badge" id="perfCount">— itens</div>
           </div>
 
-          <!-- (IMPORTANTE) removido "headDark" daqui para não forçar texto branco -->
           <div class="scroll" id="scrollPerf">
             <table class="tblPerf">
               <thead>
@@ -616,7 +802,12 @@
       <div class="panel panelLight" id="panelPedidos">
         <div class="ph">
           <div class="ttl">Gestão de Pedidos</div>
-          <div class="badge" id="pedidosCount">— itens</div>
+
+          <div class="headerActions">
+            <button class="miniBtn" onclick="openPedidosModal('alvara')">Ver Alvará</button>
+            <button class="miniBtn" onclick="openPedidosModal('credito')">Ver Crédito</button>
+            <div class="badge" id="pedidosCount">— itens</div>
+          </div>
         </div>
 
         <div style="flex:1 1 auto;">
@@ -685,7 +876,6 @@
     </div>
   </div>
 
-  <!-- TV Alert Overlay (aparece apenas se tv_alert.enabled === true) -->
   <div class="tvAlertOverlay" id="tvAlertOverlay" aria-live="assertive" aria-atomic="true">
     <div class="tvAlertCard">
       <div class="tvAlertTop">
@@ -699,15 +889,45 @@
     </div>
   </div>
 
+  <div class="modalOverlay" id="pedidosModal">
+    <div class="modalCard">
+      <div class="modalHead">
+        <div class="modalTitle" id="pedidosModalTitle">Lista de Pedidos</div>
+        <div class="modalActions">
+          <div class="badge" id="pedidosModalCount">0 itens</div>
+          <button class="modalClose" onclick="closePedidosModal()">Fechar</button>
+        </div>
+      </div>
+
+      <div class="modalBody">
+        <table class="modalTable">
+          <thead>
+            <tr>
+              <th>Pedido</th>
+              <th>Emissão</th>
+              <th>Cliente</th>
+              <th>UF</th>
+              <th>Tipo</th>
+              <th>Vendedor</th>
+              <th>Valor</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody id="pedidosModalBody"></tbody>
+        </table>
+        <div class="modalEmpty" id="pedidosModalEmpty" style="display:none;">Nenhum pedido encontrado.</div>
+      </div>
+    </div>
+  </div>
+
   <script>
     const fmtBRL = new Intl.NumberFormat('pt-BR', { style:'currency', currency:'BRL' });
+    let DATA_CACHE = null;
 
-    /* ========= PARSER FLEXÍVEL: aceita dd/mm/aaaa, yyyy-mm-dd, yyyy/mm/dd ========= */
     function parseDateFlex(s){
       if(!s) return null;
       s = String(s).trim();
 
-      // yyyy-mm-dd ou yyyy/mm/dd
       let m = s.match(/^(\d{4})[-\/](\d{2})[-\/](\d{2})$/);
       if(m){
         const [_, yy, mm, dd] = m;
@@ -715,7 +935,6 @@
         return Number.isFinite(d.getTime()) ? d : null;
       }
 
-      // dd/mm/yyyy
       m = s.match(/^(\d{2})\/(\d{2})\/(\d{4})$/);
       if(m){
         const [_, dd, mm, yy] = m;
@@ -730,17 +949,14 @@
       const d = parseDateFlex(s);
       return d ? d.toLocaleDateString('pt-BR') : '—';
     }
-    /* =================================================================================== */
 
     function parseUpdatedDate(updatedAtStr){
       const parts = String(updatedAtStr || '').split(" ");
       const datePart = parts[0] || "01/01/1970";
       const timePart = parts[1] || "00:00";
 
-      // updated_at costuma vir BR: dd/mm/aaaa HH:MM
       let d = parseDateFlex(datePart);
       if(!d){
-        // fallback bem defensivo
         const [dd, mm, yyyy] = datePart.split("/").map(Number);
         d = new Date(yyyy || 1970, (mm || 1)-1, dd || 1);
       }
@@ -783,7 +999,6 @@
       return (Date.now() - createdMs) > (ttl * 60 * 1000);
     }
 
-    /* =================== TV ALERT (CONTROLADO PELO data.json) =================== */
     const TV_ALERT_STORAGE_KEY = "last_tv_alert_id_v1";
 
     function showTvAlert(alertObj){
@@ -799,7 +1014,6 @@
 
       titleEl.textContent = title;
       msgEl.textContent = msg;
-
       overlay.style.display = 'flex';
 
       let remaining = secs;
@@ -822,7 +1036,6 @@
       const id = String(a.id || '').trim();
       const msg = String(a.message || '').trim();
       if (!id || !msg) return;
-
       if (isExpired(a.created_at, a.ttl_minutes)) return;
 
       const lastId = sessionStorage.getItem(TV_ALERT_STORAGE_KEY);
@@ -831,7 +1044,6 @@
       sessionStorage.setItem(TV_ALERT_STORAGE_KEY, id);
       showTvAlert(a);
     }
-    /* =========================================================================== */
 
     function daysDiff(later, earlier){
       const ms = later.getTime() - earlier.getTime();
@@ -849,8 +1061,15 @@
 
     function buildCarrierOptions(data){
       const carriers = new Set();
-      for (const it of (data.notas_em_atraso || [])) carriers.add(normalizeCarrier(it.transportador));
-      for (const it of (data.notas_previstas_hoje || [])) carriers.add(normalizeCarrier(it.transportador));
+
+      for (const it of (data.notas_em_atraso || [])){
+        carriers.add(normalizeCarrier(it.transportador));
+      }
+
+      for (const it of (data.notas_previstas_hoje || [])){
+        carriers.add(normalizeCarrier(it.transportador));
+      }
+
       for (const it of (data.performance_transportadoras || [])){
         carriers.add(normalizeCarrier(it.transportadora || it.transportador || it.nome));
       }
@@ -888,13 +1107,23 @@
       if (typeof v === 'number' && Number.isFinite(v)) return v;
       const s = String(v ?? '').trim();
       if (!s) return NaN;
+
       const cleaned = s
         .replace('%','')
         .replace(/\./g,'')
         .replace(',','.')
         .trim();
+
       const n = Number(cleaned);
       return Number.isFinite(n) ? n : NaN;
+    }
+
+    function normKey(s){
+      return String(s || '')
+        .trim()
+        .toLowerCase()
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '');
     }
 
     function svgIcon(kind){
@@ -924,7 +1153,6 @@
       return 'tag';
     }
 
-    /* ================= PERFORMANCE POR TRANSPORTADORA ================= */
     function renderPerformance(data){
       const list = Array.isArray(data.performance_transportadoras) ? data.performance_transportadoras : [];
       const body = document.getElementById('tbodyPerf');
@@ -942,7 +1170,6 @@
 
       for (const it of sorted){
         const nome = String(it.transportadora ?? it.transportador ?? it.nome ?? '').trim() || '—';
-
         const notas = Number(it.notas ?? it.total_notas ?? 0) || 0;
         const entregas = Number(it.entregas ?? it.total_entregas ?? 0) || 0;
         const atrasados = Number(it.atrasados ?? it.em_atraso ?? 0) || 0;
@@ -950,7 +1177,6 @@
 
         const pct = parsePercentFlex(it.performance ?? it.performance_pct ?? it.performance_num);
         const perf = Number.isFinite(pct) ? pct : 0;
-
         const isBad = perf < 95;
 
         const intensity = Math.max(0, Math.min(1, (95 - perf) / 10));
@@ -983,19 +1209,13 @@
       }
     }
 
-    /* ======= GESTÃO DE PEDIDOS (ATUALIZADA) ======= */
     function renderPedidos(data){
       const raw = Array.isArray(data.pedidos_status) ? data.pedidos_status : [];
       const body = document.getElementById('tbodyPedidos');
       body.innerHTML = '';
 
-      const normKey = (s) => String(s || '')
-        .trim()
-        .toLowerCase()
-        .normalize('NFD')
-        .replace(/[\u0300-\u036f]/g, '');
-
       const map = new Map();
+
       for (const it of raw){
         const label = (it.status ?? it.pedidos ?? '').toString().trim();
         if (!label) continue;
@@ -1053,7 +1273,6 @@
         const status = it.label || '—';
         const qtd = Number(it.qtd) || 0;
         const valorNum = Number(it.valorNum) || 0;
-
         const key = normKey(status);
 
         const isBlink =
@@ -1094,7 +1313,7 @@
       const now = parseUpdatedDate(data.updated_at);
 
       const atrasoAll = (data.notas_em_atraso || []).slice()
-        .sort((a,b) => String(a.previsao_entrega||'').localeCompare(String(b.previsao_entrega||'')));
+        .sort((a,b) => String(a.previsao_entrega || '').localeCompare(String(b.previsao_entrega || '')));
 
       const hojeAll = (data.notas_previstas_hoje || []).slice();
 
@@ -1110,9 +1329,7 @@
       for (const it of atrasoList){
         const prev = parseDateFlex(it.previsao_entrega);
         const lateDays = prev ? Math.max(0, daysDiff(now, prev)) : 0;
-
         const pillClass = lateDays >= 10 ? 'pill bad' : (lateDays >= 5 ? 'pill' : 'pill good');
-
         const ocorr = (it.ocorrencia && String(it.ocorrencia).trim()) ? String(it.ocorrencia).trim() : '—';
 
         const tr = document.createElement('tr');
@@ -1135,179 +1352,184 @@
         const cidade = (it.cidade_destino ?? it.Cidade_Destino ?? '').toString().trim();
 
         const tr = document.createElement('tr');
-        if (dataEntrega) tr.className = 'rowDelivered';
+
+        if (dataEntrega){
+          const entregaDate = parseDateFlex(dataEntrega);
+          const hojeDate = new Date();
+          hojeDate.setHours(0,0,0,0);
+
+          if (entregaDate && entregaDate.getTime() < hojeDate.getTime()){
+            tr.className = 'rowArrived';
+          } else if (entregaDate && entregaDate.getTime() === hojeDate.getTime()){
+            tr.className = 'rowDelivered';
+          }
+        }
 
         tr.innerHTML = `
           <td><strong>${String(it.nota_fiscal ?? '—').trim()}</strong></td>
           <td>${String(it.destinatario ?? '—').trim()}</td>
           <td><span class="muted">${String(it.transportador ?? '—').trim()}</span></td>
           <td>${cidade || '—'}</td>
-          <td>${dataEntrega || '—'}</td>
+          <td>${dataEntrega ? formatBRDateFlex(dataEntrega) : '—'}</td>
         `;
         hojeBody.appendChild(tr);
       }
     }
 
-    function startAutoScroll(el, opts = {}) {
-      if (!el) return;
+    function renderKpis(data, carrier){
+      const atrasoList = applyCarrierFilter((data.notas_em_atraso || []), carrier);
+      const hojeList = applyCarrierFilter((data.notas_previstas_hoje || []), carrier);
 
-      const speedPxPerTick = opts.speedPxPerTick ?? 1;
-      const tickMs = opts.tickMs ?? 40;
-      const pauseAtEndMs = opts.pauseAtEndMs ?? 1400;
-      const pauseAtTopMs = opts.pauseAtTopMs ?? 700;
-      const resetThresholdPx = opts.resetThresholdPx ?? 2;
+      let entreguesHoje = 0;
+      for (const it of hojeList){
+        const dataEntrega = (it.data_entrega ?? it.Data_de_entrega ?? '').toString().trim();
+        if (!dataEntrega) continue;
 
-      let timer = null;
-      let paused = false;
+        const d = parseDateFlex(dataEntrega);
+        if (!d) continue;
 
-      const canScroll = () => el.scrollHeight > el.clientHeight + 5;
-
-      const step = () => {
-        if (paused) return;
-        if (!canScroll()) return;
-
-        const maxScrollTop = el.scrollHeight - el.clientHeight;
-        const next = el.scrollTop + speedPxPerTick;
-
-        if (next >= maxScrollTop - resetThresholdPx) {
-          el.scrollTop = maxScrollTop;
-
-          paused = true;
-          setTimeout(() => {
-            el.scrollTop = 0;
-            setTimeout(() => { paused = false; }, pauseAtTopMs);
-          }, pauseAtEndMs);
-
-          return;
+        const now = new Date();
+        if (
+          d.getDate() === now.getDate() &&
+          d.getMonth() === now.getMonth() &&
+          d.getFullYear() === now.getFullYear()
+        ){
+          entreguesHoje += 1;
         }
+      }
 
-        el.scrollTop = next;
-      };
-
-      const start = () => {
-        stop();
-        timer = setInterval(step, tickMs);
-      };
-
-      const stop = () => {
-        if (timer) clearInterval(timer);
-        timer = null;
-      };
-
-      el.addEventListener('mouseenter', () => { paused = true; });
-      el.addEventListener('mouseleave', () => { paused = false; });
-      el.addEventListener('touchstart', () => { paused = !paused; }, { passive:true });
-
-      start();
-      return { start, stop };
+      document.getElementById('kpiAtraso').textContent = atrasoList.length.toLocaleString('pt-BR');
+      document.getElementById('kpiPrevistasHoje').textContent = hojeList.length.toLocaleString('pt-BR');
+      document.getElementById('kpiEntreguesHoje').textContent = entreguesHoje.toLocaleString('pt-BR');
     }
 
-    function syncLeftToPedidosHeight(){
-      const leftCol = document.getElementById('leftCol');
-      const panelPedidos = document.getElementById('panelPedidos');
-      const cardsBox = document.getElementById('cardsBox');
-      const panelPerf = document.getElementById('panelPerf');
-      const scrollPerf = document.getElementById('scrollPerf');
-      if (!leftCol || !panelPedidos || !cardsBox || !panelPerf || !scrollPerf) return;
+    function getPedidosFiltradosPorTipo(tipo){
+      if (!DATA_CACHE || !Array.isArray(DATA_CACHE.pedidos_nao_faturados)) return [];
 
-      leftCol.style.height = 'auto';
-      panelPerf.style.height = 'auto';
+      const list = DATA_CACHE.pedidos_nao_faturados.slice();
 
-      const pedidosH = panelPedidos.offsetHeight;
-      leftCol.style.height = pedidosH + 'px';
+      if (tipo === 'alvara'){
+        return list.filter(it => normKey(it.ultimo_status) === normKey('Alvará Sanitário'));
+      }
 
-      const gap = 14;
-      const cardsH = cardsBox.offsetHeight;
-      const perfH = Math.max(160, pedidosH - cardsH - gap);
+      if (tipo === 'credito'){
+        return list.filter(it => normKey(it.ultimo_status) === normKey('Análise de Crédito'));
+      }
 
-      panelPerf.style.height = perfH + 'px';
-
-      const ph = panelPerf.querySelector('.ph');
-      const phH = ph ? ph.offsetHeight : 56;
-      scrollPerf.style.maxHeight = (perfH - phH) + 'px';
+      return [];
     }
 
-    function syncNotesToPedidosHeight(){
-      const panelPedidos = document.getElementById('panelPedidos');
-      const panelAtraso = document.getElementById('panelAtraso');
-      const panelHoje = document.getElementById('panelHoje');
-      const scrollAtraso = document.getElementById('scrollAtraso');
-      const scrollHoje = document.getElementById('scrollHoje');
-
-      if (!panelPedidos || !panelAtraso || !panelHoje || !scrollAtraso || !scrollHoje) return;
-
-      const h = panelPedidos.offsetHeight;
-
-      panelAtraso.style.height = h + 'px';
-      panelHoje.style.height = h + 'px';
-
-      const phA = panelAtraso.querySelector('.ph');
-      const phH_A = phA ? phA.offsetHeight : 56;
-      scrollAtraso.style.maxHeight = (h - phH_A) + 'px';
-
-      const phB = panelHoje.querySelector('.ph');
-      const phH_B = phB ? phB.offsetHeight : 56;
-      scrollHoje.style.maxHeight = (h - phH_B) + 'px';
+    function statusTagClass(status){
+      const k = normKey(status);
+      if (k === normKey('Alvará Sanitário')) return 'statusTag alvara';
+      if (k === normKey('Análise de Crédito')) return 'statusTag credito';
+      return 'statusTag';
     }
 
-    function initAutoScrollTV() {
-      startAutoScroll(document.getElementById('scrollAtraso'), { speedPxPerTick: 1, tickMs: 92, pauseAtEndMs: 2400, pauseAtTopMs: 900 });
-      startAutoScroll(document.getElementById('scrollHoje'),   { speedPxPerTick: 1, tickMs: 92, pauseAtEndMs: 2400, pauseAtTopMs: 900 });
-      startAutoScroll(document.getElementById('scrollPerf'),   { speedPxPerTick: 1, tickMs: 95, pauseAtEndMs: 2200, pauseAtTopMs: 900 });
+    function closePedidosModal(){
+      document.getElementById('pedidosModal').style.display = 'none';
+    }
+
+    function openPedidosModal(tipo){
+      const body = document.getElementById('pedidosModalBody');
+      const empty = document.getElementById('pedidosModalEmpty');
+      const title = document.getElementById('pedidosModalTitle');
+      const count = document.getElementById('pedidosModalCount');
+
+      let lista = [];
+      if (tipo === 'alvara'){
+        title.textContent = 'Pedidos em Alvará Sanitário';
+        lista = getPedidosFiltradosPorTipo('alvara');
+      } else if (tipo === 'credito'){
+        title.textContent = 'Pedidos em Análise de Crédito';
+        lista = getPedidosFiltradosPorTipo('credito');
+      }
+
+      lista.sort((a, b) => {
+        const da = parseDateFlex(a.emissao_pv);
+        const db = parseDateFlex(b.emissao_pv);
+        const ta = da ? da.getTime() : 0;
+        const tb = db ? db.getTime() : 0;
+        return tb - ta;
+      });
+
+      count.textContent = `${lista.length} itens`;
+      body.innerHTML = '';
+
+      if (!lista.length){
+        empty.style.display = 'block';
+      } else {
+        empty.style.display = 'none';
+        for (const item of lista){
+          const status = String(item.ultimo_status ?? '').trim() || '—';
+          const tr = document.createElement('tr');
+
+          tr.innerHTML = `
+            <td><strong>${String(item.numero_pedido ?? '—').trim()}</strong></td>
+            <td>${formatBRDateFlex(item.emissao_pv)}</td>
+            <td>${String(item.nome_cliente ?? '—').trim()}</td>
+            <td>${String(item.uf_cliente ?? '—').trim()}</td>
+            <td>${String(item.tipo_cliente ?? '—').trim()}</td>
+            <td>${String(item.vendedor ?? '—').trim()}</td>
+            <td>${fmtBRL.format(parseBRLValue(item.vlr_total_produtos))}</td>
+            <td><span class="${statusTagClass(status)}">${status}</span></td>
+          `;
+
+          body.appendChild(tr);
+        }
+      }
+
+      document.getElementById('pedidosModal').style.display = 'flex';
+    }
+
+    function renderAll(data){
+      const carrier = document.getElementById('carrierFilter').value;
+      renderKpis(data, carrier);
+      renderPerformance(data);
+      renderPedidos(data);
+      renderTables(data, carrier);
+      formatUpdatedAtToBadge(data);
+      tryShowTvAlert(data);
     }
 
     async function load(){
-      const res = await fetch(`data.json?t=${Date.now()}`, { cache: 'no-store' });
-      const data = await res.json();
+      try{
+        const res = await fetch(`data.json?v=${Date.now()}`, { cache: 'no-store' });
+        if (!res.ok) throw new Error(`Erro HTTP ${res.status}`);
 
-      formatUpdatedAtToBadge(data);
+        const data = await res.json();
+        DATA_CACHE = data;
 
-      // ✅ Mostra o alerta APENAS se tv_alert.enabled === true
-      tryShowTvAlert(data);
+        buildCarrierOptions(data);
+        renderAll(data);
+      } catch (err){
+        console.error('Erro ao carregar data.json:', err);
 
-      document.getElementById('kpiAtraso').textContent = Number(data.kpis?.notas_em_atraso || 0).toLocaleString('pt-BR');
-      document.getElementById('kpiPrevistasHoje').textContent = Number(data.kpis?.previstas_para_hoje || 0).toLocaleString('pt-BR');
-      document.getElementById('kpiEntreguesHoje').textContent = Number(data.kpis?.entregues_hoje || 0).toLocaleString('pt-BR');
-
-      buildCarrierOptions(data);
-
-      // performance por transportadora
-      renderPerformance(data);
-
-      renderPedidos(data);
-
-      const sel = document.getElementById('carrierFilter');
-      const render = () => renderTables(data, sel.value);
-
-      sel.addEventListener('change', () => {
-        render();
-        document.getElementById('scrollAtraso').scrollTop = 0;
-        document.getElementById('scrollHoje').scrollTop = 0;
-      });
-
-      render();
-
-      syncLeftToPedidosHeight();
-      syncNotesToPedidosHeight();
-
-      setTimeout(() => {
-        syncLeftToPedidosHeight();
-        syncNotesToPedidosHeight();
-        initAutoScrollTV();
-      }, 350);
-
-      window.addEventListener('resize', () => {
-        syncLeftToPedidosHeight();
-        syncNotesToPedidosHeight();
-      });
+        document.getElementById('updatedAt').textContent = 'Erro ao carregar data.json';
+        document.getElementById('tbodyPerf').innerHTML = `<tr><td colspan="6">Erro ao carregar dados.</td></tr>`;
+        document.getElementById('tbodyPedidos').innerHTML = `<tr><td colspan="3">Erro ao carregar dados.</td></tr>`;
+        document.getElementById('tbodyAtraso').innerHTML = `<tr><td colspan="6">Erro ao carregar dados.</td></tr>`;
+        document.getElementById('tbodyHoje').innerHTML = `<tr><td colspan="5">Erro ao carregar dados.</td></tr>`;
+      }
     }
 
-    load().catch(err => {
-      console.error(err);
-      alert('Erro ao carregar data.json. Verifique se index.html e data.json estão na mesma pasta.');
+    document.getElementById('carrierFilter').addEventListener('change', () => {
+      if (DATA_CACHE) renderAll(DATA_CACHE);
     });
+
+    document.getElementById('pedidosModal').addEventListener('click', (e) => {
+      if (e.target.id === 'pedidosModal'){
+        closePedidosModal();
+      }
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape'){
+        closePedidosModal();
+      }
+    });
+
+    load();
   </script>
 </body>
 </html>
-
-
