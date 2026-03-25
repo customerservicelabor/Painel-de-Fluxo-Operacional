@@ -1,7 +1,7 @@
 {
-  "updated_at": "25/03/2026 12:09",
+  "updated_at": "25/03/2026 12:15",
   "kpis": {
-    "notas_em_atraso": 30,
+    "notas_em_atraso": 29,
     "previstas_para_hoje": 122,
     "entregues_hoje": 74
   },
@@ -27,7 +27,7 @@
    { "transportadora": "Patrus", "notas": "372", "entregas": "259", "atrasados": "2", "pendente_de_entrega": "113", "performance": "99,23%" },
    { "transportadora": "Gran Cargo", "notas": "0", "entregas": "0", "atrasados": "0", "pendente_de_entrega": "0", "performance": "100,00%" },
    { "transportadora": "Schreiber", "notas": "186", "entregas": "163", "atrasados": "1", "pendente_de_entrega": "23", "performance": "99,39%" },
-   { "transportadora": "Jamef", "notas": "85", "entregas": "45", "atrasados": "4", "pendente_de_entrega": "40", "performance": "91,11%" },
+   { "transportadora": "Jamef", "notas": "85", "entregas": "46", "atrasados": "5", "pendente_de_entrega": "39", "performance": "89,13%" },
    { "transportadora": "Carvalima", "notas": "39", "entregas": "23", "atrasados": "0", "pendente_de_entrega": "16", "performance": "100,00%" },
    { "transportadora": "Arlete", "notas": "94", "entregas": "71", "atrasados": "1", "pendente_de_entrega": "23", "performance": "98,59%" },
    { "transportadora": "TGL", "notas": "87", "entregas": "54", "atrasados": "6", "pendente_de_entrega": "33", "performance": "88,89%" }
@@ -35,7 +35,6 @@
  "notas_em_atraso": [
    {"nota_fiscal": "202317 ", "destinatario": "11197876000196 - JOAO WILSON BARROSO NETO ME ", "transportador": "PATRUS ", "previsao_entrega": "23/03/2026","ocorrencia": "Atrasado" },
    {"nota_fiscal": "202905 ", "destinatario": "20965020000104 - GLAUCIA GOMES DA SILVA ", "transportador": "AZUL ", "previsao_entrega": "24/03/2026","ocorrencia": "Atrasado" },
-   {"nota_fiscal": "203465 ", "destinatario": "34223536000198 - LICITE SAUDE COMERCIO DE PRODUTOS HOSPIT ", "transportador": "JAMEF ", "previsao_entrega": "24/03/2026","ocorrencia": "Atrasado" },
    {"nota_fiscal": "202598 ", "destinatario": "22089421000173 - MEDSHALOM LTDA ", "transportador": "LOGDI ", "previsao_entrega": "24/03/2026","ocorrencia": "Atrasado" },
    {"nota_fiscal": "202491 ", "destinatario": "13380354000150 - EXPANDIR COMERCIO LTDA ", "transportador": "LOGDI ", "previsao_entrega": "20/03/2026","ocorrencia": "Atrasado" },
    {"nota_fiscal": "202467 ", "destinatario": "12103222000119 - CASTRO COMERCIO E REPRESENTACOES LTDA ", "transportador": "LOGDI ", "previsao_entrega": "20/03/2026","ocorrencia": "Atrasado" },
@@ -63,6 +62,7 @@
    {"nota_fiscal": "203517 ", "destinatario": "01093409000162 - DIMACLO COM PROD MED HOSPITALA ", "transportador": "TGL ", "previsao_entrega": "24/03/2026","ocorrencia": "Atrasado" },
    {"nota_fiscal": "203657 ", "destinatario": "07726133000199 - CICLA DIST PROD DIAGNOSTICOS LTDA ", "transportador": "TGL ", "previsao_entrega": "24/03/2026","ocorrencia": "Atrasado" },
    {"nota_fiscal": "203844 ", "destinatario": "05077346000101 - PROHOSPITAL SUL COM. DE MAT. MEDICOS E ODONTOLOGIC ", "transportador": "SCHREIBER ", "previsao_entrega": "00/01/1900","ocorrencia": "Atrasado" }
+
 
 
 
