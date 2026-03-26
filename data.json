@@ -1,5 +1,5 @@
 {
-  "updated_at": "26/03/2026 17:29",
+  "updated_at": "26/03/2026 18:02",
   "kpis": {
     "notas_em_atraso": 25,
     "previstas_para_hoje": 106,
@@ -8,14 +8,14 @@
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 3, "valor": "3362" },
     { "status": "Alvará Sanitário", "quantidade": 7, "valor": "13974,7" },
-    { "status": "Bloqueado por regra", "quantidade": 3, "valor": "4878,26" },
-    { "status": "Análise de Crédito", "quantidade": 16, "valor": "65456,66" },
-    { "status": "Total em Disputa", "quantidade": 29, "valor": "87671,62" },
-    { "status": "Aguard. Envio Separação", "quantidade": 4, "valor": "6468,77" },
-    { "status": "Em Separação", "quantidade": 68, "valor": "581010,73" },
-    { "status": "Separado", "quantidade": 2, "valor": "3,9" },
-    { "status": "Faturado", "quantidade": 74, "valor": "635102,55" },
-    { "status": "Total", "quantidade": 148, "valor": "1222585,95" }
+    { "status": "Bloqueado por regra", "quantidade": 3, "valor": "5399,92" },
+    { "status": "Análise de Crédito", "quantidade": 14, "valor": "95674,53" },
+    { "status": "Total em Disputa", "quantidade": 27, "valor": "118411,15" },
+    { "status": "Aguard. Envio Separação", "quantidade": 2, "valor": "1634,77" },
+    { "status": "Em Separação", "quantidade": 62, "valor": "514295,27" },
+    { "status": "Separado", "quantidade": 8, "valor": "20461" },
+    { "status": "Faturado", "quantidade": 84, "valor": "729383,94" },
+    { "status": "Total", "quantidade": 156, "valor": "1265774,98" }
  ],
   "performance_transportadoras": [
    { "transportadora": "Azul", "notas": "360", "entregas": "263", "atrasados": "16", "pendente_de_entrega": "97", "performance": "93,92%" },
@@ -243,11 +243,11 @@
   {"numero_pedido":"685289 ", "emissao_pv": "26/03/2026 ", "vlr_total_produtos": "1000,8 ", "margem": "-57,56 ", "nome_cliente": " ", "uf_cliente": " ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"685291 ", "emissao_pv": "26/03/2026 ", "vlr_total_produtos": "3467,45 ", "margem": "30,3 ", "nome_cliente": " ", "uf_cliente": " ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"685296 ", "emissao_pv": "26/03/2026 ", "vlr_total_produtos": "1074 ", "margem": "3,98 ", "nome_cliente": " ", "uf_cliente": " ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. SUPREMO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"685302 ", "emissao_pv": "26/03/2026 ", "vlr_total_produtos": "1344 ", "margem": "37,53 ", "nome_cliente": " ", "uf_cliente": " ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"685325 ", "emissao_pv": "26/03/2026 ", "vlr_total_produtos": "3027,94 ", "margem": "37,99 ", "nome_cliente": " ", "uf_cliente": " ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"685326 ", "emissao_pv": "26/03/2026 ", "vlr_total_produtos": "915,25 ", "margem": "43,93 ", "nome_cliente": " ", "uf_cliente": " ", "tipo_cliente": "CONS.FINAL ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"685339 ", "emissao_pv": "26/03/2026 ", "vlr_total_produtos": "2012 ", "margem": "36,09 ", "nome_cliente": " ", "uf_cliente": " ", "tipo_cliente": "REVENDEDOR ","vendedor": "BARBARA PASSOS ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"685349 ", "emissao_pv": "26/03/2026 ", "vlr_total_produtos": "7447,05 ", "margem": "22,9 ", "nome_cliente": " ", "uf_cliente": " ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. SUPREMO ", "ultimo_status": "Análise de Crédito" }
+  {"numero_pedido":"685363 ", "emissao_pv": "26/03/2026 ", "vlr_total_produtos": "41020,92 ", "margem": "15,52 ", "nome_cliente": " ", "uf_cliente": " ", "tipo_cliente": "CONS.FINAL ","vendedor": "LUCIA FLORESTA ", "ultimo_status": "Análise de Crédito" }
+
+
 
 
 
