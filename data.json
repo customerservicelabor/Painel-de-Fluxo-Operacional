@@ -1,5 +1,5 @@
 {
-  "updated_at": "26/03/2026 13:14",
+  "updated_at": "26/03/2026 13:21",
   "kpis": {
     "notas_em_atraso": 34,
     "previstas_para_hoje": 104,
@@ -20,16 +20,16 @@
   "performance_transportadoras": [
    { "transportadora": "Azul", "notas": "356", "entregas": "257", "atrasados": "14", "pendente_de_entrega": "99", "performance": "94,55%" },
    { "transportadora": "Latam", "notas": "199", "entregas": "133", "atrasados": "1", "pendente_de_entrega": "66", "performance": "99,25%" },
-   { "transportadora": "Azurelog", "notas": "0", "entregas": "0", "atrasados": "0", "pendente_de_entrega": "0", "performance": "100,00%" },
+   { "transportadora": "Azurelog", "notas": "149", "entregas": "109", "atrasados": "1", "pendente_de_entrega": "40", "performance": "99,08%" },
    { "transportadora": "Tecmar", "notas": "67", "entregas": "15", "atrasados": "1", "pendente_de_entrega": "52", "performance": "93,33%" },
    { "transportadora": "Logdi", "notas": "103", "entregas": "28", "atrasados": "2", "pendente_de_entrega": "75", "performance": "92,86%" },
    { "transportadora": "Translovato", "notas": "5", "entregas": "4", "atrasados": "1", "pendente_de_entrega": "1", "performance": "75,00%" },
-   { "transportadora": "Patrus", "notas": "404", "entregas": "286", "atrasados": "3", "pendente_de_entrega": "118", "performance": "98,95%" },
+   { "transportadora": "Patrus", "notas": "406", "entregas": "286", "atrasados": "3", "pendente_de_entrega": "120", "performance": "98,95%" },
    { "transportadora": "Gran Cargo", "notas": "0", "entregas": "0", "atrasados": "0", "pendente_de_entrega": "0", "performance": "100,00%" },
    { "transportadora": "Schreiber", "notas": "199", "entregas": "174", "atrasados": "1", "pendente_de_entrega": "25", "performance": "99,43%" },
-   { "transportadora": "Jamef", "notas": "89", "entregas": "50", "atrasados": "5", "pendente_de_entrega": "39", "performance": "90,00%" },
+   { "transportadora": "Jamef", "notas": "90", "entregas": "51", "atrasados": "5", "pendente_de_entrega": "39", "performance": "90,20%" },
    { "transportadora": "Carvalima", "notas": "41", "entregas": "24", "atrasados": "0", "pendente_de_entrega": "17", "performance": "100,00%" },
-   { "transportadora": "Arlete", "notas": "102", "entregas": "81", "atrasados": "1", "pendente_de_entrega": "21", "performance": "98,77%" },
+   { "transportadora": "Arlete", "notas": "104", "entregas": "83", "atrasados": "1", "pendente_de_entrega": "21", "performance": "98,80%" },
    { "transportadora": "TGL", "notas": "93", "entregas": "68", "atrasados": "8", "pendente_de_entrega": "25", "performance": "88,24%" }
   ],
  "notas_em_atraso": [
