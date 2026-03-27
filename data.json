@@ -1,21 +1,21 @@
 {
-  "updated_at": "27/03/2026 12:31",
+  "updated_at": "27/03/2026 14:10",
   "kpis": {
     "notas_em_atraso": 33,
     "previstas_para_hoje": 92,
     "entregues_hoje": 57
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 2, "valor": "4765,84" },
-    { "status": "Alvará Sanitário", "quantidade": 6, "valor": "11839,61" },
+    { "status": "Aguardando Liberação", "quantidade": 1, "valor": "1350,84" },
+    { "status": "Alvará Sanitário", "quantidade": 7, "valor": "13615,41" },
     { "status": "Bloqueado por regra", "quantidade": 1, "valor": "344,64" },
-    { "status": "Análise de Crédito", "quantidade": 13, "valor": "91520,43" },
-    { "status": "Total em Disputa", "quantidade": 22, "valor": "108470,52" },
-    { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "8218,21" },
-    { "status": "Em Separação", "quantidade": 25, "valor": "479113,98" },
-    { "status": "Separado", "quantidade": 9, "valor": "39063,29" },
-    { "status": "Faturado", "quantidade": 43, "valor": "238922,19" },
-    { "status": "Total", "quantidade": 78, "valor": "765317,67" }
+    { "status": "Análise de Crédito", "quantidade": 13, "valor": "90040,68" },
+    { "status": "Total em Disputa", "quantidade": 22, "valor": "105351,57" },
+    { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "32592,6" },
+    { "status": "Em Separação", "quantidade": 19, "valor": "173519,86" },
+    { "status": "Separado", "quantidade": 8, "valor": "337069,03" },
+    { "status": "Faturado", "quantidade": 56, "valor": "278667,78" },
+    { "status": "Total", "quantidade": 84, "valor": "821849,27" }
  ],
   "performance_transportadoras": [
    { "transportadora": "Azul", "notas": "369", "entregas": "267", "atrasados": "16", "pendente_de_entrega": "102", "performance": "94,01%" },
@@ -240,11 +240,11 @@
   {"numero_pedido":"685285 ", "emissao_pv": "26/03/2026 ", "vlr_total_produtos": "1619,04 ", "margem": "35,7 ", "nome_cliente": "MEDIFARMA ", "uf_cliente": "PI ", "tipo_cliente": "REVENDEDOR ","vendedor": "LUCIA FLORESTA ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"685296 ", "emissao_pv": "26/03/2026 ", "vlr_total_produtos": "1074 ", "margem": "3,98 ", "nome_cliente": "PMH PRODUTOS MEDICOS ", "uf_cliente": "DF ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. SUPREMO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"685363 ", "emissao_pv": "26/03/2026 ", "vlr_total_produtos": "41020,92 ", "margem": "15,52 ", "nome_cliente": "MM COR ", "uf_cliente": "RJ ", "tipo_cliente": "CONS.FINAL ","vendedor": "LUCIA FLORESTA ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"685427 ", "emissao_pv": "27/03/2026 ", "vlr_total_produtos": "2395 ", "margem": "46,99 ", "nome_cliente": "SEBRATEL TECNOLOGIA ", "uf_cliente": "RS ", "tipo_cliente": "CONS.FINAL ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"685443 ", "emissao_pv": "27/03/2026 ", "vlr_total_produtos": "2367,7 ", "margem": "34,16 ", "nome_cliente": "PAFARO MED VET ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. HELEIDA ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"685458 ", "emissao_pv": "27/03/2026 ", "vlr_total_produtos": "2104,98 ", "margem": "19,36 ", "nome_cliente": "ORAL MED ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. CAREMED ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"685473 ", "emissao_pv": "27/03/2026 ", "vlr_total_produtos": "916,09 ", "margem": "23,57 ", "nome_cliente": "BMZ ANALISE CLINICAS ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" }
-
+  {"numero_pedido":"685473 ", "emissao_pv": "27/03/2026 ", "vlr_total_produtos": "916,09 ", "margem": "23,57 ", "nome_cliente": "BMZ ANALISE CLINICAS ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"685485 ", "emissao_pv": "27/03/2026 ", "vlr_total_produtos": "915,25 ", "margem": "25,46 ", "nome_cliente": "LUCAS AUGUSTO TOME S ", "uf_cliente": "PR ", "tipo_cliente": "CONS.FINAL ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"685491 ", "emissao_pv": "27/03/2026 ", "vlr_total_produtos": "1775,8 ", "margem": "15,24 ", "nome_cliente": "VB COM PROD HOSP ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Alvará Sanitário" }
 
 
 
