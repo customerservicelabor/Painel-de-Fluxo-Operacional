@@ -1,5 +1,5 @@
 {
-  "updated_at": "27/03/2026 17:44",
+  "updated_at": "27/03/2026 18:21",
   "kpis": {
     "notas_em_atraso": 27,
     "previstas_para_hoje": 87,
@@ -7,15 +7,15 @@
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 2, "valor": "2913,24" },
-    { "status": "Alvará Sanitário", "quantidade": 10, "valor": "16783,35" },
+    { "status": "Alvará Sanitário", "quantidade": 11, "valor": "24950,05" },
     { "status": "Bloqueado por regra", "quantidade": 0, "valor": "0" },
-    { "status": "Análise de Crédito", "quantidade": 12, "valor": "27269,38" },
-    { "status": "Total em Disputa", "quantidade": 24, "valor": "46965,97" },
-    { "status": "Aguard. Envio Separação", "quantidade": 2, "valor": "13811,74" },
-    { "status": "Em Separação", "quantidade": 36, "valor": "417347,91" },
-    { "status": "Separado", "quantidade": 6, "valor": "28444,63" },
-    { "status": "Faturado", "quantidade": 96, "valor": "810097,22" },
-    { "status": "Total", "quantidade": 140, "valor": "1269701,5" }
+    { "status": "Análise de Crédito", "quantidade": 10, "valor": "20228,54" },
+    { "status": "Total em Disputa", "quantidade": 23, "valor": "48091,83" },
+    { "status": "Aguard. Envio Separação", "quantidade": 0, "valor": "0" },
+    { "status": "Em Separação", "quantidade": 37, "valor": "390345,59" },
+    { "status": "Separado", "quantidade": 5, "valor": "26985,74" },
+    { "status": "Faturado", "quantidade": 104, "valor": "878201,37" },
+    { "status": "Total", "quantidade": 146, "valor": "1295532,7" }
  ],
   "performance_transportadoras": [
    { "transportadora": "Azul", "notas": "378", "entregas": "285", "atrasados": "16", "pendente_de_entrega": "93", "performance": "94,39%" },
@@ -243,10 +243,10 @@
   {"numero_pedido":"685557 ", "emissao_pv": "27/03/2026 ", "vlr_total_produtos": "1430,4 ", "margem": "72,5 ", "nome_cliente": "PRO TANATO ", "uf_cliente": "PR ", "tipo_cliente": "CONS.FINAL ","vendedor": "REP. CAOBIANCO ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"685573 ", "emissao_pv": "27/03/2026 ", "vlr_total_produtos": "3647,64 ", "margem": "10,65 ", "nome_cliente": "ASSOC SANTAMARENSE B ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"685593 ", "emissao_pv": "27/03/2026 ", "vlr_total_produtos": "1499 ", "margem": "34 ", "nome_cliente": "MEDLAB COMERCIO E SE ", "uf_cliente": "RO ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"685607 ", "emissao_pv": "27/03/2026 ", "vlr_total_produtos": "3828,24 ", "margem": "39,78 ", "nome_cliente": "HOSPITAL SANTA TEREZ ", "uf_cliente": "PA ", "tipo_cliente": "CONS.FINAL ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"685609 ", "emissao_pv": "27/03/2026 ", "vlr_total_produtos": "5145,15 ", "margem": "23,43 ", "nome_cliente": "PLUG MED HOSPITALAR ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. SUPREMO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"685611 ", "emissao_pv": "27/03/2026 ", "vlr_total_produtos": "3212,6 ", "margem": "33,07 ", "nome_cliente": "D M SOBRAL ", "uf_cliente": "AM ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. TURCATO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"685619 ", "emissao_pv": "27/03/2026 ", "vlr_total_produtos": "905,2 ", "margem": "25,11 ", "nome_cliente": "HOSPITAL UNIMED NORT ", "uf_cliente": "PR ", "tipo_cliente": "CONS.FINAL ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Alvará Sanitário" }
+  {"numero_pedido":"685619 ", "emissao_pv": "27/03/2026 ", "vlr_total_produtos": "905,2 ", "margem": "25,11 ", "nome_cliente": "HOSPITAL UNIMED NORT ", "uf_cliente": "PR ", "tipo_cliente": "CONS.FINAL ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"685628 ", "emissao_pv": "27/03/2026 ", "vlr_total_produtos": "8166,7 ", "margem": "27,13 ", "nome_cliente": "ZOOSERV ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "LUCIA FLORESTA ", "ultimo_status": "Alvará Sanitário" }
+
 
 
 
