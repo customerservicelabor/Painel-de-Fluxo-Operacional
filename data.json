@@ -1,21 +1,21 @@
 {
-  "updated_at": "27/03/2026 10:17",
+  "updated_at": "27/03/2026 10:53",
   "kpis": {
     "notas_em_atraso": 33,
     "previstas_para_hoje": 92,
     "entregues_hoje": 57
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 3, "valor": "10486,49" },
-    { "status": "Alvará Sanitário", "quantidade": 7, "valor": "54068,07" },
-    { "status": "Bloqueado por regra", "quantidade": 2, "valor": "1154,76" },
-    { "status": "Análise de Crédito", "quantidade": 12, "valor": "89124,59" },
-    { "status": "Total em Disputa", "quantidade": 24, "valor": "154833,91" },
-    { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "4,17" },
-    { "status": "Em Separação", "quantidade": 35, "valor": "553011,28" },
-    { "status": "Separado", "quantidade": 7, "valor": "15560,92" },
-    { "status": "Faturado", "quantidade": 7, "valor": "16380,16" },
-    { "status": "Total", "quantidade": 50, "valor": "584956,53" }
+    { "status": "Aguardando Liberação", "quantidade": 1, "valor": "1350,84" },
+    { "status": "Alvará Sanitário", "quantidade": 6, "valor": "49028,93" },
+    { "status": "Bloqueado por regra", "quantidade": 4, "valor": "18250,21" },
+    { "status": "Análise de Crédito", "quantidade": 13, "valor": "92646,28" },
+    { "status": "Total em Disputa", "quantidade": 24, "valor": "161276,26" },
+    { "status": "Aguard. Envio Separação", "quantidade": 2, "valor": "25100,55" },
+    { "status": "Em Separação", "quantidade": 34, "valor": "426513,56" },
+    { "status": "Separado", "quantidade": 9, "valor": "13582,51" },
+    { "status": "Faturado", "quantidade": 13, "valor": "161333,24" },
+    { "status": "Total", "quantidade": 58, "valor": "626529,86" }
  ],
   "performance_transportadoras": [
    { "transportadora": "Azul", "notas": "369", "entregas": "267", "atrasados": "16", "pendente_de_entrega": "102", "performance": "94,01%" },
@@ -239,11 +239,11 @@
   {"numero_pedido":"685284 ", "emissao_pv": "26/03/2026 ", "vlr_total_produtos": "3647,5 ", "margem": "21,16 ", "nome_cliente": "SAUDE EXPRESS DISTRI ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"685285 ", "emissao_pv": "26/03/2026 ", "vlr_total_produtos": "1619,04 ", "margem": "35,7 ", "nome_cliente": "MEDIFARMA ", "uf_cliente": "PI ", "tipo_cliente": "REVENDEDOR ","vendedor": "LUCIA FLORESTA ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"685296 ", "emissao_pv": "26/03/2026 ", "vlr_total_produtos": "1074 ", "margem": "3,98 ", "nome_cliente": "PMH PRODUTOS MEDICOS ", "uf_cliente": "DF ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. SUPREMO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"685326 ", "emissao_pv": "26/03/2026 ", "vlr_total_produtos": "915,25 ", "margem": "43,93 ", "nome_cliente": "LUCAS AUGUSTO TOME S ", "uf_cliente": "PR ", "tipo_cliente": "CONS.FINAL ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"685363 ", "emissao_pv": "26/03/2026 ", "vlr_total_produtos": "41020,92 ", "margem": "15,52 ", "nome_cliente": "MM COR ", "uf_cliente": "RJ ", "tipo_cliente": "CONS.FINAL ","vendedor": "LUCIA FLORESTA ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"685389 ", "emissao_pv": "27/03/2026 ", "vlr_total_produtos": "3231,39 ", "margem": "36,03 ", "nome_cliente": "CENTRALLAB ", "uf_cliente": "PB ", "tipo_cliente": "CONS.FINAL ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"685407 ", "emissao_pv": "27/03/2026 ", "vlr_total_produtos": "4202,75 ", "margem": "25,87 ", "nome_cliente": "MULTIMED VITORIA ", "uf_cliente": "PE ", "tipo_cliente": "CONS.FINAL ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"685411 ", "emissao_pv": "27/03/2026 ", "vlr_total_produtos": "39267 ", "margem": "52,76 ", "nome_cliente": "DENTAL SPEED GRAPH ", "uf_cliente": "SC ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. FENIX (SC) ", "ultimo_status": "Alvará Sanitário" }
+  {"numero_pedido":"685389 ", "emissao_pv": "27/03/2026 ", "vlr_total_produtos": "3231,39 ", "margem": "36,03 ", "nome_cliente": "CENTRALLAB ", "uf_cliente": "PB ", "tipo_cliente": "CONS.FINAL ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"685411 ", "emissao_pv": "27/03/2026 ", "vlr_total_produtos": "39267 ", "margem": "52,76 ", "nome_cliente": "DENTAL SPEED GRAPH ", "uf_cliente": "SC ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. FENIX (SC) ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"685427 ", "emissao_pv": "27/03/2026 ", "vlr_total_produtos": "2395 ", "margem": "46,99 ", "nome_cliente": "SEBRATEL TECNOLOGIA ", "uf_cliente": "RS ", "tipo_cliente": "CONS.FINAL ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"685435 ", "emissao_pv": "27/03/2026 ", "vlr_total_produtos": "1205,55 ", "margem": "39,99 ", "nome_cliente": "HOSPITAL UNIMED ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "VENDAS DIGITAIS ", "ultimo_status": "Análise de Crédito" }
 
 
 
