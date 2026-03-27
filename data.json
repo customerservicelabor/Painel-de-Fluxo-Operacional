@@ -1,5 +1,5 @@
 {
-  "updated_at": "27/03/2026 08:08",
+  "updated_at": "27/03/2026 08:13",
   "kpis": {
     "notas_em_atraso": 41,
     "previstas_para_hoje": 90,
@@ -11,8 +11,8 @@
     { "status": "Bloqueado por regra", "quantidade": 2, "valor": "5094,84" },
     { "status": "Análise de Crédito", "quantidade": 14, "valor": "95674,53" },
     { "status": "Total em Disputa", "quantidade": 25, "valor": "116399,99" },
-    { "status": "Aguard. Envio Separação", "quantidade": 3, "valor": "128735,77" },
-    { "status": "Em Separação", "quantidade": 21, "valor": "93146,52" },
+    { "status": "Aguard. Envio Separação", "quantidade": 2, "valor": "1634,77" },
+    { "status": "Em Separação", "quantidade": 22, "valor": "220247,52" },
     { "status": "Separado", "quantidade": 6, "valor": "11159,4" },
     { "status": "Faturado", "quantidade": 0, "valor": "0" },
     { "status": "Total", "quantidade": 30, "valor": "233041,69" }
