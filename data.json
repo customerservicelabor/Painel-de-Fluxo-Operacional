@@ -1,5 +1,5 @@
 {
-  "updated_at": "30/03/2026 11:02",
+  "updated_at": "30/03/2026 11:33",
   "kpis": {
     "notas_em_atraso": 27,
     "previstas_para_hoje": 111,
@@ -8,14 +8,14 @@
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 0, "valor": "0" },
     { "status": "Alvará Sanitário", "quantidade": 8, "valor": "17963,97" },
-    { "status": "Bloqueado por regra", "quantidade": 1, "valor": "413,26" },
-    { "status": "Análise de Crédito", "quantidade": 11, "valor": "20919,43" },
-    { "status": "Total em Disputa", "quantidade": 20, "valor": "39296,66" },
+    { "status": "Bloqueado por regra", "quantidade": 3, "valor": "3234,38" },
+    { "status": "Análise de Crédito", "quantidade": 9, "valor": "15735,63" },
+    { "status": "Total em Disputa", "quantidade": 20, "valor": "36933,98" },
     { "status": "Aguard. Envio Separação", "quantidade": 0, "valor": "0" },
-    { "status": "Em Separação", "quantidade": 27, "valor": "362143,39" },
+    { "status": "Em Separação", "quantidade": 24, "valor": "253119,85" },
     { "status": "Separado", "quantidade": 0, "valor": "0" },
-    { "status": "Faturado", "quantidade": 22, "valor": "118542,81" },
-    { "status": "Total", "quantidade": 49, "valor": "480686,2" }
+    { "status": "Faturado", "quantidade": 29, "valor": "246892,72" },
+    { "status": "Total", "quantidade": 53, "valor": "500012,57" }
  ],
   "performance_transportadoras": [
    { "transportadora": "Azul", "notas": "389", "entregas": "304", "atrasados": "18", "pendente_de_entrega": "85", "performance": "94,08%" },
@@ -237,13 +237,13 @@
   {"numero_pedido":"685485 ", "emissao_pv": "27/03/2026 ", "vlr_total_produtos": "915,25 ", "margem": "25,46 ", "nome_cliente": "LUCAS AUGUSTO TOME S ", "uf_cliente": "PR ", "tipo_cliente": "CONS.FINAL ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"685510 ", "emissao_pv": "27/03/2026 ", "vlr_total_produtos": "2409,4 ", "margem": "41,14 ", "nome_cliente": "SALLUS LTDA ", "uf_cliente": "CE ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"685553 ", "emissao_pv": "27/03/2026 ", "vlr_total_produtos": "956,48 ", "margem": "31,24 ", "nome_cliente": "HOSPITAL UNIMED NORT ", "uf_cliente": "PR ", "tipo_cliente": "CONS.FINAL ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"685555 ", "emissao_pv": "27/03/2026 ", "vlr_total_produtos": "3058,8 ", "margem": "15,04 ", "nome_cliente": "LABOSERV EXAMES LAB ", "uf_cliente": "RJ ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOICE MENDES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"685557 ", "emissao_pv": "27/03/2026 ", "vlr_total_produtos": "1430,4 ", "margem": "72,5 ", "nome_cliente": "PRO TANATO ", "uf_cliente": "PR ", "tipo_cliente": "CONS.FINAL ","vendedor": "REP. CAOBIANCO ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"685573 ", "emissao_pv": "27/03/2026 ", "vlr_total_produtos": "3647,64 ", "margem": "10,65 ", "nome_cliente": "ASSOC SANTAMARENSE B ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"685616 ", "emissao_pv": "27/03/2026 ", "vlr_total_produtos": "1562,4 ", "margem": "32,62 ", "nome_cliente": "PONTO DIAGNOSTICO ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "LUCIA FLORESTA ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"685643 ", "emissao_pv": "30/03/2026 ", "vlr_total_produtos": "731,98 ", "margem": "35,94 ", "nome_cliente": "L C N ARAUJO ARENA O ", "uf_cliente": "PB ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"685675 ", "emissao_pv": "30/03/2026 ", "vlr_total_produtos": "2125 ", "margem": "14,42 ", "nome_cliente": "G.D.A DISTRIBUIDORA ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. SUPREMO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"685681 ", "emissao_pv": "30/03/2026 ", "vlr_total_produtos": "9187,45 ", "margem": "21,12 ", "nome_cliente": "PROLIFE CLINICA MEDI ", "uf_cliente": "GO ", "tipo_cliente": "CONS.FINAL ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Alvará Sanitário" }
+
+
 
 
 
