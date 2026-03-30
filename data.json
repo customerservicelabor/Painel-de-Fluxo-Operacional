@@ -1,7 +1,7 @@
 {
-  "updated_at": "30/03/2026 08:19",
+  "updated_at": "30/03/2026 08:25",
   "kpis": {
-    "notas_em_atraso": 33,
+    "notas_em_atraso": 28,
     "previstas_para_hoje": 111,
     "entregues_hoje": 76
   },
@@ -59,13 +59,13 @@
    {"nota_fiscal": "203963 ", "destinatario": "00814559000155 - SURYA DENTAL COM.PROD.ODONT. ", "transportador": "TGL ", "previsao_entrega": "27/03/2026","ocorrencia": "Atrasado" },
    {"nota_fiscal": "203995 ", "destinatario": "04539279019407 - CIENTIFICALAB PRODUTOS LABORATORIAIS E S ", "transportador": "JAMEF ", "previsao_entrega": "26/03/2026","ocorrencia": "Atrasado" },
    {"nota_fiscal": "204075 ", "destinatario": "61486650116130 - DASA ", "transportador": "JAMEF ", "previsao_entrega": "27/03/2026","ocorrencia": "Atrasado" },
-   {"nota_fiscal": "204092 ", "destinatario": "04539279019407 - CIENTIFICALAB PRODUTOS LABORATORIAIS E S ", "transportador": "JAMEF ", "previsao_entrega": "27/03/2026","ocorrencia": "Atrasado" }
-   {"nota_fiscal": "204220 ", "destinatario": "40255035000196 - CIRURGICA MODERNA LTDA ", "previsao_entrega": "00/01/1900","ocorrencia": "Atrasado
-   {"nota_fiscal": "204235 ", "destinatario": "07486627000143 - C A M CASTILHOS ", "previsao_entrega": "00/01/1900","ocorrencia": "Atrasado
-   {"nota_fiscal": "204179 ", "destinatario": "05194502000114 - ALFALAGOS ", "previsao_entrega": "00/01/1900","ocorrencia": "Atrasado
-   {"nota_fiscal": "204171 ", "destinatario": "47617584000102 - IRMANDADE DA SANTA CASA DE MISERICORDIA ", "previsao_entrega": "00/01/1900","ocorrencia": "Atrasado
-   {"nota_fiscal": "204173 ", "destinatario": "39625691000154 - GOLDEN MED COM VAR ARTIGOS MEDICOS LTDA ", "previsao_entrega": "00/01/1900","ocorrencia": "Atrasado
+   {"nota_fiscal": "204092 ", "destinatario": "04539279019407 - CIENTIFICALAB PRODUTOS LABORATORIAIS E S ", "transportador": "JAMEF ", "previsao_entrega": "27/03/2026","ocorrencia": "Atrasado" },
    {"nota_fiscal": "203844 ", "destinatario": "05077346000101 - PROHOSPITAL SUL COM. DE MAT. MEDICOS E ODONTOLOGIC ", "transportador": "SCHREIBER ", "previsao_entrega": "00/01/1900","ocorrencia": "Atrasado" }
+
+
+
+
+
 
 
 
