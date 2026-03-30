@@ -1,5 +1,5 @@
 {
-  "updated_at": "30/03/2026 09:40",
+  "updated_at": "30/03/2026 10:09",
   "kpis": {
     "notas_em_atraso": 27,
     "previstas_para_hoje": 111,
@@ -7,15 +7,15 @@
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 0, "valor": "0" },
-    { "status": "Alvará Sanitário", "quantidade": 9, "valor": "13424,16" },
+    { "status": "Alvará Sanitário", "quantidade": 8, "valor": "12424,16" },
     { "status": "Bloqueado por regra", "quantidade": 1, "valor": "413,26" },
     { "status": "Análise de Crédito", "quantidade": 10, "valor": "18022,79" },
-    { "status": "Total em Disputa", "quantidade": 20, "valor": "31860,21" },
-    { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "67392,9" },
-    { "status": "Em Separação", "quantidade": 30, "valor": "307613,26" },
-    { "status": "Separado", "quantidade": 3, "valor": "16018,94" },
-    { "status": "Faturado", "quantidade": 4, "valor": "15033,84" },
-    { "status": "Total", "quantidade": 38, "valor": "406058,94" }
+    { "status": "Total em Disputa", "quantidade": 19, "valor": "30860,21" },
+    { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "5798" },
+    { "status": "Em Separação", "quantidade": 25, "valor": "341631,49" },
+    { "status": "Separado", "quantidade": 6, "valor": "14448,73" },
+    { "status": "Faturado", "quantidade": 8, "valor": "53898,38" },
+    { "status": "Total", "quantidade": 40, "valor": "415776,6" }
  ],
   "performance_transportadoras": [
    { "transportadora": "Azul", "notas": "389", "entregas": "304", "atrasados": "18", "pendente_de_entrega": "85", "performance": "94,08%" },
@@ -242,8 +242,8 @@
   {"numero_pedido":"685573 ", "emissao_pv": "27/03/2026 ", "vlr_total_produtos": "3647,64 ", "margem": "10,65 ", "nome_cliente": "ASSOC SANTAMARENSE B ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"685616 ", "emissao_pv": "27/03/2026 ", "vlr_total_produtos": "1562,4 ", "margem": "32,62 ", "nome_cliente": "PONTO DIAGNOSTICO ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "LUCIA FLORESTA ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"685637 ", "emissao_pv": "30/03/2026 ", "vlr_total_produtos": "2876 ", "margem": "33,88 ", "nome_cliente": "JPMED DISTRIBUICAO E ", "uf_cliente": "AC ", "tipo_cliente": "REVENDEDOR ","vendedor": "ALICE RODRIGUES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"685643 ", "emissao_pv": "30/03/2026 ", "vlr_total_produtos": "731,98 ", "margem": "35,94 ", "nome_cliente": "L C N ARAUJO ARENA O ", "uf_cliente": "PB ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"685662 ", "emissao_pv": "30/03/2026 ", "vlr_total_produtos": "1000 ", "margem": "53,17 ", "nome_cliente": "CIRURGICA PARANA ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "ALICE RODRIGUES ", "ultimo_status": "Alvará Sanitário" }
+  {"numero_pedido":"685643 ", "emissao_pv": "30/03/2026 ", "vlr_total_produtos": "731,98 ", "margem": "35,94 ", "nome_cliente": "L C N ARAUJO ARENA O ", "uf_cliente": "PB ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Alvará Sanitário" }
+
 
 
 
