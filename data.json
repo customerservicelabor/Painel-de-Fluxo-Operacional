@@ -1,5 +1,5 @@
 {
-  "updated_at": "31/03/2026 15:39",
+  "updated_at": "31/03/2026 16:30",
   "kpis": {
     "notas_em_atraso": 17,
     "previstas_para_hoje": 114,
@@ -7,15 +7,15 @@
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 2, "valor": "4385,2" },
-    { "status": "Alvará Sanitário", "quantidade": 7, "valor": "12723,05" },
-    { "status": "Bloqueado por regra", "quantidade": 1, "valor": "3013,55" },
-    { "status": "Análise de Crédito", "quantidade": 7, "valor": "20701,27" },
-    { "status": "Total em Disputa", "quantidade": 17, "valor": "40823,07" },
-    { "status": "Aguard. Envio Separação", "quantidade": 4, "valor": "15988,56" },
-    { "status": "Em Separação", "quantidade": 56, "valor": "294447,4" },
+    { "status": "Alvará Sanitário", "quantidade": 7, "valor": "11181,49" },
+    { "status": "Bloqueado por regra", "quantidade": 4, "valor": "12413,82" },
+    { "status": "Análise de Crédito", "quantidade": 8, "valor": "27700,27" },
+    { "status": "Total em Disputa", "quantidade": 21, "valor": "55680,78" },
+    { "status": "Aguard. Envio Separação", "quantidade": 9, "valor": "22520,96" },
+    { "status": "Em Separação", "quantidade": 65, "valor": "339344,12" },
     { "status": "Separado", "quantidade": 0, "valor": "0" },
     { "status": "Faturado", "quantidade": 0, "valor": "0" },
-    { "status": "Total", "quantidade": 60, "valor": "310435,96" }
+    { "status": "Total", "quantidade": 74, "valor": "361865,08" }
  ],
   "performance_transportadoras": [
    { "transportadora": "Azul", "notas": "406", "entregas": "339", "atrasados": "18", "pendente_de_entrega": "67", "performance": "94,69%" },
@@ -226,7 +226,6 @@
  ],
 "pedidos_nao_faturados": [
   {"numero_pedido":"684607 ", "emissao_pv": "23/03/2026 ", "vlr_total_produtos": "305,08 ", "margem": "0 ", "nome_cliente": "GUARDIAN LIFE BR II ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "E-COMMERCE ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"685458 ", "emissao_pv": "27/03/2026 ", "vlr_total_produtos": "2104,98 ", "margem": "19,36 ", "nome_cliente": "ORAL MED ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. CAREMED ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"685485 ", "emissao_pv": "27/03/2026 ", "vlr_total_produtos": "915,25 ", "margem": "25,46 ", "nome_cliente": "LUCAS AUGUSTO TOME S ", "uf_cliente": "PR ", "tipo_cliente": "CONS.FINAL ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"685510 ", "emissao_pv": "27/03/2026 ", "vlr_total_produtos": "2409,4 ", "margem": "41,14 ", "nome_cliente": "SALLUS LTDA ", "uf_cliente": "CE ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"685557 ", "emissao_pv": "27/03/2026 ", "vlr_total_produtos": "1430,4 ", "margem": "72,5 ", "nome_cliente": "PRO TANATO ", "uf_cliente": "PR ", "tipo_cliente": "CONS.FINAL ","vendedor": "REP. CAOBIANCO ", "ultimo_status": "Alvará Sanitário" },
@@ -237,9 +236,10 @@
   {"numero_pedido":"685934 ", "emissao_pv": "31/03/2026 ", "vlr_total_produtos": "792,96 ", "margem": "22,19 ", "nome_cliente": "QUARK MEDICAL LTDA ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"685944 ", "emissao_pv": "31/03/2026 ", "vlr_total_produtos": "1226,68 ", "margem": "21,74 ", "nome_cliente": "NEW MED ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "ALEXANDRA RIBEIRO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"685989 ", "emissao_pv": "31/03/2026 ", "vlr_total_produtos": "4919,58 ", "margem": "31,49 ", "nome_cliente": "PRUDENLAB ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"686001 ", "emissao_pv": "31/03/2026 ", "vlr_total_produtos": "2481,6 ", "margem": "34,2 ", "nome_cliente": "PLASMA CLEAR ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"686005 ", "emissao_pv": "31/03/2026 ", "vlr_total_produtos": "2280 ", "margem": "29,93 ", "nome_cliente": "EXPRE DIST MEDICAMEN ", "uf_cliente": "PB ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. ALFA ", "ultimo_status": "Alvará Sanitário" }
-
+  {"numero_pedido":"686017 ", "emissao_pv": "31/03/2026 ", "vlr_total_produtos": "1347,5 ", "margem": "16,44 ", "nome_cliente": "KADIOS C.  DE PR ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"686021 ", "emissao_pv": "31/03/2026 ", "vlr_total_produtos": "6372,6 ", "margem": "45,1 ", "nome_cliente": "LIFE SOLUTIONS HEALT ", "uf_cliente": "CE ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"686031 ", "emissao_pv": "31/03/2026 ", "vlr_total_produtos": "3108 ", "margem": "37,87 ", "nome_cliente": "WAGNER DENTAL VIVA C ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"686036 ", "emissao_pv": "31/03/2026 ", "vlr_total_produtos": "1495,92 ", "margem": "9,88 ", "nome_cliente": "DORAMED ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. ML DANTE ", "ultimo_status": "Alvará Sanitário" }
 
 
 
