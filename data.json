@@ -1,21 +1,21 @@
 {
-  "updated_at": "01/04/2026 17:00",
+  "updated_at": "01/04/2026 17:38",
   "kpis": {
     "notas_em_atraso": 15,
     "previstas_para_hoje": 105,
     "entregues_hoje": 78
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 0, "valor": "0" },
+    { "status": "Aguardando Liberação", "quantidade": 3, "valor": "19470,2" },
     { "status": "Alvará Sanitário", "quantidade": 10, "valor": "57169,68" },
-    { "status": "Bloqueado por regra", "quantidade": 2, "valor": "8573,62" },
-    { "status": "Análise de Crédito", "quantidade": 10, "valor": "53916,06" },
-    { "status": "Total em Disputa", "quantidade": 22, "valor": "119659,36" },
+    { "status": "Bloqueado por regra", "quantidade": 0, "valor": "0" },
+    { "status": "Análise de Crédito", "quantidade": 9, "valor": "42720,38" },
+    { "status": "Total em Disputa", "quantidade": 22, "valor": "119360,26" },
     { "status": "Aguard. Envio Separação", "quantidade": 5, "valor": "382,15" },
-    { "status": "Em Separação", "quantidade": 106, "valor": "699100,13" },
-    { "status": "Separado", "quantidade": 2, "valor": "17300,5" },
-    { "status": "Faturado", "quantidade": 60, "valor": "307618,98" },
-    { "status": "Total", "quantidade": 173, "valor": "1024401,76" }
+    { "status": "Em Separação", "quantidade": 111, "valor": "726573,21" },
+    { "status": "Separado", "quantidade": 0, "valor": "0" },
+    { "status": "Faturado", "quantidade": 62, "valor": "324919,48" },
+    { "status": "Total", "quantidade": 178, "valor": "1051874,84" }
  ],
   "performance_transportadoras": [
    { "transportadora": "Azul", "notas": "15", "entregas": "0", "atrasados": "0", "pendente_de_entrega": "15", "performance": "100,00%" },
@@ -227,7 +227,6 @@
 "pedidos_nao_faturados": [
   {"numero_pedido":"684607 ", "emissao_pv": "23/03/2026 ", "vlr_total_produtos": "305,08 ", "margem": "0 ", "nome_cliente": "GUARDIAN LIFE BR II ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "E-COMMERCE ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"685780 ", "emissao_pv": "30/03/2026 ", "vlr_total_produtos": "435,99 ", "margem": "0 ", "nome_cliente": "TG SERVICOS MEDICOS ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "E-COMMERCE ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"685843 ", "emissao_pv": "30/03/2026 ", "vlr_total_produtos": "11195,68 ", "margem": "33,95 ", "nome_cliente": "MEDIMAR DISTRIBUIDOR ", "uf_cliente": "MA ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. H.F ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"685934 ", "emissao_pv": "31/03/2026 ", "vlr_total_produtos": "792,96 ", "margem": "22,19 ", "nome_cliente": "QUARK MEDICAL LTDA ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"685989 ", "emissao_pv": "31/03/2026 ", "vlr_total_produtos": "4919,58 ", "margem": "31,49 ", "nome_cliente": "PRUDENLAB ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"686017 ", "emissao_pv": "31/03/2026 ", "vlr_total_produtos": "1347,5 ", "margem": "16,44 ", "nome_cliente": "KADIOS C.  DE PR ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Alvará Sanitário" },
@@ -245,6 +244,7 @@
   {"numero_pedido":"686232 ", "emissao_pv": "01/04/2026 ", "vlr_total_produtos": "18704,94 ", "margem": "31,21 ", "nome_cliente": "NORTE SAUDE HOSPITAL ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"686234 ", "emissao_pv": "01/04/2026 ", "vlr_total_produtos": "4253,05 ", "margem": "17,5 ", "nome_cliente": "PREMISSE HOSPITALAR ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"686237 ", "emissao_pv": "01/04/2026 ", "vlr_total_produtos": "1804,39 ", "margem": "31,73 ", "nome_cliente": "SAM FARMA ", "uf_cliente": "CE ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Alvará Sanitário" }
+
 
 
 
