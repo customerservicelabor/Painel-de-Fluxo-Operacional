@@ -1,5 +1,5 @@
 {
-  "updated_at": "01/04/2026 13:46",
+  "updated_at": "01/04/2026 15:00",
   "kpis": {
     "notas_em_atraso": 22,
     "previstas_para_hoje": 109,
@@ -8,14 +8,14 @@
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 0, "valor": "0" },
     { "status": "Alvará Sanitário", "quantidade": 6, "valor": "32471,15" },
-    { "status": "Bloqueado por regra", "quantidade": 0, "valor": "0" },
-    { "status": "Análise de Crédito", "quantidade": 14, "valor": "143846,26" },
-    { "status": "Total em Disputa", "quantidade": 20, "valor": "176317,41" },
+    { "status": "Bloqueado por regra", "quantidade": 3, "valor": "15923,95" },
+    { "status": "Análise de Crédito", "quantidade": 14, "valor": "142762,46" },
+    { "status": "Total em Disputa", "quantidade": 23, "valor": "191157,56" },
     { "status": "Aguard. Envio Separação", "quantidade": 5, "valor": "382,15" },
-    { "status": "Em Separação", "quantidade": 102, "valor": "726719,43" },
-    { "status": "Separado", "quantidade": 4, "valor": "16398,4" },
-    { "status": "Faturado", "quantidade": 38, "valor": "104025,72" },
-    { "status": "Total", "quantidade": 149, "valor": "847525,7" }
+    { "status": "Em Separação", "quantidade": 94, "valor": "600346,74" },
+    { "status": "Separado", "quantidade": 1, "valor": "21724,5" },
+    { "status": "Faturado", "quantidade": 54, "valor": "247312,66" },
+    { "status": "Total", "quantidade": 154, "valor": "869766,05" }
  ],
   "performance_transportadoras": [
    { "transportadora": "Azul", "notas": "0", "entregas": "0", "atrasados": "0", "pendente_de_entrega": "0", "performance": "100,00%" },
@@ -240,11 +240,11 @@
   {"numero_pedido":"686082 ", "emissao_pv": "31/03/2026 ", "vlr_total_produtos": "2069,4 ", "margem": "32,15 ", "nome_cliente": "CENTRO MEDICO HOSPIT ", "uf_cliente": "PI ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"686138 ", "emissao_pv": "01/04/2026 ", "vlr_total_produtos": "18338 ", "margem": "32,33 ", "nome_cliente": "AMAZON ", "uf_cliente": "AP ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"686155 ", "emissao_pv": "01/04/2026 ", "vlr_total_produtos": "5550 ", "margem": "36,98 ", "nome_cliente": "SONIA GOMES DOS SANT ", "uf_cliente": "PE ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"686163 ", "emissao_pv": "01/04/2026 ", "vlr_total_produtos": "2675,65 ", "margem": "39,69 ", "nome_cliente": "LIBERIO MEDONCA GOME ", "uf_cliente": "MG ", "tipo_cliente": "CONS.FINAL ","vendedor": "E-COMMERCE ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"686181 ", "emissao_pv": "01/04/2026 ", "vlr_total_produtos": "1083 ", "margem": "31,76 ", "nome_cliente": "LAB. EXAME-DASA ", "uf_cliente": "RS ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"686185 ", "emissao_pv": "01/04/2026 ", "vlr_total_produtos": "1394 ", "margem": "26,15 ", "nome_cliente": "DASA ", "uf_cliente": "PR ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"686197 ", "emissao_pv": "01/04/2026 ", "vlr_total_produtos": "7125 ", "margem": "32,88 ", "nome_cliente": "RICARDO C  SOUZA SER ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"686199 ", "emissao_pv": "01/04/2026 ", "vlr_total_produtos": "892,4 ", "margem": "32 ", "nome_cliente": "TREMED HOSPITALARES ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" }
+  {"numero_pedido":"686199 ", "emissao_pv": "01/04/2026 ", "vlr_total_produtos": "892,4 ", "margem": "32 ", "nome_cliente": "TREMED HOSPITALARES ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"686201 ", "emissao_pv": "01/04/2026 ", "vlr_total_produtos": "1513,3 ", "margem": "25,15 ", "nome_cliente": "62 031 843 MARINA MO ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "BARBARA PASSOS ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"686216 ", "emissao_pv": "01/04/2026 ", "vlr_total_produtos": "1472,55 ", "margem": "7,42 ", "nome_cliente": "NUCLEO DIAGNOSTICOS ", "uf_cliente": "PI ", "tipo_cliente": "CONS.FINAL ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" }
 
 
 
