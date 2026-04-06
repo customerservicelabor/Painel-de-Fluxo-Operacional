@@ -1,5 +1,5 @@
 {
-  "updated_at": "06/04/2026 12:50",
+  "updated_at": "06/04/2026 14:40",
   "kpis": {
     "notas_em_atraso": 32,
     "previstas_para_hoje": 139,
@@ -7,15 +7,15 @@
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 1, "valor": "3648" },
-    { "status": "Alvará Sanitário", "quantidade": 6, "valor": "22677,61" },
-    { "status": "Bloqueado por regra", "quantidade": 3, "valor": "10404,93" },
-    { "status": "Análise de Crédito", "quantidade": 10, "valor": "32530,33" },
-    { "status": "Total em Disputa", "quantidade": 20, "valor": "69260,87" },
+    { "status": "Alvará Sanitário", "quantidade": 8, "valor": "25807,55" },
+    { "status": "Bloqueado por regra", "quantidade": 1, "valor": "312,03" },
+    { "status": "Análise de Crédito", "quantidade": 12, "valor": "45965,51" },
+    { "status": "Total em Disputa", "quantidade": 22, "valor": "75733,09" },
     { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "43,6" },
-    { "status": "Em Separação", "quantidade": 3, "valor": "3283,93" },
+    { "status": "Em Separação", "quantidade": 2, "valor": "4391,05" },
     { "status": "Separado", "quantidade": 2, "valor": "15054,7" },
-    { "status": "Faturado", "quantidade": 19, "valor": "81005,24" },
-    { "status": "Total", "quantidade": 25, "valor": "99387,47" }
+    { "status": "Faturado", "quantidade": 26, "valor": "101471,62" },
+    { "status": "Total", "quantidade": 31, "valor": "120960,97" }
  ],
   "performance_transportadoras": [
    { "transportadora": "Azul", "notas": "46", "entregas": "1", "atrasados": "0", "pendente_de_entrega": "45", "performance": "100,00%" },
@@ -246,17 +246,17 @@
   {"numero_pedido":"686282 ", "emissao_pv": "02/04/2026 ", "vlr_total_produtos": "11907,7 ", "margem": "40,31 ", "nome_cliente": "53 091 863 RAYANE OL ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"686285 ", "emissao_pv": "02/04/2026 ", "vlr_total_produtos": "997 ", "margem": "30,1 ", "nome_cliente": "HISHOO COMERCIO IMPO ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"686363 ", "emissao_pv": "02/04/2026 ", "vlr_total_produtos": "1048,06 ", "margem": "39,85 ", "nome_cliente": "CIRURGICA JM  COMERC ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "ALEXANDRA RIBEIRO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"686369 ", "emissao_pv": "02/04/2026 ", "vlr_total_produtos": "1172,35 ", "margem": "0 ", "nome_cliente": "PROCLIN APARELHOS E ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "E-COMMERCE ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"686370 ", "emissao_pv": "02/04/2026 ", "vlr_total_produtos": "5440 ", "margem": "30,14 ", "nome_cliente": "PHARMAPLUS LTDA ", "uf_cliente": "PE ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"686426 ", "emissao_pv": "02/04/2026 ", "vlr_total_produtos": "502,5 ", "margem": "37,34 ", "nome_cliente": "MASTER DAY SERV MEDI ", "uf_cliente": "BA ", "tipo_cliente": "CONS.FINAL ","vendedor": "LUCIA FLORESTA ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"686431 ", "emissao_pv": "02/04/2026 ", "vlr_total_produtos": "804,95 ", "margem": "45,53 ", "nome_cliente": "P H PROD MEDICOS HOS ", "uf_cliente": "RO ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. FEMA ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"686435 ", "emissao_pv": "05/04/2026 ", "vlr_total_produtos": "15575,62 ", "margem": "21,33 ", "nome_cliente": "ML MED ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. SUPREMO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"686450 ", "emissao_pv": "06/04/2026 ", "vlr_total_produtos": "5504,58 ", "margem": "29,26 ", "nome_cliente": "PRUDENLAB ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"686463 ", "emissao_pv": "06/04/2026 ", "vlr_total_produtos": "3750 ", "margem": "29,7 ", "nome_cliente": "JRA HOSPITALAR ", "uf_cliente": "ES ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" }
-
-
-
-
+  {"numero_pedido":"686458 ", "emissao_pv": "06/04/2026 ", "vlr_total_produtos": "6874,2 ", "margem": "25,19 ", "nome_cliente": "MED OESTE ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"686463 ", "emissao_pv": "06/04/2026 ", "vlr_total_produtos": "3750 ", "margem": "29,7 ", "nome_cliente": "JRA HOSPITALAR ", "uf_cliente": "ES ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"686482 ", "emissao_pv": "06/04/2026 ", "vlr_total_produtos": "1429,7 ", "margem": "32,77 ", "nome_cliente": "NOVA SAUDE PRODUTOS ", "uf_cliente": "MS ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"686489 ", "emissao_pv": "06/04/2026 ", "vlr_total_produtos": "1700,24 ", "margem": "21,15 ", "nome_cliente": "MIRALI PRODUTOS HOSP ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"686491 ", "emissao_pv": "06/04/2026 ", "vlr_total_produtos": "5300 ", "margem": "28,87 ", "nome_cliente": "PLUSVET ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"686493 ", "emissao_pv": "06/04/2026 ", "vlr_total_produtos": "1990 ", "margem": "17,03 ", "nome_cliente": "SCHARLAB BRASIL SA P ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "LUCIA FLORESTA ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"686495 ", "emissao_pv": "06/04/2026 ", "vlr_total_produtos": "945,83 ", "margem": "27,9 ", "nome_cliente": "KLINIKE ", "uf_cliente": "ES ", "tipo_cliente": "CONS.FINAL ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" }
 
 
 
