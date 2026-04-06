@@ -1,5 +1,5 @@
 {
-  "updated_at": "06/04/2026 08:14",
+  "updated_at": "06/04/2026 08:18",
   "kpis": {
     "notas_em_atraso": 37,
     "previstas_para_hoje": 139,
@@ -64,12 +64,12 @@
    {"nota_fiscal": "203731 ", "destinatario": "49197316000104 - GUANAMBI DISTRIB INSUMOS HOSP LTDA ", "transportador": "AZUL ", "previsao_entrega": "01/04/2026","ocorrencia": "Atrasado" },
    {"nota_fiscal": "204334 ", "destinatario": "04539279019407 - CIENTIFICALAB PRODUTOS LABORATORIAIS E S ", "transportador": "ATIVA ", "previsao_entrega": "01/04/2026","ocorrencia": "Atrasado" },
    {"nota_fiscal": "204520 ", "destinatario": "43962576000142 - UNAMED PRODUTOS HOSPITALARES LTDA ", "transportador": "SCHREIBER ", "previsao_entrega": "02/04/2026","ocorrencia": "Atrasado" },
-   {"nota_fiscal": "203930 ", "destinatario": "43945242000160 - DISAMED SUPRIMENTOS MEDICOS LTDA ", "transportador": "AZURELOG ", "previsao_entrega": "31/03/2026","ocorrencia": "Atrasado" }
-   {"nota_fiscal": "204767 ", "destinatario": "20423730000102 - ALFA EXCELENCIA DIAGNOSTICA LTDA ", "previsao_entrega": "00/01/1900","ocorrencia": "Atrasado
-   {"nota_fiscal": "204766 ", "destinatario": "20423730000102 - ALFA EXCELENCIA DIAGNOSTICA LTDA ", "previsao_entrega": "00/01/1900","ocorrencia": "Atrasado
-   {"nota_fiscal": "204780 ", "destinatario": "20423730000102 - ALFA EXCELENCIA DIAGNOSTICA LTDA ", "previsao_entrega": "00/01/1900","ocorrencia": "Atrasado
-   {"nota_fiscal": "204722 ", "destinatario": "20423730000102 - ALFA EXCELENCIA DIAGNOSTICA LTDA ", "previsao_entrega": "00/01/1900","ocorrencia": "Atrasado
-   {"nota_fiscal": "204720 ", "destinatario": "20423730000102 - ALFA EXCELENCIA DIAGNOSTICA LTDA ", "previsao_entrega": "00/01/1900","ocorrencia": "Atrasado
+   {"nota_fiscal": "203930 ", "destinatario": "43945242000160 - DISAMED SUPRIMENTOS MEDICOS LTDA ", "transportador": "AZURELOG ", "previsao_entrega": "31/03/2026","ocorrencia": "Atrasado" },
+   {"nota_fiscal": "204767 ", "destinatario": "20423730000102 - ALFA EXCELENCIA DIAGNOSTICA LTDA ", "transportador": "JAMEF ", "previsao_entrega": "00/01/1900","ocorrencia": "Atrasado" },
+   {"nota_fiscal": "204766 ", "destinatario": "20423730000102 - ALFA EXCELENCIA DIAGNOSTICA LTDA ", "transportador": "JAMEF ", "previsao_entrega": "00/01/1900","ocorrencia": "Atrasado" },
+   {"nota_fiscal": "204780 ", "destinatario": "20423730000102 - ALFA EXCELENCIA DIAGNOSTICA LTDA ", "transportador": "JAMEF ", "previsao_entrega": "00/01/1900","ocorrencia": "Atrasado" },
+   {"nota_fiscal": "204722 ", "destinatario": "20423730000102 - ALFA EXCELENCIA DIAGNOSTICA LTDA ", "transportador": "JAMEF ", "previsao_entrega": "00/01/1900","ocorrencia": "Atrasado" },
+   {"nota_fiscal": "204720 ", "destinatario": "20423730000102 - ALFA EXCELENCIA DIAGNOSTICA LTDA ", "transportador": "JAMEF ", "previsao_entrega": "00/01/1900","ocorrencia": "Atrasado" }
 
 
 
@@ -238,3 +238,38 @@
   {"numero_pedido":"686336 ", "emissao_pv": "02/04/2026 ", "vlr_total_produtos": "791 ", "margem": "52,57 ", "nome_cliente": " ", "uf_cliente": " ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"686346 ", "emissao_pv": "02/04/2026 ", "vlr_total_produtos": "16029 ", "margem": "22,35 ", "nome_cliente": " ", "uf_cliente": " ", "tipo_cliente": "CONS.FINAL ","vendedor": "BARBARA PASSOS ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"686363 ", "emissao_pv": "02/04/2026 ", "vlr_total_produtos": "1048,06 ", "margem": "39,85 ", "nome_cliente": " ", "uf_cliente": " ", "tipo_cliente": "REVENDEDOR ","vendedor": "ALEXANDRA RIBEIRO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"686369 ", "emissao_pv": "02/04/2026 ", "vlr_total_produtos": "1172,35 ", "margem": "0 ", "nome_cliente": " ", "uf_cliente": " ", "tipo_cliente": "REVENDEDOR ","vendedor": "E-COMMERCE ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"686370 ", "emissao_pv": "02/04/2026 ", "vlr_total_produtos": "5440 ", "margem": "30,14 ", "nome_cliente": " ", "uf_cliente": " ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"686381 ", "emissao_pv": "02/04/2026 ", "vlr_total_produtos": "1142 ", "margem": "33,21 ", "nome_cliente": " ", "uf_cliente": " ", "tipo_cliente": "REVENDEDOR ","vendedor": "LUCIA FLORESTA ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"686395 ", "emissao_pv": "02/04/2026 ", "vlr_total_produtos": "3008,5 ", "margem": "32,33 ", "nome_cliente": " ", "uf_cliente": " ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. FEMA ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"685780 ", "emissao_pv": "30/03/2026 ", "vlr_total_produtos": "435,99 ", "margem": "0 ", "nome_cliente": " ", "uf_cliente": " ", "tipo_cliente": "CONS.FINAL ","vendedor": "E-COMMERCE ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"686082 ", "emissao_pv": "31/03/2026 ", "vlr_total_produtos": "2069,4 ", "margem": "32,15 ", "nome_cliente": " ", "uf_cliente": " ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"686181 ", "emissao_pv": "01/04/2026 ", "vlr_total_produtos": "1083 ", "margem": "31,76 ", "nome_cliente": " ", "uf_cliente": " ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"686199 ", "emissao_pv": "01/04/2026 ", "vlr_total_produtos": "892,4 ", "margem": "32 ", "nome_cliente": " ", "uf_cliente": " ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"686226 ", "emissao_pv": "01/04/2026 ", "vlr_total_produtos": "2220 ", "margem": "14,17 ", "nome_cliente": " ", "uf_cliente": " ", "tipo_cliente": "CONS.FINAL ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"686237 ", "emissao_pv": "01/04/2026 ", "vlr_total_produtos": "1804,39 ", "margem": "31,73 ", "nome_cliente": " ", "uf_cliente": " ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"686282 ", "emissao_pv": "02/04/2026 ", "vlr_total_produtos": "11907,7 ", "margem": "40,31 ", "nome_cliente": " ", "uf_cliente": " ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"686285 ", "emissao_pv": "02/04/2026 ", "vlr_total_produtos": "997 ", "margem": "30,1 ", "nome_cliente": " ", "uf_cliente": " ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"686291 ", "emissao_pv": "02/04/2026 ", "vlr_total_produtos": "5479,86 ", "margem": "29,37 ", "nome_cliente": " ", "uf_cliente": " ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"686302 ", "emissao_pv": "02/04/2026 ", "vlr_total_produtos": "770 ", "margem": "28,3 ", "nome_cliente": " ", "uf_cliente": " ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. SUPREMO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"686330 ", "emissao_pv": "02/04/2026 ", "vlr_total_produtos": "969,8 ", "margem": "23,55 ", "nome_cliente": " ", "uf_cliente": " ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"686336 ", "emissao_pv": "02/04/2026 ", "vlr_total_produtos": "791 ", "margem": "52,57 ", "nome_cliente": " ", "uf_cliente": " ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"686346 ", "emissao_pv": "02/04/2026 ", "vlr_total_produtos": "16029 ", "margem": "22,35 ", "nome_cliente": " ", "uf_cliente": " ", "tipo_cliente": "CONS.FINAL ","vendedor": "BARBARA PASSOS ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"686363 ", "emissao_pv": "02/04/2026 ", "vlr_total_produtos": "1048,06 ", "margem": "39,85 ", "nome_cliente": " ", "uf_cliente": " ", "tipo_cliente": "REVENDEDOR ","vendedor": "ALEXANDRA RIBEIRO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"686369 ", "emissao_pv": "02/04/2026 ", "vlr_total_produtos": "1172,35 ", "margem": "0 ", "nome_cliente": " ", "uf_cliente": " ", "tipo_cliente": "REVENDEDOR ","vendedor": "E-COMMERCE ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"686370 ", "emissao_pv": "02/04/2026 ", "vlr_total_produtos": "5440 ", "margem": "30,14 ", "nome_cliente": " ", "uf_cliente": " ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"686395 ", "emissao_pv": "02/04/2026 ", "vlr_total_produtos": "3008,5 ", "margem": "32,33 ", "nome_cliente": " ", "uf_cliente": " ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. FEMA ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"686396 ", "emissao_pv": "02/04/2026 ", "vlr_total_produtos": "866,74 ", "margem": "26,04 ", "nome_cliente": " ", "uf_cliente": " ", "tipo_cliente": "REVENDEDOR ","vendedor": "ALICE RODRIGUES ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"686426 ", "emissao_pv": "02/04/2026 ", "vlr_total_produtos": "502,5 ", "margem": "37,34 ", "nome_cliente": " ", "uf_cliente": " ", "tipo_cliente": "CONS.FINAL ","vendedor": "LUCIA FLORESTA ", "ultimo_status": "Análise de Crédito" }
+
+ ],
+  "tv_alert": {
+    "enabled": false,
+    "id": "Nova Transportadora: JAMEF",
+    "title": "Atenção",
+    "message": "Atenção: nova transportadora liberada. A Jamef já está disponível para envio de encomendas urgentes. Fiquem atentos aos orçamentos.",
+    "duration_seconds": 25,
+    "created_at": "2026-02-23T11:10:00-03:00",
+    "ttl_minutes": 720
+  }
+}
