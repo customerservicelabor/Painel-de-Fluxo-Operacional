@@ -1,5 +1,5 @@
 {
-  "updated_at": "06/04/2026 11:08",
+  "updated_at": "06/04/2026 12:50",
   "kpis": {
     "notas_em_atraso": 32,
     "previstas_para_hoje": 139,
@@ -8,14 +8,14 @@
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 1, "valor": "3648" },
     { "status": "Alvará Sanitário", "quantidade": 6, "valor": "22677,61" },
-    { "status": "Bloqueado por regra", "quantidade": 2, "valor": "7186,23" },
-    { "status": "Análise de Crédito", "quantidade": 11, "valor": "33500,13" },
-    { "status": "Total em Disputa", "quantidade": 20, "valor": "67011,97" },
+    { "status": "Bloqueado por regra", "quantidade": 3, "valor": "10404,93" },
+    { "status": "Análise de Crédito", "quantidade": 10, "valor": "32530,33" },
+    { "status": "Total em Disputa", "quantidade": 20, "valor": "69260,87" },
     { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "43,6" },
-    { "status": "Em Separação", "quantidade": 4, "valor": "38787,96" },
-    { "status": "Separado", "quantidade": 4, "valor": "27472,9" },
-    { "status": "Faturado", "quantidade": 9, "valor": "24946,52" },
-    { "status": "Total", "quantidade": 18, "valor": "91250,98" }
+    { "status": "Em Separação", "quantidade": 3, "valor": "3283,93" },
+    { "status": "Separado", "quantidade": 2, "valor": "15054,7" },
+    { "status": "Faturado", "quantidade": 19, "valor": "81005,24" },
+    { "status": "Total", "quantidade": 25, "valor": "99387,47" }
  ],
   "performance_transportadoras": [
    { "transportadora": "Azul", "notas": "46", "entregas": "1", "atrasados": "0", "pendente_de_entrega": "45", "performance": "100,00%" },
@@ -245,7 +245,6 @@
   {"numero_pedido":"686237 ", "emissao_pv": "01/04/2026 ", "vlr_total_produtos": "1804,39 ", "margem": "31,73 ", "nome_cliente": "SAM FARMA ", "uf_cliente": "CE ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"686282 ", "emissao_pv": "02/04/2026 ", "vlr_total_produtos": "11907,7 ", "margem": "40,31 ", "nome_cliente": "53 091 863 RAYANE OL ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"686285 ", "emissao_pv": "02/04/2026 ", "vlr_total_produtos": "997 ", "margem": "30,1 ", "nome_cliente": "HISHOO COMERCIO IMPO ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"686330 ", "emissao_pv": "02/04/2026 ", "vlr_total_produtos": "969,8 ", "margem": "23,55 ", "nome_cliente": "CIDICOLA ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"686363 ", "emissao_pv": "02/04/2026 ", "vlr_total_produtos": "1048,06 ", "margem": "39,85 ", "nome_cliente": "CIRURGICA JM  COMERC ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "ALEXANDRA RIBEIRO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"686369 ", "emissao_pv": "02/04/2026 ", "vlr_total_produtos": "1172,35 ", "margem": "0 ", "nome_cliente": "PROCLIN APARELHOS E ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "E-COMMERCE ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"686370 ", "emissao_pv": "02/04/2026 ", "vlr_total_produtos": "5440 ", "margem": "30,14 ", "nome_cliente": "PHARMAPLUS LTDA ", "uf_cliente": "PE ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
@@ -254,6 +253,7 @@
   {"numero_pedido":"686435 ", "emissao_pv": "05/04/2026 ", "vlr_total_produtos": "15575,62 ", "margem": "21,33 ", "nome_cliente": "ML MED ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. SUPREMO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"686450 ", "emissao_pv": "06/04/2026 ", "vlr_total_produtos": "5504,58 ", "margem": "29,26 ", "nome_cliente": "PRUDENLAB ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"686463 ", "emissao_pv": "06/04/2026 ", "vlr_total_produtos": "3750 ", "margem": "29,7 ", "nome_cliente": "JRA HOSPITALAR ", "uf_cliente": "ES ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" }
+
 
 
 
