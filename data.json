@@ -1,5 +1,5 @@
 {
-  "updated_at": "07/04/2026 16:38",
+  "updated_at": "07/04/2026 16:39",
   "kpis": {
     "notas_em_atraso": 11,
     "previstas_para_hoje": 92,
@@ -238,3 +238,50 @@
  ],
 "pedidos_nao_faturados": [
   {"numero_pedido":"682818 ", "emissao_pv": "12/03/2026 ", "vlr_total_produtos": "3106,95 ", "margem": "20,33 ", "nome_cliente": "BARUCH LABORATORIO ", "uf_cliente": "MA ", "tipo_cliente": "CONS.FINAL ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Alvará Sanitário" }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ],
+  "tv_alert": {
+    "enabled": false,
+    "id": "Nova Transportadora: JAMEF",
+    "title": "Atenção",
+    "message": "Atenção: nova transportadora liberada. A Jamef já está disponível para envio de encomendas urgentes. Fiquem atentos aos orçamentos.",
+    "duration_seconds": 25,
+    "created_at": "2026-02-23T11:10:00-03:00",
+    "ttl_minutes": 720
+  }
+}
