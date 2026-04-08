@@ -1,21 +1,21 @@
 {
-  "updated_at": "08/04/2026 10:28",
+  "updated_at": "08/04/2026 11:04",
   "kpis": {
     "notas_em_atraso": 21,
     "previstas_para_hoje": 90,
     "entregues_hoje": 57
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 2, "valor": "3648,04" },
-    { "status": "Alvará Sanitário", "quantidade": 8, "valor": "47706,3" },
-    { "status": "Bloqueado por regra", "quantidade": 3, "valor": "18800,51" },
-    { "status": "Análise de Crédito", "quantidade": 16, "valor": "196823,05" },
-    { "status": "Total em Disputa", "quantidade": 29, "valor": "266977,9" },
-    { "status": "Aguard. Envio Separação", "quantidade": 3, "valor": "3223,76" },
-    { "status": "Em Separação", "quantidade": 4, "valor": "13226,98" },
-    { "status": "Separado", "quantidade": 3, "valor": "24966,18" },
-    { "status": "Faturado", "quantidade": 11, "valor": "20950,22" },
-    { "status": "Total", "quantidade": 21, "valor": "62367,14" }
+    { "status": "Aguardando Liberação", "quantidade": 3, "valor": "6189,91" },
+    { "status": "Alvará Sanitário", "quantidade": 9, "valor": "55443,18" },
+    { "status": "Bloqueado por regra", "quantidade": 2, "valor": "4955,31" },
+    { "status": "Análise de Crédito", "quantidade": 17, "valor": "214000,41" },
+    { "status": "Total em Disputa", "quantidade": 31, "valor": "280588,81" },
+    { "status": "Aguard. Envio Separação", "quantidade": 4, "valor": "4236,8" },
+    { "status": "Em Separação", "quantidade": 5, "valor": "12874,44" },
+    { "status": "Separado", "quantidade": 4, "valor": "26277,3" },
+    { "status": "Faturado", "quantidade": 13, "valor": "30713" },
+    { "status": "Total", "quantidade": 26, "valor": "74101,54" }
  ],
   "performance_transportadoras": [
    { "transportadora": "Azul", "notas": "74", "entregas": "16", "atrasados": "0", "pendente_de_entrega": "58", "performance": "100,00%" },
@@ -260,9 +260,9 @@
   {"numero_pedido":"686716 ", "emissao_pv": "08/04/2026 ", "vlr_total_produtos": "2248,8 ", "margem": "43,13 ", "nome_cliente": "MONTALVAO COMERCIAL ", "uf_cliente": "SE ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"686717 ", "emissao_pv": "08/04/2026 ", "vlr_total_produtos": "13420 ", "margem": "29,28 ", "nome_cliente": "NATAN HOSPITALAR ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"686726 ", "emissao_pv": "08/04/2026 ", "vlr_total_produtos": "1448,45 ", "margem": "31,26 ", "nome_cliente": "CONVERGE ", "uf_cliente": "DF ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. SUPREMO ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"686728 ", "emissao_pv": "08/04/2026 ", "vlr_total_produtos": "635,06 ", "margem": "26,26 ", "nome_cliente": "FENIXMED ", "uf_cliente": "ES ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. BILLYMED REPRESENTAC ", "ultimo_status": "Análise de Crédito" }
-
-
+  {"numero_pedido":"686728 ", "emissao_pv": "08/04/2026 ", "vlr_total_produtos": "635,06 ", "margem": "26,26 ", "nome_cliente": "FENIXMED ", "uf_cliente": "ES ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. BILLYMED REPRESENTAC ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"686743 ", "emissao_pv": "08/04/2026 ", "vlr_total_produtos": "17177,36 ", "margem": "34,33 ", "nome_cliente": "LAB ANALISES CLINICA ", "uf_cliente": "PE ", "tipo_cliente": "CONS.FINAL ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"686749 ", "emissao_pv": "08/04/2026 ", "vlr_total_produtos": "7736,88 ", "margem": "29,88 ", "nome_cliente": "KHRYS TEC ", "uf_cliente": "PI ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Alvará Sanitário" }
 
 
 
