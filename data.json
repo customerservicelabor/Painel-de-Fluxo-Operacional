@@ -1,5 +1,5 @@
 {
-  "updated_at": "08/04/2026 11:04",
+  "updated_at": "08/04/2026 11:59",
   "kpis": {
     "notas_em_atraso": 21,
     "previstas_para_hoje": 90,
@@ -7,15 +7,15 @@
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 3, "valor": "6189,91" },
-    { "status": "Alvará Sanitário", "quantidade": 9, "valor": "55443,18" },
-    { "status": "Bloqueado por regra", "quantidade": 2, "valor": "4955,31" },
-    { "status": "Análise de Crédito", "quantidade": 17, "valor": "214000,41" },
-    { "status": "Total em Disputa", "quantidade": 31, "valor": "280588,81" },
-    { "status": "Aguard. Envio Separação", "quantidade": 4, "valor": "4236,8" },
-    { "status": "Em Separação", "quantidade": 5, "valor": "12874,44" },
-    { "status": "Separado", "quantidade": 4, "valor": "26277,3" },
-    { "status": "Faturado", "quantidade": 13, "valor": "30713" },
-    { "status": "Total", "quantidade": 26, "valor": "74101,54" }
+    { "status": "Alvará Sanitário", "quantidade": 10, "valor": "57593,46" },
+    { "status": "Bloqueado por regra", "quantidade": 2, "valor": "6512,14" },
+    { "status": "Análise de Crédito", "quantidade": 20, "valor": "225887,59" },
+    { "status": "Total em Disputa", "quantidade": 35, "valor": "296183,1" },
+    { "status": "Aguard. Envio Separação", "quantidade": 5, "valor": "4263,24" },
+    { "status": "Em Separação", "quantidade": 8, "valor": "32099,17" },
+    { "status": "Separado", "quantidade": 0, "valor": "0" },
+    { "status": "Faturado", "quantidade": 20, "valor": "65081,57" },
+    { "status": "Total", "quantidade": 33, "valor": "101443,98" }
  ],
   "performance_transportadoras": [
    { "transportadora": "Azul", "notas": "74", "entregas": "16", "atrasados": "0", "pendente_de_entrega": "58", "performance": "100,00%" },
@@ -262,11 +262,11 @@
   {"numero_pedido":"686726 ", "emissao_pv": "08/04/2026 ", "vlr_total_produtos": "1448,45 ", "margem": "31,26 ", "nome_cliente": "CONVERGE ", "uf_cliente": "DF ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. SUPREMO ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"686728 ", "emissao_pv": "08/04/2026 ", "vlr_total_produtos": "635,06 ", "margem": "26,26 ", "nome_cliente": "FENIXMED ", "uf_cliente": "ES ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. BILLYMED REPRESENTAC ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"686743 ", "emissao_pv": "08/04/2026 ", "vlr_total_produtos": "17177,36 ", "margem": "34,33 ", "nome_cliente": "LAB ANALISES CLINICA ", "uf_cliente": "PE ", "tipo_cliente": "CONS.FINAL ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"686749 ", "emissao_pv": "08/04/2026 ", "vlr_total_produtos": "7736,88 ", "margem": "29,88 ", "nome_cliente": "KHRYS TEC ", "uf_cliente": "PI ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Alvará Sanitário" }
-
-
-
-
+  {"numero_pedido":"686749 ", "emissao_pv": "08/04/2026 ", "vlr_total_produtos": "7736,88 ", "margem": "29,88 ", "nome_cliente": "KHRYS TEC ", "uf_cliente": "PI ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"686755 ", "emissao_pv": "08/04/2026 ", "vlr_total_produtos": "4643,28 ", "margem": "26,54 ", "nome_cliente": "UNILABOR LAB ANALISE ", "uf_cliente": "PR ", "tipo_cliente": "CONS.FINAL ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"686759 ", "emissao_pv": "08/04/2026 ", "vlr_total_produtos": "6030 ", "margem": "32,32 ", "nome_cliente": "SHOPMED DISTRIBUIDOR ", "uf_cliente": "PI ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"686767 ", "emissao_pv": "08/04/2026 ", "vlr_total_produtos": "1213,9 ", "margem": "31,59 ", "nome_cliente": "LABRIOLA HOF ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"686778 ", "emissao_pv": "08/04/2026 ", "vlr_total_produtos": "2150,28 ", "margem": "25,49 ", "nome_cliente": "SAUDE E CIA ", "uf_cliente": "AL ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Alvará Sanitário" }
 
 
 
