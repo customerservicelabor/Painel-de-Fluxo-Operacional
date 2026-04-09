@@ -1,5 +1,5 @@
 {
-  "updated_at": "09/04/2026 16:03",
+  "updated_at": "09/04/2026 17:00",
   "kpis": {
     "notas_em_atraso": 23,
     "previstas_para_hoje": 114,
@@ -7,15 +7,15 @@
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 1, "valor": "3648" },
-    { "status": "Alvará Sanitário", "quantidade": 5, "valor": "19227,81" },
-    { "status": "Bloqueado por regra", "quantidade": 5, "valor": "12420,9" },
-    { "status": "Análise de Crédito", "quantidade": 16, "valor": "72627,32" },
-    { "status": "Total em Disputa", "quantidade": 27, "valor": "107924,03" },
-    { "status": "Aguard. Envio Separação", "quantidade": 2, "valor": "2796,72" },
-    { "status": "Em Separação", "quantidade": 19, "valor": "195384,89" },
-    { "status": "Separado", "quantidade": 1, "valor": "1018,36" },
-    { "status": "Faturado", "quantidade": 59, "valor": "223618,76" },
-    { "status": "Total", "quantidade": 81, "valor": "422818,73" }
+    { "status": "Alvará Sanitário", "quantidade": 5, "valor": "27429,28" },
+    { "status": "Bloqueado por regra", "quantidade": 5, "valor": "14127,14" },
+    { "status": "Análise de Crédito", "quantidade": 17, "valor": "74497,32" },
+    { "status": "Total em Disputa", "quantidade": 28, "valor": "119701,74" },
+    { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "1596" },
+    { "status": "Em Separação", "quantidade": 21, "valor": "220542,73" },
+    { "status": "Separado", "quantidade": 2, "valor": "1908,36" },
+    { "status": "Faturado", "quantidade": 66, "valor": "243350,72" },
+    { "status": "Total", "quantidade": 90, "valor": "467397,81" }
  ],
   "performance_transportadoras": [
    { "transportadora": "Azul", "notas": "104", "entregas": "36", "atrasados": "0", "pendente_de_entrega": "68", "performance": "100,00%" },
@@ -256,9 +256,9 @@
   {"numero_pedido":"687056 ", "emissao_pv": "09/04/2026 ", "vlr_total_produtos": "2600 ", "margem": "16,23 ", "nome_cliente": "DETMED ", "uf_cliente": "PI ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"687058 ", "emissao_pv": "09/04/2026 ", "vlr_total_produtos": "7251,56 ", "margem": "38,69 ", "nome_cliente": "DENTAL ALENCAR IMPOR ", "uf_cliente": "RR ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"687072 ", "emissao_pv": "09/04/2026 ", "vlr_total_produtos": "15200 ", "margem": "-14,28 ", "nome_cliente": "HOSPITAL UNIVERSITAR ", "uf_cliente": "MA ", "tipo_cliente": "CONS.FINAL ","vendedor": "VDS DIGITAIS - LICITACAO ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"687074 ", "emissao_pv": "09/04/2026 ", "vlr_total_produtos": "1353,33 ", "margem": "0 ", "nome_cliente": "CARDOSO DE CASTRO LA ", "uf_cliente": "BA ", "tipo_cliente": "CONS.FINAL ","vendedor": "E-COMMERCE ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"687080 ", "emissao_pv": "09/04/2026 ", "vlr_total_produtos": "9186,5 ", "margem": "29,92 ", "nome_cliente": "INTENSIME CO IN M HO ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. SUPREMO ", "ultimo_status": "Análise de Crédito" }
-
+  {"numero_pedido":"687080 ", "emissao_pv": "09/04/2026 ", "vlr_total_produtos": "9186,5 ", "margem": "29,92 ", "nome_cliente": "INTENSIME CO IN M HO ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. SUPREMO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"687096 ", "emissao_pv": "09/04/2026 ", "vlr_total_produtos": "9554,8 ", "margem": "27,09 ", "nome_cliente": "DIMEDIC COMERCIAL HO ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"687100 ", "emissao_pv": "09/04/2026 ", "vlr_total_produtos": "1870 ", "margem": "32,31 ", "nome_cliente": "BIO MEDICAL ", "uf_cliente": "DF ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" }
 
 
 
