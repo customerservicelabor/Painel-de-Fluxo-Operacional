@@ -1,5 +1,5 @@
 {
-  "updated_at": "10/04/2026 14:00",
+  "updated_at": "10/04/2026 15:10",
   "kpis": {
     "notas_em_atraso": 20,
     "previstas_para_hoje": 84,
@@ -7,15 +7,15 @@
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 0, "valor": "0" },
-    { "status": "Alvará Sanitário", "quantidade": 8, "valor": "42268,86" },
-    { "status": "Bloqueado por regra", "quantidade": 3, "valor": "9619,97" },
-    { "status": "Análise de Crédito", "quantidade": 11, "valor": "43166,45" },
-    { "status": "Total em Disputa", "quantidade": 22, "valor": "95055,28" },
-    { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "1596" },
-    { "status": "Em Separação", "quantidade": 19, "valor": "162094,65" },
-    { "status": "Separado", "quantidade": 1, "valor": "890" },
-    { "status": "Faturado", "quantidade": 31, "valor": "227339,34" },
-    { "status": "Total", "quantidade": 52, "valor": "391919,99" }
+    { "status": "Alvará Sanitário", "quantidade": 7, "valor": "33614,86" },
+    { "status": "Bloqueado por regra", "quantidade": 4, "valor": "16142,97" },
+    { "status": "Análise de Crédito", "quantidade": 12, "valor": "224783,55" },
+    { "status": "Total em Disputa", "quantidade": 23, "valor": "274541,38" },
+    { "status": "Aguard. Envio Separação", "quantidade": 3, "valor": "39196,6" },
+    { "status": "Em Separação", "quantidade": 13, "valor": "127832,8" },
+    { "status": "Separado", "quantidade": 5, "valor": "59636,45" },
+    { "status": "Faturado", "quantidade": 40, "valor": "246735,79" },
+    { "status": "Total", "quantidade": 61, "valor": "473401,64" }
  ],
   "performance_transportadoras": [
    { "transportadora": "Azul", "notas": "115", "entregas": "42", "atrasados": "0", "pendente_de_entrega": "73", "performance": "100,00%" },
@@ -251,11 +251,11 @@
   {"numero_pedido":"687096 ", "emissao_pv": "09/04/2026 ", "vlr_total_produtos": "9554,8 ", "margem": "27,09 ", "nome_cliente": "DIMEDIC COMERCIAL HO ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"687100 ", "emissao_pv": "09/04/2026 ", "vlr_total_produtos": "1870 ", "margem": "32,31 ", "nome_cliente": "BIO MEDICAL ", "uf_cliente": "DF ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"687121 ", "emissao_pv": "09/04/2026 ", "vlr_total_produtos": "1120 ", "margem": "30,42 ", "nome_cliente": "ES PRODUTOS PARA SAU ", "uf_cliente": "MT ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"687129 ", "emissao_pv": "09/04/2026 ", "vlr_total_produtos": "8550 ", "margem": "48,12 ", "nome_cliente": "RIBEIRO E SOUZA ", "uf_cliente": "AM ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. TURCATO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"687135 ", "emissao_pv": "10/04/2026 ", "vlr_total_produtos": "3475,08 ", "margem": "26,05 ", "nome_cliente": "GHM HOSPITALAR LTDA ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"687163 ", "emissao_pv": "10/04/2026 ", "vlr_total_produtos": "2710,5 ", "margem": "30,39 ", "nome_cliente": "JP DIAGNOSTICA ", "uf_cliente": "SC ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"687168 ", "emissao_pv": "10/04/2026 ", "vlr_total_produtos": "8654 ", "margem": "38,02 ", "nome_cliente": "FUTURA MEDICAMENTOS ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. ML DANTE ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"687180 ", "emissao_pv": "10/04/2026 ", "vlr_total_produtos": "10920 ", "margem": "26,97 ", "nome_cliente": "SENSORIA SAUD DISTRI ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" }
+  {"numero_pedido":"687180 ", "emissao_pv": "10/04/2026 ", "vlr_total_produtos": "10920 ", "margem": "26,97 ", "nome_cliente": "SENSORIA SAUD DISTRI ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"687240 ", "emissao_pv": "10/04/2026 ", "vlr_total_produtos": "120437,7 ", "margem": "9,98 ", "nome_cliente": "KIENTRO ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"687246 ", "emissao_pv": "10/04/2026 ", "vlr_total_produtos": "69729,4 ", "margem": "15,08 ", "nome_cliente": "HIPERFAR ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "LUCIA FLORESTA ", "ultimo_status": "Análise de Crédito" }
 
 
 
