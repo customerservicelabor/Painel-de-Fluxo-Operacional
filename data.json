@@ -1,5 +1,5 @@
 {
-  "updated_at": "10/04/2026 11:31",
+  "updated_at": "10/04/2026 12:04",
   "kpis": {
     "notas_em_atraso": 22,
     "previstas_para_hoje": 84,
@@ -8,14 +8,14 @@
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 0, "valor": "0" },
     { "status": "Alvará Sanitário", "quantidade": 8, "valor": "42268,86" },
-    { "status": "Bloqueado por regra", "quantidade": 5, "valor": "59862" },
-    { "status": "Análise de Crédito", "quantidade": 19, "valor": "97306,04" },
-    { "status": "Total em Disputa", "quantidade": 32, "valor": "199436,9" },
-    { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "1596" },
-    { "status": "Em Separação", "quantidade": 15, "valor": "147440,89" },
+    { "status": "Bloqueado por regra", "quantidade": 6, "valor": "60459,08" },
+    { "status": "Análise de Crédito", "quantidade": 15, "valor": "63573,78" },
+    { "status": "Total em Disputa", "quantidade": 29, "valor": "166301,72" },
+    { "status": "Aguard. Envio Separação", "quantidade": 2, "valor": "9899" },
+    { "status": "Em Separação", "quantidade": 20, "valor": "156335,71" },
     { "status": "Separado", "quantidade": 1, "valor": "890" },
-    { "status": "Faturado", "quantidade": 14, "valor": "108041,56" },
-    { "status": "Total", "quantidade": 31, "valor": "257968,45" }
+    { "status": "Faturado", "quantidade": 19, "valor": "165637,21" },
+    { "status": "Total", "quantidade": 42, "valor": "332761,92" }
  ],
   "performance_transportadoras": [
    { "transportadora": "Azul", "notas": "114", "entregas": "39", "atrasados": "0", "pendente_de_entrega": "75", "performance": "100,00%" },
@@ -250,20 +250,20 @@
   {"numero_pedido":"687023 ", "emissao_pv": "09/04/2026 ", "vlr_total_produtos": "987,71 ", "margem": "38,59 ", "nome_cliente": "NORTELAB PRODUTOS LA ", "uf_cliente": "MT ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"687041 ", "emissao_pv": "09/04/2026 ", "vlr_total_produtos": "3437,64 ", "margem": "22,57 ", "nome_cliente": "ES PRODUTOS PARA SAU ", "uf_cliente": "MT ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"687056 ", "emissao_pv": "09/04/2026 ", "vlr_total_produtos": "2600 ", "margem": "16,23 ", "nome_cliente": "DETMED ", "uf_cliente": "PI ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"687058 ", "emissao_pv": "09/04/2026 ", "vlr_total_produtos": "7251,56 ", "margem": "38,69 ", "nome_cliente": "DENTAL ALENCAR IMPOR ", "uf_cliente": "RR ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"687072 ", "emissao_pv": "09/04/2026 ", "vlr_total_produtos": "15200 ", "margem": "-14,28 ", "nome_cliente": "HOSPITAL UNIVERSITAR ", "uf_cliente": "MA ", "tipo_cliente": "CONS.FINAL ","vendedor": "VDS DIGITAIS - LICITACAO ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"687096 ", "emissao_pv": "09/04/2026 ", "vlr_total_produtos": "9554,8 ", "margem": "27,09 ", "nome_cliente": "DIMEDIC COMERCIAL HO ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"687100 ", "emissao_pv": "09/04/2026 ", "vlr_total_produtos": "1870 ", "margem": "32,31 ", "nome_cliente": "BIO MEDICAL ", "uf_cliente": "DF ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"687121 ", "emissao_pv": "09/04/2026 ", "vlr_total_produtos": "1120 ", "margem": "30,42 ", "nome_cliente": "ES PRODUTOS PARA SAU ", "uf_cliente": "MT ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"687129 ", "emissao_pv": "09/04/2026 ", "vlr_total_produtos": "8550 ", "margem": "48,12 ", "nome_cliente": "RIBEIRO E SOUZA ", "uf_cliente": "AM ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. TURCATO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"687135 ", "emissao_pv": "10/04/2026 ", "vlr_total_produtos": "3475,08 ", "margem": "26,05 ", "nome_cliente": "GHM HOSPITALAR LTDA ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"687149 ", "emissao_pv": "10/04/2026 ", "vlr_total_produtos": "852,4 ", "margem": "36,57 ", "nome_cliente": "61 366 112 NILCLESIA ", "uf_cliente": "MA ", "tipo_cliente": "REVENDEDOR ","vendedor": "LUCIA FLORESTA ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"687163 ", "emissao_pv": "10/04/2026 ", "vlr_total_produtos": "2710,5 ", "margem": "30,39 ", "nome_cliente": "JP DIAGNOSTICA ", "uf_cliente": "SC ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"687165 ", "emissao_pv": "10/04/2026 ", "vlr_total_produtos": "2411,5 ", "margem": "52,62 ", "nome_cliente": "HOSPITAL UNIMED CAXI ", "uf_cliente": "RS ", "tipo_cliente": "CONS.FINAL ","vendedor": "VENDAS DIGITAIS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"687168 ", "emissao_pv": "10/04/2026 ", "vlr_total_produtos": "8654 ", "margem": "38,02 ", "nome_cliente": "FUTURA MEDICAMENTOS ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. ML DANTE ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"687172 ", "emissao_pv": "10/04/2026 ", "vlr_total_produtos": "16050 ", "margem": "35,21 ", "nome_cliente": "TATUAPE PRODUTOS MED ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"687180 ", "emissao_pv": "10/04/2026 ", "vlr_total_produtos": "10920 ", "margem": "26,97 ", "nome_cliente": "SENSORIA SAUD DISTRI ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"687187 ", "emissao_pv": "10/04/2026 ", "vlr_total_produtos": "8303 ", "margem": "11,75 ", "nome_cliente": "LABORATORIO DE ANALI ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" }
+  {"numero_pedido":"687201 ", "emissao_pv": "10/04/2026 ", "vlr_total_produtos": "1136,2 ", "margem": "21,42 ", "nome_cliente": "LAB SAO FRANCISCO ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" }
+
+
+
+
 
 
 
