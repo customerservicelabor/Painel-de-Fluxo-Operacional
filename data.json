@@ -1,5 +1,5 @@
 {
-  "updated_at": "10/04/2026 16:01",
+  "updated_at": "10/04/2026 17:39",
   "kpis": {
     "notas_em_atraso": 16,
     "previstas_para_hoje": 84,
@@ -7,15 +7,15 @@
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 0, "valor": "0" },
-    { "status": "Alvará Sanitário", "quantidade": 8, "valor": "34453,66" },
-    { "status": "Bloqueado por regra", "quantidade": 5, "valor": "17437,54" },
-    { "status": "Análise de Crédito", "quantidade": 13, "valor": "234776,15" },
-    { "status": "Total em Disputa", "quantidade": 26, "valor": "286667,35" },
-    { "status": "Aguard. Envio Separação", "quantidade": 2, "valor": "1600,6" },
-    { "status": "Em Separação", "quantidade": 9, "valor": "117107,46" },
-    { "status": "Separado", "quantidade": 5, "valor": "66071,5" },
-    { "status": "Faturado", "quantidade": 49, "valor": "344734,58" },
-    { "status": "Total", "quantidade": 65, "valor": "529514,14" }
+    { "status": "Alvará Sanitário", "quantidade": 9, "valor": "41182,85" },
+    { "status": "Bloqueado por regra", "quantidade": 2, "valor": "9041,98" },
+    { "status": "Análise de Crédito", "quantidade": 19, "valor": "250620,41" },
+    { "status": "Total em Disputa", "quantidade": 30, "valor": "300845,24" },
+    { "status": "Aguard. Envio Separação", "quantidade": 4, "valor": "37881,45" },
+    { "status": "Em Separação", "quantidade": 11, "valor": "100445,09" },
+    { "status": "Separado", "quantidade": 2, "valor": "55474" },
+    { "status": "Faturado", "quantidade": 62, "valor": "433529,08" },
+    { "status": "Total", "quantidade": 79, "valor": "627329,62" }
  ],
   "performance_transportadoras": [
    { "transportadora": "Azul", "notas": "119", "entregas": "45", "atrasados": "0", "pendente_de_entrega": "74", "performance": "100,00%" },
@@ -254,17 +254,17 @@
   {"numero_pedido":"687135 ", "emissao_pv": "10/04/2026 ", "vlr_total_produtos": "3475,08 ", "margem": "26,05 ", "nome_cliente": "GHM HOSPITALAR LTDA ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"687163 ", "emissao_pv": "10/04/2026 ", "vlr_total_produtos": "2710,5 ", "margem": "30,39 ", "nome_cliente": "JP DIAGNOSTICA ", "uf_cliente": "SC ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"687180 ", "emissao_pv": "10/04/2026 ", "vlr_total_produtos": "10920 ", "margem": "26,97 ", "nome_cliente": "SENSORIA SAUD DISTRI ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"687213 ", "emissao_pv": "10/04/2026 ", "vlr_total_produtos": "577,99 ", "margem": "0 ", "nome_cliente": "RV MEDICAL SOLUCOES ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "E-COMMERCE ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"687240 ", "emissao_pv": "10/04/2026 ", "vlr_total_produtos": "120437,7 ", "margem": "9,98 ", "nome_cliente": "KIENTRO ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"687244 ", "emissao_pv": "10/04/2026 ", "vlr_total_produtos": "6523 ", "margem": "23,78 ", "nome_cliente": "OUR COMPANY ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"687246 ", "emissao_pv": "10/04/2026 ", "vlr_total_produtos": "69729,4 ", "margem": "15,08 ", "nome_cliente": "HIPERFAR ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "LUCIA FLORESTA ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"687248 ", "emissao_pv": "10/04/2026 ", "vlr_total_produtos": "838,8 ", "margem": "8,4 ", "nome_cliente": "BHFIOS PRODUTOS ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"687256 ", "emissao_pv": "10/04/2026 ", "vlr_total_produtos": "9992,6 ", "margem": "45,52 ", "nome_cliente": "RIBEIRO E SOUZA ", "uf_cliente": "AM ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. TURCATO ", "ultimo_status": "Análise de Crédito" }
-
-
-
-
-
-
-
+  {"numero_pedido":"687256 ", "emissao_pv": "10/04/2026 ", "vlr_total_produtos": "9992,6 ", "margem": "45,52 ", "nome_cliente": "RIBEIRO E SOUZA ", "uf_cliente": "AM ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. TURCATO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"687264 ", "emissao_pv": "10/04/2026 ", "vlr_total_produtos": "6990 ", "margem": "11,78 ", "nome_cliente": "GLOMED ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. CA BENTO ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"687288 ", "emissao_pv": "10/04/2026 ", "vlr_total_produtos": "3078,8 ", "margem": "31,47 ", "nome_cliente": "ITALAB FILIAL HOSPIT ", "uf_cliente": "RS ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"687290 ", "emissao_pv": "10/04/2026 ", "vlr_total_produtos": "1272,9 ", "margem": "33,23 ", "nome_cliente": "LABORATORIO SAO FRAN ", "uf_cliente": "MS ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOICE MENDES ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"687293 ", "emissao_pv": "10/04/2026 ", "vlr_total_produtos": "1677,6 ", "margem": "8,4 ", "nome_cliente": "BHFIOS PRODUTOS ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"687295 ", "emissao_pv": "10/04/2026 ", "vlr_total_produtos": "2990,16 ", "margem": "12,86 ", "nome_cliente": "SOLUTEC ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"687297 ", "emissao_pv": "10/04/2026 ", "vlr_total_produtos": "301,8 ", "margem": "36,15 ", "nome_cliente": "ZAP COMERCIO PRODUTO ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" }
 
 
 
