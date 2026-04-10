@@ -1,5 +1,5 @@
 {
-  "updated_at": "10/04/2026 10:28",
+  "updated_at": "10/04/2026 11:05",
   "kpis": {
     "notas_em_atraso": 32,
     "previstas_para_hoje": 84,
@@ -8,14 +8,14 @@
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 0, "valor": "0" },
     { "status": "Alvará Sanitário", "quantidade": 8, "valor": "42268,86" },
-    { "status": "Bloqueado por regra", "quantidade": 5, "valor": "58714,94" },
-    { "status": "Análise de Crédito", "quantidade": 18, "valor": "89003,04" },
-    { "status": "Total em Disputa", "quantidade": 31, "valor": "189986,84" },
-    { "status": "Aguard. Envio Separação", "quantidade": 2, "valor": "4731,5" },
-    { "status": "Em Separação", "quantidade": 16, "valor": "172682,36" },
-    { "status": "Separado", "quantidade": 3, "valor": "31554,8" },
-    { "status": "Faturado", "quantidade": 5, "valor": "35613,15" },
-    { "status": "Total", "quantidade": 26, "valor": "244581,81" }
+    { "status": "Bloqueado por regra", "quantidade": 5, "valor": "59862" },
+    { "status": "Análise de Crédito", "quantidade": 19, "valor": "97306,04" },
+    { "status": "Total em Disputa", "quantidade": 32, "valor": "199436,9" },
+    { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "1596" },
+    { "status": "Em Separação", "quantidade": 15, "valor": "147440,89" },
+    { "status": "Separado", "quantidade": 1, "valor": "890" },
+    { "status": "Faturado", "quantidade": 14, "valor": "108041,56" },
+    { "status": "Total", "quantidade": 31, "valor": "257968,45" }
  ],
   "performance_transportadoras": [
    { "transportadora": "Azul", "notas": "112", "entregas": "39", "atrasados": "0", "pendente_de_entrega": "73", "performance": "100,00%" },
@@ -262,8 +262,8 @@
   {"numero_pedido":"687165 ", "emissao_pv": "10/04/2026 ", "vlr_total_produtos": "2411,5 ", "margem": "52,62 ", "nome_cliente": "HOSPITAL UNIMED CAXI ", "uf_cliente": "RS ", "tipo_cliente": "CONS.FINAL ","vendedor": "VENDAS DIGITAIS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"687168 ", "emissao_pv": "10/04/2026 ", "vlr_total_produtos": "8654 ", "margem": "38,02 ", "nome_cliente": "FUTURA MEDICAMENTOS ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. ML DANTE ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"687172 ", "emissao_pv": "10/04/2026 ", "vlr_total_produtos": "16050 ", "margem": "35,21 ", "nome_cliente": "TATUAPE PRODUTOS MED ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"687180 ", "emissao_pv": "10/04/2026 ", "vlr_total_produtos": "10920 ", "margem": "26,97 ", "nome_cliente": "SENSORIA SAUD DISTRI ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" }
-
+  {"numero_pedido":"687180 ", "emissao_pv": "10/04/2026 ", "vlr_total_produtos": "10920 ", "margem": "26,97 ", "nome_cliente": "SENSORIA SAUD DISTRI ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"687187 ", "emissao_pv": "10/04/2026 ", "vlr_total_produtos": "8303 ", "margem": "11,75 ", "nome_cliente": "LABORATORIO DE ANALI ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" }
 
 
 
