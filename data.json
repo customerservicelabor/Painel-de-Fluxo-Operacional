@@ -1,5 +1,5 @@
 {
-  "updated_at": "15/04/2026 09:05",
+  "updated_at": "15/04/2026 10:06",
   "kpis": {
     "notas_em_atraso": 22,
     "previstas_para_hoje": 111,
@@ -7,15 +7,15 @@
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 2, "valor": "90428,7" },
-    { "status": "Alvará Sanitário", "quantidade": 6, "valor": "11858,37" },
-    { "status": "Bloqueado por regra", "quantidade": 2, "valor": "1464,78" },
-    { "status": "Análise de Crédito", "quantidade": 22, "valor": "481149,47" },
-    { "status": "Total em Disputa", "quantidade": 32, "valor": "584901,32" },
-    { "status": "Aguard. Envio Separação", "quantidade": 5, "valor": "28567,11" },
-    { "status": "Em Separação", "quantidade": 38, "valor": "523703,95" },
-    { "status": "Separado", "quantidade": 1, "valor": "6207,97" },
-    { "status": "Faturado", "quantidade": 0, "valor": "0" },
-    { "status": "Total", "quantidade": 44, "valor": "558479,03" }
+    { "status": "Alvará Sanitário", "quantidade": 6, "valor": "12634,27" },
+    { "status": "Bloqueado por regra", "quantidade": 3, "valor": "8916,97" },
+    { "status": "Análise de Crédito", "quantidade": 26, "valor": "496757,56" },
+    { "status": "Total em Disputa", "quantidade": 37, "valor": "608737,5" },
+    { "status": "Aguard. Envio Separação", "quantidade": 5, "valor": "21184,85" },
+    { "status": "Em Separação", "quantidade": 43, "valor": "526415,39" },
+    { "status": "Separado", "quantidade": 5, "valor": "55238,47" },
+    { "status": "Faturado", "quantidade": 1, "valor": "5437" },
+    { "status": "Total", "quantidade": 54, "valor": "608275,71" }
  ],
   "performance_transportadoras": [
    { "transportadora": "Azul", "notas": "154", "entregas": "97", "atrasados": "1", "pendente_de_entrega": "57", "performance": "98,97%" },
@@ -245,7 +245,6 @@
   {"numero_pedido":"687401 ", "emissao_pv": "13/04/2026 ", "vlr_total_produtos": "1563,93 ", "margem": "0 ", "nome_cliente": "CENTRO H. PANTOJA ", "uf_cliente": "PA ", "tipo_cliente": "CONS.FINAL ","vendedor": "E-COMMERCE ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"687419 ", "emissao_pv": "13/04/2026 ", "vlr_total_produtos": "3250 ", "margem": "34,24 ", "nome_cliente": "FUNCIONAL MATERIAIS ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"687431 ", "emissao_pv": "13/04/2026 ", "vlr_total_produtos": "5047,2 ", "margem": "36,91 ", "nome_cliente": "DENTAL CARAJAS ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"687437 ", "emissao_pv": "13/04/2026 ", "vlr_total_produtos": "292,03 ", "margem": "0 ", "nome_cliente": "CRIOGENESIS CLINICA ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "E-COMMERCE ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"687465 ", "emissao_pv": "13/04/2026 ", "vlr_total_produtos": "1132,56 ", "margem": "21,9 ", "nome_cliente": "IRMANDADE DA SANTA ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"687477 ", "emissao_pv": "13/04/2026 ", "vlr_total_produtos": "62245,5 ", "margem": "23,26 ", "nome_cliente": "VFB BRASIL ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"687487 ", "emissao_pv": "13/04/2026 ", "vlr_total_produtos": "3495 ", "margem": "11,4 ", "nome_cliente": "NEW LIFE ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
@@ -264,11 +263,12 @@
   {"numero_pedido":"687770 ", "emissao_pv": "14/04/2026 ", "vlr_total_produtos": "39627,48 ", "margem": "19,83 ", "nome_cliente": "LINEHOSP MEDICAL COM ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"687787 ", "emissao_pv": "14/04/2026 ", "vlr_total_produtos": "4153 ", "margem": "11,7 ", "nome_cliente": "LOGMED DISTRIBUIDORA ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. SUPREMO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"687789 ", "emissao_pv": "15/04/2026 ", "vlr_total_produtos": "137529,8 ", "margem": "29,09 ", "nome_cliente": "AMAZONIA HOSPITALAR ", "uf_cliente": "MA ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"687798 ", "emissao_pv": "15/04/2026 ", "vlr_total_produtos": "1932,2 ", "margem": "40,49 ", "nome_cliente": "CHAYL ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" }
-
-
-
-
+  {"numero_pedido":"687798 ", "emissao_pv": "15/04/2026 ", "vlr_total_produtos": "1932,2 ", "margem": "40,49 ", "nome_cliente": "CHAYL ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"687814 ", "emissao_pv": "15/04/2026 ", "vlr_total_produtos": "2300,25 ", "margem": "36,66 ", "nome_cliente": "JS DIAGNOSTICOS LTDA ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"687817 ", "emissao_pv": "15/04/2026 ", "vlr_total_produtos": "1717,99 ", "margem": "34,18 ", "nome_cliente": "61 312 875 THIERRY R ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"687819 ", "emissao_pv": "15/04/2026 ", "vlr_total_produtos": "1067,93 ", "margem": "39,31 ", "nome_cliente": "MARCOS ROBERTO DOMEN ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"687821 ", "emissao_pv": "15/04/2026 ", "vlr_total_produtos": "6365 ", "margem": "23,81 ", "nome_cliente": "BIOSUL PRODUTOS DIAG ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"687831 ", "emissao_pv": "15/04/2026 ", "vlr_total_produtos": "5224,85 ", "margem": "7,25 ", "nome_cliente": "SIM MEDICINA DIAGNOS ", "uf_cliente": "AL ", "tipo_cliente": "CONS.FINAL ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" }
 
 
 
