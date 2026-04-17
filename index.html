@@ -1552,11 +1552,9 @@
       }
 
       lista.sort((a, b) => {
-        const da = parseDateFlex(a.emissao_pv);
-        const db = parseDateFlex(b.emissao_pv);
-        const ta = da ? da.getTime() : 0;
-        const tb = db ? db.getTime() : 0;
-        return tb - ta;
+       const va = parseBRLValue(a.vlr_total_produtos);
+       const vb = parseBRLValue(b.vlr_total_produtos);
+       return vb - va; // maior para menor
       });
 
       count.textContent = `${lista.length} itens`;
