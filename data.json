@@ -1,21 +1,21 @@
 {
-  "updated_at": "17/04/2026 12:04",
+  "updated_at": "17/04/2026 13:59",
   "kpis": {
     "notas_em_atraso": 13,
     "previstas_para_hoje": 88,
     "entregues_hoje": 64
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 2, "valor": "90428,7" },
-    { "status": "Alvará Sanitário", "quantidade": 4, "valor": "9496,51" },
-    { "status": "Bloqueado por regra", "quantidade": 0, "valor": "0" },
-    { "status": "Análise de Crédito", "quantidade": 10, "valor": "143274,9" },
-    { "status": "Total em Disputa", "quantidade": 16, "valor": "243200,11" },
+    { "status": "Aguardando Liberação", "quantidade": 3, "valor": "144775,7" },
+    { "status": "Alvará Sanitário", "quantidade": 6, "valor": "17026,87" },
+    { "status": "Bloqueado por regra", "quantidade": 1, "valor": "14777,32" },
+    { "status": "Análise de Crédito", "quantidade": 9, "valor": "140627,39" },
+    { "status": "Total em Disputa", "quantidade": 19, "valor": "317207,28" },
     { "status": "Aguard. Envio Separação", "quantidade": 5, "valor": "14360,67" },
-    { "status": "Em Separação", "quantidade": 42, "valor": "602666,24" },
-    { "status": "Separado", "quantidade": 4, "valor": "13413,2" },
-    { "status": "Faturado", "quantidade": 16, "valor": "166151,88" },
-    { "status": "Total", "quantidade": 67, "valor": "796591,99" }
+    { "status": "Em Separação", "quantidade": 23, "valor": "519752,12" },
+    { "status": "Separado", "quantidade": 4, "valor": "16025,03" },
+    { "status": "Faturado", "quantidade": 37, "valor": "264627,31" },
+    { "status": "Total", "quantidade": 69, "valor": "814765,13" }
  ],
   "performance_transportadoras": [
    { "transportadora": "Azul", "notas": "190", "entregas": "126", "atrasados": "4", "pendente_de_entrega": "64", "performance": "96,83%" },
@@ -250,8 +250,8 @@
   {"numero_pedido":"688356 ", "emissao_pv": "17/04/2026 ", "vlr_total_produtos": "4104 ", "margem": "22,03 ", "nome_cliente": "CASLAB ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"688358 ", "emissao_pv": "17/04/2026 ", "vlr_total_produtos": "2032 ", "margem": "30,95 ", "nome_cliente": "ESSENCIAL PRODUTOS ", "uf_cliente": "AM ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. TURCATO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"688362 ", "emissao_pv": "17/04/2026 ", "vlr_total_produtos": "2296,42 ", "margem": "33,6 ", "nome_cliente": "CRISTALMED COMERCIO ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"688384 ", "emissao_pv": "17/04/2026 ", "vlr_total_produtos": "2647,51 ", "margem": "49,17 ", "nome_cliente": "LOJAO DAS CLINICAS ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Análise de Crédito" }
-
+  {"numero_pedido":"688393 ", "emissao_pv": "17/04/2026 ", "vlr_total_produtos": "3925,36 ", "margem": "40,65 ", "nome_cliente": "AMAZONMED ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"688397 ", "emissao_pv": "17/04/2026 ", "vlr_total_produtos": "3605 ", "margem": "34,86 ", "nome_cliente": "VOLPE MED ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Alvará Sanitário" }
 
 
 
