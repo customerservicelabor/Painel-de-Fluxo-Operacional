@@ -1,5 +1,5 @@
 {
-  "updated_at": "22/04/2026 08:07",
+  "updated_at": "22/04/2026 09:38",
   "kpis": {
     "notas_em_atraso": 18,
     "previstas_para_hoje": 85,
@@ -7,15 +7,15 @@
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 0, "valor": "0" },
-    { "status": "Alvará Sanitário", "quantidade": 12, "valor": "43160,13" },
-    { "status": "Bloqueado por regra", "quantidade": 1, "valor": "6035,7" },
-    { "status": "Análise de Crédito", "quantidade": 6, "valor": "137913,3" },
-    { "status": "Total em Disputa", "quantidade": 19, "valor": "187109,13" },
+    { "status": "Alvará Sanitário", "quantidade": 11, "valor": "39700,13" },
+    { "status": "Bloqueado por regra", "quantidade": 0, "valor": "0" },
+    { "status": "Análise de Crédito", "quantidade": 6, "valor": "120014,9" },
+    { "status": "Total em Disputa", "quantidade": 17, "valor": "159715,03" },
     { "status": "Aguard. Envio Separação", "quantidade": 0, "valor": "0" },
-    { "status": "Em Separação", "quantidade": 5, "valor": "62143,78" },
-    { "status": "Separado", "quantidade": 0, "valor": "0" },
+    { "status": "Em Separação", "quantidade": 11, "valor": "91330,07" },
+    { "status": "Separado", "quantidade": 3, "valor": "5258,8" },
     { "status": "Faturado", "quantidade": 0, "valor": "0" },
-    { "status": "Total", "quantidade": 5, "valor": "62143,78" }
+    { "status": "Total", "quantidade": 14, "valor": "96588,87" }
  ],
   "performance_transportadoras": [
    { "transportadora": "Azul", "notas": "217", "entregas": "150", "atrasados": "6", "pendente_de_entrega": "67", "performance": "96,00%" },
@@ -241,7 +241,6 @@
   {"numero_pedido":"688020 ", "emissao_pv": "16/04/2026 ", "vlr_total_produtos": "35941,94 ", "margem": "23,07 ", "nome_cliente": "A E S COMERCIO ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"688026 ", "emissao_pv": "16/04/2026 ", "vlr_total_produtos": "14033,8 ", "margem": "19,82 ", "nome_cliente": "ML MED ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. SUPREMO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"688149 ", "emissao_pv": "16/04/2026 ", "vlr_total_produtos": "1532,16 ", "margem": "29,06 ", "nome_cliente": "VILLE LAB CENTRO DIA ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"688314 ", "emissao_pv": "16/04/2026 ", "vlr_total_produtos": "21676 ", "margem": "33,96 ", "nome_cliente": "MEDMAIS C.  DE  M. ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"688415 ", "emissao_pv": "17/04/2026 ", "vlr_total_produtos": "2189 ", "margem": "21,01 ", "nome_cliente": "GENERAL DOCTORS ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. FENIX (SC) ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"688503 ", "emissao_pv": "17/04/2026 ", "vlr_total_produtos": "54347 ", "margem": "10,16 ", "nome_cliente": "AARAO MED ", "uf_cliente": "ES ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"688541 ", "emissao_pv": "17/04/2026 ", "vlr_total_produtos": "2119,8 ", "margem": "29,17 ", "nome_cliente": "LUIS CARLOS SILVA SO ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Alvará Sanitário" },
@@ -254,7 +253,8 @@
   {"numero_pedido":"688700 ", "emissao_pv": "20/04/2026 ", "vlr_total_produtos": "9951,14 ", "margem": "31,08 ", "nome_cliente": "IRMANDADE SANTA CASA ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"688702 ", "emissao_pv": "20/04/2026 ", "vlr_total_produtos": "806,38 ", "margem": "37,33 ", "nome_cliente": "CIRURGICA NOSSA SENH ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"688706 ", "emissao_pv": "20/04/2026 ", "vlr_total_produtos": "9472 ", "margem": "30,78 ", "nome_cliente": "CIRURGICA SANTA MARI ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"688711 ", "emissao_pv": "20/04/2026 ", "vlr_total_produtos": "3460 ", "margem": "37,02 ", "nome_cliente": "A LOJA DO PACIENTE ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "ALEXANDRA RIBEIRO ", "ultimo_status": "Alvará Sanitário" }
+  {"numero_pedido":"688735 ", "emissao_pv": "22/04/2026 ", "vlr_total_produtos": "3777,6 ", "margem": "12,61 ", "nome_cliente": "MIRASSOL SAUDE E EST ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" }
+
 
 
 
