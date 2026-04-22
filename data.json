@@ -1,5 +1,5 @@
 {
-  "updated_at": "22/04/2026 14:01",
+  "updated_at": "22/04/2026 15:04",
   "kpis": {
     "notas_em_atraso": 15,
     "previstas_para_hoje": 85,
@@ -7,15 +7,15 @@
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 0, "valor": "0" },
-    { "status": "Alvará Sanitário", "quantidade": 11, "valor": "64344,16" },
-    { "status": "Bloqueado por regra", "quantidade": 2, "valor": "917,15" },
-    { "status": "Análise de Crédito", "quantidade": 4, "valor": "106765,3" },
-    { "status": "Total em Disputa", "quantidade": 17, "valor": "172026,61" },
+    { "status": "Alvará Sanitário", "quantidade": 11, "valor": "47334,16" },
+    { "status": "Bloqueado por regra", "quantidade": 3, "valor": "8657,35" },
+    { "status": "Análise de Crédito", "quantidade": 5, "valor": "107573,14" },
+    { "status": "Total em Disputa", "quantidade": 19, "valor": "163564,65" },
     { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "32,15" },
-    { "status": "Em Separação", "quantidade": 4, "valor": "20086" },
-    { "status": "Separado", "quantidade": 4, "valor": "10289,72" },
-    { "status": "Faturado", "quantidade": 36, "valor": "242947,98" },
-    { "status": "Total", "quantidade": 45, "valor": "273355,85" }
+    { "status": "Em Separação", "quantidade": 9, "valor": "89345,6" },
+    { "status": "Separado", "quantidade": 3, "valor": "14756,1" },
+    { "status": "Faturado", "quantidade": 45, "valor": "271463,7" },
+    { "status": "Total", "quantidade": 58, "valor": "375597,55" }
  ],
   "performance_transportadoras": [
    { "transportadora": "Azul", "notas": "223", "entregas": "159", "atrasados": "6", "pendente_de_entrega": "64", "performance": "96,23%" },
@@ -251,8 +251,8 @@
   {"numero_pedido":"688700 ", "emissao_pv": "20/04/2026 ", "vlr_total_produtos": "9951,14 ", "margem": "31,08 ", "nome_cliente": "IRMANDADE SANTA CASA ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"688702 ", "emissao_pv": "20/04/2026 ", "vlr_total_produtos": "806,38 ", "margem": "37,33 ", "nome_cliente": "CIRURGICA NOSSA SENH ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"688795 ", "emissao_pv": "22/04/2026 ", "vlr_total_produtos": "7796,7 ", "margem": "17,37 ", "nome_cliente": "SLAC SAO LUCAS LABOR ", "uf_cliente": "AL ", "tipo_cliente": "CONS.FINAL ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"688803 ", "emissao_pv": "22/04/2026 ", "vlr_total_produtos": "19110 ", "margem": "32,51 ", "nome_cliente": "CIRURGICA MS ", "uf_cliente": "MS ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Alvará Sanitário" }
-
+  {"numero_pedido":"688810 ", "emissao_pv": "22/04/2026 ", "vlr_total_produtos": "807,84 ", "margem": "11,78 ", "nome_cliente": "GUIORA REABILITACAO ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"688827 ", "emissao_pv": "22/04/2026 ", "vlr_total_produtos": "2100 ", "margem": "37,82 ", "nome_cliente": "HI TECHNOLOGIES ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Alvará Sanitário" }
 
 
 
