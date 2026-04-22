@@ -1,5 +1,5 @@
 {
-  "updated_at": "22/04/2026 09:38",
+  "updated_at": "22/04/2026 12:46",
   "kpis": {
     "notas_em_atraso": 18,
     "previstas_para_hoje": 85,
@@ -7,15 +7,15 @@
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 0, "valor": "0" },
-    { "status": "Alvará Sanitário", "quantidade": 11, "valor": "39700,13" },
-    { "status": "Bloqueado por regra", "quantidade": 0, "valor": "0" },
-    { "status": "Análise de Crédito", "quantidade": 6, "valor": "120014,9" },
-    { "status": "Total em Disputa", "quantidade": 17, "valor": "159715,03" },
-    { "status": "Aguard. Envio Separação", "quantidade": 0, "valor": "0" },
-    { "status": "Em Separação", "quantidade": 11, "valor": "91330,07" },
-    { "status": "Separado", "quantidade": 3, "valor": "5258,8" },
-    { "status": "Faturado", "quantidade": 0, "valor": "0" },
-    { "status": "Total", "quantidade": 14, "valor": "96588,87" }
+    { "status": "Alvará Sanitário", "quantidade": 9, "valor": "37437,46" },
+    { "status": "Bloqueado por regra", "quantidade": 2, "valor": "917,15" },
+    { "status": "Análise de Crédito", "quantidade": 5, "valor": "116237,3" },
+    { "status": "Total em Disputa", "quantidade": 16, "valor": "154591,91" },
+    { "status": "Aguard. Envio Separação", "quantidade": 2, "valor": "33,25" },
+    { "status": "Em Separação", "quantidade": 4, "valor": "28473,6" },
+    { "status": "Separado", "quantidade": 3, "valor": "19079,3" },
+    { "status": "Faturado", "quantidade": 30, "valor": "202470,08" },
+    { "status": "Total", "quantidade": 39, "valor": "250056,23" }
  ],
   "performance_transportadoras": [
    { "transportadora": "Azul", "notas": "217", "entregas": "150", "atrasados": "6", "pendente_de_entrega": "67", "performance": "96,00%" },
@@ -237,14 +237,12 @@
 
  ],
 "pedidos_nao_faturados": [
-  {"numero_pedido":"687401 ", "emissao_pv": "13/04/2026 ", "vlr_total_produtos": "1563,93 ", "margem": "0 ", "nome_cliente": "CENTRO H. PANTOJA ", "uf_cliente": "PA ", "tipo_cliente": "CONS.FINAL ","vendedor": "E-COMMERCE ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"688020 ", "emissao_pv": "16/04/2026 ", "vlr_total_produtos": "35941,94 ", "margem": "23,07 ", "nome_cliente": "A E S COMERCIO ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"688026 ", "emissao_pv": "16/04/2026 ", "vlr_total_produtos": "14033,8 ", "margem": "19,82 ", "nome_cliente": "ML MED ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. SUPREMO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"688149 ", "emissao_pv": "16/04/2026 ", "vlr_total_produtos": "1532,16 ", "margem": "29,06 ", "nome_cliente": "VILLE LAB CENTRO DIA ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"688415 ", "emissao_pv": "17/04/2026 ", "vlr_total_produtos": "2189 ", "margem": "21,01 ", "nome_cliente": "GENERAL DOCTORS ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. FENIX (SC) ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"688503 ", "emissao_pv": "17/04/2026 ", "vlr_total_produtos": "54347 ", "margem": "10,16 ", "nome_cliente": "AARAO MED ", "uf_cliente": "ES ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"688541 ", "emissao_pv": "17/04/2026 ", "vlr_total_produtos": "2119,8 ", "margem": "29,17 ", "nome_cliente": "LUIS CARLOS SILVA SO ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"688563 ", "emissao_pv": "18/04/2026 ", "vlr_total_produtos": "698,74 ", "margem": "0 ", "nome_cliente": "FLEVET ANALISES VETE ", "uf_cliente": "RS ", "tipo_cliente": "CONS.FINAL ","vendedor": "E-COMMERCE ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"688615 ", "emissao_pv": "20/04/2026 ", "vlr_total_produtos": "3144,9 ", "margem": "35,79 ", "nome_cliente": "AHCOR COM PRODUTOS O ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"688639 ", "emissao_pv": "20/04/2026 ", "vlr_total_produtos": "950,88 ", "margem": "16,6 ", "nome_cliente": "60 842 962 MARA IOLA ", "uf_cliente": "RS ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOICE MENDES ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"688663 ", "emissao_pv": "20/04/2026 ", "vlr_total_produtos": "7082,2 ", "margem": "46,65 ", "nome_cliente": "MEDICAL SHOPPING LTD ", "uf_cliente": "AP ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Alvará Sanitário" },
@@ -252,8 +250,10 @@
   {"numero_pedido":"688694 ", "emissao_pv": "20/04/2026 ", "vlr_total_produtos": "9661 ", "margem": "40,85 ", "nome_cliente": "FARMA REGIA ", "uf_cliente": "MA ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. H.F ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"688700 ", "emissao_pv": "20/04/2026 ", "vlr_total_produtos": "9951,14 ", "margem": "31,08 ", "nome_cliente": "IRMANDADE SANTA CASA ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"688702 ", "emissao_pv": "20/04/2026 ", "vlr_total_produtos": "806,38 ", "margem": "37,33 ", "nome_cliente": "CIRURGICA NOSSA SENH ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"688706 ", "emissao_pv": "20/04/2026 ", "vlr_total_produtos": "9472 ", "margem": "30,78 ", "nome_cliente": "CIRURGICA SANTA MARI ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"688735 ", "emissao_pv": "22/04/2026 ", "vlr_total_produtos": "3777,6 ", "margem": "12,61 ", "nome_cliente": "MIRASSOL SAUDE E EST ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" }
+  {"numero_pedido":"688706 ", "emissao_pv": "20/04/2026 ", "vlr_total_produtos": "9472 ", "margem": "30,78 ", "nome_cliente": "CIRURGICA SANTA MARI ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Análise de Crédito" }
+
+
+
 
 
 
