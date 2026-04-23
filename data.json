@@ -1,21 +1,21 @@
 {
-  "updated_at": "23/04/2026 11:55",
+  "updated_at": "23/04/2026 14:15",
   "kpis": {
     "notas_em_atraso": 15,
     "previstas_para_hoje": 96,
     "entregues_hoje": 71
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 2, "valor": "889,11" },
-    { "status": "Alvará Sanitário", "quantidade": 8, "valor": "26550,22" },
-    { "status": "Bloqueado por regra", "quantidade": 0, "valor": "0" },
-    { "status": "Análise de Crédito", "quantidade": 7, "valor": "145657,64" },
-    { "status": "Total em Disputa", "quantidade": 17, "valor": "173096,97" },
+    { "status": "Aguardando Liberação", "quantidade": 3, "valor": "2944,71" },
+    { "status": "Alvará Sanitário", "quantidade": 10, "valor": "51538,83" },
+    { "status": "Bloqueado por regra", "quantidade": 1, "valor": "9025,3" },
+    { "status": "Análise de Crédito", "quantidade": 8, "valor": "156845,17" },
+    { "status": "Total em Disputa", "quantidade": 22, "valor": "220354,01" },
     { "status": "Aguard. Envio Separação", "quantidade": 2, "valor": "3806,4" },
-    { "status": "Em Separação", "quantidade": 21, "valor": "130163,31" },
-    { "status": "Separado", "quantidade": 2, "valor": "16103,6" },
-    { "status": "Faturado", "quantidade": 38, "valor": "329737,36" },
-    { "status": "Total", "quantidade": 63, "valor": "479810,67" }
+    { "status": "Em Separação", "quantidade": 9, "valor": "45896,15" },
+    { "status": "Separado", "quantidade": 1, "valor": "3089" },
+    { "status": "Faturado", "quantidade": 62, "valor": "459592,69" },
+    { "status": "Total", "quantidade": 74, "valor": "512384,24" }
  ],
   "performance_transportadoras": [
    { "transportadora": "Azul", "notas": "234", "entregas": "177", "atrasados": "7", "pendente_de_entrega": "57", "performance": "96,05%" },
@@ -248,13 +248,13 @@
   {"numero_pedido":"688866 ", "emissao_pv": "22/04/2026 ", "vlr_total_produtos": "5415 ", "margem": "14,24 ", "nome_cliente": "EXITO MEDICAMENTOS ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. SUPREMO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"688958 ", "emissao_pv": "23/04/2026 ", "vlr_total_produtos": "38613,82 ", "margem": "28,51 ", "nome_cliente": "A E S COMERCIO ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"688983 ", "emissao_pv": "23/04/2026 ", "vlr_total_produtos": "7613 ", "margem": "33,12 ", "nome_cliente": "DIPROFARMA ", "uf_cliente": "MA ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. H.F ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"689011 ", "emissao_pv": "23/04/2026 ", "vlr_total_produtos": "805 ", "margem": "34,47 ", "nome_cliente": "DAFMED COM MAT CIRUR ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "LUCIA FLORESTA ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"689013 ", "emissao_pv": "23/04/2026 ", "vlr_total_produtos": "5476,96 ", "margem": "12,49 ", "nome_cliente": "PREMISSE HOSPITALAR ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"689025 ", "emissao_pv": "23/04/2026 ", "vlr_total_produtos": "38557,3 ", "margem": "31,86 ", "nome_cliente": "LINEHOSP MEDICAL COM ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"689029 ", "emissao_pv": "23/04/2026 ", "vlr_total_produtos": "2062,78 ", "margem": "0 ", "nome_cliente": "CENTRO H. PANTOJA ", "uf_cliente": "PA ", "tipo_cliente": "CONS.FINAL ","vendedor": "E-COMMERCE ", "ultimo_status": "Alvará Sanitário" }
-
-
-
+  {"numero_pedido":"689036 ", "emissao_pv": "23/04/2026 ", "vlr_total_produtos": "10470 ", "margem": "22,13 ", "nome_cliente": "PROTECTION EAMP HEAL ", "uf_cliente": "MA ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"689041 ", "emissao_pv": "23/04/2026 ", "vlr_total_produtos": "12680 ", "margem": "15,42 ", "nome_cliente": "DIVE SEA ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"689045 ", "emissao_pv": "23/04/2026 ", "vlr_total_produtos": "3901,39 ", "margem": "31,05 ", "nome_cliente": "PLUG MED HOSPITALAR ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. SUPREMO ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"689047 ", "emissao_pv": "23/04/2026 ", "vlr_total_produtos": "7756,76 ", "margem": "29,82 ", "nome_cliente": "CIRURGICA ABREU LTDA ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"689066 ", "emissao_pv": "23/04/2026 ", "vlr_total_produtos": "4235,77 ", "margem": "17,47 ", "nome_cliente": "LABORATORIO MONICA ", "uf_cliente": "PE ", "tipo_cliente": "CONS.FINAL ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" }
 
 
 
