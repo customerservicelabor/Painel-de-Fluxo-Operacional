@@ -1,5 +1,5 @@
 {
-  "updated_at": "24/04/2026 15:08",
+  "updated_at": "24/04/2026 15:57",
   "kpis": {
     "notas_em_atraso": 17,
     "previstas_para_hoje": 93,
@@ -7,15 +7,15 @@
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 2, "valor": "26128" },
-    { "status": "Alvará Sanitário", "quantidade": 11, "valor": "46388,85" },
-    { "status": "Bloqueado por regra", "quantidade": 2, "valor": "4198,69" },
-    { "status": "Análise de Crédito", "quantidade": 14, "valor": "79560,09" },
-    { "status": "Total em Disputa", "quantidade": 29, "valor": "156275,63" },
+    { "status": "Alvará Sanitário", "quantidade": 10, "valor": "44993,85" },
+    { "status": "Bloqueado por regra", "quantidade": 2, "valor": "5283,13" },
+    { "status": "Análise de Crédito", "quantidade": 18, "valor": "107904,25" },
+    { "status": "Total em Disputa", "quantidade": 32, "valor": "184309,23" },
     { "status": "Aguard. Envio Separação", "quantidade": 2, "valor": "38938,1" },
-    { "status": "Em Separação", "quantidade": 21, "valor": "256924,46" },
-    { "status": "Separado", "quantidade": 5, "valor": "15740,7" },
-    { "status": "Faturado", "quantidade": 54, "valor": "279398,92" },
-    { "status": "Total", "quantidade": 82, "valor": "591002,18" }
+    { "status": "Em Separação", "quantidade": 24, "valor": "259823,75" },
+    { "status": "Separado", "quantidade": 0, "valor": "0" },
+    { "status": "Faturado", "quantidade": 63, "valor": "313465,25" },
+    { "status": "Total", "quantidade": 89, "valor": "612227,1" }
  ],
   "performance_transportadoras": [
    { "transportadora": "Azul", "notas": "249", "entregas": "194", "atrasados": "8", "pendente_de_entrega": "55", "performance": "95,88%" },
@@ -259,12 +259,12 @@
   {"numero_pedido":"689322 ", "emissao_pv": "24/04/2026 ", "vlr_total_produtos": "11410,9 ", "margem": "41,9 ", "nome_cliente": "CLINICA SAO CAMILO ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"689324 ", "emissao_pv": "24/04/2026 ", "vlr_total_produtos": "922,5 ", "margem": "33,72 ", "nome_cliente": "SAO JOSE DISTRIBUIDO ", "uf_cliente": "RO ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"689334 ", "emissao_pv": "24/04/2026 ", "vlr_total_produtos": "836 ", "margem": "37,16 ", "nome_cliente": "CELLSERV SOLUCOES EM ", "uf_cliente": "RJ ", "tipo_cliente": "CONS.FINAL ","vendedor": "LUCIA FLORESTA ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"689338 ", "emissao_pv": "24/04/2026 ", "vlr_total_produtos": "1395 ", "margem": "19,95 ", "nome_cliente": "DROGARIA DAS ROSAS ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. CAREMED ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"689338 ", "emissao_pv": "24/04/2026 ", "vlr_total_produtos": "1395 ", "margem": "19,95 ", "nome_cliente": "DROGARIA DAS ROSAS ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. CAREMED ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"689340 ", "emissao_pv": "24/04/2026 ", "vlr_total_produtos": "14882 ", "margem": "38,02 ", "nome_cliente": "LINEHOSP MEDICAL COM ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"689344 ", "emissao_pv": "24/04/2026 ", "vlr_total_produtos": "800 ", "margem": "49,33 ", "nome_cliente": "INSTITUTO ANALISES C ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" }
-
-
-
+  {"numero_pedido":"689356 ", "emissao_pv": "24/04/2026 ", "vlr_total_produtos": "1196,17 ", "margem": "26,29 ", "nome_cliente": "MARCA AGROPECUARIA ", "uf_cliente": "RS ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOICE MENDES ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"689364 ", "emissao_pv": "24/04/2026 ", "vlr_total_produtos": "3456,59 ", "margem": "30,4 ", "nome_cliente": "M MED ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. SUPREMO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"689368 ", "emissao_pv": "24/04/2026 ", "vlr_total_produtos": "13248 ", "margem": "0,45 ", "nome_cliente": "PR VID PR DIAGNOSTIC ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"689370 ", "emissao_pv": "24/04/2026 ", "vlr_total_produtos": "9848,4 ", "margem": "28,35 ", "nome_cliente": "GRUPO VETORASSO ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" }
 
 
 
