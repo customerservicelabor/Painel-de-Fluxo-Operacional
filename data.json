@@ -1,21 +1,21 @@
 {
-  "updated_at": "24/04/2026 13:25",
+  "updated_at": "24/04/2026 14:32",
   "kpis": {
     "notas_em_atraso": 17,
     "previstas_para_hoje": 93,
     "entregues_hoje": 69
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 3, "valor": "26155,54" },
-    { "status": "Alvará Sanitário", "quantidade": 11, "valor": "41248,55" },
+    { "status": "Aguardando Liberação", "quantidade": 6, "valor": "35065,57" },
+    { "status": "Alvará Sanitário", "quantidade": 10, "valor": "39262,95" },
     { "status": "Bloqueado por regra", "quantidade": 7, "valor": "61431,12" },
-    { "status": "Análise de Crédito", "quantidade": 13, "valor": "107308,46" },
-    { "status": "Total em Disputa", "quantidade": 34, "valor": "236143,67" },
-    { "status": "Aguard. Envio Separação", "quantidade": 6, "valor": "91645,88" },
-    { "status": "Em Separação", "quantidade": 8, "valor": "116486,35" },
-    { "status": "Separado", "quantidade": 0, "valor": "0" },
-    { "status": "Faturado", "quantidade": 40, "valor": "173697,99" },
-    { "status": "Total", "quantidade": 54, "valor": "381830,22" }
+    { "status": "Análise de Crédito", "quantidade": 9, "valor": "50746,09" },
+    { "status": "Total em Disputa", "quantidade": 32, "valor": "186505,73" },
+    { "status": "Aguard. Envio Separação", "quantidade": 6, "valor": "129207,26" },
+    { "status": "Em Separação", "quantidade": 11, "valor": "92239,51" },
+    { "status": "Separado", "quantidade": 6, "valor": "50108,8" },
+    { "status": "Faturado", "quantidade": 44, "valor": "225585,14" },
+    { "status": "Total", "quantidade": 67, "valor": "497140,71" }
  ],
   "performance_transportadoras": [
    { "transportadora": "Azul", "notas": "249", "entregas": "194", "atrasados": "8", "pendente_de_entrega": "55", "performance": "95,88%" },
@@ -244,7 +244,6 @@
   {"numero_pedido":"688663 ", "emissao_pv": "20/04/2026 ", "vlr_total_produtos": "7082,2 ", "margem": "46,65 ", "nome_cliente": "MEDICAL SHOPPING LTD ", "uf_cliente": "AP ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"688702 ", "emissao_pv": "20/04/2026 ", "vlr_total_produtos": "806,38 ", "margem": "37,33 ", "nome_cliente": "CIRURGICA NOSSA SENH ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"688866 ", "emissao_pv": "22/04/2026 ", "vlr_total_produtos": "5415 ", "margem": "14,24 ", "nome_cliente": "EXITO MEDICAMENTOS ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. SUPREMO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"688958 ", "emissao_pv": "23/04/2026 ", "vlr_total_produtos": "38613,82 ", "margem": "28,51 ", "nome_cliente": "A E S COMERCIO ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"689045 ", "emissao_pv": "23/04/2026 ", "vlr_total_produtos": "3901,39 ", "margem": "31,05 ", "nome_cliente": "PLUG MED HOSPITALAR ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. SUPREMO ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"689084 ", "emissao_pv": "23/04/2026 ", "vlr_total_produtos": "1701 ", "margem": "7,77 ", "nome_cliente": "LAB MEDICO DR MARIC ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"689130 ", "emissao_pv": "23/04/2026 ", "vlr_total_produtos": "1556,6 ", "margem": "27,06 ", "nome_cliente": "LBC BRASIL RIO ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Análise de Crédito" },
@@ -256,11 +255,12 @@
   {"numero_pedido":"689208 ", "emissao_pv": "24/04/2026 ", "vlr_total_produtos": "8199,3 ", "margem": "32,63 ", "nome_cliente": "DISTRIBUIDORA POCOS ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. CAREMED ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"689232 ", "emissao_pv": "24/04/2026 ", "vlr_total_produtos": "6897,92 ", "margem": "24,51 ", "nome_cliente": "CENTRAL PARANA APOIO ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"689238 ", "emissao_pv": "24/04/2026 ", "vlr_total_produtos": "1766,2 ", "margem": "36,37 ", "nome_cliente": "CHAYL ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"689247 ", "emissao_pv": "24/04/2026 ", "vlr_total_produtos": "6332 ", "margem": "23,59 ", "nome_cliente": "DENTAL PROODONTO ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"689266 ", "emissao_pv": "24/04/2026 ", "vlr_total_produtos": "1069 ", "margem": "37,2 ", "nome_cliente": "PROLAB DISTRIBUIDORA ", "uf_cliente": "RS ", "tipo_cliente": "REVENDEDOR ","vendedor": "LUCIA FLORESTA ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"689274 ", "emissao_pv": "24/04/2026 ", "vlr_total_produtos": "1985,6 ", "margem": "30,41 ", "nome_cliente": "BRONSTEIN-DASA ", "uf_cliente": "RJ ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOAO NETO ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"689294 ", "emissao_pv": "24/04/2026 ", "vlr_total_produtos": "11409,05 ", "margem": "33,34 ", "nome_cliente": "ALTE FARMA ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "ALEXANDRA RIBEIRO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"689296 ", "emissao_pv": "24/04/2026 ", "vlr_total_produtos": "5470,5 ", "margem": "31,54 ", "nome_cliente": "AGROCAMPO ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "ALEXANDRA RIBEIRO ", "ultimo_status": "Análise de Crédito" }
+  {"numero_pedido":"689247 ", "emissao_pv": "24/04/2026 ", "vlr_total_produtos": "6332 ", "margem": "23,59 ", "nome_cliente": "DENTAL PROODONTO ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Alvará Sanitário" }
+
+
+
+
+
 
 
 
