@@ -172,8 +172,8 @@
    {"nota_fiscal": "205501 ", "destinatario": "61486650020532 - DIAGNOSTICOS DA AMERICA S.A. ", "transportador": "PATRUS ", "cidade_destino": "RJ ", "data_entrega": "" },
    {"nota_fiscal": "205526 ", "destinatario": "03063885000166 - MARCOS ROBERTO DOMENEGHETTI ", "transportador": "AZUL ", "cidade_destino": "SP ", "data_entrega": "22/04/2026" },
    {"nota_fiscal": "205513 ", "destinatario": "00970175000121 - M.S. DIAGNOSTICA LTDA ", "transportador": "AZURELOG ", "cidade_destino": "MS ", "data_entrega": "" },
-   {"nota_fiscal": "205551 ", "destinatario": "33220933000143 - EXITO MEDICAMENTOS ", "transportador": "AZURELOG ", "cidade_destino": "GO ", "data_entrega": "24/04/2026" }
-   {"nota_fiscal": "204836 ", "destinatario": "00683826000100 - BIONEFRO COM MATERIAL HOSPITALAR LTDA ", "cidade_destino": "RJ16/04/2026
+   {"nota_fiscal": "205551 ", "destinatario": "33220933000143 - EXITO MEDICAMENTOS ", "transportador": "AZURELOG ", "cidade_destino": "GO ", "data_entrega": "24/04/2026" },
+   {"nota_fiscal": "204836 ", "destinatario": "00683826000100 - BIONEFRO COM MATERIAL HOSPITALAR LTDA ", "cidade_destino": "RJ",  "data_entrega": "16/04/2026"},
    {"nota_fiscal": "204778 ", "destinatario": "41778326000121 - MED E FARMA COM ATAC MEDICAMENTOS LTDA ", "transportador": "TECMAR ", "cidade_destino": "PB ", "data_entrega": "" },
    {"nota_fiscal": "205363 ", "destinatario": "55514837000140 - Stella Distribuicao e Logistica ", "transportador": "AZURELOG ", "cidade_destino": "MG ", "data_entrega": "" },
    {"nota_fiscal": "205422 ", "destinatario": "49071100000106 - DEZEMBRO HOSPITALAR LTDA ", "transportador": "AZURELOG ", "cidade_destino": "GO ", "data_entrega": "22/04/2026" },
