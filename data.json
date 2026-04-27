@@ -1,21 +1,21 @@
 {
-  "updated_at": "27/04/2026 16:46",
+  "updated_at": "27/04/2026 17:03",
   "kpis": {
     "notas_em_atraso": 19,
     "previstas_para_hoje": 104,
     "entregues_hoje": 82
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 5, "valor": "37134" },
-    { "status": "Alvará Sanitário", "quantidade": 12, "valor": "49802,44" },
+    { "status": "Aguardando Liberação", "quantidade": 4, "valor": "34574" },
+    { "status": "Alvará Sanitário", "quantidade": 14, "valor": "54533,44" },
     { "status": "Bloqueado por regra", "quantidade": 0, "valor": "0" },
-    { "status": "Análise de Crédito", "quantidade": 17, "valor": "189384,73" },
-    { "status": "Total em Disputa", "quantidade": 34, "valor": "276321,17" },
-    { "status": "Aguard. Envio Separação", "quantidade": 2, "valor": "61219,9" },
-    { "status": "Em Separação", "quantidade": 39, "valor": "211001,71" },
-    { "status": "Separado", "quantidade": 0, "valor": "0" },
+    { "status": "Análise de Crédito", "quantidade": 18, "valor": "192509,53" },
+    { "status": "Total em Disputa", "quantidade": 36, "valor": "281616,97" },
+    { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "1755,8" },
+    { "status": "Em Separação", "quantidade": 40, "valor": "243522,41" },
+    { "status": "Separado", "quantidade": 2, "valor": "30845" },
     { "status": "Faturado", "quantidade": 76, "valor": "754956,43" },
-    { "status": "Total", "quantidade": 117, "valor": "1027178,04" }
+    { "status": "Total", "quantidade": 119, "valor": "1031079,64" }
  ],
   "performance_transportadoras": [
    { "transportadora": "Azul", "notas": "262", "entregas": "209", "atrasados": "8", "pendente_de_entrega": "53", "performance": "96,17%" },
@@ -263,12 +263,12 @@
   {"numero_pedido":"689590 ", "emissao_pv": "27/04/2026 ", "vlr_total_produtos": "37564,6 ", "margem": "0,98 ", "nome_cliente": "ABS LAB ANALISES CLI ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "LUCIA FLORESTA ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"689594 ", "emissao_pv": "27/04/2026 ", "vlr_total_produtos": "5167,6 ", "margem": "38,81 ", "nome_cliente": "LABORATORIO MENESES ", "uf_cliente": "PI ", "tipo_cliente": "CONS.FINAL ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"689603 ", "emissao_pv": "27/04/2026 ", "vlr_total_produtos": "1001,78 ", "margem": "44,72 ", "nome_cliente": "PREVENIR ANA CLINICA ", "uf_cliente": "RS ", "tipo_cliente": "CONS.FINAL ","vendedor": "V.D INTERNAS ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"689615 ", "emissao_pv": "27/04/2026 ", "vlr_total_produtos": "1341,6 ", "margem": "21,67 ", "nome_cliente": "CT COMERCIO DISTRIBU ", "uf_cliente": "SE ", "tipo_cliente": "REVENDEDOR ","vendedor": "LUCIA FLORESTA ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"689644 ", "emissao_pv": "27/04/2026 ", "vlr_total_produtos": "1214,4 ", "margem": "41,85 ", "nome_cliente": "DIAGNOSTICO ANALISES ", "uf_cliente": "MT ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"689650 ", "emissao_pv": "27/04/2026 ", "vlr_total_produtos": "33596 ", "margem": "31,12 ", "nome_cliente": "BRASMEDICA DISTRIBUI ", "uf_cliente": "MA ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. H.F ", "ultimo_status": "Análise de Crédito" }
-
-
-
+  {"numero_pedido":"689650 ", "emissao_pv": "27/04/2026 ", "vlr_total_produtos": "33596 ", "margem": "31,12 ", "nome_cliente": "BRASMEDICA DISTRIBUI ", "uf_cliente": "MA ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. H.F ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"689668 ", "emissao_pv": "27/04/2026 ", "vlr_total_produtos": "2132 ", "margem": "32,48 ", "nome_cliente": "VISION MEDICA ", "uf_cliente": "PE ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"689670 ", "emissao_pv": "27/04/2026 ", "vlr_total_produtos": "2193,4 ", "margem": "34,68 ", "nome_cliente": "PADRAO LABORAT=FLEUR ", "uf_cliente": "GO ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"689673 ", "emissao_pv": "27/04/2026 ", "vlr_total_produtos": "2599 ", "margem": "33,49 ", "nome_cliente": "AHCOR COM PRODUTOS O ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"689675 ", "emissao_pv": "27/04/2026 ", "vlr_total_produtos": "2273 ", "margem": "36,9 ", "nome_cliente": "MEDIFARMA ", "uf_cliente": "PI ", "tipo_cliente": "REVENDEDOR ","vendedor": "LUCIA FLORESTA ", "ultimo_status": "Análise de Crédito" }
 
 
 
