@@ -1,21 +1,21 @@
 {
-  "updated_at": "27/04/2026 11:43",
+  "updated_at": "27/04/2026 12:13",
   "kpis": {
     "notas_em_atraso": 28,
     "previstas_para_hoje": 101,
     "entregues_hoje": 71
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 5, "valor": "35028,32" },
-    { "status": "Alvará Sanitário", "quantidade": 11, "valor": "47534,45" },
-    { "status": "Bloqueado por regra", "quantidade": 1, "valor": "3103,46" },
+    { "status": "Aguardando Liberação", "quantidade": 4, "valor": "34574" },
+    { "status": "Alvará Sanitário", "quantidade": 12, "valor": "60639,95" },
+    { "status": "Bloqueado por regra", "quantidade": 2, "valor": "4102,68" },
     { "status": "Análise de Crédito", "quantidade": 18, "valor": "162937,81" },
-    { "status": "Total em Disputa", "quantidade": 35, "valor": "248604,04" },
-    { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "922,5" },
-    { "status": "Em Separação", "quantidade": 32, "valor": "470968,62" },
-    { "status": "Separado", "quantidade": 4, "valor": "32802,33" },
-    { "status": "Faturado", "quantidade": 27, "valor": "166023,72" },
-    { "status": "Total", "quantidade": 64, "valor": "670717,17" }
+    { "status": "Total em Disputa", "quantidade": 36, "valor": "262254,44" },
+    { "status": "Aguard. Envio Separação", "quantidade": 2, "valor": "2678,3" },
+    { "status": "Em Separação", "quantidade": 32, "valor": "314353,86" },
+    { "status": "Separado", "quantidade": 1, "valor": "19618,33" },
+    { "status": "Faturado", "quantidade": 35, "valor": "347882,3" },
+    { "status": "Total", "quantidade": 70, "valor": "684532,79" }
  ],
   "performance_transportadoras": [
    { "transportadora": "Azul", "notas": "252", "entregas": "202", "atrasados": "8", "pendente_de_entrega": "50", "performance": "96,04%" },
@@ -265,8 +265,8 @@
   {"numero_pedido":"689520 ", "emissao_pv": "27/04/2026 ", "vlr_total_produtos": "24053,2 ", "margem": "12,59 ", "nome_cliente": "JADY GUEDES FRANCO E ", "uf_cliente": "PI ", "tipo_cliente": "REVENDEDOR ","vendedor": "LUCIA FLORESTA ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"689528 ", "emissao_pv": "27/04/2026 ", "vlr_total_produtos": "1218,4 ", "margem": "32,63 ", "nome_cliente": "DIAGNOSTICO ANALISES ", "uf_cliente": "MT ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"689542 ", "emissao_pv": "27/04/2026 ", "vlr_total_produtos": "17939,8 ", "margem": "27,99 ", "nome_cliente": "ABC FARMA ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"689548 ", "emissao_pv": "27/04/2026 ", "vlr_total_produtos": "1530,03 ", "margem": "13,85 ", "nome_cliente": "CLINICA VIVER ", "uf_cliente": "PA ", "tipo_cliente": "CONS.FINAL ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" }
-
+  {"numero_pedido":"689548 ", "emissao_pv": "27/04/2026 ", "vlr_total_produtos": "1530,03 ", "margem": "13,85 ", "nome_cliente": "CLINICA VIVER ", "uf_cliente": "PA ", "tipo_cliente": "CONS.FINAL ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"689558 ", "emissao_pv": "27/04/2026 ", "vlr_total_produtos": "13105,5 ", "margem": "43,51 ", "nome_cliente": "DISTRIBUIDORA REAL ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Alvará Sanitário" }
 
 
 
