@@ -1,21 +1,21 @@
 {
-  "updated_at": "27/04/2026 16:30",
+  "updated_at": "27/04/2026 16:46",
   "kpis": {
     "notas_em_atraso": 19,
     "previstas_para_hoje": 104,
     "entregues_hoje": 82
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 4, "valor": "34574" },
-    { "status": "Alvará Sanitário", "quantidade": 13, "valor": "51020,04" },
+    { "status": "Aguardando Liberação", "quantidade": 5, "valor": "37134" },
+    { "status": "Alvará Sanitário", "quantidade": 12, "valor": "49802,44" },
     { "status": "Bloqueado por regra", "quantidade": 0, "valor": "0" },
-    { "status": "Análise de Crédito", "quantidade": 18, "valor": "191289,44" },
-    { "status": "Total em Disputa", "quantidade": 35, "valor": "276883,48" },
-    { "status": "Aguard. Envio Separação", "quantidade": 4, "valor": "66274,9" },
-    { "status": "Em Separação", "quantidade": 31, "valor": "206010,1" },
+    { "status": "Análise de Crédito", "quantidade": 17, "valor": "189384,73" },
+    { "status": "Total em Disputa", "quantidade": 34, "valor": "276321,17" },
+    { "status": "Aguard. Envio Separação", "quantidade": 2, "valor": "61219,9" },
+    { "status": "Em Separação", "quantidade": 39, "valor": "211001,71" },
     { "status": "Separado", "quantidade": 0, "valor": "0" },
-    { "status": "Faturado", "quantidade": 75, "valor": "743582,93" },
-    { "status": "Total", "quantidade": 110, "valor": "1015867,93" }
+    { "status": "Faturado", "quantidade": 76, "valor": "754956,43" },
+    { "status": "Total", "quantidade": 117, "valor": "1027178,04" }
  ],
   "performance_transportadoras": [
    { "transportadora": "Azul", "notas": "262", "entregas": "209", "atrasados": "8", "pendente_de_entrega": "53", "performance": "96,17%" },
@@ -265,9 +265,9 @@
   {"numero_pedido":"689603 ", "emissao_pv": "27/04/2026 ", "vlr_total_produtos": "1001,78 ", "margem": "44,72 ", "nome_cliente": "PREVENIR ANA CLINICA ", "uf_cliente": "RS ", "tipo_cliente": "CONS.FINAL ","vendedor": "V.D INTERNAS ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"689615 ", "emissao_pv": "27/04/2026 ", "vlr_total_produtos": "1341,6 ", "margem": "21,67 ", "nome_cliente": "CT COMERCIO DISTRIBU ", "uf_cliente": "SE ", "tipo_cliente": "REVENDEDOR ","vendedor": "LUCIA FLORESTA ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"689644 ", "emissao_pv": "27/04/2026 ", "vlr_total_produtos": "1214,4 ", "margem": "41,85 ", "nome_cliente": "DIAGNOSTICO ANALISES ", "uf_cliente": "MT ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"689647 ", "emissao_pv": "27/04/2026 ", "vlr_total_produtos": "1904,71 ", "margem": "-1 ", "nome_cliente": "LABORATORIO MARTINS ", "uf_cliente": "MA ", "tipo_cliente": "CONS.FINAL ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"689650 ", "emissao_pv": "27/04/2026 ", "vlr_total_produtos": "33596 ", "margem": "31,12 ", "nome_cliente": "BRASMEDICA DISTRIBUI ", "uf_cliente": "MA ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. H.F ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"689652 ", "emissao_pv": "27/04/2026 ", "vlr_total_produtos": "1217,6 ", "margem": "41,32 ", "nome_cliente": "NOBRE DISTRIBUICAO L ", "uf_cliente": "SC ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Alvará Sanitário" }
+  {"numero_pedido":"689650 ", "emissao_pv": "27/04/2026 ", "vlr_total_produtos": "33596 ", "margem": "31,12 ", "nome_cliente": "BRASMEDICA DISTRIBUI ", "uf_cliente": "MA ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. H.F ", "ultimo_status": "Análise de Crédito" }
+
+
 
 
 
