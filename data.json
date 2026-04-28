@@ -1,25 +1,25 @@
 {
-  "updated_at": "28/04/2026 14:04",
+  "updated_at": "28/04/2026 14:34",
   "kpis": {
     "notas_em_atraso": 18,
     "previstas_para_hoje": 112,
     "entregues_hoje": 80
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 6, "valor": "50584,9" },
+    { "status": "Aguardando Liberação", "quantidade": 9, "valor": "61479,68" },
     { "status": "Alvará Sanitário", "quantidade": 7, "valor": "29998,35" },
-    { "status": "Bloqueado por regra", "quantidade": 3, "valor": "7903,94" },
+    { "status": "Bloqueado por regra", "quantidade": 1, "valor": "824,06" },
     { "status": "Análise de Crédito", "quantidade": 9, "valor": "59214,33" },
-    { "status": "Total em Disputa", "quantidade": 25, "valor": "147701,52" },
+    { "status": "Total em Disputa", "quantidade": 26, "valor": "151516,42" },
     { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "1755,8" },
-    { "status": "Em Separação", "quantidade": 10, "valor": "127059,26" },
-    { "status": "Separado", "quantidade": 4, "valor": "145462,93" },
-    { "status": "Faturado", "quantidade": 52, "valor": "282435,59" },
-    { "status": "Total", "quantidade": 67, "valor": "556713,58" }
+    { "status": "Em Separação", "quantidade": 13, "valor": "116448,17" },
+    { "status": "Separado", "quantidade": 4, "valor": "115135,2" },
+    { "status": "Faturado", "quantidade": 55, "valor": "350455,32" },
+    { "status": "Total", "quantidade": 73, "valor": "583794,49" }
  ],
  "recebimento_produtos": [
-   { "embarque": "25.17 VITRO",  "tipo": "Container", "data_recebimento": "28/04/26", "confirmado": "Sim", "chegou_cd": "Chegada 10:57",  "status": "Descarregando" },
-   { "embarque": "25.18 POLY",  "tipo": "Container", "data_recebimento": "28/04/26", "confirmado": "Sim", "chegou_cd": "Chegada 10:57",  "status": "Descarregando" },
+   { "embarque": "25.17 VITRO",  "tipo": "Container", "data_recebimento": "28/04/26", "confirmado": "Sim", "chegou_cd": "Chegada 10:57",  "status": "Análise de Qualidade" },
+   { "embarque": "25.18 POLY",  "tipo": "Container", "data_recebimento": "28/04/26", "confirmado": "Sim", "chegou_cd": "Chegada 10:57",  "status": "Análise de Qualidade" },
    { "embarque": "25.06 WEIGAO",  "tipo": "Container", "data_recebimento": "28/04/26", "confirmado": "Sim", "chegou_cd": "Chegada 13:30",  "status": "Chegou no CD" },
    { "embarque": "25.06 WEIGAO",  "tipo": "Container", "data_recebimento": "28/04/26", "confirmado": "Sim", "chegou_cd": "Previsão 14:00",  "status": "Em trânsito para o CD" }
 
