@@ -1,35 +1,35 @@
 {
-  "updated_at": "28/04/2026 09:58",
+  "updated_at": "28/04/2026 10:02",
   "kpis": {
     "notas_em_atraso": 28,
     "previstas_para_hoje": 108,
     "entregues_hoje": 70
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 4, "valor": "44467,3" },
-    { "status": "Alvará Sanitário", "quantidade": 11, "valor": "89269,78" },
-    { "status": "Bloqueado por regra", "quantidade": 1, "valor": "2268" },
-    { "status": "Análise de Crédito", "quantidade": 15, "valor": "132200,75" },
-    { "status": "Total em Disputa", "quantidade": 31, "valor": "268205,83" },
+    { "status": "Aguardando Liberação", "quantidade": 5, "valor": "45343,3" },
+    { "status": "Alvará Sanitário", "quantidade": 7, "valor": "110555,36" },
+    { "status": "Bloqueado por regra", "quantidade": 3, "valor": "22972,22" },
+    { "status": "Análise de Crédito", "quantidade": 13, "valor": "110079,24" },
+    { "status": "Total em Disputa", "quantidade": 28, "valor": "288950,12" },
     { "status": "Aguard. Envio Separação", "quantidade": 2, "valor": "20038,65" },
-    { "status": "Em Separação", "quantidade": 15, "valor": "86340,02" },
+    { "status": "Em Separação", "quantidade": 20, "valor": "137121,1" },
     { "status": "Separado", "quantidade": 0, "valor": "0" },
-    { "status": "Faturado", "quantidade": 1, "valor": "993,27" },
-    { "status": "Total", "quantidade": 18, "valor": "107371,94" }
+    { "status": "Faturado", "quantidade": 7, "valor": "36157,36" },
+    { "status": "Total", "quantidade": 29, "valor": "193317,11" }
  ],
  "recebimento_produtos": [
-   { "embarque": "25.06 WEIGAO",  "tipo": "Container", "data_recebimento": "2026/04/28", "confirmado": "Sim", "chegou_cd": "Previsão 14:00hs",  "status": "Em transito para o CD" },
-   { "embarque": "25.06 WEIGAO",  "tipo": "Container", "data_recebimento": "2026/04/28", "confirmado": "Sim", "chegou_cd": "Previsão 14:00hs",  "status": "Em transito para o CD" },
-   { "embarque": "25.17 VITRO",  "tipo": "Container", "data_recebimento": "2026/04/28", "confirmado": "Sim", "chegou_cd": "Previsão 10:00hs",  "status": "Em transito para o CD" },
-   { "embarque": "25.18 POLY",  "tipo": "Container", "data_recebimento": "2026/04/28", "confirmado": "Sim", "chegou_cd": "Previsão 10:00hs",  "status": "Em transito para o CD" },
-   { "embarque": "25.07 WEIGAO",  "tipo": "Container", "data_recebimento": "2026/04/30", "confirmado": "Não", "chegou_cd": "Em Programação",  "status": "Em Programação" },
-   { "embarque": "25.07 SHA",  "tipo": "Container", "data_recebimento": "2026/04/30", "confirmado": "Não", "chegou_cd": "Em Programação",  "status": "Em Programação" },
-   { "embarque": "25.03 TIANDI",  "tipo": "Container", "data_recebimento": "2026/04/30", "confirmado": "Não", "chegou_cd": "Em Programação",  "status": "Em Programação" },
-   { "embarque": "25.06 DAILY",  "tipo": "Container", "data_recebimento": "2026/04/30", "confirmado": "Não", "chegou_cd": "Em Programação",  "status": "Em Programação" },
-   { "embarque": "25.01 TIANDI",  "tipo": "Container", "data_recebimento": "2026/04/30", "confirmado": "Não", "chegou_cd": "Em Programação",  "status": "Em Programação" },
-   { "embarque": "27.07 NOVEL",  "tipo": "Container", "data_recebimento": "2026/04/30", "confirmado": "Não", "chegou_cd": "Em Programação",  "status": "Em Programação" },
-   { "embarque": "25.03 PHOENIX",  "tipo": "Container", "data_recebimento": "2026/04/30", "confirmado": "Não", "chegou_cd": "Em Programação",  "status": "Em Programação" },
-   { "embarque": "25.07 WEIGAO",  "tipo": "Container", "data_recebimento": "2026/04/30", "confirmado": "Não", "chegou_cd": "Em Programação",  "status": "Em Programação" }
+   { "embarque": "25.06 WEIGAO",  "tipo": "Container", "data_recebimento": "28/04/26", "confirmado": "Sim", "chegou_cd": "Previsão 14:00hs",  "status": "Em transito para o CD" },
+   { "embarque": "25.06 WEIGAO",  "tipo": "Container", "data_recebimento": "28/04/26", "confirmado": "Sim", "chegou_cd": "Previsão 14:00hs",  "status": "Em transito para o CD" },
+   { "embarque": "25.17 VITRO",  "tipo": "Container", "data_recebimento": "28/04/26", "confirmado": "Sim", "chegou_cd": "Previsão 10:00hs",  "status": "Em transito para o CD" },
+   { "embarque": "25.18 POLY",  "tipo": "Container", "data_recebimento": "28/04/26", "confirmado": "Sim", "chegou_cd": "Previsão 10:00hs",  "status": "Em transito para o CD" },
+   { "embarque": "25.07 WEIGAO",  "tipo": "Container", "data_recebimento": "30/04/26", "confirmado": "Não", "chegou_cd": "Em Programação",  "status": "Em Programação" },
+   { "embarque": "25.07 SHA",  "tipo": "Container", "data_recebimento": "30/04/26", "confirmado": "Não", "chegou_cd": "Em Programação",  "status": "Em Programação" },
+   { "embarque": "25.03 TIANDI",  "tipo": "Container", "data_recebimento": "30/04/26", "confirmado": "Não", "chegou_cd": "Em Programação",  "status": "Em Programação" },
+   { "embarque": "25.06 DAILY",  "tipo": "Container", "data_recebimento": "30/04/26", "confirmado": "Não", "chegou_cd": "Em Programação",  "status": "Em Programação" },
+   { "embarque": "25.01 TIANDI",  "tipo": "Container", "data_recebimento": "30/04/26", "confirmado": "Não", "chegou_cd": "Em Programação",  "status": "Em Programação" },
+   { "embarque": "27.07 NOVEL",  "tipo": "Container", "data_recebimento": "30/04/26", "confirmado": "Não", "chegou_cd": "Em Programação",  "status": "Em Programação" },
+   { "embarque": "25.03 PHOENIX",  "tipo": "Container", "data_recebimento": "30/04/26", "confirmado": "Não", "chegou_cd": "Em Programação",  "status": "Em Programação" },
+   { "embarque": "25.07 WEIGAO",  "tipo": "Container", "data_recebimento": "30/04/26", "confirmado": "Não", "chegou_cd": "Em Programação",  "status": "Em Programação" }
 
   ],
  "notas_em_atraso": [
@@ -237,20 +237,15 @@
 
  ],
 "pedidos_nao_faturados": [
-  {"numero_pedido":"688615 ", "emissao_pv": "20/04/2026 ", "vlr_total_produtos": "3144,9 ", "margem": "35,79 ", "nome_cliente": "AHCOR COM PRODUTOS O ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"688663 ", "emissao_pv": "20/04/2026 ", "vlr_total_produtos": "7082,2 ", "margem": "46,65 ", "nome_cliente": "MEDICAL SHOPPING LTD ", "uf_cliente": "AP ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"688702 ", "emissao_pv": "20/04/2026 ", "vlr_total_produtos": "806,38 ", "margem": "37,33 ", "nome_cliente": "CIRURGICA NOSSA SENH ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"689205 ", "emissao_pv": "24/04/2026 ", "vlr_total_produtos": "3540 ", "margem": "8,94 ", "nome_cliente": "ELEVENN MATERIAIS ME ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"689208 ", "emissao_pv": "24/04/2026 ", "vlr_total_produtos": "8199,3 ", "margem": "32,63 ", "nome_cliente": "DISTRIBUIDORA POCOS ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. CAREMED ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"689232 ", "emissao_pv": "24/04/2026 ", "vlr_total_produtos": "6897,92 ", "margem": "24,51 ", "nome_cliente": "CENTRAL PARANA APOIO ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"689238 ", "emissao_pv": "24/04/2026 ", "vlr_total_produtos": "1766,2 ", "margem": "36,37 ", "nome_cliente": "CHAYL ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"689247 ", "emissao_pv": "24/04/2026 ", "vlr_total_produtos": "6332 ", "margem": "23,59 ", "nome_cliente": "DENTAL PROODONTO ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"689340 ", "emissao_pv": "24/04/2026 ", "vlr_total_produtos": "14882 ", "margem": "38,02 ", "nome_cliente": "LINEHOSP MEDICAL COM ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"689368 ", "emissao_pv": "24/04/2026 ", "vlr_total_produtos": "13248 ", "margem": "0,45 ", "nome_cliente": "PR VID PR DIAGNOSTIC ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"689476 ", "emissao_pv": "27/04/2026 ", "vlr_total_produtos": "34829,5 ", "margem": "40,66 ", "nome_cliente": "RB DISTRIBUIDORA DE ", "uf_cliente": "AL ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"689489 ", "emissao_pv": "27/04/2026 ", "vlr_total_produtos": "1110 ", "margem": "27,49 ", "nome_cliente": "INFINITA COM SERV ", "uf_cliente": "SE ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"689501 ", "emissao_pv": "27/04/2026 ", "vlr_total_produtos": "1074 ", "margem": "3,98 ", "nome_cliente": "PMH PRODUTOS MEDICOS ", "uf_cliente": "DF ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. SUPREMO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"689513 ", "emissao_pv": "27/04/2026 ", "vlr_total_produtos": "1320 ", "margem": "37,96 ", "nome_cliente": "IMPORT HOSPITALAR ", "uf_cliente": "AP ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. CA BENTO ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"689515 ", "emissao_pv": "27/04/2026 ", "vlr_total_produtos": "4970 ", "margem": "27,51 ", "nome_cliente": "PROREMEDIOS ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"689548 ", "emissao_pv": "27/04/2026 ", "vlr_total_produtos": "1530,03 ", "margem": "13,85 ", "nome_cliente": "CLINICA VIVER ", "uf_cliente": "PA ", "tipo_cliente": "CONS.FINAL ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"689594 ", "emissao_pv": "27/04/2026 ", "vlr_total_produtos": "5167,6 ", "margem": "38,81 ", "nome_cliente": "LABORATORIO MENESES ", "uf_cliente": "PI ", "tipo_cliente": "CONS.FINAL ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Alvará Sanitário" },
@@ -260,9 +255,14 @@
   {"numero_pedido":"689668 ", "emissao_pv": "27/04/2026 ", "vlr_total_produtos": "2132 ", "margem": "32,48 ", "nome_cliente": "VISION MEDICA ", "uf_cliente": "PE ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"689670 ", "emissao_pv": "27/04/2026 ", "vlr_total_produtos": "2193,4 ", "margem": "34,68 ", "nome_cliente": "PADRAO LABORAT=FLEUR ", "uf_cliente": "GO ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"689705 ", "emissao_pv": "27/04/2026 ", "vlr_total_produtos": "17288 ", "margem": "33,8 ", "nome_cliente": "DL MEDICAMENTOS LTDA ", "uf_cliente": "PB ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. ALFA ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"689733 ", "emissao_pv": "28/04/2026 ", "vlr_total_produtos": "2697,12 ", "margem": "29,81 ", "nome_cliente": "SUPORTE PRODUTOS HOS ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"689735 ", "emissao_pv": "28/04/2026 ", "vlr_total_produtos": "6985 ", "margem": "32,87 ", "nome_cliente": "BIOSUL PRODUTOS DIAG ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"689741 ", "emissao_pv": "28/04/2026 ", "vlr_total_produtos": "38462,8 ", "margem": "38,61 ", "nome_cliente": "ALA ARTEFATOS ", "uf_cliente": "CE ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Alvará Sanitário" }
+  {"numero_pedido":"689749 ", "emissao_pv": "28/04/2026 ", "vlr_total_produtos": "808,61 ", "margem": "40,48 ", "nome_cliente": "R R  FERREIRA MATERI ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"689761 ", "emissao_pv": "28/04/2026 ", "vlr_total_produtos": "77443,2 ", "margem": "26,57 ", "nome_cliente": "CIRURGICA BRASILEIRA ", "uf_cliente": "PE ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Alvará Sanitário" }
+
+
+
+
+
+
 
 
 
