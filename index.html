@@ -1246,7 +1246,10 @@
     }
 
     function renderRecebimento(data){
-      const list = Array.isArray(data.recebimento_produtos) ? data.recebimento_produtos : [];
+      const list = Array.isArray(data.recebimento_produtos)
+        ? data.recebimento_produtos
+        : (Array.isArray(data.performance_transportadoras) ? data.performance_transportadoras : []);
+
       const body = document.getElementById('tbodyRecebimento');
       body.innerHTML = '';
 
@@ -1257,16 +1260,48 @@
         const statusKey = normKey(status);
 
         const tr = document.createElement('tr');
+        tr.classList.remove('blinkWarn');
 
-        if (statusKey.includes('transito')) {
-          tr.style.background = 'linear-gradient(90deg, rgba(245,158,11,.16), rgba(245,158,11,.06))';
-        } else if (statusKey.includes('recebido') || statusKey.includes('chegou')) {
-          tr.style.background = 'linear-gradient(90deg, rgba(34,197,94,.14), rgba(34,197,94,.05))';
+        let statusDotClass = '';
+        let statusBadgeClass = '';
+
+        // ===== CORES AUTOMÁTICAS POR STATUS =====
+        if (statusKey.includes('aguardando programacao')) {
+          tr.style.background = 'linear-gradient(90deg, rgba(107,114,128,.25), rgba(107,114,128,.05))';
+        }
+        else if (statusKey === 'programado' || statusKey.includes('programado')) {
+          tr.style.background = 'linear-gradient(90deg, rgba(59,130,246,.18), rgba(59,130,246,.05))';
+        }
+        else if (statusKey.includes('transito')) {
+          tr.style.background = 'linear-gradient(90deg, rgba(245,158,11,.18), rgba(245,158,11,.05))';
+          statusDotClass = 'bad';
+        }
+        else if (statusKey.includes('chegou')) {
+          tr.style.background = 'linear-gradient(90deg, rgba(14,165,233,.18), rgba(14,165,233,.05))';
+        }
+        else if (statusKey.includes('descarregando')) {
+          tr.style.background = 'linear-gradient(90deg, rgba(168,85,247,.18), rgba(168,85,247,.05))';
+        }
+        else if (statusKey.includes('finalizado')) {
+          tr.style.background = 'linear-gradient(90deg, rgba(34,197,94,.18), rgba(34,197,94,.05))';
+          statusBadgeClass = 'good';
         }
 
-        const confirmado = String(it.confirmado ?? '—').trim();
+        // ===== EXCEÇÕES / ALERTA PISCANDO =====
+        if (
+          statusKey.includes('aguardando complementar') ||
+          statusKey.includes('aguardando nf mae') ||
+          statusKey.includes('divergencia')
+        ) {
+          tr.classList.add('blinkWarn');
+          tr.style.background = 'linear-gradient(90deg, rgba(239,68,68,.30), rgba(239,68,68,.10))';
+          statusDotClass = 'bad';
+          statusBadgeClass = 'bad';
+        }
+
+        const confirmado = String(it.confirmado ?? it.pendente_de_entrega ?? '—').trim();
         const confirmadoKey = normKey(confirmado);
-        const confirmadoClass = confirmadoKey === 'sim' ? 'good' : 'bad';
+        const confirmadoClass = confirmadoKey === 'sim' ? 'good' : (confirmadoKey === 'nao' ? 'bad' : '');
 
         tr.innerHTML = `
           <td><strong>${String(it.embarque ?? '—').trim()}</strong></td>
@@ -1280,8 +1315,8 @@
           </td>
           <td>${String(it.chegou_cd ?? '—').trim()}</td>
           <td>
-            <span class="perfBadge">
-              <span class="perfDot ${statusKey.includes('transito') ? 'bad' : ''}"></span>
+            <span class="perfBadge ${statusBadgeClass}">
+              <span class="perfDot ${statusDotClass}"></span>
               ${status || '—'}
             </span>
           </td>
