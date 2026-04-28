@@ -1,5 +1,5 @@
 {
-  "updated_at": "28/04/2026 16:32",
+  "updated_at": "28/04/2026 17:03",
   "kpis": {
     "notas_em_atraso": 18,
     "previstas_para_hoje": 112,
@@ -7,29 +7,29 @@
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 0, "valor": "0" },
-    { "status": "Alvará Sanitário", "quantidade": 5, "valor": "5628,15" },
+    { "status": "Alvará Sanitário", "quantidade": 6, "valor": "7840,95" },
     { "status": "Bloqueado por regra", "quantidade": 0, "valor": "0" },
-    { "status": "Análise de Crédito", "quantidade": 14, "valor": "118894,51" },
-    { "status": "Total em Disputa", "quantidade": 19, "valor": "124522,66" },
-    { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "1755,8" },
-    { "status": "Em Separação", "quantidade": 15, "valor": "120394,06" },
-    { "status": "Separado", "quantidade": 0, "valor": "0" },
-    { "status": "Faturado", "quantidade": 85, "valor": "623873,17" },
-    { "status": "Total", "quantidade": 101, "valor": "746023,03" }
+    { "status": "Análise de Crédito", "quantidade": 15, "valor": "150094,51" },
+    { "status": "Total em Disputa", "quantidade": 21, "valor": "157935,46" },
+    { "status": "Aguard. Envio Separação", "quantidade": 2, "valor": "8168,3" },
+    { "status": "Em Separação", "quantidade": 17, "valor": "135248,53" },
+    { "status": "Separado", "quantidade": 5, "valor": "18334,14" },
+    { "status": "Faturado", "quantidade": 84, "valor": "617460,67" },
+    { "status": "Total", "quantidade": 108, "valor": "779211,64" }
  ],
  "recebimento_produtos": [
    { "embarque": "25.17 VITRO",  "tipo": "Container", "data_recebimento": "28/04/26", "confirmado": "Sim", "chegou_cd": "Chegada 10:57",  "status": "Finalizado" },
    { "embarque": "25.18 POLY",  "tipo": "Container", "data_recebimento": "28/04/26", "confirmado": "Sim", "chegou_cd": "Chegada 10:57",  "status": "Finalizado" },
    { "embarque": "25.06 WEIGAO",  "tipo": "Container", "data_recebimento": "28/04/26", "confirmado": "Sim", "chegou_cd": "Chegada 13:30",  "status": "Descarregando" },
-   { "embarque": "25.06 WEIGAO",  "tipo": "Container", "data_recebimento": "28/04/26", "confirmado": "Sim", "chegou_cd": "Chegada 14:00",  "status": "Descarregando" }
-
-
-
-
-
-
-
-
+   { "embarque": "25.06 WEIGAO",  "tipo": "Container", "data_recebimento": "28/04/26", "confirmado": "Sim", "chegou_cd": "Chegada 14:00",  "status": "Descarregando" },
+   { "embarque": "25.05-WEIGAO",  "tipo": "Container", "data_recebimento": "30/04/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Programado" },
+   { "embarque": "25.07-SHA",  "tipo": "Container", "data_recebimento": "30/04/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Programado" },
+   { "embarque": "25.03-TIANDI",  "tipo": "Container", "data_recebimento": "30/04/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Programado" },
+   { "embarque": "25.06-DAILY",  "tipo": "Container", "data_recebimento": "30/04/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Programado" },
+   { "embarque": "25.01-TIANDA",  "tipo": "Container", "data_recebimento": "30/04/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Programado" },
+   { "embarque": "25.07-NOVEL",  "tipo": "Container", "data_recebimento": "30/04/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Programado" },
+   { "embarque": "25.03-PHOENIX",  "tipo": "Container", "data_recebimento": "04/05/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
+   { "embarque": "25.07-WEIGAO",  "tipo": "Container", "data_recebimento": "05/05/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Aguardando Programação" }
 
   ],
  "notas_em_atraso": [
@@ -255,9 +255,9 @@
   {"numero_pedido":"689850 ", "emissao_pv": "28/04/2026 ", "vlr_total_produtos": "7829 ", "margem": "18,88 ", "nome_cliente": "60 666 717 JOAO FEIJ ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"689895 ", "emissao_pv": "28/04/2026 ", "vlr_total_produtos": "2085,48 ", "margem": "23,54 ", "nome_cliente": "ATLAS DIAGNOSTICA ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"689897 ", "emissao_pv": "28/04/2026 ", "vlr_total_produtos": "41204 ", "margem": "19,12 ", "nome_cliente": "GLOBAL HOSPITALAR ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"689901 ", "emissao_pv": "28/04/2026 ", "vlr_total_produtos": "1479,5 ", "margem": "33,88 ", "nome_cliente": "MEGA HOSPITALAR ", "uf_cliente": "MS ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" }
-
-
+  {"numero_pedido":"689901 ", "emissao_pv": "28/04/2026 ", "vlr_total_produtos": "1479,5 ", "margem": "33,88 ", "nome_cliente": "MEGA HOSPITALAR ", "uf_cliente": "MS ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"689913 ", "emissao_pv": "28/04/2026 ", "vlr_total_produtos": "2212,8 ", "margem": "22,29 ", "nome_cliente": "ARTMED LTDA ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"689926 ", "emissao_pv": "28/04/2026 ", "vlr_total_produtos": "31200 ", "margem": "24,47 ", "nome_cliente": "AMAZON COM PRODUTOS ", "uf_cliente": "AM ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. TURCATO ", "ultimo_status": "Análise de Crédito" }
 
 
 
