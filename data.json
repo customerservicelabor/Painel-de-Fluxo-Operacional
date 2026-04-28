@@ -1,5 +1,5 @@
 {
-  "updated_at": "28/04/2026 10:07",
+  "updated_at": "28/04/2026 10:14",
   "kpis": {
     "notas_em_atraso": 28,
     "previstas_para_hoje": 108,
@@ -18,8 +18,8 @@
     { "status": "Total", "quantidade": 29, "valor": "193317,11" }
  ],
  "recebimento_produtos": [
-   { "embarque": "25.17 VITRO",  "tipo": "Container", "data_recebimento": "28/04/26", "confirmado": "Sim", "chegou_cd": "Previsão 10:00hs",  "status": "Em transito para o CD" },
-   { "embarque": "25.18 POLY",  "tipo": "Container", "data_recebimento": "28/04/26", "confirmado": "Sim", "chegou_cd": "Previsão 10:00hs",  "status": "Em transito para o CD" },
+   { "embarque": "25.17 VITRO",  "tipo": "Container", "data_recebimento": "28/04/26", "confirmado": "Sim", "chegou_cd": "Previsão 11:00hs",  "status": "Em transito para o CD" },
+   { "embarque": "25.18 POLY",  "tipo": "Container", "data_recebimento": "28/04/26", "confirmado": "Sim", "chegou_cd": "Previsão 11:00hs",  "status": "Em transito para o CD" },
    { "embarque": "25.06 WEIGAO",  "tipo": "Container", "data_recebimento": "28/04/26", "confirmado": "Sim", "chegou_cd": "Previsão 14:00hs",  "status": "Em transito para o CD" },
    { "embarque": "25.06 WEIGAO",  "tipo": "Container", "data_recebimento": "28/04/26", "confirmado": "Sim", "chegou_cd": "Previsão 14:00hs",  "status": "Em transito para o CD" }
 
