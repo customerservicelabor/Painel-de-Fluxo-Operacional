@@ -1,21 +1,21 @@
 {
-  "updated_at": "28/04/2026 17:23",
+  "updated_at": "28/04/2026 17:40",
   "kpis": {
     "notas_em_atraso": 18,
     "previstas_para_hoje": 112,
     "entregues_hoje": 80
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 1, "valor": "4983,6" },
-    { "status": "Alvará Sanitário", "quantidade": 6, "valor": "7840,95" },
-    { "status": "Bloqueado por regra", "quantidade": 1, "valor": "4560" },
-    { "status": "Análise de Crédito", "quantidade": 13, "valor": "110695,21" },
-    { "status": "Total em Disputa", "quantidade": 21, "valor": "128079,76" },
-    { "status": "Aguard. Envio Separação", "quantidade": 3, "valor": "63555,8" },
-    { "status": "Em Separação", "quantidade": 16, "valor": "147501,93" },
-    { "status": "Separado", "quantidade": 0, "valor": "0" },
-    { "status": "Faturado", "quantidade": 94, "valor": "695118" },
-    { "status": "Total", "quantidade": 113, "valor": "906175,73" }
+    { "status": "Aguardando Liberação", "quantidade": 1, "valor": "3733,9" },
+    { "status": "Alvará Sanitário", "quantidade": 7, "valor": "9541,79" },
+    { "status": "Bloqueado por regra", "quantidade": 1, "valor": "326,31" },
+    { "status": "Análise de Crédito", "quantidade": 15, "valor": "193026,41" },
+    { "status": "Total em Disputa", "quantidade": 24, "valor": "206628,41" },
+    { "status": "Aguard. Envio Separação", "quantidade": 4, "valor": "52559,8" },
+    { "status": "Em Separação", "quantidade": 12, "valor": "157996,89" },
+    { "status": "Separado", "quantidade": 3, "valor": "12106,37" },
+    { "status": "Faturado", "quantidade": 97, "valor": "708100,27" },
+    { "status": "Total", "quantidade": 116, "valor": "930763,33" }
  ],
  "recebimento_produtos": [
    { "embarque": "25.17 VITRO",  "tipo": "Container", "data_recebimento": "28/04/26", "confirmado": "Sim", "chegou_cd": "Chegada 10:57",  "status": "Finalizado" },
@@ -255,10 +255,10 @@
   {"numero_pedido":"689895 ", "emissao_pv": "28/04/2026 ", "vlr_total_produtos": "2085,48 ", "margem": "23,54 ", "nome_cliente": "ATLAS DIAGNOSTICA ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"689897 ", "emissao_pv": "28/04/2026 ", "vlr_total_produtos": "41204 ", "margem": "19,12 ", "nome_cliente": "GLOBAL HOSPITALAR ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"689901 ", "emissao_pv": "28/04/2026 ", "vlr_total_produtos": "1479,5 ", "margem": "33,88 ", "nome_cliente": "MEGA HOSPITALAR ", "uf_cliente": "MS ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"689913 ", "emissao_pv": "28/04/2026 ", "vlr_total_produtos": "2212,8 ", "margem": "22,29 ", "nome_cliente": "ARTMED LTDA ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Alvará Sanitário" }
-
-
-
+  {"numero_pedido":"689913 ", "emissao_pv": "28/04/2026 ", "vlr_total_produtos": "2212,8 ", "margem": "22,29 ", "nome_cliente": "ARTMED LTDA ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"689928 ", "emissao_pv": "28/04/2026 ", "vlr_total_produtos": "4560 ", "margem": "20,57 ", "nome_cliente": "HOSPITAL DE CLINICAS ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "V.D INTERNAS ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"689942 ", "emissao_pv": "28/04/2026 ", "vlr_total_produtos": "1700,84 ", "margem": "27,42 ", "nome_cliente": "CLINIFLEX DISTRIBUID ", "uf_cliente": "SC ", "tipo_cliente": "REVENDEDOR ","vendedor": "ALEXANDRA RIBEIRO ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"689944 ", "emissao_pv": "28/04/2026 ", "vlr_total_produtos": "77771,2 ", "margem": "22,85 ", "nome_cliente": "LINEHOSP MEDICAL COM ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" }
 
 
 
