@@ -1,21 +1,21 @@
 {
-  "updated_at": "28/04/2026 13:46",
+  "updated_at": "28/04/2026 14:04",
   "kpis": {
     "notas_em_atraso": 18,
     "previstas_para_hoje": 112,
     "entregues_hoje": 80
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 5, "valor": "45343,3" },
+    { "status": "Aguardando Liberação", "quantidade": 6, "valor": "50584,9" },
     { "status": "Alvará Sanitário", "quantidade": 7, "valor": "29998,35" },
-    { "status": "Bloqueado por regra", "quantidade": 1, "valor": "4300" },
+    { "status": "Bloqueado por regra", "quantidade": 3, "valor": "7903,94" },
     { "status": "Análise de Crédito", "quantidade": 9, "valor": "59214,33" },
-    { "status": "Total em Disputa", "quantidade": 22, "valor": "138855,98" },
+    { "status": "Total em Disputa", "quantidade": 25, "valor": "147701,52" },
     { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "1755,8" },
-    { "status": "Em Separação", "quantidade": 15, "valor": "217320,99" },
-    { "status": "Separado", "quantidade": 1, "valor": "55250" },
-    { "status": "Faturado", "quantidade": 49, "valor": "279186,79" },
-    { "status": "Total", "quantidade": 66, "valor": "553513,58" }
+    { "status": "Em Separação", "quantidade": 10, "valor": "127059,26" },
+    { "status": "Separado", "quantidade": 4, "valor": "145462,93" },
+    { "status": "Faturado", "quantidade": 52, "valor": "282435,59" },
+    { "status": "Total", "quantidade": 67, "valor": "556713,58" }
  ],
  "recebimento_produtos": [
    { "embarque": "25.17 VITRO",  "tipo": "Container", "data_recebimento": "28/04/26", "confirmado": "Sim", "chegou_cd": "Chegada 10:57",  "status": "Aguardando Complementar" },
