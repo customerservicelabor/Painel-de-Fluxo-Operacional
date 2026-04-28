@@ -1,5 +1,5 @@
 {
-  "updated_at": "28/04/2026 13:41",
+  "updated_at": "28/04/2026 13:42",
   "kpis": {
     "notas_em_atraso": 18,
     "previstas_para_hoje": 112,
@@ -20,7 +20,7 @@
  "recebimento_produtos": [
    { "embarque": "25.17 VITRO",  "tipo": "Container", "data_recebimento": "28/04/26", "confirmado": "Sim", "chegou_cd": "Chegada 10:57",  "status": "Descarregando" },
    { "embarque": "25.18 POLY",  "tipo": "Container", "data_recebimento": "28/04/26", "confirmado": "Sim", "chegou_cd": "Chegada 10:57",  "status": "Descarregando" },
-   { "embarque": "25.06 WEIGAO",  "tipo": "Container", "data_recebimento": "28/04/26", "confirmado": "Sim", "chegou_cd": "Previsão 12:40",  "status": "Em trânsito para o CD" },
+   { "embarque": "25.06 WEIGAO",  "tipo": "Container", "data_recebimento": "28/04/26", "confirmado": "Sim", "chegou_cd": "Chegadao 13:30",  "status": "Chegou no CD" },
    { "embarque": "25.06 WEIGAO",  "tipo": "Container", "data_recebimento": "28/04/26", "confirmado": "Sim", "chegou_cd": "Previsão 14:00",  "status": "Em trânsito para o CD" }
 
 
