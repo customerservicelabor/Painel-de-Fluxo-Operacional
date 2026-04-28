@@ -1,5 +1,5 @@
 {
-  "updated_at": "28/04/2026 09:54",
+  "updated_at": "28/04/2026 09:56",
   "kpis": {
     "notas_em_atraso": 28,
     "previstas_para_hoje": 108,
@@ -18,18 +18,18 @@
     { "status": "Total", "quantidade": 18, "valor": "107371,94" }
  ],
  "recebimento_produtos": [
-   { "embarque": "25.06 WEIGAO",  "tipo": "Container", "data_recebimento": "2026/04/28", "confirmado": "Sim", "chegou_cd": "Previsão 14:00hs",  "status": "Em transito para o CD" },
-   { "embarque": "25.06 WEIGAO",  "tipo": "Container", "data_recebimento": "2026/04/28", "pendente_de_entrega": "Sim", "chegou_cd": "Previsão 14:00hs",  "status": "Em transito para o CD" },
-   { "embarque": "25.17 VITRO",  "tipo": "Container", "data_recebimento": "2026/04/28", "pendente_de_entrega": "Sim", "chegou_cd": "Previsão 10:00hs",  "status": "Em transito para o CD" },
-   { "embarque": "25.18 POLY",  "tipo": "Container", "data_recebimento": "2026/04/28", "pendente_de_entrega": "Sim", "chegou_cd": "Previsão 10:00hs",  "status": "Em transito para o CD" },
-   { "embarque": "25.07 WEIGAO",  "tipo": "Container", "data_recebimento": "2026/04/30", "pendente_de_entrega": "Não", "chegou_cd": "Em Programação",  "status": "Em Programação" },
-   { "embarque": "25.07 SHA",  "tipo": "Container", "data_recebimento": "2026/04/30", "pendente_de_entrega": "Não", "chegou_cd": "Em Programação",  "status": "Em Programação" },
-   { "embarque": "25.03 TIANDI",  "tipo": "Container", "data_recebimento": "2026/04/30", "pendente_de_entrega": "Não", "chegou_cd": "Em Programação",  "status": "Em Programação" },
-   { "embarque": "25.06 DAILY",  "tipo": "Container", "data_recebimento": "2026/04/30", "pendente_de_entrega": "Não", "chegou_cd": "Em Programação",  "status": "Em Programação" },
-   { "embarque": "25.01 TIANDI",  "tipo": "Container", "data_recebimento": "2026/04/30", "pendente_de_entrega": "Não", "chegou_cd": "Em Programação",  "status": "Em Programação" },
-   { "embarque": "27.07 NOVEL",  "tipo": "Container", "data_recebimento": "2026/04/30", "pendente_de_entrega": "Não", "chegou_cd": "Em Programação",  "status": "Em Programação" },
-   { "embarque": "25.03 PHOENIX",  "tipo": "Container", "data_recebimento": "2026/04/30", "pendente_de_entrega": "Não", "chegou_cd": "Em Programação",  "status": "Em Programação" },
-   { "embarque": "25.07 WEIGAO",  "tipo": "Container", "data_recebimento": "2026/04/30", "pendente_de_entrega": "Não", "chegou_cd": "Em Programação",  "status": "Em Programação" }
+   { "embarque": "25.06 WEIGAO",  "tipo": "Container", "data_recebimento": "2026/04/28", "confirmado?": "Sim", "chegou_cd": "Previsão 14:00hs",  "status": "Em transito para o CD" },
+   { "embarque": "25.06 WEIGAO",  "tipo": "Container", "data_recebimento": "2026/04/28", "confirmado?": "Sim", "chegou_cd": "Previsão 14:00hs",  "status": "Em transito para o CD" },
+   { "embarque": "25.17 VITRO",  "tipo": "Container", "data_recebimento": "2026/04/28", "confirmado?": "Sim", "chegou_cd": "Previsão 10:00hs",  "status": "Em transito para o CD" },
+   { "embarque": "25.18 POLY",  "tipo": "Container", "data_recebimento": "2026/04/28", "confirmado?": "Sim", "chegou_cd": "Previsão 10:00hs",  "status": "Em transito para o CD" },
+   { "embarque": "25.07 WEIGAO",  "tipo": "Container", "data_recebimento": "2026/04/30", "confirmado?": "Não", "chegou_cd": "Em Programação",  "status": "Em Programação" },
+   { "embarque": "25.07 SHA",  "tipo": "Container", "data_recebimento": "2026/04/30", "confirmado?": "Não", "chegou_cd": "Em Programação",  "status": "Em Programação" },
+   { "embarque": "25.03 TIANDI",  "tipo": "Container", "data_recebimento": "2026/04/30", "confirmado?": "Não", "chegou_cd": "Em Programação",  "status": "Em Programação" },
+   { "embarque": "25.06 DAILY",  "tipo": "Container", "data_recebimento": "2026/04/30", "confirmado?": "Não", "chegou_cd": "Em Programação",  "status": "Em Programação" },
+   { "embarque": "25.01 TIANDI",  "tipo": "Container", "data_recebimento": "2026/04/30", "confirmado?": "Não", "chegou_cd": "Em Programação",  "status": "Em Programação" },
+   { "embarque": "27.07 NOVEL",  "tipo": "Container", "data_recebimento": "2026/04/30", "confirmado?": "Não", "chegou_cd": "Em Programação",  "status": "Em Programação" },
+   { "embarque": "25.03 PHOENIX",  "tipo": "Container", "data_recebimento": "2026/04/30", "confirmado?": "Não", "chegou_cd": "Em Programação",  "status": "Em Programação" },
+   { "embarque": "25.07 WEIGAO",  "tipo": "Container", "data_recebimento": "2026/04/30", "confirmado?": "Não", "chegou_cd": "Em Programação",  "status": "Em Programação" }
 
   ],
  "notas_em_atraso": [
