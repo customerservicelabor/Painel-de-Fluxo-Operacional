@@ -1,5 +1,5 @@
 {
-  "updated_at": "28/04/2026 09:11",
+  "updated_at": "28/04/2026 09:52",
   "kpis": {
     "notas_em_atraso": 28,
     "previstas_para_hoje": 108,
@@ -18,23 +18,23 @@
     { "status": "Total", "quantidade": 18, "valor": "107371,94" }
  ],
   "performance_transportadoras": [
-   { "transportadora": "Azul", "notas": "270", "entregas": "213", "atrasados": "8", "pendente_de_entrega": "57", "performance": "96,24%" },
-   { "transportadora": "Latam", "notas": "227", "entregas": "183", "atrasados": "4", "pendente_de_entrega": "44", "performance": "97,81%" },
-   { "transportadora": "Azurelog", "notas": "175", "entregas": "85", "atrasados": "0", "pendente_de_entrega": "90", "performance": "100,00%" },
-   { "transportadora": "Tecmar", "notas": "57", "entregas": "13", "atrasados": "0", "pendente_de_entrega": "44", "performance": "100,00%" },
-   { "transportadora": "Logdi", "notas": "115", "entregas": "18", "atrasados": "0", "pendente_de_entrega": "97", "performance": "100,00%" },
-   { "transportadora": "Translovato", "notas": "0", "entregas": "0", "atrasados": "0", "pendente_de_entrega": "0", "performance": "100,00%" },
-   { "transportadora": "Patrus", "notas": "287", "entregas": "164", "atrasados": "3", "pendente_de_entrega": "123", "performance": "98,17%" },
-   { "transportadora": "Gran Cargo", "notas": "0", "entregas": "0", "atrasados": "0", "pendente_de_entrega": "0", "performance": "100,00%" },
-   { "transportadora": "Schreiber", "notas": "202", "entregas": "165", "atrasados": "5", "pendente_de_entrega": "37", "performance": "96,97%" },
-   { "transportadora": "Jamef", "notas": "80", "entregas": "38", "atrasados": "1", "pendente_de_entrega": "42", "performance": "97,37%" },
-   { "transportadora": "Carvalima", "notas": "44", "entregas": "29", "atrasados": "1", "pendente_de_entrega": "15", "performance": "96,55%" },
-   { "transportadora": "Arlete", "notas": "82", "entregas": "65", "atrasados": "2", "pendente_de_entrega": "17", "performance": "96,92%" },
-   { "transportadora": "TGL", "notas": "66", "entregas": "48", "atrasados": "5", "pendente_de_entrega": "18", "performance": "89,58%" }
+   { "embarque": "25.06 WEIGAO",  "tipo": "Container", "data_recebimento": "2026/04/28", "confirmado": "Sim", "chegou_cd": "Previsão 14:00hs",  "status": "Em transito para o CD" },
+   { "embarque": "25.06 WEIGAO",  "tipo": "Container", "data_recebimento": "2026/04/28", "pendente_de_entrega": "Sim", "chegou_cd": "Previsão 14:00hs",  "status": "Em transito para o CD" },
+   { "embarque": "25.17 VITRO",  "tipo": "Container", "data_recebimento": "2026/04/28", "pendente_de_entrega": "Sim", "chegou_cd": "Previsão 10:00hs",  "status": "Em transito para o CD" },
+   { "embarque": "25.18 POLY",  "tipo": "Container", "data_recebimento": "2026/04/28", "pendente_de_entrega": "Sim", "chegou_cd": "Previsão 10:00hs",  "status": "Em transito para o CD" },
+   { "embarque": "25.07 WEIGAO",  "tipo": "Container", "data_recebimento": "2026/04/30", "pendente_de_entrega": "Não", "chegou_cd": "Em Programação",  "status": "Em Programação" },
+   { "embarque": "25.07 SHA",  "tipo": "Container", "data_recebimento": "2026/04/30", "pendente_de_entrega": "Não", "chegou_cd": "Em Programação",  "status": "Em Programação" },
+   { "embarque": "25.03 TIANDI",  "tipo": "Container", "data_recebimento": "2026/04/30", "pendente_de_entrega": "Não", "chegou_cd": "Em Programação",  "status": "Em Programação" },
+   { "embarque": "25.06 DAILY",  "tipo": "Container", "data_recebimento": "2026/04/30", "pendente_de_entrega": "Não", "chegou_cd": "Em Programação",  "status": "Em Programação" },
+   { "embarque": "25.01 TIANDI",  "tipo": "Container", "data_recebimento": "2026/04/30", "pendente_de_entrega": "Não", "chegou_cd": "Em Programação",  "status": "Em Programação" },
+   { "embarque": "27.07 NOVEL",  "tipo": "Container", "data_recebimento": "2026/04/30", "pendente_de_entrega": "Não", "chegou_cd": "Em Programação",  "status": "Em Programação" },
+   { "embarque": "25.03 PHOENIX",  "tipo": "Container", "data_recebimento": "2026/04/30", "pendente_de_entrega": "Não", "chegou_cd": "Em Programação",  "status": "Em Programação" },
+   { "embarque": "25.07 WEIGAO",  "tipo": "Container", "data_recebimento": "2026/04/30", "pendente_de_entrega": "Não", "chegou_cd": "Em Programação",  "status": "Em Programação" }
+
   ],
  "notas_em_atraso": [
    {"nota_fiscal": "205349 ", "destinatario": "11984323000183 - CF CARE MATERIAL HOSPITALAR EIRELI - ME ", "transportador": "AZURELOG ", "previsao_entrega": "27/04/2026","ocorrencia": "Atrasado" },
-   {"nota_fiscal": "205228 ", "destinatario": "32146865000157 - LABMIX COMERCIO E SERVICOS LTDA ", "transportador": "PATRUS ", "previsao_entrega": "22/04/2026","ocorrencia": "Atrasado" },
+   {"nota_fiscal": "205228 ", "destinatario": "32146865000157 - LABMIX COMERCIO E SERVICOS LTDA ", "transportador": "PATRUS","ocorrencia": "Atrasado" },
    {"nota_fiscal": "206073 ", "destinatario": "03402979000112 - M.N.P CUSTODIO COM PROD HOSP EIRELI ", "transportador": "SCHREIBER ", "previsao_entrega": "27/04/2026","ocorrencia": "Atrasado" },
    {"nota_fiscal": "205280 ", "destinatario": "01177248000195 - CRISTOFOLI EQUIPAMENTOS DE BIOSSEGURANCA LTDA ", "transportador": "ATIVA ", "previsao_entrega": "22/04/2026","ocorrencia": "Atrasado" },
    {"nota_fiscal": "204880 ", "destinatario": "04361467000118 - ARTMED COMERCIAL LTDA ", "transportador": "LOGDI ", "previsao_entrega": "24/04/2026","ocorrencia": "Atrasado" },
