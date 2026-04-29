@@ -1,5 +1,5 @@
 {
-  "updated_at": "29/04/2026 18:28",
+  "updated_at": "29/04/2026 18:44",
   "kpis": {
     "notas_em_atraso": 16,
     "previstas_para_hoje": 112,
@@ -12,10 +12,10 @@
     { "status": "Análise de Crédito", "quantidade": 11, "valor": "198810,66" },
     { "status": "Total em Disputa", "quantidade": 14, "valor": "200780,59" },
     { "status": "Aguard. Envio Separação", "quantidade": 0, "valor": "0" },
-    { "status": "Em Separação", "quantidade": 44, "valor": "559284,93" },
-    { "status": "Separado", "quantidade": 4, "valor": "14109,8" },
-    { "status": "Faturado", "quantidade": 130, "valor": "1172589,14" },
-    { "status": "Total", "quantidade": 178, "valor": "1745983,87" }
+    { "status": "Em Separação", "quantidade": 40, "valor": "510529,76" },
+    { "status": "Separado", "quantidade": 2, "valor": "17237,91" },
+    { "status": "Faturado", "quantidade": 137, "valor": "1224198,12" },
+    { "status": "Total", "quantidade": 179, "valor": "1751965,79" }
  ],
  "recebimento_produtos": [
    { "embarque": "25.05-WEIGAO",  "tipo": "Container", "data_recebimento": "30/04/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Programado" },
