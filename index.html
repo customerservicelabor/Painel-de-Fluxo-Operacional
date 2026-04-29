@@ -2,7 +2,6 @@
 <html lang="pt-BR">
 <head>
   <meta charset="utf-8"/>
-  <meta http-equiv="refresh" content="180">
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
   <title>Painel de Fluxo Operacional – Indicador</title>
 
@@ -1726,9 +1725,17 @@
       }
     });
 
-    load().catch(err => {
-      console.error(err);
-      alert('Erro ao carregar data.json. Verifique se index.html e data.json estão na mesma pasta.');
+ async function atualizarPainel(){
+  try{
+    await load();
+  }catch(err){
+    console.error(err);
+  }
+}
+
+atualizarPainel();
+
+setInterval(atualizarPainel, 120000);
     });
   </script>
 </body>
