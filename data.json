@@ -1,5 +1,5 @@
 {
-  "updated_at": "29/04/2026 08:51",
+  "updated_at": "29/04/2026 09:07",
   "kpis": {
     "notas_em_atraso": 31,
     "previstas_para_hoje": 105,
@@ -9,13 +9,13 @@
     { "status": "Aguardando Liberação", "quantidade": 0, "valor": "0" },
     { "status": "Alvará Sanitário", "quantidade": 7, "valor": "11140,95" },
     { "status": "Bloqueado por regra", "quantidade": 2, "valor": "6006,31" },
-    { "status": "Análise de Crédito", "quantidade": 17, "valor": "281171,46" },
-    { "status": "Total em Disputa", "quantidade": 26, "valor": "298318,72" },
-    { "status": "Aguard. Envio Separação", "quantidade": 4, "valor": "64162,92" },
-    { "status": "Em Separação", "quantidade": 6, "valor": "14081,1" },
+    { "status": "Análise de Crédito", "quantidade": 16, "valor": "258005,71" },
+    { "status": "Total em Disputa", "quantidade": 25, "valor": "275152,97" },
+    { "status": "Aguard. Envio Separação", "quantidade": 3, "valor": "84379,59" },
+    { "status": "Em Separação", "quantidade": 8, "valor": "17030,18" },
     { "status": "Separado", "quantidade": 0, "valor": "0" },
     { "status": "Faturado", "quantidade": 0, "valor": "0" },
-    { "status": "Total", "quantidade": 10, "valor": "78244,02" }
+    { "status": "Total", "quantidade": 11, "valor": "101409,77" }
  ],
  "recebimento_produtos": [
    { "embarque": "25.05-WEIGAO",  "tipo": "Container", "data_recebimento": "30/04/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Programado" },
@@ -25,9 +25,9 @@
    { "embarque": "25.01-TIANDA",  "tipo": "Container", "data_recebimento": "30/04/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Programado" },
    { "embarque": "25.07-NOVEL",  "tipo": "Container", "data_recebimento": "30/04/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Programado" },
    { "embarque": "25.03-PHOENIX",  "tipo": "Container", "data_recebimento": "04/05/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
-   { "embarque": "25.07-WEIGAO",  "tipo": "Container", "data_recebimento": "05/05/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Aguardando Programação" }
-
-
+   { "embarque": "25.07-WEIGAO",  "tipo": "Container", "data_recebimento": "05/05/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
+   { "embarque": "25.04 - AYSET",  "tipo": "Container", "data_recebimento": "06/05/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
+   { "embarque": "25.04 - PHOENIX",  "tipo": "Container", "data_recebimento": "07/05/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Aguardando Programação" }
 
 
 
@@ -259,8 +259,8 @@
   {"numero_pedido":"689950 ", "emissao_pv": "28/04/2026 ", "vlr_total_produtos": "3733,9 ", "margem": "34,36 ", "nome_cliente": "DIMED ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "ALEXANDRA RIBEIRO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"689960 ", "emissao_pv": "28/04/2026 ", "vlr_total_produtos": "1646 ", "margem": "9,5 ", "nome_cliente": "INOVA HOSPITALAR LTD ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. SUPREMO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"689962 ", "emissao_pv": "28/04/2026 ", "vlr_total_produtos": "65638,9 ", "margem": "30,24 ", "nome_cliente": "AMAZON ", "uf_cliente": "AP ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"689970 ", "emissao_pv": "29/04/2026 ", "vlr_total_produtos": "23165,75 ", "margem": "33,54 ", "nome_cliente": "FLEX HOSPITALAR ", "uf_cliente": "SE ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"689972 ", "emissao_pv": "29/04/2026 ", "vlr_total_produtos": "3300 ", "margem": "27,16 ", "nome_cliente": "FESTMED COM  E IMP ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Alvará Sanitário" }
+
 
 
 
