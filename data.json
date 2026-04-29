@@ -1,21 +1,21 @@
 {
-  "updated_at": "29/04/2026 16:51",
+  "updated_at": "29/04/2026 17:05",
   "kpis": {
     "notas_em_atraso": 16,
     "previstas_para_hoje": 112,
     "entregues_hoje": 85
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 0, "valor": "0" },
+    { "status": "Aguardando Liberação", "quantidade": 4, "valor": "26294,8" },
     { "status": "Alvará Sanitário", "quantidade": 3, "valor": "9419,62" },
     { "status": "Bloqueado por regra", "quantidade": 1, "valor": "326,31" },
-    { "status": "Análise de Crédito", "quantidade": 12, "valor": "140398,16" },
-    { "status": "Total em Disputa", "quantidade": 16, "valor": "150144,09" },
-    { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "19200" },
-    { "status": "Em Separação", "quantidade": 30, "valor": "331141,67" },
-    { "status": "Separado", "quantidade": 1, "valor": "92260" },
+    { "status": "Análise de Crédito", "quantidade": 13, "valor": "142723,16" },
+    { "status": "Total em Disputa", "quantidade": 21, "valor": "178763,89" },
+    { "status": "Aguard. Envio Separação", "quantidade": 0, "valor": "0" },
+    { "status": "Em Separação", "quantidade": 30, "valor": "340055,03" },
+    { "status": "Separado", "quantidade": 6, "valor": "131279,44" },
     { "status": "Faturado", "quantidade": 101, "valor": "895165,28" },
-    { "status": "Total", "quantidade": 133, "valor": "1337766,95" }
+    { "status": "Total", "quantidade": 137, "valor": "1366499,75" }
  ],
  "recebimento_produtos": [
    { "embarque": "25.05-WEIGAO",  "tipo": "Container", "data_recebimento": "30/04/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Programado" },
@@ -251,8 +251,8 @@
   {"numero_pedido":"690140 ", "emissao_pv": "29/04/2026 ", "vlr_total_produtos": "2647,6 ", "margem": "34 ", "nome_cliente": "ASSOC SANTAMARENSE B ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"690182 ", "emissao_pv": "29/04/2026 ", "vlr_total_produtos": "1120,06 ", "margem": "47,55 ", "nome_cliente": "LABORATORIO LAB CENT ", "uf_cliente": "PR ", "tipo_cliente": "CONS.FINAL ","vendedor": "V.D INTERNAS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"690215 ", "emissao_pv": "29/04/2026 ", "vlr_total_produtos": "7776 ", "margem": "6,83 ", "nome_cliente": "LABSHOP ", "uf_cliente": "PE ", "tipo_cliente": "REVENDEDOR ","vendedor": "ALEXANDRA RIBEIRO ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"690227 ", "emissao_pv": "29/04/2026 ", "vlr_total_produtos": "835,01 ", "margem": "32,44 ", "nome_cliente": "MACIEL SUPRIMENTOS M ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Alvará Sanitário" }
-
+  {"numero_pedido":"690227 ", "emissao_pv": "29/04/2026 ", "vlr_total_produtos": "835,01 ", "margem": "32,44 ", "nome_cliente": "MACIEL SUPRIMENTOS M ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"690236 ", "emissao_pv": "29/04/2026 ", "vlr_total_produtos": "2325 ", "margem": "39,49 ", "nome_cliente": "VISION MEDICA ", "uf_cliente": "PE ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" }
 
 
 
