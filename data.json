@@ -1,5 +1,5 @@
 {
-  "updated_at": "29/04/2026 19:04",
+  "updated_at": "29/04/2026 19:34",
   "kpis": {
     "notas_em_atraso": 16,
     "previstas_para_hoje": 112,
@@ -9,13 +9,13 @@
     { "status": "Aguardando Liberação", "quantidade": 0, "valor": "0" },
     { "status": "Alvará Sanitário", "quantidade": 2, "valor": "1643,62" },
     { "status": "Bloqueado por regra", "quantidade": 1, "valor": "326,31" },
-    { "status": "Análise de Crédito", "quantidade": 10, "valor": "156095,66" },
-    { "status": "Total em Disputa", "quantidade": 13, "valor": "158065,59" },
+    { "status": "Análise de Crédito", "quantidade": 9, "valor": "146775,66" },
+    { "status": "Total em Disputa", "quantidade": 12, "valor": "148745,59" },
     { "status": "Aguard. Envio Separação", "quantidade": 0, "valor": "0" },
-    { "status": "Em Separação", "quantidade": 33, "valor": "409885,94" },
-    { "status": "Separado", "quantidade": 5, "valor": "118044,47" },
-    { "status": "Faturado", "quantidade": 142, "valor": "1266750,38" },
-    { "status": "Total", "quantidade": 180, "valor": "1794680,79" }
+    { "status": "Em Separação", "quantidade": 28, "valor": "388637,51" },
+    { "status": "Separado", "quantidade": 1, "valor": "8779" },
+    { "status": "Faturado", "quantidade": 153, "valor": "1414107,08" },
+    { "status": "Total", "quantidade": 182, "valor": "1811523,59" }
  ],
  "recebimento_produtos": [
    { "embarque": "25.05-WEIGAO",  "tipo": "Container", "data_recebimento": "30/04/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Programado" },
@@ -247,8 +247,8 @@
   {"numero_pedido":"690182 ", "emissao_pv": "29/04/2026 ", "vlr_total_produtos": "1120,06 ", "margem": "47,55 ", "nome_cliente": "LABORATORIO LAB CENT ", "uf_cliente": "PR ", "tipo_cliente": "CONS.FINAL ","vendedor": "V.D INTERNAS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"690227 ", "emissao_pv": "29/04/2026 ", "vlr_total_produtos": "835,01 ", "margem": "32,44 ", "nome_cliente": "MACIEL SUPRIMENTOS M ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"690236 ", "emissao_pv": "29/04/2026 ", "vlr_total_produtos": "2325 ", "margem": "39,49 ", "nome_cliente": "VISION MEDICA ", "uf_cliente": "PE ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"690303 ", "emissao_pv": "29/04/2026 ", "vlr_total_produtos": "36973,46 ", "margem": "27,31 ", "nome_cliente": "IMEDIATTA ", "uf_cliente": "PI ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"690317 ", "emissao_pv": "29/04/2026 ", "vlr_total_produtos": "9320 ", "margem": "29,87 ", "nome_cliente": "DIAGNOSTICA SUDESTE ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "ALEXANDRA RIBEIRO ", "ultimo_status": "Análise de Crédito" }
+  {"numero_pedido":"690303 ", "emissao_pv": "29/04/2026 ", "vlr_total_produtos": "36973,46 ", "margem": "27,31 ", "nome_cliente": "IMEDIATTA ", "uf_cliente": "PI ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" }
+
 
 
 
