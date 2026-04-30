@@ -1,5 +1,5 @@
 {
-  "updated_at": "30/04/2026 08:37",
+  "updated_at": "30/04/2026 09:17",
   "kpis": {
     "notas_em_atraso": 31,
     "previstas_para_hoje": 116,
@@ -18,16 +18,16 @@
     { "status": "Total", "quantidade": 1, "valor": "1925,35" }
  ],
  "recebimento_produtos": [
-   { "embarque": "25.05-WEIGAO",  "tipo": "Container", "data_recebimento": "30/04/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Programado" },
-   { "embarque": "25.07-SHA",  "tipo": "Container", "data_recebimento": "30/04/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Programado" },
-   { "embarque": "25.03-TIANDI",  "tipo": "Container", "data_recebimento": "30/04/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Programado" },
-   { "embarque": "25.06-DAILY",  "tipo": "Container", "data_recebimento": "30/04/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Programado" },
-   { "embarque": "25.01-TIANDA",  "tipo": "Container", "data_recebimento": "30/04/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Programado" },
-   { "embarque": "25.07-NOVEL",  "tipo": "Container", "data_recebimento": "30/04/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Programado" },
-   { "embarque": "25.03-PHOENIX",  "tipo": "Container", "data_recebimento": "04/05/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
-   { "embarque": "25.07-WEIGAO",  "tipo": "Container", "data_recebimento": "05/05/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
-   { "embarque": "25.04 - AYSET",  "tipo": "Container", "data_recebimento": "06/05/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
-   { "embarque": "25.04 - PHOENIX",  "tipo": "Container", "data_recebimento": "07/05/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Aguardando Programação" }
+   { "embarque": "25.03-PHOENIX",  "tipo": "Container", "data_recebimento": "04/05/26", "confirmado": "SIM", "chegou_cd": "Previsto",  "status": "Programado" },
+   { "embarque": "25.07-WEIGAO",  "tipo": "Container", "data_recebimento": "05/05/26", "confirmado": "SIM", "chegou_cd": "Previsto",  "status": "Programado" },
+   { "embarque": "25.05-WEIGAO",  "tipo": "Container", "data_recebimento": "06/05/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
+   { "embarque": "25.07-SHA",  "tipo": "Container", "data_recebimento": "06/05/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
+   { "embarque": "25.03-TIANDI",  "tipo": "Container", "data_recebimento": "06/05/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
+   { "embarque": "25.06-DAILY",  "tipo": "Container", "data_recebimento": "06/05/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
+   { "embarque": "25.01-TIANDA",  "tipo": "Container", "data_recebimento": "06/05/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
+   { "embarque": "25.07-NOVEL",  "tipo": "Container", "data_recebimento": "06/05/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
+   { "embarque": "25.04 - AYSET",  "tipo": "Container", "data_recebimento": "07/05/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
+   { "embarque": "25.04 - PHOENIX",  "tipo": "Container", "data_recebimento": "08/05/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Aguardando Programação" }
 
 
 
