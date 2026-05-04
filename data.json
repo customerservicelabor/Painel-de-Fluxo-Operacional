@@ -1,21 +1,21 @@
 {
-  "updated_at": "04/05/2026 09:36",
+  "updated_at": "04/05/2026 10:08",
   "kpis": {
     "notas_em_atraso": 15,
     "previstas_para_hoje": 130,
     "entregues_hoje": 89
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 2, "valor": "48952,41" },
+    { "status": "Aguardando Liberação", "quantidade": 1, "valor": "8,25" },
     { "status": "Alvará Sanitário", "quantidade": 4, "valor": "28011,01" },
     { "status": "Bloqueado por regra", "quantidade": 0, "valor": "0" },
-    { "status": "Análise de Crédito", "quantidade": 11, "valor": "159840,13" },
-    { "status": "Total em Disputa", "quantidade": 17, "valor": "236803,55" },
+    { "status": "Análise de Crédito", "quantidade": 10, "valor": "152087,31" },
+    { "status": "Total em Disputa", "quantidade": 15, "valor": "180106,57" },
     { "status": "Aguard. Envio Separação", "quantidade": 0, "valor": "0" },
-    { "status": "Em Separação", "quantidade": 21, "valor": "190637,17" },
-    { "status": "Separado", "quantidade": 35, "valor": "203287,02" },
-    { "status": "Faturado", "quantidade": 0, "valor": "0" },
-    { "status": "Total", "quantidade": 56, "valor": "393924,19" }
+    { "status": "Em Separação", "quantidade": 27, "valor": "216075,97" },
+    { "status": "Separado", "quantidade": 3, "valor": "52592,2" },
+    { "status": "Faturado", "quantidade": 32, "valor": "150694,82" },
+    { "status": "Total", "quantidade": 62, "valor": "419362,99" }
  ],
  "recebimento_produtos": [
    { "embarque": "25.03-PHOENIX",  "tipo": "Container", "data_recebimento": "04/05/26", "confirmado": "SIM", "chegou_cd": "Chegou as 08:30",  "status": "Descarregando" },
@@ -249,9 +249,9 @@
   {"numero_pedido":"690427 ", "emissao_pv": "30/04/2026 ", "vlr_total_produtos": "1521 ", "margem": "42,96 ", "nome_cliente": "RINECON COMERCIO PRO ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"690436 ", "emissao_pv": "30/04/2026 ", "vlr_total_produtos": "1358 ", "margem": "16,19 ", "nome_cliente": "BRASIL CARE DISTRIBU ", "uf_cliente": "RJ ", "tipo_cliente": "CONS.FINAL ","vendedor": "NEOLANDI SANTOS ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"690465 ", "emissao_pv": "01/05/2026 ", "vlr_total_produtos": "8301 ", "margem": "40,26 ", "nome_cliente": "INSTRUMENTAL TECNICO ", "uf_cliente": "AM ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. TURCATO ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"690474 ", "emissao_pv": "04/05/2026 ", "vlr_total_produtos": "6828 ", "margem": "23,7 ", "nome_cliente": "ENDRAMED HOSPITALAR ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"690476 ", "emissao_pv": "04/05/2026 ", "vlr_total_produtos": "2509,5 ", "margem": "51,23 ", "nome_cliente": "NOGAMI DENTAL MEDICA ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"690481 ", "emissao_pv": "04/05/2026 ", "vlr_total_produtos": "77771,2 ", "margem": "22,84 ", "nome_cliente": "LINEHOSP MEDICAL COM ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" }
+  {"numero_pedido":"690481 ", "emissao_pv": "04/05/2026 ", "vlr_total_produtos": "77771,2 ", "margem": "22,84 ", "nome_cliente": "LINEHOSP MEDICAL COM ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"690491 ", "emissao_pv": "04/05/2026 ", "vlr_total_produtos": "1584,68 ", "margem": "28,17 ", "nome_cliente": "COMFORT MED SOLUCOES ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOICE MENDES ", "ultimo_status": "Análise de Crédito" }
+
 
 
 
