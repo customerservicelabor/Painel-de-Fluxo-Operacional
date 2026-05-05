@@ -734,301 +734,6 @@
       border-color: rgba(59,130,246,.28);
     }
 
-
-    .painelGerencial{
-      background: linear-gradient(180deg, rgba(255,255,255,.08), rgba(255,255,255,.045));
-      min-height: var(--bottomPanelH);
-      height: var(--bottomPanelH);
-      overflow: visible;
-    }
-
-    .gerencialBody{
-      flex:1 1 auto;
-      min-height:0;
-      padding: 12px 14px 12px;
-      display:flex;
-      flex-direction:column;
-      gap: 10px;
-      background: rgba(255,255,255,.06);
-      overflow: visible;
-    }
-
-    .gerencialTop{
-      display:grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 12px;
-      flex: 0 0 auto;
-    }
-
-    .gerencialKpi{
-      border-radius: 14px;
-      background: linear-gradient(180deg, #142137, #0d1728);
-      color: rgba(233,236,245,.96);
-      border: 1px solid rgba(255,255,255,.12);
-      box-shadow: 0 10px 20px rgba(0,0,0,.22);
-      padding: 10px 14px;
-      text-align:center;
-      min-height: 70px;
-      display:flex;
-      flex-direction:column;
-      justify-content:center;
-    }
-
-    .gerencialKpiLabel{
-      font-size: 13px;
-      color: rgba(233,236,245,.72);
-      font-weight: 800;
-      letter-spacing:.2px;
-    }
-
-    .gerencialKpiValue{
-      margin-top: 6px;
-      font-size: clamp(18px, 1.45vw, 26px);
-      line-height: 1.05;
-      color: rgba(233,236,245,.98);
-      font-weight: 950;
-      white-space:nowrap;
-    }
-
-    .gerencialGrid{
-      flex:1 1 auto;
-      min-height:0;
-      display:grid;
-      grid-template-columns: .95fr 1.05fr;
-      gap: 12px;
-      align-items: stretch;
-    }
-
-    .slaBox,
-    .deltaBox,
-    .topEstadosBox{
-      border-radius: 16px;
-      background: rgba(255,255,255,.92);
-      color: var(--ink);
-      border: 1px solid rgba(255,255,255,.28);
-      box-shadow: 0 12px 24px rgba(0,0,0,.14);
-    }
-
-    .slaBox{
-      padding: 10px 12px 10px;
-      display:flex;
-      flex-direction:column;
-      align-items:center;
-      justify-content:flex-start;
-      min-height:0;
-      height:100%;
-      overflow: visible;
-      background: linear-gradient(180deg, #f5f5f7, #e9eaee);
-    }
-
-    .slaTitle{
-      font-weight:950;
-      color: rgba(11,27,58,.88);
-      margin-bottom: 0;
-      font-size: 19px;
-      letter-spacing:.2px;
-      flex: 0 0 auto;
-    }
-
-    .slaGauge{
-      width: min(300px, 100%);
-      display:flex;
-      align-items:center;
-      justify-content:center;
-      flex-direction:column;
-      flex: 0 0 auto;
-      margin-top: 2px;
-    }
-
-    .slaGauge svg{ width:100%; height:auto; overflow:visible; }
-
-    .slaValueText{
-      font-size: 29px;
-      font-weight: 950;
-      dominant-baseline: middle;
-      text-anchor: middle;
-      filter: drop-shadow(0 2px 3px rgba(0,0,0,.10));
-    }
-
-    .slaSmallText{
-      font-size: 9px;
-      fill: rgba(11,27,58,.64);
-      font-weight: 850;
-      dominant-baseline: middle;
-      text-anchor: middle;
-    }
-
-    .slaPeriodText{
-      font-size: 9px;
-      fill: rgba(11,27,58,.68);
-      font-weight: 850;
-      dominant-baseline: middle;
-      text-anchor: middle;
-    }
-
-    .slaScaleText{
-      font-size: 9px;
-      fill: rgba(11,27,58,.76);
-      font-weight: 900;
-      dominant-baseline: middle;
-      text-anchor: middle;
-    }
-
-    .slaLegend{
-      width: 100%;
-      display:grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 6px;
-      margin-top: 2px;
-      padding: 7px 8px 6px;
-      border-top: 1px solid rgba(11,27,58,.06);
-      background: rgba(255,255,255,.35);
-      flex: 0 0 auto;
-      overflow: visible;
-    }
-
-    .slaLegendItem{
-      display:flex;
-      flex-direction:column;
-      align-items:center;
-      justify-content:center;
-      gap: 0px;
-      color: rgba(11,27,58,.84);
-      font-weight: 900;
-      font-size: 12px;
-      line-height:1.1;
-      text-align:center;
-      white-space:nowrap;
-      min-width:0;
-    }
-
-    .slaLegendItem .legendTop{
-      display:flex;
-      align-items:center;
-      gap: 5px;
-    }
-
-    .slaLegendDot{
-      width:10px;
-      height:10px;
-      border-radius:50%;
-      display:inline-block;
-      box-shadow:0 0 0 3px rgba(11,27,58,.06);
-    }
-
-    .slaLegendSub{
-      color: rgba(11,27,58,.62);
-      font-size: 10px;
-      font-weight:800;
-    }
-
-    .slaMeta{
-      display:none;
-    }
-
-    .gerencialInsights{
-      display:grid;
-      grid-template-rows: auto 1fr;
-      gap: 14px;
-      min-height:0;
-    }
-
-    .deltaBox{
-      padding: 18px 16px;
-      text-align:center;
-      background: linear-gradient(180deg, #263955, #18263d) !important;
-      color: rgba(233,236,245,.96) !important;
-      border: 1px solid rgba(255,255,255,.12) !important;
-      box-shadow: 0 14px 28px rgba(0,0,0,.22);
-      min-height: 122px;
-      display:flex;
-      flex-direction:column;
-      justify-content:center;
-    }
-
-    .deltaLabel{
-      font-size: 12px;
-      color: rgba(233,236,245,.74);
-      font-weight: 800;
-    }
-
-    .deltaValue{
-      margin-top: 6px;
-      font-size: clamp(20px, 1.9vw, 30px);
-      line-height:1.1;
-      font-weight: 950;
-    }
-
-    .deltaSub{
-      margin-top: 4px;
-      font-size: 13px;
-      font-weight: 800;
-      color: rgba(233,236,245,.78);
-    }
-
-    .topEstadosBox{
-      min-height:0;
-      padding: 12px 14px;
-      display:flex;
-      flex-direction:column;
-    }
-
-    .emptyGerencialSpace{
-      background: linear-gradient(180deg, rgba(36,52,77,.72), rgba(24,37,58,.56)) !important;
-      border: 1px dashed rgba(255,255,255,.16) !important;
-      box-shadow: inset 0 0 0 1px rgba(255,255,255,.035);
-    }
-
-    .topEstadosTitle{
-      font-size: 13px;
-      color: rgba(11,27,58,.78);
-      font-weight: 950;
-      margin-bottom: 8px;
-    }
-
-    .topEstadosList{
-      display:flex;
-      flex-direction:column;
-      gap: 7px;
-      min-height:0;
-    }
-
-    .estadoItem{
-      display:grid;
-      grid-template-columns: 32px 1fr auto;
-      align-items:center;
-      gap: 8px;
-      padding: 8px 10px;
-      border-radius: 12px;
-      background: rgba(11,27,58,.055);
-      border: 1px solid rgba(11,27,58,.07);
-      font-size: 13px;
-      font-weight: 900;
-    }
-
-    .estadoPos{
-      color: rgba(11,27,58,.50);
-    }
-
-    .estadoUf{
-      color: var(--ink);
-    }
-
-    .estadoSla{
-      font-weight: 950;
-    }
-
-    .estadoSub{
-      font-size: 11px;
-      color: rgba(11,27,58,.55);
-      font-weight: 800;
-    }
-
-    @media (max-width: 980px){
-      .gerencialTop{ grid-template-columns: 1fr; }
-      .gerencialGrid{ grid-template-columns: 1fr; }
-    }
-
     @media (max-width: 1200px){
       .topRow{ grid-template-columns: 1fr; min-height: auto; }
       .miniKpis{ grid-template-columns: 1fr; }
@@ -1074,6 +779,23 @@
 
     <section class="topRow">
       <div class="leftCol" id="leftCol">
+        <div class="cardsBox" id="cardsBox">
+          <div class="miniKpis" aria-label="KPIs do dia">
+            <div class="miniKpi">
+              <div class="t">Notas em Atraso</div>
+              <div class="v" id="kpiAtraso">—</div>
+            </div>
+            <div class="miniKpi">
+              <div class="t">Previstas para Hoje</div>
+              <div class="v" id="kpiPrevistasHoje">—</div>
+            </div>
+            <div class="miniKpi">
+              <div class="t">Entregas Realizadas Hoje</div>
+              <div class="v" id="kpiEntreguesHoje">—</div>
+            </div>
+          </div>
+        </div>
+
         <div class="panel panelLight panelPerfSoft" id="panelRecebimento" style="min-height:0; flex:1 1 auto;">
           <div class="ph">
             <div class="ttl">Recebimento de Produtos</div>
@@ -1146,43 +868,24 @@
         </div>
       </div>
 
-      <div class="panel panelDark painelGerencial" id="panelGerencial">
+      <div class="panel panelDark" id="panelHoje">
         <div class="ph">
-          <div class="ttl">Performance Gerencial</div>
-          <div class="badge" id="gerencialPeriodo">—</div>
+          <div class="ttl">Notas Previstas para Hoje</div>
+          <div class="badge" id="hojeCount">— itens</div>
         </div>
-
-        <div class="gerencialBody">
-          <div class="gerencialTop">
-            <div class="gerencialKpi">
-              <div class="gerencialKpiLabel">Frete Pago</div>
-              <div class="gerencialKpiValue" id="fretePagoKpi">—</div>
-            </div>
-            <div class="gerencialKpi">
-              <div class="gerencialKpiLabel">R$ Frete Repassado</div>
-              <div class="gerencialKpiValue" id="freteRepassadoValorKpi">—</div>
-            </div>
-          </div>
-
-          <div class="gerencialGrid">
-            <div class="slaBox">
-              <div class="slaTitle">Performance</div>
-              <div class="slaGauge" id="slaGauge"></div>
-              <div class="slaMeta" id="slaMeta">—</div>
-            </div>
-
-            <div class="gerencialInsights">
-              <div class="deltaBox">
-                <div class="deltaLabel">Comparativo vs mês anterior</div>
-                <div class="deltaValue" id="deltaSla">—</div>
-                <div class="deltaSub" id="deltaSlaSub">—</div>
-              </div>
-
-              <div class="topEstadosBox emptyGerencialSpace" aria-label="Espaço reservado">
-                <div id="topEstadosList" class="topEstadosList" style="display:none;"></div>
-              </div>
-            </div>
-          </div>
+        <div class="scroll headDark" id="scrollHoje">
+          <table>
+            <thead>
+              <tr>
+                <th>NF</th>
+                <th>Destinatário</th>
+                <th>Transportador</th>
+                <th>Cidade Destino</th>
+                <th>Data de Entrega</th>
+              </tr>
+            </thead>
+            <tbody id="tbodyHoje"></tbody>
+          </table>
         </div>
       </div>
     </section>
@@ -1299,6 +1002,9 @@
 
       autoScrollInstances.push(
         startAutoScroll(document.getElementById('scrollAtraso'), { speedPxPerTick: 1, tickMs: 92, pauseAtEndMs: 2400, pauseAtTopMs: 900 })
+      );
+      autoScrollInstances.push(
+        startAutoScroll(document.getElementById('scrollHoje'), { speedPxPerTick: 1, tickMs: 92, pauseAtEndMs: 2400, pauseAtTopMs: 900 })
       );
       autoScrollInstances.push(
         startAutoScroll(document.getElementById('scrollRecebimento'), { speedPxPerTick: 1, tickMs: 95, pauseAtEndMs: 2200, pauseAtTopMs: 900 })
@@ -1723,9 +1429,13 @@
       const atrasoAll = (data.notas_em_atraso || []).slice()
         .sort((a,b) => String(a.previsao_entrega || '').localeCompare(String(b.previsao_entrega || '')));
 
+      const hojeAll = (data.notas_previstas_hoje || []).slice();
+
       const atrasoList = applyCarrierFilter(atrasoAll, carrier);
+      const hojeList   = applyCarrierFilter(hojeAll, carrier);
 
       document.getElementById('atrasoCount').textContent = `${atrasoList.length} itens`;
+      document.getElementById('hojeCount').textContent   = `${hojeList.length} itens`;
 
       const atrasoBody = document.getElementById('tbodyAtraso');
       atrasoBody.innerHTML = '';
@@ -1747,266 +1457,79 @@
         `;
         atrasoBody.appendChild(tr);
       }
-    }
 
-    function pctText(value){
-      if (!Number.isFinite(value)) return '—';
-      return value.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + '%';
-    }
+      const hojeBody = document.getElementById('tbodyHoje');
+      hojeBody.innerHTML = '';
 
-    function slaColor(sla){
-      if (!Number.isFinite(sla)) return '#9aa4c0';
-      if (sla < 90) return 'var(--bad)';
-      if (sla <= 95) return 'var(--warn)';
-      return 'var(--good)';
-    }
+      for (const it of hojeList){
+        const dataEntrega = (it.data_entrega ?? it.Data_de_entrega ?? '').toString().trim();
+        const cidade = (it.cidade_destino ?? it.Cidade_Destino ?? '').toString().trim();
 
-    function deltaColor(delta){
-      if (!Number.isFinite(delta) || delta === 0) return 'rgba(11,27,58,.72)';
-      return delta < 0 ? 'var(--bad)' : 'var(--good)';
-    }
+        const tr = document.createElement('tr');
 
-    function monthKeyFromDate(d){
-      if (!d) return '';
-      return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}`;
-    }
+        if (dataEntrega){
+          const entregaDate = parseDateFlex(dataEntrega);
+          const hojeDate = new Date();
+          hojeDate.setHours(0,0,0,0);
 
-    function previousMonthKey(d){
-      const ref = new Date(d.getFullYear(), d.getMonth() - 1, 1);
-      return monthKeyFromDate(ref);
-    }
-
-    function normalizeEntrega(item){
-      return {
-        nota_fiscal: String(item.nota_fiscal ?? item.nf ?? '').trim(),
-        data_emissao: parseDateFlex(item.data_emissao ?? item.emissao_nf ?? item.emissao ?? ''),
-        data_entrega: parseDateFlex(item.data_entrega ?? item.entrega ?? ''),
-        previsao_entrega: parseDateFlex(item.previsao_entrega ?? item.previsao ?? item.previsao_sla ?? ''),
-        frete: parseBRLValue(item.frete ?? item.valor_frete ?? item.frete_pago ?? 0),
-        frete_repassado: parseBRLValue(item.frete_repassado ?? item.valor_frete_repassado ?? item.repassado ?? 0),
-        estado: String(item.estado ?? item.uf ?? item.cidade_destino ?? item.uf_destino ?? '').trim().toUpperCase(),
-        transportador: normalizeCarrier(item.transportador ?? item.transportadora ?? '')
-      };
-    }
-
-    function entregaNoPrazo(item){
-      return item.data_entrega && item.previsao_entrega && item.data_entrega.getTime() <= item.previsao_entrega.getTime();
-    }
-
-    function metricsForMonth(base, key){
-      const list = base.filter(it => monthKeyFromDate(it.data_emissao) === key);
-      const entregues = list.filter(it => it.data_entrega && it.previsao_entrega);
-      const noPrazo = entregues.filter(entregaNoPrazo);
-      const fretePago = list.reduce((acc, it) => acc + (Number(it.frete) || 0), 0);
-      const freteRepassado = list.reduce((acc, it) => acc + (Number(it.frete_repassado) || 0), 0);
-      const sla = entregues.length ? (noPrazo.length / entregues.length) * 100 : NaN;
-      const repasse = fretePago > 0 ? (freteRepassado / fretePago) * 100 : NaN;
-
-      return { list, entregues, noPrazo, fretePago, freteRepassado, sla, repasse };
-    }
-
-    function topEstadosForMonth(list){
-      const map = new Map();
-      for (const it of list){
-        const uf = it.estado || '—';
-        if (!it.data_entrega || !it.previsao_entrega) continue;
-        if (!map.has(uf)) map.set(uf, { uf, total: 0, prazo: 0 });
-        const obj = map.get(uf);
-        obj.total += 1;
-        if (entregaNoPrazo(it)) obj.prazo += 1;
-      }
-
-      return Array.from(map.values())
-        .map(x => ({ ...x, sla: x.total ? (x.prazo / x.total) * 100 : NaN }))
-        .sort((a,b) => (b.sla - a.sla) || (b.total - a.total) || a.uf.localeCompare(b.uf, 'pt-BR'))
-        .slice(0,5);
-    }
-
-    function polarToCartesian(cx, cy, r, angleDeg){
-      const angleRad = (angleDeg - 90) * Math.PI / 180;
-      return {
-        x: cx + (r * Math.cos(angleRad)),
-        y: cy + (r * Math.sin(angleRad))
-      };
-    }
-
-    function describeArc(cx, cy, r, startAngle, endAngle){
-      const start = polarToCartesian(cx, cy, r, endAngle);
-      const end = polarToCartesian(cx, cy, r, startAngle);
-      const largeArcFlag = endAngle - startAngle <= 180 ? '0' : '1';
-      return `M ${start.x} ${start.y} A ${r} ${r} 0 ${largeArcFlag} 0 ${end.x} ${end.y}`;
-    }
-
-function renderSlaGauge(sla){
-  const el = document.getElementById('slaGauge');
-  if (!el) return;
-
-  const cx = 110;
-  const cy = 108;
-  const r = 72;
-  const stroke = 22;
-
-  const minGauge = 80;
-  const maxGauge = 100;
-
-  const slaNumber = Number(String(sla).replace('%','').replace(',','.')) || 0;
-  const safeSla = Math.max(minGauge, Math.min(maxGauge, slaNumber));
-  const percentGauge = (safeSla - minGauge) / (maxGauge - minGauge);
-
-  const needleAngle = -90 + (percentGauge * 180);
-  const needleLength = r - 16;
-  const angleRad = (needleAngle - 90) * Math.PI / 180;
-
-  const needle = {
-    x: cx + needleLength * Math.cos(angleRad),
-    y: cy + needleLength * Math.sin(angleRad)
-  };
-
-  const color = slaColor(slaNumber);
-
-      el.innerHTML = `
-        <svg viewBox="0 0 220 166" role="img" aria-label="Performance em formato de velocímetro">
-          <defs>
-            <filter id="gaugeShadow" x="-20%" y="-20%" width="140%" height="140%">
-              <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#0b1020" flood-opacity="0.20"/>
-            </filter>
-            <filter id="needleShadow" x="-30%" y="-30%" width="160%" height="160%">
-              <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#0b1020" flood-opacity="0.32"/>
-            </filter>
-          </defs>
-
-
-          <path d="${describeArc(cx, cy, r, -90, 90)}" fill="none" stroke="rgba(11,27,58,.09)" stroke-width="${stroke + 8}" stroke-linecap="round"/>
-          <g filter="url(#gaugeShadow)">
-            <path d="${describeArc(cx, cy, r, -90, 0)}" fill="none" stroke="${criticalColor}" stroke-width="${stroke}" stroke-linecap="butt"/>
-            <path d="${describeArc(cx, cy, r, 0, 45)}" fill="none" stroke="${attentionColor}" stroke-width="${stroke}" stroke-linecap="butt"/>
-            <path d="${describeArc(cx, cy, r, 45, 90)}" fill="none" stroke="${excellentColor}" stroke-width="${stroke}" stroke-linecap="butt"/>
-          </g>
-
-          <text x="32" y="128" class="slaScaleText">80,00%</text>
-          <text x="188" y="128" class="slaScaleText">100,00%</text>
-
-          <line id="slaNeedle" x1="${cx}" y1="${cy}" x2="${needle.x}" y2="${needle.y}" stroke="#0b1b3a" stroke-width="6" stroke-linecap="round" filter="url(#needleShadow)"/>
-          <circle cx="${cx}" cy="${cy}" r="14" fill="#0b1b3a" filter="url(#needleShadow)"/>
-          <circle cx="${cx}" cy="${cy}" r="6" fill="rgba(255,255,255,.20)"/>
-
-          <text x="110" y="150" class="slaValueText" fill="${color}">${baseValue}</text>
-        </svg>
-        <div class="slaLegend" aria-label="Legenda de performance">
-          <div class="slaLegendItem">
-            <div class="legendTop"><span class="slaLegendDot" style="background:${criticalColor}"></span><span>&lt; 90%</span></div>
-            <div class="slaLegendSub">Crítico</div>
-          </div>
-          <div class="slaLegendItem">
-            <div class="legendTop"><span class="slaLegendDot" style="background:${attentionColor}"></span><span>90% a 95%</span></div>
-            <div class="slaLegendSub">Atenção</div>
-          </div>
-          <div class="slaLegendItem">
-            <div class="legendTop"><span class="slaLegendDot" style="background:${excellentColor}"></span><span>&gt; 95%</span></div>
-            <div class="slaLegendSub">Excelente</div>
-          </div>
-        </div>
-      `;
-    }
-
-    function getPerformanceGerencial(data){
-      const pg = data.performance_gerencial || data.performanceGerencial || data.resumo_gerencial || null;
-      if (!pg) return null;
-
-      const atual = pg.mes_atual || pg.atual || pg;
-      const anterior = pg.mes_anterior || pg.anterior || {};
-
-      const normalizeAgg = (obj) => {
-        const fretePago = parseBRLValue(obj.frete_pago ?? obj.frete ?? obj.valor_frete_pago ?? 0);
-        const freteRepassado = parseBRLValue(obj.frete_repassado ?? obj.valor_frete_repassado ?? obj.repassado ?? 0);
-        const entregas = parseBRLValue(obj.entrega_realizada ?? obj.entregas_realizadas ?? obj.entregues ?? obj.total_entregas ?? 0);
-        const noPrazo = parseBRLValue(obj.entrega_no_prazo ?? obj.entregas_no_prazo ?? obj.no_prazo ?? 0);
-        const sla = entregas > 0 ? (noPrazo / entregas) * 100 : NaN;
-        const repasse = fretePago > 0 ? (freteRepassado / fretePago) * 100 : NaN;
-        return {
-          periodo: obj.periodo || obj.mes || '',
-          fretePago,
-          freteRepassado,
-          entregues: { length: entregas },
-          noPrazo: { length: noPrazo },
-          sla,
-          repasse
-        };
-      };
-
-      const topRaw = pg.top_estados || pg.estados || pg.top5_estados || [];
-      const topEstados = Array.isArray(topRaw) ? topRaw.map(it => {
-        const total = parseBRLValue(it.entrega_realizada ?? it.entregas_realizadas ?? it.entregues ?? it.total ?? 0);
-        const prazo = parseBRLValue(it.entrega_no_prazo ?? it.entregas_no_prazo ?? it.no_prazo ?? it.prazo ?? 0);
-        return {
-          uf: String(it.estado ?? it.uf ?? '—').trim().toUpperCase(),
-          total,
-          prazo,
-          sla: total > 0 ? (prazo / total) * 100 : NaN
-        };
-      }).filter(it => it.total > 0)
-        .sort((a,b) => (b.sla - a.sla) || (b.total - a.total) || a.uf.localeCompare(b.uf, 'pt-BR'))
-        .slice(0,5) : [];
-
-      return { current: normalizeAgg(atual), previous: normalizeAgg(anterior), topEstados };
-    }
-
-    function renderGerencial(data, carrier){
-      const resumo = getPerformanceGerencial(data);
-      let current, previous, topEstados, periodo;
-
-      if (resumo){
-        current = resumo.current;
-        previous = resumo.previous;
-        topEstados = resumo.topEstados;
-        periodo = current.periodo || (parseUpdatedDate(data.updated_at || '') || new Date()).toLocaleDateString('pt-BR', { month:'long', year:'numeric' });
-      } else {
-        const raw = Array.isArray(data.base_entregas) ? data.base_entregas : [];
-        let base = raw.map(normalizeEntrega).filter(it => it.data_emissao);
-
-        if (carrier && carrier !== '__ALL__'){
-          const withCarrier = base.filter(it => it.transportador);
-          if (withCarrier.length){
-            base = base.filter(it => it.transportador === carrier);
+          if (entregaDate && entregaDate.getTime() < hojeDate.getTime()){
+            tr.className = 'rowArrived';
+          } else if (entregaDate && entregaDate.getTime() === hojeDate.getTime()){
+            tr.className = 'rowDelivered';
           }
         }
 
-        const ref = parseUpdatedDate(data.updated_at || '') || new Date();
-        const currentKey = monthKeyFromDate(ref);
-        const prevKey = previousMonthKey(ref);
-        current = metricsForMonth(base, currentKey);
-        previous = metricsForMonth(base, prevKey);
-        topEstados = topEstadosForMonth(current.list);
-        periodo = ref.toLocaleDateString('pt-BR', { month:'long', year:'numeric' });
+        tr.innerHTML = `
+          <td><strong>${String(it.nota_fiscal ?? '—').trim()}</strong></td>
+          <td>${String(it.destinatario ?? '—').trim()}</td>
+          <td><span class="muted">${String(it.transportador ?? '—').trim()}</span></td>
+          <td>${cidade || '—'}</td>
+          <td>${dataEntrega ? formatBRDateFlex(dataEntrega) : '—'}</td>
+        `;
+        hojeBody.appendChild(tr);
+      }
+    }
+
+    function renderKpis(data, carrier){
+      const atrasoList = applyCarrierFilter((data.notas_em_atraso || []), carrier);
+      const hojeList = applyCarrierFilter((data.notas_previstas_hoje || []), carrier);
+
+      let entreguesHoje = 0;
+      for (const it of hojeList){
+        const dataEntrega = (it.data_entrega ?? it.Data_de_entrega ?? '').toString().trim();
+        if (!dataEntrega) continue;
+
+        const d = parseDateFlex(dataEntrega);
+        if (!d) continue;
+
+        const now = new Date();
+        if (
+          d.getDate() === now.getDate() &&
+          d.getMonth() === now.getMonth() &&
+          d.getFullYear() === now.getFullYear()
+        ){
+          entreguesHoje += 1;
+        }
       }
 
-      const delta = Number.isFinite(current.sla) && Number.isFinite(previous.sla) ? current.sla - previous.sla : NaN;
+      const kpiAtraso = Number(data.kpis?.notas_em_atraso);
+      const kpiHoje = Number(data.kpis?.previstas_para_hoje);
+      const kpiEntregues = Number(data.kpis?.entregues_hoje);
 
-      document.getElementById('gerencialPeriodo').textContent = periodo ? periodo.charAt(0).toUpperCase() + periodo.slice(1) : '—';
-      document.getElementById('fretePagoKpi').textContent = fmtBRL.format(current.fretePago || 0);
-      const repassadoValorEl = document.getElementById('freteRepassadoValorKpi');
-      if (repassadoValorEl) repassadoValorEl.textContent = fmtBRL.format(current.freteRepassado || 0);
-      const repassePctEl = document.getElementById('freteRepassadoKpi');
-      if (repassePctEl) repassePctEl.textContent = pctText(current.repasse);
+      document.getElementById('kpiAtraso').textContent =
+        Number.isFinite(kpiAtraso) && carrier === '__ALL__'
+          ? kpiAtraso.toLocaleString('pt-BR')
+          : atrasoList.length.toLocaleString('pt-BR');
 
-      renderSlaGauge(current.sla);
+      document.getElementById('kpiPrevistasHoje').textContent =
+        Number.isFinite(kpiHoje) && carrier === '__ALL__'
+          ? kpiHoje.toLocaleString('pt-BR')
+          : hojeList.length.toLocaleString('pt-BR');
 
-      document.getElementById('slaMeta').textContent = current.entregues.length
-        ? `${current.noPrazo.length} no prazo de ${current.entregues.length} entregues`
-        : 'Sem entregas válidas para o mês';
-
-      const deltaEl = document.getElementById('deltaSla');
-      const deltaSub = document.getElementById('deltaSlaSub');
-      deltaEl.style.color = deltaColor(delta);
-      deltaEl.textContent = Number.isFinite(delta)
-        ? `${delta >= 0 ? '+' : ''}${delta.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 })} p.p. vs LM`
-        : 'Sem base comparativa';
-      deltaSub.textContent = Number.isFinite(previous.sla) && Number.isFinite(current.sla)
-        ? `de ${pctText(previous.sla)} para ${pctText(current.sla)}`
-        : 'Necessário alimentar mês atual e mês anterior';
-
-      const listEl = document.getElementById('topEstadosList');
-      if (listEl) listEl.innerHTML = '';
+      document.getElementById('kpiEntreguesHoje').textContent =
+        Number.isFinite(kpiEntregues) && carrier === '__ALL__'
+          ? kpiEntregues.toLocaleString('pt-BR')
+          : entreguesHoje.toLocaleString('pt-BR');
     }
 
     function getPedidosFiltradosPorTipo(tipo){
@@ -2089,50 +1612,60 @@ function renderSlaGauge(sla){
     function syncLeftToPedidosHeight(){
       const panelPedidos = document.getElementById('panelPedidos');
       const leftCol = document.getElementById('leftCol');
-      const panelRecebimento = document.getElementById('panelRecebimento');
-      const scrollRecebimento = document.getElementById('scrollRecebimento');
+      const cardsBox = document.getElementById('cardsBox');
+      const panelPerf = document.getElementById('panelRecebimento');
+      const scrollPerf = document.getElementById('scrollRecebimento');
 
-      if (!panelPedidos || !leftCol || !panelRecebimento || !scrollRecebimento) return;
+      if (!panelPedidos || !leftCol || !cardsBox || !panelPerf || !scrollPerf) return;
       if (window.innerWidth <= 1200) return;
 
       const pedidosH = panelPedidos.offsetHeight;
       leftCol.style.height = pedidosH + 'px';
       leftCol.style.minHeight = pedidosH + 'px';
-      panelRecebimento.style.height = pedidosH + 'px';
-      panelRecebimento.style.minHeight = pedidosH + 'px';
 
-      const ph = panelRecebimento.querySelector('.ph');
+      const cardsH = cardsBox.offsetHeight;
+      const gap = 14;
+      const perfH = Math.max(180, pedidosH - cardsH - gap);
+
+      panelPerf.style.height = perfH + 'px';
+      panelPerf.style.minHeight = perfH + 'px';
+
+      const ph = panelPerf.querySelector('.ph');
       const phH = ph ? ph.offsetHeight : 56;
-      scrollRecebimento.style.maxHeight = Math.max(120, pedidosH - phH) + 'px';
+      scrollPerf.style.maxHeight = Math.max(120, perfH - phH) + 'px';
     }
 
     function syncNotesToPedidosHeight(){
       const panelPedidos = document.getElementById('panelPedidos');
       const panelAtraso = document.getElementById('panelAtraso');
-      const panelGerencial = document.getElementById('panelGerencial');
+      const panelHoje = document.getElementById('panelHoje');
       const scrollAtraso = document.getElementById('scrollAtraso');
+      const scrollHoje = document.getElementById('scrollHoje');
 
-      if (!panelPedidos || !panelAtraso || !panelGerencial || !scrollAtraso) return;
+      if (!panelPedidos || !panelAtraso || !panelHoje || !scrollAtraso || !scrollHoje) return;
       if (window.innerWidth <= 980) return;
 
       const h = panelPedidos.offsetHeight;
       panelAtraso.style.height = h + 'px';
+      panelHoje.style.height = h + 'px';
       panelAtraso.style.minHeight = h + 'px';
-      panelGerencial.style.height = h + 'px';
-      panelGerencial.style.minHeight = h + 'px';
-      panelGerencial.style.overflow = 'hidden';
+      panelHoje.style.minHeight = h + 'px';
 
       const phA = panelAtraso.querySelector('.ph');
       const phH_A = phA ? phA.offsetHeight : 56;
       scrollAtraso.style.maxHeight = Math.max(120, h - phH_A) + 'px';
+
+      const phB = panelHoje.querySelector('.ph');
+      const phH_B = phB ? phB.offsetHeight : 56;
+      scrollHoje.style.maxHeight = Math.max(120, h - phH_B) + 'px';
     }
 
     function renderAll(data){
       const carrier = document.getElementById('carrierFilter').value;
+      renderKpis(data, carrier);
       renderRecebimento(data);
       renderPedidos(data);
       renderTables(data, carrier);
-      renderGerencial(data, carrier);
       formatUpdatedAtToBadge(data);
       tryShowTvAlert(data);
 
@@ -2156,10 +1689,11 @@ function renderSlaGauge(sla){
 
       const sel = document.getElementById('carrierFilter');
       sel.onchange = () => {
+        renderKpis(DATA_CACHE, sel.value);
         renderTables(DATA_CACHE, sel.value);
-        renderGerencial(DATA_CACHE, sel.value);
 
         document.getElementById('scrollAtraso').scrollTop = 0;
+        document.getElementById('scrollHoje').scrollTop = 0;
 
         setTimeout(() => {
           syncLeftToPedidosHeight();
