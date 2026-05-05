@@ -2,6 +2,7 @@
 <html lang="pt-BR">
 <head>
   <meta charset="utf-8"/>
+  <meta http-equiv="refresh" content="180">
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
   <title>Painel de Fluxo Operacional – Indicador</title>
 
@@ -734,267 +735,6 @@
       border-color: rgba(59,130,246,.28);
     }
 
-
-    .painelGerencial{
-      background: linear-gradient(180deg, rgba(255,255,255,.08), rgba(255,255,255,.045));
-    }
-
-    .gerencialBody{
-      flex:1 1 auto;
-      min-height:0;
-      padding: 16px;
-      display:flex;
-      flex-direction:column;
-      gap: 14px;
-      background: rgba(255,255,255,.06);
-    }
-
-    .gerencialTop{
-      display:grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 14px;
-    }
-
-    .gerencialKpi{
-      border-radius: 16px;
-      background: rgba(255,255,255,.92);
-      color: var(--ink);
-      border: 1px solid rgba(255,255,255,.30);
-      box-shadow: 0 12px 24px rgba(0,0,0,.16);
-      padding: 14px 16px;
-      text-align:center;
-    }
-
-    .gerencialKpiLabel{
-      font-size: 13px;
-      color: rgba(11,27,58,.70);
-      font-weight: 800;
-      letter-spacing:.2px;
-    }
-
-    .gerencialKpiValue{
-      margin-top: 8px;
-      font-size: clamp(22px, 2.1vw, 34px);
-      line-height: 1.05;
-      color: var(--ink);
-      font-weight: 950;
-      white-space:nowrap;
-    }
-
-    .gerencialGrid{
-      flex:1 1 auto;
-      min-height:0;
-      display:grid;
-      grid-template-columns: .92fr 1.08fr;
-      gap: 14px;
-    }
-
-    .slaBox,
-    .deltaBox,
-    .topEstadosBox{
-      border-radius: 16px;
-      background: rgba(255,255,255,.92);
-      color: var(--ink);
-      border: 1px solid rgba(255,255,255,.28);
-      box-shadow: 0 12px 24px rgba(0,0,0,.14);
-    }
-
-    .slaBox{
-      padding: 14px;
-      display:flex;
-      flex-direction:column;
-      align-items:center;
-      justify-content:center;
-      min-height:0;
-    }
-
-    .slaTitle{
-      font-weight:950;
-      color: rgba(11,27,58,.88);
-      margin-bottom: 6px;
-      font-size: 18px;
-      letter-spacing:.2px;
-    }
-
-    .slaGauge{
-      width: min(370px, 100%);
-      display:flex;
-      align-items:center;
-      justify-content:center;
-      flex-direction:column;
-    }
-
-    .slaGauge svg{ width:100%; height:auto; overflow:visible; }
-
-    .slaValueText{
-      font-size: 30px;
-      font-weight: 950;
-      dominant-baseline: middle;
-      text-anchor: middle;
-      filter: drop-shadow(0 2px 3px rgba(0,0,0,.10));
-    }
-
-    .slaSmallText{
-      font-size: 9px;
-      fill: rgba(11,27,58,.64);
-      font-weight: 850;
-      dominant-baseline: middle;
-      text-anchor: middle;
-    }
-
-    .slaPeriodText{
-      font-size: 9px;
-      fill: rgba(11,27,58,.68);
-      font-weight: 850;
-      dominant-baseline: middle;
-      text-anchor: middle;
-    }
-
-    .slaScaleText{
-      font-size: 9px;
-      fill: rgba(11,27,58,.76);
-      font-weight: 900;
-      dominant-baseline: middle;
-      text-anchor: middle;
-    }
-
-    .slaLegend{
-      width: 100%;
-      display:grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 8px;
-      margin-top: 6px;
-    }
-
-    .slaLegendItem{
-      display:flex;
-      flex-direction:column;
-      align-items:center;
-      gap: 2px;
-      color: rgba(11,27,58,.82);
-      font-weight: 850;
-      font-size: 11px;
-      line-height:1.15;
-      text-align:center;
-      white-space:nowrap;
-    }
-
-    .slaLegendItem .legendTop{
-      display:flex;
-      align-items:center;
-      gap: 5px;
-    }
-
-    .slaLegendDot{
-      width:10px;
-      height:10px;
-      border-radius:50%;
-      display:inline-block;
-      box-shadow:0 0 0 3px rgba(11,27,58,.06);
-    }
-
-    .slaLegendSub{
-      color: rgba(11,27,58,.62);
-      font-size: 10px;
-      font-weight:800;
-    }
-
-    .slaMeta{
-      margin-top: 6px;
-      color: rgba(11,27,58,.68);
-      font-weight: 800;
-      font-size: 12px;
-      text-align:center;
-    }
-
-    .gerencialInsights{
-      display:grid;
-      grid-template-rows: auto 1fr;
-      gap: 14px;
-      min-height:0;
-    }
-
-    .deltaBox{
-      padding: 14px;
-      text-align:center;
-    }
-
-    .deltaLabel{
-      font-size: 12px;
-      color: rgba(11,27,58,.66);
-      font-weight: 800;
-    }
-
-    .deltaValue{
-      margin-top: 6px;
-      font-size: clamp(20px, 1.9vw, 30px);
-      line-height:1.1;
-      font-weight: 950;
-    }
-
-    .deltaSub{
-      margin-top: 4px;
-      font-size: 13px;
-      font-weight: 800;
-      color: rgba(11,27,58,.70);
-    }
-
-    .topEstadosBox{
-      min-height:0;
-      padding: 12px 14px;
-      display:flex;
-      flex-direction:column;
-    }
-
-    .topEstadosTitle{
-      font-size: 13px;
-      color: rgba(11,27,58,.78);
-      font-weight: 950;
-      margin-bottom: 8px;
-    }
-
-    .topEstadosList{
-      display:flex;
-      flex-direction:column;
-      gap: 7px;
-      min-height:0;
-    }
-
-    .estadoItem{
-      display:grid;
-      grid-template-columns: 32px 1fr auto;
-      align-items:center;
-      gap: 8px;
-      padding: 8px 10px;
-      border-radius: 12px;
-      background: rgba(11,27,58,.055);
-      border: 1px solid rgba(11,27,58,.07);
-      font-size: 13px;
-      font-weight: 900;
-    }
-
-    .estadoPos{
-      color: rgba(11,27,58,.50);
-    }
-
-    .estadoUf{
-      color: var(--ink);
-    }
-
-    .estadoSla{
-      font-weight: 950;
-    }
-
-    .estadoSub{
-      font-size: 11px;
-      color: rgba(11,27,58,.55);
-      font-weight: 800;
-    }
-
-    @media (max-width: 980px){
-      .gerencialGrid{ grid-template-columns: 1fr; }
-    }
-
     @media (max-width: 1200px){
       .topRow{ grid-template-columns: 1fr; min-height: auto; }
       .miniKpis{ grid-template-columns: 1fr; }
@@ -1057,25 +797,25 @@
           </div>
         </div>
 
-        <div class="panel panelLight panelPerfSoft" id="panelRecebimento" style="min-height:0; flex:1 1 auto;">
+        <div class="panel panelLight panelPerfSoft" id="panelPerf" style="min-height:0; flex:1 1 auto;">
           <div class="ph">
-            <div class="ttl">Recebimento de Produtos</div>
-            <div class="badge" id="recebimentoCount">— itens</div>
+            <div class="ttl">Performance por Transportadora</div>
+            <div class="badge" id="perfCount">— itens</div>
           </div>
 
-          <div class="scroll" id="scrollRecebimento">
+          <div class="scroll" id="scrollPerf">
             <table class="tblPerf">
               <thead>
                 <tr>
-                  <th>Embarque</th>
-                  <th>Tipo</th>
-                  <th>Recebimento</th>
-                  <th>Confirmado</th>
-                  <th>Chegada CD</th>
-                  <th>Status</th>
+                  <th>Transportadora</th>
+                  <th>Notas</th>
+                  <th>Entregas</th>
+                  <th>Atrasados</th>
+                  <th>Pendente de Entrega</th>
+                  <th>Performance</th>
                 </tr>
               </thead>
-              <tbody id="tbodyRecebimento"></tbody>
+              <tbody id="tbodyPerf"></tbody>
             </table>
           </div>
         </div>
@@ -1130,12 +870,9 @@
       </div>
 
       <div class="panel panelDark" id="panelHoje">
-      <div class="panel panelDark painelGerencial" id="panelGerencial">
         <div class="ph">
           <div class="ttl">Notas Previstas para Hoje</div>
           <div class="badge" id="hojeCount">— itens</div>
-          <div class="ttl">Performance Gerencial</div>
-          <div class="badge" id="gerencialPeriodo">—</div>
         </div>
         <div class="scroll headDark" id="scrollHoje">
           <table>
@@ -1150,39 +887,6 @@
             </thead>
             <tbody id="tbodyHoje"></tbody>
           </table>
-
-        <div class="gerencialBody">
-          <div class="gerencialTop">
-            <div class="gerencialKpi">
-              <div class="gerencialKpiLabel">Frete Pago</div>
-              <div class="gerencialKpiValue" id="fretePagoKpi">—</div>
-            </div>
-            <div class="gerencialKpi">
-              <div class="gerencialKpiLabel">% Frete Repassado</div>
-              <div class="gerencialKpiValue" id="freteRepassadoKpi">—</div>
-            </div>
-          </div>
-
-          <div class="gerencialGrid">
-            <div class="slaBox">
-              <div class="slaTitle">Performance</div>
-              <div class="slaGauge" id="slaGauge"></div>
-              <div class="slaMeta" id="slaMeta">—</div>
-            </div>
-
-            <div class="gerencialInsights">
-              <div class="deltaBox">
-                <div class="deltaLabel">Comparativo vs mês anterior</div>
-                <div class="deltaValue" id="deltaSla">—</div>
-                <div class="deltaSub" id="deltaSlaSub">—</div>
-              </div>
-
-              <div class="topEstadosBox">
-                <div class="topEstadosTitle">Top 5 estados por performance</div>
-                <div id="topEstadosList" class="topEstadosList"></div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
@@ -1304,7 +1008,7 @@
         startAutoScroll(document.getElementById('scrollHoje'), { speedPxPerTick: 1, tickMs: 92, pauseAtEndMs: 2400, pauseAtTopMs: 900 })
       );
       autoScrollInstances.push(
-        startAutoScroll(document.getElementById('scrollRecebimento'), { speedPxPerTick: 1, tickMs: 95, pauseAtEndMs: 2200, pauseAtTopMs: 900 })
+        startAutoScroll(document.getElementById('scrollPerf'), { speedPxPerTick: 1, tickMs: 95, pauseAtEndMs: 2200, pauseAtTopMs: 900 })
       );
     }
 
@@ -1541,79 +1245,55 @@
       return 'tag';
     }
 
-    function renderRecebimento(data){
-      const list = Array.isArray(data.recebimento_produtos)
-        ? data.recebimento_produtos
-        : (Array.isArray(data.performance_transportadoras) ? data.performance_transportadoras : []);
-
-      const body = document.getElementById('tbodyRecebimento');
+    function renderPerformance(data){
+      const list = Array.isArray(data.performance_transportadoras) ? data.performance_transportadoras : [];
+      const body = document.getElementById('tbodyPerf');
       body.innerHTML = '';
 
-      document.getElementById('recebimentoCount').textContent = `${list.length} itens`;
+      document.getElementById('perfCount').textContent = `${list.length} itens`;
 
-      for (const it of list){
-        const status = String(it.status ?? '').trim();
-        const statusKey = normKey(status);
+      const sorted = list.slice().sort((a,b) => {
+        const pa = parsePercentFlex(a.performance ?? a.performance_pct ?? a.performance_num);
+        const pb = parsePercentFlex(b.performance ?? b.performance_pct ?? b.performance_num);
+        const na = Number.isFinite(pa) ? pa : -999;
+        const nb = Number.isFinite(pb) ? pb : -999;
+        return nb - na;
+      });
+
+      for (const it of sorted){
+        const nome = String(it.transportadora ?? it.transportador ?? it.nome ?? '').trim() || '—';
+        const notas = Number(it.notas ?? it.total_notas ?? 0) || 0;
+        const entregas = Number(it.entregas ?? it.total_entregas ?? 0) || 0;
+        const atrasados = Number(it.atrasados ?? it.em_atraso ?? 0) || 0;
+        const pendente = Number(it.pendente_de_entrega ?? it.pendente_entrega ?? it.pendente ?? 0) || 0;
+
+        const pct = parsePercentFlex(it.performance ?? it.performance_pct ?? it.performance_num);
+        const perf = Number.isFinite(pct) ? pct : 0;
+        const isBad = perf < 95;
+
+        const intensity = Math.max(0, Math.min(1, (95 - perf) / 10));
+        const bg = isBad
+          ? `linear-gradient(90deg, rgba(236,72,153, ${0.10 + 0.18*intensity}), rgba(239,68,68, ${0.10 + 0.18*intensity}))`
+          : `linear-gradient(90deg, rgba(34,197,94, .08), rgba(34,197,94, .04))`;
 
         const tr = document.createElement('tr');
-        tr.classList.remove('blinkWarn');
+        if (isBad) tr.classList.add('rowPerfBad');
+        tr.style.backgroundImage = bg;
 
-        let statusDotClass = '';
-        let statusBadgeClass = '';
-
-        // ===== CORES AUTOMÁTICAS POR STATUS =====
-        if (statusKey.includes('aguardando programacao')) {
-          tr.style.background = 'linear-gradient(90deg, rgba(107,114,128,.25), rgba(107,114,128,.05))';
-        }
-        else if (statusKey === 'programado' || statusKey.includes('programado')) {
-          tr.style.background = 'linear-gradient(90deg, rgba(59,130,246,.18), rgba(59,130,246,.05))';
-        }
-        else if (statusKey.includes('transito')) {
-          tr.style.background = 'linear-gradient(90deg, rgba(245,158,11,.18), rgba(245,158,11,.05))';
-          statusDotClass = 'bad';
-        }
-        else if (statusKey.includes('chegou')) {
-          tr.style.background = 'linear-gradient(90deg, rgba(14,165,233,.18), rgba(14,165,233,.05))';
-        }
-        else if (statusKey.includes('descarregando')) {
-          tr.style.background = 'linear-gradient(90deg, rgba(168,85,247,.18), rgba(168,85,247,.05))';
-        }
-        else if (statusKey.includes('finalizado')) {
-          tr.style.background = 'linear-gradient(90deg, rgba(34,197,94,.18), rgba(34,197,94,.05))';
-          statusBadgeClass = 'good';
-        }
-
-        // ===== EXCEÇÕES / ALERTA PISCANDO =====
-        if (
-          statusKey.includes('aguardando complementar') ||
-          statusKey.includes('aguardando nf mae') ||
-          statusKey.includes('divergencia')
-        ) {
-          tr.classList.add('blinkWarn');
-          tr.style.background = 'linear-gradient(90deg, rgba(239,68,68,.30), rgba(239,68,68,.10))';
-          statusDotClass = 'bad';
-          statusBadgeClass = 'bad';
-        }
-
-        const confirmado = String(it.confirmado ?? it.pendente_de_entrega ?? '—').trim();
-        const confirmadoKey = normKey(confirmado);
-        const confirmadoClass = confirmadoKey === 'sim' ? 'good' : (confirmadoKey === 'nao' ? 'bad' : '');
+        const perfLabel = Number.isFinite(pct)
+          ? `${perf.toFixed(2).replace('.', ',')}%`
+          : (String(it.performance || '').trim() || '—');
 
         tr.innerHTML = `
-          <td><strong>${String(it.embarque ?? '—').trim()}</strong></td>
-          <td>${String(it.tipo ?? '—').trim()}</td>
-          <td>${String(it.data_recebimento ?? '—').trim()}</td>
+          <td><strong>${nome}</strong></td>
+          <td>${notas.toLocaleString('pt-BR')}</td>
+          <td>${entregas.toLocaleString('pt-BR')}</td>
+          <td>${atrasados.toLocaleString('pt-BR')}</td>
+          <td>${pendente.toLocaleString('pt-BR')}</td>
           <td>
-            <span class="perfBadge ${confirmadoClass}">
-              <span class="perfDot ${confirmadoClass === 'bad' ? 'bad' : ''}"></span>
-              ${confirmado}
-            </span>
-          </td>
-          <td>${String(it.chegou_cd ?? '—').trim()}</td>
-          <td>
-            <span class="perfBadge ${statusBadgeClass}">
-              <span class="perfDot ${statusDotClass}"></span>
-              ${status || '—'}
+            <span class="perfBadge ${isBad ? 'bad' : 'good'}">
+              <span class="perfDot ${isBad ? 'bad' : ''}"></span>
+              ${perfLabel}
             </span>
           </td>
         `;
@@ -1754,39 +1434,20 @@
         `;
         atrasoBody.appendChild(tr);
       }
-    }
 
       const hojeBody = document.getElementById('tbodyHoje');
       hojeBody.innerHTML = '';
-    function pctText(value){
-      if (!Number.isFinite(value)) return '—';
-      return value.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + '%';
-    }
 
       for (const it of hojeList){
         const dataEntrega = (it.data_entrega ?? it.Data_de_entrega ?? '').toString().trim();
         const cidade = (it.cidade_destino ?? it.Cidade_Destino ?? '').toString().trim();
-    function slaColor(sla){
-      if (!Number.isFinite(sla)) return '#9aa4c0';
-      if (sla < 90) return 'var(--bad)';
-      if (sla <= 95) return 'var(--warn)';
-      return 'var(--good)';
-    }
 
         const tr = document.createElement('tr');
-    function deltaColor(delta){
-      if (!Number.isFinite(delta) || delta === 0) return 'rgba(11,27,58,.72)';
-      return delta < 0 ? 'var(--bad)' : 'var(--good)';
-    }
 
         if (dataEntrega){
           const entregaDate = parseDateFlex(dataEntrega);
           const hojeDate = new Date();
           hojeDate.setHours(0,0,0,0);
-    function monthKeyFromDate(d){
-      if (!d) return '';
-      return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}`;
-    }
 
           if (entregaDate && entregaDate.getTime() < hojeDate.getTime()){
             tr.className = 'rowArrived';
@@ -1794,10 +1455,6 @@
             tr.className = 'rowDelivered';
           }
         }
-    function previousMonthKey(d){
-      const ref = new Date(d.getFullYear(), d.getMonth() - 1, 1);
-      return monthKeyFromDate(ref);
-    }
 
         tr.innerHTML = `
           <td><strong>${String(it.nota_fiscal ?? '—').trim()}</strong></td>
@@ -1808,43 +1465,19 @@
         `;
         hojeBody.appendChild(tr);
       }
-    function normalizeEntrega(item){
-      return {
-        nota_fiscal: String(item.nota_fiscal ?? item.nf ?? '').trim(),
-        data_emissao: parseDateFlex(item.data_emissao ?? item.emissao_nf ?? item.emissao ?? ''),
-        data_entrega: parseDateFlex(item.data_entrega ?? item.entrega ?? ''),
-        previsao_entrega: parseDateFlex(item.previsao_entrega ?? item.previsao ?? item.previsao_sla ?? ''),
-        frete: parseBRLValue(item.frete ?? item.valor_frete ?? item.frete_pago ?? 0),
-        frete_repassado: parseBRLValue(item.frete_repassado ?? item.valor_frete_repassado ?? item.repassado ?? 0),
-        estado: String(item.estado ?? item.uf ?? item.cidade_destino ?? item.uf_destino ?? '').trim().toUpperCase(),
-        transportador: normalizeCarrier(item.transportador ?? item.transportadora ?? '')
-      };
     }
 
     function renderKpis(data, carrier){
       const atrasoList = applyCarrierFilter((data.notas_em_atraso || []), carrier);
       const hojeList = applyCarrierFilter((data.notas_previstas_hoje || []), carrier);
-    function entregaNoPrazo(item){
-      return item.data_entrega && item.previsao_entrega && item.data_entrega.getTime() <= item.previsao_entrega.getTime();
-    }
 
       let entreguesHoje = 0;
       for (const it of hojeList){
         const dataEntrega = (it.data_entrega ?? it.Data_de_entrega ?? '').toString().trim();
         if (!dataEntrega) continue;
-    function metricsForMonth(base, key){
-      const list = base.filter(it => monthKeyFromDate(it.data_emissao) === key);
-      const entregues = list.filter(it => it.data_entrega && it.previsao_entrega);
-      const noPrazo = entregues.filter(entregaNoPrazo);
-      const fretePago = list.reduce((acc, it) => acc + (Number(it.frete) || 0), 0);
-      const freteRepassado = list.reduce((acc, it) => acc + (Number(it.frete_repassado) || 0), 0);
-      const sla = entregues.length ? (noPrazo.length / entregues.length) * 100 : NaN;
-      const repasse = fretePago > 0 ? (freteRepassado / fretePago) * 100 : NaN;
 
         const d = parseDateFlex(dataEntrega);
         if (!d) continue;
-      return { list, entregues, noPrazo, fretePago, freteRepassado, sla, repasse };
-    }
 
         const now = new Date();
         if (
@@ -1854,185 +1487,26 @@
         ){
           entreguesHoje += 1;
         }
-    function topEstadosForMonth(list){
-      const map = new Map();
-      for (const it of list){
-        const uf = it.estado || '—';
-        if (!it.data_entrega || !it.previsao_entrega) continue;
-        if (!map.has(uf)) map.set(uf, { uf, total: 0, prazo: 0 });
-        const obj = map.get(uf);
-        obj.total += 1;
-        if (entregaNoPrazo(it)) obj.prazo += 1;
       }
 
       const kpiAtraso = Number(data.kpis?.notas_em_atraso);
       const kpiHoje = Number(data.kpis?.previstas_para_hoje);
       const kpiEntregues = Number(data.kpis?.entregues_hoje);
-      return Array.from(map.values())
-        .map(x => ({ ...x, sla: x.total ? (x.prazo / x.total) * 100 : NaN }))
-        .sort((a,b) => (b.sla - a.sla) || (b.total - a.total) || a.uf.localeCompare(b.uf, 'pt-BR'))
-        .slice(0,5);
-    }
-
-    function polarToCartesian(cx, cy, r, angleDeg){
-      const angleRad = (angleDeg - 90) * Math.PI / 180;
-      return {
-        x: cx + (r * Math.cos(angleRad)),
-        y: cy + (r * Math.sin(angleRad))
-      };
-    }
 
       document.getElementById('kpiAtraso').textContent =
         Number.isFinite(kpiAtraso) && carrier === '__ALL__'
           ? kpiAtraso.toLocaleString('pt-BR')
           : atrasoList.length.toLocaleString('pt-BR');
-    function describeArc(cx, cy, r, startAngle, endAngle){
-      const start = polarToCartesian(cx, cy, r, endAngle);
-      const end = polarToCartesian(cx, cy, r, startAngle);
-      const largeArcFlag = endAngle - startAngle <= 180 ? '0' : '1';
-      return `M ${start.x} ${start.y} A ${r} ${r} 0 ${largeArcFlag} 0 ${end.x} ${end.y}`;
-    }
 
       document.getElementById('kpiPrevistasHoje').textContent =
         Number.isFinite(kpiHoje) && carrier === '__ALL__'
           ? kpiHoje.toLocaleString('pt-BR')
           : hojeList.length.toLocaleString('pt-BR');
-    function renderSlaGauge(sla){
-      const el = document.getElementById('slaGauge');
-      if (!el) return;
 
       document.getElementById('kpiEntreguesHoje').textContent =
         Number.isFinite(kpiEntregues) && carrier === '__ALL__'
           ? kpiEntregues.toLocaleString('pt-BR')
           : entreguesHoje.toLocaleString('pt-BR');
-      const min = 80;
-      const max = 100;
-      const safe = Number.isFinite(sla) ? Math.max(min, Math.min(max, sla)) : min;
-      const percent = (safe - min) / (max - min);
-
-      // Gauge premium: escala 80% → 100%; logo, 94,89% fica no amarelo, colado ao verde.
-      const needleAngle = -90 + (percent * 180);
-      const color = slaColor(sla);
-
-      const cx = 110;
-      const cy = 120;
-      const r = 79;
-      const stroke = 25;
-
-      const criticalColor = 'var(--bad)';
-      const attentionColor = 'var(--warn)';
-      const excellentColor = 'var(--good)';
-
-      const needle = polarToCartesian(cx, cy, 71, needleAngle + 90);
-      const baseValue = Number.isFinite(sla) ? pctText(sla) : '—';
-
-      el.innerHTML = `
-        <svg viewBox="0 0 220 198" role="img" aria-label="Performance em formato de velocímetro">
-          <defs>
-            <filter id="gaugeShadow" x="-20%" y="-20%" width="140%" height="140%">
-              <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#0b1020" flood-opacity="0.20"/>
-            </filter>
-            <filter id="needleShadow" x="-30%" y="-30%" width="160%" height="160%">
-              <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#0b1020" flood-opacity="0.32"/>
-            </filter>
-          </defs>
-
-          <text x="110" y="16" class="slaSmallText" style="font-size:15px; fill:rgba(11,27,58,.92); font-weight:950;">Performance</text>
-
-          <path d="${describeArc(cx, cy, r, -90, 90)}" fill="none" stroke="rgba(11,27,58,.09)" stroke-width="${stroke + 8}" stroke-linecap="round"/>
-          <g filter="url(#gaugeShadow)">
-            <path d="${describeArc(cx, cy, r, -90, 0)}" fill="none" stroke="${criticalColor}" stroke-width="${stroke}" stroke-linecap="butt"/>
-            <path d="${describeArc(cx, cy, r, 0, 45)}" fill="none" stroke="${attentionColor}" stroke-width="${stroke}" stroke-linecap="butt"/>
-            <path d="${describeArc(cx, cy, r, 45, 90)}" fill="none" stroke="${excellentColor}" stroke-width="${stroke}" stroke-linecap="butt"/>
-          </g>
-
-          <text x="29" y="137" class="slaScaleText">80,00%</text>
-          <text x="191" y="137" class="slaScaleText">100,00%</text>
-
-          <line x1="${cx}" y1="${cy}" x2="${needle.x}" y2="${needle.y}" stroke="#0b1b3a" stroke-width="6" stroke-linecap="round" filter="url(#needleShadow)"/>
-          <circle cx="${cx}" cy="${cy}" r="15" fill="#0b1b3a" filter="url(#needleShadow)"/>
-          <circle cx="${cx}" cy="${cy}" r="6" fill="rgba(255,255,255,.20)"/>
-
-          <text x="110" y="163" class="slaValueText" fill="${color}">${baseValue}</text>
-          <text x="110" y="186" class="slaSmallText">Performance Média</text>
-        </svg>
-        <div class="slaLegend" aria-label="Legenda de performance">
-          <div class="slaLegendItem">
-            <div class="legendTop"><span class="slaLegendDot" style="background:${criticalColor}"></span><span>&lt; 90%</span></div>
-            <div class="slaLegendSub">Crítico</div>
-          </div>
-          <div class="slaLegendItem">
-            <div class="legendTop"><span class="slaLegendDot" style="background:${attentionColor}"></span><span>90% a 95%</span></div>
-            <div class="slaLegendSub">Atenção</div>
-          </div>
-          <div class="slaLegendItem">
-            <div class="legendTop"><span class="slaLegendDot" style="background:${excellentColor}"></span><span>&gt; 95%</span></div>
-            <div class="slaLegendSub">Excelente</div>
-          </div>
-        </div>
-      `;
-    }
-
-    function renderGerencial(data, carrier){
-      const raw = Array.isArray(data.base_entregas) ? data.base_entregas : [];
-      let base = raw.map(normalizeEntrega).filter(it => it.data_emissao);
-
-      if (carrier && carrier !== '__ALL__'){
-        const withCarrier = base.filter(it => it.transportador);
-        if (withCarrier.length){
-          base = base.filter(it => it.transportador === carrier);
-        }
-      }
-
-      const ref = parseUpdatedDate(data.updated_at || '') || new Date();
-      const currentKey = monthKeyFromDate(ref);
-      const prevKey = previousMonthKey(ref);
-      const current = metricsForMonth(base, currentKey);
-      const previous = metricsForMonth(base, prevKey);
-      const delta = Number.isFinite(current.sla) && Number.isFinite(previous.sla) ? current.sla - previous.sla : NaN;
-      const topEstados = topEstadosForMonth(current.list);
-
-      const periodo = ref.toLocaleDateString('pt-BR', { month:'long', year:'numeric' });
-      document.getElementById('gerencialPeriodo').textContent = periodo.charAt(0).toUpperCase() + periodo.slice(1);
-      document.getElementById('fretePagoKpi').textContent = fmtBRL.format(current.fretePago || 0);
-      document.getElementById('freteRepassadoKpi').textContent = pctText(current.repasse);
-
-      renderSlaGauge(current.sla);
-
-      document.getElementById('slaMeta').textContent = current.entregues.length
-        ? `${current.noPrazo.length} no prazo de ${current.entregues.length} entregues`
-        : 'Sem entregas válidas para o mês';
-
-      const deltaEl = document.getElementById('deltaSla');
-      const deltaSub = document.getElementById('deltaSlaSub');
-      deltaEl.style.color = deltaColor(delta);
-      deltaEl.textContent = Number.isFinite(delta)
-        ? `${delta >= 0 ? '+' : ''}${delta.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 })} p.p. vs LM`
-        : 'Sem base comparativa';
-      deltaSub.textContent = Number.isFinite(previous.sla) && Number.isFinite(current.sla)
-        ? `de ${pctText(previous.sla)} para ${pctText(current.sla)}`
-        : 'Necessário alimentar mês atual e mês anterior';
-
-      const listEl = document.getElementById('topEstadosList');
-      listEl.innerHTML = '';
-
-      if (!topEstados.length){
-        listEl.innerHTML = '<div class="estadoSub">Sem dados por estado para o período.</div>';
-      } else {
-        topEstados.forEach((it, idx) => {
-          const row = document.createElement('div');
-          row.className = 'estadoItem';
-          row.innerHTML = `
-            <div class="estadoPos">${idx+1}º</div>
-            <div>
-              <div class="estadoUf">${it.uf}</div>
-              <div class="estadoSub">${it.prazo}/${it.total} no prazo</div>
-            </div>
-            <div class="estadoSla" style="color:${slaColor(it.sla)}">${pctText(it.sla)}</div>
-          `;
-          listEl.appendChild(row);
-        });
-      }
     }
 
     function getPedidosFiltradosPorTipo(tipo){
@@ -2116,20 +1590,15 @@
       const panelPedidos = document.getElementById('panelPedidos');
       const leftCol = document.getElementById('leftCol');
       const cardsBox = document.getElementById('cardsBox');
-      const panelPerf = document.getElementById('panelRecebimento');
-      const scrollPerf = document.getElementById('scrollRecebimento');
-      const panelRecebimento = document.getElementById('panelRecebimento');
-      const scrollRecebimento = document.getElementById('scrollRecebimento');
+      const panelPerf = document.getElementById('panelPerf');
+      const scrollPerf = document.getElementById('scrollPerf');
 
       if (!panelPedidos || !leftCol || !cardsBox || !panelPerf || !scrollPerf) return;
-      if (!panelPedidos || !leftCol || !panelRecebimento || !scrollRecebimento) return;
       if (window.innerWidth <= 1200) return;
 
       const pedidosH = panelPedidos.offsetHeight;
       leftCol.style.height = pedidosH + 'px';
       leftCol.style.minHeight = pedidosH + 'px';
-      panelRecebimento.style.height = pedidosH + 'px';
-      panelRecebimento.style.minHeight = pedidosH + 'px';
 
       const cardsH = cardsBox.offsetHeight;
       const gap = 14;
@@ -2139,31 +1608,25 @@
       panelPerf.style.minHeight = perfH + 'px';
 
       const ph = panelPerf.querySelector('.ph');
-      const ph = panelRecebimento.querySelector('.ph');
       const phH = ph ? ph.offsetHeight : 56;
       scrollPerf.style.maxHeight = Math.max(120, perfH - phH) + 'px';
-      scrollRecebimento.style.maxHeight = Math.max(120, pedidosH - phH) + 'px';
     }
 
     function syncNotesToPedidosHeight(){
       const panelPedidos = document.getElementById('panelPedidos');
       const panelAtraso = document.getElementById('panelAtraso');
       const panelHoje = document.getElementById('panelHoje');
-      const panelGerencial = document.getElementById('panelGerencial');
       const scrollAtraso = document.getElementById('scrollAtraso');
       const scrollHoje = document.getElementById('scrollHoje');
 
       if (!panelPedidos || !panelAtraso || !panelHoje || !scrollAtraso || !scrollHoje) return;
-      if (!panelPedidos || !panelAtraso || !panelGerencial || !scrollAtraso) return;
       if (window.innerWidth <= 980) return;
 
       const h = panelPedidos.offsetHeight;
       panelAtraso.style.height = h + 'px';
       panelHoje.style.height = h + 'px';
-      panelGerencial.style.height = h + 'px';
       panelAtraso.style.minHeight = h + 'px';
       panelHoje.style.minHeight = h + 'px';
-      panelGerencial.style.minHeight = h + 'px';
 
       const phA = panelAtraso.querySelector('.ph');
       const phH_A = phA ? phA.offsetHeight : 56;
@@ -2177,10 +1640,9 @@
     function renderAll(data){
       const carrier = document.getElementById('carrierFilter').value;
       renderKpis(data, carrier);
-      renderRecebimento(data);
+      renderPerformance(data);
       renderPedidos(data);
       renderTables(data, carrier);
-      renderGerencial(data, carrier);
       formatUpdatedAtToBadge(data);
       tryShowTvAlert(data);
 
@@ -2206,7 +1668,6 @@
       sel.onchange = () => {
         renderKpis(DATA_CACHE, sel.value);
         renderTables(DATA_CACHE, sel.value);
-        renderGerencial(DATA_CACHE, sel.value);
 
         document.getElementById('scrollAtraso').scrollTop = 0;
         document.getElementById('scrollHoje').scrollTop = 0;
@@ -2241,17 +1702,10 @@
       }
     });
 
-async function atualizarPainel(){
-  try{
-    await load();
-  }catch(err){
-    console.error(err);
-  }
-}
-
-atualizarPainel();
-
-setInterval(atualizarPainel, 120000);
-      </script>
+    load().catch(err => {
+      console.error(err);
+      alert('Erro ao carregar data.json. Verifique se index.html e data.json estão na mesma pasta.');
+    });
+  </script>
 </body>
 </html>
