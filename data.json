@@ -1,30 +1,30 @@
 {
-  "updated_at": "06/05/2026 15:59",
+  "updated_at": "06/05/2026 16:51",
   "kpis": {
     "notas_em_atraso": 28,
     "previstas_para_hoje": 103,
     "entregues_hoje": 80
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 3, "valor": "7902,25" },
-    { "status": "Alvará Sanitário", "quantidade": 8, "valor": "21035,6" },
-    { "status": "Bloqueado por regra", "quantidade": 2, "valor": "1617,77" },
-    { "status": "Análise de Crédito", "quantidade": 18, "valor": "222516,74" },
-    { "status": "Total em Disputa", "quantidade": 31, "valor": "253072,36" },
-    { "status": "Aguard. Envio Separação", "quantidade": 4, "valor": "3277,74" },
-    { "status": "Em Separação", "quantidade": 5, "valor": "44349,2" },
-    { "status": "Separado", "quantidade": 1, "valor": "1645,4" },
-    { "status": "Faturado", "quantidade": 42, "valor": "159336,94" },
-    { "status": "Total", "quantidade": 52, "valor": "208609,28" }
+    { "status": "Aguardando Liberação", "quantidade": 1, "valor": "3648" },
+    { "status": "Alvará Sanitário", "quantidade": 6, "valor": "18847,72" },
+    { "status": "Bloqueado por regra", "quantidade": 1, "valor": "507,18" },
+    { "status": "Análise de Crédito", "quantidade": 22, "valor": "199042,24" },
+    { "status": "Total em Disputa", "quantidade": 30, "valor": "222045,14" },
+    { "status": "Aguard. Envio Separação", "quantidade": 5, "valor": "4024,28" },
+    { "status": "Em Separação", "quantidade": 12, "valor": "69569,25" },
+    { "status": "Separado", "quantidade": 0, "valor": "0" },
+    { "status": "Faturado", "quantidade": 48, "valor": "197735,59" },
+    { "status": "Total", "quantidade": 65, "valor": "271329,12" }
  ],
  "recebimento_produtos": [
-   { "embarque": "25.07-WEIGAO",  "tipo": "Container", "data_recebimento": "05/05/26", "confirmado": "SIM", "chegou_cd": "Finalizado",  "status": "Aguardando NF Mãe" },
-   { "embarque": "25.05-WEIGAO",  "tipo": "Container", "data_recebimento": "05/05/26", "confirmado": "SIM", "chegou_cd": "Finalizado",  "status": "Aguardando NF Mãe" },
-   { "embarque": "25.07-SHA",  "tipo": "Container", "data_recebimento": "05/05/26", "confirmado": "SIM", "chegou_cd": "Finalizado",  "status": "Aguardando NF Mãe" },
-   { "embarque": "25.03-TIANDI",  "tipo": "Container", "data_recebimento": "05/05/26", "confirmado": "SIM", "chegou_cd": "Finalizado",  "status": "Aguardando NF Mãe" },
-   { "embarque": "25.06-DAILY",  "tipo": "Container", "data_recebimento": "05/05/26", "confirmado": "SIM", "chegou_cd": "Finalizado",  "status": "Aguardando NF Mãe" },
-   { "embarque": "25.01-TIANDA",  "tipo": "Container", "data_recebimento": "05/05/26", "confirmado": "SIM", "chegou_cd": "Finalizado",  "status": "Aguardando NF Mãe" },
-   { "embarque": "25.07-NOVEL",  "tipo": "Container", "data_recebimento": "05/05/26", "confirmado": "SIM", "chegou_cd": "Finalizado",  "status": "Aguardando NF Mãe" },
+   { "embarque": "25.07-WEIGAO",  "tipo": "Container", "data_recebimento": "05/05/26", "confirmado": "SIM", "chegou_cd": "Finalizado",  "status": "Finalizado" },
+   { "embarque": "25.05-WEIGAO",  "tipo": "Container", "data_recebimento": "05/05/26", "confirmado": "SIM", "chegou_cd": "Finalizado",  "status": "Finalizado" },
+   { "embarque": "25.07-SHA",  "tipo": "Container", "data_recebimento": "05/05/26", "confirmado": "SIM", "chegou_cd": "Finalizado",  "status": "Finalizado" },
+   { "embarque": "25.03-TIANDI",  "tipo": "Container", "data_recebimento": "05/05/26", "confirmado": "SIM", "chegou_cd": "Finalizado",  "status": "Finalizado" },
+   { "embarque": "25.06-DAILY",  "tipo": "Container", "data_recebimento": "05/05/26", "confirmado": "SIM", "chegou_cd": "Finalizado",  "status": "Finalizado" },
+   { "embarque": "25.01-TIANDA",  "tipo": "Container", "data_recebimento": "05/05/26", "confirmado": "SIM", "chegou_cd": "Finalizado",  "status": "Finalizado" },
+   { "embarque": "25.07-NOVEL",  "tipo": "Container", "data_recebimento": "05/05/26", "confirmado": "SIM", "chegou_cd": "Finalizado",  "status": "Finalizado" },
    { "embarque": "26.02-MGE",  "tipo": "Container", "data_recebimento": "06/05/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
    { "embarque": "25.07-SHA",  "tipo": "Container", "data_recebimento": "06/05/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
    { "embarque": "26.04-MFE",  "tipo": "Container", "data_recebimento": "07/05/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
@@ -252,19 +252,19 @@
   {"numero_pedido":"690850 ", "emissao_pv": "06/05/2026 ", "vlr_total_produtos": "5636,4 ", "margem": "27,85 ", "nome_cliente": "CECIL + MED ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"690882 ", "emissao_pv": "06/05/2026 ", "vlr_total_produtos": "8973,25 ", "margem": "41,68 ", "nome_cliente": "MRL DO BRASIL IMPORT ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"690914 ", "emissao_pv": "06/05/2026 ", "vlr_total_produtos": "2937,33 ", "margem": "40,21 ", "nome_cliente": "MEDSTAR DISTRIBUIDOR ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"690921 ", "emissao_pv": "06/05/2026 ", "vlr_total_produtos": "1099,6 ", "margem": "37,92 ", "nome_cliente": "LAB ANALISES CLINICA ", "uf_cliente": "PR ", "tipo_cliente": "CONS.FINAL ","vendedor": "V.D INTERNAS ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"690921 ", "emissao_pv": "06/05/2026 ", "vlr_total_produtos": "1099,6 ", "margem": "37,92 ", "nome_cliente": "LAB ANALISES CLINICA ", "uf_cliente": "PR ", "tipo_cliente": "CONS.FINAL ","vendedor": "V.D INTERNAS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"690924 ", "emissao_pv": "06/05/2026 ", "vlr_total_produtos": "39584 ", "margem": "32,18 ", "nome_cliente": "SENSORIA SAUD DISTRI ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"690925 ", "emissao_pv": "06/05/2026 ", "vlr_total_produtos": "817,37 ", "margem": "26,39 ", "nome_cliente": "SM VIVAR MEDICINA LA ", "uf_cliente": "TO ", "tipo_cliente": "CONS.FINAL ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"690929 ", "emissao_pv": "06/05/2026 ", "vlr_total_produtos": "959,76 ", "margem": "25,98 ", "nome_cliente": "LABORATORIO VETERINA ", "uf_cliente": "AL ", "tipo_cliente": "CONS.FINAL ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"690932 ", "emissao_pv": "06/05/2026 ", "vlr_total_produtos": "2308,2 ", "margem": "34,28 ", "nome_cliente": "SARA MEDICAL ", "uf_cliente": "DF ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"690938 ", "emissao_pv": "06/05/2026 ", "vlr_total_produtos": "1088,28 ", "margem": "42,68 ", "nome_cliente": "LABCENTRO LABORATORI ", "uf_cliente": "MS ", "tipo_cliente": "CONS.FINAL ","vendedor": "V.D INTERNAS ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"690938 ", "emissao_pv": "06/05/2026 ", "vlr_total_produtos": "1088,28 ", "margem": "42,68 ", "nome_cliente": "LABCENTRO LABORATORI ", "uf_cliente": "MS ", "tipo_cliente": "CONS.FINAL ","vendedor": "V.D INTERNAS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"690940 ", "emissao_pv": "06/05/2026 ", "vlr_total_produtos": "810,84 ", "margem": "42,86 ", "nome_cliente": "FERNANDO PIERROTTI S ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. FENIX (SC) ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"690942 ", "emissao_pv": "06/05/2026 ", "vlr_total_produtos": "1221,54 ", "margem": "0 ", "nome_cliente": "AP SERVICOS VETERINA ", "uf_cliente": "AM ", "tipo_cliente": "CONS.FINAL ","vendedor": "E-COMMERCE ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"690946 ", "emissao_pv": "06/05/2026 ", "vlr_total_produtos": "5082,79 ", "margem": "34,64 ", "nome_cliente": "VASCONCELOS LTDA ", "uf_cliente": "AM ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"690956 ", "emissao_pv": "06/05/2026 ", "vlr_total_produtos": "15870,6 ", "margem": "20,06 ", "nome_cliente": "SHOPMED ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"690959 ", "emissao_pv": "06/05/2026 ", "vlr_total_produtos": "816,48 ", "margem": "37,37 ", "nome_cliente": "CENTRO ANIMAL ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"690962 ", "emissao_pv": "06/05/2026 ", "vlr_total_produtos": "20328,73 ", "margem": "32,46 ", "nome_cliente": "WIMED SOLUCOES DIAG ", "uf_cliente": "PR ", "tipo_cliente": "CONS.FINAL ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" }
-
-
+  {"numero_pedido":"690973 ", "emissao_pv": "06/05/2026 ", "vlr_total_produtos": "1565 ", "margem": "51,32 ", "nome_cliente": "MARMED HOSPITALAR ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "ALEXANDRA RIBEIRO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"690982 ", "emissao_pv": "06/05/2026 ", "vlr_total_produtos": "2244,08 ", "margem": "29,79 ", "nome_cliente": "HF COMERCIO DE PRODU ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"690984 ", "emissao_pv": "06/05/2026 ", "vlr_total_produtos": "1019 ", "margem": "23,21 ", "nome_cliente": "LABORATORIO MELO E O ", "uf_cliente": "MG ", "tipo_cliente": "CONS.FINAL ","vendedor": "REP. CAREMED ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"690993 ", "emissao_pv": "06/05/2026 ", "vlr_total_produtos": "7199,7 ", "margem": "7,53 ", "nome_cliente": "BHFIOS PRODUTOS ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" }
 
 
 
