@@ -1,21 +1,21 @@
 {
-  "updated_at": "07/05/2026 08:25",
+  "updated_at": "07/05/2026 08:30",
   "kpis": {
     "notas_em_atraso": 34,
     "previstas_para_hoje": 102,
     "entregues_hoje": 70
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 3, "valor": "5904,67" },
-    { "status": "Alvará Sanitário", "quantidade": 9, "valor": "27671,44" },
-    { "status": "Bloqueado por regra", "quantidade": 1, "valor": "507,18" },
-    { "status": "Análise de Crédito", "quantidade": 17, "valor": "168443,76" },
-    { "status": "Total em Disputa", "quantidade": 30, "valor": "202527,05" },
-    { "status": "Aguard. Envio Separação", "quantidade": 6, "valor": "4841,65" },
-    { "status": "Em Separação", "quantidade": 0, "valor": "0" },
+    { "status": "Aguardando Liberação", "quantidade": 2, "valor": "5904,2" },
+    { "status": "Alvará Sanitário", "quantidade": 13, "valor": "39322,76" },
+    { "status": "Bloqueado por regra", "quantidade": 2, "valor": "1014,36" },
+    { "status": "Análise de Crédito", "quantidade": 27, "valor": "301884,08" },
+    { "status": "Total em Disputa", "quantidade": 44, "valor": "348125,4" },
+    { "status": "Aguard. Envio Separação", "quantidade": 8, "valor": "6405,56" },
+    { "status": "Em Separação", "quantidade": 2, "valor": "6701,31" },
     { "status": "Separado", "quantidade": 0, "valor": "0" },
     { "status": "Faturado", "quantidade": 0, "valor": "0" },
-    { "status": "Total", "quantidade": 6, "valor": "4841,65" }
+    { "status": "Total", "quantidade": 10, "valor": "13106,87" }
  ],
  "recebimento_produtos": [
    { "embarque": "25.03-PHOENIX",  "tipo": "Container", "data_recebimento": "04/05/26", "confirmado": "SIM", "chegou_cd": "Finalizado",  "status": "Finalizado" },
@@ -255,24 +255,24 @@
   {"numero_pedido":"690929 ", "emissao_pv": "06/05/2026 ", "vlr_total_produtos": "959,76 ", "margem": "25,98 ", "nome_cliente": "LABORATORIO VETERINA ", "uf_cliente": "AL ", "tipo_cliente": "CONS.FINAL ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"690940 ", "emissao_pv": "06/05/2026 ", "vlr_total_produtos": "810,84 ", "margem": "42,86 ", "nome_cliente": "FERNANDO PIERROTTI S ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. FENIX (SC) ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"690942 ", "emissao_pv": "06/05/2026 ", "vlr_total_produtos": "1221,54 ", "margem": "0 ", "nome_cliente": "AP SERVICOS VETERINA ", "uf_cliente": "AM ", "tipo_cliente": "CONS.FINAL ","vendedor": "E-COMMERCE ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"690946 ", "emissao_pv": "06/05/2026 ", "vlr_total_produtos": "5082,79 ", "margem": "34,64 ", "nome_cliente": "VASCONCELOS LTDA ", "uf_cliente": "AM ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"690973 ", "emissao_pv": "06/05/2026 ", "vlr_total_produtos": "1565 ", "margem": "51,32 ", "nome_cliente": "MARMED HOSPITALAR ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "ALEXANDRA RIBEIRO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"690984 ", "emissao_pv": "06/05/2026 ", "vlr_total_produtos": "1019 ", "margem": "23,21 ", "nome_cliente": "LABORATORIO MELO E O ", "uf_cliente": "MG ", "tipo_cliente": "CONS.FINAL ","vendedor": "REP. CAREMED ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"690993 ", "emissao_pv": "06/05/2026 ", "vlr_total_produtos": "7199,7 ", "margem": "7,53 ", "nome_cliente": "BHFIOS PRODUTOS ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"690997 ", "emissao_pv": "06/05/2026 ", "vlr_total_produtos": "1091,93 ", "margem": "33,61 ", "nome_cliente": "PET MARKET ", "uf_cliente": "MT ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"691007 ", "emissao_pv": "06/05/2026 ", "vlr_total_produtos": "913,24 ", "margem": "53,54 ", "nome_cliente": "LABORATORIO BIOCLINI ", "uf_cliente": "RS ", "tipo_cliente": "CONS.FINAL ","vendedor": "V.D INTERNAS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"691009 ", "emissao_pv": "06/05/2026 ", "vlr_total_produtos": "77771,2 ", "margem": "22,84 ", "nome_cliente": "LINEHOSP MEDICAL COM ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"691019 ", "emissao_pv": "06/05/2026 ", "vlr_total_produtos": "6199,63 ", "margem": "25,06 ", "nome_cliente": "LABOCLINICA ", "uf_cliente": "PI ", "tipo_cliente": "CONS.FINAL ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Alvará Sanitário" }
-
-
-
-
-
-
-
-
-
-
+  {"numero_pedido":"691014 ", "emissao_pv": "06/05/2026 ", "vlr_total_produtos": "2256,2 ", "margem": "40,49 ", "nome_cliente": "PERSEVERANTE MEDICAM ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"691019 ", "emissao_pv": "06/05/2026 ", "vlr_total_produtos": "6199,63 ", "margem": "25,06 ", "nome_cliente": "LABOCLINICA ", "uf_cliente": "PI ", "tipo_cliente": "CONS.FINAL ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"691021 ", "emissao_pv": "07/05/2026 ", "vlr_total_produtos": "3400 ", "margem": "2,14 ", "nome_cliente": "BIGMED ", "uf_cliente": "PE ", "tipo_cliente": "REVENDEDOR ","vendedor": "NEOLANDI SANTOS ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"690921 ", "emissao_pv": "06/05/2026 ", "vlr_total_produtos": "1099,6 ", "margem": "37,92 ", "nome_cliente": "LAB ANALISES CLINICA ", "uf_cliente": "PR ", "tipo_cliente": "CONS.FINAL ","vendedor": "V.D INTERNAS ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"690924 ", "emissao_pv": "06/05/2026 ", "vlr_total_produtos": "39584 ", "margem": "32,18 ", "nome_cliente": "SENSORIA SAUD DISTRI ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"690929 ", "emissao_pv": "06/05/2026 ", "vlr_total_produtos": "959,76 ", "margem": "25,98 ", "nome_cliente": "LABORATORIO VETERINA ", "uf_cliente": "AL ", "tipo_cliente": "CONS.FINAL ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"690940 ", "emissao_pv": "06/05/2026 ", "vlr_total_produtos": "810,84 ", "margem": "42,86 ", "nome_cliente": "FERNANDO PIERROTTI S ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. FENIX (SC) ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"690942 ", "emissao_pv": "06/05/2026 ", "vlr_total_produtos": "1221,54 ", "margem": "0 ", "nome_cliente": "AP SERVICOS VETERINA ", "uf_cliente": "AM ", "tipo_cliente": "CONS.FINAL ","vendedor": "E-COMMERCE ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"690946 ", "emissao_pv": "06/05/2026 ", "vlr_total_produtos": "5082,79 ", "margem": "34,64 ", "nome_cliente": "VASCONCELOS LTDA ", "uf_cliente": "AM ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"690973 ", "emissao_pv": "06/05/2026 ", "vlr_total_produtos": "1565 ", "margem": "51,32 ", "nome_cliente": "MARMED HOSPITALAR ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "ALEXANDRA RIBEIRO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"690984 ", "emissao_pv": "06/05/2026 ", "vlr_total_produtos": "1019 ", "margem": "23,21 ", "nome_cliente": "LABORATORIO MELO E O ", "uf_cliente": "MG ", "tipo_cliente": "CONS.FINAL ","vendedor": "REP. CAREMED ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"690993 ", "emissao_pv": "06/05/2026 ", "vlr_total_produtos": "7199,7 ", "margem": "7,53 ", "nome_cliente": "BHFIOS PRODUTOS ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" }
 
  ],
   "tv_alert": {
