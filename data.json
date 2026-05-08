@@ -1,5 +1,5 @@
 {
-  "updated_at": "08/05/2026 07:59",
+  "updated_at": "08/05/2026 08:04",
   "kpis": {
     "notas_em_atraso": 29,
     "previstas_para_hoje": 111,
@@ -18,9 +18,9 @@
     { "status": "Total", "quantidade": 5, "valor": "7205,63" }
  ],
  "recebimento_produtos": [
-   { "embarque": "26.02-MGE",  "tipo": "Container", "data_recebimento": "06/05/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Análise de Qualidade" },
-   { "embarque": "25.07-SHA",  "tipo": "Container", "data_recebimento": "06/05/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Aguardando Complementar" },
-   { "embarque": "26.04-MFE",  "tipo": "Container", "data_recebimento": "07/05/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Aguardando Complementar" }
+   { "embarque": "26.02-MGE",  "tipo": "Container", "data_recebimento": "06/05/26", "confirmado": "Não", "chegou_cd": "Finalizado",  "status": "Análise de Qualidade" },
+   { "embarque": "25.07-SHA",  "tipo": "Container", "data_recebimento": "06/05/26", "confirmado": "Não", "chegou_cd": "Finalizado",  "status": "Aguardando Complementar" },
+   { "embarque": "26.04-MFE",  "tipo": "Container", "data_recebimento": "07/05/26", "confirmado": "Não", "chegou_cd": "Finalizado",  "status": "Aguardando Complementar" }
 
 
 
