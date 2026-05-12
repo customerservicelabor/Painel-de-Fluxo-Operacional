@@ -1,21 +1,21 @@
 {
-  "updated_at": "12/05/2026 15:47",
+  "updated_at": "12/05/2026 15:55",
   "kpis": {
     "notas_em_atraso": 25,
     "previstas_para_hoje": 100,
     "entregues_hoje": 68
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 3, "valor": "9723,2" },
+    { "status": "Aguardando Liberação", "quantidade": 1, "valor": "923" },
     { "status": "Alvará Sanitário", "quantidade": 12, "valor": "54364,12" },
     { "status": "Bloqueado por regra", "quantidade": 4, "valor": "1815,92" },
-    { "status": "Análise de Crédito", "quantidade": 14, "valor": "231425,37" },
-    { "status": "Total em Disputa", "quantidade": 33, "valor": "297328,61" },
+    { "status": "Análise de Crédito", "quantidade": 15, "valor": "232250,82" },
+    { "status": "Total em Disputa", "quantidade": 32, "valor": "289353,86" },
     { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "746,54" },
-    { "status": "Em Separação", "quantidade": 17, "valor": "171912,64" },
+    { "status": "Em Separação", "quantidade": 18, "valor": "172160,17" },
     { "status": "Separado", "quantidade": 6, "valor": "23704,56" },
-    { "status": "Faturado", "quantidade": 73, "valor": "496367,13" },
-    { "status": "Total", "quantidade": 97, "valor": "692730,87" }
+    { "status": "Faturado", "quantidade": 74, "valor": "504919,8" },
+    { "status": "Total", "quantidade": 99, "valor": "701531,07" }
  ],
  "recebimento_produtos": [
    { "embarque": "25.04-AYSET",  "tipo": "Container", "data_recebimento": "12/05/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
@@ -262,8 +262,8 @@
   {"numero_pedido":"691773 ", "emissao_pv": "12/05/2026 ", "vlr_total_produtos": "18780,6 ", "margem": "3,74 ", "nome_cliente": "KIENTRO ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"691804 ", "emissao_pv": "12/05/2026 ", "vlr_total_produtos": "2228 ", "margem": "13,73 ", "nome_cliente": "EUROLLABE ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"691810 ", "emissao_pv": "12/05/2026 ", "vlr_total_produtos": "6180,5 ", "margem": "30,81 ", "nome_cliente": "COMERCIAL CENTRO OES ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"691812 ", "emissao_pv": "12/05/2026 ", "vlr_total_produtos": "6916 ", "margem": "27,52 ", "nome_cliente": "FARMEC DISTRIBUIDORA ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" }
-
+  {"numero_pedido":"691812 ", "emissao_pv": "12/05/2026 ", "vlr_total_produtos": "6916 ", "margem": "27,52 ", "nome_cliente": "FARMEC DISTRIBUIDORA ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"691820 ", "emissao_pv": "12/05/2026 ", "vlr_total_produtos": "825,45 ", "margem": "36,12 ", "nome_cliente": "DOMINIUS ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Análise de Crédito" }
 
 
 
