@@ -1,5 +1,5 @@
 {
-  "updated_at": "13/05/2026 08:15",
+  "updated_at": "13/05/2026 08:38",
   "kpis": {
     "notas_em_atraso": 35,
     "previstas_para_hoje": 98,
@@ -8,18 +8,18 @@
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 1, "valor": "923" },
     { "status": "Alvará Sanitário", "quantidade": 12, "valor": "44143,92" },
-    { "status": "Bloqueado por regra", "quantidade": 2, "valor": "673,11" },
-    { "status": "Análise de Crédito", "quantidade": 12, "valor": "150530,36" },
-    { "status": "Total em Disputa", "quantidade": 27, "valor": "196270,39" },
-    { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "746,54" },
-    { "status": "Em Separação", "quantidade": 2, "valor": "4123,18" },
+    { "status": "Bloqueado por regra", "quantidade": 1, "valor": "341,12" },
+    { "status": "Análise de Crédito", "quantidade": 11, "valor": "167463,39" },
+    { "status": "Total em Disputa", "quantidade": 25, "valor": "212871,43" },
+    { "status": "Aguard. Envio Separação", "quantidade": 3, "valor": "4638,53" },
+    { "status": "Em Separação", "quantidade": 3, "valor": "11030,15" },
     { "status": "Separado", "quantidade": 3, "valor": "19607,85" },
     { "status": "Faturado", "quantidade": 0, "valor": "0" },
-    { "status": "Total", "quantidade": 6, "valor": "24477,57" }
+    { "status": "Total", "quantidade": 9, "valor": "35276,53" }
  ],
  "recebimento_produtos": [
    { "embarque": "25.04-AYSET",  "tipo": "Container", "data_recebimento": "12/05/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
-   { "embarque": "26.02-MEQ-1",  "tipo": "Container", "data_recebimento": "13/05/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
+   { "embarque": "26.02-MEQ-1",  "tipo": "Container", "data_recebimento": "13/05/26", "confirmado": "SIM", "chegou_cd": "Previsto",  "status": "Descarregando" },
    { "embarque": "2026I047",  "tipo": "Container", "data_recebimento": "14/05/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
    { "embarque": "2026I045",  "tipo": "Container", "data_recebimento": "15/05/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
    { "embarque": "25.03-TIANDI",  "tipo": "Container", "data_recebimento": "06/05/26", "confirmado": "SIM", "chegou_cd": "Finalizado",  "status": "Aguardando NF Mãe" },
@@ -243,7 +243,6 @@
   {"numero_pedido":"691049 ", "emissao_pv": "07/05/2026 ", "vlr_total_produtos": "12323,25 ", "margem": "38,83 ", "nome_cliente": "MRL DO BRASIL IMPORT ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"691067 ", "emissao_pv": "07/05/2026 ", "vlr_total_produtos": "1284,7 ", "margem": "27,21 ", "nome_cliente": "ELX HOSPITALAR ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. CAOBIANCO ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"691085 ", "emissao_pv": "07/05/2026 ", "vlr_total_produtos": "5926,9 ", "margem": "11,86 ", "nome_cliente": "CAPARAO MEDICAL LTDA ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"691171 ", "emissao_pv": "07/05/2026 ", "vlr_total_produtos": "6906,97 ", "margem": "48,08 ", "nome_cliente": "LABORATORIO CENTRAL ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"691385 ", "emissao_pv": "11/05/2026 ", "vlr_total_produtos": "83760 ", "margem": "28,48 ", "nome_cliente": "LINEHOSP MEDICAL COM ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"691497 ", "emissao_pv": "11/05/2026 ", "vlr_total_produtos": "2249,5 ", "margem": "25,36 ", "nome_cliente": "ROCHA LIMA ANALISES ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"691536 ", "emissao_pv": "11/05/2026 ", "vlr_total_produtos": "5992 ", "margem": "48,09 ", "nome_cliente": "MED LAGOS CIRURGICA ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Alvará Sanitário" },
@@ -259,8 +258,9 @@
   {"numero_pedido":"691804 ", "emissao_pv": "12/05/2026 ", "vlr_total_produtos": "2228 ", "margem": "13,73 ", "nome_cliente": "EUROLLABE ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"691832 ", "emissao_pv": "12/05/2026 ", "vlr_total_produtos": "810 ", "margem": "50,75 ", "nome_cliente": "VISION MEDICA ", "uf_cliente": "PE ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"691842 ", "emissao_pv": "12/05/2026 ", "vlr_total_produtos": "7100 ", "margem": "43,67 ", "nome_cliente": "MAMEDICO CIRURGICO ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"691850 ", "emissao_pv": "12/05/2026 ", "vlr_total_produtos": "3560 ", "margem": "31,79 ", "nome_cliente": "HOSPITAMED DENTAL ", "uf_cliente": "AC ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. FEMA ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"691862 ", "emissao_pv": "12/05/2026 ", "vlr_total_produtos": "2331 ", "margem": "29,12 ", "nome_cliente": "DENTARIA KLYMUS LTDA ", "uf_cliente": "RS ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. LM ", "ultimo_status": "Alvará Sanitário" }
+  {"numero_pedido":"691862 ", "emissao_pv": "12/05/2026 ", "vlr_total_produtos": "2331 ", "margem": "29,12 ", "nome_cliente": "DENTARIA KLYMUS LTDA ", "uf_cliente": "RS ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. LM ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"691876 ", "emissao_pv": "13/05/2026 ", "vlr_total_produtos": "27400 ", "margem": "39,75 ", "nome_cliente": "MSI COMERCIO MATERIA ", "uf_cliente": "MA ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" }
+
 
 
 
