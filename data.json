@@ -1,5 +1,5 @@
 {
-  "updated_at": "14/05/2026 08:15",
+  "updated_at": "14/05/2026 08:29",
   "kpis": {
     "notas_em_atraso": 36,
     "previstas_para_hoje": 108,
@@ -18,8 +18,8 @@
     { "status": "Total", "quantidade": 14, "valor": "767081,45" }
  ],
  "recebimento_produtos": [
-   { "embarque": "25.04-AYSET",  "tipo": "Container", "data_recebimento": "12/05/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
-   { "embarque": "26.02-MEQ-1",  "tipo": "Container", "data_recebimento": "13/05/26", "confirmado": "SIM", "chegou_cd": "Previsto",  "status": "Descarregando" },
+   { "embarque": "25.04-AYSET",  "tipo": "Container", "data_recebimento": "12/05/26", "confirmado": "SIM", "chegou_cd": "Previsto",  "status": "Descarregando" },
+   { "embarque": "26.02-MEQ-1",  "tipo": "Container", "data_recebimento": "13/05/26", "confirmado": "SIM", "chegou_cd": "Finalizado",  "status": "Aguardando Complementar" },
    { "embarque": "2026I047",  "tipo": "Container", "data_recebimento": "14/05/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
    { "embarque": "2026I045",  "tipo": "Container", "data_recebimento": "15/05/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
    { "embarque": "25.03-TIANDI",  "tipo": "Container", "data_recebimento": "06/05/26", "confirmado": "SIM", "chegou_cd": "Finalizado",  "status": "Aguardando NF Mãe" },
