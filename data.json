@@ -1,5 +1,5 @@
 {
-  "updated_at": "15/05/2026 09:54",
+  "updated_at": "15/05/2026 10:10",
   "kpis": {
     "notas_em_atraso": 37,
     "previstas_para_hoje": 104,
@@ -22,12 +22,12 @@
    { "embarque": "26.02-MEQ-1",  "tipo": "Container", "data_recebimento": "13/05/26", "confirmado": "SIM", "chegou_cd": "Finalizado",  "status": "Aguardando Complementar" },
    { "embarque": "2026I047",  "tipo": "Container", "data_recebimento": "14/05/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
    { "embarque": "2026I045",  "tipo": "Container", "data_recebimento": "15/05/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
-   { "embarque": "25.03-TIANDI",  "tipo": "Container", "data_recebimento": "06/05/26", "confirmado": "SIM", "chegou_cd": "Finalizado",  "status": "Aguardando NF Mãe" },
-   { "embarque": "25.06-DAILY",  "tipo": "Container", "data_recebimento": "06/05/26", "confirmado": "SIM", "chegou_cd": "Finalizado",  "status": "Aguardando NF Mãe" },
-   { "embarque": "25.01-TIANDA",  "tipo": "Container", "data_recebimento": "06/05/26", "confirmado": "SIM", "chegou_cd": "Finalizado",  "status": "Aguardando NF Mãe" },
-   { "embarque": "25.07-NOVEL",  "tipo": "Container", "data_recebimento": "06/05/26", "confirmado": "SIM", "chegou_cd": "Finalizado",  "status": "Aguardando NF Mãe" },
-   { "embarque": "26.04-MFE-1",  "tipo": "Container", "data_recebimento": "07/05/26", "confirmado": "SIM", "chegou_cd": "Finalizado",  "status": "Aguardando NF Mãe" },
-   { "embarque": "26.02-MAGUSERIN ",  "tipo": "Container", "data_recebimento": "07/05/26", "confirmado": "SIM", "chegou_cd": "Finalizado",  "status": "Aguardando NF Mãe" }
+   { "embarque": "IMP00011-BIOMED",  "tipo": "Container", "data_recebimento": "15/05/26", "confirmado": "SIM", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
+   { "embarque": "IMP00001-POLYMED",  "tipo": "Container", "data_recebimento": "19/05/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
+   { "embarque": "IMP00004-POLYMED",  "tipo": "Container", "data_recebimento": "19/05/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
+   { "embarque": "IMP00007-VITROMED",  "tipo": "Container", "data_recebimento": "19/05/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
+   { "embarque": "25.16-VITRO",  "tipo": "Container", "data_recebimento": "19/05/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
+   { "embarque": "25.04-PHOENIX",  "tipo": "Container", "data_recebimento": "20/05/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Aguardando Programação" }
 
 
 
