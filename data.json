@@ -1,21 +1,21 @@
 {
-  "updated_at": "18/05/2026 13:04",
+  "updated_at": "18/05/2026 14:22",
   "kpis": {
     "notas_em_atraso": 20,
     "previstas_para_hoje": 95,
     "entregues_hoje": 60
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 1, "valor": "15200" },
-    { "status": "Alvará Sanitário", "quantidade": 19, "valor": "58478,33" },
+    { "status": "Aguardando Liberação", "quantidade": 2, "valor": "16007" },
+    { "status": "Alvará Sanitário", "quantidade": 17, "valor": "50478,33" },
     { "status": "Bloqueado por regra", "quantidade": 1, "valor": "381,11" },
-    { "status": "Análise de Crédito", "quantidade": 17, "valor": "244800,91" },
-    { "status": "Total em Disputa", "quantidade": 38, "valor": "318860,35" },
+    { "status": "Análise de Crédito", "quantidade": 20, "valor": "255227,91" },
+    { "status": "Total em Disputa", "quantidade": 40, "valor": "322094,35" },
     { "status": "Aguard. Envio Separação", "quantidade": 5, "valor": "26437,45" },
-    { "status": "Em Separação", "quantidade": 28, "valor": "144462,65" },
-    { "status": "Separado", "quantidade": 2, "valor": "4338" },
+    { "status": "Em Separação", "quantidade": 22, "valor": "105408,34" },
+    { "status": "Separado", "quantidade": 10, "valor": "51242,31" },
     { "status": "Faturado", "quantidade": 17, "valor": "125550,95" },
-    { "status": "Total", "quantidade": 52, "valor": "300789,05" }
+    { "status": "Total", "quantidade": 54, "valor": "308639,05" }
  ],
  "recebimento_produtos": [
    { "embarque": "25.04-AYSET",  "tipo": "Container", "data_recebimento": "12/05/26", "confirmado": "SIM", "chegou_cd": "Previsto",  "status": "Aguardando NF Mãe" },
@@ -239,7 +239,7 @@
 "pedidos_nao_faturados": [
   {"numero_pedido":"691067 ", "emissao_pv": "07/05/2026 ", "vlr_total_produtos": "1284,7 ", "margem": "27,21 ", "nome_cliente": "ELX HOSPITALAR ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. CAOBIANCO ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"691704 ", "emissao_pv": "12/05/2026 ", "vlr_total_produtos": "2252,2 ", "margem": "36,33 ", "nome_cliente": "BRONSTEIN-DASA ", "uf_cliente": "RJ ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOAO NETO ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"691842 ", "emissao_pv": "12/05/2026 ", "vlr_total_produtos": "7100 ", "margem": "43,67 ", "nome_cliente": "MAMEDICO CIRURGICO ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"691842 ", "emissao_pv": "12/05/2026 ", "vlr_total_produtos": "7100 ", "margem": "43,67 ", "nome_cliente": "MAMEDICO CIRURGICO ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"691880 ", "emissao_pv": "12/05/2026 ", "vlr_total_produtos": "287,2 ", "margem": "0 ", "nome_cliente": "CLINICA VETERINARIA ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "E-COMMERCE ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"691935 ", "emissao_pv": "13/05/2026 ", "vlr_total_produtos": "959,76 ", "margem": "25,98 ", "nome_cliente": "LABORATORIO VETERINA ", "uf_cliente": "AL ", "tipo_cliente": "CONS.FINAL ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"692080 ", "emissao_pv": "14/05/2026 ", "vlr_total_produtos": "6013 ", "margem": "30,01 ", "nome_cliente": "CIRURGICA ABREU LTDA ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Análise de Crédito" },
@@ -272,7 +272,7 @@
   {"numero_pedido":"692643 ", "emissao_pv": "18/05/2026 ", "vlr_total_produtos": "777,98 ", "margem": "22,23 ", "nome_cliente": "ASSOC SANTAMARENSE B ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"692652 ", "emissao_pv": "18/05/2026 ", "vlr_total_produtos": "1347,53 ", "margem": "38,13 ", "nome_cliente": "CENTRO DIAGNOSTICO N ", "uf_cliente": "PB ", "tipo_cliente": "CONS.FINAL ","vendedor": "NEOLANDI SANTOS ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"692662 ", "emissao_pv": "18/05/2026 ", "vlr_total_produtos": "11112 ", "margem": "26,85 ", "nome_cliente": "IMEDIATA ", "uf_cliente": "PI ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"692664 ", "emissao_pv": "18/05/2026 ", "vlr_total_produtos": "900 ", "margem": "42,73 ", "nome_cliente": "DENTAL INOVAR ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. CAREMED ", "ultimo_status": "Alvará Sanitário" }
+  {"numero_pedido":"692664 ", "emissao_pv": "18/05/2026 ", "vlr_total_produtos": "900 ", "margem": "42,73 ", "nome_cliente": "DENTAL INOVAR ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. CAREMED ", "ultimo_status": "Análise de Crédito" }
 
  ],
   "tv_alert": {
