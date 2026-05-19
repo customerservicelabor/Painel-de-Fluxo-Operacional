@@ -1,5 +1,5 @@
 {
-  "updated_at": "19/05/2026 13:12",
+  "updated_at": "19/05/2026 13:16",
   "kpis": {
     "notas_em_atraso": 26,
     "previstas_para_hoje": 87,
@@ -12,10 +12,10 @@
     { "status": "Análise de Crédito", "quantidade": 12, "valor": "95181,74" },
     { "status": "Total em Disputa", "quantidade": 28, "valor": "144276,26" },
     { "status": "Aguard. Envio Separação", "quantidade": 4, "valor": "25603,32" },
-    { "status": "Em Separação", "quantidade": 4, "valor": "471474,44" },
+    { "status": "Em Separação", "quantidade": 3, "valor": "11847,6" },
     { "status": "Separado", "quantidade": 2, "valor": "4338" },
     { "status": "Faturado", "quantidade": 7, "valor": "71228" },
-    { "status": "Total", "quantidade": 17, "valor": "572643,76" }
+    { "status": "Total", "quantidade": 16, "valor": "113016,92" }
  ],
  "recebimento_produtos": [
    { "embarque": "25.04-AYSET",  "tipo": "Container", "data_recebimento": "12/05/26", "confirmado": "SIM", "chegou_cd": "Previsto",  "status": "Aguardando NF Mãe" },
