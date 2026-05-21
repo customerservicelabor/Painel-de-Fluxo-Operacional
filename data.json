@@ -1,7 +1,7 @@
 {
-  "updated_at": "21/05/2026 12:01",
+  "updated_at": "21/05/2026 13:11",
   "kpis": {
-    "notas_em_atraso": 24,
+    "notas_em_atraso": 18,
     "previstas_para_hoje": 99,
     "entregues_hoje": 79
   },
@@ -9,13 +9,13 @@
     { "status": "Aguardando Liberação", "quantidade": 4, "valor": "45462,47" },
     { "status": "Alvará Sanitário", "quantidade": 10, "valor": "16420,07" },
     { "status": "Bloqueado por regra", "quantidade": 6, "valor": "10908,93" },
-    { "status": "Análise de Crédito", "quantidade": 10, "valor": "186867,04" },
-    { "status": "Total em Disputa", "quantidade": 30, "valor": "259658,51" },
-    { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "13,38" },
-    { "status": "Em Separação", "quantidade": 22, "valor": "132908,47" },
-    { "status": "Separado", "quantidade": 4, "valor": "32983,7" },
-    { "status": "Faturado", "quantidade": 14, "valor": "78211,16" },
-    { "status": "Total", "quantidade": 41, "valor": "244116,71" }
+    { "status": "Análise de Crédito", "quantidade": 12, "valor": "210685,04" },
+    { "status": "Total em Disputa", "quantidade": 32, "valor": "283476,51" },
+    { "status": "Aguard. Envio Separação", "quantidade": 2, "valor": "168,99" },
+    { "status": "Em Separação", "quantidade": 16, "valor": "90027,79" },
+    { "status": "Separado", "quantidade": 3, "valor": "6321,7" },
+    { "status": "Faturado", "quantidade": 25, "valor": "156091,46" },
+    { "status": "Total", "quantidade": 46, "valor": "252609,94" }
  ],
  "recebimento_produtos": [
    { "embarque": "25.04-AYSET",  "tipo": "Container", "data_recebimento": "12/05/26", "confirmado": "SIM", "chegou_cd": "Finalizado",  "status": "Finalizado" },
@@ -248,17 +248,17 @@
   {"numero_pedido":"692981 ", "emissao_pv": "19/05/2026 ", "vlr_total_produtos": "123402,5 ", "margem": "26,45 ", "nome_cliente": "LINEHOSP MEDICAL COM ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"693001 ", "emissao_pv": "20/05/2026 ", "vlr_total_produtos": "816 ", "margem": "15,15 ", "nome_cliente": "P M S SAUDE ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"693075 ", "emissao_pv": "20/05/2026 ", "vlr_total_produtos": "1710,01 ", "margem": "37,87 ", "nome_cliente": "LABORATORIO ELISA LT ", "uf_cliente": "SC ", "tipo_cliente": "CONS.FINAL ","vendedor": "V.D INTERNAS ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"693094 ", "emissao_pv": "20/05/2026 ", "vlr_total_produtos": "2788,5 ", "margem": "46,14 ", "nome_cliente": "NEW LIFE ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"693111 ", "emissao_pv": "20/05/2026 ", "vlr_total_produtos": "12027,6 ", "margem": "29,35 ", "nome_cliente": "OUR COMPANY ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"693142 ", "emissao_pv": "20/05/2026 ", "vlr_total_produtos": "7410,14 ", "margem": "33,15 ", "nome_cliente": "EMED ", "uf_cliente": "PA ", "tipo_cliente": "CONS.FINAL ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"693157 ", "emissao_pv": "20/05/2026 ", "vlr_total_produtos": "6046,8 ", "margem": "25,58 ", "nome_cliente": "VETSHOP COMERCIO DE ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"693178 ", "emissao_pv": "20/05/2026 ", "vlr_total_produtos": "3905 ", "margem": "30,28 ", "nome_cliente": "IMPACTA MED ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOAO NETO ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"693232 ", "emissao_pv": "20/05/2026 ", "vlr_total_produtos": "4755 ", "margem": "49,72 ", "nome_cliente": "CENTROMED ", "uf_cliente": "PI ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"693238 ", "emissao_pv": "20/05/2026 ", "vlr_total_produtos": "1357 ", "margem": "23,99 ", "nome_cliente": "PAVA HOSPITALAR ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"693254 ", "emissao_pv": "21/05/2026 ", "vlr_total_produtos": "1030,96 ", "margem": "26,16 ", "nome_cliente": "HOSPITALAR SHOP ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. CAOBIANCO ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"693277 ", "emissao_pv": "21/05/2026 ", "vlr_total_produtos": "3938,5 ", "margem": "35,49 ", "nome_cliente": "CISPRIME LTDA ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Análise de Crédito" }
-
-
+  {"numero_pedido":"693277 ", "emissao_pv": "21/05/2026 ", "vlr_total_produtos": "3938,5 ", "margem": "35,49 ", "nome_cliente": "CISPRIME LTDA ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"693315 ", "emissao_pv": "21/05/2026 ", "vlr_total_produtos": "2437 ", "margem": "43,81 ", "nome_cliente": "DR  ESTOQUE COMERCIO ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"693321 ", "emissao_pv": "21/05/2026 ", "vlr_total_produtos": "1470,5 ", "margem": "27,54 ", "nome_cliente": "INOVA DIAGNOSTICOS ", "uf_cliente": "SC ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"693323 ", "emissao_pv": "21/05/2026 ", "vlr_total_produtos": "13509 ", "margem": "36,24 ", "nome_cliente": "NCA MEDICAL ", "uf_cliente": "AM ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. TURCATO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"693325 ", "emissao_pv": "21/05/2026 ", "vlr_total_produtos": "10547 ", "margem": "22,94 ", "nome_cliente": "MJP PRODUTOS DESCART ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" }
 
 
 
