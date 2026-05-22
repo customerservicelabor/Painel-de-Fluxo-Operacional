@@ -1,5 +1,5 @@
 {
-  "updated_at": "22/05/2026 15:51",
+  "updated_at": "22/05/2026 15:56",
   "kpis": {
   },
   "pedidos_status": [
@@ -115,5 +115,6 @@
     { "nome": "Área de Qualidade", "taxa": 22.46},
     { "nome": "Área de Amostra", "taxa": 0.00},
     { "nome": "Área de Avarias", "taxa": 25.58}
-  ]
+]
+}
 }
