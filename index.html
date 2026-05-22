@@ -1266,7 +1266,148 @@
       min-height: 0;
     }
 
+    /* ===== CAPACIDADE DO ARMAZÉM ===== */
+    .capacidadePanel{
+      min-height: var(--bottomPanelH);
+      height: var(--bottomPanelH);
+      background: rgba(255,255,255,.06);
+      border: 1px solid rgba(255,255,255,.10);
+      color: var(--text);
+    }
+
+    .capacidadePanel .ph{
+      background: rgba(0,0,0,.14);
+      border-bottom: 1px solid rgba(255,255,255,.10);
+      padding: 12px 14px;
+      min-height: 48px;
+    }
+
+    .capacidadeBody{
+      flex:1 1 auto;
+      padding: 14px 16px;
+      background: linear-gradient(180deg, #071a2c, #061423);
+      display:grid;
+      grid-template-columns: .9fr 1.1fr;
+      gap: 16px;
+      min-height:0;
+    }
+
+    .capacidadeGaugeBox{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      border-right:1px solid rgba(255,255,255,.12);
+      min-width:0;
+    }
+
+    .capacidadeGaugeBox svg{
+      width:100%;
+      max-width:330px;
+      height:auto;
+      overflow:visible;
+    }
+
+    .capacidadeAreas{
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      min-width:0;
+    }
+
+    .capacidadeSecaoTitulo{
+      color:#38bdf8;
+      font-weight:900;
+      text-transform:uppercase;
+      font-size:14px;
+      margin-bottom:10px;
+      letter-spacing:.35px;
+    }
+
+    .capacidadeAreaItem{
+      display:grid;
+      grid-template-columns: 150px 1fr 72px;
+      gap:10px;
+      align-items:center;
+      padding:9px 0;
+      border-bottom:1px solid rgba(255,255,255,.08);
+    }
+
+    .capacidadeAreaNome{
+      font-size:14px;
+      font-weight:750;
+      color:rgba(233,236,245,.92);
+      line-height:1.15;
+    }
+
+    .capacidadeBarra{
+      height:10px;
+      border-radius:999px;
+      background:rgba(255,255,255,.08);
+      overflow:hidden;
+    }
+
+    .capacidadeFill{
+      height:100%;
+      border-radius:999px;
+      background:#22c55e;
+      transition: width .6s ease;
+    }
+
+    .capacidadeFill.warn{ background:#fbbf24; }
+    .capacidadeFill.bad{ background:#ef4444; }
+
+    .capacidadeValor{
+      text-align:right;
+      font-weight:950;
+      font-size:18px;
+      color:#fff;
+      white-space:nowrap;
+    }
+
+    .ocupacaoOperacionalBox{
+      margin-top:14px;
+      padding:12px 14px;
+      border-radius:14px;
+      background:rgba(255,255,255,.07);
+      border:1px solid rgba(255,255,255,.10);
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:12px;
+    }
+
+    .ocupacaoOperacionalBox strong{
+      display:block;
+      color:#38bdf8;
+      font-size:14px;
+      text-transform:uppercase;
+    }
+
+    .ocupacaoOperacionalBox span{
+      display:block;
+      color:rgba(233,236,245,.72);
+      font-size:12px;
+      margin-top:3px;
+    }
+
+    #ocupacaoOperacionalValor{
+      font-size:28px;
+      font-weight:950;
+      color:#fff;
+      white-space:nowrap;
+    }
+
     @media (max-width: 1200px){
+      .capacidadeBody{
+        grid-template-columns:1fr;
+      }
+      .capacidadeGaugeBox{
+        border-right:0;
+        border-bottom:1px solid rgba(255,255,255,.12);
+        padding-bottom:12px;
+      }
+    }
+
       .expedicaoIndicadores{
         height: auto;
         min-height: 0;
@@ -1382,26 +1523,27 @@
     </section>
 
     <section class="grid2">
-<div class="panel panelDark expedicaoPanel" id="panelExpedicao">
+<div class="panel panelDark capacidadePanel" id="panelExpedicao">
         <div class="ph">
-          <div class="ttl">Notas em Atraso</div>
-          <div class="badge" id="atrasoCount">— itens</div>
+          <div class="ttl">Capacidade do Armazém</div>
+          <div class="badge" id="capacidadeStatus">—</div>
         </div>
 
-        <div class="scroll" id="scrollAtraso" style="flex:1 1 auto; min-height:0;">
-          <table class="headDark">
-            <thead>
-              <tr>
-                <th>NF</th>
-                <th>Destinatário</th>
-                <th>Transportador</th>
-                <th>Previsão</th>
-                <th>Ocorrência</th>
-                <th>Dias</th>
-              </tr>
-            </thead>
-            <tbody id="tbodyAtraso"></tbody>
-          </table>
+        <div class="capacidadeBody">
+          <div class="capacidadeGaugeBox" id="capacidadeGauge"></div>
+
+          <div class="capacidadeAreas">
+            <div class="capacidadeSecaoTitulo">Ocupação por área</div>
+            <div id="capacidadeAreasList"></div>
+
+            <div class="ocupacaoOperacionalBox">
+              <div>
+                <strong>Ocupação Operacional</strong>
+                <span>Áreas disponíveis para operação</span>
+              </div>
+              <div id="ocupacaoOperacionalValor">—</div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -1581,13 +1723,6 @@ function startAutoScroll(el, {
 
     function initAutoScrollTV() {
   stopAllAutoScroll();
-
-  autoScrollInstances.push(
-    startAutoScroll(document.getElementById('scrollAtraso'), {
-      speedPxPerTick: 1,
-      tickMs: 55
-    })
-  );
 
   autoScrollInstances.push(
     startAutoScroll(document.getElementById('scrollRecebimento'), {
@@ -2017,37 +2152,90 @@ function startAutoScroll(el, {
     }
 
     function renderTables(data, carrier){
-      const now = parseUpdatedDate(data.updated_at);
+      const defaultEstoque = {
+        ocupacao_total_armazem: 63.29,
+        ocupacao_operacional: 68.67,
+        areas: [
+          { nome: 'Picking', taxa: 85.75 },
+          { nome: 'Pulmão de Abastecimento', taxa: 65.53 },
+          { nome: 'Flowrack', taxa: 43.86 },
+          { nome: 'Área de Qualidade', taxa: 22.46 },
+          { nome: 'Área de Amostra', taxa: 0.00 },
+          { nome: 'Área de Avarias', taxa: 25.58 }
+        ]
+      };
 
-      const atrasoAll = (data.notas_em_atraso || []).slice()
-        .sort((a,b) => String(a.previsao_entrega || '').localeCompare(String(b.previsao_entrega || '')));
+      const estoque = data.estoque || defaultEstoque;
+      const ocupacaoTotal = parsePercentFlex(estoque.ocupacao_total_armazem);
+      const ocupacaoOperacional = parsePercentFlex(estoque.ocupacao_operacional);
+      const areas = Array.isArray(estoque.areas) ? estoque.areas : defaultEstoque.areas;
 
-      const atrasoList = applyCarrierFilter(atrasoAll, carrier);
-
-      const atrasoCountEl = document.getElementById('atrasoCount');
-      const atrasoBody = document.getElementById('tbodyAtraso');
-      if (!atrasoCountEl || !atrasoBody) return;
-
-      atrasoCountEl.textContent = `${atrasoList.length} itens`;
-      atrasoBody.innerHTML = '';
-
-      for (const it of atrasoList){
-        const prev = parseDateFlex(it.previsao_entrega);
-        const lateDays = prev ? Math.max(0, daysDiff(now, prev)) : 0;
-        const pillClass = lateDays >= 10 ? 'pill bad' : (lateDays >= 5 ? 'pill' : 'pill good');
-        const ocorr = (it.ocorrencia && String(it.ocorrencia).trim()) ? String(it.ocorrencia).trim() : '—';
-
-        const tr = document.createElement('tr');
-        tr.innerHTML = `
-          <td><strong>${String(it.nota_fiscal ?? '—').trim()}</strong></td>
-          <td>${String(it.destinatario ?? '—').trim()}</td>
-          <td><span class="muted">${String(it.transportador ?? '—').trim()}</span></td>
-          <td>${formatBRDateFlex(it.previsao_entrega)}</td>
-          <td>${ocorr}</td>
-          <td><span class="${pillClass}">${lateDays}d</span></td>
-        `;
-        atrasoBody.appendChild(tr);
+      const statusEl = document.getElementById('capacidadeStatus');
+      if (statusEl){
+        if (ocupacaoTotal >= 85) statusEl.textContent = 'Capacidade crítica';
+        else if (ocupacaoTotal >= 70) statusEl.textContent = 'Atenção';
+        else statusEl.textContent = 'Capacidade saudável';
       }
+
+      renderCapacidadeGauge(ocupacaoTotal);
+
+      const listEl = document.getElementById('capacidadeAreasList');
+      if (listEl){
+        listEl.innerHTML = '';
+
+        for (const item of areas){
+          const taxa = parsePercentFlex(item.taxa);
+          const fillClass = taxa >= 85 ? 'bad' : (taxa >= 70 ? 'warn' : '');
+          const width = Math.max(0, Math.min(100, Number.isFinite(taxa) ? taxa : 0));
+
+          const row = document.createElement('div');
+          row.className = 'capacidadeAreaItem';
+          row.innerHTML = `
+            <div class="capacidadeAreaNome">${item.nome || '—'}</div>
+            <div class="capacidadeBarra">
+              <div class="capacidadeFill ${fillClass}" style="width:${width}%"></div>
+            </div>
+            <div class="capacidadeValor">${pctText(taxa)}</div>
+          `;
+          listEl.appendChild(row);
+        }
+      }
+
+      const opEl = document.getElementById('ocupacaoOperacionalValor');
+      if (opEl) opEl.textContent = pctText(ocupacaoOperacional);
+    }
+
+    function renderCapacidadeGauge(valor){
+      const el = document.getElementById('capacidadeGauge');
+      if (!el) return;
+
+      const safe = Math.max(0, Math.min(100, Number(valor) || 0));
+      const cx = 130;
+      const cy = 130;
+      const r = 92;
+      const stroke = 24;
+      const angle = -90 + (safe / 100) * 180;
+      const needle = polarToCartesian(cx, cy, r - 22, angle);
+
+      el.innerHTML = `
+        <svg viewBox="0 0 260 190" aria-label="Ocupação total do armazém">
+          <path d="${describeArc(cx, cy, r, -90, 36)}" stroke="#22c55e" stroke-width="${stroke}" fill="none" stroke-linecap="round"/>
+          <path d="${describeArc(cx, cy, r, 36, 63)}" stroke="#fbbf24" stroke-width="${stroke}" fill="none"/>
+          <path d="${describeArc(cx, cy, r, 63, 90)}" stroke="#ef4444" stroke-width="${stroke}" fill="none" stroke-linecap="round"/>
+
+          <text x="34" y="140" text-anchor="middle" fill="rgba(233,236,245,.88)" font-size="10" font-weight="800">0%</text>
+          <text x="91" y="47" text-anchor="middle" fill="rgba(233,236,245,.88)" font-size="10" font-weight="800">50%</text>
+          <text x="177" y="47" text-anchor="middle" fill="rgba(233,236,245,.88)" font-size="10" font-weight="800">70%</text>
+          <text x="216" y="82" text-anchor="middle" fill="rgba(233,236,245,.88)" font-size="10" font-weight="800">85%</text>
+          <text x="226" y="140" text-anchor="middle" fill="rgba(233,236,245,.88)" font-size="10" font-weight="800">100%</text>
+
+          <line x1="${cx}" y1="${cy}" x2="${needle.x}" y2="${needle.y}" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+          <circle cx="${cx}" cy="${cy}" r="8" fill="#d1d5db"/>
+
+          <text x="${cx}" y="144" text-anchor="middle" fill="#fff" font-size="42" font-weight="950">${pctText(safe)}</text>
+          <text x="${cx}" y="172" text-anchor="middle" fill="rgba(233,236,245,.86)" font-size="12" font-weight="900">OCUPAÇÃO TOTAL DO ARMAZÉM</text>
+        </svg>
+      `;
     }
 
     function pctText(value){
