@@ -1302,9 +1302,10 @@
 
     .capacidadeGaugeBox svg{
       width:100%;
-      max-width:330px;
+      max-width:390px;
       height:auto;
       overflow:visible;
+      display:block;
     }
 
     .capacidadeAreas{
@@ -1406,7 +1407,6 @@
         border-bottom:1px solid rgba(255,255,255,.12);
         padding-bottom:12px;
       }
-    }
 
       .expedicaoIndicadores{
         height: auto;
@@ -2210,30 +2210,27 @@ function startAutoScroll(el, {
       if (!el) return;
 
       const safe = Math.max(0, Math.min(100, Number(valor) || 0));
-      const cx = 130;
-      const cy = 130;
-      const r = 92;
+
+      const cx = 160;
+      const cy = 145;
+      const r = 108;
       const stroke = 24;
+
+      // escala semicircular: 0% = esquerda, 100% = direita
       const angle = -90 + (safe / 100) * 180;
-      const needle = polarToCartesian(cx, cy, r - 22, angle);
+      const needle = polarToCartesian(cx, cy, r - 30, angle);
 
       el.innerHTML = `
-        <svg viewBox="0 0 260 190" aria-label="Ocupação total do armazém">
+        <svg viewBox="0 0 320 255" aria-label="Ocupação total do armazém">
           <path d="${describeArc(cx, cy, r, -90, 36)}" stroke="#22c55e" stroke-width="${stroke}" fill="none" stroke-linecap="round"/>
           <path d="${describeArc(cx, cy, r, 36, 63)}" stroke="#fbbf24" stroke-width="${stroke}" fill="none"/>
           <path d="${describeArc(cx, cy, r, 63, 90)}" stroke="#ef4444" stroke-width="${stroke}" fill="none" stroke-linecap="round"/>
 
-          <text x="34" y="140" text-anchor="middle" fill="rgba(233,236,245,.88)" font-size="10" font-weight="800">0%</text>
-          <text x="91" y="47" text-anchor="middle" fill="rgba(233,236,245,.88)" font-size="10" font-weight="800">50%</text>
-          <text x="177" y="47" text-anchor="middle" fill="rgba(233,236,245,.88)" font-size="10" font-weight="800">70%</text>
-          <text x="216" y="82" text-anchor="middle" fill="rgba(233,236,245,.88)" font-size="10" font-weight="800">85%</text>
-          <text x="226" y="140" text-anchor="middle" fill="rgba(233,236,245,.88)" font-size="10" font-weight="800">100%</text>
-
-          <line x1="${cx}" y1="${cy}" x2="${needle.x}" y2="${needle.y}" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+          <line x1="${cx}" y1="${cy}" x2="${needle.x}" y2="${needle.y}" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
           <circle cx="${cx}" cy="${cy}" r="8" fill="#d1d5db"/>
 
-          <text x="${cx}" y="144" text-anchor="middle" fill="#fff" font-size="42" font-weight="950">${pctText(safe)}</text>
-          <text x="${cx}" y="172" text-anchor="middle" fill="rgba(233,236,245,.86)" font-size="12" font-weight="900">OCUPAÇÃO TOTAL DO ARMAZÉM</text>
+          <text x="${cx}" y="210" text-anchor="middle" fill="#ffffff" font-size="46" font-weight="950">${pctText(safe)}</text>
+          <text x="${cx}" y="238" text-anchor="middle" fill="rgba(233,236,245,.86)" font-size="13" font-weight="900">OCUPAÇÃO TOTAL DO ARMAZÉM</text>
         </svg>
       `;
     }
