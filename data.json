@@ -15,13 +15,14 @@
     { "status": "Total", "quantidade": 5, "valor": "10900,1" }
  ],
  "recebimento_produtos": [
-   { "embarque": "IMP00009-SR",  "tipo": "1 Carreta", "data_recebimento": "25/05/26", "confirmado": "SIM", "chegou_cd": "Previsto",  "status": "Descarregando" },
-   { "embarque": "25.04-HONGDA",  "tipo": "1 Container", "data_recebimento": "25/05/26", "confirmado": "AG. CANAL", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
-   { "embarque": "IMP00004-POLYMED",  "tipo": "1 Container", "data_recebimento": "26/05/26", "confirmado": "AG. REGISTRO", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
-   { "embarque": "IMP00007-VITROMED",  "tipo": "1 Container", "data_recebimento": "26/05/26", "confirmado": "AG. REGISTRO", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
-   { "embarque": "IMP00001-POLYMED",  "tipo": "1 Container", "data_recebimento": "26/05/26", "confirmado": "CANAL AMARELO", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
-   { "embarque": "26.02-WEIGAO",  "tipo": "2 Container", "data_recebimento": "27/05/26", "confirmado": "CANAL AMARELO", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
-   { "embarque": "2026I091 (26.03-MGE-2  + 26.01-MAGU-2)",  "tipo": "4 Container", "data_recebimento": "27/05/26", "confirmado": "ATRACAÇÃO PREVISTA PARA HOJE", "chegou_cd": "Previsto",  "status": "Aguardando Programação" }
+   { "embarque": "IMP00009-SR",  "tipo": "1 Carreta", "data_recebimento": "25/05/26", "confirmado": "Ag. Complementar", "chegou_cd": "Chegada as 08:00",  "status": "Descarregando" },
+   { "embarque": "25.04-HONGDA",  "tipo": "1 Container", "data_recebimento": "25/05/26", "confirmado": "Canal Amarelo", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
+   { "embarque": "26.02-WEIGAO",  "tipo": "2 Container", "data_recebimento": "27/05/26", "confirmado": "Canal Amarelo", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
+   { "embarque": "2026I091 (26.03-MGE-2  + 26.01-MAGU-2)",  "tipo": "4 Container", "data_recebimento": "27/05/26", "confirmado": "Ag. Canal", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
+   { "embarque": "IMP00004-POLYMED",  "tipo": "1 Container", "data_recebimento": "01/06/26", "confirmado": "Ag. Registro", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
+   { "embarque": "IMP00007-VITROMED",  "tipo": "1 Container", "data_recebimento": "01/06/26", "confirmado": "Ag. Registro", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
+   { "embarque": "IMP00001-POLYMED",  "tipo": "1 Container", "data_recebimento": "01/06/26", "confirmado": "Ag. Registro", "chegou_cd": "Previsto",  "status": "Aguardando Programação" }
+
 
 
 
