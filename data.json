@@ -1,5 +1,5 @@
 {
-  "updated_at": "25/05/2026 08:24",
+  "updated_at": "25/05/2026 08:35",
   "kpis": {
   },
   "pedidos_status": [
@@ -10,9 +10,9 @@
     { "status": "Total em Disputa", "quantidade": 27, "valor": "243146,75" },
     { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "915" },
     { "status": "Em Separação", "quantidade": 4, "valor": "9985,1" },
-    { "status": "Separado", "quantidade": 3, "valor": "6321,7" },
+    { "status": "Separado", "quantidade": 0, "valor": "0" },
     { "status": "Faturado", "quantidade": 0, "valor": "0" },
-    { "status": "Total", "quantidade": 8, "valor": "17221,8" }
+    { "status": "Total", "quantidade": 5, "valor": "10900,1" }
  ],
  "recebimento_produtos": [
    { "embarque": "IMP00009-SR",  "tipo": "1 Carreta", "data_recebimento": "25/05/26", "confirmado": "SIM", "chegou_cd": "Previsto",  "status": "Descarregando" },
