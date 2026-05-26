@@ -1,5 +1,5 @@
 {
-  "updated_at": "26/05/2026 14:40",
+  "updated_at": "26/05/2026 14:50",
   "kpis": {
   },
   "pedidos_status": [
@@ -83,18 +83,18 @@
   "performance_gerencial": {
     "mes_atual": {
      "periodo": "maio/2026",
-     "frete_pago": "402862,48",
-     "faturamento": "10209668,46",
-     "frete_repassado": "324707,79",
-     "entrega_realizada": "1029",
-     "entrega_no_prazo": "1004",
-     "qtd_notas_fiscais": "1512",
-     "entrega_fora_prazo": "27"
+     "frete_pago": "409880,81",
+     "faturamento": "10427060,54",
+     "frete_repassado": "330818,59",
+     "entrega_realizada": "1072",
+     "entrega_no_prazo": "1046",
+     "qtd_notas_fiscais": "1543",
+     "entrega_fora_prazo": "28"
 },
   "mes_anterior": {
      "periodo": "abril/2026",
-     "entrega_realizada": "2039",
-     "entrega_no_prazo": "1957"
+     "entrega_realizada": "2040",
+     "entrega_no_prazo": "1958"
   }
 },
   "expedicao": {
