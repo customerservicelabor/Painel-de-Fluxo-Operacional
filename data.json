@@ -1,26 +1,26 @@
 {
-  "updated_at": "27/05/2026 17:58",
+  "updated_at": "27/05/2026 18:18",
   "kpis": {
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 3, "valor": "1287,71" },
-    { "status": "Alvará Sanitário", "quantidade": 11, "valor": "21009,85" },
+    { "status": "Alvará Sanitário", "quantidade": 10, "valor": "19923,09" },
     { "status": "Bloqueado por regra", "quantidade": 4, "valor": "19072,05" },
-    { "status": "Análise de Crédito", "quantidade": 15, "valor": "260499,09" },
-    { "status": "Total em Disputa", "quantidade": 33, "valor": "301868,7" },
-    { "status": "Aguard. Envio Separação", "quantidade": 4, "valor": "33342,61" },
-    { "status": "Em Separação", "quantidade": 43, "valor": "691958,63" },
-    { "status": "Separado", "quantidade": 0, "valor": "0" },
-    { "status": "Faturado", "quantidade": 107, "valor": "807047,5" },
-    { "status": "Total", "quantidade": 154, "valor": "1532348,74" }
+    { "status": "Análise de Crédito", "quantidade": 16, "valor": "270267,59" },
+    { "status": "Total em Disputa", "quantidade": 33, "valor": "310550,44" },
+    { "status": "Aguard. Envio Separação", "quantidade": 3, "valor": "1993,19" },
+    { "status": "Em Separação", "quantidade": 40, "valor": "710322,23" },
+    { "status": "Separado", "quantidade": 1, "valor": "5466,79" },
+    { "status": "Faturado", "quantidade": 114, "valor": "866912,28" },
+    { "status": "Total", "quantidade": 158, "valor": "1584694,49" }
  ],
  "recebimento_produtos": [
-   { "embarque": "25.04-HONGDA",  "tipo": "1 Carreta", "data_recebimento": "27/05/26", "confirmado": "CANAL AMARELO", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
-   { "embarque": "26.02-WEIGAO",  "tipo": "2 Container", "data_recebimento": "27/05/26", "confirmado": "SIM", "chegou_cd": "Finalizado",  "status": "Aguardando Complementar" },
-   { "embarque": "2026I091 (26.03-MGE-2  + 26.01-MAGU-2)",  "tipo": "4 Container", "data_recebimento": "27/05/26", "confirmado": "SIM", "chegou_cd": "Previsto",  "status": "Descarregando" },
-   { "embarque": "IMP00004-POLYMED",  "tipo": "1 Container", "data_recebimento": "01/06/26", "confirmado": "AG. REGISTRO", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
-   { "embarque": "IMP00007-VITROMED",  "tipo": "1 Container", "data_recebimento": "01/06/26", "confirmado": "AG. REGISTRO", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
-   { "embarque": "IMP00001-POLYMED",  "tipo": "1 Container", "data_recebimento": "01/06/26", "confirmado": "AG. REGISTRO", "chegou_cd": "Previsto",  "status": "Aguardando Programação" }
+   { "embarque": "25.04-HONGDA",  "tipo": "1 Container", "data_recebimento": "27/05/26", "confirmado": "Canal Amarelo", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
+   { "embarque": "26.02-WEIGAO",  "tipo": "2 Container", "data_recebimento": "27/05/26", "confirmado": "Canal Amarelo", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
+   { "embarque": "2026I091 (26.03-MGE-2  + 26.01-MAGU-2)",  "tipo": "4 Container", "data_recebimento": "27/05/26", "confirmado": "Ag. Canal", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
+   { "embarque": "IMP00004-POLYMED",  "tipo": "1 Container", "data_recebimento": "01/06/26", "confirmado": "Ag. Registro", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
+   { "embarque": "IMP00007-VITROMED",  "tipo": "1 Container", "data_recebimento": "01/06/26", "confirmado": "Ag. Registro", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
+   { "embarque": "IMP00001-POLYMED",  "tipo": "1 Container", "data_recebimento": "01/06/26", "confirmado": "Ag. Registro", "chegou_cd": "Previsto",  "status": "Aguardando Programação" }
 
 
 
@@ -33,7 +33,6 @@
 
  ],
 "pedidos_nao_faturados": [
-  {"numero_pedido":"692344 ", "emissao_pv": "14/05/2026 ", "vlr_total_produtos": "1086,76 ", "margem": "8,46 ", "nome_cliente": "HOSPITAL SAO MIGUEL ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "REP. WENDER ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"692614 ", "emissao_pv": "18/05/2026 ", "vlr_total_produtos": "3560 ", "margem": "27,11 ", "nome_cliente": "CLINICA & LAB ALBERT ", "uf_cliente": "PA ", "tipo_cliente": "CONS.FINAL ","vendedor": "LUCIANA LIMA ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"692815 ", "emissao_pv": "19/05/2026 ", "vlr_total_produtos": "1770 ", "margem": "34,64 ", "nome_cliente": "VICTA LABORATORIO DE ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"693837 ", "emissao_pv": "25/05/2026 ", "vlr_total_produtos": "67424,06 ", "margem": "26,92 ", "nome_cliente": "PROLAGOS PRODUTOS PA ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. CAREMED ", "ultimo_status": "Análise de Crédito" },
@@ -58,7 +57,8 @@
   {"numero_pedido":"694400 ", "emissao_pv": "27/05/2026 ", "vlr_total_produtos": "3164,4 ", "margem": "11,07 ", "nome_cliente": "DENTAL ALENCAR IMPOR ", "uf_cliente": "RR ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"694410 ", "emissao_pv": "27/05/2026 ", "vlr_total_produtos": "852,62 ", "margem": "45,62 ", "nome_cliente": "UNIMED DE DRACENA CO ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"694416 ", "emissao_pv": "27/05/2026 ", "vlr_total_produtos": "2080,16 ", "margem": "30,07 ", "nome_cliente": "CENTRO DE HEMATOLOGI ", "uf_cliente": "MS ", "tipo_cliente": "CONS.FINAL ","vendedor": "LUCIANA LIMA ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"694424 ", "emissao_pv": "27/05/2026 ", "vlr_total_produtos": "1360,91 ", "margem": "26,67 ", "nome_cliente": "LJB DISTRIBUIDORA LT ", "uf_cliente": "RS ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. LM ", "ultimo_status": "Alvará Sanitário" }
+  {"numero_pedido":"694424 ", "emissao_pv": "27/05/2026 ", "vlr_total_produtos": "1360,91 ", "margem": "26,67 ", "nome_cliente": "LJB DISTRIBUIDORA LT ", "uf_cliente": "RS ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. LM ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"694434 ", "emissao_pv": "27/05/2026 ", "vlr_total_produtos": "9768,5 ", "margem": "29,2 ", "nome_cliente": "DSR HOSPITALAR ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "LUCIA FLORESTA ", "ultimo_status": "Análise de Crédito" }
 
 
 
@@ -83,12 +83,12 @@
   "performance_gerencial": {
     "mes_atual": {
      "periodo": "maio/2026",
-     "frete_pago": "459186,91",
-     "faturamento": "11460212,57",
-     "frete_repassado": "374195,81",
-     "entrega_realizada": "1188",
-     "entrega_no_prazo": "1160",
-     "qtd_notas_fiscais": "1702",
+     "frete_pago": "451299,18",
+     "faturamento": "11250807,98",
+     "frete_repassado": "369128,07",
+     "entrega_realizada": "1175",
+     "entrega_no_prazo": "1147",
+     "qtd_notas_fiscais": "1683",
      "entrega_fora_prazo": "30"
 },
   "mes_anterior": {
