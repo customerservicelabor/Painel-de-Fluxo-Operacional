@@ -1,5 +1,5 @@
 {
-  "updated_at": "27/05/2026 11:51",
+  "updated_at": "27/05/2026 13:03",
   "kpis": {
   },
   "pedidos_status": [
@@ -13,6 +13,7 @@
     { "status": "Separado", "quantidade": 8, "valor": "42869,17" },
     { "status": "Faturado", "quantidade": 33, "valor": "177837,77" },
     { "status": "Total", "quantidade": 81, "valor": "769886,75" }
+
 
  ],
  "recebimento_produtos": [
@@ -84,18 +85,18 @@
   "performance_gerencial": {
     "mes_atual": {
      "periodo": "maio/2026",
-     "frete_pago": "409880,81",
-     "faturamento": "10427060,54",
-     "frete_repassado": "330818,59",
-     "entrega_realizada": "1072",
-     "entrega_no_prazo": "1046",
-     "qtd_notas_fiscais": "1543",
-     "entrega_fora_prazo": "28"
+     "frete_pago": "433886,1",
+     "faturamento": "10937231,84",
+     "frete_repassado": "370062,63",
+     "entrega_realizada": "1163",
+     "entrega_no_prazo": "1135",
+     "qtd_notas_fiscais": "1668",
+     "entrega_fora_prazo": "30"
 },
   "mes_anterior": {
      "periodo": "abril/2026",
-     "entrega_realizada": "2040",
-     "entrega_no_prazo": "1958"
+     "entrega_realizada": "2041",
+     "entrega_no_prazo": "1959"
   }
 },
   "expedicao": {
