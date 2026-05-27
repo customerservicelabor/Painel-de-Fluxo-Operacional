@@ -1,13 +1,13 @@
 {
-  "updated_at": "27/05/2026 16:29",
+  "updated_at": "27/05/2026 16:41",
   "kpis": {
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 3, "valor": "1287,71" },
-    { "status": "Alvará Sanitário", "quantidade": 8, "valor": "17709,56" },
+    { "status": "Alvará Sanitário", "quantidade": 9, "valor": "18796,32" },
     { "status": "Bloqueado por regra", "quantidade": 4, "valor": "19072,05" },
     { "status": "Análise de Crédito", "quantidade": 18, "valor": "316910,86" },
-    { "status": "Total em Disputa", "quantidade": 33, "valor": "354980,18" },
+    { "status": "Total em Disputa", "quantidade": 34, "valor": "356066,94" },
     { "status": "Aguard. Envio Separação", "quantidade": 4, "valor": "3733,19" },
     { "status": "Em Separação", "quantidade": 43, "valor": "764491,49" },
     { "status": "Separado", "quantidade": 0, "valor": "0" },
@@ -15,12 +15,12 @@
     { "status": "Total", "quantidade": 141, "valor": "1393337,92" }
  ],
  "recebimento_produtos": [
-   { "embarque": "25.04-HONGDA",  "tipo": "1 Container", "data_recebimento": "27/05/26", "confirmado": "Canal Amarelo", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
-   { "embarque": "26.02-WEIGAO",  "tipo": "2 Container", "data_recebimento": "27/05/26", "confirmado": "Canal Amarelo", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
-   { "embarque": "2026I091 (26.03-MGE-2  + 26.01-MAGU-2)",  "tipo": "4 Container", "data_recebimento": "27/05/26", "confirmado": "Ag. Canal", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
-   { "embarque": "IMP00004-POLYMED",  "tipo": "1 Container", "data_recebimento": "01/06/26", "confirmado": "Ag. Registro", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
-   { "embarque": "IMP00007-VITROMED",  "tipo": "1 Container", "data_recebimento": "01/06/26", "confirmado": "Ag. Registro", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
-   { "embarque": "IMP00001-POLYMED",  "tipo": "1 Container", "data_recebimento": "01/06/26", "confirmado": "Ag. Registro", "chegou_cd": "Previsto",  "status": "Aguardando Programação" }
+   { "embarque": "25.04-HONGDA",  "tipo": "1 Carreta", "data_recebimento": "27/05/26", "confirmado": "CANAL AMARELO", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
+   { "embarque": "26.02-WEIGAO",  "tipo": "2 Container", "data_recebimento": "27/05/26", "confirmado": "SIM", "chegou_cd": "Finalizado",  "status": "Aguardando Complementar" },
+   { "embarque": "2026I091 (26.03-MGE-2  + 26.01-MAGU-2)",  "tipo": "4 Container", "data_recebimento": "27/05/26", "confirmado": "SIM", "chegou_cd": "Previsto",  "status": "Descarregando" },
+   { "embarque": "IMP00004-POLYMED",  "tipo": "1 Container", "data_recebimento": "01/06/26", "confirmado": "AG. REGISTRO", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
+   { "embarque": "IMP00007-VITROMED",  "tipo": "1 Container", "data_recebimento": "01/06/26", "confirmado": "AG. REGISTRO", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
+   { "embarque": "IMP00001-POLYMED",  "tipo": "1 Container", "data_recebimento": "01/06/26", "confirmado": "AG. REGISTRO", "chegou_cd": "Previsto",  "status": "Aguardando Programação" }
 
 
 
@@ -33,6 +33,7 @@
 
  ],
 "pedidos_nao_faturados": [
+  {"numero_pedido":"692344 ", "emissao_pv": "14/05/2026 ", "vlr_total_produtos": "1086,76 ", "margem": "8,46 ", "nome_cliente": "HOSPITAL SAO MIGUEL ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "REP. WENDER ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"692614 ", "emissao_pv": "18/05/2026 ", "vlr_total_produtos": "3560 ", "margem": "27,11 ", "nome_cliente": "CLINICA & LAB ALBERT ", "uf_cliente": "PA ", "tipo_cliente": "CONS.FINAL ","vendedor": "LUCIANA LIMA ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"692815 ", "emissao_pv": "19/05/2026 ", "vlr_total_produtos": "1770 ", "margem": "34,64 ", "nome_cliente": "VICTA LABORATORIO DE ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"693558 ", "emissao_pv": "22/05/2026 ", "vlr_total_produtos": "833 ", "margem": "31,12 ", "nome_cliente": "HOSPCARE UTILIDADES ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "LUCIA FLORESTA ", "ultimo_status": "Análise de Crédito" },
@@ -69,7 +70,6 @@
 
 
 
-
  ],
   "tv_alert": {
     "enabled": false,
@@ -83,12 +83,12 @@
   "performance_gerencial": {
     "mes_atual": {
      "periodo": "maio/2026",
-     "frete_pago": "451299,18",
-     "faturamento": "11250807,98",
-     "frete_repassado": "369128,07",
-     "entrega_realizada": "1175",
-     "entrega_no_prazo": "1147",
-     "qtd_notas_fiscais": "1683",
+     "frete_pago": "459186,91",
+     "faturamento": "11460212,57",
+     "frete_repassado": "374195,81",
+     "entrega_realizada": "1188",
+     "entrega_no_prazo": "1160",
+     "qtd_notas_fiscais": "1702",
      "entrega_fora_prazo": "30"
 },
   "mes_anterior": {
