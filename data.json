@@ -1,18 +1,18 @@
 {
-  "updated_at": "28/05/2026 18:17",
+  "updated_at": "28/05/2026 18:23",
   "kpis": {
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 2, "valor": "7,71" },
-    { "status": "Alvará Sanitário", "quantidade": 1, "valor": "3560" },
+    { "status": "Alvará Sanitário", "quantidade": 1, "valor": "22160" },
     { "status": "Bloqueado por regra", "quantidade": 0, "valor": "0" },
-    { "status": "Análise de Crédito", "quantidade": 21, "valor": "457275,65" },
-    { "status": "Total em Disputa", "quantidade": 24, "valor": "460843,36" },
-    { "status": "Aguard. Envio Separação", "quantidade": 2, "valor": "5119,2" },
-    { "status": "Em Separação", "quantidade": 133, "valor": "1645970,61" },
-    { "status": "Separado", "quantidade": 0, "valor": "0" },
+    { "status": "Análise de Crédito", "quantidade": 20, "valor": "458336,15" },
+    { "status": "Total em Disputa", "quantidade": 23, "valor": "480503,86" },
+    { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "1954,8" },
+    { "status": "Em Separação", "quantidade": 135, "valor": "1614866,51" },
+    { "status": "Separado", "quantidade": 2, "valor": "39576" },
     { "status": "Faturado", "quantidade": 75, "valor": "933066,57" },
-    { "status": "Total", "quantidade": 210, "valor": "2584156,38" }
+    { "status": "Total", "quantidade": 213, "valor": "2589463,88" }
  ],
  "recebimento_produtos": [
    { "embarque": "25.04-HONGDA",  "tipo": "1 Container", "data_recebimento": "27/05/26", "confirmado": "Canal Amarelo", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
@@ -51,10 +51,10 @@
   {"numero_pedido":"694674 ", "emissao_pv": "28/05/2026 ", "vlr_total_produtos": "1957,6 ", "margem": "7,05 ", "nome_cliente": "S3 GESTAO EM SAUDE ", "uf_cliente": "BA ", "tipo_cliente": "CONS.FINAL ","vendedor": "NEOLANDI SANTOS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"694764 ", "emissao_pv": "28/05/2026 ", "vlr_total_produtos": "92195,6 ", "margem": "27,51 ", "nome_cliente": "FASP MEDICAMENTOS ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"694789 ", "emissao_pv": "28/05/2026 ", "vlr_total_produtos": "67424,06 ", "margem": "23,64 ", "nome_cliente": "PROLAGOS PRODUTOS PA ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. CAREMED ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"694793 ", "emissao_pv": "28/05/2026 ", "vlr_total_produtos": "1747,5 ", "margem": "13,37 ", "nome_cliente": "KGP FARMA DISTRIBUID ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"694806 ", "emissao_pv": "28/05/2026 ", "vlr_total_produtos": "31694 ", "margem": "14,59 ", "nome_cliente": "BELIEVE FARMA ", "uf_cliente": "CE ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"694812 ", "emissao_pv": "28/05/2026 ", "vlr_total_produtos": "26837,5 ", "margem": "13,07 ", "nome_cliente": "MEGAMED ", "uf_cliente": "PE ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"694814 ", "emissao_pv": "28/05/2026 ", "vlr_total_produtos": "3560 ", "margem": "27,11 ", "nome_cliente": "CLINICA & LAB ALBERT ", "uf_cliente": "PA ", "tipo_cliente": "CONS.FINAL ","vendedor": "LUCIANA LIMA ", "ultimo_status": "Alvará Sanitário" }
+  {"numero_pedido":"694816 ", "emissao_pv": "28/05/2026 ", "vlr_total_produtos": "34502 ", "margem": "13,97 ", "nome_cliente": "BELIEVE FARMA ", "uf_cliente": "CE ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"694818 ", "emissao_pv": "28/05/2026 ", "vlr_total_produtos": "22160 ", "margem": "36,21 ", "nome_cliente": "DENTAL PEGASUS LTDA ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Alvará Sanitário" }
+
 
 
 
