@@ -1,18 +1,18 @@
 {
-  "updated_at": "28/05/2026 11:37",
+  "updated_at": "28/05/2026 11:51",
   "kpis": {
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 2, "valor": "7,71" },
     { "status": "Alvará Sanitário", "quantidade": 5, "valor": "19449,53" },
     { "status": "Bloqueado por regra", "quantidade": 0, "valor": "0" },
-    { "status": "Análise de Crédito", "quantidade": 23, "valor": "458935,15" },
-    { "status": "Total em Disputa", "quantidade": 30, "valor": "478392,39" },
-    { "status": "Aguard. Envio Separação", "quantidade": 4, "valor": "6315,76" },
-    { "status": "Em Separação", "quantidade": 73, "valor": "866409,79" },
-    { "status": "Separado", "quantidade": 10, "valor": "49849,94" },
-    { "status": "Faturado", "quantidade": 11, "valor": "187765,45" },
-    { "status": "Total", "quantidade": 98, "valor": "1110340,94" }
+    { "status": "Análise de Crédito", "quantidade": 25, "valor": "472110,15" },
+    { "status": "Total em Disputa", "quantidade": 32, "valor": "491567,39" },
+    { "status": "Aguard. Envio Separação", "quantidade": 3, "valor": "3491,26" },
+    { "status": "Em Separação", "quantidade": 72, "valor": "862172,39" },
+    { "status": "Separado", "quantidade": 6, "valor": "13843,13" },
+    { "status": "Faturado", "quantidade": 18, "valor": "232001,96" },
+    { "status": "Total", "quantidade": 99, "valor": "1111508,74" }
  ],
  "recebimento_produtos": [
    { "embarque": "25.04-HONGDA",  "tipo": "1 Container", "data_recebimento": "27/05/26", "confirmado": "Canal Amarelo", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
@@ -60,9 +60,9 @@
   {"numero_pedido":"694542 ", "emissao_pv": "28/05/2026 ", "vlr_total_produtos": "2402,52 ", "margem": "41,3 ", "nome_cliente": "ATOS MEDICA ", "uf_cliente": "PE ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"694566 ", "emissao_pv": "28/05/2026 ", "vlr_total_produtos": "1330 ", "margem": "14,82 ", "nome_cliente": "DISONO DISTURBIOS DO ", "uf_cliente": "MG ", "tipo_cliente": "CONS.FINAL ","vendedor": "LUCIANA LIMA ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"694572 ", "emissao_pv": "28/05/2026 ", "vlr_total_produtos": "7560 ", "margem": "37,99 ", "nome_cliente": "MASTERMED  PRODUTOS ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"694576 ", "emissao_pv": "28/05/2026 ", "vlr_total_produtos": "7100 ", "margem": "33,91 ", "nome_cliente": "LICITE SAUDE COMERCI ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" }
-
-
+  {"numero_pedido":"694576 ", "emissao_pv": "28/05/2026 ", "vlr_total_produtos": "7100 ", "margem": "33,91 ", "nome_cliente": "LICITE SAUDE COMERCI ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"694586 ", "emissao_pv": "28/05/2026 ", "vlr_total_produtos": "4755 ", "margem": "49,72 ", "nome_cliente": "CENTROMED ", "uf_cliente": "PI ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"694590 ", "emissao_pv": "28/05/2026 ", "vlr_total_produtos": "8420 ", "margem": "38,65 ", "nome_cliente": "DETMED ", "uf_cliente": "PI ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" }
 
 
 
