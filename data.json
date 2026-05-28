@@ -1,26 +1,26 @@
 {
-  "updated_at": "28/05/2026 12:22",
+  "updated_at": "28/05/2026 12:41",
   "kpis": {
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 2, "valor": "7,71" },
-    { "status": "Alvará Sanitário", "quantidade": 4, "valor": "14159,14" },
+    { "status": "Aguardando Liberação", "quantidade": 3, "valor": "13987,71" },
+    { "status": "Alvará Sanitário", "quantidade": 5, "valor": "15173,14" },
     { "status": "Bloqueado por regra", "quantidade": 0, "valor": "0" },
-    { "status": "Análise de Crédito", "quantidade": 26, "valor": "485430,05" },
-    { "status": "Total em Disputa", "quantidade": 32, "valor": "499596,9" },
+    { "status": "Análise de Crédito", "quantidade": 27, "valor": "500318,45" },
+    { "status": "Total em Disputa", "quantidade": 35, "valor": "529479,3" },
     { "status": "Aguard. Envio Separação", "quantidade": 4, "valor": "22448,76" },
-    { "status": "Em Separação", "quantidade": 77, "valor": "877126,65" },
-    { "status": "Separado", "quantidade": 5, "valor": "12399,23" },
-    { "status": "Faturado", "quantidade": 22, "valor": "249809,41" },
+    { "status": "Em Separação", "quantidade": 75, "valor": "761126,65" },
+    { "status": "Separado", "quantidade": 6, "valor": "16479,23" },
+    { "status": "Faturado", "quantidade": 23, "valor": "361729,41" },
     { "status": "Total", "quantidade": 108, "valor": "1161784,05" }
  ],
  "recebimento_produtos": [
-   { "embarque": "25.04-HONGDA",  "tipo": "1 Container", "data_recebimento": "27/05/26", "confirmado": "Canal Amarelo", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
-   { "embarque": "26.02-WEIGAO",  "tipo": "2 Container", "data_recebimento": "27/05/26", "confirmado": "Canal Amarelo", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
-   { "embarque": "2026I091 (26.03-MGE-2  + 26.01-MAGU-2)",  "tipo": "4 Container", "data_recebimento": "27/05/26", "confirmado": "Ag. Canal", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
-   { "embarque": "IMP00004-POLYMED",  "tipo": "1 Container", "data_recebimento": "01/06/26", "confirmado": "Ag. Registro", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
-   { "embarque": "IMP00007-VITROMED",  "tipo": "1 Container", "data_recebimento": "01/06/26", "confirmado": "Ag. Registro", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
-   { "embarque": "IMP00001-POLYMED",  "tipo": "1 Container", "data_recebimento": "01/06/26", "confirmado": "Ag. Registro", "chegou_cd": "Previsto",  "status": "Aguardando Programação" }
+   { "embarque": "25.04-HONGDA",  "tipo": "1 Carreta", "data_recebimento": "27/05/26", "confirmado": "CANAL AMARELO", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
+   { "embarque": "26.02-WEIGAO",  "tipo": "2 Container", "data_recebimento": "27/05/26", "confirmado": "SIM", "chegou_cd": "Finalizado",  "status": "Aguardando Complementar" },
+   { "embarque": "2026I091 (26.03-MGE-2  + 26.01-MAGU-2)",  "tipo": "4 Container", "data_recebimento": "27/05/26", "confirmado": "SIM", "chegou_cd": "Previsto",  "status": "Descarregando" },
+   { "embarque": "IMP00004-POLYMED",  "tipo": "1 Container", "data_recebimento": "01/06/26", "confirmado": "AG. REGISTRO", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
+   { "embarque": "IMP00007-VITROMED",  "tipo": "1 Container", "data_recebimento": "01/06/26", "confirmado": "AG. REGISTRO", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
+   { "embarque": "IMP00001-POLYMED",  "tipo": "1 Container", "data_recebimento": "01/06/26", "confirmado": "AG. REGISTRO", "chegou_cd": "Previsto",  "status": "Aguardando Programação" }
 
 
 
@@ -62,9 +62,9 @@
   {"numero_pedido":"694590 ", "emissao_pv": "28/05/2026 ", "vlr_total_produtos": "8420 ", "margem": "38,65 ", "nome_cliente": "DETMED ", "uf_cliente": "PI ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"694596 ", "emissao_pv": "28/05/2026 ", "vlr_total_produtos": "14505 ", "margem": "44,59 ", "nome_cliente": "MED TECH ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"694604 ", "emissao_pv": "28/05/2026 ", "vlr_total_produtos": "11815,5 ", "margem": "21,28 ", "nome_cliente": "NOVA DENTAL ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "LUCIA FLORESTA ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"694606 ", "emissao_pv": "28/05/2026 ", "vlr_total_produtos": "2753,3 ", "margem": "30,32 ", "nome_cliente": "MED PRO COMERCIO PRO ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Análise de Crédito" }
-
-
+  {"numero_pedido":"694606 ", "emissao_pv": "28/05/2026 ", "vlr_total_produtos": "2753,3 ", "margem": "30,32 ", "nome_cliente": "MED PRO COMERCIO PRO ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"694608 ", "emissao_pv": "28/05/2026 ", "vlr_total_produtos": "14888,4 ", "margem": "23,44 ", "nome_cliente": "JR HOSPITALAR ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"694610 ", "emissao_pv": "28/05/2026 ", "vlr_total_produtos": "1014 ", "margem": "32,08 ", "nome_cliente": "CEB SOLUCOES AMBIENT ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Alvará Sanitário" }
 
 
 
@@ -83,18 +83,18 @@
   "performance_gerencial": {
     "mes_atual": {
      "periodo": "maio/2026",
-     "frete_pago": "470180,4",
-     "faturamento": "11653467,66",
-     "frete_repassado": "404709,55",
-     "entrega_realizada": "1215",
-     "entrega_no_prazo": "1182",
-     "qtd_notas_fiscais": "1747",
-     "entrega_fora_prazo": "35"
+     "frete_pago": "500803,66",
+     "faturamento": "12184453,28",
+     "frete_repassado": "409831,47",
+     "entrega_realizada": "1247",
+     "entrega_no_prazo": "1211",
+     "qtd_notas_fiscais": "1767",
+     "entrega_fora_prazo": "38"
 },
   "mes_anterior": {
      "periodo": "abril/2026",
      "entrega_realizada": "2041",
-     "entrega_no_prazo": "1959"
+     "entrega_no_prazo": "1960"
   }
 },
   "expedicao": {
