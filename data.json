@@ -1,18 +1,18 @@
 {
-  "updated_at": "28/05/2026 18:55",
+  "updated_at": "28/05/2026 19:08",
   "kpis": {
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 2, "valor": "7,71" },
     { "status": "Alvará Sanitário", "quantidade": 0, "valor": "0" },
-    { "status": "Bloqueado por regra", "quantidade": 1, "valor": "502,42" },
-    { "status": "Análise de Crédito", "quantidade": 18, "valor": "292889,74" },
-    { "status": "Total em Disputa", "quantidade": 21, "valor": "293399,87" },
-    { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "1954,8" },
-    { "status": "Em Separação", "quantidade": 142, "valor": "1815447,82" },
-    { "status": "Separado", "quantidade": 0, "valor": "0" },
+    { "status": "Bloqueado por regra", "quantidade": 2, "valor": "1004,84" },
+    { "status": "Análise de Crédito", "quantidade": 15, "valor": "234217,74" },
+    { "status": "Total em Disputa", "quantidade": 19, "valor": "235230,29" },
+    { "status": "Aguard. Envio Separação", "quantidade": 2, "valor": "36456,8" },
+    { "status": "Em Separação", "quantidade": 141, "valor": "1570057,7" },
+    { "status": "Separado", "quantidade": 3, "valor": "269560,12" },
     { "status": "Faturado", "quantidade": 76, "valor": "972642,57" },
-    { "status": "Total", "quantidade": 219, "valor": "2790045,19" }
+    { "status": "Total", "quantidade": 222, "valor": "2848717,19" }
  ],
  "recebimento_produtos": [
    { "embarque": "25.04-HONGDA",  "tipo": "1 Container", "data_recebimento": "27/05/26", "confirmado": "Canal Amarelo", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
@@ -47,10 +47,10 @@
   {"numero_pedido":"694572 ", "emissao_pv": "28/05/2026 ", "vlr_total_produtos": "7560 ", "margem": "37,99 ", "nome_cliente": "MASTERMED  PRODUTOS ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"694590 ", "emissao_pv": "28/05/2026 ", "vlr_total_produtos": "8420 ", "margem": "38,65 ", "nome_cliente": "DETMED ", "uf_cliente": "PI ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"694630 ", "emissao_pv": "28/05/2026 ", "vlr_total_produtos": "4194 ", "margem": "16,26 ", "nome_cliente": "PHOENIX MED MATERIAL ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"694674 ", "emissao_pv": "28/05/2026 ", "vlr_total_produtos": "1957,6 ", "margem": "7,05 ", "nome_cliente": "S3 GESTAO EM SAUDE ", "uf_cliente": "BA ", "tipo_cliente": "CONS.FINAL ","vendedor": "NEOLANDI SANTOS ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"694818 ", "emissao_pv": "28/05/2026 ", "vlr_total_produtos": "22160 ", "margem": "36,21 ", "nome_cliente": "DENTAL PEGASUS LTDA ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"694826 ", "emissao_pv": "28/05/2026 ", "vlr_total_produtos": "2010 ", "margem": "36,88 ", "nome_cliente": "PMH PRODUTOS MEDICOS ", "uf_cliente": "DF ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. SUPREMO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"694828 ", "emissao_pv": "28/05/2026 ", "vlr_total_produtos": "34502 ", "margem": "13,97 ", "nome_cliente": "BELIEVE FARMA ", "uf_cliente": "CE ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Análise de Crédito" }
+  {"numero_pedido":"694674 ", "emissao_pv": "28/05/2026 ", "vlr_total_produtos": "1957,6 ", "margem": "7,05 ", "nome_cliente": "S3 GESTAO EM SAUDE ", "uf_cliente": "BA ", "tipo_cliente": "CONS.FINAL ","vendedor": "NEOLANDI SANTOS ", "ultimo_status": "Análise de Crédito" }
+
+
+
 
 
 
