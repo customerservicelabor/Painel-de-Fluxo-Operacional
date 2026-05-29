@@ -1,18 +1,18 @@
 {
-  "updated_at": "28/05/2026 21:12",
+  "updated_at": "28/05/2026 23:02",
   "kpis": {
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 2, "valor": "7,71" },
-    { "status": "Alvará Sanitário", "quantidade": 0, "valor": "0" },
+    { "status": "Alvará Sanitário", "quantidade": 1, "valor": "418,86" },
     { "status": "Bloqueado por regra", "quantidade": 1, "valor": "502,42" },
     { "status": "Análise de Crédito", "quantidade": 15, "valor": "463427,74" },
-    { "status": "Total em Disputa", "quantidade": 18, "valor": "463937,87" },
+    { "status": "Total em Disputa", "quantidade": 19, "valor": "464356,73" },
     { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "1954,8" },
-    { "status": "Em Separação", "quantidade": 136, "valor": "1240818,18" },
-    { "status": "Separado", "quantidade": 5, "valor": "200156,5" },
-    { "status": "Faturado", "quantidade": 82, "valor": "1412410,13" },
-    { "status": "Total", "quantidade": 224, "valor": "2855339,61" }
+    { "status": "Em Separação", "quantidade": 125, "valor": "913555,57" },
+    { "status": "Separado", "quantidade": 3, "valor": "60455" },
+    { "status": "Faturado", "quantidade": 96, "valor": "1879374,24" },
+    { "status": "Total", "quantidade": 225, "valor": "2855339,61" }
  ],
  "recebimento_produtos": [
    { "embarque": "25.04-HONGDA",  "tipo": "1 Container", "data_recebimento": "27/05/26", "confirmado": "Canal Amarelo", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
@@ -47,8 +47,8 @@
   {"numero_pedido":"694590 ", "emissao_pv": "28/05/2026 ", "vlr_total_produtos": "8420 ", "margem": "38,65 ", "nome_cliente": "DETMED ", "uf_cliente": "PI ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"694630 ", "emissao_pv": "28/05/2026 ", "vlr_total_produtos": "4194 ", "margem": "16,26 ", "nome_cliente": "PHOENIX MED MATERIAL ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"694674 ", "emissao_pv": "28/05/2026 ", "vlr_total_produtos": "1957,6 ", "margem": "7,05 ", "nome_cliente": "S3 GESTAO EM SAUDE ", "uf_cliente": "BA ", "tipo_cliente": "CONS.FINAL ","vendedor": "NEOLANDI SANTOS ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"694834 ", "emissao_pv": "28/05/2026 ", "vlr_total_produtos": "235330 ", "margem": "16,65 ", "nome_cliente": "CIRURGICA NASSAU ", "uf_cliente": "PE ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" }
-
+  {"numero_pedido":"694834 ", "emissao_pv": "28/05/2026 ", "vlr_total_produtos": "235330 ", "margem": "16,65 ", "nome_cliente": "CIRURGICA NASSAU ", "uf_cliente": "PE ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"694836 ", "emissao_pv": "29/05/2026 ", "vlr_total_produtos": "418,86 ", "margem": "0 ", "nome_cliente": "LUANA RIBEIRO ESTETI ", "uf_cliente": "RJ ", "tipo_cliente": "CONS.FINAL ","vendedor": "E-COMMERCE ", "ultimo_status": "Alvará Sanitário" }
 
 
 
