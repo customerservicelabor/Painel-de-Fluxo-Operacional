@@ -1,5 +1,5 @@
 {
-  "updated_at": "28/05/2026 23:02",
+  "updated_at": "28/05/2026 23:37",
   "kpis": {
   },
   "pedidos_status": [
@@ -8,11 +8,11 @@
     { "status": "Bloqueado por regra", "quantidade": 1, "valor": "502,42" },
     { "status": "Análise de Crédito", "quantidade": 15, "valor": "463427,74" },
     { "status": "Total em Disputa", "quantidade": 19, "valor": "464356,73" },
-    { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "1954,8" },
-    { "status": "Em Separação", "quantidade": 125, "valor": "913555,57" },
-    { "status": "Separado", "quantidade": 3, "valor": "60455" },
-    { "status": "Faturado", "quantidade": 96, "valor": "1879374,24" },
-    { "status": "Total", "quantidade": 225, "valor": "2855339,61" }
+    { "status": "Aguard. Envio Separação", "quantidade": 0, "valor": "0" },
+    { "status": "Em Separação", "quantidade": 122, "valor": "838510,57" },
+    { "status": "Separado", "quantidade": 1, "valor": "4755" },
+    { "status": "Faturado", "quantidade": 100, "valor": "2010119,24" },
+    { "status": "Total", "quantidade": 223, "valor": "2853384,81" }
  ],
  "recebimento_produtos": [
    { "embarque": "25.04-HONGDA",  "tipo": "1 Container", "data_recebimento": "27/05/26", "confirmado": "Canal Amarelo", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
