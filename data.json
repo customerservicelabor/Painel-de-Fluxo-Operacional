@@ -1,5 +1,5 @@
 {
-  "updated_at": "29/05/2026 00:12",
+  "updated_at": "29/05/2026 07:59",
   "kpis": {
   },
   "pedidos_status": [
@@ -8,19 +8,19 @@
     { "status": "Bloqueado por regra", "quantidade": 1, "valor": "502,42" },
     { "status": "Análise de Crédito", "quantidade": 15, "valor": "463427,74" },
     { "status": "Total em Disputa", "quantidade": 19, "valor": "464356,73" },
-    { "status": "Aguard. Envio Separação", "quantidade": 0, "valor": "0" },
+    { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "1954,8" },
     { "status": "Em Separação", "quantidade": 111, "valor": "622761,64" },
-    { "status": "Separado", "quantidade": 2, "valor": "2520,5" },
-    { "status": "Faturado", "quantidade": 110, "valor": "2228102,67" },
-    { "status": "Total", "quantidade": 223, "valor": "2853384,81" }
+    { "status": "Separado", "quantidade": 3, "valor": "61470,5" },
+    { "status": "Faturado", "quantidade": 0, "valor": "0" },
+    { "status": "Total", "quantidade": 115, "valor": "686186,94" }
  ],
  "recebimento_produtos": [
-   { "embarque": "25.04-HONGDA",  "tipo": "1 Container", "data_recebimento": "27/05/26", "confirmado": "Canal Amarelo", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
-   { "embarque": "26.02-WEIGAO",  "tipo": "2 Container", "data_recebimento": "27/05/26", "confirmado": "Canal Amarelo", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
-   { "embarque": "2026I091 (26.03-MGE-2  + 26.01-MAGU-2)",  "tipo": "4 Container", "data_recebimento": "27/05/26", "confirmado": "Ag. Canal", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
-   { "embarque": "IMP00004-POLYMED",  "tipo": "1 Container", "data_recebimento": "01/06/26", "confirmado": "Ag. Registro", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
-   { "embarque": "IMP00007-VITROMED",  "tipo": "1 Container", "data_recebimento": "01/06/26", "confirmado": "Ag. Registro", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
-   { "embarque": "IMP00001-POLYMED",  "tipo": "1 Container", "data_recebimento": "01/06/26", "confirmado": "Ag. Registro", "chegou_cd": "Previsto",  "status": "Aguardando Programação" }
+   { "embarque": "Carreta SR",  "tipo": "1 Carreta", "data_recebimento": "28/05/26", "confirmado": "Sim", "chegou_cd": "Chegada as 18:52",  "status": "Finalizado" }
+
+
+
+
+
 
 
 
@@ -83,18 +83,18 @@
   "performance_gerencial": {
     "mes_atual": {
      "periodo": "maio/2026",
-     "frete_pago": "470180,4",
-     "faturamento": "11653467,66",
-     "frete_repassado": "404709,55",
-     "entrega_realizada": "1215",
-     "entrega_no_prazo": "1182",
-     "qtd_notas_fiscais": "1747",
-     "entrega_fora_prazo": "35"
+     "frete_pago": "541953,18",
+     "faturamento": "13184312,89",
+     "frete_repassado": "453373,81",
+     "entrega_realizada": "1308",
+     "entrega_no_prazo": "1271",
+     "qtd_notas_fiscais": "1846",
+     "entrega_fora_prazo": "39"
 },
   "mes_anterior": {
      "periodo": "abril/2026",
-     "entrega_realizada": "2041",
-     "entrega_no_prazo": "1959"
+     "entrega_realizada": "2043",
+     "entrega_no_prazo": "1960"
   }
 },
   "expedicao": {
@@ -106,12 +106,12 @@
 
 
 "estoque": {
-  "ocupacao_total_armazem": 65.71,
-  "ocupacao_operacional": 71.70,
+  "ocupacao_total_armazem": 61.34,
+  "ocupacao_operacional": 66.52,
   "areas": [
-    { "nome": "Picking", "taxa": 85.29},
-    { "nome": "Pulmão de Abastecimento", "taxa": 69.20},
-    { "nome": "Flowrack", "taxa": 43.11},
+    { "nome": "Picking", "taxa": 84.83},
+    { "nome": "Pulmão de Abastecimento", "taxa": 63.16},
+    { "nome": "Flowrack", "taxa": 42.36},
     { "nome": "Área de Qualidade", "taxa": 22.46},
     { "nome": "Área de Amostra", "taxa": 0.00},
     { "nome": "Área de Avarias", "taxa": 25.58}
