@@ -1,26 +1,26 @@
 {
-  "updated_at": "29/05/2026 07:59",
+  "updated_at": "29/05/2026 08:49",
   "kpis": {
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 2, "valor": "7,71" },
-    { "status": "Alvará Sanitário", "quantidade": 1, "valor": "418,86" },
+    { "status": "Alvará Sanitário", "quantidade": 1, "valor": "502,42" },
     { "status": "Bloqueado por regra", "quantidade": 1, "valor": "502,42" },
     { "status": "Análise de Crédito", "quantidade": 15, "valor": "463427,74" },
-    { "status": "Total em Disputa", "quantidade": 19, "valor": "464356,73" },
+    { "status": "Total em Disputa", "quantidade": 19, "valor": "464440,29" },
     { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "1954,8" },
-    { "status": "Em Separação", "quantidade": 111, "valor": "622761,64" },
-    { "status": "Separado", "quantidade": 3, "valor": "61470,5" },
+    { "status": "Em Separação", "quantidade": 141, "valor": "1570558,26" },
+    { "status": "Separado", "quantidade": 0, "valor": "0" },
     { "status": "Faturado", "quantidade": 0, "valor": "0" },
-    { "status": "Total", "quantidade": 115, "valor": "686186,94" }
+    { "status": "Total", "quantidade": 142, "valor": "1572513,06" }
  ],
  "recebimento_produtos": [
-   { "embarque": "Carreta SR",  "tipo": "1 Carreta", "data_recebimento": "28/05/26", "confirmado": "Sim", "chegou_cd": "Chegada as 18:52",  "status": "Finalizado" }
-
-
-
-
-
+   { "embarque": "25.04-HONGDA",  "tipo": "1 Carreta", "data_recebimento": "27/05/26", "confirmado": "CANAL AMARELO", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
+   { "embarque": "26.02-WEIGAO",  "tipo": "2 Container", "data_recebimento": "27/05/26", "confirmado": "SIM", "chegou_cd": "Finalizado",  "status": "Aguardando Complementar" },
+   { "embarque": "2026I091 (26.03-MGE-2  + 26.01-MAGU-2)",  "tipo": "4 Container", "data_recebimento": "27/05/26", "confirmado": "SIM", "chegou_cd": "Previsto",  "status": "Descarregando" },
+   { "embarque": "IMP00004-POLYMED",  "tipo": "1 Container", "data_recebimento": "01/06/26", "confirmado": "AG. REGISTRO", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
+   { "embarque": "IMP00007-VITROMED",  "tipo": "1 Container", "data_recebimento": "01/06/26", "confirmado": "AG. REGISTRO", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
+   { "embarque": "IMP00001-POLYMED",  "tipo": "1 Container", "data_recebimento": "01/06/26", "confirmado": "AG. REGISTRO", "chegou_cd": "Previsto",  "status": "Aguardando Programação" }
 
 
 
@@ -47,8 +47,8 @@
   {"numero_pedido":"694590 ", "emissao_pv": "28/05/2026 ", "vlr_total_produtos": "8420 ", "margem": "38,65 ", "nome_cliente": "DETMED ", "uf_cliente": "PI ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"694630 ", "emissao_pv": "28/05/2026 ", "vlr_total_produtos": "4194 ", "margem": "16,26 ", "nome_cliente": "PHOENIX MED MATERIAL ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"694674 ", "emissao_pv": "28/05/2026 ", "vlr_total_produtos": "1957,6 ", "margem": "7,05 ", "nome_cliente": "S3 GESTAO EM SAUDE ", "uf_cliente": "BA ", "tipo_cliente": "CONS.FINAL ","vendedor": "NEOLANDI SANTOS ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"694834 ", "emissao_pv": "28/05/2026 ", "vlr_total_produtos": "235330 ", "margem": "16,65 ", "nome_cliente": "CIRURGICA NASSAU ", "uf_cliente": "PE ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"694836 ", "emissao_pv": "29/05/2026 ", "vlr_total_produtos": "418,86 ", "margem": "0 ", "nome_cliente": "LUANA RIBEIRO ESTETI ", "uf_cliente": "RJ ", "tipo_cliente": "CONS.FINAL ","vendedor": "E-COMMERCE ", "ultimo_status": "Alvará Sanitário" }
+  {"numero_pedido":"694832 ", "emissao_pv": "28/05/2026 ", "vlr_total_produtos": "502,42 ", "margem": "0 ", "nome_cliente": "GUILHERME PEREIRA ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "E-COMMERCE ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"694834 ", "emissao_pv": "28/05/2026 ", "vlr_total_produtos": "235330 ", "margem": "16,65 ", "nome_cliente": "CIRURGICA NASSAU ", "uf_cliente": "PE ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" }
 
 
 
@@ -84,11 +84,11 @@
     "mes_atual": {
      "periodo": "maio/2026",
      "frete_pago": "541953,18",
-     "faturamento": "13184312,89",
+     "faturamento": "13545364,89",
      "frete_repassado": "453373,81",
      "entrega_realizada": "1308",
      "entrega_no_prazo": "1271",
-     "qtd_notas_fiscais": "1846",
+     "qtd_notas_fiscais": "1848",
      "entrega_fora_prazo": "39"
 },
   "mes_anterior": {
@@ -106,12 +106,12 @@
 
 
 "estoque": {
-  "ocupacao_total_armazem": 61.34,
-  "ocupacao_operacional": 66.52,
+  "ocupacao_total_armazem": 65.71,
+  "ocupacao_operacional": 71.70,
   "areas": [
-    { "nome": "Picking", "taxa": 84.83},
-    { "nome": "Pulmão de Abastecimento", "taxa": 63.16},
-    { "nome": "Flowrack", "taxa": 42.36},
+    { "nome": "Picking", "taxa": 85.29},
+    { "nome": "Pulmão de Abastecimento", "taxa": 69.20},
+    { "nome": "Flowrack", "taxa": 43.11},
     { "nome": "Área de Qualidade", "taxa": 22.46},
     { "nome": "Área de Amostra", "taxa": 0.00},
     { "nome": "Área de Avarias", "taxa": 25.58}
