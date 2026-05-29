@@ -1,18 +1,18 @@
 {
-  "updated_at": "29/05/2026 13:16",
+  "updated_at": "29/05/2026 14:46",
   "kpis": {
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 3, "valor": "8407,71" },
-    { "status": "Alvará Sanitário", "quantidade": 3, "valor": "3580,98" },
+    { "status": "Aguardando Liberação", "quantidade": 4, "valor": "17161,71" },
+    { "status": "Alvará Sanitário", "quantidade": 4, "valor": "20341,36" },
     { "status": "Bloqueado por regra", "quantidade": 1, "valor": "502,42" },
-    { "status": "Análise de Crédito", "quantidade": 15, "valor": "570805,49" },
-    { "status": "Total em Disputa", "quantidade": 22, "valor": "583296,6" },
+    { "status": "Análise de Crédito", "quantidade": 16, "valor": "463890,81" },
+    { "status": "Total em Disputa", "quantidade": 25, "valor": "501896,3" },
     { "status": "Aguard. Envio Separação", "quantidade": 0, "valor": "0" },
-    { "status": "Em Separação", "quantidade": 140, "valor": "743323,81" },
-    { "status": "Separado", "quantidade": 3, "valor": "114258,06" },
-    { "status": "Faturado", "quantidade": 2, "valor": "2520,5" },
-    { "status": "Total", "quantidade": 145, "valor": "860102,37" }
+    { "status": "Em Separação", "quantidade": 141, "valor": "856122,61" },
+    { "status": "Separado", "quantidade": 0, "valor": "0" },
+    { "status": "Faturado", "quantidade": 11, "valor": "142600,69" },
+    { "status": "Total", "quantidade": 152, "valor": "998723,3" }
  ],
  "recebimento_produtos": [
    { "embarque": "25.04-HONGDA",  "tipo": "1 Carreta", "data_recebimento": "27/05/26", "confirmado": "CANAL AMARELO", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
@@ -49,10 +49,10 @@
   {"numero_pedido":"694858 ", "emissao_pv": "29/05/2026 ", "vlr_total_produtos": "1646,86 ", "margem": "49,42 ", "nome_cliente": "54 369 540 THAINA TH ", "uf_cliente": "PI ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"694882 ", "emissao_pv": "29/05/2026 ", "vlr_total_produtos": "2214 ", "margem": "32,13 ", "nome_cliente": "LAB CENTER ", "uf_cliente": "PA ", "tipo_cliente": "CONS.FINAL ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"694890 ", "emissao_pv": "29/05/2026 ", "vlr_total_produtos": "941,58 ", "margem": "35,48 ", "nome_cliente": "LABORATORIO ARARUAMA ", "uf_cliente": "RJ ", "tipo_cliente": "CONS.FINAL ","vendedor": "V.D INTERNAS ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"694896 ", "emissao_pv": "29/05/2026 ", "vlr_total_produtos": "948,12 ", "margem": "33,13 ", "nome_cliente": "ZOOVET ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "NEOLANDI SANTOS ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"694908 ", "emissao_pv": "29/05/2026 ", "vlr_total_produtos": "117668,61 ", "margem": "21,97 ", "nome_cliente": "COMERCIAL VALFARMA E ", "uf_cliente": "CE ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. ALFA ", "ultimo_status": "Análise de Crédito" }
-
-
+  {"numero_pedido":"694914 ", "emissao_pv": "29/05/2026 ", "vlr_total_produtos": "16505,5 ", "margem": "29,38 ", "nome_cliente": "PLUSPHARMA ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. SCHIBELGS ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"694920 ", "emissao_pv": "29/05/2026 ", "vlr_total_produtos": "7832,93 ", "margem": "30,07 ", "nome_cliente": "GB S HOSPITALAR ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "NEOLANDI SANTOS ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"694926 ", "emissao_pv": "29/05/2026 ", "vlr_total_produtos": "1203 ", "margem": "50,42 ", "nome_cliente": "RAD SAUDE ", "uf_cliente": "MA ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"694932 ", "emissao_pv": "29/05/2026 ", "vlr_total_produtos": "2921 ", "margem": "15,77 ", "nome_cliente": "CREMER S A ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. ML DANTE ", "ultimo_status": "Análise de Crédito" }
 
 
 
