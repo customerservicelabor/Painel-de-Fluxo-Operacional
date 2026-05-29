@@ -1,18 +1,18 @@
 {
-  "updated_at": "29/05/2026 10:33",
+  "updated_at": "29/05/2026 13:16",
   "kpis": {
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 4, "valor": "16525,75" },
-    { "status": "Alvará Sanitário", "quantidade": 2, "valor": "1414,86" },
+    { "status": "Aguardando Liberação", "quantidade": 3, "valor": "8407,71" },
+    { "status": "Alvará Sanitário", "quantidade": 3, "valor": "3580,98" },
     { "status": "Bloqueado por regra", "quantidade": 1, "valor": "502,42" },
-    { "status": "Análise de Crédito", "quantidade": 16, "valor": "473607,7" },
-    { "status": "Total em Disputa", "quantidade": 23, "valor": "492050,73" },
+    { "status": "Análise de Crédito", "quantidade": 15, "valor": "570805,49" },
+    { "status": "Total em Disputa", "quantidade": 22, "valor": "583296,6" },
     { "status": "Aguard. Envio Separação", "quantidade": 0, "valor": "0" },
-    { "status": "Em Separação", "quantidade": 123, "valor": "708439,12" },
-    { "status": "Separado", "quantidade": 2, "valor": "2520,5" },
-    { "status": "Faturado", "quantidade": 0, "valor": "0" },
-    { "status": "Total", "quantidade": 125, "valor": "710959,62" }
+    { "status": "Em Separação", "quantidade": 140, "valor": "743323,81" },
+    { "status": "Separado", "quantidade": 3, "valor": "114258,06" },
+    { "status": "Faturado", "quantidade": 2, "valor": "2520,5" },
+    { "status": "Total", "quantidade": 145, "valor": "860102,37" }
  ],
  "recebimento_produtos": [
    { "embarque": "25.04-HONGDA",  "tipo": "1 Carreta", "data_recebimento": "27/05/26", "confirmado": "CANAL AMARELO", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
@@ -46,11 +46,11 @@
   {"numero_pedido":"694630 ", "emissao_pv": "28/05/2026 ", "vlr_total_produtos": "4194 ", "margem": "16,26 ", "nome_cliente": "PHOENIX MED MATERIAL ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"694834 ", "emissao_pv": "28/05/2026 ", "vlr_total_produtos": "235330 ", "margem": "16,65 ", "nome_cliente": "CIRURGICA NASSAU ", "uf_cliente": "PE ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"694836 ", "emissao_pv": "29/05/2026 ", "vlr_total_produtos": "418,86 ", "margem": "0 ", "nome_cliente": "LUANA RIBEIRO ESTETI ", "uf_cliente": "RJ ", "tipo_cliente": "CONS.FINAL ","vendedor": "E-COMMERCE ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"694842 ", "emissao_pv": "29/05/2026 ", "vlr_total_produtos": "1760,4 ", "margem": "28,43 ", "nome_cliente": "REAL MED ", "uf_cliente": "MT ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"694858 ", "emissao_pv": "29/05/2026 ", "vlr_total_produtos": "1646,86 ", "margem": "49,42 ", "nome_cliente": "54 369 540 THAINA TH ", "uf_cliente": "PI ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"694859 ", "emissao_pv": "29/05/2026 ", "vlr_total_produtos": "1872 ", "margem": "19,85 ", "nome_cliente": "UNION MED HOSPITALAR ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. SUPREMO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"694868 ", "emissao_pv": "29/05/2026 ", "vlr_total_produtos": "996 ", "margem": "49,15 ", "nome_cliente": "M G  DOMINGUES DISTR ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"694870 ", "emissao_pv": "29/05/2026 ", "vlr_total_produtos": "17780 ", "margem": "21,26 ", "nome_cliente": "RD DISTRIBUIDORA ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" }
+  {"numero_pedido":"694882 ", "emissao_pv": "29/05/2026 ", "vlr_total_produtos": "2214 ", "margem": "32,13 ", "nome_cliente": "LAB CENTER ", "uf_cliente": "PA ", "tipo_cliente": "CONS.FINAL ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"694890 ", "emissao_pv": "29/05/2026 ", "vlr_total_produtos": "941,58 ", "margem": "35,48 ", "nome_cliente": "LABORATORIO ARARUAMA ", "uf_cliente": "RJ ", "tipo_cliente": "CONS.FINAL ","vendedor": "V.D INTERNAS ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"694896 ", "emissao_pv": "29/05/2026 ", "vlr_total_produtos": "948,12 ", "margem": "33,13 ", "nome_cliente": "ZOOVET ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "NEOLANDI SANTOS ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"694908 ", "emissao_pv": "29/05/2026 ", "vlr_total_produtos": "117668,61 ", "margem": "21,97 ", "nome_cliente": "COMERCIAL VALFARMA E ", "uf_cliente": "CE ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. ALFA ", "ultimo_status": "Análise de Crédito" }
 
 
 
