@@ -1,5 +1,5 @@
 {
-  "updated_at": "01/06/2026 08:16",
+  "updated_at": "01/06/2026 08:24",
   "kpis": {
   },
   "pedidos_status": [
@@ -84,7 +84,7 @@
     "mes_atual": {
      "periodo": "junho/2026",
      "frete_pago": "0",
-#CALC!
+     "faturamento": "0",
      "frete_repassado": "0",
      "entrega_realizada": "2",
      "entrega_no_prazo": "1",
