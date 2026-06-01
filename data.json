@@ -1,5 +1,5 @@
 {
-  "updated_at": "01/06/2026 16:17",
+  "updated_at": "01/06/2026 16:29",
   "kpis": {
   },
   "pedidos_status": [
@@ -15,12 +15,12 @@
     { "status": "Total", "quantidade": 254, "valor": "1642030,02" }
  ],
  "recebimento_produtos": [
-   { "embarque": "IMP00001-POLYMED",  "tipo": "Container", "data_recebimento": "27/05/26", "confirmado": "Não", "chegou_cd": "Sim",  "status": "Programado" },
-   { "embarque": "26.02-WEIGAO-B",  "tipo": "Container", "data_recebimento": "27/05/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
-   { "embarque": "IMP00004-POLYMED",  "tipo": "Container", "data_recebimento": "27/05/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Programado" },
-   { "embarque": "IMP00007-VITROMED",  "tipo": "Container", "data_recebimento": "01/06/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Programado" },
-   { "embarque": "IMP00002-MEDICO ELEC",  "tipo": "Container", "data_recebimento": "02/06/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
-   { "embarque": "25.16-VITRO",  "tipo": "Container", "data_recebimento": "01/06/26", "confirmado": "Não", "chegou_cd": "Previsto",  "status": "Aguardando Programação" }
+   { "embarque": "IMP00001-POLYMED",  "tipo": "Container", "data_recebimento": "27/05/26", "confirmado": "AG. ENTREGA", "chegou_cd": "Sim",  "status": "Chegou no CD" },
+   { "embarque": "26.02-WEIGAO-B",  "tipo": "Container", "data_recebimento": "27/05/26", "confirmado": "AG. AGENDAMENTO", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
+   { "embarque": "IMP00004-POLYMED",  "tipo": "Container", "data_recebimento": "27/05/26", "confirmado": "AG. ENTREGA", "chegou_cd": "Previsto",  "status": "Programado" },
+   { "embarque": "IMP00007-VITROMED",  "tipo": "Container", "data_recebimento": "01/06/26", "confirmado": "AG. ENTREGA", "chegou_cd": "Previsto",  "status": "Programado" },
+   { "embarque": "IMP00002-MEDICO ELEC",  "tipo": "Container", "data_recebimento": "02/06/26", "confirmado": "CANAL AMARELO", "chegou_cd": "Previsto",  "status": "Aguardando Programação" },
+   { "embarque": "25.16-VITRO",  "tipo": "Container", "data_recebimento": "01/06/26", "confirmado": "AG. ATRACAÇÃO", "chegou_cd": "Previsto",  "status": "Aguardando Programação" }
 
 
 
