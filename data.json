@@ -1,18 +1,18 @@
 {
-  "updated_at": "02/06/2026 13:00",
+  "updated_at": "02/06/2026 14:21",
   "kpis": {
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 7, "valor": "69568,71" },
-    { "status": "Alvará Sanitário", "quantidade": 1, "valor": "845,2" },
-    { "status": "Bloqueado por regra", "quantidade": 2, "valor": "649,76" },
-    { "status": "Análise de Crédito", "quantidade": 10, "valor": "277679,87" },
-    { "status": "Total em Disputa", "quantidade": 20, "valor": "348743,54" },
-    { "status": "Aguard. Envio Separação", "quantidade": 6, "valor": "34816,71" },
-    { "status": "Em Separação", "quantidade": 131, "valor": "1225722,89" },
-    { "status": "Separado", "quantidade": 1, "valor": "47552" },
-    { "status": "Faturado", "quantidade": 45, "valor": "169717,47" },
-    { "status": "Total", "quantidade": 183, "valor": "1477809,07" }
+    { "status": "Aguardando Liberação", "quantidade": 8, "valor": "70396,97" },
+    { "status": "Alvará Sanitário", "quantidade": 3, "valor": "3702,5" },
+    { "status": "Bloqueado por regra", "quantidade": 3, "valor": "2463,97" },
+    { "status": "Análise de Crédito", "quantidade": 11, "valor": "84484,08" },
+    { "status": "Total em Disputa", "quantidade": 25, "valor": "161047,52" },
+    { "status": "Aguard. Envio Separação", "quantidade": 5, "valor": "34812,87" },
+    { "status": "Em Separação", "quantidade": 135, "valor": "1391445,24" },
+    { "status": "Separado", "quantidade": 1, "valor": "25665" },
+    { "status": "Faturado", "quantidade": 53, "valor": "294796,77" },
+    { "status": "Total", "quantidade": 194, "valor": "1746719,88" }
  ],
  "recebimento_produtos": [
    { "embarque": "IMP00001-POLYMED",  "tipo": "Container", "data_recebimento": "27/05/26", "confirmado": "AG. ENTREGA", "chegou_cd": "Sim",  "status": "Chegou no CD" },
@@ -35,7 +35,6 @@
 "pedidos_nao_faturados": [
   {"numero_pedido":"694996 ", "emissao_pv": "29/05/2026 ", "vlr_total_produtos": "15664,5 ", "margem": "3,26 ", "nome_cliente": "DENTAL EPORT MATERIA ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. CAREMED ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"695037 ", "emissao_pv": "01/06/2026 ", "vlr_total_produtos": "1808 ", "margem": "53,6 ", "nome_cliente": "DROGARIA BRASIL ", "uf_cliente": "PI ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"695082 ", "emissao_pv": "01/06/2026 ", "vlr_total_produtos": "228910,29 ", "margem": "56 ", "nome_cliente": "LSI S.A. ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. FENIX (SC) ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"695087 ", "emissao_pv": "01/06/2026 ", "vlr_total_produtos": "6465,98 ", "margem": "30,99 ", "nome_cliente": "CASA DE SAUDE SAO JO ", "uf_cliente": "RJ ", "tipo_cliente": "CONS.FINAL ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"695120 ", "emissao_pv": "01/06/2026 ", "vlr_total_produtos": "2175 ", "margem": "36,36 ", "nome_cliente": "BNT PRODUTOS PARA SA ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"695137 ", "emissao_pv": "01/06/2026 ", "vlr_total_produtos": "6320 ", "margem": "44,8 ", "nome_cliente": "EXECU TECH LTDA ", "uf_cliente": "AM ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
@@ -43,10 +42,11 @@
   {"numero_pedido":"695240 ", "emissao_pv": "02/06/2026 ", "vlr_total_produtos": "845,2 ", "margem": "30,14 ", "nome_cliente": "CIRURGICA CREMED ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. ML DANTE ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"695258 ", "emissao_pv": "02/06/2026 ", "vlr_total_produtos": "6990 ", "margem": "10,49 ", "nome_cliente": "BHFIOS PRODUTOS ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"695266 ", "emissao_pv": "02/06/2026 ", "vlr_total_produtos": "840,6 ", "margem": "33,55 ", "nome_cliente": "PREMISSE HOSPITALAR ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"695306 ", "emissao_pv": "02/06/2026 ", "vlr_total_produtos": "7650 ", "margem": "25 ", "nome_cliente": "SERVICO HEMOTERAPIA ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "ALEXANDRA RIBEIRO ", "ultimo_status": "Análise de Crédito" }
-
-
-
+  {"numero_pedido":"695310 ", "emissao_pv": "02/06/2026 ", "vlr_total_produtos": "1427,3 ", "margem": "34,47 ", "nome_cliente": "LAGOLD HOSPITALAR ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"695314 ", "emissao_pv": "02/06/2026 ", "vlr_total_produtos": "15110 ", "margem": "21,79 ", "nome_cliente": "MASTERMED  PRODUTOS ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"695316 ", "emissao_pv": "02/06/2026 ", "vlr_total_produtos": "1370 ", "margem": "36,2 ", "nome_cliente": "CIRURGICA FERNANDES ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"695324 ", "emissao_pv": "02/06/2026 ", "vlr_total_produtos": "1430 ", "margem": "46,9 ", "nome_cliente": "NEW LIFE ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"695338 ", "emissao_pv": "02/06/2026 ", "vlr_total_produtos": "26884,5 ", "margem": "25,06 ", "nome_cliente": "J J  DISTRIBUIDORA ", "uf_cliente": "PE ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Análise de Crédito" }
 
 
 
@@ -83,18 +83,18 @@
   "performance_gerencial": {
     "mes_atual": {
      "periodo": "junho/2026",
-     "frete_pago": "7150,07",
-     "faturamento": "180333,14",
-     "frete_repassado": "20930,48",
+     "frete_pago": "16516,63",
+     "faturamento": "327441,64",
+     "frete_repassado": "31766,8",
      "entrega_realizada": "2",
      "entrega_no_prazo": "1",
-     "qtd_notas_fiscais": "122",
+     "qtd_notas_fiscais": "174",
      "entrega_fora_prazo": "0"
 },
   "mes_anterior": {
      "periodo": "maio/2026",
-     "entrega_realizada": "1479",
-     "entrega_no_prazo": "1436"
+     "entrega_realizada": "1515",
+     "entrega_no_prazo": "1469"
   }
 },
   "expedicao": {
