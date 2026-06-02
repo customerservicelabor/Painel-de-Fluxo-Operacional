@@ -13,7 +13,6 @@
     { "status": "Separado", "quantidade": 0, "valor": "0" },
     { "status": "Faturado", "quantidade": 0, "valor": "0" },
     { "status": "Total", "quantidade": 144, "valor": "1280765,21" }
-
  ],
  "recebimento_produtos": [
    { "embarque": "IMP00001-POLYMED",  "tipo": "Container", "data_recebimento": "27/05/26", "confirmado": "AG. ENTREGA", "chegou_cd": "Sim",  "status": "Chegou no CD" },
@@ -34,21 +33,21 @@
 
  ],
 "pedidos_nao_faturados": [
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  {"numero_pedido":"694996 ", "emissao_pv": "29/05/2026 ", "vlr_total_produtos": "15664,5 ", "margem": "3,26 ", "nome_cliente": "DENTAL EPORT MATERIA ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. CAREMED ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"695037 ", "emissao_pv": "01/06/2026 ", "vlr_total_produtos": "1808 ", "margem": "53,6 ", "nome_cliente": "DROGARIA BRASIL ", "uf_cliente": "PI ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"695051 ", "emissao_pv": "01/06/2026 ", "vlr_total_produtos": "3312,03 ", "margem": "37,44 ", "nome_cliente": "BENEFICENCIA HOSPITA ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "MARIANA HERGOVIC ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"695082 ", "emissao_pv": "01/06/2026 ", "vlr_total_produtos": "228910,29 ", "margem": "56 ", "nome_cliente": "LSI S.A. ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. FENIX (SC) ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"695087 ", "emissao_pv": "01/06/2026 ", "vlr_total_produtos": "6465,98 ", "margem": "30,99 ", "nome_cliente": "CASA DE SAUDE SAO JO ", "uf_cliente": "RJ ", "tipo_cliente": "CONS.FINAL ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"695120 ", "emissao_pv": "01/06/2026 ", "vlr_total_produtos": "2175 ", "margem": "36,36 ", "nome_cliente": "BNT PRODUTOS PARA SA ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"695137 ", "emissao_pv": "01/06/2026 ", "vlr_total_produtos": "6320 ", "margem": "44,8 ", "nome_cliente": "EXECU TECH LTDA ", "uf_cliente": "AM ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"695188 ", "emissao_pv": "02/06/2026 ", "vlr_total_produtos": "1955 ", "margem": "0 ", "nome_cliente": "CARVALHO SANDRIN SER ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOICE MENDES ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"695189 ", "emissao_pv": "01/06/2026 ", "vlr_total_produtos": "32958,62 ", "margem": "31,42 ", "nome_cliente": "CUIDAR MED ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"695201 ", "emissao_pv": "01/06/2026 ", "vlr_total_produtos": "14400 ", "margem": "37,91 ", "nome_cliente": "STAR COMERCIO ", "uf_cliente": "RO ", "tipo_cliente": "REVENDEDOR ","vendedor": "LUCIANA LIMA ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"695219 ", "emissao_pv": "01/06/2026 ", "vlr_total_produtos": "821,8 ", "margem": "40,03 ", "nome_cliente": "CASA DE SAUDE NOSSA ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "LUCIA FLORESTA ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"695222 ", "emissao_pv": "02/06/2026 ", "vlr_total_produtos": "855,5 ", "margem": "24,45 ", "nome_cliente": "GEOMED HOSPITALAR ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"695224 ", "emissao_pv": "02/06/2026 ", "vlr_total_produtos": "12388,39 ", "margem": "28,71 ", "nome_cliente": "SUPRI VALE ", "uf_cliente": "PE ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"695226 ", "emissao_pv": "02/06/2026 ", "vlr_total_produtos": "7036,84 ", "margem": "32,45 ", "nome_cliente": "SUPORTECH ", "uf_cliente": "MS ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"695228 ", "emissao_pv": "02/06/2026 ", "vlr_total_produtos": "4010,12 ", "margem": "31,99 ", "nome_cliente": "HEAL PHARMA DISTRIBU ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOICE MENDES ", "ultimo_status": "Análise de Crédito" }
 
 
 
