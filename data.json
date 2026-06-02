@@ -1,18 +1,18 @@
 {
-  "updated_at": "02/06/2026 16:12",
+  "updated_at": "02/06/2026 17:38",
   "kpis": {
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 7, "valor": "69568,71" },
-    { "status": "Alvará Sanitário", "quantidade": 5, "valor": "7328,25" },
+    { "status": "Alvará Sanitário", "quantidade": 4, "valor": "7403,7" },
     { "status": "Bloqueado por regra", "quantidade": 2, "valor": "649,76" },
-    { "status": "Análise de Crédito", "quantidade": 8, "valor": "45957,48" },
-    { "status": "Total em Disputa", "quantidade": 22, "valor": "123504,2" },
-    { "status": "Aguard. Envio Separação", "quantidade": 6, "valor": "37910,57" },
-    { "status": "Em Separação", "quantidade": 142, "valor": "1333064,06" },
+    { "status": "Análise de Crédito", "quantidade": 13, "valor": "126099,84" },
+    { "status": "Total em Disputa", "quantidade": 26, "valor": "203722,01" },
+    { "status": "Aguard. Envio Separação", "quantidade": 7, "valor": "31618,27" },
+    { "status": "Em Separação", "quantidade": 142, "valor": "1227036,68" },
     { "status": "Separado", "quantidade": 0, "valor": "0" },
-    { "status": "Faturado", "quantidade": 66, "valor": "482561,68" },
-    { "status": "Total", "quantidade": 214, "valor": "1853536,31" }
+    { "status": "Faturado", "quantidade": 78, "valor": "613116,91" },
+    { "status": "Total", "quantidade": 227, "valor": "1871771,86" }
  ],
  "recebimento_produtos": [
    { "embarque": "IMP00001-POLYMED",  "tipo": "Container", "data_recebimento": "27/05/26", "confirmado": "AG. ENTREGA", "chegou_cd": "Sim",  "status": "Chegou no CD" },
@@ -38,18 +38,18 @@
   {"numero_pedido":"695087 ", "emissao_pv": "01/06/2026 ", "vlr_total_produtos": "6465,98 ", "margem": "30,99 ", "nome_cliente": "CASA DE SAUDE SAO JO ", "uf_cliente": "RJ ", "tipo_cliente": "CONS.FINAL ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"695120 ", "emissao_pv": "01/06/2026 ", "vlr_total_produtos": "2175 ", "margem": "36,36 ", "nome_cliente": "BNT PRODUTOS PARA SA ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"695240 ", "emissao_pv": "02/06/2026 ", "vlr_total_produtos": "845,2 ", "margem": "30,14 ", "nome_cliente": "CIRURGICA CREMED ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. ML DANTE ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"695310 ", "emissao_pv": "02/06/2026 ", "vlr_total_produtos": "1427,3 ", "margem": "34,47 ", "nome_cliente": "LAGOLD HOSPITALAR ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"695314 ", "emissao_pv": "02/06/2026 ", "vlr_total_produtos": "15110 ", "margem": "21,79 ", "nome_cliente": "MASTERMED  PRODUTOS ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"695324 ", "emissao_pv": "02/06/2026 ", "vlr_total_produtos": "1430 ", "margem": "46,9 ", "nome_cliente": "NEW LIFE ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"695349 ", "emissao_pv": "02/06/2026 ", "vlr_total_produtos": "2916 ", "margem": "13,08 ", "nome_cliente": "AGLMED PRODUTOS E EQ ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"695357 ", "emissao_pv": "02/06/2026 ", "vlr_total_produtos": "1140 ", "margem": "35,29 ", "nome_cliente": "BENEFICENCIA HOSPITA ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "MARIANA HERGOVIC ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"695371 ", "emissao_pv": "02/06/2026 ", "vlr_total_produtos": "2468 ", "margem": "15,76 ", "nome_cliente": "MONTE ALTO COMERCIO ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"695373 ", "emissao_pv": "02/06/2026 ", "vlr_total_produtos": "999,75 ", "margem": "38,66 ", "nome_cliente": "BRASIL CARE DISTRIBU ", "uf_cliente": "RJ ", "tipo_cliente": "CONS.FINAL ","vendedor": "NEOLANDI SANTOS ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"695375 ", "emissao_pv": "02/06/2026 ", "vlr_total_produtos": "836 ", "margem": "44,57 ", "nome_cliente": "LOGAN COMERCIO DE PR ", "uf_cliente": "SC ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" }
-
-
-
-
+  {"numero_pedido":"695375 ", "emissao_pv": "02/06/2026 ", "vlr_total_produtos": "836 ", "margem": "44,57 ", "nome_cliente": "LOGAN COMERCIO DE PR ", "uf_cliente": "SC ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"695377 ", "emissao_pv": "02/06/2026 ", "vlr_total_produtos": "54840 ", "margem": "12,72 ", "nome_cliente": "MED PRO COMERCIO PRO ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"695383 ", "emissao_pv": "02/06/2026 ", "vlr_total_produtos": "6235 ", "margem": "24,1 ", "nome_cliente": "SAUDE EXPRESS DISTRI ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "LUCIANA LIMA ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"695388 ", "emissao_pv": "02/06/2026 ", "vlr_total_produtos": "2502,5 ", "margem": "28,9 ", "nome_cliente": "VITORIA ARTIGOS ODON ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "ALEXANDRA RIBEIRO ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"695390 ", "emissao_pv": "02/06/2026 ", "vlr_total_produtos": "13900 ", "margem": "28,28 ", "nome_cliente": "MED FLEX ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"695404 ", "emissao_pv": "02/06/2026 ", "vlr_total_produtos": "3498 ", "margem": "28,36 ", "nome_cliente": "LAB GUARARAPES ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"695406 ", "emissao_pv": "02/06/2026 ", "vlr_total_produtos": "1669,36 ", "margem": "45,13 ", "nome_cliente": "CIRURGICA XINGU ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" }
 
 
 
