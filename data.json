@@ -1,18 +1,19 @@
 {
-  "updated_at": "02/06/2026 08:26",
+  "updated_at": "02/06/2026 08:31",
   "kpis": {
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 0, "valor": "0" },
-    { "status": "Alvará Sanitário", "quantidade": 0, "valor": "0" },
-    { "status": "Bloqueado por regra", "quantidade": 0, "valor": "0" },
-    { "status": "Análise de Crédito", "quantidade": 0, "valor": "0" },
-    { "status": "Total em Disputa", "quantidade": 0, "valor": "0" },
-    { "status": "Aguard. Envio Separação", "quantidade": 0, "valor": "0" },
-    { "status": "Em Separação", "quantidade": 0, "valor": "0" },
+    { "status": "Aguardando Liberação", "quantidade": 6, "valor": "67248,71" },
+    { "status": "Alvará Sanitário", "quantidade": 5, "valor": "26426,17" },
+    { "status": "Bloqueado por regra", "quantidade": 1, "valor": "342" },
+    { "status": "Análise de Crédito", "quantidade": 10, "valor": "312655,9" },
+    { "status": "Total em Disputa", "quantidade": 22, "valor": "406672,78" },
+    { "status": "Aguard. Envio Separação", "quantidade": 5, "valor": "33736,71" },
+    { "status": "Em Separação", "quantidade": 139, "valor": "1247028,5" },
     { "status": "Separado", "quantidade": 0, "valor": "0" },
     { "status": "Faturado", "quantidade": 0, "valor": "0" },
-    { "status": "Total", "quantidade": 0, "valor": "0" }
+    { "status": "Total", "quantidade": 144, "valor": "1280765,21" }
+
  ],
  "recebimento_produtos": [
    { "embarque": "IMP00001-POLYMED",  "tipo": "Container", "data_recebimento": "27/05/26", "confirmado": "AG. ENTREGA", "chegou_cd": "Sim",  "status": "Chegou no CD" },
