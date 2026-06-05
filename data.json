@@ -1,18 +1,18 @@
 {
-  "updated_at": "05/06/2026 16:49",
+  "updated_at": "05/06/2026 17:22",
   "kpis": {
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 3, "valor": "3655,71" },
+    { "status": "Aguardando Liberação", "quantidade": 4, "valor": "8237,45" },
     { "status": "Alvará Sanitário", "quantidade": 3, "valor": "3465,7" },
     { "status": "Bloqueado por regra", "quantidade": 1, "valor": "307,76" },
-    { "status": "Análise de Crédito", "quantidade": 18, "valor": "154876,41" },
-    { "status": "Total em Disputa", "quantidade": 25, "valor": "162305,58" },
+    { "status": "Análise de Crédito", "quantidade": 14, "valor": "143229,25" },
+    { "status": "Total em Disputa", "quantidade": 22, "valor": "155240,16" },
     { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "1724,14" },
-    { "status": "Em Separação", "quantidade": 13, "valor": "99120,99" },
-    { "status": "Separado", "quantidade": 1, "valor": "34120" },
-    { "status": "Faturado", "quantidade": 76, "valor": "468275,6" },
-    { "status": "Total", "quantidade": 91, "valor": "603240,73" }
+    { "status": "Em Separação", "quantidade": 11, "valor": "44983,32" },
+    { "status": "Separado", "quantidade": 8, "valor": "55812,71" },
+    { "status": "Faturado", "quantidade": 78, "valor": "536658,2" },
+    { "status": "Total", "quantidade": 98, "valor": "639178,37" }
  ],
  "recebimento_produtos": [
    { "embarque": "Carreta SR",  "tipo": "1 Carreta", "data_recebimento": "28/05/26", "confirmado": "Sim", "chegou_cd": "Chegada as 18:52",  "status": "Finalizado" }
@@ -46,14 +46,14 @@
   {"numero_pedido":"695592 ", "emissao_pv": "03/06/2026 ", "vlr_total_produtos": "835,5 ", "margem": "22,68 ", "nome_cliente": "ADRIANA DEL VECCHIO ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. ML DANTE ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"695718 ", "emissao_pv": "05/06/2026 ", "vlr_total_produtos": "4975,73 ", "margem": "32,4 ", "nome_cliente": "ATTITUDE ", "uf_cliente": "PA ", "tipo_cliente": "CONS.FINAL ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"695740 ", "emissao_pv": "05/06/2026 ", "vlr_total_produtos": "3375 ", "margem": "11,36 ", "nome_cliente": "CURAMAX ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"695746 ", "emissao_pv": "05/06/2026 ", "vlr_total_produtos": "1120,14 ", "margem": "38,5 ", "nome_cliente": "JANAINA MARCHESI ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"695748 ", "emissao_pv": "05/06/2026 ", "vlr_total_produtos": "8484 ", "margem": "29,65 ", "nome_cliente": "SAFETY HEALTH SERVIC ", "uf_cliente": "RN ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"695750 ", "emissao_pv": "05/06/2026 ", "vlr_total_produtos": "9764 ", "margem": "27,79 ", "nome_cliente": "R A FARMA DISTRIBUID ", "uf_cliente": "CE ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"695752 ", "emissao_pv": "05/06/2026 ", "vlr_total_produtos": "16736 ", "margem": "26,13 ", "nome_cliente": "FORTVALE ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"695756 ", "emissao_pv": "05/06/2026 ", "vlr_total_produtos": "8994,64 ", "margem": "28,19 ", "nome_cliente": "MIXMED DISTRIBUIDORA ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"695758 ", "emissao_pv": "05/06/2026 ", "vlr_total_produtos": "949 ", "margem": "25,53 ", "nome_cliente": "LAB. PRIMAVERA ", "uf_cliente": "PA ", "tipo_cliente": "CONS.FINAL ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"695766 ", "emissao_pv": "05/06/2026 ", "vlr_total_produtos": "9689,5 ", "margem": "36,39 ", "nome_cliente": "DISMEDIL ", "uf_cliente": "MT ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"695772 ", "emissao_pv": "05/06/2026 ", "vlr_total_produtos": "1796 ", "margem": "27,48 ", "nome_cliente": "TANKAVEL LTDA ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" }
+  {"numero_pedido":"695772 ", "emissao_pv": "05/06/2026 ", "vlr_total_produtos": "1796 ", "margem": "27,48 ", "nome_cliente": "TANKAVEL LTDA ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"695778 ", "emissao_pv": "05/06/2026 ", "vlr_total_produtos": "18359,48 ", "margem": "22,21 ", "nome_cliente": "SALUT HOSPITALAR ", "uf_cliente": "MA ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" }
+
+
+
+
 
 
 
