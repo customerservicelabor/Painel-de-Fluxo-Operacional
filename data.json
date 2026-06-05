@@ -103,3 +103,18 @@
      "valor_coletado": 0,
      "valor_pendente_coleta": 0
 },
+
+
+"estoque": {
+  "ocupacao_total_armazem": 60.86,
+  "ocupacao_operacional": 65.92,
+  "areas": [
+    { "nome": "Picking", "taxa": 83.91},
+    { "nome": "Pulmão de Abastecimento", "taxa": 62.61},
+    { "nome": "Flowrack", "taxa": 42.86},
+    { "nome": "Área de Qualidade", "taxa": 21.74},
+    { "nome": "Área de Amostra", "taxa": 0.00},
+    { "nome": "Área de Avarias", "taxa": 25.58}
+]
+}
+}
