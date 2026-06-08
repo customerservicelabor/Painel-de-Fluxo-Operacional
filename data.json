@@ -1,18 +1,18 @@
 {
-  "updated_at": "08/06/2026 08:22",
+  "updated_at": "08/06/2026 09:06",
   "kpis": {
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 3, "valor": "3655,71" },
     { "status": "Alvará Sanitário", "quantidade": 3, "valor": "3465,7" },
     { "status": "Bloqueado por regra", "quantidade": 1, "valor": "307,76" },
-    { "status": "Análise de Crédito", "quantidade": 13, "valor": "124869,77" },
-    { "status": "Total em Disputa", "quantidade": 20, "valor": "132298,94" },
-    { "status": "Aguard. Envio Separação", "quantidade": 0, "valor": "0" },
-    { "status": "Em Separação", "quantidade": 2, "valor": "68365,32" },
+    { "status": "Análise de Crédito", "quantidade": 13, "valor": "124513,97" },
+    { "status": "Total em Disputa", "quantidade": 20, "valor": "131943,14" },
+    { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "1843,05" },
+    { "status": "Em Separação", "quantidade": 5, "valor": "76944,12" },
     { "status": "Separado", "quantidade": 0, "valor": "0" },
-    { "status": "Faturado", "quantidade": 0, "valor": "0" },
-    { "status": "Total", "quantidade": 2, "valor": "68365,32" }
+    { "status": "Faturado", "quantidade": 1, "valor": "515,51" },
+    { "status": "Total", "quantidade": 7, "valor": "79302,68" }
  ],
  "recebimento_produtos": [
    { "embarque": "Carreta SR",  "tipo": "1 Carreta", "data_recebimento": "28/05/26", "confirmado": "Sim", "chegou_cd": "Chegada as 18:52",  "status": "Finalizado" }
@@ -48,7 +48,7 @@
   {"numero_pedido":"695740 ", "emissao_pv": "05/06/2026 ", "vlr_total_produtos": "3375 ", "margem": "11,36 ", "nome_cliente": "CURAMAX ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"695752 ", "emissao_pv": "05/06/2026 ", "vlr_total_produtos": "16736 ", "margem": "26,13 ", "nome_cliente": "FORTVALE ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"695756 ", "emissao_pv": "05/06/2026 ", "vlr_total_produtos": "8994,64 ", "margem": "28,19 ", "nome_cliente": "MIXMED DISTRIBUIDORA ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"695772 ", "emissao_pv": "05/06/2026 ", "vlr_total_produtos": "1796 ", "margem": "27,48 ", "nome_cliente": "TANKAVEL LTDA ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" }
+  {"numero_pedido":"695794 ", "emissao_pv": "08/06/2026 ", "vlr_total_produtos": "1440,2 ", "margem": "26,16 ", "nome_cliente": "HOSP DR BEDA ", "uf_cliente": "RJ ", "tipo_cliente": "CONS.FINAL ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" }
 
 
 
