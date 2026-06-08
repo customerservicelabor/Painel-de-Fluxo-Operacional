@@ -1,5 +1,5 @@
 {
-  "updated_at": "08/06/2026 11:49",
+  "updated_at": "08/06/2026 11:53",
   "kpis": {
   },
   "pedidos_status": [
@@ -106,11 +106,11 @@
 
 
 "estoque": {
-  "ocupacao_total_armazem": 60.86,
-  "ocupacao_operacional": 65.92,
+  "ocupacao_total_armazem": 58.97,
+  "ocupacao_operacional": 63.63,
   "areas": [
-    { "nome": "Picking", "taxa": 83.91},
-    { "nome": "Pulmão de Abastecimento", "taxa": 62.61},
+    { "nome": "Picking", "taxa": 82.30},
+    { "nome": "Pulmão de Abastecimento", "taxa": 60.20},
     { "nome": "Flowrack", "taxa": 42.86},
     { "nome": "Área de Qualidade", "taxa": 21.74},
     { "nome": "Área de Amostra", "taxa": 0.00},
