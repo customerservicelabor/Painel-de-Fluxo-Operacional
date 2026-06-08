@@ -1,18 +1,18 @@
 {
-  "updated_at": "08/06/2026 16:17",
+  "updated_at": "08/06/2026 17:02",
   "kpis": {
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 4, "valor": "4457,21" },
-    { "status": "Alvará Sanitário", "quantidade": 9, "valor": "38984,76" },
+    { "status": "Aguardando Liberação", "quantidade": 5, "valor": "16186,51" },
+    { "status": "Alvará Sanitário", "quantidade": 10, "valor": "42176,11" },
     { "status": "Bloqueado por regra", "quantidade": 1, "valor": "307,76" },
-    { "status": "Análise de Crédito", "quantidade": 15, "valor": "149120,43" },
-    { "status": "Total em Disputa", "quantidade": 29, "valor": "192870,16" },
-    { "status": "Aguard. Envio Separação", "quantidade": 2, "valor": "13043,62" },
-    { "status": "Em Separação", "quantidade": 10, "valor": "18277,13" },
-    { "status": "Separado", "quantidade": 5, "valor": "11473,95" },
-    { "status": "Faturado", "quantidade": 32, "valor": "168109,08" },
-    { "status": "Total", "quantidade": 49, "valor": "210903,78" }
+    { "status": "Análise de Crédito", "quantidade": 13, "valor": "65139,98" },
+    { "status": "Total em Disputa", "quantidade": 29, "valor": "123810,36" },
+    { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "2149,8" },
+    { "status": "Em Separação", "quantidade": 14, "valor": "112978,25" },
+    { "status": "Separado", "quantidade": 1, "valor": "1574,5" },
+    { "status": "Faturado", "quantidade": 42, "valor": "189125,31" },
+    { "status": "Total", "quantidade": 58, "valor": "305827,86" }
  ],
  "recebimento_produtos": [
    { "embarque": "Carreta SR",  "tipo": "1 Carreta", "data_recebimento": "28/05/26", "confirmado": "Sim", "chegou_cd": "Chegada as 18:52",  "status": "Finalizado" }
@@ -34,8 +34,6 @@
  ],
 "pedidos_nao_faturados": [
   {"numero_pedido":"694996 ", "emissao_pv": "29/05/2026 ", "vlr_total_produtos": "15664,5 ", "margem": "3,26 ", "nome_cliente": "DENTAL EPORT MATERIA ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. CAREMED ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"695002 ", "emissao_pv": "29/05/2026 ", "vlr_total_produtos": "26680,5 ", "margem": "22,74 ", "nome_cliente": "STOCK MED PRODUTOS M ", "uf_cliente": "RS ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"695004 ", "emissao_pv": "29/05/2026 ", "vlr_total_produtos": "28280,5 ", "margem": "23,24 ", "nome_cliente": "STOCK MED PRODUTOS M ", "uf_cliente": "RS ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"695120 ", "emissao_pv": "01/06/2026 ", "vlr_total_produtos": "2175 ", "margem": "36,36 ", "nome_cliente": "BNT PRODUTOS PARA SA ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"695254 ", "emissao_pv": "02/06/2026 ", "vlr_total_produtos": "2320 ", "margem": "20,58 ", "nome_cliente": "A E S COMERCIO ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"695357 ", "emissao_pv": "02/06/2026 ", "vlr_total_produtos": "1140 ", "margem": "35,29 ", "nome_cliente": "BENEFICENCIA HOSPITA ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "MARIANA HERGOVIC ", "ultimo_status": "Análise de Crédito" },
@@ -52,11 +50,13 @@
   {"numero_pedido":"695864 ", "emissao_pv": "08/06/2026 ", "vlr_total_produtos": "15696 ", "margem": "52 ", "nome_cliente": "M   R MEDICAL ", "uf_cliente": "AP ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"695872 ", "emissao_pv": "08/06/2026 ", "vlr_total_produtos": "1816,27 ", "margem": "20,8 ", "nome_cliente": "LAB LUIZ FLORENCIO ", "uf_cliente": "PE ", "tipo_cliente": "CONS.FINAL ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"695874 ", "emissao_pv": "08/06/2026 ", "vlr_total_produtos": "2610,25 ", "margem": "29,5 ", "nome_cliente": "VAP SOL EMPRESARIAIS ", "uf_cliente": "DF ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"695878 ", "emissao_pv": "08/06/2026 ", "vlr_total_produtos": "3360 ", "margem": "25,23 ", "nome_cliente": "THIADE HEALTH COMERC ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"695880 ", "emissao_pv": "08/06/2026 ", "vlr_total_produtos": "1642,14 ", "margem": "24,25 ", "nome_cliente": "LABORATORIO FAIMA ", "uf_cliente": "SC ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOAO NETO ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"695894 ", "emissao_pv": "08/06/2026 ", "vlr_total_produtos": "5850 ", "margem": "33,66 ", "nome_cliente": "DISTRIBUIDORA DE MED ", "uf_cliente": "MA ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. H.F ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"695902 ", "emissao_pv": "08/06/2026 ", "vlr_total_produtos": "16526,55 ", "margem": "34,66 ", "nome_cliente": "DISTRIBUIDORA MODERN ", "uf_cliente": "AM ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. TURCATO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"695904 ", "emissao_pv": "08/06/2026 ", "vlr_total_produtos": "27871,5 ", "margem": "16,12 ", "nome_cliente": "CEDIMED DISTRIBUIDOR ", "uf_cliente": "CE ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. ALFA ", "ultimo_status": "Análise de Crédito" }
+  {"numero_pedido":"695916 ", "emissao_pv": "08/06/2026 ", "vlr_total_produtos": "3191,35 ", "margem": "34,16 ", "nome_cliente": "I C L LOPES MENDES L ", "uf_cliente": "PI ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. H.F ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"695922 ", "emissao_pv": "08/06/2026 ", "vlr_total_produtos": "15859 ", "margem": "27,22 ", "nome_cliente": "W J  ANDRADE COMERCI ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "LUCIA FLORESTA ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"695924 ", "emissao_pv": "08/06/2026 ", "vlr_total_produtos": "827,3 ", "margem": "38,77 ", "nome_cliente": "IMEDIATA ", "uf_cliente": "PI ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"695928 ", "emissao_pv": "08/06/2026 ", "vlr_total_produtos": "2052,3 ", "margem": "36,61 ", "nome_cliente": "LABORATORIO DR  JOEL ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" }
+
 
 
 
