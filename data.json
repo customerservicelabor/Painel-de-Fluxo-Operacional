@@ -1,26 +1,26 @@
 {
-  "updated_at": "08/06/2026 11:04",
+  "updated_at": "08/06/2026 11:46",
   "kpis": {
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 3, "valor": "3655,71" },
-    { "status": "Alvará Sanitário", "quantidade": 4, "valor": "8649,7" },
+    { "status": "Alvará Sanitário", "quantidade": 6, "valor": "12285,6" },
     { "status": "Bloqueado por regra", "quantidade": 1, "valor": "307,76" },
-    { "status": "Análise de Crédito", "quantidade": 12, "valor": "100822,13" },
-    { "status": "Total em Disputa", "quantidade": 20, "valor": "113435,3" },
-    { "status": "Aguard. Envio Separação", "quantidade": 0, "valor": "0" },
-    { "status": "Em Separação", "quantidade": 10, "valor": "31146,72" },
-    { "status": "Separado", "quantidade": 5, "valor": "88997,32" },
-    { "status": "Faturado", "quantidade": 1, "valor": "515,51" },
-    { "status": "Total", "quantidade": 16, "valor": "120659,55" }
+    { "status": "Análise de Crédito", "quantidade": 11, "valor": "98572,13" },
+    { "status": "Total em Disputa", "quantidade": 21, "valor": "114821,2" },
+    { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "1622" },
+    { "status": "Em Separação", "quantidade": 5, "valor": "11270,9" },
+    { "status": "Separado", "quantidade": 12, "valor": "50432,14" },
+    { "status": "Faturado", "quantidade": 2, "valor": "65715,51" },
+    { "status": "Total", "quantidade": 20, "valor": "129040,55" }
  ],
  "recebimento_produtos": [
-   { "embarque": "Carreta SR",  "tipo": "1 Carreta", "data_recebimento": "28/05/26", "confirmado": "Sim", "chegou_cd": "Chegada as 18:52",  "status": "Finalizado" }
-
-
-
-
-
+   { "embarque": "IMP00001-POLYMED",  "tipo": "Container", "data_recebimento": "27/05/26", "confirmado": "Sim", "chegou_cd": "Chegada as 18:52",  "status": "Finalizado" }
+   { "embarque": "",  "tipo": "", "data_recebimento": "", "confirmado": "", "chegou_cd": "",  "status": "
+   { "embarque": "",  "tipo": "", "data_recebimento": "", "confirmado": "", "chegou_cd": "",  "status": "
+   { "embarque": "",  "tipo": "", "data_recebimento": "", "confirmado": "", "chegou_cd": "",  "status": "
+   { "embarque": "",  "tipo": "", "data_recebimento": "", "confirmado": "", "chegou_cd": "",  "status": "
+   { "embarque": "",  "tipo": "", "data_recebimento": "", "confirmado": "", "chegou_cd": "",  "status": "
 
 
 
@@ -46,10 +46,10 @@
   {"numero_pedido":"695592 ", "emissao_pv": "03/06/2026 ", "vlr_total_produtos": "835,5 ", "margem": "22,68 ", "nome_cliente": "ADRIANA DEL VECCHIO ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. ML DANTE ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"695718 ", "emissao_pv": "05/06/2026 ", "vlr_total_produtos": "4975,73 ", "margem": "32,4 ", "nome_cliente": "ATTITUDE ", "uf_cliente": "PA ", "tipo_cliente": "CONS.FINAL ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"695740 ", "emissao_pv": "05/06/2026 ", "vlr_total_produtos": "3375 ", "margem": "11,36 ", "nome_cliente": "CURAMAX ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"695806 ", "emissao_pv": "08/06/2026 ", "vlr_total_produtos": "1825 ", "margem": "44,88 ", "nome_cliente": "MED SUL ", "uf_cliente": "MA ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. H.F ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"695812 ", "emissao_pv": "08/06/2026 ", "vlr_total_produtos": "5184 ", "margem": "31,96 ", "nome_cliente": "MONTALVAO COMERCIAL ", "uf_cliente": "SE ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"695814 ", "emissao_pv": "08/06/2026 ", "vlr_total_produtos": "1654 ", "margem": "22,34 ", "nome_cliente": "ATHAN COMMERCE EQUIP ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" }
-
+  {"numero_pedido":"695816 ", "emissao_pv": "08/06/2026 ", "vlr_total_produtos": "1229 ", "margem": "24,2 ", "nome_cliente": "ARTSINTESE ", "uf_cliente": "PB ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"695824 ", "emissao_pv": "08/06/2026 ", "vlr_total_produtos": "1538,9 ", "margem": "31,36 ", "nome_cliente": "MELO DINIZ MEDICAMEN ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"695826 ", "emissao_pv": "08/06/2026 ", "vlr_total_produtos": "2097 ", "margem": "18,18 ", "nome_cliente": "SAVOLDI AGROPECUARIA ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Alvará Sanitário" }
 
 
 
@@ -83,18 +83,18 @@
   "performance_gerencial": {
     "mes_atual": {
      "periodo": "junho/2026",
-     "frete_pago": "142834,76",
-     "faturamento": "3426550,9",
-     "frete_repassado": "116407,05",
-     "entrega_realizada": "78",
-     "entrega_no_prazo": "77",
-     "qtd_notas_fiscais": "512",
+     "frete_pago": "85321,69",
+     "faturamento": "2045062,02",
+     "frete_repassado": "99397,14",
+     "entrega_realizada": "30",
+     "entrega_no_prazo": "29",
+     "qtd_notas_fiscais": "410",
      "entrega_fora_prazo": "0"
 },
   "mes_anterior": {
      "periodo": "maio/2026",
-     "entrega_realizada": "1733",
-     "entrega_no_prazo": "1672"
+     "entrega_realizada": "1685",
+     "entrega_no_prazo": "1628"
   }
 },
   "expedicao": {
@@ -106,12 +106,12 @@
 
 
 "estoque": {
-  "ocupacao_total_armazem": 59.44,
-  "ocupacao_operacional": 64.10,
+  "ocupacao_total_armazem": 60.86,
+  "ocupacao_operacional": 65.92,
   "areas": [
-    { "nome": "Picking", "taxa": 83.22},
-    { "nome": "Pulmão de Abastecimento", "taxa": 60.58},
-    { "nome": "Flowrack", "taxa": 43.61},
+    { "nome": "Picking", "taxa": 83.91},
+    { "nome": "Pulmão de Abastecimento", "taxa": 62.61},
+    { "nome": "Flowrack", "taxa": 42.86},
     { "nome": "Área de Qualidade", "taxa": 21.74},
     { "nome": "Área de Amostra", "taxa": 0.00},
     { "nome": "Área de Avarias", "taxa": 25.58}
