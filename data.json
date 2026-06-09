@@ -1,18 +1,18 @@
 {
-  "updated_at": "09/06/2026 17:45",
+  "updated_at": "09/06/2026 18:26",
   "kpis": {
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 3, "valor": "58609" },
     { "status": "Alvará Sanitário", "quantidade": 7, "valor": "23968,6" },
     { "status": "Bloqueado por regra", "quantidade": 0, "valor": "0" },
-    { "status": "Análise de Crédito", "quantidade": 18, "valor": "315337,08" },
-    { "status": "Total em Disputa", "quantidade": 28, "valor": "397914,68" },
+    { "status": "Análise de Crédito", "quantidade": 15, "valor": "304209,6" },
+    { "status": "Total em Disputa", "quantidade": 25, "valor": "386787,2" },
     { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "2097" },
-    { "status": "Em Separação", "quantidade": 16, "valor": "99526,04" },
-    { "status": "Separado", "quantidade": 6, "valor": "19587,5" },
-    { "status": "Faturado", "quantidade": 80, "valor": "324072,41" },
-    { "status": "Total", "quantidade": 103, "valor": "445282,95" }
+    { "status": "Em Separação", "quantidade": 16, "valor": "102079,92" },
+    { "status": "Separado", "quantidade": 0, "valor": "0" },
+    { "status": "Faturado", "quantidade": 89, "valor": "352233,51" },
+    { "status": "Total", "quantidade": 106, "valor": "456410,43" }
  ],
  "recebimento_produtos": [
    { "embarque": "Carreta SR",  "tipo": "1 Carreta", "data_recebimento": "28/05/26", "confirmado": "Sim", "chegou_cd": "Chegada as 18:52",  "status": "Finalizado" }
@@ -54,10 +54,10 @@
   {"numero_pedido":"696148 ", "emissao_pv": "09/06/2026 ", "vlr_total_produtos": "1338 ", "margem": "38,94 ", "nome_cliente": "MDX DISTRIBUIDORA ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"696164 ", "emissao_pv": "09/06/2026 ", "vlr_total_produtos": "1320 ", "margem": "41,18 ", "nome_cliente": "HOSPITAL SAO JOSE ", "uf_cliente": "BA ", "tipo_cliente": "CONS.FINAL ","vendedor": "ERICA BARNES ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"696172 ", "emissao_pv": "09/06/2026 ", "vlr_total_produtos": "108000 ", "margem": "30,87 ", "nome_cliente": "NCA MEDICAL ", "uf_cliente": "AM ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. TURCATO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"696179 ", "emissao_pv": "09/06/2026 ", "vlr_total_produtos": "1346,4 ", "margem": "30,26 ", "nome_cliente": "ABC DISTRIBUIDORA DE ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "ALEXANDRA RIBEIRO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"696181 ", "emissao_pv": "09/06/2026 ", "vlr_total_produtos": "5834,83 ", "margem": "25,57 ", "nome_cliente": "DIACLIN ", "uf_cliente": "SE ", "tipo_cliente": "CONS.FINAL ","vendedor": "LUCIA FLORESTA ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"696185 ", "emissao_pv": "09/06/2026 ", "vlr_total_produtos": "3946,25 ", "margem": "32,42 ", "nome_cliente": "J F COMERCIO DE PROD ", "uf_cliente": "AM ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"696187 ", "emissao_pv": "09/06/2026 ", "vlr_total_produtos": "802,6 ", "margem": "25,75 ", "nome_cliente": "MED ALPHA ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" }
+
+
+
 
 
 
