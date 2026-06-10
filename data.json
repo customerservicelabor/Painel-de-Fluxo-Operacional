@@ -1,18 +1,18 @@
 {
-  "updated_at": "10/06/2026 14:23",
+  "updated_at": "10/06/2026 15:18",
   "kpis": {
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 3, "valor": "56585,12" },
+    { "status": "Aguardando Liberação", "quantidade": 2, "valor": "54961" },
     { "status": "Alvará Sanitário", "quantidade": 7, "valor": "45767,3" },
     { "status": "Bloqueado por regra", "quantidade": 0, "valor": "0" },
-    { "status": "Análise de Crédito", "quantidade": 14, "valor": "253681,4" },
-    { "status": "Total em Disputa", "quantidade": 24, "valor": "356033,82" },
-    { "status": "Aguard. Envio Separação", "quantidade": 3, "valor": "42074,82" },
-    { "status": "Em Separação", "quantidade": 5, "valor": "53077,81" },
-    { "status": "Separado", "quantidade": 8, "valor": "36760,86" },
-    { "status": "Faturado", "quantidade": 36, "valor": "335212,73" },
-    { "status": "Total", "quantidade": 52, "valor": "467126,22" }
+    { "status": "Análise de Crédito", "quantidade": 17, "valor": "306051,5" },
+    { "status": "Total em Disputa", "quantidade": 26, "valor": "406779,8" },
+    { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "4,9" },
+    { "status": "Em Separação", "quantidade": 8, "valor": "110096,56" },
+    { "status": "Separado", "quantidade": 0, "valor": "0" },
+    { "status": "Faturado", "quantidade": 49, "valor": "381710,66" },
+    { "status": "Total", "quantidade": 58, "valor": "491812,12" }
  ],
  "recebimento_produtos": [
 
@@ -53,10 +53,10 @@
   {"numero_pedido":"696230 ", "emissao_pv": "10/06/2026 ", "vlr_total_produtos": "7191,5 ", "margem": "38,23 ", "nome_cliente": "SENSORIA SAUD DISTRI ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"696232 ", "emissao_pv": "10/06/2026 ", "vlr_total_produtos": "22450 ", "margem": "17,29 ", "nome_cliente": "LABINGA COMERCIO ART ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"696236 ", "emissao_pv": "10/06/2026 ", "vlr_total_produtos": "5515,4 ", "margem": "24,74 ", "nome_cliente": "BIOANALISE ", "uf_cliente": "BA ", "tipo_cliente": "CONS.FINAL ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"696293 ", "emissao_pv": "10/06/2026 ", "vlr_total_produtos": "4270 ", "margem": "25,2 ", "nome_cliente": "DIMEDIC COMERCIAL HO ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Análise de Crédito" }
-
-
-
+  {"numero_pedido":"696293 ", "emissao_pv": "10/06/2026 ", "vlr_total_produtos": "4270 ", "margem": "25,2 ", "nome_cliente": "DIMEDIC COMERCIAL HO ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"696305 ", "emissao_pv": "10/06/2026 ", "vlr_total_produtos": "5119,1 ", "margem": "26,13 ", "nome_cliente": "HG3 PRODUTOS ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"696307 ", "emissao_pv": "10/06/2026 ", "vlr_total_produtos": "2441 ", "margem": "17,09 ", "nome_cliente": "PULSEMED HOSPITALAR ", "uf_cliente": "DF ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. SUPREMO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"696311 ", "emissao_pv": "10/06/2026 ", "vlr_total_produtos": "44810 ", "margem": "22,67 ", "nome_cliente": "SOLTECH DISTRIB PROD ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Análise de Crédito" }
 
 
 
