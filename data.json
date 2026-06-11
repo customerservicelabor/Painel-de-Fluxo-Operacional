@@ -1,18 +1,18 @@
 {
-  "updated_at": "10/06/2026 17:39",
+  "updated_at": "11/06/2026 08:14",
   "kpis": {
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 2, "valor": "54961" },
-    { "status": "Alvará Sanitário", "quantidade": 8, "valor": "36984,6" },
+    { "status": "Aguardando Liberação", "quantidade": 4, "valor": "69062" },
+    { "status": "Alvará Sanitário", "quantidade": 7, "valor": "24724,6" },
     { "status": "Bloqueado por regra", "quantidade": 0, "valor": "0" },
     { "status": "Análise de Crédito", "quantidade": 15, "valor": "317377,51" },
-    { "status": "Total em Disputa", "quantidade": 25, "valor": "409323,11" },
+    { "status": "Total em Disputa", "quantidade": 26, "valor": "411164,11" },
     { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "4,9" },
-    { "status": "Em Separação", "quantidade": 12, "valor": "99134,5" },
-    { "status": "Separado", "quantidade": 3, "valor": "5873,4" },
-    { "status": "Faturado", "quantidade": 64, "valor": "535104,3" },
-    { "status": "Total", "quantidade": 80, "valor": "640117,1" }
+    { "status": "Em Separação", "quantidade": 0, "valor": "0" },
+    { "status": "Separado", "quantidade": 0, "valor": "0" },
+    { "status": "Faturado", "quantidade": 0, "valor": "0" },
+    { "status": "Total", "quantidade": 1, "valor": "4,9" }
  ],
  "recebimento_produtos": [
 
@@ -54,8 +54,8 @@
   {"numero_pedido":"696327 ", "emissao_pv": "10/06/2026 ", "vlr_total_produtos": "2320 ", "margem": "20,11 ", "nome_cliente": "A E S COMERCIO ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"696347 ", "emissao_pv": "10/06/2026 ", "vlr_total_produtos": "14553,16 ", "margem": "21,21 ", "nome_cliente": "LABORATORIO GONTIJO ", "uf_cliente": "BA ", "tipo_cliente": "CONS.FINAL ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"696349 ", "emissao_pv": "10/06/2026 ", "vlr_total_produtos": "1407,3 ", "margem": "16,18 ", "nome_cliente": "LAB BIOMEDICO LB LTD ", "uf_cliente": "RJ ", "tipo_cliente": "CONS.FINAL ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"696354 ", "emissao_pv": "10/06/2026 ", "vlr_total_produtos": "10302,2 ", "margem": "31,79 ", "nome_cliente": "MEGAMED ", "uf_cliente": "PE ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"696357 ", "emissao_pv": "10/06/2026 ", "vlr_total_produtos": "12260 ", "margem": "37,83 ", "nome_cliente": "AUTOPEL AUTOM COMERC ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Alvará Sanitário" }
+  {"numero_pedido":"696354 ", "emissao_pv": "10/06/2026 ", "vlr_total_produtos": "10302,2 ", "margem": "31,79 ", "nome_cliente": "MEGAMED ", "uf_cliente": "PE ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Análise de Crédito" }
+
 
 
 
@@ -83,18 +83,18 @@
   "performance_gerencial": {
     "mes_atual": {
      "periodo": "junho/2026",
-     "frete_pago": "185227,61",
-     "faturamento": "4337003,4",
-     "frete_repassado": "150937,47",
-     "entrega_realizada": "277",
-     "entrega_no_prazo": "273",
-     "qtd_notas_fiscais": "678",
-     "entrega_fora_prazo": "4"
+     "frete_pago": "211771,9",
+     "faturamento": "4663742,87",
+     "frete_repassado": "165428,06",
+     "entrega_realizada": "329",
+     "entrega_no_prazo": "323",
+     "qtd_notas_fiscais": "679",
+     "entrega_fora_prazo": "6"
 },
   "mes_anterior": {
      "periodo": "maio/2026",
-     "entrega_realizada": "1359",
-     "entrega_no_prazo": "1319"
+     "entrega_realizada": "1735",
+     "entrega_no_prazo": "1667"
   }
 },
   "expedicao": {
@@ -106,13 +106,13 @@
 
 
 "estoque": {
-  "ocupacao_total_armazem": 57.91,
-  "ocupacao_operacional": 62.24,
+  "ocupacao_total_armazem": 58.32,
+  "ocupacao_operacional": 62.71,
   "areas": [
-    { "nome": "Picking", "taxa": 81.15},
-    { "nome": "Pulmão de Abastecimento", "taxa": 58.77},
+    { "nome": "Picking", "taxa": 80.46},
+    { "nome": "Pulmão de Abastecimento", "taxa": 59.44},
     { "nome": "Flowrack", "taxa": 42.36},
-    { "nome": "Área de Qualidade", "taxa": 21.74},
+    { "nome": "Área de Qualidade", "taxa": 22.46},
     { "nome": "Área de Amostra", "taxa": 0.00},
     { "nome": "Área de Avarias", "taxa": 37.21}
 ]
