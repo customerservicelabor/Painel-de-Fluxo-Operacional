@@ -1,18 +1,18 @@
 {
-  "updated_at": "15/06/2026 08:17",
+  "updated_at": "15/06/2026 08:42",
   "kpis": {
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 3, "valor": "81690" },
-    { "status": "Alvará Sanitário", "quantidade": 17, "valor": "96054,3" },
+    { "status": "Aguardando Liberação", "quantidade": 1, "valor": "23920" },
+    { "status": "Alvará Sanitário", "quantidade": 9, "valor": "56587,78" },
     { "status": "Bloqueado por regra", "quantidade": 0, "valor": "0" },
-    { "status": "Análise de Crédito", "quantidade": 46, "valor": "554193,72" },
-    { "status": "Total em Disputa", "quantidade": 66, "valor": "731938,02" },
+    { "status": "Análise de Crédito", "quantidade": 22, "valor": "276252,53" },
+    { "status": "Total em Disputa", "quantidade": 32, "valor": "356760,31" },
     { "status": "Aguard. Envio Separação", "quantidade": 0, "valor": "0" },
-    { "status": "Em Separação", "quantidade": 58, "valor": "300923,32" },
-    { "status": "Separado", "quantidade": 3, "valor": "18650,56" },
+    { "status": "Em Separação", "quantidade": 11, "valor": "41846,18" },
+    { "status": "Separado", "quantidade": 0, "valor": "0" },
     { "status": "Faturado", "quantidade": 0, "valor": "0" },
-    { "status": "Total", "quantidade": 61, "valor": "319573,88" }
+    { "status": "Total", "quantidade": 11, "valor": "41846,18" }
  ],
  "recebimento_produtos": [
 
@@ -63,12 +63,12 @@
   {"numero_pedido":"696784 ", "emissao_pv": "12/06/2026 ", "vlr_total_produtos": "10129,24 ", "margem": "20,99 ", "nome_cliente": "MERCURIO COMERCIO PR ", "uf_cliente": "MA ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. H.F ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"696806 ", "emissao_pv": "12/06/2026 ", "vlr_total_produtos": "9758,86 ", "margem": "25,72 ", "nome_cliente": "DUALMED HOSPITALAR ", "uf_cliente": "PE ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"696814 ", "emissao_pv": "12/06/2026 ", "vlr_total_produtos": "17121,26 ", "margem": "27,78 ", "nome_cliente": "NORTE SAUDE HOSPITAL ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"696822 ", "emissao_pv": "12/06/2026 ", "vlr_total_produtos": "41702,7 ", "margem": "32,2 ", "nome_cliente": "CIRURGICA FERNANDES ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"695812 ", "emissao_pv": "08/06/2026 ", "vlr_total_produtos": "5184 ", "margem": "31,96 ", "nome_cliente": "MONTALVAO COMERCIAL ", "uf_cliente": "SE ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"695860 ", "emissao_pv": "08/06/2026 ", "vlr_total_produtos": "5543,8 ", "margem": "28,02 ", "nome_cliente": "ROCHA LIMA ANALISES ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"696085 ", "emissao_pv": "09/06/2026 ", "vlr_total_produtos": "26680,5 ", "margem": "22,7 ", "nome_cliente": "STOCK MED PRODUTOS M ", "uf_cliente": "RS ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"696087 ", "emissao_pv": "09/06/2026 ", "vlr_total_produtos": "28280,5 ", "margem": "23,21 ", "nome_cliente": "STOCK MED PRODUTOS M ", "uf_cliente": "RS ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"696119 ", "emissao_pv": "09/06/2026 ", "vlr_total_produtos": "9350,5 ", "margem": "21,92 ", "nome_cliente": "DISTRIBUIDORA POCOS ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. CAREMED ", "ultimo_status": "Análise de Crédito" }
+  {"numero_pedido":"696822 ", "emissao_pv": "12/06/2026 ", "vlr_total_produtos": "41702,7 ", "margem": "32,2 ", "nome_cliente": "CIRURGICA FERNANDES ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" }
+
+
+
+
+
 
  ],
   "tv_alert": {
