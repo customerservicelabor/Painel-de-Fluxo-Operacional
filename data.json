@@ -1,18 +1,18 @@
 {
-  "updated_at": "17/06/2026 11:54",
+  "updated_at": "17/06/2026 13:50",
   "kpis": {
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 5, "valor": "4334" },
-    { "status": "Alvará Sanitário", "quantidade": 10, "valor": "37666,95" },
-    { "status": "Bloqueado por regra", "quantidade": 0, "valor": "0" },
-    { "status": "Análise de Crédito", "quantidade": 10, "valor": "80211,92" },
-    { "status": "Total em Disputa", "quantidade": 25, "valor": "122212,87" },
+    { "status": "Alvará Sanitário", "quantidade": 12, "valor": "41312,45" },
+    { "status": "Bloqueado por regra", "quantidade": 1, "valor": "870" },
+    { "status": "Análise de Crédito", "quantidade": 8, "valor": "85017,31" },
+    { "status": "Total em Disputa", "quantidade": 26, "valor": "131533,76" },
     { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "29" },
-    { "status": "Em Separação", "quantidade": 13, "valor": "78991,84" },
-    { "status": "Separado", "quantidade": 13, "valor": "45069,32" },
-    { "status": "Faturado", "quantidade": 18, "valor": "95733,73" },
-    { "status": "Total", "quantidade": 45, "valor": "219823,89" }
+    { "status": "Em Separação", "quantidade": 6, "valor": "54533,05" },
+    { "status": "Separado", "quantidade": 1, "valor": "1373,7" },
+    { "status": "Faturado", "quantidade": 45, "valor": "239202,72" },
+    { "status": "Total", "quantidade": 53, "valor": "295138,47" }
  ],
  "recebimento_produtos": [
 
@@ -45,14 +45,14 @@
   {"numero_pedido":"697103 ", "emissao_pv": "16/06/2026 ", "vlr_total_produtos": "944 ", "margem": "38,01 ", "nome_cliente": "DASA ", "uf_cliente": "GO ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOAO NETO ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"697177 ", "emissao_pv": "17/06/2026 ", "vlr_total_produtos": "942,5 ", "margem": "0 ", "nome_cliente": "LABORATORIO SANTA MO ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "E-COMMERCE ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"697211 ", "emissao_pv": "17/06/2026 ", "vlr_total_produtos": "5552,4 ", "margem": "28,68 ", "nome_cliente": "REALMED ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. SCHIBELGS ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"697213 ", "emissao_pv": "17/06/2026 ", "vlr_total_produtos": "1694 ", "margem": "39,94 ", "nome_cliente": "LABORATORIO THONSON ", "uf_cliente": "ES ", "tipo_cliente": "CONS.FINAL ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"697215 ", "emissao_pv": "17/06/2026 ", "vlr_total_produtos": "1167,98 ", "margem": "40,35 ", "nome_cliente": "CASA DE SAUDE SAO JO ", "uf_cliente": "RJ ", "tipo_cliente": "CONS.FINAL ","vendedor": "ERICA BARNES ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"697231 ", "emissao_pv": "17/06/2026 ", "vlr_total_produtos": "7958,47 ", "margem": "4,21 ", "nome_cliente": "GS ALLIANCE DISTRIBU ", "uf_cliente": "SC ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"697235 ", "emissao_pv": "17/06/2026 ", "vlr_total_produtos": "5804,26 ", "margem": "28,6 ", "nome_cliente": "REALPHARMA DISTRIBUI ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. CAREMED ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"697248 ", "emissao_pv": "17/06/2026 ", "vlr_total_produtos": "900 ", "margem": "43,09 ", "nome_cliente": "DASA ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"697258 ", "emissao_pv": "17/06/2026 ", "vlr_total_produtos": "7740 ", "margem": "26,37 ", "nome_cliente": "CEDIMED DISTRIBUIDOR ", "uf_cliente": "CE ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. ALFA ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"697260 ", "emissao_pv": "17/06/2026 ", "vlr_total_produtos": "1369,18 ", "margem": "37,02 ", "nome_cliente": "ATLAS DIAGNOSTICA ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"697262 ", "emissao_pv": "17/06/2026 ", "vlr_total_produtos": "2124 ", "margem": "26,18 ", "nome_cliente": "IONSLAB EQUIPAMENTOS ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" }
+  {"numero_pedido":"697262 ", "emissao_pv": "17/06/2026 ", "vlr_total_produtos": "2124 ", "margem": "26,18 ", "nome_cliente": "IONSLAB EQUIPAMENTOS ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"697282 ", "emissao_pv": "17/06/2026 ", "vlr_total_produtos": "7212,17 ", "margem": "46,59 ", "nome_cliente": "CLINICA VETERINARIA ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"697286 ", "emissao_pv": "17/06/2026 ", "vlr_total_produtos": "3200 ", "margem": "51,65 ", "nome_cliente": "SURGIC DISTRIBUIDORA ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"697288 ", "emissao_pv": "17/06/2026 ", "vlr_total_produtos": "445,5 ", "margem": "0 ", "nome_cliente": "LACI LAB ANALISES CL ", "uf_cliente": "RJ ", "tipo_cliente": "CONS.FINAL ","vendedor": "E-COMMERCE ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"697292 ", "emissao_pv": "17/06/2026 ", "vlr_total_produtos": "9296,4 ", "margem": "1,92 ", "nome_cliente": "J F HOSPITALAR ", "uf_cliente": "SC ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" }
 
 
 
