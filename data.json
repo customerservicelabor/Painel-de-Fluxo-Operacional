@@ -1,13 +1,13 @@
 {
-  "updated_at": "18/06/2026 09:58",
+  "updated_at": "18/06/2026 10:03",
   "kpis": {
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 3, "valor": "3018" },
-    { "status": "Alvará Sanitário", "quantidade": 10, "valor": "24010,05" },
+    { "status": "Alvará Sanitário", "quantidade": 11, "valor": "24820,59" },
     { "status": "Bloqueado por regra", "quantidade": 0, "valor": "0" },
     { "status": "Análise de Crédito", "quantidade": 14, "valor": "153442,64" },
-    { "status": "Total em Disputa", "quantidade": 27, "valor": "180470,69" },
+    { "status": "Total em Disputa", "quantidade": 28, "valor": "181281,23" },
     { "status": "Aguard. Envio Separação", "quantidade": 4, "valor": "27953,66" },
     { "status": "Em Separação", "quantidade": 10, "valor": "60692,17" },
     { "status": "Separado", "quantidade": 1, "valor": "1188" },
@@ -56,8 +56,8 @@
   {"numero_pedido":"697406 ", "emissao_pv": "17/06/2026 ", "vlr_total_produtos": "3432 ", "margem": "55,33 ", "nome_cliente": "SEA MEDICAL ", "uf_cliente": "AM ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. TURCATO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"697412 ", "emissao_pv": "18/06/2026 ", "vlr_total_produtos": "26380 ", "margem": "20,7 ", "nome_cliente": "CIRURGICA OESTE LTDA ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"697417 ", "emissao_pv": "18/06/2026 ", "vlr_total_produtos": "5812 ", "margem": "25,87 ", "nome_cliente": "PRAVETS ", "uf_cliente": "PE ", "tipo_cliente": "REVENDEDOR ","vendedor": "LUCIA FLORESTA ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"697427 ", "emissao_pv": "18/06/2026 ", "vlr_total_produtos": "2009 ", "margem": "51,6 ", "nome_cliente": "DENTAL JUNIOR ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "LUCIANA LIMA ", "ultimo_status": "Alvará Sanitário" }
-
+  {"numero_pedido":"697427 ", "emissao_pv": "18/06/2026 ", "vlr_total_produtos": "2009 ", "margem": "51,6 ", "nome_cliente": "DENTAL JUNIOR ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "LUCIANA LIMA ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"697437 ", "emissao_pv": "18/06/2026 ", "vlr_total_produtos": "810,54 ", "margem": "34,19 ", "nome_cliente": "CAMPINAS DAY HOSPITA ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "REP. ML DANTE ", "ultimo_status": "Alvará Sanitário" }
 
 
 
