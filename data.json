@@ -1,21 +1,21 @@
 {
-  "updated_at": "18/06/2026 18:15",
+  "updated_at": "19/06/2026 08:14",
   "kpis": {
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 3, "valor": "3018" },
-    { "status": "Alvará Sanitário", "quantidade": 8, "valor": "21263,84" },
-    { "status": "Bloqueado por regra", "quantidade": 1, "valor": "414,38" },
+    { "status": "Aguardando Liberação", "quantidade": 4, "valor": "4576,35" },
+    { "status": "Alvará Sanitário", "quantidade": 9, "valor": "22208,84" },
+    { "status": "Bloqueado por regra", "quantidade": 2, "valor": "3421,43" },
     { "status": "Análise de Crédito", "quantidade": 11, "valor": "127999,8" },
-    { "status": "Total em Disputa", "quantidade": 23, "valor": "152696,02" },
-    { "status": "Aguard. Envio Separação", "quantidade": 2, "valor": "39851,41" },
-    { "status": "Em Separação", "quantidade": 14, "valor": "252039,53" },
-    { "status": "Separado", "quantidade": 11, "valor": "85461,96" },
-    { "status": "Faturado", "quantidade": 47, "valor": "240106,26" },
-    { "status": "Total", "quantidade": 74, "valor": "617459,16" }
+    { "status": "Total em Disputa", "quantidade": 26, "valor": "158206,42" },
+    { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "39822,41" },
+    { "status": "Em Separação", "quantidade": 1, "valor": "3165,32" },
+    { "status": "Separado", "quantidade": 1, "valor": "1058,42" },
+    { "status": "Faturado", "quantidade": 0, "valor": "0" },
+    { "status": "Total", "quantidade": 3, "valor": "44046,15" }
  ],
  "recebimento_produtos": [
-   { "embarque": "Carreta SR",  "tipo": "1 Carreta", "data_recebimento": "28/05/26", "confirmado": "Sim", "chegou_cd": "Chegada as 18:52",  "status": "Finalizado" }
+
 
 
 
@@ -51,8 +51,8 @@
   {"numero_pedido":"697515 ", "emissao_pv": "18/06/2026 ", "vlr_total_produtos": "12080 ", "margem": "3,91 ", "nome_cliente": "MASTERMED  PRODUTOS ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"697519 ", "emissao_pv": "18/06/2026 ", "vlr_total_produtos": "28510,41 ", "margem": "37,13 ", "nome_cliente": "DISCAMED ", "uf_cliente": "PE ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"697523 ", "emissao_pv": "18/06/2026 ", "vlr_total_produtos": "5510 ", "margem": "24,73 ", "nome_cliente": "DENTAL LIMA ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"697527 ", "emissao_pv": "18/06/2026 ", "vlr_total_produtos": "877,1 ", "margem": "3,42 ", "nome_cliente": "DENTAL L A ", "uf_cliente": "DF ", "tipo_cliente": "REVENDEDOR ","vendedor": "LUCIANA LIMA ", "ultimo_status": "Alvará Sanitário" }
-
+  {"numero_pedido":"697527 ", "emissao_pv": "18/06/2026 ", "vlr_total_produtos": "877,1 ", "margem": "3,42 ", "nome_cliente": "DENTAL L A ", "uf_cliente": "DF ", "tipo_cliente": "REVENDEDOR ","vendedor": "LUCIANA LIMA ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"697573 ", "emissao_pv": "19/06/2026 ", "vlr_total_produtos": "945 ", "margem": "23,9 ", "nome_cliente": "BRASMED COMERCIO PRO ", "uf_cliente": "MS ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Alvará Sanitário" }
 
 
 
@@ -83,18 +83,18 @@
   "performance_gerencial": {
     "mes_atual": {
      "periodo": "junho/2026",
-     "frete_pago": "161911,56",
-     "faturamento": "3858024,11",
-     "frete_repassado": "135539,35",
-     "entrega_realizada": "181",
-     "entrega_no_prazo": "180",
-     "qtd_notas_fiscais": "582",
-     "entrega_fora_prazo": "0"
+     "frete_pago": "389228,89",
+     "faturamento": "8371516,02",
+     "frete_repassado": "317645,54",
+     "entrega_realizada": "660",
+     "entrega_no_prazo": "634",
+     "qtd_notas_fiscais": "964",
+     "entrega_fora_prazo": "31"
 },
   "mes_anterior": {
      "periodo": "maio/2026",
-     "entrega_realizada": "1770",
-     "entrega_no_prazo": "1707"
+     "entrega_realizada": "1696",
+     "entrega_no_prazo": "1617"
   }
 },
   "expedicao": {
@@ -106,13 +106,13 @@
 
 
 "estoque": {
-  "ocupacao_total_armazem": 58.44,
-  "ocupacao_operacional": 62.81,
+  "ocupacao_total_armazem": 55.87,
+  "ocupacao_operacional": 59.89,
   "areas": [
-    { "nome": "Picking", "taxa": 80.92},
-    { "nome": "Pulmão de Abastecimento", "taxa": 59.48},
+    { "nome": "Picking", "taxa": 77.93},
+    { "nome": "Pulmão de Abastecimento", "taxa": 56.57},
     { "nome": "Flowrack", "taxa": 42.86},
-    { "nome": "Área de Qualidade", "taxa": 21.74},
+    { "nome": "Área de Qualidade", "taxa": 18.12},
     { "nome": "Área de Amostra", "taxa": 0.00},
     { "nome": "Área de Avarias", "taxa": 37.21}
 ]
