@@ -1,18 +1,18 @@
 {
-  "updated_at": "19/06/2026 12:04",
+  "updated_at": "19/06/2026 13:22",
   "kpis": {
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 3, "valor": "3018" },
-    { "status": "Alvará Sanitário", "quantidade": 7, "valor": "33415,47" },
+    { "status": "Alvará Sanitário", "quantidade": 6, "valor": "14241,07" },
     { "status": "Bloqueado por regra", "quantidade": 2, "valor": "3421,43" },
     { "status": "Análise de Crédito", "quantidade": 12, "valor": "121316,59" },
-    { "status": "Total em Disputa", "quantidade": 24, "valor": "161171,49" },
-    { "status": "Aguard. Envio Separação", "quantidade": 2, "valor": "964,2" },
-    { "status": "Em Separação", "quantidade": 15, "valor": "112290,77" },
-    { "status": "Separado", "quantidade": 4, "valor": "19703,9" },
-    { "status": "Faturado", "quantidade": 13, "valor": "103411,11" },
-    { "status": "Total", "quantidade": 34, "valor": "236369,98" }
+    { "status": "Total em Disputa", "quantidade": 23, "valor": "141997,09" },
+    { "status": "Aguard. Envio Separação", "quantidade": 6, "valor": "55157,28" },
+    { "status": "Em Separação", "quantidade": 15, "valor": "112564,85" },
+    { "status": "Separado", "quantidade": 3, "valor": "15830,3" },
+    { "status": "Faturado", "quantidade": 14, "valor": "107284,71" },
+    { "status": "Total", "quantidade": 38, "valor": "290837,14" }
  ],
  "recebimento_produtos": [
 
@@ -50,8 +50,8 @@
   {"numero_pedido":"697579 ", "emissao_pv": "19/06/2026 ", "vlr_total_produtos": "893,47 ", "margem": "33,14 ", "nome_cliente": "HOSP ARNALDO G FILHO ", "uf_cliente": "MG ", "tipo_cliente": "CONS.FINAL ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"697591 ", "emissao_pv": "19/06/2026 ", "vlr_total_produtos": "33836,6 ", "margem": "22,79 ", "nome_cliente": "VITIMED COM PRODUTOS ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"697593 ", "emissao_pv": "19/06/2026 ", "vlr_total_produtos": "826 ", "margem": "40,75 ", "nome_cliente": "REFTEC SOLUCOES EM E ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"697611 ", "emissao_pv": "19/06/2026 ", "vlr_total_produtos": "7340 ", "margem": "22,62 ", "nome_cliente": "DENTAL EPORT MATERIA ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. CAREMED ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"697620 ", "emissao_pv": "19/06/2026 ", "vlr_total_produtos": "19174,4 ", "margem": "23,82 ", "nome_cliente": "CBA HOSPITALAR ", "uf_cliente": "DF ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. SUPREMO ", "ultimo_status": "Alvará Sanitário" }
+  {"numero_pedido":"697611 ", "emissao_pv": "19/06/2026 ", "vlr_total_produtos": "7340 ", "margem": "22,62 ", "nome_cliente": "DENTAL EPORT MATERIA ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. CAREMED ", "ultimo_status": "Análise de Crédito" }
+
 
 
 
