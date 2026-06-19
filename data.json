@@ -1,18 +1,18 @@
 {
-  "updated_at": "19/06/2026 08:14",
+  "updated_at": "19/06/2026 09:51",
   "kpis": {
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 4, "valor": "4576,35" },
-    { "status": "Alvará Sanitário", "quantidade": 9, "valor": "22208,84" },
+    { "status": "Aguardando Liberação", "quantidade": 3, "valor": "3018" },
+    { "status": "Alvará Sanitário", "quantidade": 9, "valor": "22157,31" },
     { "status": "Bloqueado por regra", "quantidade": 2, "valor": "3421,43" },
-    { "status": "Análise de Crédito", "quantidade": 11, "valor": "127999,8" },
-    { "status": "Total em Disputa", "quantidade": 26, "valor": "158206,42" },
-    { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "39822,41" },
-    { "status": "Em Separação", "quantidade": 1, "valor": "3165,32" },
+    { "status": "Análise de Crédito", "quantidade": 12, "valor": "117212,59" },
+    { "status": "Total em Disputa", "quantidade": 26, "valor": "145809,33" },
+    { "status": "Aguard. Envio Separação", "quantidade": 0, "valor": "0" },
+    { "status": "Em Separação", "quantidade": 10, "valor": "165073,46" },
     { "status": "Separado", "quantidade": 1, "valor": "1058,42" },
     { "status": "Faturado", "quantidade": 0, "valor": "0" },
-    { "status": "Total", "quantidade": 3, "valor": "44046,15" }
+    { "status": "Total", "quantidade": 11, "valor": "166131,88" }
  ],
  "recebimento_produtos": [
 
@@ -42,18 +42,18 @@
   {"numero_pedido":"697282 ", "emissao_pv": "17/06/2026 ", "vlr_total_produtos": "7212,17 ", "margem": "46,59 ", "nome_cliente": "CLINICA VETERINARIA ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"697315 ", "emissao_pv": "17/06/2026 ", "vlr_total_produtos": "815,3 ", "margem": "31,2 ", "nome_cliente": "THIADE HEALTH COMERC ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"697317 ", "emissao_pv": "17/06/2026 ", "vlr_total_produtos": "1325,38 ", "margem": "32,28 ", "nome_cliente": "LBC BRASIL RIO ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"697343 ", "emissao_pv": "17/06/2026 ", "vlr_total_produtos": "20175,4 ", "margem": "17,91 ", "nome_cliente": "SAUDE E CIA ", "uf_cliente": "SC ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"697437 ", "emissao_pv": "18/06/2026 ", "vlr_total_produtos": "810,54 ", "margem": "34,19 ", "nome_cliente": "CAMPINAS DAY HOSPITA ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "REP. ML DANTE ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"697447 ", "emissao_pv": "18/06/2026 ", "vlr_total_produtos": "3352,9 ", "margem": "29,1 ", "nome_cliente": "NOVA MEDICA ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"697455 ", "emissao_pv": "18/06/2026 ", "vlr_total_produtos": "19920 ", "margem": "48,39 ", "nome_cliente": "X  MEDIC HOSPITALAR ", "uf_cliente": "AP ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. CA BENTO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"697457 ", "emissao_pv": "18/06/2026 ", "vlr_total_produtos": "29747,7 ", "margem": "12,29 ", "nome_cliente": "AR DISTRIBUIDORA HOS ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. CA BENTO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"697459 ", "emissao_pv": "18/06/2026 ", "vlr_total_produtos": "4050 ", "margem": "30,4 ", "nome_cliente": "ADVAITA ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"697515 ", "emissao_pv": "18/06/2026 ", "vlr_total_produtos": "12080 ", "margem": "3,91 ", "nome_cliente": "MASTERMED  PRODUTOS ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"697519 ", "emissao_pv": "18/06/2026 ", "vlr_total_produtos": "28510,41 ", "margem": "37,13 ", "nome_cliente": "DISCAMED ", "uf_cliente": "PE ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"697523 ", "emissao_pv": "18/06/2026 ", "vlr_total_produtos": "5510 ", "margem": "24,73 ", "nome_cliente": "DENTAL LIMA ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"697527 ", "emissao_pv": "18/06/2026 ", "vlr_total_produtos": "877,1 ", "margem": "3,42 ", "nome_cliente": "DENTAL L A ", "uf_cliente": "DF ", "tipo_cliente": "REVENDEDOR ","vendedor": "LUCIANA LIMA ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"697573 ", "emissao_pv": "19/06/2026 ", "vlr_total_produtos": "945 ", "margem": "23,9 ", "nome_cliente": "BRASMED COMERCIO PRO ", "uf_cliente": "MS ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Alvará Sanitário" }
-
+  {"numero_pedido":"697579 ", "emissao_pv": "19/06/2026 ", "vlr_total_produtos": "893,47 ", "margem": "33,14 ", "nome_cliente": "HOSP ARNALDO G FILHO ", "uf_cliente": "MG ", "tipo_cliente": "CONS.FINAL ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"697589 ", "emissao_pv": "19/06/2026 ", "vlr_total_produtos": "3236 ", "margem": "14,95 ", "nome_cliente": "MEGA HOSPITALAR ", "uf_cliente": "MS ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"697591 ", "emissao_pv": "19/06/2026 ", "vlr_total_produtos": "33836,6 ", "margem": "22,79 ", "nome_cliente": "VITIMED COM PRODUTOS ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"697593 ", "emissao_pv": "19/06/2026 ", "vlr_total_produtos": "826 ", "margem": "40,75 ", "nome_cliente": "REFTEC SOLUCOES EM E ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Análise de Crédito" }
 
 
 
@@ -86,15 +86,15 @@
      "frete_pago": "389228,89",
      "faturamento": "8371516,02",
      "frete_repassado": "317645,54",
-     "entrega_realizada": "660",
-     "entrega_no_prazo": "634",
-     "qtd_notas_fiscais": "964",
+     "entrega_realizada": "650",
+     "entrega_no_prazo": "624",
+     "qtd_notas_fiscais": "966",
      "entrega_fora_prazo": "31"
 },
   "mes_anterior": {
      "periodo": "maio/2026",
-     "entrega_realizada": "1696",
-     "entrega_no_prazo": "1617"
+     "entrega_realizada": "1692",
+     "entrega_no_prazo": "1613"
   }
 },
   "expedicao": {
