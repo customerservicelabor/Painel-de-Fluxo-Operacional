@@ -1,18 +1,18 @@
 {
-  "updated_at": "23/06/2026 09:52",
+  "updated_at": "23/06/2026 11:13",
   "kpis": {
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 1, "valor": "3648" },
-    { "status": "Alvará Sanitário", "quantidade": 10, "valor": "30257,54" },
+    { "status": "Aguardando Liberação", "quantidade": 2, "valor": "4659,07" },
+    { "status": "Alvará Sanitário", "quantidade": 12, "valor": "40471,29" },
     { "status": "Bloqueado por regra", "quantidade": 0, "valor": "0" },
-    { "status": "Análise de Crédito", "quantidade": 8, "valor": "65032,42" },
-    { "status": "Total em Disputa", "quantidade": 19, "valor": "98937,96" },
-    { "status": "Aguard. Envio Separação", "quantidade": 0, "valor": "0" },
-    { "status": "Em Separação", "quantidade": 4, "valor": "43864,31" },
-    { "status": "Separado", "quantidade": 0, "valor": "0" },
-    { "status": "Faturado", "quantidade": 0, "valor": "0" },
-    { "status": "Total", "quantidade": 4, "valor": "43864,31" }
+    { "status": "Análise de Crédito", "quantidade": 7, "valor": "64200,42" },
+    { "status": "Total em Disputa", "quantidade": 21, "valor": "109330,78" },
+    { "status": "Aguard. Envio Separação", "quantidade": 2, "valor": "3199,6" },
+    { "status": "Em Separação", "quantidade": 6, "valor": "23423,88" },
+    { "status": "Separado", "quantidade": 3, "valor": "19826,25" },
+    { "status": "Faturado", "quantidade": 3, "valor": "34109,56" },
+    { "status": "Total", "quantidade": 14, "valor": "80559,29" }
  ],
  "recebimento_produtos": [
 
@@ -48,10 +48,10 @@
   {"numero_pedido":"697848 ", "emissao_pv": "22/06/2026 ", "vlr_total_produtos": "1251,46 ", "margem": "52,51 ", "nome_cliente": "PROMEC ", "uf_cliente": "PE ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. SAMUEL FERREIRA ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"697864 ", "emissao_pv": "22/06/2026 ", "vlr_total_produtos": "980,39 ", "margem": "21,51 ", "nome_cliente": "LIFE CARE DIAGNOSTIC ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"697882 ", "emissao_pv": "22/06/2026 ", "vlr_total_produtos": "836,25 ", "margem": "29,59 ", "nome_cliente": "LABORCARE ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"697942 ", "emissao_pv": "23/06/2026 ", "vlr_total_produtos": "770,1 ", "margem": "25,76 ", "nome_cliente": "PREMISSE HOSPITALAR ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"697944 ", "emissao_pv": "23/06/2026 ", "vlr_total_produtos": "959,76 ", "margem": "25,98 ", "nome_cliente": "LABORATORIO VETERINA ", "uf_cliente": "AL ", "tipo_cliente": "CONS.FINAL ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"697946 ", "emissao_pv": "23/06/2026 ", "vlr_total_produtos": "2285,9 ", "margem": "31,62 ", "nome_cliente": "LOJAO DAS CLINICAS D ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" }
-
+  {"numero_pedido":"697952 ", "emissao_pv": "23/06/2026 ", "vlr_total_produtos": "2224 ", "margem": "30,6 ", "nome_cliente": "J M  LAB VETERINARIO ", "uf_cliente": "RJ ", "tipo_cliente": "CONS.FINAL ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"697954 ", "emissao_pv": "23/06/2026 ", "vlr_total_produtos": "8580 ", "margem": "35,28 ", "nome_cliente": "OPEN FARMA ", "uf_cliente": "RS ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. LM ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"697962 ", "emissao_pv": "23/06/2026 ", "vlr_total_produtos": "1633,75 ", "margem": "29,1 ", "nome_cliente": "FARMEDI DISTRIBUIDOR ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Alvará Sanitário" }
 
 
 
@@ -83,18 +83,18 @@
   "performance_gerencial": {
     "mes_atual": {
      "periodo": "junho/2026",
-     "frete_pago": "420615,33",
-     "faturamento": "9026046,81",
-     "frete_repassado": "334950,04",
-     "entrega_realizada": "701",
-     "entrega_no_prazo": "669",
-     "qtd_notas_fiscais": "971",
-     "entrega_fora_prazo": "38"
+     "frete_pago": "463364,78",
+     "faturamento": "9831339,36",
+     "frete_repassado": "359380,49",
+     "entrega_realizada": "761",
+     "entrega_no_prazo": "730",
+     "qtd_notas_fiscais": "1066",
+     "entrega_fora_prazo": "41"
 },
   "mes_anterior": {
      "periodo": "maio/2026",
-     "entrega_realizada": "1694",
-     "entrega_no_prazo": "1611"
+     "entrega_realizada": "1631",
+     "entrega_no_prazo": "1551"
   }
 },
   "expedicao": {
