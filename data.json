@@ -1,18 +1,18 @@
 {
-  "updated_at": "23/06/2026 08:34",
+  "updated_at": "23/06/2026 09:52",
   "kpis": {
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 1, "valor": "3648" },
-    { "status": "Alvará Sanitário", "quantidade": 11, "valor": "40131,09" },
+    { "status": "Alvará Sanitário", "quantidade": 10, "valor": "30257,54" },
     { "status": "Bloqueado por regra", "quantidade": 0, "valor": "0" },
-    { "status": "Análise de Crédito", "quantidade": 7, "valor": "88707,42" },
-    { "status": "Total em Disputa", "quantidade": 19, "valor": "132486,51" },
+    { "status": "Análise de Crédito", "quantidade": 8, "valor": "65032,42" },
+    { "status": "Total em Disputa", "quantidade": 19, "valor": "98937,96" },
     { "status": "Aguard. Envio Separação", "quantidade": 0, "valor": "0" },
-    { "status": "Em Separação", "quantidade": 0, "valor": "0" },
+    { "status": "Em Separação", "quantidade": 4, "valor": "43864,31" },
     { "status": "Separado", "quantidade": 0, "valor": "0" },
     { "status": "Faturado", "quantidade": 0, "valor": "0" },
-    { "status": "Total", "quantidade": 0, "valor": "0" }
+    { "status": "Total", "quantidade": 4, "valor": "43864,31" }
  ],
  "recebimento_produtos": [
 
@@ -48,9 +48,9 @@
   {"numero_pedido":"697848 ", "emissao_pv": "22/06/2026 ", "vlr_total_produtos": "1251,46 ", "margem": "52,51 ", "nome_cliente": "PROMEC ", "uf_cliente": "PE ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. SAMUEL FERREIRA ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"697864 ", "emissao_pv": "22/06/2026 ", "vlr_total_produtos": "980,39 ", "margem": "21,51 ", "nome_cliente": "LIFE CARE DIAGNOSTIC ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"697882 ", "emissao_pv": "22/06/2026 ", "vlr_total_produtos": "836,25 ", "margem": "29,59 ", "nome_cliente": "LABORCARE ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"697930 ", "emissao_pv": "22/06/2026 ", "vlr_total_produtos": "9754,75 ", "margem": "49,99 ", "nome_cliente": "BRASIL HOSP PRODUTOS ", "uf_cliente": "MA ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. H.F ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"697936 ", "emissao_pv": "22/06/2026 ", "vlr_total_produtos": "26731 ", "margem": "25,76 ", "nome_cliente": "COMERCIAL VALFARMA E ", "uf_cliente": "CE ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. ALFA ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"697938 ", "emissao_pv": "22/06/2026 ", "vlr_total_produtos": "1078,56 ", "margem": "0 ", "nome_cliente": "LUCAS NICOLAU ", "uf_cliente": "MG ", "tipo_cliente": "CONS.FINAL ","vendedor": "E-COMMERCE ", "ultimo_status": "Alvará Sanitário" }
+  {"numero_pedido":"697942 ", "emissao_pv": "23/06/2026 ", "vlr_total_produtos": "770,1 ", "margem": "25,76 ", "nome_cliente": "PREMISSE HOSPITALAR ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"697944 ", "emissao_pv": "23/06/2026 ", "vlr_total_produtos": "959,76 ", "margem": "25,98 ", "nome_cliente": "LABORATORIO VETERINA ", "uf_cliente": "AL ", "tipo_cliente": "CONS.FINAL ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"697946 ", "emissao_pv": "23/06/2026 ", "vlr_total_produtos": "2285,9 ", "margem": "31,62 ", "nome_cliente": "LOJAO DAS CLINICAS D ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" }
 
 
 
@@ -106,13 +106,13 @@
 
 
 "estoque": {
-  "ocupacao_total_armazem": 54.54,
-  "ocupacao_operacional": 58.32,
+  "ocupacao_total_armazem": 55.87,
+  "ocupacao_operacional": 59.89,
   "areas": [
-    { "nome": "Picking", "taxa": 78.16},
-    { "nome": "Pulmão de Abastecimento", "taxa": 54.67},
-    { "nome": "Flowrack", "taxa": 42.36},
-    { "nome": "Área de Qualidade", "taxa": 18.84},
+    { "nome": "Picking", "taxa": 77.93},
+    { "nome": "Pulmão de Abastecimento", "taxa": 56.57},
+    { "nome": "Flowrack", "taxa": 42.86},
+    { "nome": "Área de Qualidade", "taxa": 18.12},
     { "nome": "Área de Amostra", "taxa": 0.00},
     { "nome": "Área de Avarias", "taxa": 37.21}
 ]
