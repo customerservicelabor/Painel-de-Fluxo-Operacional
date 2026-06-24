@@ -1,18 +1,18 @@
 {
-  "updated_at": "24/06/2026 08:18",
+  "updated_at": "24/06/2026 09:40",
   "kpis": {
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 1, "valor": "3648" },
     { "status": "Alvará Sanitário", "quantidade": 11, "valor": "30230,36" },
     { "status": "Bloqueado por regra", "quantidade": 0, "valor": "0" },
-    { "status": "Análise de Crédito", "quantidade": 5, "valor": "29803,42" },
-    { "status": "Total em Disputa", "quantidade": 17, "valor": "63681,78" },
-    { "status": "Aguard. Envio Separação", "quantidade": 0, "valor": "0" },
-    { "status": "Em Separação", "quantidade": 0, "valor": "0" },
+    { "status": "Análise de Crédito", "quantidade": 7, "valor": "33623,02" },
+    { "status": "Total em Disputa", "quantidade": 19, "valor": "67501,38" },
+    { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "0,17" },
+    { "status": "Em Separação", "quantidade": 4, "valor": "11095,84" },
     { "status": "Separado", "quantidade": 0, "valor": "0" },
     { "status": "Faturado", "quantidade": 0, "valor": "0" },
-    { "status": "Total", "quantidade": 0, "valor": "0" }
+    { "status": "Total", "quantidade": 5, "valor": "11096,01" }
  ],
  "recebimento_produtos": [
 
@@ -48,9 +48,9 @@
   {"numero_pedido":"698040 ", "emissao_pv": "23/06/2026 ", "vlr_total_produtos": "2908,5 ", "margem": "17,75 ", "nome_cliente": "JP DIAGNOSTICA ", "uf_cliente": "SC ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"698052 ", "emissao_pv": "23/06/2026 ", "vlr_total_produtos": "12807 ", "margem": "28,1 ", "nome_cliente": "CUIDAR MED ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"698066 ", "emissao_pv": "23/06/2026 ", "vlr_total_produtos": "5100 ", "margem": "25,23 ", "nome_cliente": "NOROMED DISTRIBUIDOR ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"698074 ", "emissao_pv": "23/06/2026 ", "vlr_total_produtos": "2494,06 ", "margem": "30,61 ", "nome_cliente": "DESCARTAVEIS ", "uf_cliente": "RO ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. FEMA ", "ultimo_status": "Análise de Crédito" }
-
-
+  {"numero_pedido":"698074 ", "emissao_pv": "23/06/2026 ", "vlr_total_produtos": "2494,06 ", "margem": "30,61 ", "nome_cliente": "DESCARTAVEIS ", "uf_cliente": "RO ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. FEMA ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"698087 ", "emissao_pv": "24/06/2026 ", "vlr_total_produtos": "1179,6 ", "margem": "44,63 ", "nome_cliente": "HOSPITAL UNIMED ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "VENDAS DIGITAIS ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"698089 ", "emissao_pv": "24/06/2026 ", "vlr_total_produtos": "2640 ", "margem": "17,56 ", "nome_cliente": "DIMEDIC COMERCIAL HO ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" }
 
 
 
