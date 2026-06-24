@@ -1,18 +1,18 @@
 {
-  "updated_at": "24/06/2026 09:40",
+  "updated_at": "24/06/2026 10:39",
   "kpis": {
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 1, "valor": "3648" },
-    { "status": "Alvará Sanitário", "quantidade": 11, "valor": "30230,36" },
+    { "status": "Alvará Sanitário", "quantidade": 10, "valor": "29394,11" },
     { "status": "Bloqueado por regra", "quantidade": 0, "valor": "0" },
-    { "status": "Análise de Crédito", "quantidade": 7, "valor": "33623,02" },
-    { "status": "Total em Disputa", "quantidade": 19, "valor": "67501,38" },
-    { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "0,17" },
+    { "status": "Análise de Crédito", "quantidade": 8, "valor": "34897,85" },
+    { "status": "Total em Disputa", "quantidade": 19, "valor": "67939,96" },
+    { "status": "Aguard. Envio Separação", "quantidade": 2, "valor": "22943,97" },
     { "status": "Em Separação", "quantidade": 4, "valor": "11095,84" },
-    { "status": "Separado", "quantidade": 0, "valor": "0" },
-    { "status": "Faturado", "quantidade": 0, "valor": "0" },
-    { "status": "Total", "quantidade": 5, "valor": "11096,01" }
+    { "status": "Separado", "quantidade": 2, "valor": "4792,25" },
+    { "status": "Faturado", "quantidade": 2, "valor": "1021,18" },
+    { "status": "Total", "quantidade": 10, "valor": "39853,24" }
  ],
  "recebimento_produtos": [
 
@@ -40,7 +40,6 @@
   {"numero_pedido":"697826 ", "emissao_pv": "22/06/2026 ", "vlr_total_produtos": "5169 ", "margem": "34,21 ", "nome_cliente": "EXPANDIR COMERCIO LT ", "uf_cliente": "MA ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"697848 ", "emissao_pv": "22/06/2026 ", "vlr_total_produtos": "1251,46 ", "margem": "52,51 ", "nome_cliente": "PROMEC ", "uf_cliente": "PE ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. SAMUEL FERREIRA ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"697864 ", "emissao_pv": "22/06/2026 ", "vlr_total_produtos": "980,39 ", "margem": "21,51 ", "nome_cliente": "LIFE CARE DIAGNOSTIC ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"697882 ", "emissao_pv": "22/06/2026 ", "vlr_total_produtos": "836,25 ", "margem": "29,59 ", "nome_cliente": "LABORCARE ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"697944 ", "emissao_pv": "23/06/2026 ", "vlr_total_produtos": "959,76 ", "margem": "25,98 ", "nome_cliente": "LABORATORIO VETERINA ", "uf_cliente": "AL ", "tipo_cliente": "CONS.FINAL ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"697954 ", "emissao_pv": "23/06/2026 ", "vlr_total_produtos": "8580 ", "margem": "35,28 ", "nome_cliente": "OPEN FARMA ", "uf_cliente": "RS ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. LM ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"697996 ", "emissao_pv": "23/06/2026 ", "vlr_total_produtos": "1800 ", "margem": "35,64 ", "nome_cliente": "MEGA ATACADISTA ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. CAREMED ", "ultimo_status": "Alvará Sanitário" },
@@ -50,7 +49,8 @@
   {"numero_pedido":"698066 ", "emissao_pv": "23/06/2026 ", "vlr_total_produtos": "5100 ", "margem": "25,23 ", "nome_cliente": "NOROMED DISTRIBUIDOR ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"698074 ", "emissao_pv": "23/06/2026 ", "vlr_total_produtos": "2494,06 ", "margem": "30,61 ", "nome_cliente": "DESCARTAVEIS ", "uf_cliente": "RO ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. FEMA ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"698087 ", "emissao_pv": "24/06/2026 ", "vlr_total_produtos": "1179,6 ", "margem": "44,63 ", "nome_cliente": "HOSPITAL UNIMED ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "VENDAS DIGITAIS ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"698089 ", "emissao_pv": "24/06/2026 ", "vlr_total_produtos": "2640 ", "margem": "17,56 ", "nome_cliente": "DIMEDIC COMERCIAL HO ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" }
+  {"numero_pedido":"698089 ", "emissao_pv": "24/06/2026 ", "vlr_total_produtos": "2640 ", "margem": "17,56 ", "nome_cliente": "DIMEDIC COMERCIAL HO ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"698093 ", "emissao_pv": "24/06/2026 ", "vlr_total_produtos": "1274,83 ", "margem": "45,4 ", "nome_cliente": "PORTO DIAGNOSTICOS ", "uf_cliente": "MA ", "tipo_cliente": "CONS.FINAL ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" }
 
 
 
