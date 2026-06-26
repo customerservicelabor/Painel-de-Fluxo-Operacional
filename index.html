@@ -2129,10 +2129,9 @@ function startAutoScroll(el, {
         faturamentoPrevisto = parseBRLValue(totalPrevisto?.valor ?? 0);
       }
 
-      const faturamentoProjetado = faturamentoAtual + faturamentoPrevisto;
-      const faltaAtual = Math.max(0, meta - faturamentoAtual);
-      const faltaComPrevisto = Math.max(0, meta - faturamentoProjetado);
-      const percentualProjetado = pctMeta(faturamentoProjetado, meta);
+      const faltaAtual = meta;
+      const faltaComPrevisto = Math.max(0, meta - faturamentoPrevisto);
+      const percentualProjetado = pctMeta(faturamentoPrevisto, meta);
 
       document.getElementById('metaFaltaAtual').textContent = fmtBRL.format(faltaAtual);
       document.getElementById('metaFaltaPrevisto').textContent = fmtBRL.format(faltaComPrevisto);
