@@ -1398,6 +1398,145 @@
       white-space:nowrap;
     }
 
+
+    /* ===== NA ROTA DA META ===== */
+    .metaPanel{
+      min-height:0;
+      flex:1 1 auto;
+      background: rgba(255,255,255,.92);
+      border:1px solid rgba(255,255,255,.35);
+      color: var(--ink);
+    }
+
+    .metaBody{
+      flex:1 1 auto;
+      min-height:0;
+      padding: 18px 34px;
+      background: linear-gradient(180deg, rgba(11,27,58,.035), rgba(11,27,58,.015));
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+      gap: 12px;
+      overflow:hidden;
+    }
+
+    .metaHero{
+      border-radius: 18px;
+      background: linear-gradient(180deg, #142137, #0d1728);
+      color: rgba(233,236,245,.96);
+      border: 1px solid rgba(255,255,255,.12);
+      box-shadow: 0 12px 24px rgba(0,0,0,.18);
+      padding: 18px 18px 16px;
+    }
+
+    .metaHeroTop{
+      display:flex;
+      justify-content:space-between;
+      align-items:flex-start;
+      gap:12px;
+      margin-bottom: 14px;
+    }
+
+    .metaLabel{
+      font-size: 13px;
+      color: rgba(233,236,245,.72);
+      font-weight: 850;
+      letter-spacing:.2px;
+    }
+
+    .metaValorAtual{
+      margin-top: 6px;
+      font-size: clamp(30px, 3.1vw, 48px);
+      line-height:1;
+      font-weight: 950;
+      white-space:nowrap;
+    }
+
+    .metaPercent{
+      border-radius:999px;
+      padding: 8px 12px;
+      background: rgba(34,197,94,.16);
+      border: 1px solid rgba(34,197,94,.28);
+      color: rgba(233,236,245,.96);
+      font-size: 16px;
+      font-weight: 950;
+      white-space:nowrap;
+    }
+
+    .metaBar{
+      height: 18px;
+      border-radius:999px;
+      background: rgba(255,255,255,.12);
+      overflow:hidden;
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,.08);
+    }
+
+    .metaFill{
+      height:100%;
+      width:0%;
+      border-radius:999px;
+      background:#22c55e;
+      transition: width .6s ease;
+    }
+
+    .metaGrid{
+      display:grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      flex: 1 1 auto;
+      min-height:0;
+      height:100%;
+      width: min(92%, 760px);
+    }
+
+    .metaCard{
+      border-radius: 16px;
+      background: rgba(255,255,255,.92);
+      border: 1px solid rgba(11,27,58,.09);
+      box-shadow: 0 10px 22px rgba(0,0,0,.10);
+      padding: 18px 20px;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      min-width:0;
+      min-height:0;
+    }
+
+    .metaCard.dark{
+      background: linear-gradient(180deg, #263955, #18263d);
+      border-color: rgba(255,255,255,.12);
+      color: rgba(233,236,245,.96);
+    }
+
+    .metaCardLabel{
+      font-size: clamp(16px, 1.18vw, 21px);
+      color: rgba(11,27,58,.66);
+      font-weight: 900;
+      line-height:1.18;
+    }
+
+    .metaCard.dark .metaCardLabel{ color: rgba(233,236,245,.74); }
+
+    .metaCardValue{
+      margin-top: 8px;
+      font-size: clamp(26px, 2.35vw, 42px);
+      line-height:1.02;
+      font-weight: 950;
+      white-space:nowrap;
+    }
+
+    .metaCardSub{
+      margin-top: 8px;
+      font-size: clamp(12px, .86vw, 15px);
+      line-height:1.25;
+      color: rgba(11,27,58,.58);
+      font-weight: 800;
+    }
+
+    .metaCard.dark .metaCardSub{ color: rgba(233,236,245,.70); }
+
     @media (max-width: 1200px){
       .capacidadeBody{
         grid-template-columns:1fr;
@@ -1473,26 +1612,25 @@
 
     <section class="topRow">
       <div class="leftCol" id="leftCol">
-        <div class="panel panelLight panelPerfSoft" id="panelRecebimento" style="min-height:0; flex:1 1 auto;">
+        <div class="panel panelLight metaPanel" id="panelRecebimento" style="min-height:0; flex:1 1 auto;">
           <div class="ph">
-            <div class="ttl">Recebimento de Produtos</div>
-            <div class="badge" id="recebimentoCount">— itens</div>
+            <div class="ttl">Na Rota da Meta</div>
           </div>
 
-          <div class="scroll" id="scrollRecebimento">
-            <table class="tblPerf">
-              <thead>
-                <tr>
-                  <th>Embarque</th>
-                  <th>Tipo</th>
-                  <th>Recebimento</th>
-                  <th>Confirmado</th>
-                  <th>Chegada CD</th>
-                  <th>Status</th>
-                </tr>
-              </thead>
-              <tbody id="tbodyRecebimento"></tbody>
-            </table>
+          <div class="metaBody" id="scrollRecebimento">
+            <div class="metaGrid">
+              <div class="metaCard">
+                <div class="metaCardLabel">Falta para atingir o objetivo</div>
+                <div class="metaCardValue" id="metaFaltaAtual">—</div>
+                <div class="metaCardSub">Meta mensal menos faturamento atual</div>
+              </div>
+
+              <div class="metaCard dark">
+                <div class="metaCardLabel">Falta considerando faturamento previsto do dia</div>
+                <div class="metaCardValue" id="metaFaltaPrevisto">—</div>
+                <div class="metaCardSub" id="metaPrevistoSub">Previsto: —</div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -1972,84 +2110,33 @@ function startAutoScroll(el, {
       return 'tag';
     }
 
+    function pctMeta(valor, meta){
+      if (!meta || meta <= 0) return 0;
+      return Math.max(0, Math.min(100, (valor / meta) * 100));
+    }
+
     function renderRecebimento(data){
-      const list = Array.isArray(data.recebimento_produtos)
-        ? data.recebimento_produtos
-        : (Array.isArray(data.performance_transportadoras) ? data.performance_transportadoras : []);
+      const rota = data.na_rota_da_meta || {};
 
-      const body = document.getElementById('tbodyRecebimento');
-      body.innerHTML = '';
+      const meta = parseBRLValue(rota.meta ?? rota.objetivo ?? '15026661,20');
+      const faturamentoAtual = parseBRLValue(rota.faturamento_atual ?? rota.faturamentoAtual ?? '11666944,85');
 
-      document.getElementById('recebimentoCount').textContent = `${list.length} itens`;
+      let faturamentoPrevisto = parseBRLValue(rota.faturamento_previsto ?? rota.faturamentoPrevisto ?? 0);
 
-      for (const it of list){
-        const status = String(it.status ?? '').trim();
-        const statusKey = normKey(status);
-
-        const tr = document.createElement('tr');
-        tr.classList.remove('blinkWarn');
-
-        let statusDotClass = '';
-        let statusBadgeClass = '';
-
-        // ===== CORES AUTOMÁTICAS POR STATUS =====
-        if (statusKey.includes('aguardando programacao')) {
-          tr.style.background = 'linear-gradient(90deg, rgba(107,114,128,.25), rgba(107,114,128,.05))';
-        }
-        else if (statusKey === 'programado' || statusKey.includes('programado')) {
-          tr.style.background = 'linear-gradient(90deg, rgba(59,130,246,.18), rgba(59,130,246,.05))';
-        }
-        else if (statusKey.includes('transito')) {
-          tr.style.background = 'linear-gradient(90deg, rgba(245,158,11,.18), rgba(245,158,11,.05))';
-          statusDotClass = 'bad';
-        }
-        else if (statusKey.includes('chegou')) {
-          tr.style.background = 'linear-gradient(90deg, rgba(14,165,233,.18), rgba(14,165,233,.05))';
-        }
-        else if (statusKey.includes('descarregando')) {
-          tr.style.background = 'linear-gradient(90deg, rgba(168,85,247,.18), rgba(168,85,247,.05))';
-        }
-        else if (statusKey.includes('finalizado')) {
-          tr.style.background = 'linear-gradient(90deg, rgba(34,197,94,.18), rgba(34,197,94,.05))';
-          statusBadgeClass = 'good';
-        }
-
-        // ===== EXCEÇÕES / ALERTA PISCANDO =====
-        if (
-          statusKey.includes('aguardando complementar') ||
-          statusKey.includes('aguardando nf mae') ||
-          statusKey.includes('divergencia')
-        ) {
-          tr.classList.add('blinkWarn');
-          tr.style.background = 'linear-gradient(90deg, rgba(239,68,68,.30), rgba(239,68,68,.10))';
-          statusDotClass = 'bad';
-          statusBadgeClass = 'bad';
-        }
-
-        const confirmado = String(it.confirmado ?? it.pendente_de_entrega ?? '—').trim();
-        const confirmadoKey = normKey(confirmado);
-        const confirmadoClass = confirmadoKey === 'sim' ? 'good' : (confirmadoKey === 'nao' ? 'bad' : '');
-
-        tr.innerHTML = `
-          <td><strong>${String(it.embarque ?? '—').trim()}</strong></td>
-          <td>${String(it.tipo ?? '—').trim()}</td>
-          <td>${String(it.data_recebimento ?? '—').trim()}</td>
-          <td>
-            <span class="perfBadge ${confirmadoClass}">
-              <span class="perfDot ${confirmadoClass === 'bad' ? 'bad' : ''}"></span>
-              ${confirmado}
-            </span>
-          </td>
-          <td>${String(it.chegou_cd ?? '—').trim()}</td>
-          <td>
-            <span class="perfBadge ${statusBadgeClass}">
-              <span class="perfDot ${statusDotClass}"></span>
-              ${status || '—'}
-            </span>
-          </td>
-        `;
-        body.appendChild(tr);
+      if (!faturamentoPrevisto) {
+        const totalPrevisto = (Array.isArray(data.pedidos_status) ? data.pedidos_status : [])
+          .find(it => normKey(it.status) === 'total' || normKey(it.status).includes('total faturamento previsto'));
+        faturamentoPrevisto = parseBRLValue(totalPrevisto?.valor ?? 0);
       }
+
+      const faturamentoProjetado = faturamentoAtual + faturamentoPrevisto;
+      const faltaAtual = Math.max(0, meta - faturamentoAtual);
+      const faltaComPrevisto = Math.max(0, meta - faturamentoProjetado);
+      const percentualProjetado = pctMeta(faturamentoProjetado, meta);
+
+      document.getElementById('metaFaltaAtual').textContent = fmtBRL.format(faltaAtual);
+      document.getElementById('metaFaltaPrevisto').textContent = fmtBRL.format(faltaComPrevisto);
+      document.getElementById('metaPrevistoSub').textContent = `Previsto no dia: ${fmtBRL.format(faturamentoPrevisto)} • Projeção: ${percentualProjetado.toFixed(2).replace('.', ',')}% da meta`;
     }
 
     function renderPedidos(data){
