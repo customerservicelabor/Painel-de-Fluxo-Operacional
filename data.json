@@ -115,8 +115,7 @@
     { "nome": "Área de Qualidade", "taxa": 18.84},
     { "nome": "Área de Amostra", "taxa": 0.00},
     { "nome": "Área de Avarias", "taxa": 37.21}
-]
-
+  ]
 },
      "na_rota_da_meta": {
      "meta": 4161000.00,
