@@ -1,5 +1,5 @@
 {
-  "updated_at": "26/06/2026 12:21",
+  "updated_at": "26/06/2026 12:52",
   "kpis": {
   },
   "pedidos_status": [
@@ -115,11 +115,12 @@
     { "nome": "Área de Qualidade", "taxa": 18.84},
     { "nome": "Área de Amostra", "taxa": 0.00},
     { "nome": "Área de Avarias", "taxa": 37.21}
-  ]
+]
+}
 },
      "na_rota_da_meta": {
      "meta": 15026661.2,
-     "faturamento_atual": 11762986.21,
+     "faturamento_atual": 4161000.00,
      "faturamento_previsto": 367964.4
   }
 }
