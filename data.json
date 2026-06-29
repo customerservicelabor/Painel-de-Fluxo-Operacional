@@ -1,18 +1,18 @@
 {
-  "updated_at": "29/06/2026 17:08",
+  "updated_at": "29/06/2026 17:34",
   "kpis": {
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 1, "valor": "35,26" },
     { "status": "Alvará Sanitário", "quantidade": 3, "valor": "12167,5" },
     { "status": "Bloqueado por regra", "quantidade": 0, "valor": "0" },
-    { "status": "Análise de Crédito", "quantidade": 11, "valor": "60272,6" },
-    { "status": "Total em Disputa", "quantidade": 15, "valor": "72475,36" },
+    { "status": "Análise de Crédito", "quantidade": 13, "valor": "71572,6" },
+    { "status": "Total em Disputa", "quantidade": 17, "valor": "83775,36" },
     { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "32,8" },
-    { "status": "Em Separação", "quantidade": 8, "valor": "77903,29" },
-    { "status": "Separado", "quantidade": 0, "valor": "0" },
-    { "status": "Faturado", "quantidade": 58, "valor": "493443,26" },
-    { "status": "Total", "quantidade": 67, "valor": "571379,35" }
+    { "status": "Em Separação", "quantidade": 6, "valor": "45821,01" },
+    { "status": "Separado", "quantidade": 1, "valor": "1374" },
+    { "status": "Faturado", "quantidade": 60, "valor": "526022,04" },
+    { "status": "Total", "quantidade": 68, "valor": "573249,85" }
  ],
  "recebimento_produtos": [
 
@@ -46,9 +46,9 @@
   {"numero_pedido":"698898 ", "emissao_pv": "29/06/2026 ", "vlr_total_produtos": "2142,5 ", "margem": "25,6 ", "nome_cliente": "CLI LAB ", "uf_cliente": "BA ", "tipo_cliente": "CONS.FINAL ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"698904 ", "emissao_pv": "29/06/2026 ", "vlr_total_produtos": "2264 ", "margem": "35,75 ", "nome_cliente": "JOGG DISTRIBUIDORA L ", "uf_cliente": "ES ", "tipo_cliente": "REVENDEDOR ","vendedor": "NEOLANDI SANTOS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"698908 ", "emissao_pv": "29/06/2026 ", "vlr_total_produtos": "4156,16 ", "margem": "17,8 ", "nome_cliente": "MEDLAB COMERCIO E SE ", "uf_cliente": "RO ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"698910 ", "emissao_pv": "29/06/2026 ", "vlr_total_produtos": "11634,82 ", "margem": "31,93 ", "nome_cliente": "DISTRIBUIDORA VALE D ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "NEOLANDI SANTOS ", "ultimo_status": "Análise de Crédito" }
-
-
+  {"numero_pedido":"698910 ", "emissao_pv": "29/06/2026 ", "vlr_total_produtos": "11634,82 ", "margem": "31,93 ", "nome_cliente": "DISTRIBUIDORA VALE D ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "NEOLANDI SANTOS ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"698912 ", "emissao_pv": "29/06/2026 ", "vlr_total_produtos": "9059,5 ", "margem": "39,07 ", "nome_cliente": "MARIA DAS GRACAS C ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"698914 ", "emissao_pv": "29/06/2026 ", "vlr_total_produtos": "2240,5 ", "margem": "43,59 ", "nome_cliente": "LABORATORIO DE ANALI ", "uf_cliente": "AC ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" }
 
 
 
@@ -83,17 +83,17 @@
   "performance_gerencial": {
     "mes_atual": {
      "periodo": "junho/2026",
-     "frete_pago": "651660,99",
-     "faturamento": "13803302,37",
-     "frete_repassado": "467875,48",
-     "entrega_realizada": "1384",
-     "entrega_no_prazo": "1319",
-     "qtd_notas_fiscais": "1897",
-     "entrega_fora_prazo": "66"
+     "frete_pago": "573607,88",
+     "faturamento": "12156561,42",
+     "frete_repassado": "456841,6",
+     "entrega_realizada": "1343",
+     "entrega_no_prazo": "1275",
+     "qtd_notas_fiscais": "1841",
+     "entrega_fora_prazo": "70"
 },
   "mes_anterior": {
      "periodo": "maio/2026",
-     "entrega_realizada": "1920",
+     "entrega_realizada": "1918",
      "entrega_no_prazo": "1823"
   }
 },
@@ -121,6 +121,6 @@
      "na_rota_da_meta": {
      "meta": 2459081.38,
      "faturamento_atual": 0,
-     "faturamento_previsto": 571379.35
+     "faturamento_previsto": 573249.85
   }
 }
