@@ -1,18 +1,18 @@
 {
-  "updated_at": "29/06/2026 12:00",
+  "updated_at": "29/06/2026 12:41",
   "kpis": {
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 1, "valor": "35,26" },
     { "status": "Alvará Sanitário", "quantidade": 2, "valor": "10025" },
     { "status": "Bloqueado por regra", "quantidade": 0, "valor": "0" },
-    { "status": "Análise de Crédito", "quantidade": 8, "valor": "34708,4" },
-    { "status": "Total em Disputa", "quantidade": 11, "valor": "44768,66" },
-    { "status": "Aguard. Envio Separação", "quantidade": 4, "valor": "41165,3" },
-    { "status": "Em Separação", "quantidade": 9, "valor": "43062,38" },
-    { "status": "Separado", "quantidade": 4, "valor": "17984,1" },
-    { "status": "Faturado", "quantidade": 39, "valor": "387720,99" },
-    { "status": "Total", "quantidade": 56, "valor": "489932,77" }
+    { "status": "Análise de Crédito", "quantidade": 8, "valor": "42217,62" },
+    { "status": "Total em Disputa", "quantidade": 11, "valor": "52277,88" },
+    { "status": "Aguard. Envio Separação", "quantidade": 3, "valor": "54283,25" },
+    { "status": "Em Separação", "quantidade": 5, "valor": "45316,02" },
+    { "status": "Separado", "quantidade": 0, "valor": "0" },
+    { "status": "Faturado", "quantidade": 55, "valor": "454473,32" },
+    { "status": "Total", "quantidade": 63, "valor": "554072,59" }
  ],
  "recebimento_produtos": [
 
@@ -42,7 +42,7 @@
   {"numero_pedido":"698781 ", "emissao_pv": "26/06/2026 ", "vlr_total_produtos": "885,75 ", "margem": "20,33 ", "nome_cliente": "BIOCITO ", "uf_cliente": "PA ", "tipo_cliente": "CONS.FINAL ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"698822 ", "emissao_pv": "29/06/2026 ", "vlr_total_produtos": "5140 ", "margem": "25,36 ", "nome_cliente": "OKEY MED ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. SCHIBELGS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"698840 ", "emissao_pv": "29/06/2026 ", "vlr_total_produtos": "1445 ", "margem": "30,02 ", "nome_cliente": "CIRURGICA POTENZA ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"698866 ", "emissao_pv": "29/06/2026 ", "vlr_total_produtos": "3570,78 ", "margem": "42,78 ", "nome_cliente": "LABORATORIO DE ANALI ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" }
+  {"numero_pedido":"698878 ", "emissao_pv": "29/06/2026 ", "vlr_total_produtos": "11080 ", "margem": "30,12 ", "nome_cliente": "INFINITA COM SERV ", "uf_cliente": "SE ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" }
 
 
 
@@ -121,6 +121,6 @@
      "na_rota_da_meta": {
      "meta": 2459081.38,
      "faturamento_atual": 0,
-     "faturamento_previsto": 489932.77
+     "faturamento_previsto": 554072.59
   }
 }
