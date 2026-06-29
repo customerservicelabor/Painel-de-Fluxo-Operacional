@@ -1,18 +1,18 @@
 {
-  "updated_at": "29/06/2026 18:09",
+  "updated_at": "29/06/2026 18:40",
   "kpis": {
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 1, "valor": "35,26" },
     { "status": "Alvará Sanitário", "quantidade": 0, "valor": "0" },
     { "status": "Bloqueado por regra", "quantidade": 0, "valor": "0" },
-    { "status": "Análise de Crédito", "quantidade": 14, "valor": "73299,72" },
-    { "status": "Total em Disputa", "quantidade": 15, "valor": "73334,98" },
+    { "status": "Análise de Crédito", "quantidade": 12, "valor": "59703,94" },
+    { "status": "Total em Disputa", "quantidade": 13, "valor": "59739,2" },
     { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "32,8" },
-    { "status": "Em Separação", "quantidade": 9, "valor": "72619,71" },
+    { "status": "Em Separação", "quantidade": 7, "valor": "63204,39" },
     { "status": "Separado", "quantidade": 0, "valor": "0" },
-    { "status": "Faturado", "quantidade": 64, "valor": "532903,1" },
-    { "status": "Total", "quantidade": 74, "valor": "605555,61" }
+    { "status": "Faturado", "quantidade": 68, "valor": "555914,2" },
+    { "status": "Total", "quantidade": 76, "valor": "619151,39" }
  ],
  "recebimento_produtos": [
 
@@ -44,9 +44,9 @@
   {"numero_pedido":"698878 ", "emissao_pv": "29/06/2026 ", "vlr_total_produtos": "11080 ", "margem": "30,12 ", "nome_cliente": "INFINITA COM SERV ", "uf_cliente": "SE ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"698898 ", "emissao_pv": "29/06/2026 ", "vlr_total_produtos": "2142,5 ", "margem": "25,6 ", "nome_cliente": "CLI LAB ", "uf_cliente": "BA ", "tipo_cliente": "CONS.FINAL ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"698904 ", "emissao_pv": "29/06/2026 ", "vlr_total_produtos": "2264 ", "margem": "35,75 ", "nome_cliente": "JOGG DISTRIBUIDORA L ", "uf_cliente": "ES ", "tipo_cliente": "REVENDEDOR ","vendedor": "NEOLANDI SANTOS ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"698910 ", "emissao_pv": "29/06/2026 ", "vlr_total_produtos": "11634,82 ", "margem": "31,93 ", "nome_cliente": "DISTRIBUIDORA VALE D ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "NEOLANDI SANTOS ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"698920 ", "emissao_pv": "29/06/2026 ", "vlr_total_produtos": "9225,6 ", "margem": "26,05 ", "nome_cliente": "MEDMAIS C.  DE  M. ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"698924 ", "emissao_pv": "29/06/2026 ", "vlr_total_produtos": "4370,18 ", "margem": "32,85 ", "nome_cliente": "LAB. PRIMAVERA ", "uf_cliente": "PA ", "tipo_cliente": "CONS.FINAL ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" }
+  {"numero_pedido":"698910 ", "emissao_pv": "29/06/2026 ", "vlr_total_produtos": "11634,82 ", "margem": "31,93 ", "nome_cliente": "DISTRIBUIDORA VALE D ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "NEOLANDI SANTOS ", "ultimo_status": "Análise de Crédito" }
+
+
 
 
 
@@ -121,6 +121,6 @@
      "na_rota_da_meta": {
      "meta": 2459081.38,
      "faturamento_atual": 0,
-     "faturamento_previsto": 605555.61
+     "faturamento_previsto": 619151.39
   }
 }
