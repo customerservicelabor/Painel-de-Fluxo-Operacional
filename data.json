@@ -1,18 +1,18 @@
 {
-  "updated_at": "30/06/2026 14:19",
+  "updated_at": "30/06/2026 15:59",
   "kpis": {
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 2, "valor": "6868,3" },
-    { "status": "Alvará Sanitário", "quantidade": 5, "valor": "24916,89" },
+    { "status": "Alvará Sanitário", "quantidade": 4, "valor": "6155,94" },
     { "status": "Bloqueado por regra", "quantidade": 0, "valor": "0" },
-    { "status": "Análise de Crédito", "quantidade": 8, "valor": "89160,57" },
-    { "status": "Total em Disputa", "quantidade": 15, "valor": "120945,76" },
-    { "status": "Aguard. Envio Separação", "quantidade": 2, "valor": "38655,26" },
-    { "status": "Em Separação", "quantidade": 19, "valor": "130370,57" },
-    { "status": "Separado", "quantidade": 4, "valor": "10416,82" },
-    { "status": "Faturado", "quantidade": 2, "valor": "1561,08" },
-    { "status": "Total", "quantidade": 27, "valor": "181003,73" }
+    { "status": "Análise de Crédito", "quantidade": 10, "valor": "135518,17" },
+    { "status": "Total em Disputa", "quantidade": 16, "valor": "148542,41" },
+    { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "35,26" },
+    { "status": "Em Separação", "quantidade": 11, "valor": "67547,75" },
+    { "status": "Separado", "quantidade": 25, "valor": "1256312,06" },
+    { "status": "Faturado", "quantidade": 3, "valor": "78181,88" },
+    { "status": "Total", "quantidade": 40, "valor": "1402076,95" }
  ],
  "recebimento_produtos": [
 
@@ -38,15 +38,15 @@
   {"numero_pedido":"698840 ", "emissao_pv": "29/06/2026 ", "vlr_total_produtos": "1445 ", "margem": "30,02 ", "nome_cliente": "CIRURGICA POTENZA ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"698878 ", "emissao_pv": "29/06/2026 ", "vlr_total_produtos": "11080 ", "margem": "30,12 ", "nome_cliente": "INFINITA COM SERV ", "uf_cliente": "SE ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"698910 ", "emissao_pv": "29/06/2026 ", "vlr_total_produtos": "11634,82 ", "margem": "31,93 ", "nome_cliente": "DISTRIBUIDORA VALE D ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "NEOLANDI SANTOS ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"698926 ", "emissao_pv": "29/06/2026 ", "vlr_total_produtos": "2054,85 ", "margem": "0 ", "nome_cliente": "ECOR LABORATORIO ", "uf_cliente": "BA ", "tipo_cliente": "CONS.FINAL ","vendedor": "E-COMMERCE ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"698928 ", "emissao_pv": "30/06/2026 ", "vlr_total_produtos": "6875 ", "margem": "12,53 ", "nome_cliente": "DIMEDIC COMERCIAL HO ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"698930 ", "emissao_pv": "30/06/2026 ", "vlr_total_produtos": "1493,04 ", "margem": "39,65 ", "nome_cliente": "CEMED ", "uf_cliente": "TO ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"698948 ", "emissao_pv": "30/06/2026 ", "vlr_total_produtos": "17994 ", "margem": "48,93 ", "nome_cliente": "DENTAL PEGASUS LTDA ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"698964 ", "emissao_pv": "30/06/2026 ", "vlr_total_produtos": "1100 ", "margem": "23,89 ", "nome_cliente": "ATLAS DIAGNOSTICA ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"698966 ", "emissao_pv": "30/06/2026 ", "vlr_total_produtos": "51000 ", "margem": "0,37 ", "nome_cliente": "MAEVE HOSPITALAR ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. SUPREMO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"698986 ", "emissao_pv": "30/06/2026 ", "vlr_total_produtos": "2535 ", "margem": "13,42 ", "nome_cliente": "HYM COMERCIO DE MEDI ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. ML DANTE ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"698992 ", "emissao_pv": "30/06/2026 ", "vlr_total_produtos": "840 ", "margem": "35,66 ", "nome_cliente": "ANJOS DE RUA ", "uf_cliente": "AM ", "tipo_cliente": "CONS.FINAL ","vendedor": "REP. TURCATO ", "ultimo_status": "Alvará Sanitário" }
-
+  {"numero_pedido":"698992 ", "emissao_pv": "30/06/2026 ", "vlr_total_produtos": "840 ", "margem": "35,66 ", "nome_cliente": "ANJOS DE RUA ", "uf_cliente": "AM ", "tipo_cliente": "CONS.FINAL ","vendedor": "REP. TURCATO ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"698998 ", "emissao_pv": "30/06/2026 ", "vlr_total_produtos": "1287,9 ", "margem": "26,43 ", "nome_cliente": "FARMEDI DISTRIBUIDOR ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"699010 ", "emissao_pv": "30/06/2026 ", "vlr_total_produtos": "14154,6 ", "margem": "26,35 ", "nome_cliente": "MEGAMED ", "uf_cliente": "PE ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"699016 ", "emissao_pv": "30/06/2026 ", "vlr_total_produtos": "32203 ", "margem": "27,15 ", "nome_cliente": "METHABIO FARMACEUTIC ", "uf_cliente": "DF ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" }
 
 
 
