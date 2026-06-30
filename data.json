@@ -1,18 +1,18 @@
 {
-  "updated_at": "29/06/2026 19:22",
+  "updated_at": "30/06/2026 09:27",
   "kpis": {
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 1, "valor": "35,26" },
-    { "status": "Alvará Sanitário", "quantidade": 0, "valor": "0" },
+    { "status": "Alvará Sanitário", "quantidade": 2, "valor": "3547,89" },
     { "status": "Bloqueado por regra", "quantidade": 0, "valor": "0" },
-    { "status": "Análise de Crédito", "quantidade": 12, "valor": "59703,94" },
-    { "status": "Total em Disputa", "quantidade": 13, "valor": "59739,2" },
-    { "status": "Aguard. Envio Separação", "quantidade": 0, "valor": "0" },
+    { "status": "Análise de Crédito", "quantidade": 13, "valor": "66578,94" },
+    { "status": "Total em Disputa", "quantidade": 16, "valor": "70162,09" },
+    { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "32,8" },
     { "status": "Em Separação", "quantidade": 0, "valor": "0" },
     { "status": "Separado", "quantidade": 0, "valor": "0" },
-    { "status": "Faturado", "quantidade": 75, "valor": "619118,59" },
-    { "status": "Total", "quantidade": 75, "valor": "619151,39" }
+    { "status": "Faturado", "quantidade": 0, "valor": "0" },
+    { "status": "Total", "quantidade": 1, "valor": "32,8" }
  ],
  "recebimento_produtos": [
 
@@ -44,10 +44,10 @@
   {"numero_pedido":"698878 ", "emissao_pv": "29/06/2026 ", "vlr_total_produtos": "11080 ", "margem": "30,12 ", "nome_cliente": "INFINITA COM SERV ", "uf_cliente": "SE ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"698898 ", "emissao_pv": "29/06/2026 ", "vlr_total_produtos": "2142,5 ", "margem": "25,6 ", "nome_cliente": "CLI LAB ", "uf_cliente": "BA ", "tipo_cliente": "CONS.FINAL ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"698904 ", "emissao_pv": "29/06/2026 ", "vlr_total_produtos": "2264 ", "margem": "35,75 ", "nome_cliente": "JOGG DISTRIBUIDORA L ", "uf_cliente": "ES ", "tipo_cliente": "REVENDEDOR ","vendedor": "NEOLANDI SANTOS ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"698910 ", "emissao_pv": "29/06/2026 ", "vlr_total_produtos": "11634,82 ", "margem": "31,93 ", "nome_cliente": "DISTRIBUIDORA VALE D ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "NEOLANDI SANTOS ", "ultimo_status": "Análise de Crédito" }
-
-
-
+  {"numero_pedido":"698910 ", "emissao_pv": "29/06/2026 ", "vlr_total_produtos": "11634,82 ", "margem": "31,93 ", "nome_cliente": "DISTRIBUIDORA VALE D ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "NEOLANDI SANTOS ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"698926 ", "emissao_pv": "29/06/2026 ", "vlr_total_produtos": "2054,85 ", "margem": "0 ", "nome_cliente": "ECOR LABORATORIO ", "uf_cliente": "BA ", "tipo_cliente": "CONS.FINAL ","vendedor": "E-COMMERCE ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"698928 ", "emissao_pv": "30/06/2026 ", "vlr_total_produtos": "6875 ", "margem": "12,53 ", "nome_cliente": "DIMEDIC COMERCIAL HO ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"698930 ", "emissao_pv": "30/06/2026 ", "vlr_total_produtos": "1493,04 ", "margem": "39,65 ", "nome_cliente": "CEMED ", "uf_cliente": "TO ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Alvará Sanitário" }
 
 
 
@@ -83,17 +83,17 @@
   "performance_gerencial": {
     "mes_atual": {
      "periodo": "junho/2026",
-     "frete_pago": "573607,88",
-     "faturamento": "12156561,42",
-     "frete_repassado": "456841,6",
-     "entrega_realizada": "1343",
-     "entrega_no_prazo": "1275",
-     "qtd_notas_fiscais": "1841",
-     "entrega_fora_prazo": "70"
+     "frete_pago": "652131,65",
+     "faturamento": "13805217,86",
+     "frete_repassado": "470621",
+     "entrega_realizada": "1397",
+     "entrega_no_prazo": "1330",
+     "qtd_notas_fiscais": "1915",
+     "entrega_fora_prazo": "68"
 },
   "mes_anterior": {
      "periodo": "maio/2026",
-     "entrega_realizada": "1918",
+     "entrega_realizada": "1920",
      "entrega_no_prazo": "1823"
   }
 },
@@ -106,21 +106,15 @@
 
 
 "estoque": {
-  "ocupacao_total_armazem": 51.14,
-  "ocupacao_operacional": 54.28,
+  "ocupacao_total_armazem": 50.87,
+  "ocupacao_operacional": 53.93,
   "areas": [
-    { "nome": "Picking", "taxa": 79.31},
-    { "nome": "Pulmão de Abastecimento", "taxa": 49.68},
-    { "nome": "Flowrack", "taxa": 41.85},
+    { "nome": "Picking", "taxa": 78.85},
+    { "nome": "Pulmão de Abastecimento", "taxa": 49.35},
+    { "nome": "Flowrack", "taxa": 42.11},
     { "nome": "Área de Qualidade", "taxa": 18.84},
     { "nome": "Área de Amostra", "taxa": 0.00},
     { "nome": "Área de Avarias", "taxa": 37.21}
 ]
-
-},
-     "na_rota_da_meta": {
-     "meta": 2459081.38,
-     "faturamento_atual": 0,
-     "faturamento_previsto": 619151.39
-  }
+}
 }
