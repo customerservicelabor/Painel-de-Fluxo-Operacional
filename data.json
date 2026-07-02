@@ -1,18 +1,18 @@
 {
-  "updated_at": "02/07/2026 10:19",
+  "updated_at": "02/07/2026 12:46",
   "kpis": {
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 1, "valor": "2,3" },
-    { "status": "Alvará Sanitário", "quantidade": 8, "valor": "38149,02" },
-    { "status": "Bloqueado por regra", "quantidade": 0, "valor": "0" },
-    { "status": "Análise de Crédito", "quantidade": 18, "valor": "149904,88" },
-    { "status": "Total em Disputa", "quantidade": 27, "valor": "188056,2" },
+    { "status": "Alvará Sanitário", "quantidade": 7, "valor": "40293,23" },
+    { "status": "Bloqueado por regra", "quantidade": 1, "valor": "1495,5" },
+    { "status": "Análise de Crédito", "quantidade": 14, "valor": "127796,87" },
+    { "status": "Total em Disputa", "quantidade": 23, "valor": "169587,9" },
     { "status": "Aguard. Envio Separação", "quantidade": 0, "valor": "0" },
-    { "status": "Em Separação", "quantidade": 4, "valor": "17018,84" },
-    { "status": "Separado", "quantidade": 2, "valor": "3990,4" },
-    { "status": "Faturado", "quantidade": 0, "valor": "0" },
-    { "status": "Total", "quantidade": 6, "valor": "21009,24" }
+    { "status": "Em Separação", "quantidade": 8, "valor": "90995,06" },
+    { "status": "Separado", "quantidade": 14, "valor": "59434,74" },
+    { "status": "Faturado", "quantidade": 10, "valor": "24281,22" },
+    { "status": "Total", "quantidade": 32, "valor": "174711,02" }
  ],
  "recebimento_produtos": [
 
@@ -42,23 +42,23 @@
   {"numero_pedido":"698930 ", "emissao_pv": "30/06/2026 ", "vlr_total_produtos": "1493,04 ", "margem": "39,65 ", "nome_cliente": "CEMED ", "uf_cliente": "TO ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"698966 ", "emissao_pv": "30/06/2026 ", "vlr_total_produtos": "51000 ", "margem": "0,37 ", "nome_cliente": "MAEVE HOSPITALAR ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. SUPREMO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"698992 ", "emissao_pv": "30/06/2026 ", "vlr_total_produtos": "840 ", "margem": "35,66 ", "nome_cliente": "ANJOS DE RUA ", "uf_cliente": "AM ", "tipo_cliente": "CONS.FINAL ","vendedor": "REP. TURCATO ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"699030 ", "emissao_pv": "30/06/2026 ", "vlr_total_produtos": "6067,2 ", "margem": "31,6 ", "nome_cliente": "LABLUZ ", "uf_cliente": "CE ", "tipo_cliente": "CONS.FINAL ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"699104 ", "emissao_pv": "01/07/2026 ", "vlr_total_produtos": "801 ", "margem": "22,32 ", "nome_cliente": "DISTRIBUIDORA EXCELE ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "LUCIA FLORESTA ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"699112 ", "emissao_pv": "01/07/2026 ", "vlr_total_produtos": "13277,6 ", "margem": "19,72 ", "nome_cliente": "FARMABES ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"699130 ", "emissao_pv": "01/07/2026 ", "vlr_total_produtos": "1163,48 ", "margem": "27,8 ", "nome_cliente": "CLIMEPS ", "uf_cliente": "BA ", "tipo_cliente": "CONS.FINAL ","vendedor": "ERICA BARNES ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"699134 ", "emissao_pv": "01/07/2026 ", "vlr_total_produtos": "20712,6 ", "margem": "31,28 ", "nome_cliente": "PRONTOLAB COMERCIO P ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"699138 ", "emissao_pv": "01/07/2026 ", "vlr_total_produtos": "5648,36 ", "margem": "29,07 ", "nome_cliente": "CASA DE SAUDE SAO JO ", "uf_cliente": "RJ ", "tipo_cliente": "CONS.FINAL ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"699154 ", "emissao_pv": "01/07/2026 ", "vlr_total_produtos": "3850 ", "margem": "41,93 ", "nome_cliente": "MEGAMED ", "uf_cliente": "PE ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"699187 ", "emissao_pv": "01/07/2026 ", "vlr_total_produtos": "1486,4 ", "margem": "22,91 ", "nome_cliente": "HOSPCARE UTILIDADES ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "LUCIA FLORESTA ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"699196 ", "emissao_pv": "01/07/2026 ", "vlr_total_produtos": "816 ", "margem": "29,67 ", "nome_cliente": "BOAZ SAUDE E SEGURAN ", "uf_cliente": "RS ", "tipo_cliente": "REVENDEDOR ","vendedor": "NEOLANDI SANTOS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"699202 ", "emissao_pv": "01/07/2026 ", "vlr_total_produtos": "2890,3 ", "margem": "20,18 ", "nome_cliente": "LUIS CARLOS SILVA SO ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"699210 ", "emissao_pv": "02/07/2026 ", "vlr_total_produtos": "9180 ", "margem": "46,14 ", "nome_cliente": "FJS DISTRIBUIDORA DE ", "uf_cliente": "PE ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. ANDREOLI ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"699211 ", "emissao_pv": "02/07/2026 ", "vlr_total_produtos": "3607,5 ", "margem": "39,71 ", "nome_cliente": "LAB PAT CLINICA DR G ", "uf_cliente": "CE ", "tipo_cliente": "CONS.FINAL ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"699214 ", "emissao_pv": "02/07/2026 ", "vlr_total_produtos": "13103,98 ", "margem": "39,8 ", "nome_cliente": "4 UNIDOS COMERCIO ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"699217 ", "emissao_pv": "02/07/2026 ", "vlr_total_produtos": "2860,97 ", "margem": "21,22 ", "nome_cliente": "RD PHARMA LTDA ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. CAREMED ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"699222 ", "emissao_pv": "02/07/2026 ", "vlr_total_produtos": "7330 ", "margem": "31,35 ", "nome_cliente": "DNA CENTER S S LTDA ", "uf_cliente": "RN ", "tipo_cliente": "CONS.FINAL ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"699210 ", "emissao_pv": "02/07/2026 ", "vlr_total_produtos": "9180 ", "margem": "46,14 ", "nome_cliente": "FJS DISTRIBUIDORA DE ", "uf_cliente": "PE ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. ANDREOLI ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"699223 ", "emissao_pv": "02/07/2026 ", "vlr_total_produtos": "803,11 ", "margem": "39,56 ", "nome_cliente": "LIFE LINE MEDICAL CO ", "uf_cliente": "MS ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"699225 ", "emissao_pv": "02/07/2026 ", "vlr_total_produtos": "4061,79 ", "margem": "29,67 ", "nome_cliente": "LUGMED ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Alvará Sanitário" }
+  {"numero_pedido":"699248 ", "emissao_pv": "02/07/2026 ", "vlr_total_produtos": "8769,6 ", "margem": "34,61 ", "nome_cliente": "LABORATORIO PARANAEN ", "uf_cliente": "PR ", "tipo_cliente": "CONS.FINAL ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"699254 ", "emissao_pv": "02/07/2026 ", "vlr_total_produtos": "13946,4 ", "margem": "32,77 ", "nome_cliente": "INOVA MED PRODUTOS H ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Alvará Sanitário" }
+
+
+
+
+
 
 
 
@@ -83,18 +83,18 @@
   "performance_gerencial": {
     "mes_atual": {
      "periodo": "julho/2026",
-     "frete_pago": "9374,86",
-     "faturamento": "232082,71",
-     "frete_repassado": "14796,73",
-     "entrega_realizada": "2",
-     "entrega_no_prazo": "1",
-     "qtd_notas_fiscais": "73",
+     "frete_pago": "26045,72",
+     "faturamento": "569147,37",
+     "frete_repassado": "19477,81",
+     "entrega_realizada": "4",
+     "entrega_no_prazo": "3",
+     "qtd_notas_fiscais": "122",
      "entrega_fora_prazo": "0"
 },
   "mes_anterior": {
      "periodo": "junho/2026",
-     "entrega_realizada": "1535",
-     "entrega_no_prazo": "1463"
+     "entrega_realizada": "1622",
+     "entrega_no_prazo": "1542"
   }
 },
   "expedicao": {
