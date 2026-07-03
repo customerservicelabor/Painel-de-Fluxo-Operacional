@@ -1,18 +1,18 @@
 {
-  "updated_at": "03/07/2026 13:05",
+  "updated_at": "03/07/2026 13:53",
   "kpis": {
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 4, "valor": "102,7" },
+    { "status": "Aguardando Liberação", "quantidade": 5, "valor": "2302,7" },
     { "status": "Alvará Sanitário", "quantidade": 7, "valor": "10976,65" },
-    { "status": "Bloqueado por regra", "quantidade": 2, "valor": "5159,23" },
-    { "status": "Análise de Crédito", "quantidade": 9, "valor": "93668,69" },
-    { "status": "Total em Disputa", "quantidade": 22, "valor": "109907,27" },
+    { "status": "Bloqueado por regra", "quantidade": 1, "valor": "354,23" },
+    { "status": "Análise de Crédito", "quantidade": 9, "valor": "91000,89" },
+    { "status": "Total em Disputa", "quantidade": 22, "valor": "104634,47" },
     { "status": "Aguard. Envio Separação", "quantidade": 0, "valor": "0" },
-    { "status": "Em Separação", "quantidade": 11, "valor": "28383,17" },
-    { "status": "Separado", "quantidade": 7, "valor": "30504,72" },
-    { "status": "Faturado", "quantidade": 13, "valor": "50348,09" },
-    { "status": "Total", "quantidade": 31, "valor": "109235,98" }
+    { "status": "Em Separação", "quantidade": 15, "valor": "41427,72" },
+    { "status": "Separado", "quantidade": 1, "valor": "331,62" },
+    { "status": "Faturado", "quantidade": 20, "valor": "82799,19" },
+    { "status": "Total", "quantidade": 36, "valor": "124558,53" }
  ],
  "recebimento_produtos": [
 
@@ -46,9 +46,9 @@
   {"numero_pedido":"699338 ", "emissao_pv": "02/07/2026 ", "vlr_total_produtos": "1067,09 ", "margem": "0 ", "nome_cliente": "LESSIE ANALISES VETE ", "uf_cliente": "SC ", "tipo_cliente": "CONS.FINAL ","vendedor": "E-COMMERCE ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"699362 ", "emissao_pv": "03/07/2026 ", "vlr_total_produtos": "3320 ", "margem": "53,82 ", "nome_cliente": "SHOPPING DA SAUDE ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. CA BENTO ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"699365 ", "emissao_pv": "03/07/2026 ", "vlr_total_produtos": "2551,5 ", "margem": "25,1 ", "nome_cliente": "DIAGNOSTICA CAMPINAS ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. ML DANTE ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"699370 ", "emissao_pv": "03/07/2026 ", "vlr_total_produtos": "7443 ", "margem": "31,12 ", "nome_cliente": "BIOTECH SAUDE INTEGR ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"699386 ", "emissao_pv": "03/07/2026 ", "vlr_total_produtos": "1285 ", "margem": "46,45 ", "nome_cliente": "EXCELLENCE MEDICAL ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"699390 ", "emissao_pv": "03/07/2026 ", "vlr_total_produtos": "805,52 ", "margem": "22,57 ", "nome_cliente": "HEMOLABORVET ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOELMA NUNES ", "ultimo_status": "Alvará Sanitário" }
+  {"numero_pedido":"699390 ", "emissao_pv": "03/07/2026 ", "vlr_total_produtos": "805,52 ", "margem": "22,57 ", "nome_cliente": "HEMOLABORVET ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOELMA NUNES ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"699405 ", "emissao_pv": "03/07/2026 ", "vlr_total_produtos": "4775,2 ", "margem": "28,89 ", "nome_cliente": "SOLUTE MEDICAL ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" }
 
 
 
