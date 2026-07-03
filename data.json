@@ -1,18 +1,18 @@
 {
-  "updated_at": "02/07/2026 16:33",
+  "updated_at": "03/07/2026 08:22",
   "kpis": {
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 3, "valor": "19,2" },
-    { "status": "Alvará Sanitário", "quantidade": 7, "valor": "29692,11" },
-    { "status": "Bloqueado por regra", "quantidade": 0, "valor": "0" },
-    { "status": "Análise de Crédito", "quantidade": 8, "valor": "94338,6" },
-    { "status": "Total em Disputa", "quantidade": 18, "valor": "124049,91" },
+    { "status": "Aguardando Liberação", "quantidade": 2, "valor": "9,2" },
+    { "status": "Alvará Sanitário", "quantidade": 8, "valor": "31651,61" },
+    { "status": "Bloqueado por regra", "quantidade": 1, "valor": "354,23" },
+    { "status": "Análise de Crédito", "quantidade": 8, "valor": "88790,69" },
+    { "status": "Total em Disputa", "quantidade": 19, "valor": "120805,73" },
     { "status": "Aguard. Envio Separação", "quantidade": 0, "valor": "0" },
-    { "status": "Em Separação", "quantidade": 6, "valor": "29081,4" },
-    { "status": "Separado", "quantidade": 0, "valor": "0" },
-    { "status": "Faturado", "quantidade": 47, "valor": "252717,31" },
-    { "status": "Total", "quantidade": 53, "valor": "281798,71" }
+    { "status": "Em Separação", "quantidade": 1, "valor": "7821" },
+    { "status": "Separado", "quantidade": 1, "valor": "7132,9" },
+    { "status": "Faturado", "quantidade": 0, "valor": "0" },
+    { "status": "Total", "quantidade": 2, "valor": "14953,9" }
  ],
  "recebimento_produtos": [
 
@@ -47,8 +47,8 @@
   {"numero_pedido":"699248 ", "emissao_pv": "02/07/2026 ", "vlr_total_produtos": "8769,6 ", "margem": "34,61 ", "nome_cliente": "LABORATORIO PARANAEN ", "uf_cliente": "PR ", "tipo_cliente": "CONS.FINAL ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"699283 ", "emissao_pv": "02/07/2026 ", "vlr_total_produtos": "3040 ", "margem": "27,47 ", "nome_cliente": "IVDLAB PRODUTOS PARA ", "uf_cliente": "RS ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"699296 ", "emissao_pv": "02/07/2026 ", "vlr_total_produtos": "3345,28 ", "margem": "21,24 ", "nome_cliente": "CEDILA CENTRO DE DIA ", "uf_cliente": "PE ", "tipo_cliente": "CONS.FINAL ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"699305 ", "emissao_pv": "02/07/2026 ", "vlr_total_produtos": "6615 ", "margem": "26,72 ", "nome_cliente": "BRM COMERCIO E SERVI ", "uf_cliente": "AM ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" }
-
+  {"numero_pedido":"699318 ", "emissao_pv": "02/07/2026 ", "vlr_total_produtos": "1959,5 ", "margem": "43,83 ", "nome_cliente": "CEDIM CENTRAL DISTRI ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"699338 ", "emissao_pv": "02/07/2026 ", "vlr_total_produtos": "1067,09 ", "margem": "0 ", "nome_cliente": "LESSIE ANALISES VETE ", "uf_cliente": "SC ", "tipo_cliente": "CONS.FINAL ","vendedor": "E-COMMERCE ", "ultimo_status": "Análise de Crédito" }
 
 
 
@@ -83,18 +83,18 @@
   "performance_gerencial": {
     "mes_atual": {
      "periodo": "julho/2026",
-     "frete_pago": "26045,72",
-     "faturamento": "569147,37",
-     "frete_repassado": "19477,81",
-     "entrega_realizada": "4",
-     "entrega_no_prazo": "3",
-     "qtd_notas_fiscais": "122",
+     "frete_pago": "32337,62",
+     "faturamento": "760666,12",
+     "frete_repassado": "26130,1",
+     "entrega_realizada": "6",
+     "entrega_no_prazo": "5",
+     "qtd_notas_fiscais": "170",
      "entrega_fora_prazo": "0"
 },
   "mes_anterior": {
      "periodo": "junho/2026",
-     "entrega_realizada": "1622",
-     "entrega_no_prazo": "1542"
+     "entrega_realizada": "1679",
+     "entrega_no_prazo": "1597"
   }
 },
   "expedicao": {
@@ -106,12 +106,12 @@
 
 
 "estoque": {
-  "ocupacao_total_armazem": 50.13,
-  "ocupacao_operacional": 53.14,
+  "ocupacao_total_armazem": 52.29,
+  "ocupacao_operacional": 55.67,
   "areas": [
-    { "nome": "Picking", "taxa": 78.39},
-    { "nome": "Pulmão de Abastecimento", "taxa": 48.50},
-    { "nome": "Flowrack", "taxa": 41.35},
+    { "nome": "Picking", "taxa": 79.54},
+    { "nome": "Pulmão de Abastecimento", "taxa": 51.29},
+    { "nome": "Flowrack", "taxa": 41.85},
     { "nome": "Área de Qualidade", "taxa": 18.84},
     { "nome": "Área de Amostra", "taxa": 0.00},
     { "nome": "Área de Avarias", "taxa": 37.21}
