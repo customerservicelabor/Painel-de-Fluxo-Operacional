@@ -1,18 +1,18 @@
 {
-  "updated_at": "08/07/2026 08:19",
+  "updated_at": "08/07/2026 09:57",
   "kpis": {
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 3, "valor": "3700,7" },
-    { "status": "Alvará Sanitário", "quantidade": 8, "valor": "41633,92" },
+    { "status": "Aguardando Liberação", "quantidade": 17, "valor": "77745,56" },
+    { "status": "Alvará Sanitário", "quantidade": 6, "valor": "30728,92" },
     { "status": "Bloqueado por regra", "quantidade": 3, "valor": "3591,55" },
-    { "status": "Análise de Crédito", "quantidade": 20, "valor": "224454,94" },
-    { "status": "Total em Disputa", "quantidade": 34, "valor": "273381,11" },
-    { "status": "Aguard. Envio Separação", "quantidade": 4, "valor": "27570,31" },
-    { "status": "Em Separação", "quantidade": 17, "valor": "127187,62" },
+    { "status": "Análise de Crédito", "quantidade": 18, "valor": "189727,79" },
+    { "status": "Total em Disputa", "quantidade": 44, "valor": "301793,82" },
+    { "status": "Aguard. Envio Separação", "quantidade": 3, "valor": "3972,53" },
+    { "status": "Em Separação", "quantidade": 19, "valor": "169275,4" },
     { "status": "Separado", "quantidade": 1, "valor": "13105,62" },
     { "status": "Faturado", "quantidade": 0, "valor": "0" },
-    { "status": "Total", "quantidade": 22, "valor": "167863,55" }
+    { "status": "Total", "quantidade": 23, "valor": "186353,55" }
  ],
  "recebimento_produtos": [
 
@@ -48,19 +48,19 @@
   {"numero_pedido":"699814 ", "emissao_pv": "07/07/2026 ", "vlr_total_produtos": "7470 ", "margem": "15,07 ", "nome_cliente": "TECH PROL ", "uf_cliente": "RN ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"699835 ", "emissao_pv": "07/07/2026 ", "vlr_total_produtos": "6236,8 ", "margem": "25,64 ", "nome_cliente": "ANA ARISSA ANTAO BEZ ", "uf_cliente": "PI ", "tipo_cliente": "CONS.FINAL ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"699849 ", "emissao_pv": "07/07/2026 ", "vlr_total_produtos": "65700 ", "margem": "34,44 ", "nome_cliente": "SENSORIA SAUD DISTRI ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"699871 ", "emissao_pv": "07/07/2026 ", "vlr_total_produtos": "16237,15 ", "margem": "25,4 ", "nome_cliente": "A  SEABRA ARAUJO ", "uf_cliente": "MA ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"699883 ", "emissao_pv": "07/07/2026 ", "vlr_total_produtos": "5646,9 ", "margem": "55,1 ", "nome_cliente": "MEDICAL SHOPPING LTD ", "uf_cliente": "AP ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"699888 ", "emissao_pv": "07/07/2026 ", "vlr_total_produtos": "18490 ", "margem": "40,46 ", "nome_cliente": "AR DISTRIBUIDORA HOS ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. CA BENTO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"699898 ", "emissao_pv": "07/07/2026 ", "vlr_total_produtos": "1152,6 ", "margem": "31,72 ", "nome_cliente": "QUALITY MEDIC ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"699919 ", "emissao_pv": "07/07/2026 ", "vlr_total_produtos": "10926 ", "margem": "27,78 ", "nome_cliente": "IRMANDADE SANTA CASA ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"699921 ", "emissao_pv": "07/07/2026 ", "vlr_total_produtos": "14200 ", "margem": "32,29 ", "nome_cliente": "MEDMACH ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"699941 ", "emissao_pv": "07/07/2026 ", "vlr_total_produtos": "30200 ", "margem": "12,8 ", "nome_cliente": "MASTERMED  PRODUTOS ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"699949 ", "emissao_pv": "07/07/2026 ", "vlr_total_produtos": "1431,02 ", "margem": "35,99 ", "nome_cliente": "ISABELLA PARDINI COM ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. FENIX (SC) ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"699959 ", "emissao_pv": "07/07/2026 ", "vlr_total_produtos": "1749,25 ", "margem": "47,08 ", "nome_cliente": "FARMACIA ROBUSTA ", "uf_cliente": "ES ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"699963 ", "emissao_pv": "07/07/2026 ", "vlr_total_produtos": "5915 ", "margem": "32,01 ", "nome_cliente": "LAB PRETTI  -FLEURY ", "uf_cliente": "ES ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOAO NETO ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"699969 ", "emissao_pv": "07/07/2026 ", "vlr_total_produtos": "8205 ", "margem": "29,81 ", "nome_cliente": "SALUTAR COMERCIO MOV ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"699971 ", "emissao_pv": "07/07/2026 ", "vlr_total_produtos": "7714,7 ", "margem": "27,23 ", "nome_cliente": "CIRURGICA NOSSA SENH ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "ALEXANDRA RIBEIRO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"699973 ", "emissao_pv": "07/07/2026 ", "vlr_total_produtos": "4990 ", "margem": "31,73 ", "nome_cliente": "D MINAS ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOAO NETO ", "ultimo_status": "Alvará Sanitário" }
+  {"numero_pedido":"699971 ", "emissao_pv": "07/07/2026 ", "vlr_total_produtos": "7714,7 ", "margem": "27,23 ", "nome_cliente": "CIRURGICA NOSSA SENH ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "ALEXANDRA RIBEIRO ", "ultimo_status": "Análise de Crédito" }
+
+
+
+
 
 
 
