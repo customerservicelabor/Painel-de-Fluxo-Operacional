@@ -1,18 +1,18 @@
 {
-  "updated_at": "09/07/2026 17:08",
+  "updated_at": "09/07/2026 17:25",
   "kpis": {
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 3, "valor": "8540,5" },
+    { "status": "Aguardando Liberação", "quantidade": 3, "valor": "41127" },
     { "status": "Alvará Sanitário", "quantidade": 9, "valor": "30641,97" },
     { "status": "Bloqueado por regra", "quantidade": 2, "valor": "3237,32" },
-    { "status": "Análise de Crédito", "quantidade": 10, "valor": "135697,07" },
-    { "status": "Total em Disputa", "quantidade": 24, "valor": "178116,86" },
+    { "status": "Análise de Crédito", "quantidade": 11, "valor": "136560,57" },
+    { "status": "Total em Disputa", "quantidade": 25, "valor": "211566,86" },
     { "status": "Aguard. Envio Separação", "quantidade": 30, "valor": "211342,24" },
-    { "status": "Em Separação", "quantidade": 17, "valor": "129744,64" },
-    { "status": "Separado", "quantidade": 8, "valor": "66489,73" },
+    { "status": "Em Separação", "quantidade": 14, "valor": "124002,1" },
+    { "status": "Separado", "quantidade": 12, "valor": "76756,27" },
     { "status": "Faturado", "quantidade": 59, "valor": "208174,15" },
-    { "status": "Total", "quantidade": 114, "valor": "615750,76" }
+    { "status": "Total", "quantidade": 115, "valor": "620274,76" }
  ],
  "recebimento_produtos": [
 
@@ -51,8 +51,8 @@
   {"numero_pedido":"700259 ", "emissao_pv": "09/07/2026 ", "vlr_total_produtos": "9206,91 ", "margem": "38,84 ", "nome_cliente": "CENTRO DIAGNOSTICO M ", "uf_cliente": "PE ", "tipo_cliente": "CONS.FINAL ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"700265 ", "emissao_pv": "09/07/2026 ", "vlr_total_produtos": "1197,55 ", "margem": "42,26 ", "nome_cliente": "MEDSER HOSPITALAR ", "uf_cliente": "MT ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"700271 ", "emissao_pv": "09/07/2026 ", "vlr_total_produtos": "807,28 ", "margem": "23,78 ", "nome_cliente": "ALL CLEAN EMBALAGENS ", "uf_cliente": "MT ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"700277 ", "emissao_pv": "09/07/2026 ", "vlr_total_produtos": "2529,1 ", "margem": "31,98 ", "nome_cliente": "MELO DINIZ MEDICAMEN ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" }
-
+  {"numero_pedido":"700277 ", "emissao_pv": "09/07/2026 ", "vlr_total_produtos": "2529,1 ", "margem": "31,98 ", "nome_cliente": "MELO DINIZ MEDICAMEN ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"700279 ", "emissao_pv": "09/07/2026 ", "vlr_total_produtos": "863,5 ", "margem": "41,33 ", "nome_cliente": "NOVA DENTAL ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "LUCIA FLORESTA ", "ultimo_status": "Análise de Crédito" }
 
 
 
