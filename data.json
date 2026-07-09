@@ -1,18 +1,18 @@
 {
-  "updated_at": "09/07/2026 15:51",
+  "updated_at": "09/07/2026 17:08",
   "kpis": {
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 2, "valor": "7677" },
-    { "status": "Alvará Sanitário", "quantidade": 8, "valor": "29834,69" },
+    { "status": "Aguardando Liberação", "quantidade": 3, "valor": "8540,5" },
+    { "status": "Alvará Sanitário", "quantidade": 9, "valor": "30641,97" },
     { "status": "Bloqueado por regra", "quantidade": 2, "valor": "3237,32" },
-    { "status": "Análise de Crédito", "quantidade": 10, "valor": "141370,12" },
-    { "status": "Total em Disputa", "quantidade": 22, "valor": "182119,13" },
-    { "status": "Aguard. Envio Separação", "quantidade": 33, "valor": "257474,98" },
-    { "status": "Em Separação", "quantidade": 24, "valor": "167399,43" },
-    { "status": "Separado", "quantidade": 4, "valor": "10491,09" },
-    { "status": "Faturado", "quantidade": 48, "valor": "166783,92" },
-    { "status": "Total", "quantidade": 109, "valor": "602149,42" }
+    { "status": "Análise de Crédito", "quantidade": 10, "valor": "135697,07" },
+    { "status": "Total em Disputa", "quantidade": 24, "valor": "178116,86" },
+    { "status": "Aguard. Envio Separação", "quantidade": 30, "valor": "211342,24" },
+    { "status": "Em Separação", "quantidade": 17, "valor": "129744,64" },
+    { "status": "Separado", "quantidade": 8, "valor": "66489,73" },
+    { "status": "Faturado", "quantidade": 59, "valor": "208174,15" },
+    { "status": "Total", "quantidade": 114, "valor": "615750,76" }
  ],
  "recebimento_produtos": [
 
@@ -40,18 +40,18 @@
   {"numero_pedido":"699921 ", "emissao_pv": "07/07/2026 ", "vlr_total_produtos": "14200 ", "margem": "32,29 ", "nome_cliente": "MEDMACH ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"699941 ", "emissao_pv": "07/07/2026 ", "vlr_total_produtos": "30200 ", "margem": "12,8 ", "nome_cliente": "MASTERMED  PRODUTOS ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"700055 ", "emissao_pv": "08/07/2026 ", "vlr_total_produtos": "5989 ", "margem": "30,1 ", "nome_cliente": "PULSEMED HOSPITALAR ", "uf_cliente": "DF ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. SUPREMO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"700131 ", "emissao_pv": "08/07/2026 ", "vlr_total_produtos": "8477,2 ", "margem": "33,45 ", "nome_cliente": "CIRURGICA NOVO TEMPO ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"700141 ", "emissao_pv": "08/07/2026 ", "vlr_total_produtos": "2590 ", "margem": "34,01 ", "nome_cliente": "KFD PARTICIPACOES ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"700145 ", "emissao_pv": "08/07/2026 ", "vlr_total_produtos": "1903,46 ", "margem": "19,19 ", "nome_cliente": "ARACA PROLAB PRODUTO ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"700153 ", "emissao_pv": "08/07/2026 ", "vlr_total_produtos": "300 ", "margem": "0 ", "nome_cliente": "DOUTOR PARA TODOS ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "E-COMMERCE ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"700166 ", "emissao_pv": "09/07/2026 ", "vlr_total_produtos": "1606,52 ", "margem": "20,07 ", "nome_cliente": "HOSP DON ALVARENGA ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "ELISABETE MARTIM ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"700190 ", "emissao_pv": "09/07/2026 ", "vlr_total_produtos": "4232,8 ", "margem": "22,25 ", "nome_cliente": "ZILFARMA ", "uf_cliente": "MA ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. H.F ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"700230 ", "emissao_pv": "09/07/2026 ", "vlr_total_produtos": "922,5 ", "margem": "9 ", "nome_cliente": "B7 MEDICAL SUPPLIES ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "NEOLANDI SANTOS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"700242 ", "emissao_pv": "09/07/2026 ", "vlr_total_produtos": "1660 ", "margem": "50,36 ", "nome_cliente": "ZILFARMA ", "uf_cliente": "MA ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. H.F ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"700245 ", "emissao_pv": "09/07/2026 ", "vlr_total_produtos": "800 ", "margem": "25,85 ", "nome_cliente": "BIOMEGA ", "uf_cliente": "MG ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOAO NETO ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"700253 ", "emissao_pv": "09/07/2026 ", "vlr_total_produtos": "56750 ", "margem": "30,2 ", "nome_cliente": "MED CENTER COMERCIAL ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. CAREMED ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"700259 ", "emissao_pv": "09/07/2026 ", "vlr_total_produtos": "9206,91 ", "margem": "38,84 ", "nome_cliente": "CENTRO DIAGNOSTICO M ", "uf_cliente": "PE ", "tipo_cliente": "CONS.FINAL ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Alvará Sanitário" }
-
+  {"numero_pedido":"700259 ", "emissao_pv": "09/07/2026 ", "vlr_total_produtos": "9206,91 ", "margem": "38,84 ", "nome_cliente": "CENTRO DIAGNOSTICO M ", "uf_cliente": "PE ", "tipo_cliente": "CONS.FINAL ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"700265 ", "emissao_pv": "09/07/2026 ", "vlr_total_produtos": "1197,55 ", "margem": "42,26 ", "nome_cliente": "MEDSER HOSPITALAR ", "uf_cliente": "MT ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"700271 ", "emissao_pv": "09/07/2026 ", "vlr_total_produtos": "807,28 ", "margem": "23,78 ", "nome_cliente": "ALL CLEAN EMBALAGENS ", "uf_cliente": "MT ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"700277 ", "emissao_pv": "09/07/2026 ", "vlr_total_produtos": "2529,1 ", "margem": "31,98 ", "nome_cliente": "MELO DINIZ MEDICAMEN ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" }
 
 
 
@@ -83,18 +83,18 @@
   "performance_gerencial": {
     "mes_atual": {
      "periodo": "julho/2026",
-     "frete_pago": "123222,02",
-     "faturamento": "2560365,69",
-     "frete_repassado": "97683,29",
-     "entrega_realizada": "183",
-     "entrega_no_prazo": "181",
-     "qtd_notas_fiscais": "500",
+     "frete_pago": "139596,78",
+     "faturamento": "2918273,36",
+     "frete_repassado": "110041,84",
+     "entrega_realizada": "202",
+     "entrega_no_prazo": "200",
+     "qtd_notas_fiscais": "559",
      "entrega_fora_prazo": "2"
 },
   "mes_anterior": {
      "periodo": "junho/2026",
-     "entrega_realizada": "51",
-     "entrega_no_prazo": "49"
+     "entrega_realizada": "46",
+     "entrega_no_prazo": "44"
   }
 },
   "expedicao": {
