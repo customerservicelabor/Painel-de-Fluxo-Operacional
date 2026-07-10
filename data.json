@@ -1,18 +1,18 @@
 {
-  "updated_at": "10/07/2026 12:13",
+  "updated_at": "10/07/2026 13:47",
   "kpis": {
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 2, "valor": "5255,76" },
     { "status": "Alvará Sanitário", "quantidade": 9, "valor": "24735,03" },
     { "status": "Bloqueado por regra", "quantidade": 0, "valor": "0" },
-    { "status": "Análise de Crédito", "quantidade": 13, "valor": "178869,17" },
-    { "status": "Total em Disputa", "quantidade": 24, "valor": "208859,96" },
-    { "status": "Aguard. Envio Separação", "quantidade": 32, "valor": "250097,94" },
-    { "status": "Em Separação", "quantidade": 10, "valor": "133635,42" },
-    { "status": "Separado", "quantidade": 4, "valor": "21425,04" },
-    { "status": "Faturado", "quantidade": 14, "valor": "35325,86" },
-    { "status": "Total", "quantidade": 60, "valor": "440484,26" }
+    { "status": "Análise de Crédito", "quantidade": 14, "valor": "180559,17" },
+    { "status": "Total em Disputa", "quantidade": 25, "valor": "210549,96" },
+    { "status": "Aguard. Envio Separação", "quantidade": 30, "valor": "211342,24" },
+    { "status": "Em Separação", "quantidade": 4, "valor": "182465,65" },
+    { "status": "Separado", "quantidade": 4, "valor": "18397" },
+    { "status": "Faturado", "quantidade": 24, "valor": "71068,62" },
+    { "status": "Total", "quantidade": 62, "valor": "483273,51" }
  ],
  "recebimento_produtos": [
 
@@ -54,8 +54,8 @@
   {"numero_pedido":"700326 ", "emissao_pv": "10/07/2026 ", "vlr_total_produtos": "2238,1 ", "margem": "24,32 ", "nome_cliente": "DISTRIFARMA ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"700328 ", "emissao_pv": "10/07/2026 ", "vlr_total_produtos": "7872,5 ", "margem": "43,62 ", "nome_cliente": "LMS MEDICAL COMERCIO ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"700330 ", "emissao_pv": "10/07/2026 ", "vlr_total_produtos": "6694,2 ", "margem": "23,37 ", "nome_cliente": "C D I CENTRO DIAGNOS ", "uf_cliente": "PA ", "tipo_cliente": "CONS.FINAL ","vendedor": "ALEXANDRA RIBEIRO ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"700340 ", "emissao_pv": "10/07/2026 ", "vlr_total_produtos": "1163,28 ", "margem": "37,25 ", "nome_cliente": "EQUIPLON DISTRIBUIDO ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Alvará Sanitário" }
-
+  {"numero_pedido":"700340 ", "emissao_pv": "10/07/2026 ", "vlr_total_produtos": "1163,28 ", "margem": "37,25 ", "nome_cliente": "EQUIPLON DISTRIBUIDO ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"700358 ", "emissao_pv": "10/07/2026 ", "vlr_total_produtos": "1690 ", "margem": "14,55 ", "nome_cliente": "GLOBALMED ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOICE MENDES ", "ultimo_status": "Análise de Crédito" }
 
 
 
