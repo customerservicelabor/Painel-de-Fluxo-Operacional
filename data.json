@@ -1,5 +1,5 @@
 {
-  "updated_at": "14/07/2026 16:44",
+  "updated_at": "14/07/2026 16:51",
   "kpis": {
   },
   "pedidos_status": [
@@ -93,8 +93,8 @@
 },
   "mes_anterior": {
      "periodo": "junho/2026",
-     "entrega_realizada": "38",
-     "entrega_no_prazo": "35"
+     "entrega_realizada": "1941",
+     "entrega_no_prazo": "1834"
   }
 },
   "expedicao": {
