@@ -1,18 +1,18 @@
 {
-  "updated_at": "15/07/2026 17:35",
+  "updated_at": "16/07/2026 08:13",
   "kpis": {
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 2, "valor": "1026,85" },
-    { "status": "Alvará Sanitário", "quantidade": 3, "valor": "12104,66" },
-    { "status": "Bloqueado por regra", "quantidade": 1, "valor": "305,95" },
-    { "status": "Análise de Crédito", "quantidade": 17, "valor": "115321,66" },
-    { "status": "Total em Disputa", "quantidade": 23, "valor": "128759,12" },
-    { "status": "Aguard. Envio Separação", "quantidade": 31, "valor": "269944,96" },
-    { "status": "Em Separação", "quantidade": 33, "valor": "138431,71" },
-    { "status": "Separado", "quantidade": 12, "valor": "54297,26" },
-    { "status": "Faturado", "quantidade": 65, "valor": "370631,29" },
-    { "status": "Total", "quantidade": 141, "valor": "833305,22" }
+    { "status": "Alvará Sanitário", "quantidade": 0, "valor": "0" },
+    { "status": "Bloqueado por regra", "quantidade": 0, "valor": "0" },
+    { "status": "Análise de Crédito", "quantidade": 18, "valor": "132061,66" },
+    { "status": "Total em Disputa", "quantidade": 20, "valor": "133088,51" },
+    { "status": "Aguard. Envio Separação", "quantidade": 29, "valor": "209849,2" },
+    { "status": "Em Separação", "quantidade": 7, "valor": "35144,39" },
+    { "status": "Separado", "quantidade": 2, "valor": "6080,46" },
+    { "status": "Faturado", "quantidade": 0, "valor": "0" },
+    { "status": "Total", "quantidade": 38, "valor": "251074,05" }
  ],
  "recebimento_produtos": [
 
@@ -50,9 +50,9 @@
   {"numero_pedido":"701011 ", "emissao_pv": "15/07/2026 ", "vlr_total_produtos": "4224 ", "margem": "49,22 ", "nome_cliente": "BIO MEDICAL ", "uf_cliente": "DF ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"701086 ", "emissao_pv": "15/07/2026 ", "vlr_total_produtos": "7126,25 ", "margem": "25,57 ", "nome_cliente": "CIRURGICA ABREU LTDA ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"701090 ", "emissao_pv": "15/07/2026 ", "vlr_total_produtos": "10125 ", "margem": "21,92 ", "nome_cliente": "ROBERTO CORETTI ", "uf_cliente": "CE ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"701092 ", "emissao_pv": "15/07/2026 ", "vlr_total_produtos": "4453,4 ", "margem": "39,22 ", "nome_cliente": "LIBRALAB ", "uf_cliente": "SC ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"701102 ", "emissao_pv": "15/07/2026 ", "vlr_total_produtos": "1667 ", "margem": "25,1 ", "nome_cliente": "MIUA TANABE MOTT ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"701121 ", "emissao_pv": "15/07/2026 ", "vlr_total_produtos": "5984,26 ", "margem": "29,4 ", "nome_cliente": "LABORMED PRODUTOS ME ", "uf_cliente": "MT ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Alvará Sanitário" }
+  {"numero_pedido":"701131 ", "emissao_pv": "16/07/2026 ", "vlr_total_produtos": "16740 ", "margem": "26,73 ", "nome_cliente": "CRISMED COMERCIAL HO ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" }
+
+
 
 
 
@@ -83,18 +83,18 @@
   "performance_gerencial": {
     "mes_atual": {
      "periodo": "julho/2026",
-     "frete_pago": "234119,66",
-     "faturamento": "5567185,54",
-     "frete_repassado": "182514,89",
-     "entrega_realizada": "474",
-     "entrega_no_prazo": "468",
-     "qtd_notas_fiscais": "892",
-     "entrega_fora_prazo": "6"
+     "frete_pago": "438563,93",
+     "faturamento": "10591771,97",
+     "frete_repassado": "361760,83",
+     "entrega_realizada": "489",
+     "entrega_no_prazo": "481",
+     "qtd_notas_fiscais": "944",
+     "entrega_fora_prazo": "13"
 },
   "mes_anterior": {
      "periodo": "junho/2026",
-     "entrega_realizada": "1962",
-     "entrega_no_prazo": "1853"
+     "entrega_realizada": "1967",
+     "entrega_no_prazo": "1857"
   }
 },
   "expedicao": {
@@ -106,11 +106,11 @@
 
 
 "estoque": {
-  "ocupacao_total_armazem": 56.45,
-  "ocupacao_operacional": 60.59,
+  "ocupacao_total_armazem": 56.21,
+  "ocupacao_operacional": 60.30,
   "areas": [
-    { "nome": "Picking", "taxa": 78.89},
-    { "nome": "Pulmão de Abastecimento", "taxa": 57.26},
+    { "nome": "Picking", "taxa": 78.42},
+    { "nome": "Pulmão de Abastecimento", "taxa": 57.00},
     { "nome": "Flowrack", "taxa": 42.86},
     { "nome": "Área de Qualidade", "taxa": 18.12},
     { "nome": "Área de Amostra", "taxa": 0.00},
