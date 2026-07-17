@@ -1,18 +1,18 @@
 {
-  "updated_at": "17/07/2026 13:57",
+  "updated_at": "17/07/2026 16:54",
   "kpis": {
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 3, "valor": "3909,75" },
-    { "status": "Alvará Sanitário", "quantidade": 7, "valor": "44553,86" },
+    { "status": "Aguardando Liberação", "quantidade": 4, "valor": "9509,75" },
+    { "status": "Alvará Sanitário", "quantidade": 1, "valor": "1072,4" },
     { "status": "Bloqueado por regra", "quantidade": 2, "valor": "3370,97" },
-    { "status": "Análise de Crédito", "quantidade": 15, "valor": "156678,74" },
-    { "status": "Total em Disputa", "quantidade": 27, "valor": "208513,32" },
-    { "status": "Aguard. Envio Separação", "quantidade": 30, "valor": "215224,83" },
-    { "status": "Em Separação", "quantidade": 11, "valor": "36091,4" },
-    { "status": "Separado", "quantidade": 5, "valor": "13653,86" },
-    { "status": "Faturado", "quantidade": 22, "valor": "163591,81" },
-    { "status": "Total", "quantidade": 68, "valor": "428561,9" }
+    { "status": "Análise de Crédito", "quantidade": 15, "valor": "121431,56" },
+    { "status": "Total em Disputa", "quantidade": 22, "valor": "135384,68" },
+    { "status": "Aguard. Envio Separação", "quantidade": 31, "valor": "216717,87" },
+    { "status": "Em Separação", "quantidade": 23, "valor": "131203,62" },
+    { "status": "Separado", "quantidade": 2, "valor": "6080,46" },
+    { "status": "Faturado", "quantidade": 51, "valor": "313439,73" },
+    { "status": "Total", "quantidade": 107, "valor": "667441,68" }
  ],
  "recebimento_produtos": [
 
@@ -33,28 +33,28 @@
 
  ],
 "pedidos_nao_faturados": [
-  {"numero_pedido":"700468 ", "emissao_pv": "11/07/2026 ", "vlr_total_produtos": "922,95 ", "margem": "36,59 ", "nome_cliente": "DENTAL UP LTDA ", "uf_cliente": "SC ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. FENIX (SC) ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"700537 ", "emissao_pv": "13/07/2026 ", "vlr_total_produtos": "9845,2 ", "margem": "31,72 ", "nome_cliente": "CEDIMED DISTRIBUIDOR ", "uf_cliente": "CE ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. ALFA ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"700600 ", "emissao_pv": "13/07/2026 ", "vlr_total_produtos": "2004 ", "margem": "19,78 ", "nome_cliente": "PRO LABORATORIO ", "uf_cliente": "PB ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"700691 ", "emissao_pv": "14/07/2026 ", "vlr_total_produtos": "3320 ", "margem": "50,35 ", "nome_cliente": "PROMEDIX ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"700767 ", "emissao_pv": "14/07/2026 ", "vlr_total_produtos": "19818 ", "margem": "35,36 ", "nome_cliente": "DISTRIBUIDORA NORTE ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOICE MENDES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"700817 ", "emissao_pv": "14/07/2026 ", "vlr_total_produtos": "2500,04 ", "margem": "44,68 ", "nome_cliente": "AMAZONTECH SOLUCOES ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"700931 ", "emissao_pv": "15/07/2026 ", "vlr_total_produtos": "2595,4 ", "margem": "22,59 ", "nome_cliente": "PONTES PRODUTOS ODON ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"700950 ", "emissao_pv": "15/07/2026 ", "vlr_total_produtos": "28454 ", "margem": "25,95 ", "nome_cliente": "SOLUTION ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"701006 ", "emissao_pv": "15/07/2026 ", "vlr_total_produtos": "3494,65 ", "margem": "36,73 ", "nome_cliente": "EXCELLAB ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"701147 ", "emissao_pv": "16/07/2026 ", "vlr_total_produtos": "2189,8 ", "margem": "35,94 ", "nome_cliente": "CITOLAB ", "uf_cliente": "BA ", "tipo_cliente": "CONS.FINAL ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"701221 ", "emissao_pv": "16/07/2026 ", "vlr_total_produtos": "27562,5 ", "margem": "41,77 ", "nome_cliente": "58 674 899 LUCAS VIN ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"701349 ", "emissao_pv": "17/07/2026 ", "vlr_total_produtos": "1591,4 ", "margem": "30,96 ", "nome_cliente": "GEOMED HOSPITALAR ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"701367 ", "emissao_pv": "17/07/2026 ", "vlr_total_produtos": "2177,4 ", "margem": "26,48 ", "nome_cliente": "PASSOS COMERCIAL HOS ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"701399 ", "emissao_pv": "17/07/2026 ", "vlr_total_produtos": "1238 ", "margem": "23,58 ", "nome_cliente": "DENTAL PRODENTISTA ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. CAREMED ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"701401 ", "emissao_pv": "17/07/2026 ", "vlr_total_produtos": "2855 ", "margem": "17,1 ", "nome_cliente": "RD PHARMA LTDA ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. CAREMED ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"701412 ", "emissao_pv": "17/07/2026 ", "vlr_total_produtos": "1188 ", "margem": "22,28 ", "nome_cliente": "MAXXI DISTRIBUIDORA ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"701422 ", "emissao_pv": "17/07/2026 ", "vlr_total_produtos": "16800 ", "margem": "14,56 ", "nome_cliente": "MICRO OPTICA ", "uf_cliente": "SC ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"701424 ", "emissao_pv": "17/07/2026 ", "vlr_total_produtos": "27552 ", "margem": "25,34 ", "nome_cliente": "COMERCIAL PABLOS ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"701426 ", "emissao_pv": "17/07/2026 ", "vlr_total_produtos": "30200 ", "margem": "12,8 ", "nome_cliente": "MASTERMED  PRODUTOS ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"701428 ", "emissao_pv": "17/07/2026 ", "vlr_total_produtos": "603,46 ", "margem": "0 ", "nome_cliente": "CIRQUEIRA REPRESENTA ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "E-COMMERCE ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"701432 ", "emissao_pv": "17/07/2026 ", "vlr_total_produtos": "5380,8 ", "margem": "23,5 ", "nome_cliente": "MINASFOR ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. CAREMED ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"701440 ", "emissao_pv": "17/07/2026 ", "vlr_total_produtos": "8940 ", "margem": "38,83 ", "nome_cliente": "ELMED ", "uf_cliente": "RS ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Alvará Sanitário" }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -83,18 +83,18 @@
   "performance_gerencial": {
     "mes_atual": {
      "periodo": "julho/2026",
-     "frete_pago": "267253,2",
-     "faturamento": "6346500,18",
-     "frete_repassado": "226639,32",
-     "entrega_realizada": "547",
-     "entrega_no_prazo": "538",
-     "qtd_notas_fiscais": "1057",
+     "frete_pago": "295276,46",
+     "faturamento": "6893594,07",
+     "frete_repassado": "235925,32",
+     "entrega_realizada": "617",
+     "entrega_no_prazo": "608",
+     "qtd_notas_fiscais": "1109",
      "entrega_fora_prazo": "9"
 },
   "mes_anterior": {
      "periodo": "junho/2026",
-     "entrega_realizada": "1973",
-     "entrega_no_prazo": "1863"
+     "entrega_realizada": "1977",
+     "entrega_no_prazo": "1866"
   }
 },
   "expedicao": {
