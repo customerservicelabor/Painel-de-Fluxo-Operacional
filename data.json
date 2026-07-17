@@ -1,18 +1,18 @@
 {
-  "updated_at": "17/07/2026 12:21",
+  "updated_at": "17/07/2026 13:57",
   "kpis": {
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 3, "valor": "3909,75" },
-    { "status": "Alvará Sanitário", "quantidade": 4, "valor": "7458,4" },
+    { "status": "Alvará Sanitário", "quantidade": 7, "valor": "44553,86" },
     { "status": "Bloqueado por regra", "quantidade": 2, "valor": "3370,97" },
-    { "status": "Análise de Crédito", "quantidade": 13, "valor": "105269,59" },
-    { "status": "Total em Disputa", "quantidade": 22, "valor": "120008,71" },
+    { "status": "Análise de Crédito", "quantidade": 15, "valor": "156678,74" },
+    { "status": "Total em Disputa", "quantidade": 27, "valor": "208513,32" },
     { "status": "Aguard. Envio Separação", "quantidade": 30, "valor": "215224,83" },
-    { "status": "Em Separação", "quantidade": 19, "valor": "96568,11" },
-    { "status": "Separado", "quantidade": 5, "valor": "66190,6" },
-    { "status": "Faturado", "quantidade": 9, "valor": "46461,54" },
-    { "status": "Total", "quantidade": 63, "valor": "424445,08" }
+    { "status": "Em Separação", "quantidade": 11, "valor": "36091,4" },
+    { "status": "Separado", "quantidade": 5, "valor": "13653,86" },
+    { "status": "Faturado", "quantidade": 22, "valor": "163591,81" },
+    { "status": "Total", "quantidade": 68, "valor": "428561,9" }
  ],
  "recebimento_produtos": [
 
@@ -49,12 +49,12 @@
   {"numero_pedido":"701399 ", "emissao_pv": "17/07/2026 ", "vlr_total_produtos": "1238 ", "margem": "23,58 ", "nome_cliente": "DENTAL PRODENTISTA ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. CAREMED ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"701401 ", "emissao_pv": "17/07/2026 ", "vlr_total_produtos": "2855 ", "margem": "17,1 ", "nome_cliente": "RD PHARMA LTDA ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. CAREMED ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"701412 ", "emissao_pv": "17/07/2026 ", "vlr_total_produtos": "1188 ", "margem": "22,28 ", "nome_cliente": "MAXXI DISTRIBUIDORA ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"701416 ", "emissao_pv": "17/07/2026 ", "vlr_total_produtos": "971,65 ", "margem": "23,25 ", "nome_cliente": "ORTHOS MEDICAL WEB ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "LUCIA FLORESTA ", "ultimo_status": "Análise de Crédito" }
-
-
-
-
-
+  {"numero_pedido":"701422 ", "emissao_pv": "17/07/2026 ", "vlr_total_produtos": "16800 ", "margem": "14,56 ", "nome_cliente": "MICRO OPTICA ", "uf_cliente": "SC ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"701424 ", "emissao_pv": "17/07/2026 ", "vlr_total_produtos": "27552 ", "margem": "25,34 ", "nome_cliente": "COMERCIAL PABLOS ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"701426 ", "emissao_pv": "17/07/2026 ", "vlr_total_produtos": "30200 ", "margem": "12,8 ", "nome_cliente": "MASTERMED  PRODUTOS ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"701428 ", "emissao_pv": "17/07/2026 ", "vlr_total_produtos": "603,46 ", "margem": "0 ", "nome_cliente": "CIRQUEIRA REPRESENTA ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "E-COMMERCE ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"701432 ", "emissao_pv": "17/07/2026 ", "vlr_total_produtos": "5380,8 ", "margem": "23,5 ", "nome_cliente": "MINASFOR ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. CAREMED ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"701440 ", "emissao_pv": "17/07/2026 ", "vlr_total_produtos": "8940 ", "margem": "38,83 ", "nome_cliente": "ELMED ", "uf_cliente": "RS ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Alvará Sanitário" }
 
 
 
