@@ -1,18 +1,18 @@
 {
-  "updated_at": "16/07/2026 17:25",
+  "updated_at": "17/07/2026 08:16",
   "kpis": {
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 3, "valor": "3945,4" },
+    { "status": "Aguardando Liberação", "quantidade": 2, "valor": "3909,6" },
     { "status": "Alvará Sanitário", "quantidade": 2, "valor": "14372,85" },
-    { "status": "Bloqueado por regra", "quantidade": 0, "valor": "0" },
-    { "status": "Análise de Crédito", "quantidade": 19, "valor": "177729,82" },
-    { "status": "Total em Disputa", "quantidade": 24, "valor": "196048,07" },
+    { "status": "Bloqueado por regra", "quantidade": 1, "valor": "300,61" },
+    { "status": "Análise de Crédito", "quantidade": 14, "valor": "170284,58" },
+    { "status": "Total em Disputa", "quantidade": 19, "valor": "188867,64" },
     { "status": "Aguard. Envio Separação", "quantidade": 31, "valor": "230308,05" },
-    { "status": "Em Separação", "quantidade": 32, "valor": "139642,21" },
-    { "status": "Separado", "quantidade": 11, "valor": "32779,87" },
-    { "status": "Faturado", "quantidade": 52, "valor": "257897,45" },
-    { "status": "Total", "quantidade": 126, "valor": "660627,58" }
+    { "status": "Em Separação", "quantidade": 0, "valor": "0" },
+    { "status": "Separado", "quantidade": 2, "valor": "6080,46" },
+    { "status": "Faturado", "quantidade": 0, "valor": "0" },
+    { "status": "Total", "quantidade": 33, "valor": "236388,51" }
  ],
  "recebimento_produtos": [
 
@@ -45,15 +45,15 @@
   {"numero_pedido":"701147 ", "emissao_pv": "16/07/2026 ", "vlr_total_produtos": "2189,8 ", "margem": "35,94 ", "nome_cliente": "CITOLAB ", "uf_cliente": "BA ", "tipo_cliente": "CONS.FINAL ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"701221 ", "emissao_pv": "16/07/2026 ", "vlr_total_produtos": "27562,5 ", "margem": "41,77 ", "nome_cliente": "58 674 899 LUCAS VIN ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"701250 ", "emissao_pv": "16/07/2026 ", "vlr_total_produtos": "843,9 ", "margem": "38,11 ", "nome_cliente": "ALTPREST COMERCIO E ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "LUCIA FLORESTA ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"701252 ", "emissao_pv": "16/07/2026 ", "vlr_total_produtos": "1983,2 ", "margem": "20,67 ", "nome_cliente": "PETFARMA COMERCIO DE ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"701266 ", "emissao_pv": "16/07/2026 ", "vlr_total_produtos": "8092 ", "margem": "53,01 ", "nome_cliente": "ESPACO NATURAL ", "uf_cliente": "RO ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. FEMA ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"701270 ", "emissao_pv": "16/07/2026 ", "vlr_total_produtos": "3398 ", "margem": "33,72 ", "nome_cliente": "UNIDAS DISTRIBUIDORA ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. CAREMED ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"701288 ", "emissao_pv": "16/07/2026 ", "vlr_total_produtos": "860,5 ", "margem": "41,9 ", "nome_cliente": "PORTO VITAL ", "uf_cliente": "RS ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"701294 ", "emissao_pv": "16/07/2026 ", "vlr_total_produtos": "10974,85 ", "margem": "29,61 ", "nome_cliente": "INOVA MED PRODUTOS H ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"701302 ", "emissao_pv": "16/07/2026 ", "vlr_total_produtos": "10850,71 ", "margem": "40,44 ", "nome_cliente": "PRATEC SERVICOS ", "uf_cliente": "CE ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"701304 ", "emissao_pv": "16/07/2026 ", "vlr_total_produtos": "2485,3 ", "margem": "35,35 ", "nome_cliente": "SANITAS MOVEIS LTDA ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"701312 ", "emissao_pv": "16/07/2026 ", "vlr_total_produtos": "46128 ", "margem": "13,04 ", "nome_cliente": "PROFAR HOSPITALAR LT ", "uf_cliente": "AM ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"701316 ", "emissao_pv": "16/07/2026 ", "vlr_total_produtos": "3779,67 ", "margem": "38,55 ", "nome_cliente": "DIMED ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "ALEXANDRA RIBEIRO ", "ultimo_status": "Análise de Crédito" }
+  {"numero_pedido":"701332 ", "emissao_pv": "16/07/2026 ", "vlr_total_produtos": "50414,14 ", "margem": "24,58 ", "nome_cliente": "COMERCIAL VALFARMA E ", "uf_cliente": "CE ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. ALFA ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"701345 ", "emissao_pv": "16/07/2026 ", "vlr_total_produtos": "16320 ", "margem": "23,99 ", "nome_cliente": "INSTRUMENTAL TECNICO ", "uf_cliente": "AM ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. TURCATO ", "ultimo_status": "Análise de Crédito" }
+
+
+
+
+
 
 
 
@@ -83,13 +83,13 @@
   "performance_gerencial": {
     "mes_atual": {
      "periodo": "julho/2026",
-     "frete_pago": "265561,02",
-     "faturamento": "6292583,67",
-     "frete_repassado": "210543,72",
-     "entrega_realizada": "541",
-     "entrega_no_prazo": "533",
-     "qtd_notas_fiscais": "995",
-     "entrega_fora_prazo": "8"
+     "frete_pago": "267253,2",
+     "faturamento": "6346500,18",
+     "frete_repassado": "226639,32",
+     "entrega_realizada": "547",
+     "entrega_no_prazo": "538",
+     "qtd_notas_fiscais": "1057",
+     "entrega_fora_prazo": "9"
 },
   "mes_anterior": {
      "periodo": "junho/2026",
@@ -106,12 +106,12 @@
 
 
 "estoque": {
-  "ocupacao_total_armazem": 56.21,
-  "ocupacao_operacional": 60.30,
+  "ocupacao_total_armazem": 59.37,
+  "ocupacao_operacional": 64.16,
   "areas": [
-    { "nome": "Picking", "taxa": 78.42},
-    { "nome": "Pulmão de Abastecimento", "taxa": 57.00},
-    { "nome": "Flowrack", "taxa": 42.86},
+    { "nome": "Picking", "taxa": 77.96},
+    { "nome": "Pulmão de Abastecimento", "taxa": 61.65},
+    { "nome": "Flowrack", "taxa": 42.61},
     { "nome": "Área de Qualidade", "taxa": 18.12},
     { "nome": "Área de Amostra", "taxa": 0.00},
     { "nome": "Área de Avarias", "taxa": 37.21}
