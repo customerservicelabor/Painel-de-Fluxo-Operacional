@@ -1,18 +1,18 @@
 {
-  "updated_at": "20/07/2026 09:02",
+  "updated_at": "20/07/2026 09:48",
   "kpis": {
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 4, "valor": "29480,15" },
-    { "status": "Alvará Sanitário", "quantidade": 2, "valor": "6741,4" },
+    { "status": "Alvará Sanitário", "quantidade": 3, "valor": "15089,4" },
     { "status": "Bloqueado por regra", "quantidade": 3, "valor": "3757,81" },
-    { "status": "Análise de Crédito", "quantidade": 12, "valor": "105706,14" },
-    { "status": "Total em Disputa", "quantidade": 21, "valor": "145685,5" },
-    { "status": "Aguard. Envio Separação", "quantidade": 29, "valor": "203539,83" },
-    { "status": "Em Separação", "quantidade": 1, "valor": "2957,6" },
+    { "status": "Análise de Crédito", "quantidade": 12, "valor": "99461,38" },
+    { "status": "Total em Disputa", "quantidade": 22, "valor": "147788,74" },
+    { "status": "Aguard. Envio Separação", "quantidade": 0, "valor": "0" },
+    { "status": "Em Separação", "quantidade": 4, "valor": "14465,5" },
     { "status": "Separado", "quantidade": 3, "valor": "15960,46" },
     { "status": "Faturado", "quantidade": 0, "valor": "0" },
-    { "status": "Total", "quantidade": 33, "valor": "222457,89" }
+    { "status": "Total", "quantidade": 7, "valor": "30425,96" }
  ],
  "recebimento_produtos": [
 
@@ -44,10 +44,10 @@
   {"numero_pedido":"701147 ", "emissao_pv": "16/07/2026 ", "vlr_total_produtos": "2189,8 ", "margem": "35,94 ", "nome_cliente": "CITOLAB ", "uf_cliente": "BA ", "tipo_cliente": "CONS.FINAL ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"701221 ", "emissao_pv": "16/07/2026 ", "vlr_total_produtos": "27562,5 ", "margem": "41,77 ", "nome_cliente": "58 674 899 LUCAS VIN ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"701432 ", "emissao_pv": "17/07/2026 ", "vlr_total_produtos": "5380,8 ", "margem": "23,5 ", "nome_cliente": "MINASFOR ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. CAREMED ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"701499 ", "emissao_pv": "17/07/2026 ", "vlr_total_produtos": "7464 ", "margem": "31,92 ", "nome_cliente": "DIMEDIC COMERCIAL HO ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"701537 ", "emissao_pv": "17/07/2026 ", "vlr_total_produtos": "3093,4 ", "margem": "29,68 ", "nome_cliente": "LUCENA COMERCIO EQUI ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. HELEIDA ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"701541 ", "emissao_pv": "20/07/2026 ", "vlr_total_produtos": "3648 ", "margem": "41,63 ", "nome_cliente": "UNIMED ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Alvará Sanitário" }
-
+  {"numero_pedido":"701541 ", "emissao_pv": "20/07/2026 ", "vlr_total_produtos": "3648 ", "margem": "41,63 ", "nome_cliente": "UNIMED ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"701545 ", "emissao_pv": "20/07/2026 ", "vlr_total_produtos": "1219,24 ", "margem": "4,75 ", "nome_cliente": "PREMIER RESIDENCE HO ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "MARIANA HERGOVIC ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"701547 ", "emissao_pv": "20/07/2026 ", "vlr_total_produtos": "8348 ", "margem": "27,46 ", "nome_cliente": "GRUPO VETORASSO ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Alvará Sanitário" }
 
 
 
