@@ -1,18 +1,18 @@
 {
-  "updated_at": "22/07/2026 13:59",
+  "updated_at": "22/07/2026 16:03",
   "kpis": {
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 3, "valor": "17089,11" },
-    { "status": "Alvará Sanitário", "quantidade": 4, "valor": "10457,47" },
+    { "status": "Aguardando Liberação", "quantidade": 5, "valor": "19611,27" },
+    { "status": "Alvará Sanitário", "quantidade": 9, "valor": "74661,54" },
     { "status": "Bloqueado por regra", "quantidade": 3, "valor": "3757,81" },
-    { "status": "Análise de Crédito", "quantidade": 6, "valor": "60314,69" },
-    { "status": "Total em Disputa", "quantidade": 16, "valor": "91619,08" },
-    { "status": "Aguard. Envio Separação", "quantidade": 2, "valor": "20844,67" },
-    { "status": "Em Separação", "quantidade": 5, "valor": "99625,28" },
-    { "status": "Separado", "quantidade": 4, "valor": "19229,46" },
-    { "status": "Faturado", "quantidade": 31, "valor": "267398,03" },
-    { "status": "Total", "quantidade": 42, "valor": "407097,44" }
+    { "status": "Análise de Crédito", "quantidade": 12, "valor": "138541,87" },
+    { "status": "Total em Disputa", "quantidade": 29, "valor": "236572,49" },
+    { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "15971,62" },
+    { "status": "Em Separação", "quantidade": 12, "valor": "63537,42" },
+    { "status": "Separado", "quantidade": 5, "valor": "28039,91" },
+    { "status": "Faturado", "quantidade": 51, "valor": "389193,54" },
+    { "status": "Total", "quantidade": 69, "valor": "496742,49" }
  ],
  "recebimento_produtos": [
 
@@ -42,18 +42,18 @@
   {"numero_pedido":"701906 ", "emissao_pv": "22/07/2026 ", "vlr_total_produtos": "11160 ", "margem": "24,43 ", "nome_cliente": "BONATTO DISTRIBUIDOR ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. CAOBIANCO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"701908 ", "emissao_pv": "22/07/2026 ", "vlr_total_produtos": "3670,25 ", "margem": "19,81 ", "nome_cliente": "MIRALI PRODUTOS HOSP ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"701920 ", "emissao_pv": "22/07/2026 ", "vlr_total_produtos": "4929 ", "margem": "39,99 ", "nome_cliente": "GOLDEN MED IMPORTADO ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "ALEXANDRA RIBEIRO ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"701936 ", "emissao_pv": "22/07/2026 ", "vlr_total_produtos": "1080 ", "margem": "41,16 ", "nome_cliente": "LAB SAO LOURENCO LTD ", "uf_cliente": "MG ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOAO NETO ", "ultimo_status": "Alvará Sanitário" }
-
-
-
-
-
-
-
-
-
-
-
+  {"numero_pedido":"701936 ", "emissao_pv": "22/07/2026 ", "vlr_total_produtos": "1080 ", "margem": "41,16 ", "nome_cliente": "LAB SAO LOURENCO LTD ", "uf_cliente": "MG ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOAO NETO ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"701938 ", "emissao_pv": "22/07/2026 ", "vlr_total_produtos": "1500,07 ", "margem": "29,48 ", "nome_cliente": "JET MED MATERIAL MED ", "uf_cliente": "SC ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"701940 ", "emissao_pv": "22/07/2026 ", "vlr_total_produtos": "55000 ", "margem": "-0,57 ", "nome_cliente": "APA MEDIC ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"701950 ", "emissao_pv": "22/07/2026 ", "vlr_total_produtos": "1124 ", "margem": "30,2 ", "nome_cliente": "LAB GASPAR-DASA ", "uf_cliente": "MA ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOAO NETO ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"701975 ", "emissao_pv": "22/07/2026 ", "vlr_total_produtos": "8813,5 ", "margem": "35,44 ", "nome_cliente": "GRANFARMA ", "uf_cliente": "MA ", "tipo_cliente": "REVENDEDOR ","vendedor": "ALEXANDRA RIBEIRO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"701987 ", "emissao_pv": "22/07/2026 ", "vlr_total_produtos": "3780 ", "margem": "48,06 ", "nome_cliente": "FIC COMPANY LTDA ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"701991 ", "emissao_pv": "22/07/2026 ", "vlr_total_produtos": "4225 ", "margem": "13,01 ", "nome_cliente": "BDB MEDICAL SUPPLY L ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"701993 ", "emissao_pv": "22/07/2026 ", "vlr_total_produtos": "56779,78 ", "margem": "26,4 ", "nome_cliente": "J F DISTRIBUIDORA DE ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"702001 ", "emissao_pv": "22/07/2026 ", "vlr_total_produtos": "3795 ", "margem": "34,68 ", "nome_cliente": "TOLEMED DISTRIBUIDOR ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"702003 ", "emissao_pv": "22/07/2026 ", "vlr_total_produtos": "3812,9 ", "margem": "24,78 ", "nome_cliente": "MAPMED ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. HELEIDA ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"702005 ", "emissao_pv": "22/07/2026 ", "vlr_total_produtos": "801 ", "margem": "15,27 ", "nome_cliente": "CLINICA GUILHERME PA ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "LUCIANA LIMA ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"702015 ", "emissao_pv": "22/07/2026 ", "vlr_total_produtos": "2800 ", "margem": "27,94 ", "nome_cliente": "INSTITUTO SUEL ABUJA ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "REP. HELEIDA ", "ultimo_status": "Alvará Sanitário" }
 
 
 
