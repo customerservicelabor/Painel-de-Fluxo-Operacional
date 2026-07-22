@@ -1,18 +1,18 @@
 {
-  "updated_at": "22/07/2026 08:15",
+  "updated_at": "22/07/2026 10:21",
   "kpis": {
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 2, "valor": "8490,61" },
+    { "status": "Aguardando Liberação", "quantidade": 4, "valor": "18844,91" },
     { "status": "Alvará Sanitário", "quantidade": 0, "valor": "0" },
-    { "status": "Bloqueado por regra", "quantidade": 4, "valor": "4206,65" },
-    { "status": "Análise de Crédito", "quantidade": 8, "valor": "76044,79" },
-    { "status": "Total em Disputa", "quantidade": 14, "valor": "88742,05" },
+    { "status": "Bloqueado por regra", "quantidade": 3, "valor": "3757,81" },
+    { "status": "Análise de Crédito", "quantidade": 10, "valor": "79458,59" },
+    { "status": "Total em Disputa", "quantidade": 17, "valor": "102061,31" },
     { "status": "Aguard. Envio Separação", "quantidade": 3, "valor": "37497,95" },
-    { "status": "Em Separação", "quantidade": 4, "valor": "73414" },
+    { "status": "Em Separação", "quantidade": 13, "valor": "98983,72" },
     { "status": "Separado", "quantidade": 2, "valor": "6080,46" },
     { "status": "Faturado", "quantidade": 0, "valor": "0" },
-    { "status": "Total", "quantidade": 9, "valor": "116992,41" }
+    { "status": "Total", "quantidade": 18, "valor": "142562,13" }
  ],
  "recebimento_produtos": [
 
@@ -40,9 +40,9 @@
   {"numero_pedido":"701593 ", "emissao_pv": "20/07/2026 ", "vlr_total_produtos": "3550,8 ", "margem": "15,04 ", "nome_cliente": "H  HOSPITALAR DISTRI ", "uf_cliente": "MT ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"701749 ", "emissao_pv": "21/07/2026 ", "vlr_total_produtos": "1571,58 ", "margem": "26,88 ", "nome_cliente": "MEDICAL MAIS PRODUTO ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"701800 ", "emissao_pv": "21/07/2026 ", "vlr_total_produtos": "1191,47 ", "margem": "29,61 ", "nome_cliente": "IRMANDADE DA SANTA ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"701836 ", "emissao_pv": "21/07/2026 ", "vlr_total_produtos": "3010,1 ", "margem": "38,33 ", "nome_cliente": "NEIMAR PINHEIRO DE J ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "LUCIANA LIMA ", "ultimo_status": "Análise de Crédito" }
-
-
+  {"numero_pedido":"701836 ", "emissao_pv": "21/07/2026 ", "vlr_total_produtos": "3010,1 ", "margem": "38,33 ", "nome_cliente": "NEIMAR PINHEIRO DE J ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "LUCIANA LIMA ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"701866 ", "emissao_pv": "22/07/2026 ", "vlr_total_produtos": "818,4 ", "margem": "46,7 ", "nome_cliente": "CENTRO ANIMAL ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"701870 ", "emissao_pv": "22/07/2026 ", "vlr_total_produtos": "2595,4 ", "margem": "22,59 ", "nome_cliente": "PONTES PRODUTOS ODON ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Análise de Crédito" }
 
 
 
