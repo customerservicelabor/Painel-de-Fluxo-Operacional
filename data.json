@@ -1,18 +1,18 @@
 {
-  "updated_at": "23/07/2026 13:50",
+  "updated_at": "23/07/2026 16:14",
   "kpis": {
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 3, "valor": "10008,61" },
-    { "status": "Alvará Sanitário", "quantidade": 15, "valor": "41176,73" },
+    { "status": "Aguardando Liberação", "quantidade": 4, "valor": "18353,61" },
+    { "status": "Alvará Sanitário", "quantidade": 17, "valor": "59836,73" },
     { "status": "Bloqueado por regra", "quantidade": 1, "valor": "3070,36" },
-    { "status": "Análise de Crédito", "quantidade": 9, "valor": "81886,77" },
-    { "status": "Total em Disputa", "quantidade": 28, "valor": "136142,47" },
+    { "status": "Análise de Crédito", "quantidade": 13, "valor": "125597,87" },
+    { "status": "Total em Disputa", "quantidade": 35, "valor": "206858,57" },
     { "status": "Aguard. Envio Separação", "quantidade": 2, "valor": "55879,67" },
-    { "status": "Em Separação", "quantidade": 2, "valor": "76392,84" },
-    { "status": "Separado", "quantidade": 3, "valor": "8760,44" },
-    { "status": "Faturado", "quantidade": 52, "valor": "185813,03" },
-    { "status": "Total", "quantidade": 59, "valor": "326845,98" }
+    { "status": "Em Separação", "quantidade": 5, "valor": "13889,82" },
+    { "status": "Separado", "quantidade": 3, "valor": "10075,46" },
+    { "status": "Faturado", "quantidade": 65, "valor": "293144,03" },
+    { "status": "Total", "quantidade": 75, "valor": "372988,98" }
  ],
  "recebimento_produtos": [
 
@@ -56,13 +56,13 @@
   {"numero_pedido":"702190 ", "emissao_pv": "23/07/2026 ", "vlr_total_produtos": "1513,26 ", "margem": "39,2 ", "nome_cliente": "NOBRE DISTRIBUICAO L ", "uf_cliente": "SC ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"702192 ", "emissao_pv": "23/07/2026 ", "vlr_total_produtos": "606,07 ", "margem": "0 ", "nome_cliente": "ANNA CRISTINA VITAL ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "E-COMMERCE ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"702194 ", "emissao_pv": "23/07/2026 ", "vlr_total_produtos": "8268,8 ", "margem": "30,53 ", "nome_cliente": "PRODUVALE PRODUTOS H ", "uf_cliente": "SC ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"702196 ", "emissao_pv": "23/07/2026 ", "vlr_total_produtos": "1332,2 ", "margem": "43,62 ", "nome_cliente": "CIRURGICA NASCENTE ", "uf_cliente": "MT ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Alvará Sanitário" }
-
-
-
-
-
-
+  {"numero_pedido":"702196 ", "emissao_pv": "23/07/2026 ", "vlr_total_produtos": "1332,2 ", "margem": "43,62 ", "nome_cliente": "CIRURGICA NASCENTE ", "uf_cliente": "MT ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"702200 ", "emissao_pv": "23/07/2026 ", "vlr_total_produtos": "2800 ", "margem": "35,96 ", "nome_cliente": "FORTVALE ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"702210 ", "emissao_pv": "23/07/2026 ", "vlr_total_produtos": "31873 ", "margem": "28,87 ", "nome_cliente": "AR DISTRIBUIDORA HOS ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. CA BENTO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"702214 ", "emissao_pv": "23/07/2026 ", "vlr_total_produtos": "3840 ", "margem": "32,44 ", "nome_cliente": "MUNDIAL DISTRIB ", "uf_cliente": "AL ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"702216 ", "emissao_pv": "23/07/2026 ", "vlr_total_produtos": "1675 ", "margem": "32,94 ", "nome_cliente": "DR  ESTOQUE COMERCIO ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"702224 ", "emissao_pv": "23/07/2026 ", "vlr_total_produtos": "14820 ", "margem": "46,72 ", "nome_cliente": "MONTE ALTO COMERCIO ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"702240 ", "emissao_pv": "23/07/2026 ", "vlr_total_produtos": "7363,1 ", "margem": "39,62 ", "nome_cliente": "ABS LAB ANALISES CLI ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "LUCIA FLORESTA ", "ultimo_status": "Análise de Crédito" }
 
 
 
