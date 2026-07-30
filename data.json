@@ -1,18 +1,18 @@
 {
-  "updated_at": "30/07/2026 17:50",
+  "updated_at": "30/07/2026 18:12",
   "kpis": {
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 1, "valor": "0,63" },
     { "status": "Alvará Sanitário", "quantidade": 0, "valor": "0" },
     { "status": "Bloqueado por regra", "quantidade": 1, "valor": "301,86" },
-    { "status": "Análise de Crédito", "quantidade": 28, "valor": "298718,7" },
-    { "status": "Total em Disputa", "quantidade": 30, "valor": "299021,19" },
-    { "status": "Aguard. Envio Separação", "quantidade": 2, "valor": "14276,6" },
-    { "status": "Em Separação", "quantidade": 24, "valor": "103391,03" },
-    { "status": "Separado", "quantidade": 6, "valor": "13373,99" },
-    { "status": "Faturado", "quantidade": 92, "valor": "753336,92" },
-    { "status": "Total", "quantidade": 124, "valor": "884378,54" }
+    { "status": "Análise de Crédito", "quantidade": 30, "valor": "316852,2" },
+    { "status": "Total em Disputa", "quantidade": 32, "valor": "317154,69" },
+    { "status": "Aguard. Envio Separação", "quantidade": 0, "valor": "0" },
+    { "status": "Em Separação", "quantidade": 19, "valor": "78828,56" },
+    { "status": "Separado", "quantidade": 1, "valor": "58,47" },
+    { "status": "Faturado", "quantidade": 105, "valor": "806654,21" },
+    { "status": "Total", "quantidade": 125, "valor": "885541,24" }
  ],
  "recebimento_produtos": [
 
@@ -60,9 +60,9 @@
   {"numero_pedido":"703430 ", "emissao_pv": "30/07/2026 ", "vlr_total_produtos": "66627,5 ", "margem": "18,66 ", "nome_cliente": "PROFAR HOSPITALAR LT ", "uf_cliente": "AM ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"703433 ", "emissao_pv": "30/07/2026 ", "vlr_total_produtos": "838 ", "margem": "25,29 ", "nome_cliente": "L M DISTRIBUIDORA ", "uf_cliente": "CE ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"703435 ", "emissao_pv": "30/07/2026 ", "vlr_total_produtos": "9399,25 ", "margem": "34,74 ", "nome_cliente": "SANTA CRUZ DISTRIBUI ", "uf_cliente": "CE ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"703437 ", "emissao_pv": "30/07/2026 ", "vlr_total_produtos": "10532,2 ", "margem": "29,52 ", "nome_cliente": "HEALTH COMERCIO ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Análise de Crédito" }
-
-
+  {"numero_pedido":"703437 ", "emissao_pv": "30/07/2026 ", "vlr_total_produtos": "10532,2 ", "margem": "29,52 ", "nome_cliente": "HEALTH COMERCIO ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"703441 ", "emissao_pv": "30/07/2026 ", "vlr_total_produtos": "16740 ", "margem": "26,44 ", "nome_cliente": "PROMIX ", "uf_cliente": "CE ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"703443 ", "emissao_pv": "30/07/2026 ", "vlr_total_produtos": "1393,5 ", "margem": "21,99 ", "nome_cliente": "DAFMED COM MAT CIRUR ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "LUCIA FLORESTA ", "ultimo_status": "Análise de Crédito" }
 
 
 
@@ -121,6 +121,6 @@
      "na_rota_da_meta": {
      "meta": 2102400.00,
      "faturamento_atual": 0,
-     "faturamento_previsto": 884378.54
+     "faturamento_previsto": 885541.24
   }
 }
