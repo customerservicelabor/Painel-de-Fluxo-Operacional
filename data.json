@@ -1,18 +1,18 @@
 {
-  "updated_at": "30/07/2026 13:14",
+  "updated_at": "30/07/2026 13:48",
   "kpis": {
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 2, "valor": "4849,36" },
+    { "status": "Aguardando Liberação", "quantidade": 2, "valor": "4858,81" },
     { "status": "Alvará Sanitário", "quantidade": 0, "valor": "0" },
     { "status": "Bloqueado por regra", "quantidade": 1, "valor": "301,86" },
-    { "status": "Análise de Crédito", "quantidade": 20, "valor": "150968,51" },
-    { "status": "Total em Disputa", "quantidade": 23, "valor": "156119,73" },
+    { "status": "Análise de Crédito", "quantidade": 22, "valor": "154183,11" },
+    { "status": "Total em Disputa", "quantidade": 25, "valor": "159343,78" },
     { "status": "Aguard. Envio Separação", "quantidade": 2, "valor": "78300" },
-    { "status": "Em Separação", "quantidade": 9, "valor": "286824,36" },
+    { "status": "Em Separação", "quantidade": 12, "valor": "284373,33" },
     { "status": "Separado", "quantidade": 2, "valor": "1474,78" },
-    { "status": "Faturado", "quantidade": 38, "valor": "208606,48" },
-    { "status": "Total", "quantidade": 51, "valor": "575205,62" }
+    { "status": "Faturado", "quantidade": 40, "valor": "219143,98" },
+    { "status": "Total", "quantidade": 56, "valor": "583292,09" }
  ],
  "recebimento_produtos": [
 
@@ -52,9 +52,9 @@
   {"numero_pedido":"703232 ", "emissao_pv": "30/07/2026 ", "vlr_total_produtos": "2002,6 ", "margem": "32,8 ", "nome_cliente": "REDENTOR HOSPITALAR ", "uf_cliente": "DF ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"703234 ", "emissao_pv": "30/07/2026 ", "vlr_total_produtos": "29066,02 ", "margem": "19,97 ", "nome_cliente": "P H O  PRODUTOS HOSP ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. ML DANTE ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"703240 ", "emissao_pv": "30/07/2026 ", "vlr_total_produtos": "12589,9 ", "margem": "16,68 ", "nome_cliente": "LINEHOSP MEDICAL COM ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"703251 ", "emissao_pv": "30/07/2026 ", "vlr_total_produtos": "27000 ", "margem": "6,04 ", "nome_cliente": "TOLEMED DISTRIBUIDOR ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" }
-
-
+  {"numero_pedido":"703251 ", "emissao_pv": "30/07/2026 ", "vlr_total_produtos": "27000 ", "margem": "6,04 ", "nome_cliente": "TOLEMED DISTRIBUIDOR ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"703277 ", "emissao_pv": "30/07/2026 ", "vlr_total_produtos": "2339,15 ", "margem": "33,53 ", "nome_cliente": "LABLUZ ", "uf_cliente": "CE ", "tipo_cliente": "CONS.FINAL ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"703285 ", "emissao_pv": "30/07/2026 ", "vlr_total_produtos": "875,45 ", "margem": "28,03 ", "nome_cliente": "GEOMED HOSPITALAR ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Análise de Crédito" }
 
 
 
@@ -121,6 +121,6 @@
      "na_rota_da_meta": {
      "meta": 2102400.00,
      "faturamento_atual": 0,
-     "faturamento_previsto": 575205.62
+     "faturamento_previsto": 583292.09
   }
 }
