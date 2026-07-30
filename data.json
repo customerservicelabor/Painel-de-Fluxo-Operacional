@@ -1,18 +1,18 @@
 {
-  "updated_at": "30/07/2026 09:31",
+  "updated_at": "30/07/2026 11:13",
   "kpis": {
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 1, "valor": "4842,61" },
-    { "status": "Alvará Sanitário", "quantidade": 0, "valor": "0" },
+    { "status": "Alvará Sanitário", "quantidade": 1, "valor": "2064,32" },
     { "status": "Bloqueado por regra", "quantidade": 1, "valor": "301,86" },
-    { "status": "Análise de Crédito", "quantidade": 15, "valor": "69918,67" },
-    { "status": "Total em Disputa", "quantidade": 17, "valor": "75063,14" },
+    { "status": "Análise de Crédito", "quantidade": 19, "valor": "97180,07" },
+    { "status": "Total em Disputa", "quantidade": 22, "valor": "104388,86" },
     { "status": "Aguard. Envio Separação", "quantidade": 2, "valor": "122221,9" },
-    { "status": "Em Separação", "quantidade": 12, "valor": "93262,73" },
-    { "status": "Separado", "quantidade": 4, "valor": "36300,42" },
-    { "status": "Faturado", "quantidade": 0, "valor": "0" },
-    { "status": "Total", "quantidade": 18, "valor": "251785,05" }
+    { "status": "Em Separação", "quantidade": 19, "valor": "121592,72" },
+    { "status": "Separado", "quantidade": 2, "valor": "1474,78" },
+    { "status": "Faturado", "quantidade": 9, "valor": "55088,86" },
+    { "status": "Total", "quantidade": 32, "valor": "300378,26" }
  ],
  "recebimento_produtos": [
 
@@ -46,13 +46,13 @@
   {"numero_pedido":"703113 ", "emissao_pv": "29/07/2026 ", "vlr_total_produtos": "6700 ", "margem": "31,26 ", "nome_cliente": "NORDELAB ", "uf_cliente": "RN ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"703130 ", "emissao_pv": "29/07/2026 ", "vlr_total_produtos": "6488,94 ", "margem": "30,82 ", "nome_cliente": "ITA HOSPITALAR ", "uf_cliente": "CE ", "tipo_cliente": "REVENDEDOR ","vendedor": "LUCIA FLORESTA ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"703149 ", "emissao_pv": "29/07/2026 ", "vlr_total_produtos": "2201,6 ", "margem": "18,1 ", "nome_cliente": "LEBLON HOSPITALAR LT ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"703188 ", "emissao_pv": "30/07/2026 ", "vlr_total_produtos": "4530 ", "margem": "40,2 ", "nome_cliente": "ITAPEMA LABORATORIO ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"703192 ", "emissao_pv": "30/07/2026 ", "vlr_total_produtos": "1336,45 ", "margem": "32,6 ", "nome_cliente": "CENTRO ORTOPEDICO PR ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" }
-
-
-
-
-
+  {"numero_pedido":"703173 ", "emissao_pv": "29/07/2026 ", "vlr_total_produtos": "8730 ", "margem": "36,81 ", "nome_cliente": "BIOMEGA MEDICINA DIA ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"703192 ", "emissao_pv": "30/07/2026 ", "vlr_total_produtos": "1336,45 ", "margem": "32,6 ", "nome_cliente": "CENTRO ORTOPEDICO PR ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"703202 ", "emissao_pv": "30/07/2026 ", "vlr_total_produtos": "13903,8 ", "margem": "23,12 ", "nome_cliente": "MASTERMED  PRODUTOS ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"703208 ", "emissao_pv": "30/07/2026 ", "vlr_total_produtos": "1155 ", "margem": "27,34 ", "nome_cliente": "CLINILABOR ROJAN ", "uf_cliente": "MG ", "tipo_cliente": "CONS.FINAL ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"703228 ", "emissao_pv": "30/07/2026 ", "vlr_total_produtos": "2064,32 ", "margem": "35,27 ", "nome_cliente": "J V MATERIAIS DE LIM ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "NEOLANDI SANTOS ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"703230 ", "emissao_pv": "30/07/2026 ", "vlr_total_produtos": "6000 ", "margem": "24,94 ", "nome_cliente": "HOSP DASA ", "uf_cliente": "MA ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"703232 ", "emissao_pv": "30/07/2026 ", "vlr_total_produtos": "2002,6 ", "margem": "32,8 ", "nome_cliente": "REDENTOR HOSPITALAR ", "uf_cliente": "DF ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" }
 
 
 
@@ -121,6 +121,6 @@
      "na_rota_da_meta": {
      "meta": 2102400.00,
      "faturamento_atual": 0,
-     "faturamento_previsto": 251785.05
+     "faturamento_previsto": 300378.26
   }
 }
