@@ -1,18 +1,18 @@
 {
-  "updated_at": "29/07/2026 18:36",
+  "updated_at": "30/07/2026 08:12",
   "kpis": {
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 1, "valor": "4842,61" },
-    { "status": "Alvará Sanitário", "quantidade": 3, "valor": "7727,5" },
-    { "status": "Bloqueado por regra", "quantidade": 2, "valor": "1482,49" },
-    { "status": "Análise de Crédito", "quantidade": 17, "valor": "138006,82" },
-    { "status": "Total em Disputa", "quantidade": 23, "valor": "152059,42" },
-    { "status": "Aguard. Envio Separação", "quantidade": 5, "valor": "125656,11" },
-    { "status": "Em Separação", "quantidade": 16, "valor": "388531,32" },
+    { "status": "Alvará Sanitário", "quantidade": 4, "valor": "18834,93" },
+    { "status": "Bloqueado por regra", "quantidade": 1, "valor": "301,86" },
+    { "status": "Análise de Crédito", "quantidade": 16, "valor": "114799,82" },
+    { "status": "Total em Disputa", "quantidade": 22, "valor": "138779,22" },
+    { "status": "Aguard. Envio Separação", "quantidade": 6, "valor": "163576,11" },
+    { "status": "Em Separação", "quantidade": 0, "valor": "0" },
     { "status": "Separado", "quantidade": 1, "valor": "1416,31" },
-    { "status": "Faturado", "quantidade": 99, "valor": "1000311,23" },
-    { "status": "Total", "quantidade": 121, "valor": "1515914,97" }
+    { "status": "Faturado", "quantidade": 0, "valor": "0" },
+    { "status": "Total", "quantidade": 7, "valor": "164992,42" }
  ],
  "recebimento_produtos": [
 
@@ -51,8 +51,8 @@
   {"numero_pedido":"703130 ", "emissao_pv": "29/07/2026 ", "vlr_total_produtos": "6488,94 ", "margem": "30,82 ", "nome_cliente": "ITA HOSPITALAR ", "uf_cliente": "CE ", "tipo_cliente": "REVENDEDOR ","vendedor": "LUCIA FLORESTA ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"703149 ", "emissao_pv": "29/07/2026 ", "vlr_total_produtos": "2201,6 ", "margem": "18,1 ", "nome_cliente": "LEBLON HOSPITALAR LT ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"703166 ", "emissao_pv": "29/07/2026 ", "vlr_total_produtos": "5700 ", "margem": "15,5 ", "nome_cliente": "COMERCIAL CIRURGICA ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOAO NETO ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"703176 ", "emissao_pv": "29/07/2026 ", "vlr_total_produtos": "37920 ", "margem": "10,48 ", "nome_cliente": "RICCO FARMA DISTRIBU ", "uf_cliente": "MA ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"703180 ", "emissao_pv": "29/07/2026 ", "vlr_total_produtos": "23094 ", "margem": "11,51 ", "nome_cliente": "ESTRELA ", "uf_cliente": "MT ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" }
+  {"numero_pedido":"703182 ", "emissao_pv": "29/07/2026 ", "vlr_total_produtos": "37807 ", "margem": "43,44 ", "nome_cliente": "GRUPO SHELF ", "uf_cliente": "AM ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. TURCATO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"703185 ", "emissao_pv": "29/07/2026 ", "vlr_total_produtos": "11107,43 ", "margem": "29,33 ", "nome_cliente": "UNILIFE HOSPITALAR D ", "uf_cliente": "CE ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. ALFA ", "ultimo_status": "Alvará Sanitário" }
 
 
 
@@ -83,18 +83,18 @@
   "performance_gerencial": {
     "mes_atual": {
      "periodo": "julho/2026",
-     "frete_pago": "523696,92",
-     "faturamento": "12261682,85",
-     "frete_repassado": "392216,04",
-     "entrega_realizada": "1380",
-     "entrega_no_prazo": "1351",
-     "qtd_notas_fiscais": "1851",
-     "entrega_fora_prazo": "29"
+     "frete_pago": "525900,87",
+     "faturamento": "12372680,68",
+     "frete_repassado": "401289,06",
+     "entrega_realizada": "1413",
+     "entrega_no_prazo": "1382",
+     "qtd_notas_fiscais": "1892",
+     "entrega_fora_prazo": "31"
 },
   "mes_anterior": {
      "periodo": "junho/2026",
-     "entrega_realizada": "1989",
-     "entrega_no_prazo": "1876"
+     "entrega_realizada": "1990",
+     "entrega_no_prazo": "1877"
   }
 },
   "expedicao": {
@@ -106,12 +106,12 @@
 
 
 "estoque": {
-  "ocupacao_total_armazem": 59.61,
-  "ocupacao_operacional": 64.16,
+  "ocupacao_total_armazem": 59.99,
+  "ocupacao_operacional": 64.69,
   "areas": [
-    { "nome": "Picking", "taxa": 81.99},
-    { "nome": "Pulmão de Abastecimento", "taxa": 61.00},
-    { "nome": "Flowrack", "taxa": 44.11},
+    { "nome": "Picking", "taxa": 82.70},
+    { "nome": "Pulmão de Abastecimento", "taxa": 61.50},
+    { "nome": "Flowrack", "taxa": 43.61},
     { "nome": "Área de Qualidade", "taxa": 17.78},
     { "nome": "Área de Amostra", "taxa": 0.00},
     { "nome": "Área de Avarias", "taxa": 39.53}
@@ -121,6 +121,6 @@
      "na_rota_da_meta": {
      "meta": 3500411.76,
      "faturamento_atual": 0,
-     "faturamento_previsto": 1515914.97
+     "faturamento_previsto": 164992.42
   }
 }
