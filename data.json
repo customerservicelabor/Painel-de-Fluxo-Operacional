@@ -1,18 +1,18 @@
 {
-  "updated_at": "30/07/2026 14:57",
+  "updated_at": "30/07/2026 15:52",
   "kpis": {
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 1, "valor": "4842,61" },
+    { "status": "Aguardando Liberação", "quantidade": 2, "valor": "6032,61" },
     { "status": "Alvará Sanitário", "quantidade": 0, "valor": "0" },
     { "status": "Bloqueado por regra", "quantidade": 1, "valor": "301,86" },
-    { "status": "Análise de Crédito", "quantidade": 26, "valor": "161291,75" },
-    { "status": "Total em Disputa", "quantidade": 28, "valor": "166436,22" },
-    { "status": "Aguard. Envio Separação", "quantidade": 0, "valor": "0" },
-    { "status": "Em Separação", "quantidade": 17, "valor": "334985,82" },
-    { "status": "Separado", "quantidade": 3, "valor": "4236,64" },
-    { "status": "Faturado", "quantidade": 50, "valor": "329909,18" },
-    { "status": "Total", "quantidade": 70, "valor": "669131,64" }
+    { "status": "Análise de Crédito", "quantidade": 33, "valor": "201926,87" },
+    { "status": "Total em Disputa", "quantidade": 36, "valor": "208261,34" },
+    { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "1284,4" },
+    { "status": "Em Separação", "quantidade": 16, "valor": "253594,57" },
+    { "status": "Separado", "quantidade": 3, "valor": "23424,57" },
+    { "status": "Faturado", "quantidade": 59, "valor": "427446,17" },
+    { "status": "Total", "quantidade": 79, "valor": "705749,71" }
  ],
  "recebimento_produtos": [
 
@@ -58,14 +58,14 @@
   {"numero_pedido":"703309 ", "emissao_pv": "30/07/2026 ", "vlr_total_produtos": "838,78 ", "margem": "42,06 ", "nome_cliente": "LABOR CENTER DIAGNOS ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"703315 ", "emissao_pv": "30/07/2026 ", "vlr_total_produtos": "1033,4 ", "margem": "37,47 ", "nome_cliente": "LAPAC ", "uf_cliente": "PB ", "tipo_cliente": "CONS.FINAL ","vendedor": "LUCIANA LIMA ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"703317 ", "emissao_pv": "30/07/2026 ", "vlr_total_produtos": "3944,4 ", "margem": "50,95 ", "nome_cliente": "LABORATORIO CENTRAL ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"703321 ", "emissao_pv": "30/07/2026 ", "vlr_total_produtos": "916,46 ", "margem": "41,12 ", "nome_cliente": "DENTAL SANTA APOLONI ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "NEOLANDI SANTOS ", "ultimo_status": "Análise de Crédito" }
-
-
-
-
-
-
-
+  {"numero_pedido":"703321 ", "emissao_pv": "30/07/2026 ", "vlr_total_produtos": "916,46 ", "margem": "41,12 ", "nome_cliente": "DENTAL SANTA APOLONI ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "NEOLANDI SANTOS ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"703327 ", "emissao_pv": "30/07/2026 ", "vlr_total_produtos": "1203,8 ", "margem": "22,77 ", "nome_cliente": "ATIVA ", "uf_cliente": "SE ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"703329 ", "emissao_pv": "30/07/2026 ", "vlr_total_produtos": "472,5 ", "margem": "45,82 ", "nome_cliente": "FIC COMPANY LTDA ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"703331 ", "emissao_pv": "30/07/2026 ", "vlr_total_produtos": "3855 ", "margem": "30,87 ", "nome_cliente": "DIOTEC COMERCIO MANU ", "uf_cliente": "CE ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"703341 ", "emissao_pv": "30/07/2026 ", "vlr_total_produtos": "8265 ", "margem": "27,92 ", "nome_cliente": "THIADE HEALTH COMERC ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"703345 ", "emissao_pv": "30/07/2026 ", "vlr_total_produtos": "8409,6 ", "margem": "35,65 ", "nome_cliente": "PHOSPODONT ", "uf_cliente": "RN ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"703347 ", "emissao_pv": "30/07/2026 ", "vlr_total_produtos": "17030 ", "margem": "24,58 ", "nome_cliente": "RECOPREL COMERCIAL ", "uf_cliente": "MA ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"703351 ", "emissao_pv": "30/07/2026 ", "vlr_total_produtos": "1399,22 ", "margem": "37,5 ", "nome_cliente": "DENTAL PROSPERA ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Análise de Crédito" }
 
 
 
@@ -121,6 +121,6 @@
      "na_rota_da_meta": {
      "meta": 2102400.00,
      "faturamento_atual": 0,
-     "faturamento_previsto": 669131.64
+     "faturamento_previsto": 705749.71
   }
 }
