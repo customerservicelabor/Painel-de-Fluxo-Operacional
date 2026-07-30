@@ -1,5 +1,5 @@
 {
-  "updated_at": "30/07/2026 19:19",
+  "updated_at": "30/07/2026 19:32",
   "kpis": {
   },
   "pedidos_status": [
@@ -9,9 +9,9 @@
     { "status": "Análise de Crédito", "quantidade": 22, "valor": "164140,83" },
     { "status": "Total em Disputa", "quantidade": 25, "valor": "165487,9" },
     { "status": "Aguard. Envio Separação", "quantidade": 0, "valor": "0" },
-    { "status": "Em Separação", "quantidade": 13, "valor": "244118,96" },
-    { "status": "Separado", "quantidade": 3, "valor": "7599,37" },
-    { "status": "Faturado", "quantidade": 125, "valor": "881111,58" },
+    { "status": "Em Separação", "quantidade": 11, "valor": "217019,77" },
+    { "status": "Separado", "quantidade": 3, "valor": "27157,66" },
+    { "status": "Faturado", "quantidade": 127, "valor": "888652,48" },
     { "status": "Total", "quantidade": 141, "valor": "1132829,91" }
  ],
  "recebimento_produtos": [
