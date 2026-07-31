@@ -11,7 +11,7 @@
     { "status": "Aguard. Envio Separação", "quantidade": 0, "valor": "0" },
     { "status": "Em Separação", "quantidade": 9, "valor": "62563,64" },
     { "status": "Separado", "quantidade": 34, "valor": "189103,9" },
-    { "status": "Faturado", "quantidade": 1, "valor": "3200" },
+    { "status": "Faturado", "quantidade": 1, "valor": "0" },
     { "status": "Total", "quantidade": 44, "valor": "254867,54" }
  ],
  "recebimento_produtos": [
