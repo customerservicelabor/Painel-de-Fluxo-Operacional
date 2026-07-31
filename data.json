@@ -1,5 +1,5 @@
 {
-  "updated_at": "31/07/2026 16:34",
+  "updated_at": "31/07/2026 16:58",
   "kpis": {
   },
   "pedidos_status": [
@@ -11,8 +11,8 @@
     { "status": "Aguard. Envio Separação", "quantidade": 0, "valor": "0" },
     { "status": "Em Separação", "quantidade": 9, "valor": "62563,64" },
     { "status": "Separado", "quantidade": 34, "valor": "189103,9" },
-    { "status": "Faturado", "quantidade": 1, "valor": "0" },
-    { "status": "Total", "quantidade": 44, "valor": "251667,54" }
+    { "status": "Faturado", "quantidade": 0, "valor": "0" },
+    { "status": "Total", "quantidade": 43, "valor": "251667,54" }
  ],
  "recebimento_produtos": [
 
@@ -83,18 +83,18 @@
   "performance_gerencial": {
     "mes_atual": {
      "periodo": "julho/2026",
-     "frete_pago": "494604,66",
-     "faturamento": "11547037,27",
-     "frete_repassado": "385484,79",
-     "entrega_realizada": "1298",
-     "entrega_no_prazo": "1273",
-     "qtd_notas_fiscais": "1778",
-     "entrega_fora_prazo": "25"
+     "frete_pago": "624438,5",
+     "faturamento": "14541754,1",
+     "frete_repassado": "439930,34",
+     "entrega_realizada": "1554",
+     "entrega_no_prazo": "1520",
+     "qtd_notas_fiscais": "2032",
+     "entrega_fora_prazo": "34"
 },
   "mes_anterior": {
      "periodo": "junho/2026",
-     "entrega_realizada": "1989",
-     "entrega_no_prazo": "1876"
+     "entrega_realizada": "1990",
+     "entrega_no_prazo": "1877"
   }
 },
   "expedicao": {
