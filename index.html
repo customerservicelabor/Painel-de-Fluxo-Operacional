@@ -1,120 +1,2737 @@
-{
-  "updated_at": "03/08/2026 08:17",
-  "kpis": {
-  },
-  "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 5, "valor": "31107,33" },
-    { "status": "Alvará Sanitário", "quantidade": 1, "valor": "371,4" },
-    { "status": "Bloqueado por regra", "quantidade": 0, "valor": "0" },
-    { "status": "Análise de Crédito", "quantidade": 18, "valor": "153652,08" },
-    { "status": "Total em Disputa", "quantidade": 24, "valor": "185130,81" },
-    { "status": "Aguard. Envio Separação", "quantidade": 0, "valor": "0" },
-    { "status": "Em Separação", "quantidade": 0, "valor": "0" },
-    { "status": "Separado", "quantidade": 58, "valor": "336423,51" },
-    { "status": "Faturado", "quantidade": 0, "valor": "0" },
-    { "status": "Total", "quantidade": 58, "valor": "336423,51" }
- ],
- "recebimento_produtos": [
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Painel de Fluxo Operacional – Indicador</title>
+
+  <style>
+    :root{
+      --bg:#0b1020;
+      --muted:#9aa4c0;
+      --text:#e9ecf5;
+
+      --good:#22c55e;
+      --warn:#f59e0b;
+      --bad:#ef4444;
+
+      --shadow: 0 14px 30px rgba(0,0,0,.25);
+      --radius:18px;
+
+      --ink:#0b1b3a;
+
+      --topRowMinH: 430px;
+      --bottomPanelH: 500px;
+
+      --mustard:#D4A017;
+      --totalGreen:#22c55e;
+      --blinkYellow:#FFE731;
+
+      --icon: rgba(11,27,58,.72);
+      --dividerStrong: rgba(11,27,58,.22);
+
+      --staleWarnBg: rgba(245,158,11,.22);
+      --staleWarnBd: rgba(245,158,11,.45);
+      --staleBadBg:  rgba(239,68,68,.22);
+      --staleBadBd:  rgba(239,68,68,.45);
+
+      --perfBadBg: rgba(236, 72, 153, .18);
+      --perfBadBd: rgba(236, 72, 153, .35);
+      --perfGoodBg: rgba(34, 197, 94, .14);
+      --perfGoodBd: rgba(34, 197, 94, .28);
+    }
+
+    *{ box-sizing:border-box; }
+
+    body{
+      margin:0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      background:
+        radial-gradient(1200px 600px at 30% 0%, rgba(11,134,255,.22), transparent 55%),
+        radial-gradient(900px 700px at 80% 20%, rgba(34,197,94,.12), transparent 60%),
+        var(--bg);
+      color:var(--text);
+    }
+
+    .wrap{
+      max-width: min(1800px, 96vw);
+      margin: 18px auto 28px;
+      padding: 0 18px;
+    }
+
+    header{
+      display:flex;
+      align-items:flex-end;
+      justify-content:space-between;
+      gap:16px;
+      margin-bottom:14px;
+      flex-wrap:wrap;
+    }
+
+    h1{
+      margin:0;
+      font-size:38px;
+      letter-spacing:.2px;
+    }
+
+    .rightHead{
+      display:flex;
+      gap:10px;
+      align-items:center;
+      flex-wrap:wrap;
+      justify-content:flex-end;
+    }
+
+    .updated{
+      color:var(--muted);
+      font-size:13px;
+      padding:10px 12px;
+      border:1px solid rgba(255,255,255,.10);
+      border-radius:999px;
+      background: rgba(255,255,255,.04);
+      backdrop-filter: blur(8px);
+      white-space:nowrap;
+      transition: background .2s ease, border-color .2s ease, color .2s ease;
+    }
+    .updated.stale-warn{
+      background: var(--staleWarnBg);
+      border-color: var(--staleWarnBd);
+      color: rgba(233,236,245,.92);
+    }
+    .updated.stale-bad{
+      background: var(--staleBadBg);
+      border-color: var(--staleBadBd);
+      color: rgba(233,236,245,.92);
+    }
+
+    .filter{
+      display:flex;
+      align-items:center;
+      gap:8px;
+      padding:8px 10px;
+      border:1px solid rgba(255,255,255,.10);
+      border-radius:999px;
+      background: rgba(255,255,255,.04);
+      backdrop-filter: blur(8px);
+    }
+    .filter label{
+      font-size:12px;
+      color: rgba(233,236,245,.80);
+    }
+
+    select{
+      background: rgba(0,0,0,.25);
+      color: var(--text);
+      border: 1px solid rgba(255,255,255,.12);
+      border-radius: 999px;
+      padding: 8px 10px;
+      font-size: 12px;
+      outline: none;
+    }
+
+    .topRow{
+      margin:14px 0 14px;
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+      align-items: stretch;
+      min-height: var(--topRowMinH);
+    }
+
+    .leftCol{
+      display:flex;
+      flex-direction:column;
+      gap: 14px;
+      height: var(--topRowMinH);
+      min-height: var(--topRowMinH);
+    }
+
+    .cardsBox{
+      border-radius: var(--radius);
+      background: rgba(255,255,255,.92);
+      border:1px solid rgba(255,255,255,.35);
+      box-shadow: var(--shadow);
+      padding: 14px 16px;
+      position:relative;
+      color: var(--ink);
+      overflow:hidden;
+      flex: 0 0 auto;
+    }
+
+    .cardsBox::before{
+      content:"";
+      position:absolute;
+      inset:-80px -120px auto auto;
+      width: 360px;
+      height: 360px;
+      background: radial-gradient(circle at 30% 30%, rgba(11,27,58,.10), transparent 60%);
+      transform: rotate(10deg);
+      opacity:.70;
+      pointer-events:none;
+    }
+
+    .miniKpis{
+      position:relative;
+      z-index:1;
+      display:grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+      width: 100%;
+    }
+
+    .miniKpi{
+      border-radius: 14px;
+      border: 1px solid rgba(11,27,58,.10);
+      background: rgba(255,255,255,.85);
+      padding: 9px 10px;
+      box-shadow: 0 10px 24px rgba(0,0,0,.10);
+      min-height: 62px;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+    }
+
+    .miniKpi .t{
+      font-size: 12px;
+      color: rgba(11,27,58,.72);
+      letter-spacing:.2px;
+      white-space:nowrap;
+      overflow:hidden;
+      text-overflow:ellipsis;
+    }
+
+    .miniKpi .v{
+      margin-top: 5px;
+      font-weight: 900;
+      font-size: clamp(21px, 2.1vw, 33px);
+      line-height: 1.05;
+      color: var(--ink);
+      white-space:nowrap;
+    }
+
+    .panel{
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow:hidden;
+      display:flex;
+      flex-direction:column;
+      min-height: var(--topRowMinH);
+      height:100%;
+    }
+
+    .panel .ph{
+      padding: 12px 14px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:10px;
+      border-bottom:1px solid rgba(11,27,58,.10);
+      background: rgba(255,255,255,.70);
+      flex: 0 0 auto;
+    }
+
+    .ph .ttl{
+      font-weight:800;
+      display:flex;
+      align-items:center;
+      gap:10px;
+    }
+
+    .badge{
+      font-size:12px;
+      padding: 6px 10px;
+      border-radius:999px;
+      border: 1px solid rgba(11,27,58,.12);
+      background: rgba(11,27,58,.06);
+      color: rgba(11,27,58,.82);
+      white-space:nowrap;
+    }
+
+    .headerActions{
+      display:flex;
+      align-items:center;
+      gap:8px;
+      flex-wrap:wrap;
+      justify-content:flex-end;
+    }
+
+    .miniBtn{
+      border: 1px solid rgba(11,27,58,.14);
+      background: rgba(11,27,58,.08);
+      color: var(--ink);
+      padding: 8px 12px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 800;
+      cursor: pointer;
+      transition: .15s ease;
+    }
+    .miniBtn:hover{
+      background: rgba(11,27,58,.14);
+      transform: translateY(-1px);
+    }
+
+    table{
+      width:100%;
+      border-collapse:collapse;
+    }
+
+    th, td{
+      padding: 10px 12px;
+      border-bottom: 1px solid rgba(11,27,58,.10);
+      vertical-align:middle;
+      font-size:13px;
+      color: var(--ink);
+    }
+
+    .scroll{
+      overflow:auto;
+      position: relative;
+      background: rgba(0,0,0,.04);
+      flex: 1 1 auto;
+      min-height: 0;
+      scrollbar-width: none;
+    }
+    .scroll::-webkit-scrollbar{
+      width:0;
+      height:0;
+    }
+
+    .panelLight{
+      background: rgba(255,255,255,.92);
+      border:1px solid rgba(255,255,255,.35);
+      color: var(--ink);
+    }
+
+    .panelLight .ph{
+      background: rgba(255,255,255,.70);
+      border-bottom: 1px solid rgba(11,27,58,.10);
+    }
+
+    .tblPedidos thead th{
+      position: sticky;
+      top: 0;
+      z-index: 5;
+      background: var(--bg);
+      color: rgba(233,236,245,.95);
+      text-transform:uppercase;
+      letter-spacing:.35px;
+      font-size:14px !important;
+      border-bottom: 1px solid rgba(255,255,255,.12);
+    }
+
+    .tblPedidos td:nth-child(2),
+    .tblPedidos td:nth-child(3),
+    .tblPedidos thead th:nth-child(2),
+    .tblPedidos thead th:nth-child(3){
+      text-align: right;
+    }
+
+    .tblPedidos td{
+      font-size:16px !important;
+    }
+
+    .tblPedidos td:nth-child(2){ font-weight: 500; }
+    .tblPedidos td:nth-child(3){ font-weight: 650; }
+
+    .pedidoCell{
+      display:flex;
+      align-items:center;
+      gap:10px;
+    }
+
+    .pedidoIcon{
+      width:16px;
+      height:16px;
+      flex: 0 0 16px;
+      color: var(--icon);
+    }
+
+    .pedidoText{
+      font-weight: 800;
+      letter-spacing:.1px;
+      font-size:16px !important;
+    }
+
+    .rowFaturado{
+      background: color-mix(in srgb, var(--mustard) 35%, transparent);
+    }
+
+    .rowDisputaTotal{
+      background: color-mix(in srgb, var(--mustard) 22%, transparent);
+      font-weight: 900;
+    }
+
+    .rowDisputaTotal td{
+      border-top: 2px solid var(--dividerStrong);
+    }
+
+    .rowDisputaTotal td:nth-child(3){
+      font-size: 15px;
+      font-weight: 950;
+    }
+
+    .rowPrevistoTotal{
+      background: color-mix(in srgb, var(--totalGreen) 28%, transparent);
+      font-weight: 950;
+    }
+
+    .rowPrevistoTotal td{
+      padding-top: 14px;
+      padding-bottom: 14px;
+      border-top: 2px solid var(--dividerStrong);
+    }
+
+    .rowPrevistoTotal td:nth-child(3){
+      font-size: 16px;
+      font-weight: 950;
+    }
+
+    .rowPrevistoTotal td:nth-child(2){
+      font-weight: 900;
+    }
+
+    @keyframes blinkWarn {
+      0%, 100% { background: transparent; }
+      50% { background: rgba(255,231,49,.45); }
+    }
+    .blinkWarn{ animation: blinkWarn 1.45s ease-in-out infinite; }
+
+    .panelPerfSoft .scroll{ background: rgba(11,27,58,.03); }
+    .panelPerfSoft th, .panelPerfSoft td{ font-size: 16px !important; }
+    .panelPerfSoft th{ color: rgba(11,27,58,.70); }
+    .panelPerfSoft td{ color: rgba(11,27,58,.92); }
+
+    .tblPerf thead th{
+      position: sticky;
+      top: 0;
+      z-index: 5;
+      background: rgba(12,18,38,.96);
+      color: rgba(233,236,245,.92);
+      text-transform: uppercase;
+      letter-spacing: .35px;
+      font-size: 14px !important;
+      border-bottom: 1px solid rgba(255,255,255,.12);
+      backdrop-filter: blur(8px);
+      text-align:center !important;
+    }
+
+    .tblPerf td, .tblPerf th{
+      text-align: center !important;
+    }
+
+    .tblPerf tbody td{
+      color: var(--ink) !important;
+    }
+
+    .perfBadge{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center !important;
+      gap:8px;
+      font-weight: 950;
+      font-size: 14px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      border: 1px solid rgba(11,27,58,.12);
+      background: rgba(11,27,58,.06);
+      min-width: 104px;
+      color: var(--ink);
+    }
+
+    .perfBadge.good{
+      border-color: var(--perfGoodBd);
+      background: var(--perfGoodBg);
+    }
+
+    .perfBadge.bad{
+      border-color: var(--perfBadBd);
+      background: var(--perfBadBg);
+    }
+
+    .perfDot{
+      width:8px;
+      height:8px;
+      border-radius:50%;
+      background: rgba(34,197,94,.85);
+      box-shadow: 0 0 0 4px rgba(34,197,94,.12);
+    }
+
+    .perfDot.bad{
+      background: rgba(239,68,68,.85);
+      box-shadow: 0 0 0 4px rgba(239,68,68,.12);
+    }
+
+    .rowPerfBad{
+      background: linear-gradient(90deg,
+        rgba(236, 72, 153, .12),
+        rgba(239, 68, 68, .10)
+      );
+    }
+
+    .panelDark{
+      background: rgba(255,255,255,.06);
+      border: 1px solid rgba(255,255,255,.10);
+      color: var(--text);
+      min-height: var(--bottomPanelH);
+      height: var(--bottomPanelH);
+    }
+
+    .panelDark .ph{
+      background: rgba(0,0,0,.14);
+      border-bottom:1px solid rgba(255,255,255,.10);
+    }
+
+    .panelDark .badge{
+      border: 1px solid rgba(255,255,255,.14);
+      background: rgba(255,255,255,.06);
+      color: rgba(233,236,245,.92);
+    }
+
+    .headDark thead th{
+      position: sticky;
+      top: 0;
+      z-index: 5;
+      background: rgba(12,18,38,.96);
+      color: rgba(233,236,245,.85);
+      text-transform:uppercase;
+      letter-spacing:.35px;
+      font-size:11px;
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid rgba(255,255,255,.12);
+    }
+
+    .headDark th, .headDark td{
+      border-bottom: 1px solid rgba(255,255,255,.08);
+      color: rgba(233,236,245,.92);
+    }
+
+    .headDark td .muted{
+      color: var(--muted);
+      font-size:12px;
+    }
+
+    .rowArrived{ background: rgba(245,158,11,.16); }
+    .rowLeft{ background: rgba(34,197,94,.18); }
+    .rowDelivered{ background: rgba(34,197,94,.18); }
+
+    .grid2{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+      margin-top: 12px;
+      align-items: stretch;
+    }
+
+    .foot{
+      margin-top: 12px;
+      color: var(--muted);
+      font-size: 12px;
+      display:flex;
+      justify-content:space-between;
+      gap:12px;
+      flex-wrap:wrap;
+    }
+
+    .tvAlertOverlay{
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 28px;
+      background: rgba(11,16,32,.86);
+      backdrop-filter: blur(8px);
+    }
+
+    .tvAlertCard{
+      width: min(980px, 92vw);
+      border-radius: 22px;
+      box-shadow: 0 20px 60px rgba(0,0,0,.45);
+      border: 1px solid rgba(255,255,255,.14);
+      background: rgba(255,255,255,.94);
+      color: #0b1b3a;
+      overflow: hidden;
+    }
+
+    .tvAlertTop{
+      display:flex;
+      align-items:center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 14px 16px;
+      background: rgba(239,68,68,.12);
+      border-bottom: 1px solid rgba(11,27,58,.12);
+    }
+
+    .tvAlertTitle{
+      font-weight: 950;
+      font-size: 18px;
+      letter-spacing: .2px;
+      text-transform: uppercase;
+    }
+
+    .tvAlertBadge{
+      font-size: 12px;
+      font-weight: 800;
+      padding: 8px 10px;
+      border-radius: 999px;
+      border: 1px solid rgba(239,68,68,.35);
+      background: rgba(239,68,68,.14);
+      white-space: nowrap;
+    }
+
+    .tvAlertBody{ padding: 18px 18px 16px; }
+
+    .tvAlertMsg{
+      font-size: clamp(18px, 2.2vw, 26px);
+      line-height: 1.25;
+      font-weight: 800;
+    }
+
+    .tvAlertSub{
+      margin-top: 10px;
+      color: rgba(11,27,58,.72);
+      font-size: 13px;
+    }
+
+    .pill{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      border-radius: 999px;
+      padding: 4px 8px;
+      font-size: 12px;
+      font-weight: 900;
+      border: 1px solid rgba(255,255,255,.16);
+      background: rgba(245,158,11,.18);
+      color: rgba(233,236,245,.95);
+      min-width: 36px;
+    }
+
+    .pill.good{ background: rgba(34,197,94,.18); }
+    .pill.bad{ background: rgba(239,68,68,.20); }
+
+    .modalOverlay{
+      position: fixed;
+      inset: 0;
+      background: rgba(11,16,32,.82);
+      backdrop-filter: blur(6px);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 10000;
+      padding: 20px;
+    }
+
+    .modalCard{
+      width: min(1400px, 96vw);
+      max-height: 88vh;
+      background: rgba(255,255,255,.97);
+      color: var(--ink);
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 24px 60px rgba(0,0,0,.38);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .modalHead{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:12px;
+      padding:14px 16px;
+      border-bottom:1px solid rgba(11,27,58,.10);
+      background: rgba(255,255,255,.92);
+    }
+
+    .modalTitle{
+      font-size:18px;
+      font-weight:900;
+    }
+
+    .modalActions{
+      display:flex;
+      gap:8px;
+      align-items:center;
+      flex-wrap:wrap;
+    }
+
+    .modalClose{
+      border:none;
+      background: rgba(11,27,58,.08);
+      color: var(--ink);
+      padding: 8px 12px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-weight: 800;
+    }
+
+    .modalBody{
+      overflow:auto;
+      background: rgba(11,27,58,.03);
+    }
+
+    .modalTable{
+      width:100%;
+      border-collapse:collapse;
+    }
+
+    .modalTable th{
+      position: sticky;
+      top: 0;
+      background: var(--bg);
+      color: rgba(233,236,245,.95);
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: .3px;
+      z-index: 2;
+    }
+
+    .modalTable th,
+    .modalTable td{
+      padding: 12px 14px;
+      border-bottom: 1px solid rgba(11,27,58,.10);
+      font-size: 14px;
+      color: var(--ink);
+      background: rgba(255,255,255,.92);
+    }
+
+    .modalTable td:nth-child(1),
+    .modalTable td:nth-child(7){
+      white-space: nowrap;
+    }
+
+    .modalEmpty{
+      padding: 22px;
+      text-align:center;
+      color: rgba(11,27,58,.72);
+      font-weight: 700;
+    }
+
+    .statusTag{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      padding: 6px 10px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 800;
+      border: 1px solid rgba(11,27,58,.12);
+      background: rgba(11,27,58,.06);
+      white-space: nowrap;
+    }
+
+    .statusTag.alvara{
+      background: rgba(245,158,11,.18);
+      border-color: rgba(245,158,11,.30);
+    }
+
+    .statusTag.credito{
+      background: rgba(59,130,246,.14);
+      border-color: rgba(59,130,246,.28);
+    }
+
+
+    .painelGerencial{
+      background: linear-gradient(180deg, rgba(255,255,255,.08), rgba(255,255,255,.045));
+      min-height: var(--bottomPanelH);
+      height: var(--bottomPanelH);
+      overflow: visible;
+    }
+
+    .gerencialBody{
+      flex:1 1 auto;
+      min-height:0;
+      padding: 12px 14px 12px;
+      display:flex;
+      flex-direction:column;
+      gap: 10px;
+      background: rgba(255,255,255,.06);
+      overflow: visible;
+    }
+
+    .gerencialTop{
+      display:grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+      flex: 0 0 auto;
+    }
+
+    .gerencialKpi{
+      border-radius: 14px;
+      background: linear-gradient(180deg, #142137, #0d1728);
+      color: rgba(233,236,245,.96);
+      border: 1px solid rgba(255,255,255,.12);
+      box-shadow: 0 10px 20px rgba(0,0,0,.22);
+      padding: 9px 10px;
+      text-align:center;
+      min-height: 68px;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+    }
+
+    .gerencialKpiLabel{
+      font-size: 13px;
+      color: rgba(233,236,245,.72);
+      font-weight: 800;
+      letter-spacing:.2px;
+    }
+
+    .gerencialKpiValue{
+      margin-top: 6px;
+      font-size: clamp(17px, 1.25vw, 24px);
+      line-height: 1.05;
+      color: rgba(233,236,245,.98);
+      font-weight: 950;
+      white-space:nowrap;
+    }
+
+    .freteFatKpi{
+      border-radius: 14px;
+      background: linear-gradient(180deg, #142137, #0d1728);
+      color: rgba(233,236,245,.96);
+      border: 1px solid rgba(255,255,255,.12);
+      box-shadow: 0 10px 20px rgba(0,0,0,.22);
+      padding: 10px 12px;
+      min-height: 68px;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+    }
+
+    .freteFatTitle{
+      text-align:center;
+      font-size: 13px;
+      color: rgba(233,236,245,.78);
+      font-weight: 850;
+      letter-spacing:.2px;
+      margin-bottom: 8px;
+    }
+
+    .freteFatRow{
+      display:grid;
+      grid-template-columns: 1fr auto;
+      gap: 10px;
+      align-items:center;
+    }
+
+    .freteFatBar{
+      height: 20px;
+      width: 100%;
+      border-radius: 3px;
+      overflow:hidden;
+      background: rgba(210,210,210,.66);
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,.10);
+    }
+
+    .freteFatFill{
+      height:100%;
+      width:0%;
+      background: #7a0610;
+      transition: width .6s ease;
+    }
+
+    .freteFatValue{
+      min-width: 64px;
+      text-align:right;
+      font-size: clamp(18px, 1.35vw, 24px);
+      line-height:1;
+      color: rgba(233,236,245,.92);
+      font-weight: 950;
+      white-space:nowrap;
+    }
+
+    .gerencialGrid{
+      flex:1 1 auto;
+      min-height:0;
+      display:grid;
+      grid-template-columns: .95fr 1.05fr;
+      gap: 12px;
+      align-items: stretch;
+    }
+
+    .slaBox,
+    .deltaBox,
+    .topEstadosBox{
+      border-radius: 16px;
+      background: rgba(255,255,255,.92);
+      color: var(--ink);
+      border: 1px solid rgba(255,255,255,.28);
+      box-shadow: 0 12px 24px rgba(0,0,0,.14);
+    }
+
+    .slaBox{
+      padding: 10px 12px 10px;
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:flex-start;
+      min-height:0;
+      height:100%;
+      overflow: visible;
+      background: linear-gradient(180deg, #f5f5f7, #e9eaee);
+    }
+
+    .slaTitle{
+      font-weight:950;
+      color: rgba(11,27,58,.88);
+      margin-bottom: 0;
+      font-size: 19px;
+      letter-spacing:.2px;
+      flex: 0 0 auto;
+    }
+
+    .slaGauge{
+      width: min(300px, 100%);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      flex-direction:column;
+      flex: 0 0 auto;
+      margin-top: 2px;
+    }
+
+    .slaGauge svg{ width:100%; height:auto; overflow:visible; }
+
+    .slaValueText{
+      font-size: 29px;
+      font-weight: 950;
+      dominant-baseline: middle;
+      text-anchor: middle;
+      filter: drop-shadow(0 2px 3px rgba(0,0,0,.10));
+    }
+
+    .slaSmallText{
+      font-size: 9px;
+      fill: rgba(11,27,58,.64);
+      font-weight: 850;
+      dominant-baseline: middle;
+      text-anchor: middle;
+    }
+
+    .slaPeriodText{
+      font-size: 9px;
+      fill: rgba(11,27,58,.68);
+      font-weight: 850;
+      dominant-baseline: middle;
+      text-anchor: middle;
+    }
+
+    .slaScaleText{
+      font-size: 9px;
+      fill: rgba(11,27,58,.76);
+      font-weight: 900;
+      dominant-baseline: middle;
+      text-anchor: middle;
+    }
+
+    .slaLegend{
+      width: 100%;
+      display:grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 6px;
+      margin-top: 2px;
+      padding: 7px 8px 6px;
+      border-top: 1px solid rgba(11,27,58,.06);
+      background: rgba(255,255,255,.35);
+      flex: 0 0 auto;
+      overflow: visible;
+    }
+
+    .slaLegendItem{
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
+      gap: 0px;
+      color: rgba(11,27,58,.84);
+      font-weight: 900;
+      font-size: 12px;
+      line-height:1.1;
+      text-align:center;
+      white-space:nowrap;
+      min-width:0;
+    }
+
+    .slaLegendItem .legendTop{
+      display:flex;
+      align-items:center;
+      gap: 5px;
+    }
+
+    .slaLegendDot{
+      width:10px;
+      height:10px;
+      border-radius:50%;
+      display:inline-block;
+      box-shadow:0 0 0 3px rgba(11,27,58,.06);
+    }
+
+    .slaLegendSub{
+      color: rgba(11,27,58,.62);
+      font-size: 10px;
+      font-weight:800;
+    }
+
+    .slaMeta{
+      display:none;
+    }
+
+    .gerencialInsights{
+      display:grid;
+      grid-template-rows: auto 1fr;
+      gap: 14px;
+      min-height:0;
+    }
+
+    .deltaBox{
+      padding: 18px 16px;
+      text-align:center;
+      background: linear-gradient(180deg, #263955, #18263d) !important;
+      color: rgba(233,236,245,.96) !important;
+      border: 1px solid rgba(255,255,255,.12) !important;
+      box-shadow: 0 14px 28px rgba(0,0,0,.22);
+      min-height: 122px;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+    }
+
+    .deltaLabel{
+      font-size: 12px;
+      color: rgba(233,236,245,.74);
+      font-weight: 800;
+    }
+
+    .deltaValue{
+      margin-top: 6px;
+      font-size: clamp(20px, 1.9vw, 30px);
+      line-height:1.1;
+      font-weight: 950;
+    }
+
+    .deltaSub{
+      margin-top: 4px;
+      font-size: 13px;
+      font-weight: 800;
+      color: rgba(233,236,245,.78);
+    }
+
+    .topEstadosBox{
+      min-height:0;
+      padding: 12px 14px;
+      display:flex;
+      flex-direction:column;
+    }
+
+    .emptyGerencialSpace{
+      background: linear-gradient(180deg, rgba(36,52,77,.72), rgba(24,37,58,.56)) !important;
+      border: 1px dashed rgba(255,255,255,.16) !important;
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,.035);
+    }
+
+    .notasMesBox{
+      min-height:0;
+      padding: 0;
+      display:flex;
+      align-items:stretch;
+      justify-content:stretch;
+      overflow:hidden;
+      background: linear-gradient(180deg, #263955, #18263d) !important;
+      border: 1px solid rgba(255,255,255,.12) !important;
+      box-shadow: 0 14px 28px rgba(0,0,0,.22);
+    }
+
+    .notasMesGrid{
+      width:100%;
+      display:grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      align-items:stretch;
+      min-height: 100%;
+    }
+
+    .notasMesItem{
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      gap: 14px;
+      padding: 14px 10px;
+      color: rgba(233,236,245,.94);
+      position:relative;
+      min-width:0;
+    }
+
+    .notasMesItem:not(:last-child)::after{
+      content:"";
+      position:absolute;
+      top:18px;
+      bottom:18px;
+      right:0;
+      width:1px;
+      border-right:1px dashed rgba(255,255,255,.22);
+    }
+
+    .notasMesLabel{
+      font-size: clamp(12px, .92vw, 16px);
+      font-weight: 800;
+      line-height:1.18;
+      color: rgba(233,236,245,.96);
+    }
+
+    .notasMesValue{
+      font-size: clamp(28px, 2.8vw, 48px);
+      line-height:1;
+      font-weight: 950;
+      letter-spacing:.2px;
+    }
+
+    .notasMesValue.ok{ color:#9bd98a; }
+    .notasMesValue.bad{ color:#ff4b4b; }
+
+    .topEstadosTitle{
+      font-size: 13px;
+      color: rgba(11,27,58,.78);
+      font-weight: 950;
+      margin-bottom: 8px;
+    }
+
+    .topEstadosList{
+      display:flex;
+      flex-direction:column;
+      gap: 7px;
+      min-height:0;
+    }
+
+    .estadoItem{
+      display:grid;
+      grid-template-columns: 32px 1fr auto;
+      align-items:center;
+      gap: 8px;
+      padding: 8px 10px;
+      border-radius: 12px;
+      background: rgba(11,27,58,.055);
+      border: 1px solid rgba(11,27,58,.07);
+      font-size: 13px;
+      font-weight: 900;
+    }
+
+    .estadoPos{
+      color: rgba(11,27,58,.50);
+    }
+
+    .estadoUf{
+      color: var(--ink);
+    }
+
+    .estadoSla{
+      font-weight: 950;
+    }
+
+    .estadoSub{
+      font-size: 11px;
+      color: rgba(11,27,58,.55);
+      font-weight: 800;
+    }
 
 
 
+    /* ===== QUADRO EXPEDIÇÃO ===== */
+    .expedicaoPanel{
+      min-height: var(--bottomPanelH);
+      height: var(--bottomPanelH);
+      background: rgba(255,255,255,.06);
+      border: 1px solid rgba(255,255,255,.10);
+      color: var(--text);
+    }
+
+    .expedicaoPanel .ph{
+      background: rgba(0,0,0,.14);
+      border-bottom: 1px solid rgba(255,255,255,.10);
+      padding: 12px 14px;
+      min-height: 48px;
+    }
+
+    .expedicaoBody{
+      flex: 1 1 auto;
+      min-height: 0;
+      background: #1f2b3a;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    .expedicaoIndicadores{
+      height: 50%;
+      min-height: 210px;
+      display: grid;
+      grid-template-columns: 1fr 1px 1fr 1px 1.08fr;
+      align-items: stretch;
+      padding: 10px 18px 12px;
+      border-bottom: 1px dashed rgba(255,255,255,.22);
+    }
+
+    .expedicaoDivisor{
+      width: 1px;
+      height: 100%;
+      border-right: 1px dashed rgba(255,255,255,.20);
+      align-self: stretch;
+    }
+
+    .expedicaoKpi{
+      min-width: 0;
+      display: grid;
+      grid-template-columns: 72px 1fr;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      padding: 0 18px;
+    }
+
+    .expedicaoIcone{
+      width: 62px;
+      height: 62px;
+      border-radius: 50%;
+      background: #ffd5b8;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      flex: 0 0 auto;
+    }
+
+    .expedicaoIcone svg{
+      width: 38px;
+      height: 38px;
+      display:block;
+    }
+
+    .expedicaoTitulo{
+      font-size: clamp(15px, 1vw, 18px);
+      line-height: 1.25;
+      color: rgba(233,236,245,.84);
+      font-weight: 500;
+      margin-bottom: 10px;
+    }
+
+    .expedicaoNumero{
+      font-size: clamp(42px, 3.5vw, 62px);
+      line-height: .95;
+      color: #ffb27c;
+      font-weight: 950;
+      letter-spacing: .2px;
+    }
+
+    .expedicaoSub{
+      margin-top: 8px;
+      font-size: 15px;
+      color: rgba(233,236,245,.82);
+      font-weight: 800;
+    }
+
+    .expedicaoValores{
+      min-width:0;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      gap: 24px;
+      padding: 0 20px;
+    }
+
+    .expedicaoValorTitulo{
+      color: rgba(233,236,245,.82);
+      font-size: clamp(15px, 1vw, 18px);
+      line-height: 1.2;
+      margin-bottom: 6px;
+      white-space: nowrap;
+    }
+
+    .expedicaoValor{
+      font-size: clamp(18px, 1.45vw, 26px);
+      line-height: 1.05;
+      font-weight: 500;
+      white-space: nowrap;
+    }
+
+    .expedicaoValor.ok{ color: #9bd98a; }
+    .expedicaoValor.bad{ color: #ff3b3b; }
+
+    .expedicaoAreaLivre{
+      flex: 1 1 auto;
+      min-height: 0;
+    }
+
+    /* ===== CAPACIDADE DO ARMAZÉM ===== */
+    .capacidadePanel{
+      min-height: var(--bottomPanelH);
+      height: var(--bottomPanelH);
+      background: rgba(255,255,255,.06);
+      border: 1px solid rgba(255,255,255,.10);
+      color: var(--text);
+    }
+
+    .capacidadePanel .ph{
+      background: rgba(0,0,0,.14);
+      border-bottom: 1px solid rgba(255,255,255,.10);
+      padding: 12px 14px;
+      min-height: 48px;
+    }
+
+    .capacidadeBody{
+      flex:1 1 auto;
+      padding: 14px 16px;
+      background: linear-gradient(180deg, #071a2c, #061423);
+      display:grid;
+      grid-template-columns: .9fr 1.1fr;
+      gap: 16px;
+      min-height:0;
+    }
+
+    .capacidadeGaugeBox{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      border-right:1px solid rgba(255,255,255,.12);
+      min-width:0;
+    }
+
+    .capacidadeGaugeBox svg{
+      width:100%;
+      max-width:390px;
+      height:auto;
+      overflow:visible;
+      display:block;
+    }
+
+    .capacidadeAreas{
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      min-width:0;
+    }
+
+    .capacidadeSecaoTitulo{
+      color:#38bdf8;
+      font-weight:900;
+      text-transform:uppercase;
+      font-size:14px;
+      margin-bottom:10px;
+      letter-spacing:.35px;
+    }
+
+    .capacidadeAreaItem{
+      display:grid;
+      grid-template-columns: 150px 1fr 72px;
+      gap:10px;
+      align-items:center;
+      padding:9px 0;
+      border-bottom:1px solid rgba(255,255,255,.08);
+    }
+
+    .capacidadeAreaNome{
+      font-size:14px;
+      font-weight:750;
+      color:rgba(233,236,245,.92);
+      line-height:1.15;
+    }
+
+    .capacidadeBarra{
+      height:10px;
+      border-radius:999px;
+      background:rgba(255,255,255,.08);
+      overflow:hidden;
+    }
+
+    .capacidadeFill{
+      height:100%;
+      border-radius:999px;
+      background:#22c55e;
+      transition: width .6s ease;
+    }
+
+    .capacidadeFill.warn{ background:#fbbf24; }
+    .capacidadeFill.bad{ background:#ef4444; }
+
+    .capacidadeValor{
+      text-align:right;
+      font-weight:950;
+      font-size:18px;
+      color:#fff;
+      white-space:nowrap;
+    }
+
+    .ocupacaoOperacionalBox{
+      margin-top:14px;
+      padding:12px 14px;
+      border-radius:14px;
+      background:rgba(255,255,255,.07);
+      border:1px solid rgba(255,255,255,.10);
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:12px;
+    }
+
+    .ocupacaoOperacionalBox strong{
+      display:block;
+      color:#38bdf8;
+      font-size:14px;
+      text-transform:uppercase;
+    }
+
+    .ocupacaoOperacionalBox span{
+      display:block;
+      color:rgba(233,236,245,.72);
+      font-size:12px;
+      margin-top:3px;
+    }
+
+    #ocupacaoOperacionalValor{
+      font-size:28px;
+      font-weight:950;
+      color:#fff;
+      white-space:nowrap;
+    }
+
+    @media (max-width: 1200px){
+      .capacidadeBody{
+        grid-template-columns:1fr;
+      }
+      .capacidadeGaugeBox{
+        border-right:0;
+        border-bottom:1px solid rgba(255,255,255,.12);
+        padding-bottom:12px;
+      }
+
+      .expedicaoIndicadores{
+        height: auto;
+        min-height: 0;
+        grid-template-columns: 1fr;
+        gap: 14px;
+        padding: 16px;
+      }
+
+      .expedicaoDivisor{ display:none; }
+
+      .expedicaoKpi{
+        grid-template-columns: 64px 1fr;
+        justify-content:start;
+        padding: 0;
+      }
+
+      .expedicaoValores{
+        padding: 0;
+      }
+    }
+
+    @media (max-width: 980px){
+      .gerencialTop{ grid-template-columns: 1fr; }
+      .gerencialGrid{ grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 1200px){
+      .topRow{ grid-template-columns: 1fr; min-height: auto; }
+      .miniKpis{ grid-template-columns: 1fr; }
+      .leftCol{
+        height:auto !important;
+        min-height:auto !important;
+      }
+      #panelPedidos{
+        height:auto !important;
+        min-height:auto !important;
+      }
+      .panelDark{
+        height:auto !important;
+        min-height: 360px !important;
+      }
+    }
+
+    @media (max-width: 980px){
+      .grid2{ grid-template-columns: 1fr; }
+      h1{ font-size:30px; }
+      .modalCard{ width: 98vw; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <header>
+      <div>
+        <h1>Painel de Fluxo Operacional</h1>
+      </div>
+
+      <div class="rightHead">
+        <div class="updated" id="updatedAt">Atualizado em: --/--/----</div>
+      </div>
+    </header>
+
+    <section class="topRow">
+      <div class="leftCol" id="leftCol">
+        <div class="panel panelLight panelPerfSoft" id="panelRecebimento" style="min-height:0; flex:1 1 auto;">
+          <div class="ph">
+            <div class="ttl">Recebimento de Produtos</div>
+            <div class="badge" id="recebimentoCount">— itens</div>
+          </div>
+
+          <div class="scroll" id="scrollRecebimento">
+            <table class="tblPerf">
+              <thead>
+                <tr>
+                  <th>Embarque</th>
+                  <th>Tipo</th>
+                  <th>Recebimento</th>
+                  <th>Confirmado</th>
+                  <th>Chegada CD</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody id="tbodyRecebimento"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panelLight" id="panelPedidos">
+        <div class="ph">
+          <div class="ttl">Gestão de Pedidos</div>
+          <div class="headerActions">
+            <button class="miniBtn" onclick="openPedidosModal('alvara')">Ver Alvará</button>
+            <button class="miniBtn" onclick="openPedidosModal('credito')">Ver Crédito</button>
+            <div class="badge" id="pedidosCount">— itens</div>
+          </div>
+        </div>
+
+        <div class="scroll" id="scrollPedidos" style="flex:1 1 auto; min-height:0;">
+          <table class="tblPedidos">
+            <thead>
+              <tr>
+                <th>Pedidos</th>
+                <th>Quantidade</th>
+                <th>Valor</th>
+              </tr>
+            </thead>
+            <tbody id="tbodyPedidos"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid2">
+<div class="panel panelDark capacidadePanel" id="panelExpedicao">
+        <div class="ph">
+          <div class="ttl">Capacidade do Armazém</div>
+          <div class="badge" id="capacidadeStatus">—</div>
+        </div>
+
+        <div class="capacidadeBody">
+          <div class="capacidadeGaugeBox" id="capacidadeGauge"></div>
+
+          <div class="capacidadeAreas">
+            <div class="capacidadeSecaoTitulo">Ocupação por área</div>
+            <div id="capacidadeAreasList"></div>
+
+            <div class="ocupacaoOperacionalBox">
+              <div>
+                <strong>Ocupação Operacional</strong>
+                <span>Áreas disponíveis para operação</span>
+              </div>
+              <div id="ocupacaoOperacionalValor">—</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+            <div class="panel panelDark painelGerencial" id="panelGerencial">
+        <div class="ph">
+          <div class="ttl">Transportes</div>
+          <div class="badge" id="gerencialPeriodo">—</div>
+        </div>
+
+        <div class="gerencialBody">
+          <div class="gerencialTop">
+            <div class="gerencialKpi">
+              <div class="gerencialKpiLabel">Frete Bruto</div>
+              <div class="gerencialKpiValue" id="fretePagoKpi">—</div>
+            </div>
+            <div class="gerencialKpi">
+              <div class="gerencialKpiLabel">R$ Frete Repassado</div>
+              <div class="gerencialKpiValue" id="freteRepassadoValorKpi">—</div>
+            </div>
+            <div class="freteFatKpi">
+              <div class="freteFatTitle">Frete Sobre Faturamento</div>
+              <div class="freteFatRow">
+                <div class="freteFatBar" aria-label="Percentual de frete pago sobre faturamento">
+                  <div class="freteFatFill" id="freteSobreFatFill"></div>
+                </div>
+                <div class="freteFatValue" id="freteSobreFatKpi">—</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="gerencialGrid">
+            <div class="slaBox">
+              <div class="slaTitle">Performance</div>
+              <div class="slaGauge" id="slaGauge"></div>
+              <div class="slaMeta" id="slaMeta">—</div>
+            </div>
+
+            <div class="gerencialInsights">
+              <div class="deltaBox">
+                <div class="deltaLabel">Performance atual vs mês anterior</div>
+                <div class="deltaValue" id="deltaSla">—</div>
+                <div class="deltaSub" id="deltaSlaSub">—</div>
+              </div>
+
+              <div class="topEstadosBox notasMesBox" aria-label="Resumo de notas fiscais do mês atual">
+                <div class="notasMesGrid">
+                  <div class="notasMesItem">
+                    <div class="notasMesLabel">Qtd de Notas<br>Fiscais</div>
+                    <div class="notasMesValue" id="qtdNotasMesAtual">—</div>
+                  </div>
+                  <div class="notasMesItem">
+                    <div class="notasMesLabel">Entregue no<br>Prazo</div>
+                    <div class="notasMesValue ok" id="notasNoPrazoMesAtual">—</div>
+                  </div>
+                  <div class="notasMesItem">
+                    <div class="notasMesLabel">Entregue fora<br>do prazo</div>
+                    <div class="notasMesValue bad" id="notasForaPrazoMesAtual">—</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="foot">
+      <div>Observação: painel alimentado via <strong>data.json</strong>.</div>
+      <div>Labor • Fluxo Operacional • Indicadores</div>
+    </div>
+  </div>
+
+  <div class="tvAlertOverlay" id="tvAlertOverlay" aria-live="assertive" aria-atomic="true">
+    <div class="tvAlertCard">
+      <div class="tvAlertTop">
+        <div class="tvAlertTitle" id="tvAlertTitle">Atenção</div>
+        <div class="tvAlertBadge" id="tvAlertTimer">20s</div>
+      </div>
+      <div class="tvAlertBody">
+        <div class="tvAlertMsg" id="tvAlertMsg">—</div>
+        <div class="tvAlertSub">Mensagem operacional • Some automaticamente</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modalOverlay" id="pedidosModal">
+    <div class="modalCard">
+      <div class="modalHead">
+        <div class="modalTitle" id="pedidosModalTitle">Lista de Pedidos</div>
+        <div class="modalActions">
+          <div class="badge" id="pedidosModalCount">0 itens</div>
+          <button class="modalClose" onclick="closePedidosModal()">Fechar</button>
+        </div>
+      </div>
+
+      <div class="modalBody">
+        <table class="modalTable">
+          <thead>
+            <tr>
+              <th>Pedido</th>
+              <th>Emissão</th>
+              <th>Cliente</th>
+              <th>UF</th>
+              <th>Tipo</th>
+              <th>Vendedor</th>
+              <th>Valor</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody id="pedidosModalBody"></tbody>
+        </table>
+        <div class="modalEmpty" id="pedidosModalEmpty" style="display:none;">Nenhum pedido encontrado.</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const fmtBRL = new Intl.NumberFormat('pt-BR', { style:'currency', currency:'BRL' });
+    let DATA_CACHE = null;
+
+    let autoScrollInstances = [];
+
+    function stopAllAutoScroll(){
+      autoScrollInstances.forEach(inst => inst && inst.stop && inst.stop());
+      autoScrollInstances = [];
+    }
+
+function startAutoScroll(el, {
+  speedPxPerTick = 1,
+  tickMs = 35,
+  pauseOnReset = 700
+} = {}) {
+
+  if (!el) return null;
+
+  let timer = null;
+  let resetting = false;
+
+  const run = () => {
+
+    clearInterval(timer);
+
+    timer = setInterval(() => {
+
+      if (resetting) return;
+
+      const maxScroll = el.scrollHeight - el.clientHeight;
+
+      if (maxScroll <= 0) return;
+
+      el.scrollTop += speedPxPerTick;
+
+      // chegou no final
+      if (el.scrollTop >= (maxScroll - 2)) {
+
+        resetting = true;
+
+        setTimeout(() => {
+          el.scrollTop = 0;
+          resetting = false;
+        }, pauseOnReset);
+
+      }
+
+    }, tickMs);
+
+  };
+
+  run();
+
+  return {
+    stop(){
+      clearInterval(timer);
+    }
+  };
+}
+
+    function initAutoScrollTV() {
+  stopAllAutoScroll();
+
+  autoScrollInstances.push(
+    startAutoScroll(document.getElementById('scrollRecebimento'), {
+      speedPxPerTick: 1,
+      tickMs: 55
+    })
+  );
+
+  autoScrollInstances.push(
+    startAutoScroll(document.getElementById('scrollPedidos'), {
+      speedPxPerTick: 1,
+      tickMs: 55
+    })
+  );
+}
+
+    function parseDateFlex(s){
+      if(!s) return null;
+      s = String(s).trim();
+
+      let m = s.match(/^(\d{4})[-\/](\d{2})[-\/](\d{2})$/);
+      if(m){
+        const [_, yy, mm, dd] = m;
+        const d = new Date(`${yy}-${mm}-${dd}T00:00:00`);
+        return Number.isFinite(d.getTime()) ? d : null;
+      }
+
+      m = s.match(/^(\d{2})\/(\d{2})\/(\d{4})$/);
+      if(m){
+        const [_, dd, mm, yy] = m;
+        const d = new Date(`${yy}-${mm}-${dd}T00:00:00`);
+        return Number.isFinite(d.getTime()) ? d : null;
+      }
+
+      return null;
+    }
+
+    function formatBRDateFlex(s){
+      const d = parseDateFlex(s);
+      return d ? d.toLocaleDateString('pt-BR') : '—';
+    }
+
+    function parseUpdatedDate(updatedAtStr){
+      const parts = String(updatedAtStr || '').split(" ");
+      const datePart = parts[0] || "01/01/1970";
+      const timePart = parts[1] || "00:00";
+
+      let d = parseDateFlex(datePart);
+      if(!d){
+        const [dd, mm, yyyy] = datePart.split("/").map(Number);
+        d = new Date(yyyy || 1970, (mm || 1)-1, dd || 1);
+      }
+
+      const [HH, MM] = timePart.split(":").map(Number);
+      d.setHours(HH || 0, MM || 0, 0, 0);
+      return d;
+    }
+
+    function formatUpdatedAtToBadge(data){
+      const el = document.getElementById('updatedAt');
+      if (!el) return;
+
+      el.classList.remove('stale-warn','stale-bad');
+      el.textContent = 'Atualizado em: ' + (data.updated_at || '--/--/----');
+
+      const updated = parseUpdatedDate(data.updated_at);
+      const diffMs = Date.now() - updated.getTime();
+      if (!Number.isFinite(diffMs)) return;
+
+      const diffMin = Math.floor(diffMs / 60000);
+
+      if (diffMin > 120){
+        el.classList.add('stale-bad');
+      } else if (diffMin > 60){
+        el.classList.add('stale-warn');
+      }
+    }
+
+    function parseISODateSafe(iso){
+      const t = Date.parse(String(iso || ''));
+      return Number.isFinite(t) ? t : NaN;
+    }
+
+    function isExpired(createdAtISO, ttlMinutes){
+      const createdMs = parseISODateSafe(createdAtISO);
+      if (!Number.isFinite(createdMs)) return false;
+      const ttl = Number(ttlMinutes) || 0;
+      if (ttl <= 0) return false;
+      return (Date.now() - createdMs) > (ttl * 60 * 1000);
+    }
+
+    const TV_ALERT_STORAGE_KEY = "last_tv_alert_id_v1";
+
+    function showTvAlert(alertObj){
+      const overlay = document.getElementById('tvAlertOverlay');
+      const titleEl = document.getElementById('tvAlertTitle');
+      const msgEl   = document.getElementById('tvAlertMsg');
+      const timerEl = document.getElementById('tvAlertTimer');
+      if (!overlay || !titleEl || !msgEl || !timerEl) return;
+
+      const title = String(alertObj.title || 'Atenção').trim();
+      const msg   = String(alertObj.message || '').trim();
+      const secs  = Math.max(5, Math.min(60, Number(alertObj.duration_seconds) || 20));
+
+      titleEl.textContent = title;
+      msgEl.textContent = msg;
+      overlay.style.display = 'flex';
+
+      let remaining = secs;
+      timerEl.textContent = `${remaining}s`;
+
+      const t = setInterval(() => {
+        remaining -= 1;
+        timerEl.textContent = `${Math.max(0, remaining)}s`;
+        if (remaining <= 0){
+          clearInterval(t);
+          overlay.style.display = 'none';
+        }
+      }, 1000);
+    }
+
+    function tryShowTvAlert(data){
+      const a = data?.tv_alert;
+      if (!a || a.enabled !== true) return;
+
+      const id = String(a.id || '').trim();
+      const msg = String(a.message || '').trim();
+      if (!id || !msg) return;
+      if (isExpired(a.created_at, a.ttl_minutes)) return;
+
+      const lastId = sessionStorage.getItem(TV_ALERT_STORAGE_KEY);
+      if (lastId === id) return;
+
+      sessionStorage.setItem(TV_ALERT_STORAGE_KEY, id);
+      showTvAlert(a);
+    }
+
+    function daysDiff(later, earlier){
+      const ms = later.getTime() - earlier.getTime();
+      return Math.floor(ms / (1000*60*60*24));
+    }
+
+    function normalizeCarrier(s){
+      return String(s || '').trim();
+    }
+
+    function applyCarrierFilter(list, carrier){
+      if (!carrier || carrier === '__ALL__') return list;
+      return list.filter(it => normalizeCarrier(it.transportador) === carrier);
+    }
+
+    function buildCarrierOptions(data){
+      const carriers = new Set();
+
+      for (const it of (data.notas_em_atraso || [])){
+        carriers.add(normalizeCarrier(it.transportador));
+      }
+
+      for (const it of (data.notas_previstas_hoje || [])){
+        carriers.add(normalizeCarrier(it.transportador));
+      }
+
+      for (const it of (data.performance_transportadoras || [])){
+        carriers.add(normalizeCarrier(it.transportadora || it.transportador || it.nome));
+      }
+
+      const sorted = Array.from(carriers).filter(Boolean).sort((a,b) => a.localeCompare(b, 'pt-BR'));
+      const sel = document.getElementById('carrierFilter');
+      const currentValue = sel.value;
+
+      sel.querySelectorAll('option:not([value="__ALL__"])').forEach(o => o.remove());
+
+      for (const c of sorted){
+        const opt = document.createElement('option');
+        opt.value = c;
+        opt.textContent = c;
+        sel.appendChild(opt);
+      }
+
+      const exists = Array.from(sel.options).some(o => o.value === currentValue);
+      sel.value = exists ? currentValue : '__ALL__';
+    }
+
+    function parseBRLValue(v){
+      if (typeof v === 'number' && Number.isFinite(v)) return v;
+
+      const s = String(v ?? '').trim();
+      if (!s) return 0;
+
+      const cleaned = s
+        .replace(/\s+/g,' ')
+        .replace(/R\$\s?/i,'')
+        .replace(/\./g,'')
+        .replace(',','.');
+
+      const n = Number(cleaned);
+      return Number.isFinite(n) ? n : 0;
+    }
+
+    function parsePercentFlex(v){
+      if (typeof v === 'number' && Number.isFinite(v)) return v;
+      const s = String(v ?? '').trim();
+      if (!s) return NaN;
+
+      const cleaned = s
+        .replace('%','')
+        .replace(/\./g,'')
+        .replace(',','.')
+        .trim();
+
+      const n = Number(cleaned);
+      return Number.isFinite(n) ? n : NaN;
+    }
+
+    function normKey(s){
+      return String(s || '')
+        .trim()
+        .toLowerCase()
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '');
+    }
+
+    function svgIcon(kind){
+      const common = 'xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"';
+
+      if (kind === 'cart') {
+        return `<svg ${common}><circle cx="9" cy="20" r="1"/><circle cx="17" cy="20" r="1"/><path d="M3 4h2l2.2 10.5a2 2 0 0 0 2 1.5h7.6a2 2 0 0 0 2-1.6L21 8H6"/></svg>`;
+      }
+      if (kind === 'stop') {
+        return `<svg ${common}><path d="M7 3h10l4 4v10l-4 4H7l-4-4V7z"/><path d="M9 9l6 6"/><path d="M15 9l-6 6"/></svg>`;
+      }
+      if (kind === 'doc') {
+        return `<svg ${common}><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M8 13h8"/><path d="M8 17h8"/></svg>`;
+      }
+      if (kind === 'hourglass') {
+        return `<svg ${common}><path d="M6 2h12"/><path d="M6 22h12"/><path d="M8 2c0 6 8 6 8 12"/><path d="M16 2c0 6-8 6-8 12"/></svg>`;
+      }
+      return `<svg ${common}><path d="M20.6 13.4 12 22l-10-10V2h10z"/><path d="M7 7h.01"/></svg>`;
+    }
+
+    function iconKindForStatus(status){
+      const s = String(status || '').toLowerCase();
+      if (s.includes('ecommerce') || s.includes('e-commerce')) return 'cart';
+      if (s.includes('bloque')) return 'stop';
+      if (s.includes('fatur')) return 'doc';
+      if (s.includes('análise de crédito') || s.includes('analise de credito')) return 'hourglass';
+      return 'tag';
+    }
+
+    function renderRecebimento(data){
+      const list = Array.isArray(data.recebimento_produtos)
+        ? data.recebimento_produtos
+        : (Array.isArray(data.performance_transportadoras) ? data.performance_transportadoras : []);
+
+      const body = document.getElementById('tbodyRecebimento');
+      body.innerHTML = '';
+
+      document.getElementById('recebimentoCount').textContent = `${list.length} itens`;
+
+      for (const it of list){
+        const status = String(it.status ?? '').trim();
+        const statusKey = normKey(status);
+
+        const tr = document.createElement('tr');
+        tr.classList.remove('blinkWarn');
+
+        let statusDotClass = '';
+        let statusBadgeClass = '';
+
+        // ===== CORES AUTOMÁTICAS POR STATUS =====
+        if (statusKey.includes('aguardando programacao')) {
+          tr.style.background = 'linear-gradient(90deg, rgba(107,114,128,.25), rgba(107,114,128,.05))';
+        }
+        else if (statusKey === 'programado' || statusKey.includes('programado')) {
+          tr.style.background = 'linear-gradient(90deg, rgba(59,130,246,.18), rgba(59,130,246,.05))';
+        }
+        else if (statusKey.includes('transito')) {
+          tr.style.background = 'linear-gradient(90deg, rgba(245,158,11,.18), rgba(245,158,11,.05))';
+          statusDotClass = 'bad';
+        }
+        else if (statusKey.includes('chegou')) {
+          tr.style.background = 'linear-gradient(90deg, rgba(14,165,233,.18), rgba(14,165,233,.05))';
+        }
+        else if (statusKey.includes('descarregando')) {
+          tr.style.background = 'linear-gradient(90deg, rgba(168,85,247,.18), rgba(168,85,247,.05))';
+        }
+        else if (statusKey.includes('finalizado')) {
+          tr.style.background = 'linear-gradient(90deg, rgba(34,197,94,.18), rgba(34,197,94,.05))';
+          statusBadgeClass = 'good';
+        }
+
+        // ===== EXCEÇÕES / ALERTA PISCANDO =====
+        if (
+          statusKey.includes('aguardando complementar') ||
+          statusKey.includes('aguardando nf mae') ||
+          statusKey.includes('divergencia')
+        ) {
+          tr.classList.add('blinkWarn');
+          tr.style.background = 'linear-gradient(90deg, rgba(239,68,68,.30), rgba(239,68,68,.10))';
+          statusDotClass = 'bad';
+          statusBadgeClass = 'bad';
+        }
+
+        const confirmado = String(it.confirmado ?? it.pendente_de_entrega ?? '—').trim();
+        const confirmadoKey = normKey(confirmado);
+        const confirmadoClass = confirmadoKey === 'sim' ? 'good' : (confirmadoKey === 'nao' ? 'bad' : '');
+
+        tr.innerHTML = `
+          <td><strong>${String(it.embarque ?? '—').trim()}</strong></td>
+          <td>${String(it.tipo ?? '—').trim()}</td>
+          <td>${String(it.data_recebimento ?? '—').trim()}</td>
+          <td>
+            <span class="perfBadge ${confirmadoClass}">
+              <span class="perfDot ${confirmadoClass === 'bad' ? 'bad' : ''}"></span>
+              ${confirmado}
+            </span>
+          </td>
+          <td>${String(it.chegou_cd ?? '—').trim()}</td>
+          <td>
+            <span class="perfBadge ${statusBadgeClass}">
+              <span class="perfDot ${statusDotClass}"></span>
+              ${status || '—'}
+            </span>
+          </td>
+        `;
+        body.appendChild(tr);
+      }
+    }
+
+    function renderPedidos(data){
+      const raw = Array.isArray(data.pedidos_status) ? data.pedidos_status : [];
+      const body = document.getElementById('tbodyPedidos');
+      body.innerHTML = '';
+
+      const map = new Map();
+
+      for (const it of raw){
+        const label = (it.status ?? it.pedidos ?? '').toString().trim();
+        if (!label) continue;
+
+        const key = normKey(label);
+        const qtd = Number(it.quantidade ?? it.qtd ?? 0) || 0;
+        const valorNum = parseBRLValue(it.valor);
+
+        map.set(key, { label, qtd, valorNum });
+      }
+
+      const get = (expectedLabel) => {
+        const key = normKey(expectedLabel);
+        return map.get(key) || { label: expectedLabel, qtd: 0, valorNum: 0 };
+      };
+
+      const aguardLib = get('Aguardando Liberação');
+      const alvara    = get('Alvará Sanitário');
+      const bloqueado = get('Bloqueado por regra');
+      const analise   = get('Análise de Crédito');
+
+      const aguardEnv = get('Aguard. Envio Separação');
+      const emSep     = get('Em Separação');
+      const separado  = get('Separado');
+      const faturado  = get('Faturado');
+
+      const totalDisputa = {
+        label: 'Total em Disputa',
+        qtd: aguardLib.qtd + alvara.qtd + bloqueado.qtd + analise.qtd,
+        valorNum: aguardLib.valorNum + alvara.valorNum + bloqueado.valorNum + analise.valorNum
+      };
+
+      const totalPrevisto = {
+        label: 'Total Faturamento Previsto',
+        qtd: aguardEnv.qtd + emSep.qtd + separado.qtd + faturado.qtd,
+        valorNum: aguardEnv.valorNum + emSep.valorNum + separado.valorNum + faturado.valorNum
+      };
+
+      const ordered = [
+        aguardLib,
+        alvara,
+        bloqueado,
+        analise,
+        totalDisputa,
+        aguardEnv,
+        emSep,
+        separado,
+        faturado,
+        totalPrevisto
+      ];
+
+      document.getElementById('pedidosCount').textContent = `${ordered.length} itens`;
+
+      for (const it of ordered){
+        const status = it.label || '—';
+        const qtd = Number(it.qtd) || 0;
+        const valorNum = Number(it.valorNum) || 0;
+        const key = normKey(status);
+
+        const isBlink =
+          key.includes('analise de credito') ||
+          key.includes('alvara sanitario') ||
+          key.includes('bloqueado por regra');
+
+        const isFaturado = key === 'faturado';
+        const isTotalDisputa = key === 'total em disputa';
+        const isTotalPrevisto = key === 'total faturamento previsto';
+
+        const tr = document.createElement('tr');
+
+        if (isTotalPrevisto) tr.classList.add('rowPrevistoTotal');
+        else if (isTotalDisputa) tr.classList.add('rowDisputaTotal');
+        else if (isFaturado) tr.classList.add('rowFaturado');
+
+        if (isBlink) tr.classList.add('blinkWarn');
+
+        const iconKind = iconKindForStatus(status);
+
+        tr.innerHTML = `
+          <td>
+            <div class="pedidoCell">
+              <span class="pedidoIcon">${svgIcon(iconKind)}</span>
+              <span class="pedidoText">${status}</span>
+            </div>
+          </td>
+          <td>${qtd.toLocaleString('pt-BR')}</td>
+          <td>${fmtBRL.format(valorNum)}</td>
+        `;
+        body.appendChild(tr);
+      }
+    }
+
+    function renderTables(data, carrier){
+      const defaultEstoque = {
+        ocupacao_total_armazem: 63.29,
+        ocupacao_operacional: 68.67,
+        areas: [
+          { nome: 'Picking', taxa: 85.75 },
+          { nome: 'Pulmão de Abastecimento', taxa: 65.53 },
+          { nome: 'Flowrack', taxa: 43.86 },
+          { nome: 'Área de Qualidade', taxa: 22.46 },
+          { nome: 'Área de Amostra', taxa: 0.00 },
+          { nome: 'Área de Avarias', taxa: 25.58 }
+        ]
+      };
+
+      const estoque = data.estoque || defaultEstoque;
+      const ocupacaoTotal = parsePercentFlex(estoque.ocupacao_total_armazem);
+      const ocupacaoOperacional = parsePercentFlex(estoque.ocupacao_operacional);
+      const areas = Array.isArray(estoque.areas) ? estoque.areas : defaultEstoque.areas;
+
+      const statusEl = document.getElementById('capacidadeStatus');
+      if (statusEl){
+        if (ocupacaoTotal >= 85) statusEl.textContent = 'Capacidade crítica';
+        else if (ocupacaoTotal >= 70) statusEl.textContent = 'Atenção';
+        else statusEl.textContent = 'Capacidade saudável';
+      }
+
+      renderCapacidadeGauge(ocupacaoTotal);
+
+      const listEl = document.getElementById('capacidadeAreasList');
+      if (listEl){
+        listEl.innerHTML = '';
+
+        for (const item of areas){
+          const taxa = parsePercentFlex(item.taxa);
+          const fillClass = taxa >= 85 ? 'bad' : (taxa >= 70 ? 'warn' : '');
+          const width = Math.max(0, Math.min(100, Number.isFinite(taxa) ? taxa : 0));
+
+          const row = document.createElement('div');
+          row.className = 'capacidadeAreaItem';
+          row.innerHTML = `
+            <div class="capacidadeAreaNome">${item.nome || '—'}</div>
+            <div class="capacidadeBarra">
+              <div class="capacidadeFill ${fillClass}" style="width:${width}%"></div>
+            </div>
+            <div class="capacidadeValor">${pctText(taxa)}</div>
+          `;
+          listEl.appendChild(row);
+        }
+      }
+
+      const opEl = document.getElementById('ocupacaoOperacionalValor');
+      if (opEl) opEl.textContent = pctText(ocupacaoOperacional);
+    }
+
+    function renderCapacidadeGauge(valor){
+      const el = document.getElementById('capacidadeGauge');
+      if (!el) return;
+
+      const safe = Math.max(0, Math.min(100, Number(valor) || 0));
+
+      const cx = 160;
+      const cy = 145;
+      const r = 108;
+      const stroke = 24;
+
+      // escala semicircular: 0% = esquerda, 100% = direita
+      const angle = -90 + (safe / 100) * 180;
+      const needle = polarToCartesian(cx, cy, r - 30, angle);
+
+      el.innerHTML = `
+        <svg viewBox="0 0 320 255" aria-label="Ocupação total do armazém">
+          <path d="${describeArc(cx, cy, r, -90, 36)}" stroke="#22c55e" stroke-width="${stroke}" fill="none" stroke-linecap="round"/>
+          <path d="${describeArc(cx, cy, r, 36, 63)}" stroke="#fbbf24" stroke-width="${stroke}" fill="none"/>
+          <path d="${describeArc(cx, cy, r, 63, 90)}" stroke="#ef4444" stroke-width="${stroke}" fill="none" stroke-linecap="round"/>
+
+          <line x1="${cx}" y1="${cy}" x2="${needle.x}" y2="${needle.y}" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
+          <circle cx="${cx}" cy="${cy}" r="8" fill="#d1d5db"/>
+
+          <text x="${cx}" y="210" text-anchor="middle" fill="#ffffff" font-size="46" font-weight="950">${pctText(safe)}</text>
+          <text x="${cx}" y="238" text-anchor="middle" fill="rgba(233,236,245,.86)" font-size="13" font-weight="900">OCUPAÇÃO TOTAL DO ARMAZÉM</text>
+        </svg>
+      `;
+    }
+
+    function pctText(value){
+      if (!Number.isFinite(value)) return '—';
+      return value.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + '%';
+    }
+
+    function slaColor(sla){
+      if (!Number.isFinite(sla)) return '#9aa4c0';
+      if (sla < 90) return 'var(--bad)';
+      if (sla <= 95) return 'var(--warn)';
+      return 'var(--good)';
+    }
+
+    function deltaColor(delta){
+      if (!Number.isFinite(delta) || delta === 0) return 'rgba(11,27,58,.72)';
+      return delta < 0 ? 'var(--bad)' : 'var(--good)';
+    }
+
+    function monthKeyFromDate(d){
+      if (!d) return '';
+      return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}`;
+    }
+
+    function previousMonthKey(d){
+      const ref = new Date(d.getFullYear(), d.getMonth() - 1, 1);
+      return monthKeyFromDate(ref);
+    }
+
+    function normalizeEntrega(item){
+      return {
+        nota_fiscal: String(item.nota_fiscal ?? item.nf ?? '').trim(),
+        data_emissao: parseDateFlex(item.data_emissao ?? item.emissao_nf ?? item.emissao ?? ''),
+        data_entrega: parseDateFlex(item.data_entrega ?? item.entrega ?? ''),
+        previsao_entrega: parseDateFlex(item.previsao_entrega ?? item.previsao ?? item.previsao_sla ?? ''),
+        frete: parseBRLValue(item.frete ?? item.valor_frete ?? item.frete_pago ?? 0),
+        frete_repassado: parseBRLValue(item.frete_repassado ?? item.valor_frete_repassado ?? item.repassado ?? 0),
+        frete_pago: parseBRLValue(item.frete_pago ?? item.valor_frete_pago ?? item.fretepago ?? 0),
+        faturamento: parseBRLValue(item.faturamento ?? item.valor_faturamento ?? 0),
+        estado: String(item.estado ?? item.uf ?? item.cidade_destino ?? item.uf_destino ?? '').trim().toUpperCase(),
+        transportador: normalizeCarrier(item.transportador ?? item.transportadora ?? '')
+      };
+    }
+
+    function entregaNoPrazo(item){
+      return item.data_entrega && item.previsao_entrega && item.data_entrega.getTime() <= item.previsao_entrega.getTime();
+    }
+
+    function metricsForMonth(base, key){
+      const list = base.filter(it => monthKeyFromDate(it.data_emissao) === key);
+      const entregues = list.filter(it => it.data_entrega && it.previsao_entrega);
+      const noPrazo = entregues.filter(entregaNoPrazo);
+      const fretePago = list.reduce((acc, it) => acc + (Number(it.frete) || Number(it.frete_pago) || 0), 0);
+      const freteRepassado = list.reduce((acc, it) => acc + (Number(it.frete_repassado) || 0), 0);
+      const faturamento = list.reduce((acc, it) => acc + (Number(it.faturamento) || 0), 0);
+      const sla = entregues.length ? (noPrazo.length / entregues.length) * 100 : NaN;
+      const repasse = fretePago > 0 ? (freteRepassado / fretePago) * 100 : NaN;
+
+      // Cálculo correto: % Frete sobre Faturamento = frete_pago / faturamento
+      const freteSobreFaturamento = faturamento > 0 ? (fretePago / faturamento) * 100 : NaN;
+
+      return { list, entregues, noPrazo, fretePago, freteRepassado, faturamento, sla, repasse, freteSobreFaturamento };
+    }
+
+    function topEstadosForMonth(list){
+      const map = new Map();
+      for (const it of list){
+        const uf = it.estado || '—';
+        if (!it.data_entrega || !it.previsao_entrega) continue;
+        if (!map.has(uf)) map.set(uf, { uf, total: 0, prazo: 0 });
+        const obj = map.get(uf);
+        obj.total += 1;
+        if (entregaNoPrazo(it)) obj.prazo += 1;
+      }
+
+      return Array.from(map.values())
+        .map(x => ({ ...x, sla: x.total ? (x.prazo / x.total) * 100 : NaN }))
+        .sort((a,b) => (b.sla - a.sla) || (b.total - a.total) || a.uf.localeCompare(b.uf, 'pt-BR'))
+        .slice(0,5);
+    }
+
+    function polarToCartesian(cx, cy, r, angleDeg){
+      const angleRad = (angleDeg - 90) * Math.PI / 180;
+      return {
+        x: cx + (r * Math.cos(angleRad)),
+        y: cy + (r * Math.sin(angleRad))
+      };
+    }
+
+    function describeArc(cx, cy, r, startAngle, endAngle){
+      const start = polarToCartesian(cx, cy, r, endAngle);
+      const end = polarToCartesian(cx, cy, r, startAngle);
+      const largeArcFlag = endAngle - startAngle <= 180 ? '0' : '1';
+      return `M ${start.x} ${start.y} A ${r} ${r} 0 ${largeArcFlag} 0 ${end.x} ${end.y}`;
+    }
+
+function renderSlaGauge(sla){
+      const el = document.getElementById('slaGauge');
+      if (!el) return;
+
+      const cx = 110;
+      const cy = 108;
+      const r = 72;
+      const stroke = 22;
+
+      const minGauge = 80;
+      const maxGauge = 100;
+
+      // Converte SLA mesmo quando vier como texto: "94,90%", "94.90" ou número.
+      const slaNumber = Number(String(sla ?? '').replace('%','').replace(',','.'));
+      const displayValue = Number.isFinite(slaNumber) ? slaNumber : NaN;
+      const safeSla = Math.max(minGauge, Math.min(maxGauge, Number.isFinite(slaNumber) ? slaNumber : minGauge));
+      const percentGauge = (safeSla - minGauge) / (maxGauge - minGauge);
+
+      // Escala visual: 80% = esquerda/vermelho | 90% = topo | 95% = amarelo próximo do verde | 100% = direita/verde.
+      const needleAngle = -90 + (percentGauge * 180);
+      const needleLength = r - 18;
+      const needle = polarToCartesian(cx, cy, needleLength, needleAngle);
+
+      // Ponteiro em formato de agulha: mais visível que uma linha simples.
+      const baseLeft = polarToCartesian(cx, cy, 7, needleAngle - 90);
+      const baseRight = polarToCartesian(cx, cy, 7, needleAngle + 90);
+
+      const criticalColor = '#ef4444';
+      const attentionColor = '#f59e0b';
+      const excellentColor = '#22c55e';
+      const color = Number.isFinite(displayValue) ? slaColor(displayValue) : '#9aa4c0';
+      const baseValue = pctText(displayValue);
+
+      el.innerHTML = `
+        <svg viewBox="0 0 220 166" role="img" aria-label="Performance em formato de velocímetro">
+          <defs>
+            <filter id="gaugeShadow" x="-20%" y="-20%" width="140%" height="140%">
+              <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#0b1020" flood-opacity="0.20"/>
+            </filter>
+            <filter id="needleShadow" x="-30%" y="-30%" width="160%" height="160%">
+              <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#0b1020" flood-opacity="0.36"/>
+            </filter>
+          </defs>
+
+          <path d="${describeArc(cx, cy, r, -90, 90)}" fill="none" stroke="rgba(11,27,58,.09)" stroke-width="${stroke + 8}" stroke-linecap="round"/>
+          <g filter="url(#gaugeShadow)">
+            <path d="${describeArc(cx, cy, r, -90, 0)}" fill="none" stroke="${criticalColor}" stroke-width="${stroke}" stroke-linecap="butt"/>
+            <path d="${describeArc(cx, cy, r, 0, 45)}" fill="none" stroke="${attentionColor}" stroke-width="${stroke}" stroke-linecap="butt"/>
+            <path d="${describeArc(cx, cy, r, 45, 90)}" fill="none" stroke="${excellentColor}" stroke-width="${stroke}" stroke-linecap="butt"/>
+          </g>
+
+          <text x="32" y="128" class="slaScaleText">80,00%</text>
+          <text x="188" y="128" class="slaScaleText">100,00%</text>
+
+          <g id="slaNeedle" filter="url(#needleShadow)">
+            <polygon points="${needle.x},${needle.y} ${baseLeft.x},${baseLeft.y} ${baseRight.x},${baseRight.y}" fill="#0b1b3a"/>
+            <line x1="${cx}" y1="${cy}" x2="${needle.x}" y2="${needle.y}" stroke="#0b1b3a" stroke-width="4" stroke-linecap="round"/>
+          </g>
+          <circle cx="${cx}" cy="${cy}" r="14" fill="#0b1b3a" filter="url(#needleShadow)"/>
+          <circle cx="${cx}" cy="${cy}" r="6" fill="rgba(255,255,255,.20)"/>
+
+          <text x="110" y="150" class="slaValueText" fill="${color}">${baseValue}</text>
+        </svg>
+        <div class="slaLegend" aria-label="Legenda de performance">
+          <div class="slaLegendItem">
+            <div class="legendTop"><span class="slaLegendDot" style="background:${criticalColor}"></span><span>&lt; 90%</span></div>
+            <div class="slaLegendSub">Ruim</div>
+          </div>
+          <div class="slaLegendItem">
+            <div class="legendTop"><span class="slaLegendDot" style="background:${attentionColor}"></span><span>90% a 95%</span></div>
+            <div class="slaLegendSub">Regular</div>
+          </div>
+          <div class="slaLegendItem">
+            <div class="legendTop"><span class="slaLegendDot" style="background:${excellentColor}"></span><span>&gt; 95%</span></div>
+            <div class="slaLegendSub">Excelente</div>
+          </div>
+        </div>
+      `;
+    }
+
+    function getPerformanceGerencial(data){
+      const pg = data.performance_gerencial || data.performanceGerencial || data.resumo_gerencial || null;
+      if (!pg) return null;
+
+      const atual = pg.mes_atual || pg.atual || pg;
+      const anterior = pg.mes_anterior || pg.anterior || {};
+
+      const normalizeAgg = (obj) => {
+        const fretePago = parseBRLValue(obj.frete_pago ?? obj.frete ?? obj.valor_frete_pago ?? 0);
+        const freteRepassado = parseBRLValue(obj.frete_repassado ?? obj.valor_frete_repassado ?? obj.repassado ?? 0);
+        const faturamento = parseBRLValue(obj.faturamento ?? obj.valor_faturamento ?? 0);
+        const entregas = parseBRLValue(obj.entrega_realizada ?? obj.entregas_realizadas ?? obj.entregues ?? obj.total_entregas ?? obj.qtd_notas_fiscais ?? obj.total_notas_fiscais ?? 0);
+        const noPrazo = parseBRLValue(obj.entrega_no_prazo ?? obj.entregas_no_prazo ?? obj.no_prazo ?? 0);
+        const foraPrazoInformado = parseBRLValue(obj.entrega_fora_prazo ?? obj.entregas_fora_prazo ?? obj.fora_prazo ?? obj.notas_em_atraso ?? 0);
+        const foraPrazo = foraPrazoInformado > 0 ? foraPrazoInformado : Math.max(0, entregas - noPrazo);
+        const qtdNotasFiscais = parseBRLValue(obj.qtd_notas_fiscais ?? obj.total_notas_fiscais ?? obj.notas_fiscais ?? entregas);
+        const sla = entregas > 0 ? (noPrazo / entregas) * 100 : NaN;
+        const repasse = fretePago > 0 ? (freteRepassado / fretePago) * 100 : NaN;
+        const freteSobreFaturamento = faturamento > 0 ? (fretePago / faturamento) * 100 : NaN;
+        return {
+          periodo: obj.periodo || obj.mes || '',
+          fretePago,
+          freteRepassado,
+          faturamento,
+          entregues: { length: entregas },
+          noPrazo: { length: noPrazo },
+          foraPrazo: { length: foraPrazo },
+          qtdNotasFiscais,
+          sla,
+          repasse,
+          freteSobreFaturamento
+        };
+      };
+
+      const topRaw = pg.top_estados || pg.estados || pg.top5_estados || [];
+      const topEstados = Array.isArray(topRaw) ? topRaw.map(it => {
+        const total = parseBRLValue(it.entrega_realizada ?? it.entregas_realizadas ?? it.entregues ?? it.total ?? 0);
+        const prazo = parseBRLValue(it.entrega_no_prazo ?? it.entregas_no_prazo ?? it.no_prazo ?? it.prazo ?? 0);
+        return {
+          uf: String(it.estado ?? it.uf ?? '—').trim().toUpperCase(),
+          total,
+          prazo,
+          sla: total > 0 ? (prazo / total) * 100 : NaN
+        };
+      }).filter(it => it.total > 0)
+        .sort((a,b) => (b.sla - a.sla) || (b.total - a.total) || a.uf.localeCompare(b.uf, 'pt-BR'))
+        .slice(0,5) : [];
+
+      return { current: normalizeAgg(atual), previous: normalizeAgg(anterior), topEstados };
+    }
+
+    function renderGerencial(data, carrier){
+      const resumo = getPerformanceGerencial(data);
+      let current, previous, topEstados, periodo;
+
+      if (resumo){
+        current = resumo.current;
+        previous = resumo.previous;
+        topEstados = resumo.topEstados;
+        periodo = current.periodo || (parseUpdatedDate(data.updated_at || '') || new Date()).toLocaleDateString('pt-BR', { month:'long', year:'numeric' });
+      } else {
+        const raw = Array.isArray(data.base_entregas) ? data.base_entregas : [];
+        let base = raw.map(normalizeEntrega).filter(it => it.data_emissao);
+
+        if (carrier && carrier !== '__ALL__'){
+          const withCarrier = base.filter(it => it.transportador);
+          if (withCarrier.length){
+            base = base.filter(it => it.transportador === carrier);
+          }
+        }
+
+        const ref = parseUpdatedDate(data.updated_at || '') || new Date();
+        const currentKey = monthKeyFromDate(ref);
+        const prevKey = previousMonthKey(ref);
+        current = metricsForMonth(base, currentKey);
+        previous = metricsForMonth(base, prevKey);
+        topEstados = topEstadosForMonth(current.list);
+        periodo = ref.toLocaleDateString('pt-BR', { month:'long', year:'numeric' });
+      }
+
+      const delta = Number.isFinite(current.sla) && Number.isFinite(previous.sla) ? current.sla - previous.sla : NaN;
+
+      document.getElementById('gerencialPeriodo').textContent = periodo ? periodo.charAt(0).toUpperCase() + periodo.slice(1) : '—';
+      document.getElementById('fretePagoKpi').textContent = fmtBRL.format(current.fretePago || 0);
+      const repassadoValorEl = document.getElementById('freteRepassadoValorKpi');
+      if (repassadoValorEl) repassadoValorEl.textContent = fmtBRL.format(current.freteRepassado || 0);
+      const freteSobreFatEl = document.getElementById('freteSobreFatKpi');
+      const freteSobreFatFill = document.getElementById('freteSobreFatFill');
+      const freteSobreFat = current.freteSobreFaturamento;
+      if (freteSobreFatEl) freteSobreFatEl.textContent = pctText(freteSobreFat);
+      if (freteSobreFatFill){
+        // Escala visual: 10% ocupa a barra inteira; acima disso trava em 100%.
+        const maxVisual = 10;
+        const barWidth = Number.isFinite(freteSobreFat) ? Math.max(0, Math.min(100, (freteSobreFat / maxVisual) * 100)) : 0;
+        freteSobreFatFill.style.width = barWidth + '%';
+      }
+
+      renderSlaGauge(current.sla);
+
+      document.getElementById('slaMeta').textContent = current.entregues.length
+        ? `${current.noPrazo.length} no prazo de ${current.entregues.length} entregues`
+        : 'Sem entregas válidas para o mês';
+
+      const qtdNotasEl = document.getElementById('qtdNotasMesAtual');
+      const noPrazoEl = document.getElementById('notasNoPrazoMesAtual');
+      const foraPrazoEl = document.getElementById('notasForaPrazoMesAtual');
+      const qtdNotas = Number.isFinite(current.qtdNotasFiscais) ? current.qtdNotasFiscais : current.entregues.length;
+      const foraPrazo = current.foraPrazo && Number.isFinite(current.foraPrazo.length)
+        ? current.foraPrazo.length
+        : Math.max(0, current.entregues.length - current.noPrazo.length);
+      if (qtdNotasEl) qtdNotasEl.textContent = Number(qtdNotas || 0).toLocaleString('pt-BR', { maximumFractionDigits: 0 });
+      if (noPrazoEl) noPrazoEl.textContent = Number(current.noPrazo.length || 0).toLocaleString('pt-BR', { maximumFractionDigits: 0 });
+      if (foraPrazoEl) foraPrazoEl.textContent = Number(foraPrazo || 0).toLocaleString('pt-BR', { maximumFractionDigits: 0 });
+
+      const deltaEl = document.getElementById('deltaSla');
+      const deltaSub = document.getElementById('deltaSlaSub');
+      deltaEl.style.color = deltaColor(delta);
+      deltaEl.textContent = Number.isFinite(delta)
+        ? `${delta >= 0 ? '+' : ''}${delta.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 })} p.p. vs LM`
+        : 'Sem base comparativa';
+      deltaSub.textContent = Number.isFinite(previous.sla) && Number.isFinite(current.sla)
+        ? `de ${pctText(previous.sla)} para ${pctText(current.sla)}`
+        : 'Necessário alimentar mês atual e mês anterior';
+
+      const listEl = document.getElementById('topEstadosList');
+      if (listEl) listEl.innerHTML = ''; 
+    }
+
+    function getPedidosFiltradosPorTipo(tipo){
+      if (!DATA_CACHE || !Array.isArray(DATA_CACHE.pedidos_nao_faturados)) return [];
+
+      const list = DATA_CACHE.pedidos_nao_faturados.slice();
+
+      if (tipo === 'alvara'){
+        return list.filter(it => normKey(it.ultimo_status) === normKey('Alvará Sanitário'));
+      }
+
+      if (tipo === 'credito'){
+        return list.filter(it => normKey(it.ultimo_status) === normKey('Análise de Crédito'));
+      }
+
+      return [];
+    }
+
+    function statusTagClass(status){
+      const k = normKey(status);
+      if (k === normKey('Alvará Sanitário')) return 'statusTag alvara';
+      if (k === normKey('Análise de Crédito')) return 'statusTag credito';
+      return 'statusTag';
+    }
+
+    function closePedidosModal(){
+      document.getElementById('pedidosModal').style.display = 'none';
+    }
+
+    function openPedidosModal(tipo){
+      const body = document.getElementById('pedidosModalBody');
+      const empty = document.getElementById('pedidosModalEmpty');
+      const title = document.getElementById('pedidosModalTitle');
+      const count = document.getElementById('pedidosModalCount');
+
+      let lista = [];
+      if (tipo === 'alvara'){
+        title.textContent = 'Pedidos em Alvará Sanitário';
+        lista = getPedidosFiltradosPorTipo('alvara');
+      } else if (tipo === 'credito'){
+        title.textContent = 'Pedidos em Análise de Crédito';
+        lista = getPedidosFiltradosPorTipo('credito');
+      }
+
+      lista.sort((a, b) => {
+       const va = parseBRLValue(a.vlr_total_produtos);
+       const vb = parseBRLValue(b.vlr_total_produtos);
+       return vb - va; // maior para menor
+      });
+
+      count.textContent = `${lista.length} itens`;
+      body.innerHTML = '';
+
+      if (!lista.length){
+        empty.style.display = 'block';
+      } else {
+        empty.style.display = 'none';
+        for (const item of lista){
+          const status = String(item.ultimo_status ?? '').trim() || '—';
+          const tr = document.createElement('tr');
+
+          tr.innerHTML = `
+            <td><strong>${String(item.numero_pedido ?? '—').trim()}</strong></td>
+            <td>${formatBRDateFlex(item.emissao_pv)}</td>
+            <td>${String(item.nome_cliente ?? '—').trim()}</td>
+            <td>${String(item.uf_cliente ?? '—').trim()}</td>
+            <td>${String(item.tipo_cliente ?? '—').trim()}</td>
+            <td>${String(item.vendedor ?? '—').trim()}</td>
+            <td>${fmtBRL.format(parseBRLValue(item.vlr_total_produtos))}</td>
+            <td><span class="${statusTagClass(status)}">${status}</span></td>
+          `;
+
+          body.appendChild(tr);
+        }
+      }
+
+      document.getElementById('pedidosModal').style.display = 'flex';
+    }
 
 
 
+    function renderExpedicao(data){
+      const expedicao = data.expedicao || {};
+      const aguardando = Number(expedicao.aguardando_coleta ?? 0);
+      const coletado = Number(expedicao.coletado ?? 0);
+      const valorColetado = parseBRLValue(expedicao.valor_coletado ?? 0);
+      const valorPendente = parseBRLValue(expedicao.valor_pendente_coleta ?? 0);
 
+      const aguardandoEl = document.getElementById('aguardandoColeta');
+      const coletadoEl = document.getElementById('coletado');
+      const valorColetadoEl = document.getElementById('valorColetado');
+      const valorPendenteEl = document.getElementById('valorPendente');
+      const periodoEl = document.getElementById('expedicaoPeriodo');
 
+      if (aguardandoEl) aguardandoEl.textContent = aguardando.toLocaleString('pt-BR');
+      if (coletadoEl) coletadoEl.textContent = coletado.toLocaleString('pt-BR');
+      if (valorColetadoEl) valorColetadoEl.textContent = fmtBRL.format(valorColetado);
+      if (valorPendenteEl) valorPendenteEl.textContent = fmtBRL.format(valorPendente);
+      if (periodoEl) periodoEl.textContent = expedicao.periodo || 'Atual';
+    }
 
+    function syncLeftToPedidosHeight(){
+      const panelPedidos = document.getElementById('panelPedidos');
+      const leftCol = document.getElementById('leftCol');
+      const panelRecebimento = document.getElementById('panelRecebimento');
+      const scrollRecebimento = document.getElementById('scrollRecebimento');
 
+      if (!panelPedidos || !leftCol || !panelRecebimento || !scrollRecebimento) return;
+      if (window.innerWidth <= 1200) return;
 
+      const pedidosH = panelPedidos.offsetHeight;
+      leftCol.style.height = pedidosH + 'px';
+      leftCol.style.minHeight = pedidosH + 'px';
+      panelRecebimento.style.height = pedidosH + 'px';
+      panelRecebimento.style.minHeight = pedidosH + 'px';
 
+      const ph = panelRecebimento.querySelector('.ph');
+      const phH = ph ? ph.offsetHeight : 56;
+      scrollRecebimento.style.maxHeight = Math.max(120, pedidosH - phH) + 'px';
+    }
 
+    function syncNotesToPedidosHeight(){
+      const panelExpedicao = document.getElementById('panelExpedicao');
+      const panelGerencial = document.getElementById('panelGerencial');
 
+      if (!panelExpedicao || !panelGerencial) return;
+      if (window.innerWidth <= 980) return;
 
+      const targetH = Math.max(500, parseInt(getComputedStyle(document.documentElement).getPropertyValue('--bottomPanelH')) || 500);
+      panelExpedicao.style.height = targetH + 'px';
+      panelExpedicao.style.minHeight = targetH + 'px';
+      panelGerencial.style.height = targetH + 'px';
+      panelGerencial.style.minHeight = targetH + 'px';
+      panelGerencial.style.overflow = 'visible';
+    }
 
- ],
-"pedidos_nao_faturados": [
-  {"numero_pedido":"702740 ", "emissao_pv": "28/07/2026 ", "vlr_total_produtos": "2075 ", "margem": "50,45 ", "nome_cliente": "PROMEDIX ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"702783 ", "emissao_pv": "28/07/2026 ", "vlr_total_produtos": "13450 ", "margem": "36,52 ", "nome_cliente": "MED CENTER COMERCIAL ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. CAREMED ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"703113 ", "emissao_pv": "29/07/2026 ", "vlr_total_produtos": "6700 ", "margem": "31,26 ", "nome_cliente": "NORDELAB ", "uf_cliente": "RN ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"703149 ", "emissao_pv": "29/07/2026 ", "vlr_total_produtos": "2201,6 ", "margem": "18,1 ", "nome_cliente": "LEBLON HOSPITALAR LT ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"703202 ", "emissao_pv": "30/07/2026 ", "vlr_total_produtos": "13903,8 ", "margem": "23,12 ", "nome_cliente": "MASTERMED  PRODUTOS ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"703228 ", "emissao_pv": "30/07/2026 ", "vlr_total_produtos": "2064,32 ", "margem": "35,27 ", "nome_cliente": "J V MATERIAIS DE LIM ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "NEOLANDI SANTOS ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"703251 ", "emissao_pv": "30/07/2026 ", "vlr_total_produtos": "27000 ", "margem": "6,04 ", "nome_cliente": "TOLEMED DISTRIBUIDOR ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"703317 ", "emissao_pv": "30/07/2026 ", "vlr_total_produtos": "3944,4 ", "margem": "50,95 ", "nome_cliente": "LABORATORIO CENTRAL ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"703355 ", "emissao_pv": "30/07/2026 ", "vlr_total_produtos": "1190 ", "margem": "22,57 ", "nome_cliente": "LAB MEDICO DR MARIC ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"703389 ", "emissao_pv": "30/07/2026 ", "vlr_total_produtos": "27000 ", "margem": "5,23 ", "nome_cliente": "CIRURGICA LASMAR EIR ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"703433 ", "emissao_pv": "30/07/2026 ", "vlr_total_produtos": "838 ", "margem": "25,29 ", "nome_cliente": "L M DISTRIBUIDORA ", "uf_cliente": "CE ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"703499 ", "emissao_pv": "31/07/2026 ", "vlr_total_produtos": "4629,8 ", "margem": "45,69 ", "nome_cliente": "54 167 075 VITOR PIN ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOICE MENDES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"703511 ", "emissao_pv": "31/07/2026 ", "vlr_total_produtos": "9405,55 ", "margem": "36,85 ", "nome_cliente": "CASA DE SAUDE SAO JO ", "uf_cliente": "RJ ", "tipo_cliente": "CONS.FINAL ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"703542 ", "emissao_pv": "31/07/2026 ", "vlr_total_produtos": "1288,6 ", "margem": "23,38 ", "nome_cliente": "ALTPREST COMERCIO E ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "LUCIA FLORESTA ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"703550 ", "emissao_pv": "31/07/2026 ", "vlr_total_produtos": "5562,31 ", "margem": "34,01 ", "nome_cliente": "MIRAFARMA PRODUTOS F ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"703566 ", "emissao_pv": "31/07/2026 ", "vlr_total_produtos": "29388,02 ", "margem": "25,08 ", "nome_cliente": "PLAY PHARMA ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. SUPREMO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"703572 ", "emissao_pv": "31/07/2026 ", "vlr_total_produtos": "916,68 ", "margem": "52,3 ", "nome_cliente": "LABORATORIO CENTRAL ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"703582 ", "emissao_pv": "31/07/2026 ", "vlr_total_produtos": "2094 ", "margem": "40,05 ", "nome_cliente": "HI TECHNOLOGIES LTDA ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"703598 ", "emissao_pv": "31/07/2026 ", "vlr_total_produtos": "371,4 ", "margem": "0 ", "nome_cliente": "GEISA DE LIMA SILVA ", "uf_cliente": "RJ ", "tipo_cliente": "CONS.FINAL ","vendedor": "E-COMMERCE ", "ultimo_status": "Alvará Sanitário" }
+    function renderAll(data){
+      const carrier = '__ALL__';
+      renderRecebimento(data);
+      renderPedidos(data);
+      renderTables(data, carrier);
+      renderGerencial(data, carrier);
+      renderExpedicao(data);
+      formatUpdatedAtToBadge(data);
+      tryShowTvAlert(data);
 
+      syncLeftToPedidosHeight();
+      syncNotesToPedidosHeight();
 
+      setTimeout(() => {
+        syncLeftToPedidosHeight();
+        syncNotesToPedidosHeight();
+        initAutoScrollTV();
+      }, 350);
+    }
 
+    async function load(){
+      const res = await fetch(`data.json?t=${Date.now()}`, { cache: 'no-store' });
+      const data = await res.json();
+      DATA_CACHE = data;
 
+      renderAll(data);
 
+      window.addEventListener('resize', () => {
+        syncLeftToPedidosHeight();
+        syncNotesToPedidosHeight();
 
+        setTimeout(() => {
+          syncLeftToPedidosHeight();
+          syncNotesToPedidosHeight();
+        }, 180);
+      });
+    }
 
+    document.getElementById('pedidosModal').addEventListener('click', (e) => {
+      if (e.target.id === 'pedidosModal'){
+        closePedidosModal();
+      }
+    });
 
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape'){
+        closePedidosModal();
+      }
+    });
 
-
-
-
-
-
-
-
-
-
- ],
-  "tv_alert": {
-    "enabled": false,
-    "id": "Nova Transportadora: JAMEF",
-    "title": "Atenção",
-    "message": "Atenção: nova transportadora liberada. A Jamef já está disponível para envio de encomendas urgentes. Fiquem atentos aos orçamentos.",
-    "duration_seconds": 25,
-    "created_at": "2026-02-23T11:10:00-03:00",
-    "ttl_minutes": 720
-},
-  "performance_gerencial": {
-    "mes_atual": {
-     "periodo": "agosto/2026",
-     "frete_pago": "0",
-     "faturamento": "0",
-     "frete_repassado": "0",
-     "entrega_realizada": "2",
-     "entrega_no_prazo": "1",
-     "qtd_notas_fiscais": "1",
-     "entrega_fora_prazo": "0"
-},
-  "mes_anterior": {
-     "periodo": "julho/2026",
-     "entrega_realizada": "1600",
-     "entrega_no_prazo": "1561"
+async function atualizarPainel(){
+  try{
+    await load();
+  }catch(err){
+    console.error(err);
   }
-},
-  "expedicao": {
-     "aguardando_coleta": 0,
-     "coletado": 0,
-     "valor_coletado": 0,
-     "valor_pendente_coleta": 0
-},
-
-
-"estoque": {
-  "ocupacao_total_armazem": 57.84,
-  "ocupacao_operacional": 62.16,
-  "areas": [
-    { "nome": "Picking", "taxa": 82.23},
-    { "nome": "Pulmão de Abastecimento", "taxa": 58.61},
-    { "nome": "Flowrack", "taxa": 43.11},
-    { "nome": "Área de Qualidade", "taxa": 17.78},
-    { "nome": "Área de Amostra", "taxa": 0.00},
-    { "nome": "Área de Avarias", "taxa": 39.53}
-]
 }
-}
+
+atualizarPainel();
+
+setInterval(atualizarPainel, 120000);
+      </script>
+</body>
+</html>
