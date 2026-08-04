@@ -1,18 +1,18 @@
 {
-  "updated_at": "04/08/2026 11:59",
+  "updated_at": "04/08/2026 14:13",
   "kpis": {
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 2, "valor": "4490,3" },
-    { "status": "Alvará Sanitário", "quantidade": 2, "valor": "16797,5" },
+    { "status": "Aguardando Liberação", "quantidade": 1, "valor": "3648" },
+    { "status": "Alvará Sanitário", "quantidade": 1, "valor": "13000" },
     { "status": "Bloqueado por regra", "quantidade": 1, "valor": "307,88" },
-    { "status": "Análise de Crédito", "quantidade": 27, "valor": "222178,13" },
-    { "status": "Total em Disputa", "quantidade": 32, "valor": "243773,81" },
-    { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "15" },
-    { "status": "Em Separação", "quantidade": 9, "valor": "52127,95" },
-    { "status": "Separado", "quantidade": 4, "valor": "10672,2" },
-    { "status": "Faturado", "quantidade": 16, "valor": "51440,07" },
-    { "status": "Total", "quantidade": 30, "valor": "114255,22" }
+    { "status": "Análise de Crédito", "quantidade": 33, "valor": "260003,49" },
+    { "status": "Total em Disputa", "quantidade": 36, "valor": "276959,37" },
+    { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "19,88" },
+    { "status": "Em Separação", "quantidade": 3, "valor": "9582,06" },
+    { "status": "Separado", "quantidade": 2, "valor": "4068,9" },
+    { "status": "Faturado", "quantidade": 34, "valor": "123758,7" },
+    { "status": "Total", "quantidade": 40, "valor": "137429,54" }
  ],
  "recebimento_produtos": [
 
@@ -60,13 +60,13 @@
   {"numero_pedido":"703720 ", "emissao_pv": "03/08/2026 ", "vlr_total_produtos": "1960 ", "margem": "17,43 ", "nome_cliente": "SS HOSPITALAR LTDA ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"703744 ", "emissao_pv": "04/08/2026 ", "vlr_total_produtos": "2634,2 ", "margem": "22,02 ", "nome_cliente": "CIRURGICA FERREIRA ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "ALEXANDRA RIBEIRO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"703746 ", "emissao_pv": "04/08/2026 ", "vlr_total_produtos": "69482,2 ", "margem": "23,09 ", "nome_cliente": "MED SOLUTIONS COMERC ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"703779 ", "emissao_pv": "04/08/2026 ", "vlr_total_produtos": "11318,3 ", "margem": "36,43 ", "nome_cliente": "MUNDIMED ", "uf_cliente": "AP ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"703782 ", "emissao_pv": "04/08/2026 ", "vlr_total_produtos": "5479,2 ", "margem": "33,68 ", "nome_cliente": "REAL DREAMS COMERCIO ", "uf_cliente": "AC ", "tipo_cliente": "CONS.FINAL ","vendedor": "NEOLANDI SANTOS ", "ultimo_status": "Alvará Sanitário" }
-
-
-
-
-
+  {"numero_pedido":"703776 ", "emissao_pv": "04/08/2026 ", "vlr_total_produtos": "842,3 ", "margem": "41,4 ", "nome_cliente": "CIRURGICA POTENZA ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"703779 ", "emissao_pv": "04/08/2026 ", "vlr_total_produtos": "11318,3 ", "margem": "36,43 ", "nome_cliente": "MUNDIMED ", "uf_cliente": "AP ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"703797 ", "emissao_pv": "04/08/2026 ", "vlr_total_produtos": "8554,2 ", "margem": "25,84 ", "nome_cliente": "MEDLAB COMERCIO E SE ", "uf_cliente": "RO ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"703799 ", "emissao_pv": "04/08/2026 ", "vlr_total_produtos": "1661,95 ", "margem": "33,55 ", "nome_cliente": "ANIRAM DISTRIBUIDORA ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"703803 ", "emissao_pv": "04/08/2026 ", "vlr_total_produtos": "2088,61 ", "margem": "42,53 ", "nome_cliente": "DISTRIBUIDORA VALE D ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "NEOLANDI SANTOS ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"703805 ", "emissao_pv": "04/08/2026 ", "vlr_total_produtos": "13360 ", "margem": "23,74 ", "nome_cliente": "MED FLEX ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"703811 ", "emissao_pv": "04/08/2026 ", "vlr_total_produtos": "13000 ", "margem": "23,59 ", "nome_cliente": "SAUDE E SONO ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Alvará Sanitário" }
 
 
 
