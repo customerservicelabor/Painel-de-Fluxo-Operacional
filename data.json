@@ -1,18 +1,18 @@
 {
-  "updated_at": "05/08/2026 13:13",
+  "updated_at": "05/08/2026 15:30",
   "kpis": {
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 2, "valor": "6198,33" },
+    { "status": "Aguardando Liberação", "quantidade": 3, "valor": "8970,13" },
     { "status": "Alvará Sanitário", "quantidade": 0, "valor": "0" },
     { "status": "Bloqueado por regra", "quantidade": 4, "valor": "2671,32" },
-    { "status": "Análise de Crédito", "quantidade": 22, "valor": "137124,55" },
-    { "status": "Total em Disputa", "quantidade": 28, "valor": "145994,2" },
+    { "status": "Análise de Crédito", "quantidade": 22, "valor": "111372,17" },
+    { "status": "Total em Disputa", "quantidade": 29, "valor": "123013,62" },
     { "status": "Aguard. Envio Separação", "quantidade": 2, "valor": "97778,9" },
-    { "status": "Em Separação", "quantidade": 9, "valor": "56264,78" },
-    { "status": "Separado", "quantidade": 2, "valor": "5765,8" },
-    { "status": "Faturado", "quantidade": 21, "valor": "52577,94" },
-    { "status": "Total", "quantidade": 34, "valor": "212387,42" }
+    { "status": "Em Separação", "quantidade": 6, "valor": "54706,38" },
+    { "status": "Separado", "quantidade": 2, "valor": "11081" },
+    { "status": "Faturado", "quantidade": 35, "valor": "138283,88" },
+    { "status": "Total", "quantidade": 45, "valor": "301850,16" }
  ],
  "recebimento_produtos": [
 
@@ -52,9 +52,9 @@
   {"numero_pedido":"703692 ", "emissao_pv": "03/08/2026 ", "vlr_total_produtos": "1714,5 ", "margem": "52,74 ", "nome_cliente": "LABORATORIO CENTRAL ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"703720 ", "emissao_pv": "03/08/2026 ", "vlr_total_produtos": "1960 ", "margem": "17,43 ", "nome_cliente": "SS HOSPITALAR LTDA ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"703890 ", "emissao_pv": "04/08/2026 ", "vlr_total_produtos": "2256,8 ", "margem": "30,2 ", "nome_cliente": "SEMPRE MED MATERIAL ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"703908 ", "emissao_pv": "05/08/2026 ", "vlr_total_produtos": "1746,88 ", "margem": "38,02 ", "nome_cliente": "REDENTOR HOSPITALAR ", "uf_cliente": "DF ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"703948 ", "emissao_pv": "05/08/2026 ", "vlr_total_produtos": "30990 ", "margem": "46,59 ", "nome_cliente": "MG BRASIL COMERCIO E ", "uf_cliente": "ES ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOICE MENDES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"703951 ", "emissao_pv": "05/08/2026 ", "vlr_total_produtos": "910,95 ", "margem": "40,04 ", "nome_cliente": "TOPP MED LTDA ", "uf_cliente": "PI ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" }
+  {"numero_pedido":"703951 ", "emissao_pv": "05/08/2026 ", "vlr_total_produtos": "910,95 ", "margem": "40,04 ", "nome_cliente": "TOPP MED LTDA ", "uf_cliente": "PI ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"703969 ", "emissao_pv": "05/08/2026 ", "vlr_total_produtos": "6429,5 ", "margem": "38,79 ", "nome_cliente": "MED TECH ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"703975 ", "emissao_pv": "05/08/2026 ", "vlr_total_produtos": "555 ", "margem": "44,98 ", "nome_cliente": "DASA ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" }
 
 
 
