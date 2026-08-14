@@ -1,13 +1,13 @@
 {
-  "updated_at": "14/08/2026 08:26",
+  "updated_at": "14/08/2026 08:29",
   "kpis": {
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 9, "valor": "1043877,03" },
+    { "status": "Aguardando Liberação", "quantidade": 0, "valor": "0" },
     { "status": "Alvará Sanitário", "quantidade": 4, "valor": "7154,96" },
     { "status": "Bloqueado por regra", "quantidade": 3, "valor": "2993,16" },
     { "status": "Análise de Crédito", "quantidade": 33, "valor": "176490,35" },
-    { "status": "Total em Disputa", "quantidade": 49, "valor": "1230515,5" },
+    { "status": "Total em Disputa", "quantidade": 40, "valor": "186638,47" },
     { "status": "Aguard. Envio Separação", "quantidade": 0, "valor": "0" },
     { "status": "Em Separação", "quantidade": 0, "valor": "0" },
     { "status": "Separado", "quantidade": 0, "valor": "0" },
