@@ -1,18 +1,18 @@
 {
-  "updated_at": "27/08/2026 08:26",
+  "updated_at": "27/08/2026 10:07",
   "kpis": {
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 3, "valor": "10002" },
+    { "status": "Aguardando Liberação", "quantidade": 2, "valor": "6052" },
     { "status": "Alvará Sanitário", "quantidade": 0, "valor": "0" },
     { "status": "Bloqueado por regra", "quantidade": 3, "valor": "2514,97" },
-    { "status": "Análise de Crédito", "quantidade": 20, "valor": "482409,07" },
-    { "status": "Total em Disputa", "quantidade": 26, "valor": "494926,04" },
+    { "status": "Análise de Crédito", "quantidade": 25, "valor": "518238,38" },
+    { "status": "Total em Disputa", "quantidade": 30, "valor": "526805,35" },
     { "status": "Aguard. Envio Separação", "quantidade": 8, "valor": "143840,3" },
-    { "status": "Em Separação", "quantidade": 53, "valor": "306022,49" },
-    { "status": "Separado", "quantidade": 5, "valor": "126775,26" },
+    { "status": "Em Separação", "quantidade": 74, "valor": "443293,06" },
+    { "status": "Separado", "quantidade": 5, "valor": "51064,38" },
     { "status": "Faturado", "quantidade": 0, "valor": "0" },
-    { "status": "Total", "quantidade": 66, "valor": "576638,05" }
+    { "status": "Total", "quantidade": 87, "valor": "638197,74" }
  ],
  "recebimento_produtos": [
 
@@ -52,12 +52,12 @@
   {"numero_pedido":"707554 ", "emissao_pv": "26/08/2026 ", "vlr_total_produtos": "1118,8 ", "margem": "33,56 ", "nome_cliente": "65 464 714 KATIA FER ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"707556 ", "emissao_pv": "26/08/2026 ", "vlr_total_produtos": "37500 ", "margem": "39,69 ", "nome_cliente": "URTIMED ", "uf_cliente": "AM ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. TURCATO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"707566 ", "emissao_pv": "26/08/2026 ", "vlr_total_produtos": "68960 ", "margem": "41,64 ", "nome_cliente": "BIOMEGA MEDICINA DIA ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"707575 ", "emissao_pv": "27/08/2026 ", "vlr_total_produtos": "15278,7 ", "margem": "26,87 ", "nome_cliente": "TOPLAB MEDICINA ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" }
-
-
-
-
-
+  {"numero_pedido":"707570 ", "emissao_pv": "27/08/2026 ", "vlr_total_produtos": "4540 ", "margem": "32,07 ", "nome_cliente": "DUO HOSPITALAR LTDA ", "uf_cliente": "AL ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"707575 ", "emissao_pv": "27/08/2026 ", "vlr_total_produtos": "15278,7 ", "margem": "26,87 ", "nome_cliente": "TOPLAB MEDICINA ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"707582 ", "emissao_pv": "27/08/2026 ", "vlr_total_produtos": "3120 ", "margem": "38,34 ", "nome_cliente": "DUO HOSPITALAR LTDA ", "uf_cliente": "AL ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"707601 ", "emissao_pv": "27/08/2026 ", "vlr_total_produtos": "10782,5 ", "margem": "9,59 ", "nome_cliente": "ATHAN COMMERCE EQUIP ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"707606 ", "emissao_pv": "27/08/2026 ", "vlr_total_produtos": "15475,8 ", "margem": "21,6 ", "nome_cliente": "FORMED ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"707624 ", "emissao_pv": "27/08/2026 ", "vlr_total_produtos": "1911,01 ", "margem": "20,65 ", "nome_cliente": "NORTE MED ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" }
 
 
 
