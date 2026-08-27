@@ -1,18 +1,18 @@
 {
-  "updated_at": "27/08/2026 12:47",
+  "updated_at": "27/08/2026 13:06",
   "kpis": {
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 3, "valor": "7241,4" },
     { "status": "Alvará Sanitário", "quantidade": 11, "valor": "38355,9" },
-    { "status": "Bloqueado por regra", "quantidade": 2, "valor": "1536,8" },
-    { "status": "Análise de Crédito", "quantidade": 18, "valor": "203790,38" },
-    { "status": "Total em Disputa", "quantidade": 34, "valor": "250924,48" },
-    { "status": "Aguard. Envio Separação", "quantidade": 8, "valor": "54434,3" },
-    { "status": "Em Separação", "quantidade": 90, "valor": "794707,61" },
+    { "status": "Bloqueado por regra", "quantidade": 3, "valor": "4665,31" },
+    { "status": "Análise de Crédito", "quantidade": 15, "valor": "191165,78" },
+    { "status": "Total em Disputa", "quantidade": 32, "valor": "241428,39" },
+    { "status": "Aguard. Envio Separação", "quantidade": 9, "valor": "55244,3" },
+    { "status": "Em Separação", "quantidade": 91, "valor": "795790,21" },
     { "status": "Separado", "quantidade": 4, "valor": "34922,5" },
     { "status": "Faturado", "quantidade": 27, "valor": "126739,55" },
-    { "status": "Total", "quantidade": 129, "valor": "1010803,96" }
+    { "status": "Total", "quantidade": 131, "valor": "1012696,56" }
  ],
  "recebimento_produtos": [
 
@@ -33,7 +33,6 @@
 
  ],
 "pedidos_nao_faturados": [
-  {"numero_pedido":"706248 ", "emissao_pv": "20/08/2026 ", "vlr_total_produtos": "10732 ", "margem": "20,05 ", "nome_cliente": "DENTAL CENTRO OESTE ", "uf_cliente": "MT ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"706413 ", "emissao_pv": "21/08/2026 ", "vlr_total_produtos": "2231,5 ", "margem": "44,28 ", "nome_cliente": "D E A FARMA DISTRIB ", "uf_cliente": "AL ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"706467 ", "emissao_pv": "21/08/2026 ", "vlr_total_produtos": "2150 ", "margem": "34,7 ", "nome_cliente": "A G COMPANI ", "uf_cliente": "AM ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. TURCATO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"706915 ", "emissao_pv": "25/08/2026 ", "vlr_total_produtos": "847,65 ", "margem": "64,81 ", "nome_cliente": "R C DENTAL ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Análise de Crédito" },
@@ -55,13 +54,14 @@
   {"numero_pedido":"707661 ", "emissao_pv": "27/08/2026 ", "vlr_total_produtos": "9700 ", "margem": "23,28 ", "nome_cliente": "CIRURGICA RIOPRETANA ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"707665 ", "emissao_pv": "27/08/2026 ", "vlr_total_produtos": "866,5 ", "margem": "41,9 ", "nome_cliente": "BENFAZ ", "uf_cliente": "RS ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. LM ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"707677 ", "emissao_pv": "27/08/2026 ", "vlr_total_produtos": "874,53 ", "margem": "0 ", "nome_cliente": "XLAB  SUPRIMENTOS PA ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "E-COMMERCE ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"707684 ", "emissao_pv": "27/08/2026 ", "vlr_total_produtos": "1082,6 ", "margem": "35,16 ", "nome_cliente": "DENTAL UP LTDA ", "uf_cliente": "SC ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. FENIX (SC) ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"707690 ", "emissao_pv": "27/08/2026 ", "vlr_total_produtos": "4710 ", "margem": "39,46 ", "nome_cliente": "MEDICAL FARMA COMERC ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. SCHIBELGS ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"707696 ", "emissao_pv": "27/08/2026 ", "vlr_total_produtos": "4058,55 ", "margem": "30,52 ", "nome_cliente": "NOVA MEDICAL ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"707710 ", "emissao_pv": "27/08/2026 ", "vlr_total_produtos": "810 ", "margem": "4,68 ", "nome_cliente": "BOAZ SAUDE E SEGURAN ", "uf_cliente": "RS ", "tipo_cliente": "REVENDEDOR ","vendedor": "NEOLANDI SANTOS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"707718 ", "emissao_pv": "27/08/2026 ", "vlr_total_produtos": "5699,25 ", "margem": "35,84 ", "nome_cliente": "LABPET VETERINARIOS ", "uf_cliente": "PE ", "tipo_cliente": "CONS.FINAL ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"707722 ", "emissao_pv": "27/08/2026 ", "vlr_total_produtos": "62420 ", "margem": "28,52 ", "nome_cliente": "COMERCIAL VALFARMA E ", "uf_cliente": "CE ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. ALFA ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"707724 ", "emissao_pv": "27/08/2026 ", "vlr_total_produtos": "6703,55 ", "margem": "58,28 ", "nome_cliente": "ODONTOMEDICA ", "uf_cliente": "MA ", "tipo_cliente": "REVENDEDOR ","vendedor": "ALEXANDRA RIBEIRO ", "ultimo_status": "Alvará Sanitário" }
+
+
+
 
 
 
