@@ -1,18 +1,18 @@
 {
-  "updated_at": "27/08/2026 15:58",
+  "updated_at": "27/08/2026 16:32",
   "kpis": {
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 3, "valor": "7241,4" },
-    { "status": "Alvará Sanitário", "quantidade": 0, "valor": "0" },
+    { "status": "Aguardando Liberação", "quantidade": 2, "valor": "6052" },
+    { "status": "Alvará Sanitário", "quantidade": 2, "valor": "3848,25" },
     { "status": "Bloqueado por regra", "quantidade": 2, "valor": "1536,8" },
-    { "status": "Análise de Crédito", "quantidade": 25, "valor": "212354,45" },
-    { "status": "Total em Disputa", "quantidade": 30, "valor": "221132,65" },
-    { "status": "Aguard. Envio Separação", "quantidade": 7, "valor": "42711,7" },
-    { "status": "Em Separação", "quantidade": 90, "valor": "669631,65" },
-    { "status": "Separado", "quantidade": 12, "valor": "179573,1" },
-    { "status": "Faturado", "quantidade": 61, "valor": "371104,79" },
-    { "status": "Total", "quantidade": 170, "valor": "1263021,24" }
+    { "status": "Análise de Crédito", "quantidade": 24, "valor": "210849,97" },
+    { "status": "Total em Disputa", "quantidade": 30, "valor": "222287,02" },
+    { "status": "Aguard. Envio Separação", "quantidade": 8, "valor": "43782,68" },
+    { "status": "Em Separação", "quantidade": 92, "valor": "621074,27" },
+    { "status": "Separado", "quantidade": 8, "valor": "107440,4" },
+    { "status": "Faturado", "quantidade": 73, "valor": "529531,89" },
+    { "status": "Total", "quantidade": 181, "valor": "1301829,24" }
  ],
  "recebimento_produtos": [
 
@@ -51,14 +51,14 @@
   {"numero_pedido":"707750 ", "emissao_pv": "27/08/2026 ", "vlr_total_produtos": "2640 ", "margem": "26,4 ", "nome_cliente": "DISTRIBUIDORA E IMPO ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"707758 ", "emissao_pv": "27/08/2026 ", "vlr_total_produtos": "2337,3 ", "margem": "11,95 ", "nome_cliente": "VAP SOL EMPRESARIAIS ", "uf_cliente": "DF ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"707760 ", "emissao_pv": "27/08/2026 ", "vlr_total_produtos": "1172,1 ", "margem": "40,14 ", "nome_cliente": "NOVA SAUDE PRODUTOS ", "uf_cliente": "MS ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"707777 ", "emissao_pv": "27/08/2026 ", "vlr_total_produtos": "2064 ", "margem": "15,56 ", "nome_cliente": "PONTO MEDICO ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"707783 ", "emissao_pv": "27/08/2026 ", "vlr_total_produtos": "34755,5 ", "margem": "26,21 ", "nome_cliente": "AL COMERCIO DE PRODU ", "uf_cliente": "AM ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"707787 ", "emissao_pv": "27/08/2026 ", "vlr_total_produtos": "37080,2 ", "margem": "8,44 ", "nome_cliente": "J F DISTRIBUIDORA DE ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"707793 ", "emissao_pv": "27/08/2026 ", "vlr_total_produtos": "1155 ", "margem": "27,34 ", "nome_cliente": "CLINILABOR ROJAN ", "uf_cliente": "MG ", "tipo_cliente": "CONS.FINAL ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"707795 ", "emissao_pv": "27/08/2026 ", "vlr_total_produtos": "1501,44 ", "margem": "43,73 ", "nome_cliente": "SOMED HOSPITALAR ", "uf_cliente": "SC ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. FENIX (SC) ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"707797 ", "emissao_pv": "27/08/2026 ", "vlr_total_produtos": "983 ", "margem": "42,79 ", "nome_cliente": "NETMED DISTRIB MEDIC ", "uf_cliente": "RS ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"707801 ", "emissao_pv": "27/08/2026 ", "vlr_total_produtos": "1288,54 ", "margem": "24,72 ", "nome_cliente": "PREMISSE HOSPITALAR ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" }
-
+  {"numero_pedido":"707820 ", "emissao_pv": "27/08/2026 ", "vlr_total_produtos": "2239 ", "margem": "50,54 ", "nome_cliente": "CENTERLAB ", "uf_cliente": "BA ", "tipo_cliente": "CONS.FINAL ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"707822 ", "emissao_pv": "27/08/2026 ", "vlr_total_produtos": "1110,5 ", "margem": "30,35 ", "nome_cliente": "61 366 112 NILCLESIA ", "uf_cliente": "MA ", "tipo_cliente": "REVENDEDOR ","vendedor": "LUCIA FLORESTA ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"707824 ", "emissao_pv": "27/08/2026 ", "vlr_total_produtos": "1542,19 ", "margem": "14,24 ", "nome_cliente": "PERSEVERANTE MEDICAM ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"707826 ", "emissao_pv": "27/08/2026 ", "vlr_total_produtos": "2306,06 ", "margem": "38,29 ", "nome_cliente": "LAB CLIN ", "uf_cliente": "AC ", "tipo_cliente": "CONS.FINAL ","vendedor": "ALEXANDRA RIBEIRO ", "ultimo_status": "Alvará Sanitário" }
 
 
 
@@ -83,18 +83,18 @@
   "performance_gerencial": {
     "mes_atual": {
      "periodo": "agosto/2026",
-     "frete_pago": "478944,74",
-     "faturamento": "11960790,83",
-     "frete_repassado": "452141,59",
-     "entrega_realizada": "1114",
-     "entrega_no_prazo": "1083",
-     "qtd_notas_fiscais": "1767",
-     "entrega_fora_prazo": "31"
+     "frete_pago": "515540,41",
+     "faturamento": "12630943,94",
+     "frete_repassado": "461985,87",
+     "entrega_realizada": "1174",
+     "entrega_no_prazo": "1142",
+     "qtd_notas_fiscais": "1833",
+     "entrega_fora_prazo": "32"
 },
   "mes_anterior": {
      "periodo": "julho/2026",
-     "entrega_realizada": "2097",
-     "entrega_no_prazo": "2041"
+     "entrega_realizada": "2098",
+     "entrega_no_prazo": "2043"
   }
 },
   "expedicao": {
