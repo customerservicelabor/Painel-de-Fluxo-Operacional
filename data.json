@@ -1,18 +1,18 @@
 {
-  "updated_at": "28/08/2026 12:50",
+  "updated_at": "28/08/2026 14:14",
   "kpis": {
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 1, "valor": "6,89" },
-    { "status": "Alvará Sanitário", "quantidade": 3, "valor": "5340" },
-    { "status": "Bloqueado por regra", "quantidade": 3, "valor": "4087,07" },
-    { "status": "Análise de Crédito", "quantidade": 24, "valor": "196225,22" },
-    { "status": "Total em Disputa", "quantidade": 31, "valor": "205659,18" },
+    { "status": "Aguardando Liberação", "quantidade": 11, "valor": "29654,89" },
+    { "status": "Alvará Sanitário", "quantidade": 0, "valor": "0" },
+    { "status": "Bloqueado por regra", "quantidade": 1, "valor": "681,72" },
+    { "status": "Análise de Crédito", "quantidade": 16, "valor": "141819,14" },
+    { "status": "Total em Disputa", "quantidade": 28, "valor": "172155,75" },
     { "status": "Aguard. Envio Separação", "quantidade": 5, "valor": "10301,7" },
-    { "status": "Em Separação", "quantidade": 4, "valor": "231714,55" },
-    { "status": "Separado", "quantidade": 3, "valor": "39620,5" },
-    { "status": "Faturado", "quantidade": 117, "valor": "786987,93" },
-    { "status": "Total", "quantidade": 129, "valor": "1068624,68" }
+    { "status": "Em Separação", "quantidade": 2, "valor": "13299,73" },
+    { "status": "Separado", "quantidade": 10, "valor": "153850,38" },
+    { "status": "Faturado", "quantidade": 121, "valor": "959965,08" },
+    { "status": "Total", "quantidade": 138, "valor": "1137416,89" }
  ],
  "recebimento_produtos": [
 
@@ -48,18 +48,18 @@
   {"numero_pedido":"707844 ", "emissao_pv": "27/08/2026 ", "vlr_total_produtos": "19379,6 ", "margem": "30,6 ", "nome_cliente": "LINE BRASIL ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"707877 ", "emissao_pv": "27/08/2026 ", "vlr_total_produtos": "7606,62 ", "margem": "25,45 ", "nome_cliente": "CH TREVISAN DIAS LTD ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"707927 ", "emissao_pv": "28/08/2026 ", "vlr_total_produtos": "1054 ", "margem": "28,83 ", "nome_cliente": "REDENTOR HOSPITALAR ", "uf_cliente": "DF ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"707963 ", "emissao_pv": "28/08/2026 ", "vlr_total_produtos": "7564,28 ", "margem": "26,66 ", "nome_cliente": "MASTERMED ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"707970 ", "emissao_pv": "28/08/2026 ", "vlr_total_produtos": "3360 ", "margem": "65,32 ", "nome_cliente": "M ME DISTR P LA MEDI ", "uf_cliente": "DF ", "tipo_cliente": "REVENDEDOR ","vendedor": "LUCIANA LIMA ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"707974 ", "emissao_pv": "28/08/2026 ", "vlr_total_produtos": "1140 ", "margem": "26,86 ", "nome_cliente": "LAB ANALISES CLINICA ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOAO NETO ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"707975 ", "emissao_pv": "28/08/2026 ", "vlr_total_produtos": "2222,6 ", "margem": "26,85 ", "nome_cliente": "GM DISTRIBUIDORA ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"707981 ", "emissao_pv": "28/08/2026 ", "vlr_total_produtos": "5850 ", "margem": "10,27 ", "nome_cliente": "THIADE HEALTH COMERC ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"707987 ", "emissao_pv": "28/08/2026 ", "vlr_total_produtos": "11500 ", "margem": "62,7 ", "nome_cliente": "DOMINIUS ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"707989 ", "emissao_pv": "28/08/2026 ", "vlr_total_produtos": "7396,8 ", "margem": "65,21 ", "nome_cliente": "ATLANTICO ", "uf_cliente": "SC ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"707999 ", "emissao_pv": "28/08/2026 ", "vlr_total_produtos": "10280 ", "margem": "24,79 ", "nome_cliente": "LICIMASTER ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "LUCIA FLORESTA ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"708001 ", "emissao_pv": "28/08/2026 ", "vlr_total_produtos": "5700 ", "margem": "63,29 ", "nome_cliente": "DISTRIBUIDORA CHAMPI ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"708002 ", "emissao_pv": "28/08/2026 ", "vlr_total_produtos": "7878,4 ", "margem": "31,25 ", "nome_cliente": "AME COMERCIO ATACADI ", "uf_cliente": "RN ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. ALFA ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"708005 ", "emissao_pv": "28/08/2026 ", "vlr_total_produtos": "1864 ", "margem": "26,68 ", "nome_cliente": "INOVA HOSPITALAR LTD ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. SUPREMO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"708007 ", "emissao_pv": "28/08/2026 ", "vlr_total_produtos": "840 ", "margem": "27,67 ", "nome_cliente": "CHORC E LABORATORIO ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Alvará Sanitário" }
+  {"numero_pedido":"707981 ", "emissao_pv": "28/08/2026 ", "vlr_total_produtos": "5850 ", "margem": "10,27 ", "nome_cliente": "THIADE HEALTH COMERC ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -83,13 +83,13 @@
   "performance_gerencial": {
     "mes_atual": {
      "periodo": "agosto/2026",
-     "frete_pago": "528428,92",
-     "faturamento": "13037997,05",
-     "frete_repassado": "476504,86",
-     "entrega_realizada": "1218",
-     "entrega_no_prazo": "1180",
-     "qtd_notas_fiscais": "1892",
-     "entrega_fora_prazo": "38"
+     "frete_pago": "552916,38",
+     "faturamento": "13491138,84",
+     "frete_repassado": "498550,82",
+     "entrega_realizada": "1255",
+     "entrega_no_prazo": "1214",
+     "qtd_notas_fiscais": "2007",
+     "entrega_fora_prazo": "42"
 },
   "mes_anterior": {
      "periodo": "julho/2026",
