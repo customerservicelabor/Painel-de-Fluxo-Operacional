@@ -1,18 +1,18 @@
 {
-  "updated_at": "31/08/2026 12:34",
+  "updated_at": "31/08/2026 15:16",
   "kpis": {
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 2, "valor": "2844,87" },
-    { "status": "Alvará Sanitário", "quantidade": 8, "valor": "54893,61" },
+    { "status": "Aguardando Liberação", "quantidade": 2, "valor": "2723,62" },
+    { "status": "Alvará Sanitário", "quantidade": 2, "valor": "9961,59" },
     { "status": "Bloqueado por regra", "quantidade": 0, "valor": "0" },
-    { "status": "Análise de Crédito", "quantidade": 11, "valor": "97039,57" },
-    { "status": "Total em Disputa", "quantidade": 21, "valor": "154778,05" },
-    { "status": "Aguard. Envio Separação", "quantidade": 6, "valor": "12771,39" },
-    { "status": "Em Separação", "quantidade": 21, "valor": "67010,54" },
-    { "status": "Separado", "quantidade": 1, "valor": "1740" },
+    { "status": "Análise de Crédito", "quantidade": 10, "valor": "84516,22" },
+    { "status": "Total em Disputa", "quantidade": 14, "valor": "97201,43" },
+    { "status": "Aguard. Envio Separação", "quantidade": 8, "valor": "20068,16" },
+    { "status": "Em Separação", "quantidade": 27, "valor": "118065,61" },
+    { "status": "Separado", "quantidade": 12, "valor": "45284,81" },
     { "status": "Faturado", "quantidade": 0, "valor": "0" },
-    { "status": "Total", "quantidade": 28, "valor": "81521,93" }
+    { "status": "Total", "quantidade": 47, "valor": "183418,58" }
  ],
  "recebimento_produtos": [
 
@@ -40,18 +40,18 @@
   {"numero_pedido":"707758 ", "emissao_pv": "27/08/2026 ", "vlr_total_produtos": "2337,3 ", "margem": "11,95 ", "nome_cliente": "VAP SOL EMPRESARIAIS ", "uf_cliente": "DF ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"707877 ", "emissao_pv": "27/08/2026 ", "vlr_total_produtos": "7606,62 ", "margem": "25,45 ", "nome_cliente": "CH TREVISAN DIAS LTD ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"708038 ", "emissao_pv": "28/08/2026 ", "vlr_total_produtos": "2535 ", "margem": "38,34 ", "nome_cliente": "MEGA HOSPITALAR ", "uf_cliente": "MS ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"708060 ", "emissao_pv": "28/08/2026 ", "vlr_total_produtos": "8816,5 ", "margem": "62,34 ", "nome_cliente": "POLINATI PRODUTOS ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOICE MENDES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"708116 ", "emissao_pv": "28/08/2026 ", "vlr_total_produtos": "12675,7 ", "margem": "55,11 ", "nome_cliente": "P H PROD MEDICOS HOS ", "uf_cliente": "RO ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. FEMA ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"708175 ", "emissao_pv": "31/08/2026 ", "vlr_total_produtos": "819,15 ", "margem": "30,89 ", "nome_cliente": "HOSPBOX ", "uf_cliente": "RS ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. LM ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"708185 ", "emissao_pv": "31/08/2026 ", "vlr_total_produtos": "1378 ", "margem": "31,66 ", "nome_cliente": "ORTOPEDIA NOROESTE L ", "uf_cliente": "ES ", "tipo_cliente": "REVENDEDOR ","vendedor": "ALEXANDRA RIBEIRO ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"708188 ", "emissao_pv": "31/08/2026 ", "vlr_total_produtos": "17397,76 ", "margem": "33,98 ", "nome_cliente": "MED TECH ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"708195 ", "emissao_pv": "31/08/2026 ", "vlr_total_produtos": "6753,9 ", "margem": "32,16 ", "nome_cliente": "CASA DE SAUDE SAO JO ", "uf_cliente": "RJ ", "tipo_cliente": "CONS.FINAL ","vendedor": "ERICA BARNES ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"708197 ", "emissao_pv": "31/08/2026 ", "vlr_total_produtos": "25000 ", "margem": "-14,94 ", "nome_cliente": "CIRURGICA CANOENSE C ", "uf_cliente": "RS ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"708201 ", "emissao_pv": "31/08/2026 ", "vlr_total_produtos": "1965,74 ", "margem": "19,58 ", "nome_cliente": "M   H PRODUTOS MEDIC ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"708206 ", "emissao_pv": "31/08/2026 ", "vlr_total_produtos": "1248,45 ", "margem": "24,34 ", "nome_cliente": "FORTMED MATERIAIS CI ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"708216 ", "emissao_pv": "31/08/2026 ", "vlr_total_produtos": "2412,5 ", "margem": "35,41 ", "nome_cliente": "RIBEIRO COMERCIAL ", "uf_cliente": "AM ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. TURCATO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"708220 ", "emissao_pv": "31/08/2026 ", "vlr_total_produtos": "330,61 ", "margem": "0 ", "nome_cliente": "VERITAS GENETICS BRA ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "E-COMMERCE ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"708221 ", "emissao_pv": "31/08/2026 ", "vlr_total_produtos": "8604,35 ", "margem": "15,07 ", "nome_cliente": "C A  DISTRIBUIDORA ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" }
+  {"numero_pedido":"708232 ", "emissao_pv": "31/08/2026 ", "vlr_total_produtos": "6490 ", "margem": "37,7 ", "nome_cliente": "ESPECIFARMA COM MEDI ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"708234 ", "emissao_pv": "31/08/2026 ", "vlr_total_produtos": "820 ", "margem": "53,26 ", "nome_cliente": "NATEK  NATUREZA E TE ", "uf_cliente": "PB ", "tipo_cliente": "REVENDEDOR ","vendedor": "LUCIANA LIMA ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"708248 ", "emissao_pv": "31/08/2026 ", "vlr_total_produtos": "1057,02 ", "margem": "45,81 ", "nome_cliente": "LAB BITTAR LTDA ", "uf_cliente": "RJ ", "tipo_cliente": "CONS.FINAL ","vendedor": "ALEXANDRA RIBEIRO ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"708254 ", "emissao_pv": "31/08/2026 ", "vlr_total_produtos": "8904,57 ", "margem": "62,65 ", "nome_cliente": "POLINATI PRODUTOS ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOICE MENDES ", "ultimo_status": "Alvará Sanitário" }
+
+
+
+
+
+
+
 
 
 
