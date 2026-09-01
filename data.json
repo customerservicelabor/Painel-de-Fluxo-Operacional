@@ -1,18 +1,18 @@
 {
-  "updated_at": "01/09/2026 15:06",
+  "updated_at": "01/09/2026 15:57",
   "kpis": {
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 3, "valor": "2319,22" },
-    { "status": "Alvará Sanitário", "quantidade": 21, "valor": "213947" },
+    { "status": "Aguardando Liberação", "quantidade": 4, "valor": "69819,22" },
+    { "status": "Alvará Sanitário", "quantidade": 20, "valor": "146447" },
     { "status": "Bloqueado por regra", "quantidade": 2, "valor": "2327,14" },
-    { "status": "Análise de Crédito", "quantidade": 18, "valor": "202841,24" },
-    { "status": "Total em Disputa", "quantidade": 44, "valor": "421434,6" },
-    { "status": "Aguard. Envio Separação", "quantidade": 15, "valor": "32261,26" },
-    { "status": "Em Separação", "quantidade": 3, "valor": "18977,65" },
-    { "status": "Separado", "quantidade": 15, "valor": "37226,45" },
-    { "status": "Faturado", "quantidade": 173, "valor": "789007,86" },
-    { "status": "Total", "quantidade": 206, "valor": "877473,22" }
+    { "status": "Análise de Crédito", "quantidade": 17, "valor": "205961,64" },
+    { "status": "Total em Disputa", "quantidade": 43, "valor": "424555" },
+    { "status": "Aguard. Envio Separação", "quantidade": 15, "valor": "40101,16" },
+    { "status": "Em Separação", "quantidade": 4, "valor": "32024,65" },
+    { "status": "Separado", "quantidade": 12, "valor": "24606,86" },
+    { "status": "Faturado", "quantidade": 180, "valor": "811457,14" },
+    { "status": "Total", "quantidade": 211, "valor": "908189,81" }
  ],
  "recebimento_produtos": [
 
@@ -48,13 +48,13 @@
   {"numero_pedido":"708340 ", "emissao_pv": "01/09/2026 ", "vlr_total_produtos": "1738 ", "margem": "43,1 ", "nome_cliente": "H  HOSPITALAR DISTRI ", "uf_cliente": "MT ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"708346 ", "emissao_pv": "01/09/2026 ", "vlr_total_produtos": "35484 ", "margem": "11,06 ", "nome_cliente": "F R HOSPITALAR IMPOR ", "uf_cliente": "DF ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"708372 ", "emissao_pv": "01/09/2026 ", "vlr_total_produtos": "807,7 ", "margem": "34,43 ", "nome_cliente": "LUCENA COMERCIO EQUI ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. HELEIDA ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"708378 ", "emissao_pv": "01/09/2026 ", "vlr_total_produtos": "67500 ", "margem": "34,06 ", "nome_cliente": "MG BRASIL COMERCIO E ", "uf_cliente": "ES ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOICE MENDES ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"708380 ", "emissao_pv": "01/09/2026 ", "vlr_total_produtos": "1624 ", "margem": "63,27 ", "nome_cliente": "PERFRANCA ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "LUCIANA LIMA ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"708388 ", "emissao_pv": "01/09/2026 ", "vlr_total_produtos": "4325 ", "margem": "41,35 ", "nome_cliente": "ELO DISTRIBUIDORA DE ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"708390 ", "emissao_pv": "01/09/2026 ", "vlr_total_produtos": "5631 ", "margem": "43,64 ", "nome_cliente": "FREEDOM HOSPITALAR ", "uf_cliente": "CE ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"708392 ", "emissao_pv": "01/09/2026 ", "vlr_total_produtos": "13047 ", "margem": "36,11 ", "nome_cliente": "PROSSERV COMERCIO ", "uf_cliente": "RR ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. TURCATO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"708396 ", "emissao_pv": "01/09/2026 ", "vlr_total_produtos": "1053,58 ", "margem": "37,96 ", "nome_cliente": "HOSPITAL DR BEDA ", "uf_cliente": "RJ ", "tipo_cliente": "CONS.FINAL ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"708398 ", "emissao_pv": "01/09/2026 ", "vlr_total_produtos": "3582,6 ", "margem": "42,29 ", "nome_cliente": "MED TECH ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" }
+  {"numero_pedido":"708410 ", "emissao_pv": "01/09/2026 ", "vlr_total_produtos": "19750 ", "margem": "36,16 ", "nome_cliente": "MASTERMED  PRODUTOS ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" }
+
+
 
 
 
