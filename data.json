@@ -1,18 +1,18 @@
 {
-  "updated_at": "03/09/2026 14:35",
+  "updated_at": "03/09/2026 15:23",
   "kpis": {
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 5, "valor": "25129,72" },
-    { "status": "Alvará Sanitário", "quantidade": 7, "valor": "20360,58" },
-    { "status": "Bloqueado por regra", "quantidade": 2, "valor": "1765,34" },
-    { "status": "Análise de Crédito", "quantidade": 9, "valor": "32407" },
-    { "status": "Total em Disputa", "quantidade": 23, "valor": "79662,64" },
-    { "status": "Aguard. Envio Separação", "quantidade": 5, "valor": "11496,56" },
-    { "status": "Em Separação", "quantidade": 2, "valor": "1659,7" },
-    { "status": "Separado", "quantidade": 5, "valor": "17838,71" },
-    { "status": "Faturado", "quantidade": 29, "valor": "83610,23" },
-    { "status": "Total", "quantidade": 41, "valor": "114605,2" }
+    { "status": "Alvará Sanitário", "quantidade": 9, "valor": "28853,72" },
+    { "status": "Bloqueado por regra", "quantidade": 1, "valor": "461,1" },
+    { "status": "Análise de Crédito", "quantidade": 14, "valor": "71115,96" },
+    { "status": "Total em Disputa", "quantidade": 29, "valor": "125560,5" },
+    { "status": "Aguard. Envio Separação", "quantidade": 4, "valor": "10296,56" },
+    { "status": "Em Separação", "quantidade": 3, "valor": "17249,36" },
+    { "status": "Separado", "quantidade": 8, "valor": "33252,91" },
+    { "status": "Faturado", "quantidade": 29, "valor": "82964,53" },
+    { "status": "Total", "quantidade": 44, "valor": "143763,36" }
  ],
  "recebimento_produtos": [
 
@@ -48,14 +48,14 @@
   {"numero_pedido":"708782 ", "emissao_pv": "03/09/2026 ", "vlr_total_produtos": "7862 ", "margem": "13,16 ", "nome_cliente": "HOSPMED DISTRIBUIDOR ", "uf_cliente": "PI ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"708785 ", "emissao_pv": "03/09/2026 ", "vlr_total_produtos": "1213,25 ", "margem": "27,85 ", "nome_cliente": "PULSEMED HOSPITALAR ", "uf_cliente": "DF ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. SUPREMO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"708789 ", "emissao_pv": "03/09/2026 ", "vlr_total_produtos": "4605 ", "margem": "33,76 ", "nome_cliente": "MED HOSPITALAR LTDA ", "uf_cliente": "MA ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"708791 ", "emissao_pv": "03/09/2026 ", "vlr_total_produtos": "915 ", "margem": "51,13 ", "nome_cliente": "AURAMAX DISTRIBUIDOR ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "LUCIANA LIMA ", "ultimo_status": "Análise de Crédito" }
-
-
-
-
-
-
-
+  {"numero_pedido":"708791 ", "emissao_pv": "03/09/2026 ", "vlr_total_produtos": "915 ", "margem": "51,13 ", "nome_cliente": "AURAMAX DISTRIBUIDOR ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "LUCIANA LIMA ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"708793 ", "emissao_pv": "03/09/2026 ", "vlr_total_produtos": "1304,24 ", "margem": "0 ", "nome_cliente": "XLAB  SUPRIMENTOS PA ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "E-COMMERCE ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"708797 ", "emissao_pv": "03/09/2026 ", "vlr_total_produtos": "3565,36 ", "margem": "29,92 ", "nome_cliente": "PAPELARIA E PERFUMAR ", "uf_cliente": "ES ", "tipo_cliente": "REVENDEDOR ","vendedor": "ALEXANDRA RIBEIRO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"708799 ", "emissao_pv": "03/09/2026 ", "vlr_total_produtos": "978 ", "margem": "30,77 ", "nome_cliente": "GLOBALMOR ", "uf_cliente": "AM ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. TURCATO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"708803 ", "emissao_pv": "03/09/2026 ", "vlr_total_produtos": "7188,9 ", "margem": "28,41 ", "nome_cliente": "CANEM ARTIGOS MEDICO ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"708805 ", "emissao_pv": "03/09/2026 ", "vlr_total_produtos": "16430 ", "margem": "63,66 ", "nome_cliente": "NP MED PRODUTOS CLIN ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"708807 ", "emissao_pv": "03/09/2026 ", "vlr_total_produtos": "16892 ", "margem": "24,49 ", "nome_cliente": "DASA ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"708811 ", "emissao_pv": "03/09/2026 ", "vlr_total_produtos": "843,6 ", "margem": "31,28 ", "nome_cliente": "VIMEDIX MATERIAL HOS ", "uf_cliente": "ES ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Análise de Crédito" }
 
 
 
