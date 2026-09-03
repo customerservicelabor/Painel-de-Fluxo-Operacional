@@ -1,18 +1,18 @@
 {
-  "updated_at": "03/09/2026 12:49",
+  "updated_at": "03/09/2026 14:35",
   "kpis": {
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 6, "valor": "33128,22" },
-    { "status": "Alvará Sanitário", "quantidade": 6, "valor": "15755,58" },
-    { "status": "Bloqueado por regra", "quantidade": 1, "valor": "461,1" },
-    { "status": "Análise de Crédito", "quantidade": 5, "valor": "19966,75" },
-    { "status": "Total em Disputa", "quantidade": 18, "valor": "69311,65" },
-    { "status": "Aguard. Envio Separação", "quantidade": 4, "valor": "10296,56" },
-    { "status": "Em Separação", "quantidade": 2, "valor": "12994,5" },
-    { "status": "Separado", "quantidade": 6, "valor": "13431,25" },
-    { "status": "Faturado", "quantidade": 23, "valor": "70897,43" },
-    { "status": "Total", "quantidade": 35, "valor": "107619,74" }
+    { "status": "Aguardando Liberação", "quantidade": 5, "valor": "25129,72" },
+    { "status": "Alvará Sanitário", "quantidade": 7, "valor": "20360,58" },
+    { "status": "Bloqueado por regra", "quantidade": 2, "valor": "1765,34" },
+    { "status": "Análise de Crédito", "quantidade": 9, "valor": "32407" },
+    { "status": "Total em Disputa", "quantidade": 23, "valor": "79662,64" },
+    { "status": "Aguard. Envio Separação", "quantidade": 5, "valor": "11496,56" },
+    { "status": "Em Separação", "quantidade": 2, "valor": "1659,7" },
+    { "status": "Separado", "quantidade": 5, "valor": "17838,71" },
+    { "status": "Faturado", "quantidade": 29, "valor": "83610,23" },
+    { "status": "Total", "quantidade": 41, "valor": "114605,2" }
  ],
  "recebimento_produtos": [
 
@@ -43,12 +43,12 @@
   {"numero_pedido":"708760 ", "emissao_pv": "03/09/2026 ", "vlr_total_produtos": "2962,7 ", "margem": "15,28 ", "nome_cliente": "PRODUVALE PRODUTOS H ", "uf_cliente": "SC ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"708762 ", "emissao_pv": "03/09/2026 ", "vlr_total_produtos": "4549,4 ", "margem": "28,06 ", "nome_cliente": "PAVA HOSPITALAR ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"708764 ", "emissao_pv": "03/09/2026 ", "vlr_total_produtos": "1246,1 ", "margem": "29,69 ", "nome_cliente": "BLEST SOLUTION ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"708768 ", "emissao_pv": "03/09/2026 ", "vlr_total_produtos": "4514,78 ", "margem": "24,86 ", "nome_cliente": "HARPIA COMERCIAL ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. CAREMED ", "ultimo_status": "Alvará Sanitário" }
-
-
-
-
-
+  {"numero_pedido":"708768 ", "emissao_pv": "03/09/2026 ", "vlr_total_produtos": "4514,78 ", "margem": "24,86 ", "nome_cliente": "HARPIA COMERCIAL ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. CAREMED ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"708778 ", "emissao_pv": "03/09/2026 ", "vlr_total_produtos": "2450 ", "margem": "23,98 ", "nome_cliente": "59 896 380 TATIANE V ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"708782 ", "emissao_pv": "03/09/2026 ", "vlr_total_produtos": "7862 ", "margem": "13,16 ", "nome_cliente": "HOSPMED DISTRIBUIDOR ", "uf_cliente": "PI ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"708785 ", "emissao_pv": "03/09/2026 ", "vlr_total_produtos": "1213,25 ", "margem": "27,85 ", "nome_cliente": "PULSEMED HOSPITALAR ", "uf_cliente": "DF ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. SUPREMO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"708789 ", "emissao_pv": "03/09/2026 ", "vlr_total_produtos": "4605 ", "margem": "33,76 ", "nome_cliente": "MED HOSPITALAR LTDA ", "uf_cliente": "MA ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"708791 ", "emissao_pv": "03/09/2026 ", "vlr_total_produtos": "915 ", "margem": "51,13 ", "nome_cliente": "AURAMAX DISTRIBUIDOR ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "LUCIANA LIMA ", "ultimo_status": "Análise de Crédito" }
 
 
 
