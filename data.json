@@ -1,18 +1,18 @@
 {
-  "updated_at": "03/09/2026 11:23",
+  "updated_at": "03/09/2026 12:49",
   "kpis": {
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 5, "valor": "29480,22" },
-    { "status": "Alvará Sanitário", "quantidade": 2, "valor": "4632" },
+    { "status": "Aguardando Liberação", "quantidade": 6, "valor": "33128,22" },
+    { "status": "Alvará Sanitário", "quantidade": 6, "valor": "15755,58" },
     { "status": "Bloqueado por regra", "quantidade": 1, "valor": "461,1" },
     { "status": "Análise de Crédito", "quantidade": 5, "valor": "19966,75" },
-    { "status": "Total em Disputa", "quantidade": 13, "valor": "54540,07" },
-    { "status": "Aguard. Envio Separação", "quantidade": 5, "valor": "11892,08" },
-    { "status": "Em Separação", "quantidade": 19, "valor": "42890,12" },
-    { "status": "Separado", "quantidade": 3, "valor": "5832,6" },
-    { "status": "Faturado", "quantidade": 1, "valor": "2600" },
-    { "status": "Total", "quantidade": 28, "valor": "63214,8" }
+    { "status": "Total em Disputa", "quantidade": 18, "valor": "69311,65" },
+    { "status": "Aguard. Envio Separação", "quantidade": 4, "valor": "10296,56" },
+    { "status": "Em Separação", "quantidade": 2, "valor": "12994,5" },
+    { "status": "Separado", "quantidade": 6, "valor": "13431,25" },
+    { "status": "Faturado", "quantidade": 23, "valor": "70897,43" },
+    { "status": "Total", "quantidade": 35, "valor": "107619,74" }
  ],
  "recebimento_produtos": [
 
@@ -39,11 +39,11 @@
   {"numero_pedido":"708596 ", "emissao_pv": "02/09/2026 ", "vlr_total_produtos": "984 ", "margem": "27,32 ", "nome_cliente": "DIAGNOSTICOS DA AMER ", "uf_cliente": "MG ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOAO NETO ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"708632 ", "emissao_pv": "02/09/2026 ", "vlr_total_produtos": "3460 ", "margem": "45,23 ", "nome_cliente": "IMEDIATTA ", "uf_cliente": "PI ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"708713 ", "emissao_pv": "03/09/2026 ", "vlr_total_produtos": "10363,65 ", "margem": "31,58 ", "nome_cliente": "MAC MED FARMACEUTICA ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"708740 ", "emissao_pv": "03/09/2026 ", "vlr_total_produtos": "3648 ", "margem": "41,63 ", "nome_cliente": "UNIMED ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Alvará Sanitário" }
-
-
-
-
+  {"numero_pedido":"708756 ", "emissao_pv": "03/09/2026 ", "vlr_total_produtos": "1498,6 ", "margem": "39,1 ", "nome_cliente": "MRT MATERIAIS MEDICO ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"708760 ", "emissao_pv": "03/09/2026 ", "vlr_total_produtos": "2962,7 ", "margem": "15,28 ", "nome_cliente": "PRODUVALE PRODUTOS H ", "uf_cliente": "SC ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"708762 ", "emissao_pv": "03/09/2026 ", "vlr_total_produtos": "4549,4 ", "margem": "28,06 ", "nome_cliente": "PAVA HOSPITALAR ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"708764 ", "emissao_pv": "03/09/2026 ", "vlr_total_produtos": "1246,1 ", "margem": "29,69 ", "nome_cliente": "BLEST SOLUTION ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"708768 ", "emissao_pv": "03/09/2026 ", "vlr_total_produtos": "4514,78 ", "margem": "24,86 ", "nome_cliente": "HARPIA COMERCIAL ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. CAREMED ", "ultimo_status": "Alvará Sanitário" }
 
 
 
