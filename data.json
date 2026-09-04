@@ -1,18 +1,18 @@
 {
-  "updated_at": "03/09/2026 17:32",
+  "updated_at": "04/09/2026 08:17",
   "kpis": {
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 5, "valor": "25129,72" },
-    { "status": "Alvará Sanitário", "quantidade": 4, "valor": "10893,18" },
+    { "status": "Aguardando Liberação", "quantidade": 2, "valor": "3771,65" },
+    { "status": "Alvará Sanitário", "quantidade": 1, "valor": "984" },
     { "status": "Bloqueado por regra", "quantidade": 1, "valor": "461,1" },
-    { "status": "Análise de Crédito", "quantidade": 13, "valor": "91030,6" },
-    { "status": "Total em Disputa", "quantidade": 23, "valor": "127514,6" },
-    { "status": "Aguard. Envio Separação", "quantidade": 5, "valor": "14265,06" },
-    { "status": "Em Separação", "quantidade": 10, "valor": "141851,46" },
-    { "status": "Separado", "quantidade": 7, "valor": "20081,23" },
-    { "status": "Faturado", "quantidade": 51, "valor": "228430,03" },
-    { "status": "Total", "quantidade": 73, "valor": "404627,78" }
+    { "status": "Análise de Crédito", "quantidade": 15, "valor": "107805,2" },
+    { "status": "Total em Disputa", "quantidade": 19, "valor": "113021,95" },
+    { "status": "Aguard. Envio Separação", "quantidade": 7, "valor": "45413,11" },
+    { "status": "Em Separação", "quantidade": 2, "valor": "8681,1" },
+    { "status": "Separado", "quantidade": 2, "valor": "23608,32" },
+    { "status": "Faturado", "quantidade": 0, "valor": "0" },
+    { "status": "Total", "quantidade": 11, "valor": "77702,53" }
  ],
  "recebimento_produtos": [
 
@@ -39,17 +39,17 @@
   {"numero_pedido":"708596 ", "emissao_pv": "02/09/2026 ", "vlr_total_produtos": "984 ", "margem": "27,32 ", "nome_cliente": "DIAGNOSTICOS DA AMER ", "uf_cliente": "MG ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOAO NETO ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"708632 ", "emissao_pv": "02/09/2026 ", "vlr_total_produtos": "3460 ", "margem": "45,23 ", "nome_cliente": "IMEDIATTA ", "uf_cliente": "PI ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"708713 ", "emissao_pv": "03/09/2026 ", "vlr_total_produtos": "10363,65 ", "margem": "31,58 ", "nome_cliente": "MAC MED FARMACEUTICA ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"708734 ", "emissao_pv": "03/09/2026 ", "vlr_total_produtos": "13850 ", "margem": "39,03 ", "nome_cliente": "RECOPREL COMERCIAL ", "uf_cliente": "MA ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"708762 ", "emissao_pv": "03/09/2026 ", "vlr_total_produtos": "4549,4 ", "margem": "28,06 ", "nome_cliente": "PAVA HOSPITALAR ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"708764 ", "emissao_pv": "03/09/2026 ", "vlr_total_produtos": "1246,1 ", "margem": "29,69 ", "nome_cliente": "BLEST SOLUTION ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"708782 ", "emissao_pv": "03/09/2026 ", "vlr_total_produtos": "7862 ", "margem": "13,16 ", "nome_cliente": "HOSPMED DISTRIBUIDOR ", "uf_cliente": "PI ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"708799 ", "emissao_pv": "03/09/2026 ", "vlr_total_produtos": "978 ", "margem": "30,77 ", "nome_cliente": "GLOBALMOR ", "uf_cliente": "AM ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. TURCATO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"708834 ", "emissao_pv": "03/09/2026 ", "vlr_total_produtos": "4510,75 ", "margem": "40,14 ", "nome_cliente": "MELO DINIZ MEDICAMEN ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"708838 ", "emissao_pv": "03/09/2026 ", "vlr_total_produtos": "21280 ", "margem": "20,65 ", "nome_cliente": "JR HOSPITALAR ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"708840 ", "emissao_pv": "03/09/2026 ", "vlr_total_produtos": "7490,5 ", "margem": "32,22 ", "nome_cliente": "VIA DISTRIBUIDORA ", "uf_cliente": "RN ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. ALFA ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"708851 ", "emissao_pv": "03/09/2026 ", "vlr_total_produtos": "1423,48 ", "margem": "24,21 ", "nome_cliente": "DESCARTAVEIS ", "uf_cliente": "RO ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. FEMA ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"708853 ", "emissao_pv": "03/09/2026 ", "vlr_total_produtos": "995,2 ", "margem": "27,72 ", "nome_cliente": "CIRURGICA SPEDO ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"708855 ", "emissao_pv": "03/09/2026 ", "vlr_total_produtos": "29260 ", "margem": "18,04 ", "nome_cliente": "RN DISTRIBUIDORA HOS ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"708859 ", "emissao_pv": "03/09/2026 ", "vlr_total_produtos": "1377,6 ", "margem": "42,63 ", "nome_cliente": "MASTERMED  PRODUTOS ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" }
+  {"numero_pedido":"708869 ", "emissao_pv": "03/09/2026 ", "vlr_total_produtos": "1943,6 ", "margem": "0 ", "nome_cliente": "PROCLIN APARELHOS E ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "E-COMMERCE ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"708873 ", "emissao_pv": "04/09/2026 ", "vlr_total_produtos": "2358,6 ", "margem": "13,16 ", "nome_cliente": "OKEY MED ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. SCHIBELGS ", "ultimo_status": "Análise de Crédito" }
+
 
 
 
