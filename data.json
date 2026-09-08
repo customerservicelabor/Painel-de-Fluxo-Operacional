@@ -1,18 +1,18 @@
 {
-  "updated_at": "08/09/2026 11:42",
+  "updated_at": "08/09/2026 13:12",
   "kpis": {
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 4, "valor": "12741" },
-    { "status": "Alvará Sanitário", "quantidade": 4, "valor": "7123,2" },
-    { "status": "Bloqueado por regra", "quantidade": 1, "valor": "979,52" },
+    { "status": "Aguardando Liberação", "quantidade": 3, "valor": "4827,35" },
+    { "status": "Alvará Sanitário", "quantidade": 3, "valor": "3429,5" },
+    { "status": "Bloqueado por regra", "quantidade": 1, "valor": "2067,49" },
     { "status": "Análise de Crédito", "quantidade": 9, "valor": "79872,15" },
-    { "status": "Total em Disputa", "quantidade": 18, "valor": "100715,87" },
+    { "status": "Total em Disputa", "quantidade": 16, "valor": "90196,49" },
     { "status": "Aguard. Envio Separação", "quantidade": 3, "valor": "31385,2" },
-    { "status": "Em Separação", "quantidade": 23, "valor": "63897,62" },
-    { "status": "Separado", "quantidade": 5, "valor": "31088,76" },
-    { "status": "Faturado", "quantidade": 10, "valor": "40168,48" },
-    { "status": "Total", "quantidade": 41, "valor": "166540,06" }
+    { "status": "Em Separação", "quantidade": 3, "valor": "4401,35" },
+    { "status": "Separado", "quantidade": 12, "valor": "39926,97" },
+    { "status": "Faturado", "quantidade": 34, "valor": "104586,24" },
+    { "status": "Total", "quantidade": 52, "valor": "180299,76" }
  ],
  "recebimento_produtos": [
 
@@ -43,9 +43,9 @@
   {"numero_pedido":"708834 ", "emissao_pv": "03/09/2026 ", "vlr_total_produtos": "4510,75 ", "margem": "40,14 ", "nome_cliente": "MELO DINIZ MEDICAMEN ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"708917 ", "emissao_pv": "04/09/2026 ", "vlr_total_produtos": "1650 ", "margem": "44,38 ", "nome_cliente": "MONTALVAO COMERCIAL ", "uf_cliente": "SE ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"708934 ", "emissao_pv": "04/09/2026 ", "vlr_total_produtos": "44058,3 ", "margem": "17,53 ", "nome_cliente": "MEDBOX ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"708983 ", "emissao_pv": "08/09/2026 ", "vlr_total_produtos": "2574,1 ", "margem": "35,57 ", "nome_cliente": "DM COMERCIO DE PRODU ", "uf_cliente": "TO ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"708987 ", "emissao_pv": "08/09/2026 ", "vlr_total_produtos": "2321,4 ", "margem": "17,52 ", "nome_cliente": "HOFFMANN GOMES LTDA ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"709009 ", "emissao_pv": "08/09/2026 ", "vlr_total_produtos": "1243,7 ", "margem": "28,17 ", "nome_cliente": "BLUEMED ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Alvará Sanitário" }
+  {"numero_pedido":"709027 ", "emissao_pv": "08/09/2026 ", "vlr_total_produtos": "1246,1 ", "margem": "30,52 ", "nome_cliente": "BLEST SOLUTION ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"709029 ", "emissao_pv": "08/09/2026 ", "vlr_total_produtos": "1199,4 ", "margem": "24,55 ", "nome_cliente": "PERSEVERANTE MEDICAM ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Alvará Sanitário" }
+
 
 
 
