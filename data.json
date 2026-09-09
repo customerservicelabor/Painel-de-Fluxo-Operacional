@@ -1,18 +1,18 @@
 {
-  "updated_at": "09/09/2026 09:35",
+  "updated_at": "09/09/2026 10:28",
   "kpis": {
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 1, "valor": "3648" },
-    { "status": "Alvará Sanitário", "quantidade": 0, "valor": "0" },
+    { "status": "Alvará Sanitário", "quantidade": 1, "valor": "1296" },
     { "status": "Bloqueado por regra", "quantidade": 0, "valor": "0" },
-    { "status": "Análise de Crédito", "quantidade": 14, "valor": "116036,78" },
-    { "status": "Total em Disputa", "quantidade": 15, "valor": "119684,78" },
+    { "status": "Análise de Crédito", "quantidade": 15, "valor": "118919,75" },
+    { "status": "Total em Disputa", "quantidade": 17, "valor": "123863,75" },
     { "status": "Aguard. Envio Separação", "quantidade": 2, "valor": "23894,7" },
-    { "status": "Em Separação", "quantidade": 11, "valor": "51608,58" },
-    { "status": "Separado", "quantidade": 1, "valor": "1740" },
+    { "status": "Em Separação", "quantidade": 14, "valor": "88313,74" },
+    { "status": "Separado", "quantidade": 3, "valor": "10155,24" },
     { "status": "Faturado", "quantidade": 0, "valor": "0" },
-    { "status": "Total", "quantidade": 14, "valor": "77243,28" }
+    { "status": "Total", "quantidade": 19, "valor": "122363,68" }
  ],
  "recebimento_produtos": [
 
@@ -46,9 +46,9 @@
   {"numero_pedido":"709113 ", "emissao_pv": "08/09/2026 ", "vlr_total_produtos": "4370 ", "margem": "35,12 ", "nome_cliente": "FERREIRA COMERCIO ", "uf_cliente": "PE ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"709131 ", "emissao_pv": "08/09/2026 ", "vlr_total_produtos": "18830,4 ", "margem": "32,4 ", "nome_cliente": "RR LOPES COM SERVICO ", "uf_cliente": "AM ", "tipo_cliente": "REVENDEDOR ","vendedor": "ALEXANDRA RIBEIRO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"709151 ", "emissao_pv": "09/09/2026 ", "vlr_total_produtos": "8407,04 ", "margem": "27,47 ", "nome_cliente": "INFINITA COM SERV ", "uf_cliente": "SE ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"709153 ", "emissao_pv": "09/09/2026 ", "vlr_total_produtos": "5389 ", "margem": "50,44 ", "nome_cliente": "TRI MED C IMP ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" }
-
-
+  {"numero_pedido":"709153 ", "emissao_pv": "09/09/2026 ", "vlr_total_produtos": "5389 ", "margem": "50,44 ", "nome_cliente": "TRI MED C IMP ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"709157 ", "emissao_pv": "09/09/2026 ", "vlr_total_produtos": "2882,97 ", "margem": "21,33 ", "nome_cliente": "MEDSEN REPRESENTACAO ", "uf_cliente": "RS ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"709159 ", "emissao_pv": "09/09/2026 ", "vlr_total_produtos": "1296 ", "margem": "53,43 ", "nome_cliente": "ELO DISTRIBUIDORA DE ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Alvará Sanitário" }
 
 
 
