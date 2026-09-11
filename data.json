@@ -1,18 +1,18 @@
 {
-  "updated_at": "10/09/2026 17:09",
+  "updated_at": "11/09/2026 08:20",
   "kpis": {
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 2, "valor": "3858,34" },
-    { "status": "Alvará Sanitário", "quantidade": 1, "valor": "1039,2" },
+    { "status": "Alvará Sanitário", "quantidade": 0, "valor": "0" },
     { "status": "Bloqueado por regra", "quantidade": 1, "valor": "3818,19" },
-    { "status": "Análise de Crédito", "quantidade": 13, "valor": "43768,49" },
-    { "status": "Total em Disputa", "quantidade": 17, "valor": "52484,22" },
-    { "status": "Aguard. Envio Separação", "quantidade": 5, "valor": "42971,4" },
-    { "status": "Em Separação", "quantidade": 10, "valor": "52547,34" },
-    { "status": "Separado", "quantidade": 3, "valor": "6718,56" },
-    { "status": "Faturado", "quantidade": 48, "valor": "187606,48" },
-    { "status": "Total", "quantidade": 66, "valor": "289843,78" }
+    { "status": "Análise de Crédito", "quantidade": 15, "valor": "210997,69" },
+    { "status": "Total em Disputa", "quantidade": 18, "valor": "218674,22" },
+    { "status": "Aguard. Envio Separação", "quantidade": 4, "valor": "42161,4" },
+    { "status": "Em Separação", "quantidade": 7, "valor": "16311,37" },
+    { "status": "Separado", "quantidade": 1, "valor": "2810" },
+    { "status": "Faturado", "quantidade": 0, "valor": "0" },
+    { "status": "Total", "quantidade": 12, "valor": "61282,77" }
  ],
  "recebimento_produtos": [
 
@@ -44,10 +44,10 @@
   {"numero_pedido":"709433 ", "emissao_pv": "10/09/2026 ", "vlr_total_produtos": "1747,65 ", "margem": "35,91 ", "nome_cliente": "FORT MED HOSPITALAR ", "uf_cliente": "CE ", "tipo_cliente": "REVENDEDOR ","vendedor": "NEOLANDI SANTOS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"709445 ", "emissao_pv": "10/09/2026 ", "vlr_total_produtos": "803 ", "margem": "26,66 ", "nome_cliente": "CLINEFRAN CLINICA DE ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"709465 ", "emissao_pv": "10/09/2026 ", "vlr_total_produtos": "1402,2 ", "margem": "26,03 ", "nome_cliente": "LUIS CARLOS SILVA SO ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "ELIZANGELA GRACA ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"709469 ", "emissao_pv": "10/09/2026 ", "vlr_total_produtos": "4580 ", "margem": "17,98 ", "nome_cliente": "CRISTALINA MATERIAIS ", "uf_cliente": "RS ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. LM ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"709475 ", "emissao_pv": "10/09/2026 ", "vlr_total_produtos": "5613,2 ", "margem": "25,7 ", "nome_cliente": "C A  DISTRIBUIDORA ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"709477 ", "emissao_pv": "10/09/2026 ", "vlr_total_produtos": "1039,2 ", "margem": "27,17 ", "nome_cliente": "VIMED DISTRIBUIDORA ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Alvará Sanitário" }
-
+  {"numero_pedido":"709485 ", "emissao_pv": "10/09/2026 ", "vlr_total_produtos": "120635 ", "margem": "-3,43 ", "nome_cliente": "DASA ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"709487 ", "emissao_pv": "10/09/2026 ", "vlr_total_produtos": "9850 ", "margem": "36,76 ", "nome_cliente": "SANTA FE HOSPITALAR ", "uf_cliente": "RO ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"709499 ", "emissao_pv": "10/09/2026 ", "vlr_total_produtos": "807,4 ", "margem": "31,48 ", "nome_cliente": "AMAZOO ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "LUCIANA LIMA ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"709506 ", "emissao_pv": "11/09/2026 ", "vlr_total_produtos": "46130 ", "margem": "15,12 ", "nome_cliente": "SALUTIS DA AMAZONIA ", "uf_cliente": "AM ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Análise de Crédito" }
 
 
 
@@ -83,18 +83,18 @@
   "performance_gerencial": {
     "mes_atual": {
      "periodo": "setembro/2026",
-     "frete_pago": "108795,58",
-     "faturamento": "2439614,47",
-     "frete_repassado": "119198,38",
-     "entrega_realizada": "168",
-     "entrega_no_prazo": "157",
-     "qtd_notas_fiscais": "524",
-     "entrega_fora_prazo": "11"
+     "frete_pago": "137978,79",
+     "faturamento": "3023121,98",
+     "frete_repassado": "133082,37",
+     "entrega_realizada": "239",
+     "entrega_no_prazo": "221",
+     "qtd_notas_fiscais": "590",
+     "entrega_fora_prazo": "18"
 },
   "mes_anterior": {
      "periodo": "agosto/2026",
-     "entrega_realizada": "2007",
-     "entrega_no_prazo": "1914"
+     "entrega_realizada": "2037",
+     "entrega_no_prazo": "1937"
   }
 },
   "expedicao": {
@@ -106,12 +106,12 @@
 
 
 "estoque": {
-  "ocupacao_total_armazem": 62.76,
-  "ocupacao_operacional": 68.84,
+  "ocupacao_total_armazem": 62.29,
+  "ocupacao_operacional": 68.52,
   "areas": [
     { "nome": "Picking", "taxa": 77.07},
-    { "nome": "Pulmão de Abastecimento", "taxa": 67.31},
-    { "nome": "Flowrack", "taxa": 48.29},
+    { "nome": "Pulmão de Abastecimento", "taxa": 66.93},
+    { "nome": "Flowrack", "taxa": 46.08},
     { "nome": "Área de Qualidade", "taxa": 4.44},
     { "nome": "Área de Amostra", "taxa": 0.00},
     { "nome": "Área de Avarias", "taxa": 13.95}
