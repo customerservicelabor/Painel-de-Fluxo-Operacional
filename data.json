@@ -1,18 +1,18 @@
 {
-  "updated_at": "15/09/2026 14:37",
+  "updated_at": "15/09/2026 16:03",
   "kpis": {
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 1, "valor": "2997,12" },
-    { "status": "Alvará Sanitário", "quantidade": 1, "valor": "5365,8" },
+    { "status": "Aguardando Liberação", "quantidade": 6, "valor": "19628,91" },
+    { "status": "Alvará Sanitário", "quantidade": 4, "valor": "10895,8" },
     { "status": "Bloqueado por regra", "quantidade": 0, "valor": "0" },
-    { "status": "Análise de Crédito", "quantidade": 15, "valor": "354434,04" },
-    { "status": "Total em Disputa", "quantidade": 17, "valor": "362796,96" },
-    { "status": "Aguard. Envio Separação", "quantidade": 4, "valor": "9174,79" },
-    { "status": "Em Separação", "quantidade": 14, "valor": "85830,77" },
-    { "status": "Separado", "quantidade": 5, "valor": "30681,75" },
-    { "status": "Faturado", "quantidade": 53, "valor": "304975,33" },
-    { "status": "Total", "quantidade": 76, "valor": "430662,64" }
+    { "status": "Análise de Crédito", "quantidade": 14, "valor": "275637,44" },
+    { "status": "Total em Disputa", "quantidade": 24, "valor": "306162,15" },
+    { "status": "Aguard. Envio Separação", "quantidade": 2, "valor": "2257,79" },
+    { "status": "Em Separação", "quantidade": 3, "valor": "3663,28" },
+    { "status": "Separado", "quantidade": 0, "valor": "0" },
+    { "status": "Faturado", "quantidade": 72, "valor": "423886,75" },
+    { "status": "Total", "quantidade": 77, "valor": "429807,82" }
  ],
  "recebimento_produtos": [
 
@@ -47,10 +47,10 @@
   {"numero_pedido":"709889 ", "emissao_pv": "15/09/2026 ", "vlr_total_produtos": "66936 ", "margem": "26,75 ", "nome_cliente": "ROYAL MED HOSPITALAR ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"709899 ", "emissao_pv": "15/09/2026 ", "vlr_total_produtos": "1251 ", "margem": "45,06 ", "nome_cliente": "ASSOC FUNDO DE INCEN ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"709929 ", "emissao_pv": "15/09/2026 ", "vlr_total_produtos": "1103,2 ", "margem": "20,55 ", "nome_cliente": "PREMISSE HOSPITALAR ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"709945 ", "emissao_pv": "15/09/2026 ", "vlr_total_produtos": "78796,6 ", "margem": "20,76 ", "nome_cliente": "APOIOLAB ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"709971 ", "emissao_pv": "15/09/2026 ", "vlr_total_produtos": "5365,8 ", "margem": "15,25 ", "nome_cliente": "OMNI HOSPITALAR LTDA ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. SUPREMO ", "ultimo_status": "Alvará Sanitário" }
-
-
+  {"numero_pedido":"709971 ", "emissao_pv": "15/09/2026 ", "vlr_total_produtos": "5365,8 ", "margem": "15,25 ", "nome_cliente": "OMNI HOSPITALAR LTDA ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. SUPREMO ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"709982 ", "emissao_pv": "15/09/2026 ", "vlr_total_produtos": "2818,4 ", "margem": "35,28 ", "nome_cliente": "MX3 GROUP LTDA ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"709987 ", "emissao_pv": "15/09/2026 ", "vlr_total_produtos": "958,1 ", "margem": "29,77 ", "nome_cliente": "DIAGNOSTICOS DA AMER ", "uf_cliente": "DF ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOAO NETO ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"709997 ", "emissao_pv": "15/09/2026 ", "vlr_total_produtos": "1753,5 ", "margem": "9,27 ", "nome_cliente": "TITAN MED SOLUCOES P ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Alvará Sanitário" }
 
 
 
@@ -83,18 +83,18 @@
   "performance_gerencial": {
     "mes_atual": {
      "periodo": "setembro/2026",
-     "frete_pago": "172726,69",
-     "faturamento": "4105806,36",
-     "frete_repassado": "169240,53",
-     "entrega_realizada": "371",
-     "entrega_no_prazo": "354",
-     "qtd_notas_fiscais": "720",
-     "entrega_fora_prazo": "17"
+     "frete_pago": "190352,19",
+     "faturamento": "4487276,51",
+     "frete_repassado": "176072,85",
+     "entrega_realizada": "415",
+     "entrega_no_prazo": "383",
+     "qtd_notas_fiscais": "799",
+     "entrega_fora_prazo": "32"
 },
   "mes_anterior": {
      "periodo": "agosto/2026",
-     "entrega_realizada": "2078",
-     "entrega_no_prazo": "1994"
+     "entrega_realizada": "2110",
+     "entrega_no_prazo": "1999"
   }
 },
   "expedicao": {
