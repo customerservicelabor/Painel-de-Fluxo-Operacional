@@ -1,18 +1,18 @@
 {
-  "updated_at": "22/09/2026 13:14",
+  "updated_at": "22/09/2026 14:19",
   "kpis": {
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 6, "valor": "161168,3" },
-    { "status": "Alvará Sanitário", "quantidade": 3, "valor": "4141,5" },
+    { "status": "Aguardando Liberação", "quantidade": 7, "valor": "163224,3" },
+    { "status": "Alvará Sanitário", "quantidade": 3, "valor": "5800,22" },
     { "status": "Bloqueado por regra", "quantidade": 0, "valor": "0" },
-    { "status": "Análise de Crédito", "quantidade": 19, "valor": "99904,94" },
-    { "status": "Total em Disputa", "quantidade": 28, "valor": "265214,74" },
-    { "status": "Aguard. Envio Separação", "quantidade": 2, "valor": "2257,79" },
-    { "status": "Em Separação", "quantidade": 22, "valor": "426990,3" },
+    { "status": "Análise de Crédito", "quantidade": 20, "valor": "129404,94" },
+    { "status": "Total em Disputa", "quantidade": 30, "valor": "298429,46" },
+    { "status": "Aguard. Envio Separação", "quantidade": 3, "valor": "3291,79" },
+    { "status": "Em Separação", "quantidade": 29, "valor": "449010,94" },
     { "status": "Separado", "quantidade": 1, "valor": "3655,95" },
-    { "status": "Faturado", "quantidade": 32, "valor": "215171,43" },
-    { "status": "Total", "quantidade": 57, "valor": "648075,47" }
+    { "status": "Faturado", "quantidade": 35, "valor": "225324,75" },
+    { "status": "Total", "quantidade": 68, "valor": "681283,43" }
  ],
  "recebimento_produtos": [
 
@@ -52,10 +52,10 @@
   {"numero_pedido":"711026 ", "emissao_pv": "22/09/2026 ", "vlr_total_produtos": "1485,6 ", "margem": "47,8 ", "nome_cliente": "JIREH MATERIAL CIRUR ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"711030 ", "emissao_pv": "22/09/2026 ", "vlr_total_produtos": "35092,5 ", "margem": "28 ", "nome_cliente": "CDH  DIAGNOSTICA ", "uf_cliente": "RN ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"711034 ", "emissao_pv": "22/09/2026 ", "vlr_total_produtos": "1559,6 ", "margem": "27,33 ", "nome_cliente": "BOANALISE ", "uf_cliente": "PI ", "tipo_cliente": "CONS.FINAL ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"711040 ", "emissao_pv": "22/09/2026 ", "vlr_total_produtos": "1384 ", "margem": "10,53 ", "nome_cliente": "HOSP EDMUNDO VASCONC ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"711042 ", "emissao_pv": "22/09/2026 ", "vlr_total_produtos": "1287,5 ", "margem": "30,24 ", "nome_cliente": "PRECISAO CIRURGICA ", "uf_cliente": "ES ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"711044 ", "emissao_pv": "22/09/2026 ", "vlr_total_produtos": "1470 ", "margem": "3,48 ", "nome_cliente": "SANTOS H S ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Alvará Sanitário" }
-
+  {"numero_pedido":"711053 ", "emissao_pv": "22/09/2026 ", "vlr_total_produtos": "2844 ", "margem": "41,65 ", "nome_cliente": "LAB PAT CLINICA DR G ", "uf_cliente": "CE ", "tipo_cliente": "CONS.FINAL ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"711061 ", "emissao_pv": "22/09/2026 ", "vlr_total_produtos": "29500 ", "margem": "36,26 ", "nome_cliente": "MEDMAIA PRODUTOS MED ", "uf_cliente": "CE ", "tipo_cliente": "REVENDEDOR ","vendedor": "ALEXANDRA RIBEIRO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"711063 ", "emissao_pv": "22/09/2026 ", "vlr_total_produtos": "2088,22 ", "margem": "24,63 ", "nome_cliente": "LABORMED LABORATORIO ", "uf_cliente": "BA ", "tipo_cliente": "CONS.FINAL ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"711067 ", "emissao_pv": "22/09/2026 ", "vlr_total_produtos": "868 ", "margem": "23,61 ", "nome_cliente": "GUIORA REABILITACAO ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Alvará Sanitário" }
 
 
 
