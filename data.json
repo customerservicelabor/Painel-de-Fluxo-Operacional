@@ -1,18 +1,18 @@
 {
-  "updated_at": "30/09/2026 08:20",
+  "updated_at": "30/09/2026 10:16",
   "kpis": {
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 0, "valor": "0" },
-    { "status": "Alvará Sanitário", "quantidade": 2, "valor": "12767,75" },
+    { "status": "Aguardando Liberação", "quantidade": 1, "valor": "2450" },
+    { "status": "Alvará Sanitário", "quantidade": 3, "valor": "8230,09" },
     { "status": "Bloqueado por regra", "quantidade": 0, "valor": "0" },
-    { "status": "Análise de Crédito", "quantidade": 11, "valor": "159885,35" },
-    { "status": "Total em Disputa", "quantidade": 13, "valor": "172653,1" },
-    { "status": "Aguard. Envio Separação", "quantidade": 5, "valor": "108233,28" },
-    { "status": "Em Separação", "quantidade": 3, "valor": "15395,45" },
+    { "status": "Análise de Crédito", "quantidade": 13, "valor": "163492,24" },
+    { "status": "Total em Disputa", "quantidade": 17, "valor": "174172,33" },
+    { "status": "Aguard. Envio Separação", "quantidade": 2, "valor": "589,98" },
+    { "status": "Em Separação", "quantidade": 18, "valor": "195795,06" },
     { "status": "Separado", "quantidade": 3, "valor": "38383,63" },
     { "status": "Faturado", "quantidade": 0, "valor": "0" },
-    { "status": "Total", "quantidade": 11, "valor": "162012,36" }
+    { "status": "Total", "quantidade": 23, "valor": "234768,67" }
  ],
  "recebimento_produtos": [
 
@@ -44,11 +44,11 @@
   {"numero_pedido":"712487 ", "emissao_pv": "29/09/2026 ", "vlr_total_produtos": "3422 ", "margem": "40,46 ", "nome_cliente": "MEDCAL FARMA HOSPITA ", "uf_cliente": "RN ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"712516 ", "emissao_pv": "29/09/2026 ", "vlr_total_produtos": "15350 ", "margem": "47,87 ", "nome_cliente": "DLW COMERCIAL DISTRI ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "ALEXANDRA RIBEIRO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"712542 ", "emissao_pv": "29/09/2026 ", "vlr_total_produtos": "25803,6 ", "margem": "41,49 ", "nome_cliente": "A R DISTRIB LOG ", "uf_cliente": "PE ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"712566 ", "emissao_pv": "29/09/2026 ", "vlr_total_produtos": "327,75 ", "margem": "0 ", "nome_cliente": "INSTITUTO DE  N.  DO ", "uf_cliente": "CE ", "tipo_cliente": "CONS.FINAL ","vendedor": "E-COMMERCE ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"712576 ", "emissao_pv": "30/09/2026 ", "vlr_total_produtos": "12440 ", "margem": "16,55 ", "nome_cliente": "DIVE SEA ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Alvará Sanitário" }
-
-
-
+  {"numero_pedido":"712578 ", "emissao_pv": "30/09/2026 ", "vlr_total_produtos": "2324,56 ", "margem": "39,79 ", "nome_cliente": "SHOPPING DO HOSPITAL ", "uf_cliente": "MA ", "tipo_cliente": "CONS.FINAL ","vendedor": "REP. H.F ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"712586 ", "emissao_pv": "30/09/2026 ", "vlr_total_produtos": "1282,33 ", "margem": "42,47 ", "nome_cliente": "BEV SAUDE ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "ALEXANDRA RIBEIRO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"712598 ", "emissao_pv": "30/09/2026 ", "vlr_total_produtos": "2784 ", "margem": "11,04 ", "nome_cliente": "HOSPITAL INFANTIL SA ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "MARIANA HERGOVIC ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"712603 ", "emissao_pv": "30/09/2026 ", "vlr_total_produtos": "2174,19 ", "margem": "22,94 ", "nome_cliente": "DENTAL MAC ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"712605 ", "emissao_pv": "30/09/2026 ", "vlr_total_produtos": "3271,9 ", "margem": "31,78 ", "nome_cliente": "COMERCIAL RECOM ", "uf_cliente": "ES ", "tipo_cliente": "REVENDEDOR ","vendedor": "ALEXANDRA RIBEIRO ", "ultimo_status": "Alvará Sanitário" }
 
 
 
