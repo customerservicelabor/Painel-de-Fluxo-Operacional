@@ -1,18 +1,18 @@
 {
-  "updated_at": "30/09/2026 17:29",
+  "updated_at": "30/09/2026 17:46",
   "kpis": {
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 0, "valor": "0" },
-    { "status": "Alvará Sanitário", "quantidade": 13, "valor": "47437,06" },
+    { "status": "Alvará Sanitário", "quantidade": 0, "valor": "0" },
     { "status": "Bloqueado por regra", "quantidade": 0, "valor": "0" },
-    { "status": "Análise de Crédito", "quantidade": 13, "valor": "70896,28" },
-    { "status": "Total em Disputa", "quantidade": 26, "valor": "118333,34" },
-    { "status": "Aguard. Envio Separação", "quantidade": 2, "valor": "554,23" },
-    { "status": "Em Separação", "quantidade": 29, "valor": "227925,11" },
-    { "status": "Separado", "quantidade": 6, "valor": "98541,56" },
-    { "status": "Faturado", "quantidade": 88, "valor": "498940,1" },
-    { "status": "Total", "quantidade": 125, "valor": "825961" }
+    { "status": "Análise de Crédito", "quantidade": 24, "valor": "108995,81" },
+    { "status": "Total em Disputa", "quantidade": 24, "valor": "108995,81" },
+    { "status": "Aguard. Envio Separação", "quantidade": 5, "valor": "23432,59" },
+    { "status": "Em Separação", "quantidade": 30, "valor": "241951,24" },
+    { "status": "Separado", "quantidade": 4, "valor": "20974,5" },
+    { "status": "Faturado", "quantidade": 94, "valor": "581787,46" },
+    { "status": "Total", "quantidade": 133, "valor": "868145,79" }
  ],
  "recebimento_produtos": [
 
@@ -44,21 +44,21 @@
   {"numero_pedido":"712718 ", "emissao_pv": "30/09/2026 ", "vlr_total_produtos": "871,25 ", "margem": "44,61 ", "nome_cliente": "REDENTOR HOSPITALAR ", "uf_cliente": "DF ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"712736 ", "emissao_pv": "30/09/2026 ", "vlr_total_produtos": "1669,44 ", "margem": "36,3 ", "nome_cliente": "UNICA DENTAL MED CIR ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOICE MENDES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"712750 ", "emissao_pv": "30/09/2026 ", "vlr_total_produtos": "920 ", "margem": "26,24 ", "nome_cliente": "JS DIAGNOSTICOS LTDA ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"712783 ", "emissao_pv": "30/09/2026 ", "vlr_total_produtos": "994,48 ", "margem": "17,63 ", "nome_cliente": "LW HEALTH MEDICAL LT ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"712792 ", "emissao_pv": "30/09/2026 ", "vlr_total_produtos": "2589 ", "margem": "48,34 ", "nome_cliente": "FARMEDI DISTRIBUIDOR ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOICE MENDES ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"712804 ", "emissao_pv": "30/09/2026 ", "vlr_total_produtos": "1280 ", "margem": "44,19 ", "nome_cliente": "TECNORTE COMERCIO E ", "uf_cliente": "AM ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. TURCATO ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"712783 ", "emissao_pv": "30/09/2026 ", "vlr_total_produtos": "994,48 ", "margem": "17,63 ", "nome_cliente": "LW HEALTH MEDICAL LT ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"712792 ", "emissao_pv": "30/09/2026 ", "vlr_total_produtos": "2589 ", "margem": "48,34 ", "nome_cliente": "FARMEDI DISTRIBUIDOR ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOICE MENDES ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"712804 ", "emissao_pv": "30/09/2026 ", "vlr_total_produtos": "1280 ", "margem": "44,19 ", "nome_cliente": "TECNORTE COMERCIO E ", "uf_cliente": "AM ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. TURCATO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"712806 ", "emissao_pv": "30/09/2026 ", "vlr_total_produtos": "819,96 ", "margem": "23,62 ", "nome_cliente": "L  MOURA FARIAS DE M ", "uf_cliente": "CE ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"712809 ", "emissao_pv": "30/09/2026 ", "vlr_total_produtos": "4896 ", "margem": "43,95 ", "nome_cliente": "KYNSAN ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"712810 ", "emissao_pv": "30/09/2026 ", "vlr_total_produtos": "873,9 ", "margem": "22,38 ", "nome_cliente": "DIAGNOBEL ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"712823 ", "emissao_pv": "30/09/2026 ", "vlr_total_produtos": "10440 ", "margem": "26,91 ", "nome_cliente": "FREEDOM HOSPITALAR ", "uf_cliente": "CE ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"712825 ", "emissao_pv": "30/09/2026 ", "vlr_total_produtos": "1470,48 ", "margem": "8,33 ", "nome_cliente": "HOSPITAL ESTADUAL DE ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "MARIANA HERGOVIC ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"712826 ", "emissao_pv": "30/09/2026 ", "vlr_total_produtos": "827,15 ", "margem": "8,33 ", "nome_cliente": "HOSPITAL REGIONAL DE ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "MARIANA HERGOVIC ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"712829 ", "emissao_pv": "30/09/2026 ", "vlr_total_produtos": "3124,78 ", "margem": "8,33 ", "nome_cliente": "HOSPITAL DA MULHER ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "MARIANA HERGOVIC ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"712831 ", "emissao_pv": "30/09/2026 ", "vlr_total_produtos": "3308,59 ", "margem": "8,33 ", "nome_cliente": "CHS  CONJUNTO HOSPIT ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "MARIANA HERGOVIC ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"712833 ", "emissao_pv": "30/09/2026 ", "vlr_total_produtos": "919,05 ", "margem": "8,33 ", "nome_cliente": "HOSPITAL ESTADUAL DE ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "MARIANA HERGOVIC ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"712809 ", "emissao_pv": "30/09/2026 ", "vlr_total_produtos": "4896 ", "margem": "43,95 ", "nome_cliente": "KYNSAN ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"712823 ", "emissao_pv": "30/09/2026 ", "vlr_total_produtos": "10440 ", "margem": "26,91 ", "nome_cliente": "FREEDOM HOSPITALAR ", "uf_cliente": "CE ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"712825 ", "emissao_pv": "30/09/2026 ", "vlr_total_produtos": "1470,48 ", "margem": "8,33 ", "nome_cliente": "HOSPITAL ESTADUAL DE ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "MARIANA HERGOVIC ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"712826 ", "emissao_pv": "30/09/2026 ", "vlr_total_produtos": "827,15 ", "margem": "8,33 ", "nome_cliente": "HOSPITAL REGIONAL DE ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "MARIANA HERGOVIC ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"712829 ", "emissao_pv": "30/09/2026 ", "vlr_total_produtos": "3124,78 ", "margem": "8,33 ", "nome_cliente": "HOSPITAL DA MULHER ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "MARIANA HERGOVIC ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"712831 ", "emissao_pv": "30/09/2026 ", "vlr_total_produtos": "3308,59 ", "margem": "8,33 ", "nome_cliente": "CHS  CONJUNTO HOSPIT ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "MARIANA HERGOVIC ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"712833 ", "emissao_pv": "30/09/2026 ", "vlr_total_produtos": "919,05 ", "margem": "8,33 ", "nome_cliente": "HOSPITAL ESTADUAL DE ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "MARIANA HERGOVIC ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"712835 ", "emissao_pv": "30/09/2026 ", "vlr_total_produtos": "17069,7 ", "margem": "28,2 ", "nome_cliente": "SOLTECH DISTRIB PROD ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"712837 ", "emissao_pv": "30/09/2026 ", "vlr_total_produtos": "8250 ", "margem": "12,39 ", "nome_cliente": "55 427 851 PEDRO VIT ", "uf_cliente": "ES ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOAO NETO ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"712844 ", "emissao_pv": "30/09/2026 ", "vlr_total_produtos": "8463,63 ", "margem": "29,92 ", "nome_cliente": "INOVA MED PRODUTOS H ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Alvará Sanitário" }
+  {"numero_pedido":"712837 ", "emissao_pv": "30/09/2026 ", "vlr_total_produtos": "8250 ", "margem": "12,39 ", "nome_cliente": "55 427 851 PEDRO VIT ", "uf_cliente": "ES ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" }
+
+
 
 
 
