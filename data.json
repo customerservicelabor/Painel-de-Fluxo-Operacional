@@ -1,18 +1,18 @@
 {
-  "updated_at": "05/10/2026 11:32",
+  "updated_at": "05/10/2026 12:08",
   "kpis": {
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 3, "valor": "6690,88" },
-    { "status": "Alvará Sanitário", "quantidade": 0, "valor": "0" },
+    { "status": "Alvará Sanitário", "quantidade": 2, "valor": "4806,8" },
     { "status": "Bloqueado por regra", "quantidade": 0, "valor": "0" },
-    { "status": "Análise de Crédito", "quantidade": 11, "valor": "111680,46" },
-    { "status": "Total em Disputa", "quantidade": 14, "valor": "118371,34" },
-    { "status": "Aguard. Envio Separação", "quantidade": 6, "valor": "4665,1" },
-    { "status": "Em Separação", "quantidade": 29, "valor": "96586,4" },
-    { "status": "Separado", "quantidade": 2, "valor": "3739,55" },
-    { "status": "Faturado", "quantidade": 0, "valor": "0" },
-    { "status": "Total", "quantidade": 37, "valor": "104991,05" }
+    { "status": "Análise de Crédito", "quantidade": 12, "valor": "117669,1" },
+    { "status": "Total em Disputa", "quantidade": 17, "valor": "129166,78" },
+    { "status": "Aguard. Envio Separação", "quantidade": 8, "valor": "4678,8" },
+    { "status": "Em Separação", "quantidade": 29, "valor": "102499,11" },
+    { "status": "Separado", "quantidade": 1, "valor": "2915" },
+    { "status": "Faturado", "quantidade": 4, "valor": "6077,85" },
+    { "status": "Total", "quantidade": 42, "valor": "116170,76" }
  ],
  "recebimento_produtos": [
 
@@ -43,10 +43,10 @@
   {"numero_pedido":"713069 ", "emissao_pv": "02/10/2026 ", "vlr_total_produtos": "4400 ", "margem": "26,73 ", "nome_cliente": "GOMES   GOMES COMERC ", "uf_cliente": "MA ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. H.F ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"713095 ", "emissao_pv": "02/10/2026 ", "vlr_total_produtos": "52000 ", "margem": "18,65 ", "nome_cliente": "NEXT MEDICAL ", "uf_cliente": "AP ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"713134 ", "emissao_pv": "05/10/2026 ", "vlr_total_produtos": "12892,68 ", "margem": "14,12 ", "nome_cliente": "DISTRIBUIDORA POCOS ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. CAREMED ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"713148 ", "emissao_pv": "05/10/2026 ", "vlr_total_produtos": "5988,23 ", "margem": "9,85 ", "nome_cliente": "FUNDACAO DO ABC ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "VENDAS DIGITAIS ", "ultimo_status": "Análise de Crédito" }
-
-
-
+  {"numero_pedido":"713148 ", "emissao_pv": "05/10/2026 ", "vlr_total_produtos": "5988,23 ", "margem": "9,85 ", "nome_cliente": "FUNDACAO DO ABC ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "VENDAS DIGITAIS ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"713160 ", "emissao_pv": "05/10/2026 ", "vlr_total_produtos": "3648 ", "margem": "41,63 ", "nome_cliente": "UNIMED ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"713163 ", "emissao_pv": "05/10/2026 ", "vlr_total_produtos": "1158,8 ", "margem": "32,46 ", "nome_cliente": "LABORATORIO SANTA LY ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOELMA NUNES ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"713169 ", "emissao_pv": "05/10/2026 ", "vlr_total_produtos": "5988,64 ", "margem": "20,3 ", "nome_cliente": "MB SAUDE ATACADISTA ", "uf_cliente": "DF ", "tipo_cliente": "REVENDEDOR ","vendedor": "NEOLANDI SANTOS ", "ultimo_status": "Análise de Crédito" }
 
 
 
