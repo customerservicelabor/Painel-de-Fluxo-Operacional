@@ -1,18 +1,18 @@
 {
-  "updated_at": "06/10/2026 08:29",
+  "updated_at": "06/10/2026 10:23",
   "kpis": {
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 4, "valor": "10338,88" },
-    { "status": "Alvará Sanitário", "quantidade": 0, "valor": "0" },
+    { "status": "Alvará Sanitário", "quantidade": 4, "valor": "19834,31" },
     { "status": "Bloqueado por regra", "quantidade": 2, "valor": "1614,83" },
-    { "status": "Análise de Crédito", "quantidade": 11, "valor": "62993,83" },
-    { "status": "Total em Disputa", "quantidade": 17, "valor": "74947,54" },
-    { "status": "Aguard. Envio Separação", "quantidade": 3, "valor": "6593,53" },
-    { "status": "Em Separação", "quantidade": 17, "valor": "157458,93" },
+    { "status": "Análise de Crédito", "quantidade": 11, "valor": "62000,73" },
+    { "status": "Total em Disputa", "quantidade": 21, "valor": "93788,75" },
+    { "status": "Aguard. Envio Separação", "quantidade": 5, "valor": "16616,33" },
+    { "status": "Em Separação", "quantidade": 30, "valor": "220299,97" },
     { "status": "Separado", "quantidade": 0, "valor": "0" },
     { "status": "Faturado", "quantidade": 0, "valor": "0" },
-    { "status": "Total", "quantidade": 20, "valor": "164052,46" }
+    { "status": "Total", "quantidade": 35, "valor": "236916,3" }
  ],
  "recebimento_produtos": [
 
@@ -33,7 +33,6 @@
 
  ],
 "pedidos_nao_faturados": [
-  {"numero_pedido":"712289 ", "emissao_pv": "29/09/2026 ", "vlr_total_produtos": "2339,1 ", "margem": "41,52 ", "nome_cliente": "PRO MED LTDA ", "uf_cliente": "AP ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"712578 ", "emissao_pv": "30/09/2026 ", "vlr_total_produtos": "2324,56 ", "margem": "39,79 ", "nome_cliente": "SHOPPING DO HOSPITAL ", "uf_cliente": "MA ", "tipo_cliente": "CONS.FINAL ","vendedor": "REP. H.F ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"712611 ", "emissao_pv": "30/09/2026 ", "vlr_total_produtos": "5389,49 ", "margem": "22,34 ", "nome_cliente": "HOSPITAL SANTA CRUZ ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "MARIANA HERGOVIC ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"712657 ", "emissao_pv": "30/09/2026 ", "vlr_total_produtos": "2146,7 ", "margem": "42,46 ", "nome_cliente": "SURGICAL MED ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
@@ -43,11 +42,12 @@
   {"numero_pedido":"713069 ", "emissao_pv": "02/10/2026 ", "vlr_total_produtos": "4400 ", "margem": "26,73 ", "nome_cliente": "GOMES   GOMES COMERC ", "uf_cliente": "MA ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. H.F ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"713134 ", "emissao_pv": "05/10/2026 ", "vlr_total_produtos": "12892,68 ", "margem": "14,12 ", "nome_cliente": "DISTRIBUIDORA POCOS ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. CAREMED ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"713200 ", "emissao_pv": "05/10/2026 ", "vlr_total_produtos": "6894,6 ", "margem": "32,8 ", "nome_cliente": "PRATEC SERVICOS ", "uf_cliente": "CE ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"713232 ", "emissao_pv": "05/10/2026 ", "vlr_total_produtos": "2407 ", "margem": "52,73 ", "nome_cliente": "NEXON MEDICAL LTDA ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" }
-
-
-
-
+  {"numero_pedido":"713232 ", "emissao_pv": "05/10/2026 ", "vlr_total_produtos": "2407 ", "margem": "52,73 ", "nome_cliente": "NEXON MEDICAL LTDA ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"713301 ", "emissao_pv": "06/10/2026 ", "vlr_total_produtos": "2138 ", "margem": "45,28 ", "nome_cliente": "PERSEVERANTE MEDICAM ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"713309 ", "emissao_pv": "06/10/2026 ", "vlr_total_produtos": "1480,71 ", "margem": "38,96 ", "nome_cliente": "ROCHA LIMA ANALISES ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"713311 ", "emissao_pv": "06/10/2026 ", "vlr_total_produtos": "1005,6 ", "margem": "27,06 ", "nome_cliente": "SOLUCAO BRASIL ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"713313 ", "emissao_pv": "06/10/2026 ", "vlr_total_produtos": "15210 ", "margem": "34,66 ", "nome_cliente": "TKS REPRESENTACOES ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "LUCIA FLORESTA ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"713315 ", "emissao_pv": "06/10/2026 ", "vlr_total_produtos": "1346 ", "margem": "32,6 ", "nome_cliente": "CAPLE SAUDE LTDA ", "uf_cliente": "MG ", "tipo_cliente": "CONS.FINAL ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" }
 
 
 
