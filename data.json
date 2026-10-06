@@ -1,18 +1,18 @@
 {
-  "updated_at": "05/10/2026 16:18",
+  "updated_at": "06/10/2026 08:29",
   "kpis": {
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 6, "valor": "101829,73" },
+    { "status": "Aguardando Liberação", "quantidade": 4, "valor": "10338,88" },
     { "status": "Alvará Sanitário", "quantidade": 0, "valor": "0" },
-    { "status": "Bloqueado por regra", "quantidade": 0, "valor": "0" },
-    { "status": "Análise de Crédito", "quantidade": 13, "valor": "73380,21" },
-    { "status": "Total em Disputa", "quantidade": 19, "valor": "175209,94" },
-    { "status": "Aguard. Envio Separação", "quantidade": 4, "valor": "1501,63" },
-    { "status": "Em Separação", "quantidade": 29, "valor": "133728,27" },
-    { "status": "Separado", "quantidade": 3, "valor": "15083,5" },
-    { "status": "Faturado", "quantidade": 32, "valor": "92736,71" },
-    { "status": "Total", "quantidade": 68, "valor": "243050,11" }
+    { "status": "Bloqueado por regra", "quantidade": 2, "valor": "1614,83" },
+    { "status": "Análise de Crédito", "quantidade": 11, "valor": "62993,83" },
+    { "status": "Total em Disputa", "quantidade": 17, "valor": "74947,54" },
+    { "status": "Aguard. Envio Separação", "quantidade": 3, "valor": "6593,53" },
+    { "status": "Em Separação", "quantidade": 17, "valor": "157458,93" },
+    { "status": "Separado", "quantidade": 0, "valor": "0" },
+    { "status": "Faturado", "quantidade": 0, "valor": "0" },
+    { "status": "Total", "quantidade": 20, "valor": "164052,46" }
  ],
  "recebimento_produtos": [
 
@@ -42,10 +42,10 @@
   {"numero_pedido":"712955 ", "emissao_pv": "01/10/2026 ", "vlr_total_produtos": "5850 ", "margem": "12,81 ", "nome_cliente": "BEM ESTAR COMERCIAL ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"713069 ", "emissao_pv": "02/10/2026 ", "vlr_total_produtos": "4400 ", "margem": "26,73 ", "nome_cliente": "GOMES   GOMES COMERC ", "uf_cliente": "MA ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. H.F ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"713134 ", "emissao_pv": "05/10/2026 ", "vlr_total_produtos": "12892,68 ", "margem": "14,12 ", "nome_cliente": "DISTRIBUIDORA POCOS ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. CAREMED ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"713148 ", "emissao_pv": "05/10/2026 ", "vlr_total_produtos": "5988,23 ", "margem": "9,85 ", "nome_cliente": "FUNDACAO DO ABC ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "VENDAS DIGITAIS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"713200 ", "emissao_pv": "05/10/2026 ", "vlr_total_produtos": "6894,6 ", "margem": "32,8 ", "nome_cliente": "PRATEC SERVICOS ", "uf_cliente": "CE ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"713216 ", "emissao_pv": "05/10/2026 ", "vlr_total_produtos": "3689,55 ", "margem": "35,94 ", "nome_cliente": "DENTAL LIMA ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"713226 ", "emissao_pv": "05/10/2026 ", "vlr_total_produtos": "3115,6 ", "margem": "31,39 ", "nome_cliente": "LUCENA COMERCIO EQUI ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. HELEIDA ", "ultimo_status": "Análise de Crédito" }
+  {"numero_pedido":"713232 ", "emissao_pv": "05/10/2026 ", "vlr_total_produtos": "2407 ", "margem": "52,73 ", "nome_cliente": "NEXON MEDICAL LTDA ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" }
+
+
 
 
 
@@ -83,18 +83,18 @@
   "performance_gerencial": {
     "mes_atual": {
      "periodo": "outubro/2026",
-     "frete_pago": "24376,83",
-     "faturamento": "552527,59",
-     "frete_repassado": "33078,67",
-     "entrega_realizada": "13",
-     "entrega_no_prazo": "12",
-     "qtd_notas_fiscais": "131",
+     "frete_pago": "27867,97",
+     "faturamento": "615485,24",
+     "frete_repassado": "49656,5",
+     "entrega_realizada": "15",
+     "entrega_no_prazo": "14",
+     "qtd_notas_fiscais": "169",
      "entrega_fora_prazo": "0"
 },
   "mes_anterior": {
      "periodo": "setembro/2026",
-     "entrega_realizada": "1706",
-     "entrega_no_prazo": "1601"
+     "entrega_realizada": "1742",
+     "entrega_no_prazo": "1636"
   }
 },
   "expedicao": {
@@ -106,11 +106,11 @@
 
 
 "estoque": {
-  "ocupacao_total_armazem": 70.21,
-  "ocupacao_operacional": 75.88,
+  "ocupacao_total_armazem": 72.70,
+  "ocupacao_operacional": 78.81,
   "areas": [
-    { "nome": "Picking", "taxa": 80.53},
-    { "nome": "Pulmão de Abastecimento", "taxa": 75.02},
+    { "nome": "Picking", "taxa": 80.05},
+    { "nome": "Pulmão de Abastecimento", "taxa": 78.58},
     { "nome": "Flowrack", "taxa": 42.61},
     { "nome": "Área de Qualidade", "taxa": 14.71},
     { "nome": "Área de Amostra", "taxa": 0.00},
