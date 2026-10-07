@@ -1,18 +1,18 @@
 {
-  "updated_at": "06/10/2026 16:53",
+  "updated_at": "07/10/2026 08:20",
   "kpis": {
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 4, "valor": "11701,33" },
-    { "status": "Alvará Sanitário", "quantidade": 3, "valor": "18297,45" },
+    { "status": "Aguardando Liberação", "quantidade": 3, "valor": "10332,83" },
+    { "status": "Alvará Sanitário", "quantidade": 1, "valor": "1467,3" },
     { "status": "Bloqueado por regra", "quantidade": 2, "valor": "1614,83" },
-    { "status": "Análise de Crédito", "quantidade": 8, "valor": "46900,43" },
-    { "status": "Total em Disputa", "quantidade": 17, "valor": "78514,04" },
-    { "status": "Aguard. Envio Separação", "quantidade": 4, "valor": "6595,88" },
-    { "status": "Em Separação", "quantidade": 38, "valor": "226934,78" },
+    { "status": "Análise de Crédito", "quantidade": 9, "valor": "50520,76" },
+    { "status": "Total em Disputa", "quantidade": 15, "valor": "63935,72" },
+    { "status": "Aguard. Envio Separação", "quantidade": 3, "valor": "6593,53" },
+    { "status": "Em Separação", "quantidade": 4, "valor": "28569,12" },
     { "status": "Separado", "quantidade": 0, "valor": "0" },
-    { "status": "Faturado", "quantidade": 57, "valor": "302990,58" },
-    { "status": "Total", "quantidade": 99, "valor": "536521,24" }
+    { "status": "Faturado", "quantidade": 0, "valor": "0" },
+    { "status": "Total", "quantidade": 7, "valor": "35162,65" }
  ],
  "recebimento_produtos": [
 
@@ -41,9 +41,9 @@
   {"numero_pedido":"713134 ", "emissao_pv": "05/10/2026 ", "vlr_total_produtos": "12892,68 ", "margem": "14,12 ", "nome_cliente": "DISTRIBUIDORA POCOS ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. CAREMED ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"713381 ", "emissao_pv": "06/10/2026 ", "vlr_total_produtos": "816 ", "margem": "29,5 ", "nome_cliente": "ACE DISTRIBUIDORA LT ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"713423 ", "emissao_pv": "06/10/2026 ", "vlr_total_produtos": "1278 ", "margem": "28,06 ", "nome_cliente": "HOSPITAMED DENTAL ", "uf_cliente": "AC ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. FEMA ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"713425 ", "emissao_pv": "06/10/2026 ", "vlr_total_produtos": "7834,8 ", "margem": "17,43 ", "nome_cliente": "CMF DISTRIBUIDORA ME ", "uf_cliente": "CE ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"713429 ", "emissao_pv": "06/10/2026 ", "vlr_total_produtos": "8644,65 ", "margem": "3,84 ", "nome_cliente": "UNICO MULT EQUIPAMEN ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. CAREMED ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"713434 ", "emissao_pv": "06/10/2026 ", "vlr_total_produtos": "1818 ", "margem": "29,46 ", "nome_cliente": "CAMARGO SCIENCE SOLU ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "LUCIA FLORESTA ", "ultimo_status": "Alvará Sanitário" }
+  {"numero_pedido":"713444 ", "emissao_pv": "06/10/2026 ", "vlr_total_produtos": "3620,33 ", "margem": "30,72 ", "nome_cliente": "ALS COMERCIO DE PROD ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"713461 ", "emissao_pv": "07/10/2026 ", "vlr_total_produtos": "1467,3 ", "margem": "34,34 ", "nome_cliente": "PRIDE HOSPITALAR COM ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Alvará Sanitário" }
+
 
 
 
@@ -83,18 +83,18 @@
   "performance_gerencial": {
     "mes_atual": {
      "periodo": "outubro/2026",
-     "frete_pago": "27867,97",
-     "faturamento": "615485,24",
-     "frete_repassado": "49656,5",
-     "entrega_realizada": "15",
-     "entrega_no_prazo": "14",
-     "qtd_notas_fiscais": "169",
+     "frete_pago": "59856,11",
+     "faturamento": "1128181,17",
+     "frete_repassado": "70711,68",
+     "entrega_realizada": "32",
+     "entrega_no_prazo": "31",
+     "qtd_notas_fiscais": "268",
      "entrega_fora_prazo": "0"
 },
   "mes_anterior": {
      "periodo": "setembro/2026",
-     "entrega_realizada": "1742",
-     "entrega_no_prazo": "1636"
+     "entrega_realizada": "1827",
+     "entrega_no_prazo": "1709"
   }
 },
   "expedicao": {
@@ -106,15 +106,15 @@
 
 
 "estoque": {
-  "ocupacao_total_armazem": 72.70,
-  "ocupacao_operacional": 78.81,
+  "ocupacao_total_armazem": 74.04,
+  "ocupacao_operacional": 80.09,
   "areas": [
-    { "nome": "Picking", "taxa": 80.05},
-    { "nome": "Pulmão de Abastecimento", "taxa": 78.58},
-    { "nome": "Flowrack", "taxa": 42.61},
+    { "nome": "Picking", "taxa": 81.01},
+    { "nome": "Pulmão de Abastecimento", "taxa": 79.92},
+    { "nome": "Flowrack", "taxa": 44.36},
     { "nome": "Área de Qualidade", "taxa": 14.71},
     { "nome": "Área de Amostra", "taxa": 0.00},
-    { "nome": "Área de Avarias", "taxa": 20.93}
+    { "nome": "Área de Avarias", "taxa": 23.26}
 ]
 }
 }
