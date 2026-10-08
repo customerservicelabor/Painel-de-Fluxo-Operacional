@@ -1,18 +1,18 @@
 {
-  "updated_at": "08/10/2026 08:25",
+  "updated_at": "08/10/2026 10:09",
   "kpis": {
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 4, "valor": "10342,73" },
-    { "status": "Alvará Sanitário", "quantidade": 1, "valor": "12582" },
+    { "status": "Aguardando Liberação", "quantidade": 6, "valor": "11973,37" },
+    { "status": "Alvará Sanitário", "quantidade": 2, "valor": "53101,7" },
     { "status": "Bloqueado por regra", "quantidade": 4, "valor": "3616,84" },
-    { "status": "Análise de Crédito", "quantidade": 11, "valor": "134325,98" },
-    { "status": "Total em Disputa", "quantidade": 20, "valor": "160867,55" },
-    { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "55,3" },
-    { "status": "Em Separação", "quantidade": 2, "valor": "17941" },
+    { "status": "Análise de Crédito", "quantidade": 10, "valor": "125973,28" },
+    { "status": "Total em Disputa", "quantidade": 22, "valor": "194665,19" },
+    { "status": "Aguard. Envio Separação", "quantidade": 5, "valor": "71004,22" },
+    { "status": "Em Separação", "quantidade": 21, "valor": "173970,2" },
     { "status": "Separado", "quantidade": 2, "valor": "5385,67" },
     { "status": "Faturado", "quantidade": 0, "valor": "0" },
-    { "status": "Total", "quantidade": 5, "valor": "23381,97" }
+    { "status": "Total", "quantidade": 28, "valor": "250360,09" }
  ],
  "recebimento_produtos": [
 
@@ -33,7 +33,6 @@
 
  ],
 "pedidos_nao_faturados": [
-  {"numero_pedido":"712835 ", "emissao_pv": "30/09/2026 ", "vlr_total_produtos": "17069,7 ", "margem": "28,2 ", "nome_cliente": "SOLTECH DISTRIB PROD ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"712955 ", "emissao_pv": "01/10/2026 ", "vlr_total_produtos": "5850 ", "margem": "12,81 ", "nome_cliente": "BEM ESTAR COMERCIAL ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"713134 ", "emissao_pv": "05/10/2026 ", "vlr_total_produtos": "12892,68 ", "margem": "14,12 ", "nome_cliente": "DISTRIBUIDORA POCOS ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. CAREMED ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"713381 ", "emissao_pv": "06/10/2026 ", "vlr_total_produtos": "816 ", "margem": "29,5 ", "nome_cliente": "ACE DISTRIBUIDORA LT ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
@@ -41,10 +40,11 @@
   {"numero_pedido":"713477 ", "emissao_pv": "07/10/2026 ", "vlr_total_produtos": "23127,5 ", "margem": "24,02 ", "nome_cliente": "SENSORIA SAUD DISTRI ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"713527 ", "emissao_pv": "07/10/2026 ", "vlr_total_produtos": "17800 ", "margem": "22,58 ", "nome_cliente": "JUNIMED DISTRIBUIDOR ", "uf_cliente": "RS ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"713565 ", "emissao_pv": "07/10/2026 ", "vlr_total_produtos": "810 ", "margem": "43,49 ", "nome_cliente": "REDENTOR HOSPITALAR ", "uf_cliente": "DF ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"713594 ", "emissao_pv": "07/10/2026 ", "vlr_total_produtos": "3117 ", "margem": "43,25 ", "nome_cliente": "J2M MEDICAL LTDA ", "uf_cliente": "MS ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"713623 ", "emissao_pv": "07/10/2026 ", "vlr_total_produtos": "1970 ", "margem": "47,86 ", "nome_cliente": "INALAMEDIND COM APAR ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"713625 ", "emissao_pv": "07/10/2026 ", "vlr_total_produtos": "40545 ", "margem": "37,14 ", "nome_cliente": "L F DISTRIBUIDORA DE ", "uf_cliente": "RS ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"713665 ", "emissao_pv": "07/10/2026 ", "vlr_total_produtos": "12582 ", "margem": "19,79 ", "nome_cliente": "MMW ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Alvará Sanitário" }
+  {"numero_pedido":"713665 ", "emissao_pv": "07/10/2026 ", "vlr_total_produtos": "12582 ", "margem": "19,79 ", "nome_cliente": "MMW ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"713683 ", "emissao_pv": "08/10/2026 ", "vlr_total_produtos": "1222 ", "margem": "42,13 ", "nome_cliente": "MB SAUDE ATACADISTA ", "uf_cliente": "DF ", "tipo_cliente": "REVENDEDOR ","vendedor": "NEOLANDI SANTOS ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"713717 ", "emissao_pv": "08/10/2026 ", "vlr_total_produtos": "52000 ", "margem": "-5,2 ", "nome_cliente": "R DISTRI MEDICAMENTO ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOICE MENDES ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"713722 ", "emissao_pv": "08/10/2026 ", "vlr_total_produtos": "1101,7 ", "margem": "32,25 ", "nome_cliente": "DISTRIBUIDORA DE PRO ", "uf_cliente": "MS ", "tipo_cliente": "REVENDEDOR ","vendedor": "NEOLANDI SANTOS ", "ultimo_status": "Alvará Sanitário" }
 
 
 
