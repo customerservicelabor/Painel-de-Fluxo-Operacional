@@ -1,18 +1,18 @@
 {
-  "updated_at": "13/10/2026 12:21",
+  "updated_at": "13/10/2026 14:29",
   "kpis": {
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 3, "valor": "10159,83" },
-    { "status": "Alvará Sanitário", "quantidade": 2, "valor": "1985,16" },
-    { "status": "Bloqueado por regra", "quantidade": 2, "valor": "317237,82" },
-    { "status": "Análise de Crédito", "quantidade": 18, "valor": "142144,02" },
-    { "status": "Total em Disputa", "quantidade": 25, "valor": "471526,83" },
-    { "status": "Aguard. Envio Separação", "quantidade": 3, "valor": "3823,64" },
-    { "status": "Em Separação", "quantidade": 6, "valor": "60299,16" },
-    { "status": "Separado", "quantidade": 10, "valor": "87063,31" },
-    { "status": "Faturado", "quantidade": 17, "valor": "121448,07" },
-    { "status": "Total", "quantidade": 36, "valor": "272634,18" }
+    { "status": "Aguardando Liberação", "quantidade": 2, "valor": "6684,83" },
+    { "status": "Alvará Sanitário", "quantidade": 4, "valor": "4062,86" },
+    { "status": "Bloqueado por regra", "quantidade": 3, "valor": "327107,82" },
+    { "status": "Análise de Crédito", "quantidade": 13, "valor": "121143,92" },
+    { "status": "Total em Disputa", "quantidade": 22, "valor": "458999,43" },
+    { "status": "Aguard. Envio Separação", "quantidade": 3, "valor": "82,81" },
+    { "status": "Em Separação", "quantidade": 5, "valor": "38570,69" },
+    { "status": "Separado", "quantidade": 2, "valor": "4110" },
+    { "status": "Faturado", "quantidade": 37, "valor": "286143,45" },
+    { "status": "Total", "quantidade": 47, "valor": "328906,95" }
  ],
  "recebimento_produtos": [
 
@@ -44,15 +44,15 @@
   {"numero_pedido":"714136 ", "emissao_pv": "09/10/2026 ", "vlr_total_produtos": "1367,45 ", "margem": "30,67 ", "nome_cliente": "JS DIAGNOSTICOS LTDA ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"714146 ", "emissao_pv": "09/10/2026 ", "vlr_total_produtos": "5220 ", "margem": "55,34 ", "nome_cliente": "ALGARVE DISTRIBUIDOR ", "uf_cliente": "MA ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"714196 ", "emissao_pv": "13/10/2026 ", "vlr_total_produtos": "5435,19 ", "margem": "0 ", "nome_cliente": "MEDTOUR SAUDE ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "E-COMMERCE ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"714211 ", "emissao_pv": "13/10/2026 ", "vlr_total_produtos": "3500 ", "margem": "40,22 ", "nome_cliente": "GENIKA MULTIOMICS SO ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "NEOLANDI SANTOS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"714214 ", "emissao_pv": "13/10/2026 ", "vlr_total_produtos": "1014 ", "margem": "36,55 ", "nome_cliente": "WE HOSPITALAR BRASIL ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOICE MENDES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"714216 ", "emissao_pv": "13/10/2026 ", "vlr_total_produtos": "1058,3 ", "margem": "39,21 ", "nome_cliente": "BIOMAX PRODUTOS ODON ", "uf_cliente": "RS ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"714221 ", "emissao_pv": "13/10/2026 ", "vlr_total_produtos": "4869 ", "margem": "35,12 ", "nome_cliente": "CMF DISTRIBUIDORA ME ", "uf_cliente": "CE ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"714230 ", "emissao_pv": "13/10/2026 ", "vlr_total_produtos": "4410,44 ", "margem": "23,75 ", "nome_cliente": "LABORACIN LAB ANALIS ", "uf_cliente": "MA ", "tipo_cliente": "CONS.FINAL ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"714231 ", "emissao_pv": "13/10/2026 ", "vlr_total_produtos": "6519,9 ", "margem": "25,42 ", "nome_cliente": "RADAR COMERCIO ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"714236 ", "emissao_pv": "13/10/2026 ", "vlr_total_produtos": "3345,3 ", "margem": "23,16 ", "nome_cliente": "DLW COMERCIAL DISTRI ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "ALEXANDRA RIBEIRO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"714240 ", "emissao_pv": "13/10/2026 ", "vlr_total_produtos": "1091,66 ", "margem": "31,15 ", "nome_cliente": "LABORATORIO MERISIO ", "uf_cliente": "SC ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOELMA NUNES ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"714250 ", "emissao_pv": "13/10/2026 ", "vlr_total_produtos": "893,5 ", "margem": "33,81 ", "nome_cliente": "LABORATORIO DE PATOL ", "uf_cliente": "PA ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOAO NETO ", "ultimo_status": "Alvará Sanitário" }
+  {"numero_pedido":"714250 ", "emissao_pv": "13/10/2026 ", "vlr_total_produtos": "893,5 ", "margem": "33,81 ", "nome_cliente": "LABORATORIO DE PATOL ", "uf_cliente": "PA ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOAO NETO ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"714261 ", "emissao_pv": "13/10/2026 ", "vlr_total_produtos": "1267,5 ", "margem": "27,25 ", "nome_cliente": "A+ MEDICINA DIAGNOST ", "uf_cliente": "BA ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOAO NETO ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"714262 ", "emissao_pv": "13/10/2026 ", "vlr_total_produtos": "2702,84 ", "margem": "36,23 ", "nome_cliente": "RAY DAWN SIMON LTDA ", "uf_cliente": "DF ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"714266 ", "emissao_pv": "13/10/2026 ", "vlr_total_produtos": "810,2 ", "margem": "30,79 ", "nome_cliente": "CIRURGICA VITORIA ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Alvará Sanitário" }
+
+
+
 
 
 
