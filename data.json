@@ -1,18 +1,18 @@
 {
-  "updated_at": "14/10/2026 08:21",
+  "updated_at": "14/10/2026 09:46",
   "kpis": {
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 3, "valor": "16959,7" },
+    { "status": "Aguardando Liberação", "quantidade": 5, "valor": "6705,33" },
     { "status": "Alvará Sanitário", "quantidade": 0, "valor": "0" },
-    { "status": "Bloqueado por regra", "quantidade": 5, "valor": "328609,54" },
+    { "status": "Bloqueado por regra", "quantidade": 3, "valor": "327107,82" },
     { "status": "Análise de Crédito", "quantidade": 10, "valor": "114552,08" },
-    { "status": "Total em Disputa", "quantidade": 18, "valor": "460121,32" },
-    { "status": "Aguard. Envio Separação", "quantidade": 4, "valor": "1155,72" },
-    { "status": "Em Separação", "quantidade": 1, "valor": "398,8" },
-    { "status": "Separado", "quantidade": 1, "valor": "996" },
+    { "status": "Total em Disputa", "quantidade": 18, "valor": "448365,23" },
+    { "status": "Aguard. Envio Separação", "quantidade": 5, "valor": "1895,12" },
+    { "status": "Em Separação", "quantidade": 1, "valor": "980,5" },
+    { "status": "Separado", "quantidade": 3, "valor": "7076,46" },
     { "status": "Faturado", "quantidade": 0, "valor": "0" },
-    { "status": "Total", "quantidade": 6, "valor": "2550,52" }
+    { "status": "Total", "quantidade": 9, "valor": "9952,08" }
  ],
  "recebimento_produtos": [
 
@@ -33,16 +33,16 @@
 
  ],
 "pedidos_nao_faturados": [
-  {"numero_pedido":"713527 ", "emissao_pv": "07/10/2026 ", "vlr_total_produtos": "17800 ", "margem": "22,58 ", "nome_cliente": "JUNIMED DISTRIBUIDOR ", "uf_cliente": "RS ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"713753 ", "emissao_pv": "08/10/2026 ", "vlr_total_produtos": "70675 ", "margem": "25,55 ", "nome_cliente": "APOIOLAB ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"713768 ", "emissao_pv": "08/10/2026 ", "vlr_total_produtos": "7773,5 ", "margem": "25,75 ", "nome_cliente": "SANTA FE HOSPITALAR ", "uf_cliente": "RO ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"713814 ", "emissao_pv": "08/10/2026 ", "vlr_total_produtos": "2441,64 ", "margem": "24,11 ", "nome_cliente": "GC LAB DIAGNOSTICOS ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"713892 ", "emissao_pv": "08/10/2026 ", "vlr_total_produtos": "1294,3 ", "margem": "40,73 ", "nome_cliente": "COVAN ", "uf_cliente": "RO ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"713940 ", "emissao_pv": "09/10/2026 ", "vlr_total_produtos": "830 ", "margem": "55,47 ", "nome_cliente": "REDENTOR HOSPITALAR ", "uf_cliente": "DF ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"714136 ", "emissao_pv": "09/10/2026 ", "vlr_total_produtos": "1367,45 ", "margem": "30,67 ", "nome_cliente": "JS DIAGNOSTICOS LTDA ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"714146 ", "emissao_pv": "09/10/2026 ", "vlr_total_produtos": "5220 ", "margem": "55,34 ", "nome_cliente": "ALGARVE DISTRIBUIDOR ", "uf_cliente": "MA ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"714196 ", "emissao_pv": "13/10/2026 ", "vlr_total_produtos": "5435,19 ", "margem": "0 ", "nome_cliente": "MEDTOUR SAUDE ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "E-COMMERCE ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"714287 ", "emissao_pv": "13/10/2026 ", "vlr_total_produtos": "1715 ", "margem": "14,49 ", "nome_cliente": "MEDFARMA ", "uf_cliente": "PI ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" }
+
+
+
+
+
+
+
+
+
+
 
 
 
