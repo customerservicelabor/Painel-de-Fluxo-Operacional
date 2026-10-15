@@ -1,5 +1,5 @@
 {
-  "updated_at": "15/10/2026 08:29",
+  "updated_at": "15/10/2026 08:31",
   "kpis": {
   },
   "pedidos_status": [
@@ -87,9 +87,9 @@
      "faturamento": "3935192,85",
      "frete_repassado": "171137,9",
      "entrega_realizada": "308",
-     "entrega_no_prazo": "282",
+     "entrega_no_prazo": "297",
      "qtd_notas_fiscais": "750",
-     "entrega_fora_prazo": "26"
+     "entrega_fora_prazo": "11"
 },
   "mes_anterior": {
      "periodo": "setembro/2026",
