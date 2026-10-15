@@ -1,18 +1,18 @@
 {
-  "updated_at": "15/10/2026 12:03",
+  "updated_at": "15/10/2026 15:45",
   "kpis": {
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 2, "valor": "71371,6" },
-    { "status": "Alvará Sanitário", "quantidade": 5, "valor": "14712,3" },
-    { "status": "Bloqueado por regra", "quantidade": 3, "valor": "2739,54" },
-    { "status": "Análise de Crédito", "quantidade": 16, "valor": "398682,79" },
-    { "status": "Total em Disputa", "quantidade": 26, "valor": "487506,23" },
+    { "status": "Alvará Sanitário", "quantidade": 1, "valor": "3864,93" },
+    { "status": "Bloqueado por regra", "quantidade": 0, "valor": "0" },
+    { "status": "Análise de Crédito", "quantidade": 16, "valor": "84107,74" },
+    { "status": "Total em Disputa", "quantidade": 19, "valor": "159344,27" },
     { "status": "Aguard. Envio Separação", "quantidade": 2, "valor": "173,06" },
-    { "status": "Em Separação", "quantidade": 28, "valor": "138277,92" },
-    { "status": "Separado", "quantidade": 1, "valor": "1748" },
-    { "status": "Faturado", "quantidade": 24, "valor": "162401,66" },
-    { "status": "Total", "quantidade": 55, "valor": "302600,64" }
+    { "status": "Em Separação", "quantidade": 16, "valor": "421534,67" },
+    { "status": "Separado", "quantidade": 1, "valor": "5664" },
+    { "status": "Faturado", "quantidade": 65, "valor": "321553,65" },
+    { "status": "Total", "quantidade": 84, "valor": "748925,38" }
  ],
  "recebimento_produtos": [
 
@@ -45,15 +45,15 @@
   {"numero_pedido":"714533 ", "emissao_pv": "14/10/2026 ", "vlr_total_produtos": "3144,24 ", "margem": "36,78 ", "nome_cliente": "MED OESTE ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"714577 ", "emissao_pv": "15/10/2026 ", "vlr_total_produtos": "14731,42 ", "margem": "21,87 ", "nome_cliente": "CIRUROMA ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"714585 ", "emissao_pv": "15/10/2026 ", "vlr_total_produtos": "2803 ", "margem": "35,34 ", "nome_cliente": "ODONTOSHOW PRODUTOS ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "NEOLANDI SANTOS ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"714596 ", "emissao_pv": "15/10/2026 ", "vlr_total_produtos": "316000 ", "margem": "1,97 ", "nome_cliente": "CIRURGICA FERNANDES ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"714616 ", "emissao_pv": "15/10/2026 ", "vlr_total_produtos": "565,3 ", "margem": "0 ", "nome_cliente": "OXIMAIS C.  DE  G. ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "E-COMMERCE ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"714630 ", "emissao_pv": "15/10/2026 ", "vlr_total_produtos": "1526,25 ", "margem": "37,86 ", "nome_cliente": "BELFARMA LTDA ", "uf_cliente": "PE ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"714634 ", "emissao_pv": "15/10/2026 ", "vlr_total_produtos": "2132 ", "margem": "40,41 ", "nome_cliente": "PORTOMED HOSPITALAR ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"714636 ", "emissao_pv": "15/10/2026 ", "vlr_total_produtos": "2700 ", "margem": "26,58 ", "nome_cliente": "PLUSVET ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "NEOLANDI SANTOS ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"714638 ", "emissao_pv": "15/10/2026 ", "vlr_total_produtos": "7700 ", "margem": "36,58 ", "nome_cliente": "ARMAZEM PARAISO COME ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOAO NETO ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"714644 ", "emissao_pv": "15/10/2026 ", "vlr_total_produtos": "1600 ", "margem": "12,76 ", "nome_cliente": "PLANETA DIET ", "uf_cliente": "CE ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"714646 ", "emissao_pv": "15/10/2026 ", "vlr_total_produtos": "2715 ", "margem": "31,57 ", "nome_cliente": "D M IMAGEM ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"714648 ", "emissao_pv": "15/10/2026 ", "vlr_total_produtos": "824,4 ", "margem": "42,84 ", "nome_cliente": "UNITEC ", "uf_cliente": "RS ", "tipo_cliente": "CONS.FINAL ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" }
+  {"numero_pedido":"714686 ", "emissao_pv": "15/10/2026 ", "vlr_total_produtos": "1633,6 ", "margem": "30,62 ", "nome_cliente": "BOANALISE ", "uf_cliente": "PI ", "tipo_cliente": "CONS.FINAL ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"714694 ", "emissao_pv": "15/10/2026 ", "vlr_total_produtos": "1028 ", "margem": "21,71 ", "nome_cliente": "BIOVIDA DISTRIBUIDOR ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"714696 ", "emissao_pv": "15/10/2026 ", "vlr_total_produtos": "3864,93 ", "margem": "11,67 ", "nome_cliente": "A HOSPITALAR ", "uf_cliente": "TO ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"714697 ", "emissao_pv": "15/10/2026 ", "vlr_total_produtos": "3000 ", "margem": "27,58 ", "nome_cliente": "REDENTOR HOSPITALAR ", "uf_cliente": "DF ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"714700 ", "emissao_pv": "15/10/2026 ", "vlr_total_produtos": "814 ", "margem": "28,4 ", "nome_cliente": "DENTAL BL LTDA ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Análise de Crédito" }
+
+
+
+
 
 
 
@@ -83,18 +83,18 @@
   "performance_gerencial": {
     "mes_atual": {
      "periodo": "outubro/2026",
-     "frete_pago": "182036,47",
-     "faturamento": "3935192,85",
-     "frete_repassado": "171137,9",
-     "entrega_realizada": "311",
-     "entrega_no_prazo": "299",
-     "qtd_notas_fiscais": "750",
+     "frete_pago": "200670,54",
+     "faturamento": "4292806,47",
+     "frete_repassado": "180885,52",
+     "entrega_realizada": "362",
+     "entrega_no_prazo": "350",
+     "qtd_notas_fiscais": "816",
      "entrega_fora_prazo": "12"
 },
   "mes_anterior": {
      "periodo": "setembro/2026",
-     "entrega_realizada": "2063",
-     "entrega_no_prazo": "1929"
+     "entrega_realizada": "2079",
+     "entrega_no_prazo": "1943"
   }
 },
   "expedicao": {
