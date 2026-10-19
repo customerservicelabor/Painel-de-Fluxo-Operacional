@@ -1,18 +1,18 @@
 {
-  "updated_at": "19/10/2026 14:01",
+  "updated_at": "19/10/2026 15:49",
   "kpis": {
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 1, "valor": "979,4" },
+    { "status": "Aguardando Liberação", "quantidade": 0, "valor": "0" },
     { "status": "Alvará Sanitário", "quantidade": 0, "valor": "0" },
-    { "status": "Bloqueado por regra", "quantidade": 1, "valor": "2997,12" },
-    { "status": "Análise de Crédito", "quantidade": 24, "valor": "185890,56" },
-    { "status": "Total em Disputa", "quantidade": 26, "valor": "189867,08" },
-    { "status": "Aguard. Envio Separação", "quantidade": 3, "valor": "18715,44" },
-    { "status": "Em Separação", "quantidade": 30, "valor": "346045,45" },
-    { "status": "Separado", "quantidade": 3, "valor": "7665" },
-    { "status": "Faturado", "quantidade": 28, "valor": "148142,76" },
-    { "status": "Total", "quantidade": 64, "valor": "520568,65" }
+    { "status": "Bloqueado por regra", "quantidade": 0, "valor": "0" },
+    { "status": "Análise de Crédito", "quantidade": 27, "valor": "249121,54" },
+    { "status": "Total em Disputa", "quantidade": 27, "valor": "249121,54" },
+    { "status": "Aguard. Envio Separação", "quantidade": 2, "valor": "78,1" },
+    { "status": "Em Separação", "quantidade": 17, "valor": "93585,87" },
+    { "status": "Separado", "quantidade": 1, "valor": "6125" },
+    { "status": "Faturado", "quantidade": 56, "valor": "498769,33" },
+    { "status": "Total", "quantidade": 76, "valor": "598558,3" }
  ],
  "recebimento_produtos": [
 
@@ -48,18 +48,18 @@
   {"numero_pedido":"714912 ", "emissao_pv": "16/10/2026 ", "vlr_total_produtos": "9402,8 ", "margem": "51,99 ", "nome_cliente": "TECNOFARMA ", "uf_cliente": "MA ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"714921 ", "emissao_pv": "16/10/2026 ", "vlr_total_produtos": "916 ", "margem": "10,91 ", "nome_cliente": "MEDIHOSP ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. HELEIDA ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"714933 ", "emissao_pv": "16/10/2026 ", "vlr_total_produtos": "6741,46 ", "margem": "40,57 ", "nome_cliente": "PRIME DISTRIBUIDORA ", "uf_cliente": "PI ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. H.F ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"714955 ", "emissao_pv": "16/10/2026 ", "vlr_total_produtos": "1048,8 ", "margem": "26,83 ", "nome_cliente": "PRIMECARE ", "uf_cliente": "AM ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. TURCATO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"714977 ", "emissao_pv": "19/10/2026 ", "vlr_total_produtos": "12524,5 ", "margem": "28,01 ", "nome_cliente": "SOUZA MED COMERCIO D ", "uf_cliente": "MS ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"714986 ", "emissao_pv": "19/10/2026 ", "vlr_total_produtos": "43809,68 ", "margem": "13,24 ", "nome_cliente": "CK HOSPITALAR ", "uf_cliente": "TO ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. ML DANTE ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"714988 ", "emissao_pv": "19/10/2026 ", "vlr_total_produtos": "967,4 ", "margem": "38,03 ", "nome_cliente": "DONA CIDA DISTRIBUID ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. MARIO AQUINO ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"714992 ", "emissao_pv": "13/10/2026 ", "vlr_total_produtos": "5435,19 ", "margem": "0 ", "nome_cliente": "MEDTOUR SAUDE ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "E-COMMERCE ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"714994 ", "emissao_pv": "19/10/2026 ", "vlr_total_produtos": "885,27 ", "margem": "15,06 ", "nome_cliente": "HOSP DR BEDA ", "uf_cliente": "RJ ", "tipo_cliente": "CONS.FINAL ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"715000 ", "emissao_pv": "19/10/2026 ", "vlr_total_produtos": "11200 ", "margem": "23,02 ", "nome_cliente": "APOIOLAB ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"715011 ", "emissao_pv": "19/10/2026 ", "vlr_total_produtos": "17984,78 ", "margem": "28,28 ", "nome_cliente": "TECH PROL ", "uf_cliente": "RN ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"715029 ", "emissao_pv": "19/10/2026 ", "vlr_total_produtos": "2446,92 ", "margem": "-0,02 ", "nome_cliente": "CARVALHO   ROSA LABO ", "uf_cliente": "MG ", "tipo_cliente": "CONS.FINAL ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" }
-
-
-
+  {"numero_pedido":"715029 ", "emissao_pv": "19/10/2026 ", "vlr_total_produtos": "2446,92 ", "margem": "-0,02 ", "nome_cliente": "CARVALHO   ROSA LABO ", "uf_cliente": "MG ", "tipo_cliente": "CONS.FINAL ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"715055 ", "emissao_pv": "19/10/2026 ", "vlr_total_produtos": "52322,2 ", "margem": "14 ", "nome_cliente": "ATHAN COMMERCE EQUIP ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"715063 ", "emissao_pv": "19/10/2026 ", "vlr_total_produtos": "13106,12 ", "margem": "23,38 ", "nome_cliente": "MAXI MED ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "NEOLANDI SANTOS ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"715068 ", "emissao_pv": "19/10/2026 ", "vlr_total_produtos": "1131,5 ", "margem": "39,48 ", "nome_cliente": "SH COMERCIO E SERVIC ", "uf_cliente": "CE ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"715073 ", "emissao_pv": "19/10/2026 ", "vlr_total_produtos": "865,15 ", "margem": "49,85 ", "nome_cliente": "L  MOURA FARIAS DE M ", "uf_cliente": "CE ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"715077 ", "emissao_pv": "19/10/2026 ", "vlr_total_produtos": "2290 ", "margem": "51,82 ", "nome_cliente": "LUCENA COMERCIO EQUI ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. HELEIDA ", "ultimo_status": "Análise de Crédito" }
 
 
 
@@ -83,18 +83,18 @@
   "performance_gerencial": {
     "mes_atual": {
      "periodo": "outubro/2026",
-     "frete_pago": "241009,89",
-     "faturamento": "5430550,65",
-     "frete_repassado": "206459,56",
-     "entrega_realizada": "496",
-     "entrega_no_prazo": "479",
-     "qtd_notas_fiscais": "926",
-     "entrega_fora_prazo": "17"
+     "frete_pago": "250635,48",
+     "faturamento": "5576157,83",
+     "frete_repassado": "213675,91",
+     "entrega_realizada": "532",
+     "entrega_no_prazo": "514",
+     "qtd_notas_fiscais": "959",
+     "entrega_fora_prazo": "18"
 },
   "mes_anterior": {
      "periodo": "setembro/2026",
-     "entrega_realizada": "2128",
-     "entrega_no_prazo": "1984"
+     "entrega_realizada": "2132",
+     "entrega_no_prazo": "1989"
   }
 },
   "expedicao": {
