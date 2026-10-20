@@ -1,18 +1,18 @@
 {
-  "updated_at": "20/10/2026 16:03",
+  "updated_at": "20/10/2026 16:07",
   "kpis": {
   },
   "pedidos_status": [
-    { "status": "Aguardando Liberação", "quantidade": 4, "valor": "30984,54" },
+    { "status": "Aguardando Liberação", "quantidade": 3, "valor": "28675,34" },
     { "status": "Alvará Sanitário", "quantidade": 0, "valor": "0" },
     { "status": "Bloqueado por regra", "quantidade": 0, "valor": "0" },
-    { "status": "Análise de Crédito", "quantidade": 32, "valor": "337760,5" },
-    { "status": "Total em Disputa", "quantidade": 36, "valor": "368745,04" },
-    { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "4934,3" },
-    { "status": "Em Separação", "quantidade": 7, "valor": "93917,28" },
-    { "status": "Separado", "quantidade": 3, "valor": "78330,2" },
-    { "status": "Faturado", "quantidade": 32, "valor": "185896,59" },
-    { "status": "Total", "quantidade": 43, "valor": "363078,37" }
+    { "status": "Análise de Crédito", "quantidade": 31, "valor": "336948,5" },
+    { "status": "Total em Disputa", "quantidade": 34, "valor": "365623,84" },
+    { "status": "Aguard. Envio Separação", "quantidade": 0, "valor": "0" },
+    { "status": "Em Separação", "quantidade": 9, "valor": "99417,78" },
+    { "status": "Separado", "quantidade": 2, "valor": "54877,2" },
+    { "status": "Faturado", "quantidade": 34, "valor": "211904,59" },
+    { "status": "Total", "quantidade": 45, "valor": "366199,57" }
  ],
  "recebimento_produtos": [
 
@@ -55,7 +55,6 @@
   {"numero_pedido":"715173 ", "emissao_pv": "20/10/2026 ", "vlr_total_produtos": "13300,68 ", "margem": "17,67 ", "nome_cliente": "DISTRIBUIDORA POCOS ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. CAREMED ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"715179 ", "emissao_pv": "20/10/2026 ", "vlr_total_produtos": "46108 ", "margem": "23,56 ", "nome_cliente": "PROMEDI ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"715181 ", "emissao_pv": "20/10/2026 ", "vlr_total_produtos": "5220 ", "margem": "39,19 ", "nome_cliente": "ALGARVE DISTRIBUIDOR ", "uf_cliente": "MA ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA MIRIAN ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"715186 ", "emissao_pv": "20/10/2026 ", "vlr_total_produtos": "812 ", "margem": "27,01 ", "nome_cliente": "MRM COMERCIO LTDA ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOAO NETO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"715188 ", "emissao_pv": "20/10/2026 ", "vlr_total_produtos": "3812 ", "margem": "23,19 ", "nome_cliente": "DEMOCRATA COMERCIO E ", "uf_cliente": "RS ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"715192 ", "emissao_pv": "20/10/2026 ", "vlr_total_produtos": "8988 ", "margem": "23,85 ", "nome_cliente": "NORDELAB ", "uf_cliente": "RN ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"715194 ", "emissao_pv": "20/10/2026 ", "vlr_total_produtos": "14844,87 ", "margem": "30,79 ", "nome_cliente": "GOMES   GOMES COMERC ", "uf_cliente": "MA ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. H.F ", "ultimo_status": "Análise de Crédito" },
@@ -65,6 +64,7 @@
   {"numero_pedido":"715210 ", "emissao_pv": "20/10/2026 ", "vlr_total_produtos": "30148,05 ", "margem": "17,87 ", "nome_cliente": "DIHOL DISTRIBUIDORA ", "uf_cliente": "MT ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"715212 ", "emissao_pv": "20/10/2026 ", "vlr_total_produtos": "23968,5 ", "margem": "25,63 ", "nome_cliente": "CHRONOS MEDICAL CARE ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"715218 ", "emissao_pv": "20/10/2026 ", "vlr_total_produtos": "8070 ", "margem": "20,4 ", "nome_cliente": "CIRURGICA OESTE LTDA ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" }
+
 
 
 
@@ -86,10 +86,10 @@
      "frete_pago": "273098,97",
      "faturamento": "6312669,35",
      "frete_repassado": "230382",
-     "entrega_realizada": "659",
-     "entrega_no_prazo": "637",
+     "entrega_realizada": "655",
+     "entrega_no_prazo": "634",
      "qtd_notas_fiscais": "1045",
-     "entrega_fora_prazo": "22"
+     "entrega_fora_prazo": "21"
 },
   "mes_anterior": {
      "periodo": "setembro/2026",
