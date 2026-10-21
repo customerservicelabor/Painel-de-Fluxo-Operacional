@@ -1,18 +1,18 @@
 {
-  "updated_at": "21/10/2026 10:07",
+  "updated_at": "21/10/2026 12:01",
   "kpis": {
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 2, "valor": "17399,5" },
     { "status": "Alvará Sanitário", "quantidade": 0, "valor": "0" },
     { "status": "Bloqueado por regra", "quantidade": 1, "valor": "448,13" },
-    { "status": "Análise de Crédito", "quantidade": 19, "valor": "185191,87" },
-    { "status": "Total em Disputa", "quantidade": 22, "valor": "203039,5" },
-    { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "1131,5" },
-    { "status": "Em Separação", "quantidade": 13, "valor": "55215,02" },
-    { "status": "Separado", "quantidade": 1, "valor": "46108" },
-    { "status": "Faturado", "quantidade": 0, "valor": "0" },
-    { "status": "Total", "quantidade": 15, "valor": "102454,52" }
+    { "status": "Análise de Crédito", "quantidade": 23, "valor": "212222,23" },
+    { "status": "Total em Disputa", "quantidade": 26, "valor": "230069,86" },
+    { "status": "Aguard. Envio Separação", "quantidade": 0, "valor": "0" },
+    { "status": "Em Separação", "quantidade": 14, "valor": "36525,5" },
+    { "status": "Separado", "quantidade": 6, "valor": "51469,85" },
+    { "status": "Faturado", "quantidade": 18, "valor": "104935,19" },
+    { "status": "Total", "quantidade": 38, "valor": "192930,54" }
  ],
  "recebimento_produtos": [
 
@@ -51,11 +51,11 @@
   {"numero_pedido":"715192 ", "emissao_pv": "20/10/2026 ", "vlr_total_produtos": "8988 ", "margem": "23,85 ", "nome_cliente": "NORDELAB ", "uf_cliente": "RN ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"715194 ", "emissao_pv": "20/10/2026 ", "vlr_total_produtos": "14844,87 ", "margem": "30,79 ", "nome_cliente": "GOMES   GOMES COMERC ", "uf_cliente": "MA ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. H.F ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"715212 ", "emissao_pv": "20/10/2026 ", "vlr_total_produtos": "23968,5 ", "margem": "25,63 ", "nome_cliente": "CHRONOS MEDICAL CARE ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"715218 ", "emissao_pv": "20/10/2026 ", "vlr_total_produtos": "8070 ", "margem": "20,4 ", "nome_cliente": "CIRURGICA OESTE LTDA ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" }
-
-
-
-
+  {"numero_pedido":"715305 ", "emissao_pv": "21/10/2026 ", "vlr_total_produtos": "919,05 ", "margem": "7,81 ", "nome_cliente": "SERVICO SOCIAL DA CO ", "uf_cliente": "SP ", "tipo_cliente": "CONS.FINAL ","vendedor": "MARIANA HERGOVIC ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"715313 ", "emissao_pv": "21/10/2026 ", "vlr_total_produtos": "12917,31 ", "margem": "34,41 ", "nome_cliente": "DIAGNORTE COMERCIO E ", "uf_cliente": "AP ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"715319 ", "emissao_pv": "21/10/2026 ", "vlr_total_produtos": "1824 ", "margem": "24,59 ", "nome_cliente": "IVDLAB PRODUTOS PARA ", "uf_cliente": "RS ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"715327 ", "emissao_pv": "21/10/2026 ", "vlr_total_produtos": "8070 ", "margem": "20,4 ", "nome_cliente": "TOLEVIDA ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"715329 ", "emissao_pv": "21/10/2026 ", "vlr_total_produtos": "11370 ", "margem": "25,06 ", "nome_cliente": "FORTE DISTRIBUIDORA ", "uf_cliente": "DF ", "tipo_cliente": "REVENDEDOR ","vendedor": "FERNANDA GUIMARAES ", "ultimo_status": "Análise de Crédito" }
 
 
 
