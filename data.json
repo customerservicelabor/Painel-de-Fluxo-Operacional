@@ -1,18 +1,18 @@
 {
-  "updated_at": "21/10/2026 15:56",
+  "updated_at": "21/10/2026 16:58",
   "kpis": {
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 2, "valor": "17399,5" },
-    { "status": "Alvará Sanitário", "quantidade": 9, "valor": "100279,27" },
+    { "status": "Alvará Sanitário", "quantidade": 1, "valor": "12125,55" },
     { "status": "Bloqueado por regra", "quantidade": 2, "valor": "47021,73" },
-    { "status": "Análise de Crédito", "quantidade": 20, "valor": "210225,22" },
-    { "status": "Total em Disputa", "quantidade": 33, "valor": "374925,72" },
+    { "status": "Análise de Crédito", "quantidade": 26, "valor": "256610,89" },
+    { "status": "Total em Disputa", "quantidade": 31, "valor": "333157,67" },
     { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "123600" },
-    { "status": "Em Separação", "quantidade": 25, "valor": "247702,78" },
-    { "status": "Separado", "quantidade": 2, "valor": "14678,2" },
-    { "status": "Faturado", "quantidade": 55, "valor": "251850,1" },
-    { "status": "Total", "quantidade": 83, "valor": "637831,08" }
+    { "status": "Em Separação", "quantidade": 37, "valor": "470398,08" },
+    { "status": "Separado", "quantidade": 2, "valor": "14981,4" },
+    { "status": "Faturado", "quantidade": 60, "valor": "287777,1" },
+    { "status": "Total", "quantidade": 100, "valor": "896756,58" }
  ],
  "recebimento_produtos": [
 
@@ -51,17 +51,17 @@
   {"numero_pedido":"715212 ", "emissao_pv": "20/10/2026 ", "vlr_total_produtos": "23968,5 ", "margem": "25,63 ", "nome_cliente": "CHRONOS MEDICAL CARE ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"715319 ", "emissao_pv": "21/10/2026 ", "vlr_total_produtos": "1824 ", "margem": "24,59 ", "nome_cliente": "IVDLAB PRODUTOS PARA ", "uf_cliente": "RS ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"715365 ", "emissao_pv": "21/10/2026 ", "vlr_total_produtos": "1530 ", "margem": "17,12 ", "nome_cliente": "CENTER VET ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. ML DANTE ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"715397 ", "emissao_pv": "21/10/2026 ", "vlr_total_produtos": "20467,5 ", "margem": "39,51 ", "nome_cliente": "J SUL DISTRIBUIDORA ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"715399 ", "emissao_pv": "21/10/2026 ", "vlr_total_produtos": "34028 ", "margem": "13,33 ", "nome_cliente": "IBITURUNA ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "ALEXANDRA RIBEIRO ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"715407 ", "emissao_pv": "21/10/2026 ", "vlr_total_produtos": "24800 ", "margem": "35,64 ", "nome_cliente": "TK COMERCIAL ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"715409 ", "emissao_pv": "21/10/2026 ", "vlr_total_produtos": "2586,2 ", "margem": "27,78 ", "nome_cliente": "VET VACINA ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "LUCIA FLORESTA ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"715411 ", "emissao_pv": "21/10/2026 ", "vlr_total_produtos": "870 ", "margem": "17,91 ", "nome_cliente": "HOSP GERAL UNIMED ", "uf_cliente": "PR ", "tipo_cliente": "CONS.FINAL ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"715429 ", "emissao_pv": "21/10/2026 ", "vlr_total_produtos": "8749 ", "margem": "42,92 ", "nome_cliente": "J F DISTRIBUIDORA DE ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"715397 ", "emissao_pv": "21/10/2026 ", "vlr_total_produtos": "20467,5 ", "margem": "39,51 ", "nome_cliente": "J SUL DISTRIBUIDORA ", "uf_cliente": "BA ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"715409 ", "emissao_pv": "21/10/2026 ", "vlr_total_produtos": "2586,2 ", "margem": "27,78 ", "nome_cliente": "VET VACINA ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "LUCIA FLORESTA ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"715431 ", "emissao_pv": "21/10/2026 ", "vlr_total_produtos": "15715,2 ", "margem": "17,03 ", "nome_cliente": "DIREZIONE PRESTACAO ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOELMA NUNES ", "ultimo_status": "Análise de Crédito" },
-  {"numero_pedido":"715437 ", "emissao_pv": "21/10/2026 ", "vlr_total_produtos": "25694,5 ", "margem": "41,59 ", "nome_cliente": "PUMA DISTRIBUIDORA ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"715439 ", "emissao_pv": "21/10/2026 ", "vlr_total_produtos": "865,84 ", "margem": "21,49 ", "nome_cliente": "LABORATORIO REFERENC ", "uf_cliente": "SC ", "tipo_cliente": "CONS.FINAL ","vendedor": "LUCIA FLORESTA ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"715445 ", "emissao_pv": "21/10/2026 ", "vlr_total_produtos": "5958,1 ", "margem": "43,81 ", "nome_cliente": "LABORATORIO GUADALUP ", "uf_cliente": "PA ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOELMA NUNES ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"715447 ", "emissao_pv": "21/10/2026 ", "vlr_total_produtos": "1060,13 ", "margem": "0 ", "nome_cliente": "CENTRO DE DIAGNOSTIC ", "uf_cliente": "PE ", "tipo_cliente": "CONS.FINAL ","vendedor": "E-COMMERCE ", "ultimo_status": "Alvará Sanitário" }
+  {"numero_pedido":"715437 ", "emissao_pv": "21/10/2026 ", "vlr_total_produtos": "25694,5 ", "margem": "41,59 ", "nome_cliente": "PUMA DISTRIBUIDORA ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "DENNYS SANTOS ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"715465 ", "emissao_pv": "21/10/2026 ", "vlr_total_produtos": "3347,5 ", "margem": "31,3 ", "nome_cliente": "QUIFARMA DISTRIBUIDO ", "uf_cliente": "GO ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. SUPREMO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"715471 ", "emissao_pv": "21/10/2026 ", "vlr_total_produtos": "12125,55 ", "margem": "36,87 ", "nome_cliente": "CITY MED ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "APARECIDA BRESSAN ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"715473 ", "emissao_pv": "21/10/2026 ", "vlr_total_produtos": "4958 ", "margem": "34,7 ", "nome_cliente": "DISTRIB ALIANCA ", "uf_cliente": "MA ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. H.F ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"715475 ", "emissao_pv": "21/10/2026 ", "vlr_total_produtos": "12776 ", "margem": "46,96 ", "nome_cliente": "ITA PHARMA ", "uf_cliente": "RJ ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. CAREMED ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"715477 ", "emissao_pv": "21/10/2026 ", "vlr_total_produtos": "1355,97 ", "margem": "29,15 ", "nome_cliente": "IPS LOG ", "uf_cliente": "RS ", "tipo_cliente": "REVENDEDOR ","vendedor": "REP. LM ", "ultimo_status": "Análise de Crédito" }
+
+
 
 
 
@@ -83,18 +83,18 @@
   "performance_gerencial": {
     "mes_atual": {
      "periodo": "outubro/2026",
-     "frete_pago": "299321,48",
-     "faturamento": "6854568,8",
-     "frete_repassado": "248385,98",
-     "entrega_realizada": "726",
-     "entrega_no_prazo": "700",
-     "qtd_notas_fiscais": "1120",
-     "entrega_fora_prazo": "26"
+     "frete_pago": "309899,02",
+     "faturamento": "7130776,74",
+     "frete_repassado": "251006,99",
+     "entrega_realizada": "749",
+     "entrega_no_prazo": "724",
+     "qtd_notas_fiscais": "1138",
+     "entrega_fora_prazo": "25"
 },
   "mes_anterior": {
      "periodo": "setembro/2026",
-     "entrega_realizada": "2146",
-     "entrega_no_prazo": "2037"
+     "entrega_realizada": "2147",
+     "entrega_no_prazo": "2038"
   }
 },
   "expedicao": {
