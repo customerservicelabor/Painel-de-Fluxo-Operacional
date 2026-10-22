@@ -1,18 +1,18 @@
 {
-  "updated_at": "22/10/2026 08:38",
+  "updated_at": "22/10/2026 10:20",
   "kpis": {
   },
   "pedidos_status": [
     { "status": "Aguardando Liberação", "quantidade": 3, "valor": "19151,5" },
-    { "status": "Alvará Sanitário", "quantidade": 3, "valor": "3116" },
+    { "status": "Alvará Sanitário", "quantidade": 6, "valor": "23285,1" },
     { "status": "Bloqueado por regra", "quantidade": 5, "valor": "63466,81" },
-    { "status": "Análise de Crédito", "quantidade": 20, "valor": "194712,69" },
-    { "status": "Total em Disputa", "quantidade": 31, "valor": "280447" },
-    { "status": "Aguard. Envio Separação", "quantidade": 4, "valor": "136651,9" },
-    { "status": "Em Separação", "quantidade": 44, "valor": "470425,16" },
-    { "status": "Separado", "quantidade": 1, "valor": "1803,8" },
-    { "status": "Faturado", "quantidade": 0, "valor": "0" },
-    { "status": "Total", "quantidade": 49, "valor": "608880,86" }
+    { "status": "Análise de Crédito", "quantidade": 22, "valor": "207282,55" },
+    { "status": "Total em Disputa", "quantidade": 36, "valor": "313185,96" },
+    { "status": "Aguard. Envio Separação", "quantidade": 4, "valor": "136653,54" },
+    { "status": "Em Separação", "quantidade": 52, "valor": "476462,19" },
+    { "status": "Separado", "quantidade": 2, "valor": "26603,8" },
+    { "status": "Faturado", "quantidade": 1, "valor": "7,8" },
+    { "status": "Total", "quantidade": 59, "valor": "639727,33" }
  ],
  "recebimento_produtos": [
 
@@ -55,12 +55,12 @@
   {"numero_pedido":"715508 ", "emissao_pv": "21/10/2026 ", "vlr_total_produtos": "2956,67 ", "margem": "40,41 ", "nome_cliente": "SILVA E FILHO DISTRI ", "uf_cliente": "PA ", "tipo_cliente": "REVENDEDOR ","vendedor": "JOICE MENDES ", "ultimo_status": "Análise de Crédito" },
   {"numero_pedido":"715528 ", "emissao_pv": "21/10/2026 ", "vlr_total_produtos": "902 ", "margem": "21,87 ", "nome_cliente": "LAB GASPAR-DASA ", "uf_cliente": "MA ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOAO NETO ", "ultimo_status": "Alvará Sanitário" },
   {"numero_pedido":"715532 ", "emissao_pv": "21/10/2026 ", "vlr_total_produtos": "1312 ", "margem": "25,27 ", "nome_cliente": "DASA ", "uf_cliente": "PR ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOAO NETO ", "ultimo_status": "Alvará Sanitário" },
-  {"numero_pedido":"715534 ", "emissao_pv": "21/10/2026 ", "vlr_total_produtos": "902 ", "margem": "25,27 ", "nome_cliente": "DASA ", "uf_cliente": "PR ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOAO NETO ", "ultimo_status": "Alvará Sanitário" }
-
-
-
-
-
+  {"numero_pedido":"715534 ", "emissao_pv": "21/10/2026 ", "vlr_total_produtos": "902 ", "margem": "25,27 ", "nome_cliente": "DASA ", "uf_cliente": "PR ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOAO NETO ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"715553 ", "emissao_pv": "22/10/2026 ", "vlr_total_produtos": "804,76 ", "margem": "37,44 ", "nome_cliente": "OK DENTAL ", "uf_cliente": "SP ", "tipo_cliente": "REVENDEDOR ","vendedor": "DIEGO RICARDO ", "ultimo_status": "Análise de Crédito" },
+  {"numero_pedido":"715555 ", "emissao_pv": "22/10/2026 ", "vlr_total_produtos": "1333,6 ", "margem": "16,43 ", "nome_cliente": "G  GIRARDI COMERCIO ", "uf_cliente": "PR ", "tipo_cliente": "REVENDEDOR ","vendedor": "LUCIA FLORESTA ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"715557 ", "emissao_pv": "22/10/2026 ", "vlr_total_produtos": "17933,5 ", "margem": "38,89 ", "nome_cliente": "A R DISTRIB LOG ", "uf_cliente": "PE ", "tipo_cliente": "REVENDEDOR ","vendedor": "FLAVIA VELIS ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"715561 ", "emissao_pv": "22/10/2026 ", "vlr_total_produtos": "902 ", "margem": "27,58 ", "nome_cliente": "LAB SANTA LU-DASA ", "uf_cliente": "SC ", "tipo_cliente": "CONS.FINAL ","vendedor": "JOAO NETO ", "ultimo_status": "Alvará Sanitário" },
+  {"numero_pedido":"715565 ", "emissao_pv": "22/10/2026 ", "vlr_total_produtos": "11765,1 ", "margem": "37,7 ", "nome_cliente": "RD DISTRIBUIDORA ", "uf_cliente": "MG ", "tipo_cliente": "REVENDEDOR ","vendedor": "ERICA BARNES ", "ultimo_status": "Análise de Crédito" }
 
 
 
