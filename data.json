@@ -1444,24 +1444,55 @@
   },
   "performance_gerencial": {
     "mes_atual": {
-     "periodo": "outubro/2026",
-     "frete_pago": "510168,37",
-     "faturamento": "11824280,23",
-     "frete_repassado": "425713,15",
-     "entrega_realizada": "1102",
-     "entrega_no_prazo": "1059",
-     "qtd_notas_fiscais": "1685",
-     "entrega_fora_prazo": "43"
-},
-  "mes_anterior": {
-     "periodo": "setembro/2026",
-     "entrega_realizada": "2167",
-     "entrega_no_prazo": "2047"
-  }
-},
+      "periodo": "setembro/2026",
+      "frete_pago": 564359.1,
+      "faturamento": 13143416.72,
+      "frete_repassado": 517923.34,
+      "entrega_realizada": "925",
+      "entrega_no_prazo": "898",
+      "qtd_notas_fiscais": "1413",
+      "entrega_fora_prazo": "36"
+    },
+    "mes_anterior": {
+      "periodo": "agosto/2026",
+      "entrega_realizada": "1023",
+      "entrega_no_prazo": "971"
+    }
+  },
   "expedicao": {
-     "aguardando_coleta": 0,
-     "coletado": 0,
-     "valor_coletado": 0,
-     "valor_pendente_coleta": 0
-},
+    "aguardando_coleta": 0,
+    "coletado": 0,
+    "valor_coletado": 0,
+    "valor_pendente_coleta": 0
+  },
+  "estoque": {
+    "ocupacao_total_armazem": 73.37,
+    "ocupacao_operacional": 78.97,
+    "areas": [
+      {
+        "nome": "Picking",
+        "taxa": 81.6
+      },
+      {
+        "nome": "Pulmão de Abastecimento",
+        "taxa": 78.48
+      },
+      {
+        "nome": "Flowrack",
+        "taxa": 43.86
+      },
+      {
+        "nome": "Área de Qualidade",
+        "taxa": 21.43
+      },
+      {
+        "nome": "Área de Amostra",
+        "taxa": 0
+      },
+      {
+        "nome": "Área de Avarias",
+        "taxa": 16.28
+      }
+    ]
+  }
+}
