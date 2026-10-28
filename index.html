@@ -1483,11 +1483,10 @@
             <table class="tblPerf">
               <thead>
                 <tr>
-                  <th>Embarque</th>
-                  <th>Tipo</th>
-                  <th>Recebimento</th>
-                  <th>Confirmado</th>
-                  <th>Chegada CD</th>
+                  <th>Processo</th>
+                  <th>Nota Fiscal</th>
+                  <th>Data Prevista</th>
+                  <th>Quantidade de Pallets</th>
                   <th>Status</th>
                 </tr>
               </thead>
@@ -1975,79 +1974,59 @@ function startAutoScroll(el, {
     function renderRecebimento(data){
       const list = Array.isArray(data.recebimento_produtos)
         ? data.recebimento_produtos
-        : (Array.isArray(data.performance_transportadoras) ? data.performance_transportadoras : []);
+        : [];
 
       const body = document.getElementById('tbodyRecebimento');
       body.innerHTML = '';
-
       document.getElementById('recebimentoCount').textContent = `${list.length} itens`;
 
+      const fmtDate = (value) => {
+        const s = String(value ?? '').trim();
+        if (!s) return '—';
+        const iso = s.match(/^(\d{4})-(\d{2})-(\d{2})/);
+        if (iso) return `${iso[3]}/${iso[2]}/${iso[1]}`;
+        const ymd = s.match(/^(\d{4})(\d{2})(\d{2})$/);
+        if (ymd) return `${ymd[3]}/${ymd[2]}/${ymd[1]}`;
+        return s;
+      };
+
       for (const it of list){
-        const status = String(it.status ?? '').trim();
+        const status = String(it.status ?? 'Aguardando Confirmação').trim();
         const statusKey = normKey(status);
-
         const tr = document.createElement('tr');
-        tr.classList.remove('blinkWarn');
-
         let statusDotClass = '';
         let statusBadgeClass = '';
 
-        // ===== CORES AUTOMÁTICAS POR STATUS =====
-        if (statusKey.includes('aguardando programacao')) {
-          tr.style.background = 'linear-gradient(90deg, rgba(107,114,128,.25), rgba(107,114,128,.05))';
-        }
-        else if (statusKey === 'programado' || statusKey.includes('programado')) {
-          tr.style.background = 'linear-gradient(90deg, rgba(59,130,246,.18), rgba(59,130,246,.05))';
-        }
-        else if (statusKey.includes('transito')) {
-          tr.style.background = 'linear-gradient(90deg, rgba(245,158,11,.18), rgba(245,158,11,.05))';
-          statusDotClass = 'bad';
-        }
-        else if (statusKey.includes('chegou')) {
+        if (statusKey.includes('aguardando recebimento')) {
           tr.style.background = 'linear-gradient(90deg, rgba(14,165,233,.18), rgba(14,165,233,.05))';
-        }
-        else if (statusKey.includes('descarregando')) {
-          tr.style.background = 'linear-gradient(90deg, rgba(168,85,247,.18), rgba(168,85,247,.05))';
-        }
-        else if (statusKey.includes('finalizado')) {
-          tr.style.background = 'linear-gradient(90deg, rgba(34,197,94,.18), rgba(34,197,94,.05))';
-          statusBadgeClass = 'good';
-        }
-
-        // ===== EXCEÇÕES / ALERTA PISCANDO =====
-        if (
-          statusKey.includes('aguardando complementar') ||
-          statusKey.includes('aguardando nf mae') ||
-          statusKey.includes('divergencia')
-        ) {
-          tr.classList.add('blinkWarn');
-          tr.style.background = 'linear-gradient(90deg, rgba(239,68,68,.30), rgba(239,68,68,.10))';
           statusDotClass = 'bad';
-          statusBadgeClass = 'bad';
+        } else {
+          tr.style.background = 'linear-gradient(90deg, rgba(245,158,11,.18), rgba(245,158,11,.05))';
         }
 
-        const confirmado = String(it.confirmado ?? it.pendente_de_entrega ?? '—').trim();
-        const confirmadoKey = normKey(confirmado);
-        const confirmadoClass = confirmadoKey === 'sim' ? 'good' : (confirmadoKey === 'nao' ? 'bad' : '');
+        const cells = [
+          String(it.processo ?? '—').trim() || '—',
+          String(it.numero_nota ?? '').trim() || '—',
+          fmtDate(it.data_prevista),
+          Number(it.pallets ?? 0).toLocaleString('pt-BR', { minimumFractionDigits: 0, maximumFractionDigits: 2 }),
+        ];
 
-        tr.innerHTML = `
-          <td><strong>${String(it.embarque ?? '—').trim()}</strong></td>
-          <td>${String(it.tipo ?? '—').trim()}</td>
-          <td>${String(it.data_recebimento ?? '—').trim()}</td>
-          <td>
-            <span class="perfBadge ${confirmadoClass}">
-              <span class="perfDot ${confirmadoClass === 'bad' ? 'bad' : ''}"></span>
-              ${confirmado}
-            </span>
-          </td>
-          <td>${String(it.chegou_cd ?? '—').trim()}</td>
-          <td>
-            <span class="perfBadge ${statusBadgeClass}">
-              <span class="perfDot ${statusDotClass}"></span>
-              ${status || '—'}
-            </span>
-          </td>
-        `;
+        for (const value of cells){
+          const td = document.createElement('td');
+          td.textContent = value;
+          if (value === cells[0]) td.style.fontWeight = '800';
+          tr.appendChild(td);
+        }
+
+        const tdStatus = document.createElement('td');
+        const badge = document.createElement('span');
+        badge.className = `perfBadge ${statusBadgeClass}`;
+        const dot = document.createElement('span');
+        dot.className = `perfDot ${statusDotClass}`;
+        badge.appendChild(dot);
+        badge.appendChild(document.createTextNode(status || '—'));
+        tdStatus.appendChild(badge);
+        tr.appendChild(tdStatus);
         body.appendChild(tr);
       }
     }
@@ -2091,10 +2070,23 @@ function startAutoScroll(el, {
         valorNum: aguardLib.valorNum + alvara.valorNum + bloqueado.valorNum + analise.valorNum
       };
 
+      // Total Faturamento Previsto = soma dos itens solicitados:
+      // Total em Disputa + Aguard. Envio Separação + Em Separação
+      // + Separado + Faturado.
       const totalPrevisto = {
         label: 'Total Faturamento Previsto',
-        qtd: aguardEnv.qtd + emSep.qtd + separado.qtd + faturado.qtd,
-        valorNum: aguardEnv.valorNum + emSep.valorNum + separado.valorNum + faturado.valorNum
+        qtd:
+          totalDisputa.qtd +
+          aguardEnv.qtd +
+          emSep.qtd +
+          separado.qtd +
+          faturado.qtd,
+        valorNum:
+          totalDisputa.valorNum +
+          aguardEnv.valorNum +
+          emSep.valorNum +
+          separado.valorNum +
+          faturado.valorNum
       };
 
       const ordered = [
