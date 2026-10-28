@@ -1444,21 +1444,21 @@
   },
   "performance_gerencial": {
     "mes_atual": {
-      "periodo": "setembro/2026",
-      "frete_pago": 564359.1,
-      "faturamento": 13143416.72,
-      "frete_repassado": 517923.34,
-      "entrega_realizada": "925",
-      "entrega_no_prazo": "898",
-      "qtd_notas_fiscais": "1413",
-      "entrega_fora_prazo": "36"
-    },
-    "mes_anterior": {
-      "periodo": "agosto/2026",
-      "entrega_realizada": "1023",
-      "entrega_no_prazo": "971"
-    }
-  },
+     "periodo": "outubro/2026",
+     "frete_pago": "510168,37",
+     "faturamento": "11824280,23",
+     "frete_repassado": "425713,15",
+     "entrega_realizada": "1102",
+     "entrega_no_prazo": "1059",
+     "qtd_notas_fiscais": "1685",
+     "entrega_fora_prazo": "43"
+},
+  "mes_anterior": {
+     "periodo": "setembro/2026",
+     "entrega_realizada": "2167",
+     "entrega_no_prazo": "2047"
+  }
+},
   "expedicao": {
     "aguardando_coleta": 0,
     "coletado": 0,
