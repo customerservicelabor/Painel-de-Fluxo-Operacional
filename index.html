@@ -1765,18 +1765,17 @@ function startAutoScroll(el, {
     }
 
     function parseUpdatedDate(updatedAtStr){
-      const parts = String(updatedAtStr || '').split(" ");
-      const datePart = parts[0] || "01/01/1970";
-      const timePart = parts[1] || "00:00";
+      // Aceita "29/10/2026, 09:02:00" e "29/10/2026 09:02:00".
+      const raw = String(updatedAtStr || '').trim();
+      const match = raw.match(/^(\d{2})\/(\d{2})\/(\d{4})\s*,?\s*(\d{1,2}):(\d{2})(?::(\d{2}))?$/);
+      if (!match) return null;
 
-      let d = parseDateFlex(datePart);
-      if(!d){
-        const [dd, mm, yyyy] = datePart.split("/").map(Number);
-        d = new Date(yyyy || 1970, (mm || 1)-1, dd || 1);
-      }
-
-      const [HH, MM] = timePart.split(":").map(Number);
-      d.setHours(HH || 0, MM || 0, 0, 0);
+      const [, dd, mm, yyyy, HH, MM, SS = '0'] = match;
+      const d = new Date(+yyyy, +mm - 1, +dd, +HH, +MM, +SS);
+      // Impede datas inválidas de acionarem um falso alerta.
+      if (d.getFullYear() !== +yyyy || d.getMonth() !== +mm - 1 ||
+          d.getDate() !== +dd || d.getHours() !== +HH ||
+          d.getMinutes() !== +MM || d.getSeconds() !== +SS) return null;
       return d;
     }
 
@@ -1788,6 +1787,7 @@ function startAutoScroll(el, {
       el.textContent = 'Atualizado em: ' + (data.updated_at || '--/--/----');
 
       const updated = parseUpdatedDate(data.updated_at);
+      if (!updated) return;
       const diffMs = Date.now() - updated.getTime();
       if (!Number.isFinite(diffMs)) return;
 
