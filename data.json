@@ -856,18 +856,18 @@
   "performance_gerencial": {
     "mes_atual": {
      "periodo": "outubro/2026",
-     "frete_pago": "624958,42",
-     "faturamento": "14458441,17",
-     "frete_repassado": "493925,23",
-     "entrega_realizada": "1273",
-     "entrega_no_prazo": "1222",
-     "qtd_notas_fiscais": "1951",
-     "entrega_fora_prazo": "51"
+     "frete_pago": "624957,91",
+     "faturamento": "14478132,7",
+     "frete_repassado": "500775,59",
+     "entrega_realizada": "1294",
+     "entrega_no_prazo": "1242",
+     "qtd_notas_fiscais": "1982",
+     "entrega_fora_prazo": "52"
 },
   "mes_anterior": {
      "periodo": "setembro/2026",
      "entrega_realizada": "2169",
-     "entrega_no_prazo": "2047"
+     "entrega_no_prazo": "2046"
   }
 },
   "expedicao": {
@@ -879,15 +879,15 @@
 
 
 "estoque": {
-  "ocupacao_total_armazem": 84.84,
-  "ocupacao_operacional": 92.23,
+  "ocupacao_total_armazem": 65.59,
+  "ocupacao_operacional": 70.07,
   "areas": [
-    { "nome": "Picking", "taxa": 89.87},
-    { "nome": "Pulmão de Abastecimento", "taxa": 92.63},
-    { "nome": "Flowrack", "taxa": 44.86},
-    { "nome": "Área de Qualidade", "taxa": 50.00},
+    { "nome": "Picking", "taxa": 78.91},
+    { "nome": "Pulmão de Abastecimento", "taxa": 68.42},
+    { "nome": "Flowrack", "taxa": 43.86},
+    { "nome": "Área de Qualidade", "taxa": 5.56},
     { "nome": "Área de Amostra", "taxa": 0.00},
-    { "nome": "Área de Avarias", "taxa": 27.91}
+    { "nome": "Área de Avarias", "taxa": 13.95}
 ]
 }
 }
