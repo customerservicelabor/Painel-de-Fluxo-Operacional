@@ -2070,19 +2070,16 @@ function startAutoScroll(el, {
         valorNum: aguardLib.valorNum + alvara.valorNum + bloqueado.valorNum + analise.valorNum
       };
 
-      // Total Faturamento Previsto = soma dos itens solicitados:
-      // Total em Disputa + Aguard. Envio Separação + Em Separação
-      // + Separado + Faturado.
+      // Total Faturamento Previsto = Aguard. Envio Separação + Em Separação
+      // + Separado + Faturado. Desconsidera Total em Disputa.
       const totalPrevisto = {
         label: 'Total Faturamento Previsto',
         qtd:
-          totalDisputa.qtd +
           aguardEnv.qtd +
           emSep.qtd +
           separado.qtd +
           faturado.qtd,
         valorNum:
-          totalDisputa.valorNum +
           aguardEnv.valorNum +
           emSep.valorNum +
           separado.valorNum +
