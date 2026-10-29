@@ -895,17 +895,17 @@
   "performance_gerencial": {
     "mes_atual": {
      "periodo": "outubro/2026",
-     "frete_pago": "578098,65",
-     "faturamento": "13471698,89",
-     "frete_repassado": "479127,73",
-     "entrega_realizada": "1227",
-     "entrega_no_prazo": "1178",
-     "qtd_notas_fiscais": "1908",
-     "entrega_fora_prazo": "49"
+     "frete_pago": "624958,42",
+     "faturamento": "14458441,17",
+     "frete_repassado": "493925,23",
+     "entrega_realizada": "1273",
+     "entrega_no_prazo": "1222",
+     "qtd_notas_fiscais": "1951",
+     "entrega_fora_prazo": "51"
 },
   "mes_anterior": {
      "periodo": "setembro/2026",
-     "entrega_realizada": "2168",
+     "entrega_realizada": "2169",
      "entrega_no_prazo": "2047"
   }
 },
