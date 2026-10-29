@@ -1793,10 +1793,8 @@ function startAutoScroll(el, {
 
       const diffMin = Math.floor(diffMs / 60000);
 
-      if (diffMin > 120){
+      if (diffMin >= 60){
         el.classList.add('stale-bad');
-      } else if (diffMin > 60){
-        el.classList.add('stale-warn');
       }
     }
 
@@ -2720,7 +2718,12 @@ async function atualizarPainel(){
 
 atualizarPainel();
 
-setInterval(atualizarPainel, 120000);
+setInterval(atualizarPainel, 1800000);
+
+// Reavalia o alerta a cada minuto, mesmo entre consultas ao data.json.
+setInterval(() => {
+  if (DATA_CACHE) formatUpdatedAtToBadge(DATA_CACHE);
+}, 60000);
       </script>
 </body>
 </html>
