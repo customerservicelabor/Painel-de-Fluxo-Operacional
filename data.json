@@ -53,3 +53,880 @@
       "valor": 14821231.35
     }
   ],
+  "recebimento_produtos": [
+    {
+      "processo": "2026I166",
+      "data_prevista": "2026-10-29",
+      "pallets": 37,
+      "status": "Aguardando Recebimento",
+      "numero_nota": "000006001"
+    },
+    {
+      "processo": "02151820-MGE",
+      "data_prevista": "2026-10-31",
+      "pallets": 56,
+      "status": "Aguardando Confirmação",
+      "numero_nota": ""
+    },
+    {
+      "processo": "012676",
+      "data_prevista": "2026-11-04",
+      "pallets": 42.5,
+      "status": "Aguardando Confirmação",
+      "numero_nota": ""
+    },
+    {
+      "processo": "012679",
+      "data_prevista": "2026-11-04",
+      "pallets": 29.5,
+      "status": "Aguardando Confirmação",
+      "numero_nota": ""
+    },
+    {
+      "processo": "013403",
+      "data_prevista": "2026-11-05",
+      "pallets": 3.5,
+      "status": "Aguardando Confirmação",
+      "numero_nota": ""
+    },
+    {
+      "processo": "013401",
+      "data_prevista": "2026-11-07",
+      "pallets": 0,
+      "status": "Aguardando Confirmação",
+      "numero_nota": ""
+    },
+    {
+      "processo": "2026I232",
+      "data_prevista": "2026-11-07",
+      "pallets": 45,
+      "status": "Aguardando Confirmação",
+      "numero_nota": ""
+    },
+    {
+      "processo": "2026I075",
+      "data_prevista": "2026-11-08",
+      "pallets": 256.5,
+      "status": "Aguardando Confirmação",
+      "numero_nota": ""
+    }
+  ],
+  "pedidos_nao_faturados": [
+    {
+      "numero_pedido": "713032",
+      "emissao_pv": "01/10/2026",
+      "vlr_total_produtos": 696.6,
+      "margem": "0",
+      "nome_cliente": "SERVICO SOCIAL DA CONSTRUCAO CIVIL DO ESTADO DE SA",
+      "uf_cliente": "SP",
+      "tipo_cliente": "CONS.FINAL",
+      "vendedor": "MARIANA RODRIGUES HERGOVIC",
+      "ultimo_status": "1 - PEDIDO INCLUIDO"
+    },
+    {
+      "numero_pedido": "715465",
+      "emissao_pv": "21/10/2026",
+      "vlr_total_produtos": 3609.44,
+      "margem": 31.3,
+      "nome_cliente": "QUIFARMA DISTRIBUIDORA DE MEDICAMENTOS LTDA",
+      "uf_cliente": "GO",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "SUPREMO REP. E CONSULTORIA EIRELLI",
+      "ultimo_status": "Separado"
+    },
+    {
+      "numero_pedido": "715823",
+      "emissao_pv": "23/10/2026",
+      "vlr_total_produtos": "83",
+      "margem": "0",
+      "nome_cliente": "INSTITUICAO LAR SANTO ANTONIO DE PADUA",
+      "uf_cliente": "BA",
+      "tipo_cliente": "CONS.FINAL",
+      "vendedor": "LUANA MORAES DA SILVA MARQUES",
+      "ultimo_status": "Bloqueado por regra"
+    },
+    {
+      "numero_pedido": "716112",
+      "emissao_pv": "26/10/2026",
+      "vlr_total_produtos": 7348.95,
+      "margem": 72.38,
+      "nome_cliente": "SEMPRE MED MATERIAL HOSPITALAR LTDA",
+      "uf_cliente": "BA",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "DIEGO RICARDO CECILIO",
+      "ultimo_status": "Separado"
+    },
+    {
+      "numero_pedido": "716129",
+      "emissao_pv": "26/10/2026",
+      "vlr_total_produtos": 982.34,
+      "margem": 10.63,
+      "nome_cliente": "MEDIHOSP DISTRIBUIDORA DE MATERIAIS MEDICOHOSPITAL",
+      "uf_cliente": "SP",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "HELEIDA REPRESENTACOES LTDA",
+      "ultimo_status": "Análise de Crédito"
+    },
+    {
+      "numero_pedido": "716362",
+      "emissao_pv": "27/10/2026",
+      "vlr_total_produtos": "3600",
+      "margem": 29.47,
+      "nome_cliente": "CARDIOLIFE  CLINICA DE ESPECIALIDADES MEDICAS DO V",
+      "uf_cliente": "SP",
+      "tipo_cliente": "CONS.FINAL",
+      "vendedor": "FLAVIA BADARO VELIS",
+      "ultimo_status": "Aguardando Liberação"
+    },
+    {
+      "numero_pedido": "716417",
+      "emissao_pv": "27/10/2026",
+      "vlr_total_produtos": 1091.72,
+      "margem": 18.66,
+      "nome_cliente": "60 666 717 JOAO FEIJO",
+      "uf_cliente": "RJ",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "FERNANDA TORRES GUIMARAES",
+      "ultimo_status": "Análise de Crédito"
+    },
+    {
+      "numero_pedido": "716463",
+      "emissao_pv": "27/10/2026",
+      "vlr_total_produtos": 45670.85,
+      "margem": 24.76,
+      "nome_cliente": "CRISTALFARMA COMERCIO REPRESENTACAO IMPORTACAO E E",
+      "uf_cliente": "PA",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "C A BENTO E SILVA",
+      "ultimo_status": "Análise de Crédito"
+    },
+    {
+      "numero_pedido": "716469",
+      "emissao_pv": "27/10/2026",
+      "vlr_total_produtos": 5158.19,
+      "margem": 15.69,
+      "nome_cliente": "QUALITY DISTRIBUIDORA DE INSUMOS E MEDICAMENTOS LT",
+      "uf_cliente": "SP",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "LUCIANA APARECIDA BRESSAN",
+      "ultimo_status": "Análise de Crédito"
+    },
+    {
+      "numero_pedido": "716628",
+      "emissao_pv": "27/10/2026",
+      "vlr_total_produtos": 35297.2,
+      "margem": 21.78,
+      "nome_cliente": "IMEDIATA DISTRIBUIDORA DE PRODUTOS PARA A SAUDE LT",
+      "uf_cliente": "PI",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "DIEGO RICARDO CECILIO",
+      "ultimo_status": "Análise de Crédito"
+    },
+    {
+      "numero_pedido": "716682",
+      "emissao_pv": "27/10/2026",
+      "vlr_total_produtos": "2575",
+      "margem": 48.79,
+      "nome_cliente": "MODELO COMERCIO DE MATERIAL HOSPITALAR LTDA",
+      "uf_cliente": "MS",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "FLAVIA BADARO VELIS",
+      "ultimo_status": "Análise de Crédito"
+    },
+    {
+      "numero_pedido": "716698",
+      "emissao_pv": "27/10/2026",
+      "vlr_total_produtos": 4726.45,
+      "margem": 24.57,
+      "nome_cliente": "MS10 COMERCIAL DE VIDRARIAS PARA LABORATORIOS LTDA",
+      "uf_cliente": "SP",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "JOICE MENDES DA SILVA",
+      "ultimo_status": "Em Separação"
+    },
+    {
+      "numero_pedido": "716706",
+      "emissao_pv": "28/10/2026",
+      "vlr_total_produtos": 4418.93,
+      "margem": 36.01,
+      "nome_cliente": "DENTAL INVESTE COMERCIO ATACADISTA LTDA",
+      "uf_cliente": "MG",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "FLAVIA BADARO VELIS",
+      "ultimo_status": "Análise de Crédito"
+    },
+    {
+      "numero_pedido": "716708",
+      "emissao_pv": "28/10/2026",
+      "vlr_total_produtos": 18465.4,
+      "margem": 32.57,
+      "nome_cliente": "C DE CARVALHO COMERCIAL LTDA",
+      "uf_cliente": "PI",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "DENNYS WINSTON RICCI DOS SANTOS",
+      "ultimo_status": "Aguardando Liberação"
+    },
+    {
+      "numero_pedido": "716718",
+      "emissao_pv": "28/10/2026",
+      "vlr_total_produtos": "78652",
+      "margem": 37.7,
+      "nome_cliente": "NCA MEDICAL  COMERCIO DE PRODUTOS HOSPITALAR LTDA",
+      "uf_cliente": "AM",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "M REIS DE OLIVEIRA",
+      "ultimo_status": "Separado"
+    },
+    {
+      "numero_pedido": "716933",
+      "emissao_pv": "28/10/2026",
+      "vlr_total_produtos": 2219.56,
+      "margem": 19.41,
+      "nome_cliente": "ASSOCIACAO BENEFICENTE NOSSA SENHORA DE NAZARE",
+      "uf_cliente": "SP",
+      "tipo_cliente": "CONS.FINAL",
+      "vendedor": "MARIANA RODRIGUES HERGOVIC",
+      "ultimo_status": "Análise de Crédito"
+    },
+    {
+      "numero_pedido": "717016",
+      "emissao_pv": "28/10/2026",
+      "vlr_total_produtos": 5235.4,
+      "margem": 30.57,
+      "nome_cliente": "DUTRAFARMA HOSPITALAR LTDA",
+      "uf_cliente": "MA",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "JOAO BEZERRA DE LIMA NETO",
+      "ultimo_status": "Análise de Crédito"
+    },
+    {
+      "numero_pedido": "717036",
+      "emissao_pv": "28/10/2026",
+      "vlr_total_produtos": "63065",
+      "margem": 35.44,
+      "nome_cliente": "BIOMEGA MEDICINA DIAGNOSTICA LTDA",
+      "uf_cliente": "SP",
+      "tipo_cliente": "CONS.FINAL",
+      "vendedor": "JOAO BEZERRA DE LIMA NETO",
+      "ultimo_status": "2.1    - ALVARA SANITARIO"
+    },
+    {
+      "numero_pedido": "717094",
+      "emissao_pv": "29/10/2026",
+      "vlr_total_produtos": 4953.3,
+      "margem": 29.52,
+      "nome_cliente": "JR DISTRIBUIDORA DE PRODUTOS MED HOSPITALARES LTDA",
+      "uf_cliente": "GO",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "JOELMA XAVIER NUNES",
+      "ultimo_status": "Em Separação"
+    },
+    {
+      "numero_pedido": "717097",
+      "emissao_pv": "29/10/2026",
+      "vlr_total_produtos": 5102.58,
+      "margem": 34.73,
+      "nome_cliente": "CEDIMED DISTRIBUIDORA DE MEDICAMENTOS E MATERIAIS",
+      "uf_cliente": "CE",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "ALFA OMEGA REP.COM. LTDA",
+      "ultimo_status": "Separado"
+    },
+    {
+      "numero_pedido": "717103",
+      "emissao_pv": "29/10/2026",
+      "vlr_total_produtos": "3455",
+      "margem": 22.66,
+      "nome_cliente": "DELTA SUL DISTRIBUIDORA LTDA",
+      "uf_cliente": "BA",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "FERNANDA TORRES GUIMARAES",
+      "ultimo_status": "Separado"
+    },
+    {
+      "numero_pedido": "717109",
+      "emissao_pv": "29/10/2026",
+      "vlr_total_produtos": 17912.9,
+      "margem": 25.11,
+      "nome_cliente": "MALVAGLIA COMERCIAL LTDA",
+      "uf_cliente": "SP",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "DENNYS WINSTON RICCI DOS SANTOS",
+      "ultimo_status": "Análise de Crédito"
+    },
+    {
+      "numero_pedido": "717118",
+      "emissao_pv": "29/10/2026",
+      "vlr_total_produtos": "6828",
+      "margem": 29.94,
+      "nome_cliente": "DNA LABORATORIO CLINICOS LTDA",
+      "uf_cliente": "BA",
+      "tipo_cliente": "CONS.FINAL",
+      "vendedor": "ALEXANDRA QUEREGATTE MARTINS RIBEIRO",
+      "ultimo_status": "Análise de Crédito"
+    },
+    {
+      "numero_pedido": "717124",
+      "emissao_pv": "29/10/2026",
+      "vlr_total_produtos": 1607.73,
+      "margem": 36.85,
+      "nome_cliente": "DIAGNOSTICA ES SERVICOS E PRODUTOS LABORATORIAL E",
+      "uf_cliente": "ES",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "LUCIA MARIA ANDRADE FLORESTA",
+      "ultimo_status": "Separado"
+    },
+    {
+      "numero_pedido": "717125",
+      "emissao_pv": "29/10/2026",
+      "vlr_total_produtos": 28505.1,
+      "margem": 20.15,
+      "nome_cliente": "L   A HOSPITALAR LTDA",
+      "uf_cliente": "PA",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "ERICA DA SILVA SOARES BARNES",
+      "ultimo_status": "Em Separação"
+    },
+    {
+      "numero_pedido": "717137",
+      "emissao_pv": "29/10/2026",
+      "vlr_total_produtos": 53738.55,
+      "margem": 16.28,
+      "nome_cliente": "CIRURGICA RECIFE COMERCIO E REPRESENTACOES LTDA",
+      "uf_cliente": "PE",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "JOELMA XAVIER NUNES",
+      "ultimo_status": "Em Separação"
+    },
+    {
+      "numero_pedido": "717146",
+      "emissao_pv": "29/10/2026",
+      "vlr_total_produtos": 14987.71,
+      "margem": "11",
+      "nome_cliente": "B C DISTRIBUIDORA HOSPITALAR LTDA",
+      "uf_cliente": "GO",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "FLAVIA BADARO VELIS",
+      "ultimo_status": "Em Separação"
+    },
+    {
+      "numero_pedido": "717151",
+      "emissao_pv": "29/10/2026",
+      "vlr_total_produtos": 2346.02,
+      "margem": 6.28,
+      "nome_cliente": "SERVICO SOCIAL DA CONSTRUCAO CIVIL DO ESTADO DE SA",
+      "uf_cliente": "SP",
+      "tipo_cliente": "CONS.FINAL",
+      "vendedor": "MARIANA RODRIGUES HERGOVIC",
+      "ultimo_status": "Em Separação"
+    },
+    {
+      "numero_pedido": "717155",
+      "emissao_pv": "29/10/2026",
+      "vlr_total_produtos": 2540.68,
+      "margem": 12.48,
+      "nome_cliente": "L N DISTRIBUIDORA DE PRODUTOS HOSPITALARES DE SAUD",
+      "uf_cliente": "PA",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "JOAO BEZERRA DE LIMA NETO",
+      "ultimo_status": "Separado"
+    },
+    {
+      "numero_pedido": "717160",
+      "emissao_pv": "29/10/2026",
+      "vlr_total_produtos": 809.9,
+      "margem": 32.39,
+      "nome_cliente": "BENEFICENCIA HOSPITALAR DE CESARIO LANGE",
+      "uf_cliente": "SP",
+      "tipo_cliente": "CONS.FINAL",
+      "vendedor": "MARIANA RODRIGUES HERGOVIC",
+      "ultimo_status": "Em Separação"
+    },
+    {
+      "numero_pedido": "717162",
+      "emissao_pv": "29/10/2026",
+      "vlr_total_produtos": 11751.5,
+      "margem": 28.19,
+      "nome_cliente": "ESPECIFARMA COM DE MEDICAMENTOS E PRO HOSPITALARES",
+      "uf_cliente": "ES",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "LUCIANA APARECIDA BRESSAN",
+      "ultimo_status": "Em Separação"
+    },
+    {
+      "numero_pedido": "717164",
+      "emissao_pv": "29/10/2026",
+      "vlr_total_produtos": 1678.5,
+      "margem": 11.68,
+      "nome_cliente": "JUBE E DANTAS PRODUTOS E SUPRIMENTOS LTDA",
+      "uf_cliente": "GO",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "SUPREMO REP. E CONSULTORIA EIRELLI",
+      "ultimo_status": "Em Separação"
+    },
+    {
+      "numero_pedido": "717166",
+      "emissao_pv": "29/10/2026",
+      "vlr_total_produtos": 13181.44,
+      "margem": 40.67,
+      "nome_cliente": "58 674 899 LUCAS VINICIUS OLIVEIRA ARRUDA",
+      "uf_cliente": "SP",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "FLAVIA BADARO VELIS",
+      "ultimo_status": "Separado"
+    },
+    {
+      "numero_pedido": "717168",
+      "emissao_pv": "29/10/2026",
+      "vlr_total_produtos": 2415.99,
+      "margem": 17.74,
+      "nome_cliente": "PLUSVET COMERCIO DE PRODUTOS PARA LABORATORIOS E V",
+      "uf_cliente": "SP",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "NEOLANDI SANTOS",
+      "ultimo_status": "Separado"
+    },
+    {
+      "numero_pedido": "717170",
+      "emissao_pv": "29/10/2026",
+      "vlr_total_produtos": 2902.69,
+      "margem": 24.92,
+      "nome_cliente": "PHOSPODONT LTDA",
+      "uf_cliente": "RN",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "DIEGO RICARDO CECILIO",
+      "ultimo_status": "SEM STATUS"
+    },
+    {
+      "numero_pedido": "717171",
+      "emissao_pv": "29/10/2026",
+      "vlr_total_produtos": 855.99,
+      "margem": 26.91,
+      "nome_cliente": "GALMED COMERCIAL DE PRODUTOS HOSPITALARES LTDA",
+      "uf_cliente": "BA",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "LUCIA MARIA ANDRADE FLORESTA",
+      "ultimo_status": "Separado"
+    },
+    {
+      "numero_pedido": "717173",
+      "emissao_pv": "29/10/2026",
+      "vlr_total_produtos": 2780.05,
+      "margem": 19.14,
+      "nome_cliente": "MACRO DISTRIBUIDORA HOSPITALAR LTDA",
+      "uf_cliente": "TO",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "NEOLANDI SANTOS",
+      "ultimo_status": "Em Separação"
+    },
+    {
+      "numero_pedido": "717177",
+      "emissao_pv": "29/10/2026",
+      "vlr_total_produtos": 4037.37,
+      "margem": 26.82,
+      "nome_cliente": "NNMED  DISTRIBUICAO  IMPORTACAO E EXPORTACAO DE ME",
+      "uf_cliente": "PB",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "ALFA OMEGA REP.COM. LTDA",
+      "ultimo_status": "Separado"
+    },
+    {
+      "numero_pedido": "717181",
+      "emissao_pv": "29/10/2026",
+      "vlr_total_produtos": 39919.43,
+      "margem": 5.48,
+      "nome_cliente": "LEBLON HOSPITALAR LTDA",
+      "uf_cliente": "GO",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "FERNANDA TORRES GUIMARAES",
+      "ultimo_status": "Em Separação"
+    },
+    {
+      "numero_pedido": "717183",
+      "emissao_pv": "29/10/2026",
+      "vlr_total_produtos": 446.53,
+      "margem": "0",
+      "nome_cliente": "ECLIN GESTAO E MANUTENCAO DE EQUIPAMENTOS HOSPITAL",
+      "uf_cliente": "SP",
+      "tipo_cliente": "CONS.FINAL",
+      "vendedor": "E-COMMERCE",
+      "ultimo_status": "Em Separação"
+    },
+    {
+      "numero_pedido": "717185",
+      "emissao_pv": "29/10/2026",
+      "vlr_total_produtos": 5355.11,
+      "margem": 20.65,
+      "nome_cliente": "ONIX HOSPITALAR LTDA",
+      "uf_cliente": "RJ",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "JOAO BEZERRA DE LIMA NETO",
+      "ultimo_status": "Em Separação"
+    },
+    {
+      "numero_pedido": "717187",
+      "emissao_pv": "29/10/2026",
+      "vlr_total_produtos": 915.18,
+      "margem": 26.13,
+      "nome_cliente": "DRACEMEDICA PRODUTOS ORTOPEDICOS LTDA",
+      "uf_cliente": "SP",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "LUCIA MARIA ANDRADE FLORESTA",
+      "ultimo_status": "Separado"
+    },
+    {
+      "numero_pedido": "717188",
+      "emissao_pv": "29/10/2026",
+      "vlr_total_produtos": 1223.4,
+      "margem": "38",
+      "nome_cliente": "VILHEMED COM  ATACADISTA E VAREJISTA DE INSTRUMENT",
+      "uf_cliente": "RO",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "FERNANDA MIRIAN AMARAL",
+      "ultimo_status": "SEM STATUS"
+    },
+    {
+      "numero_pedido": "717190",
+      "emissao_pv": "29/10/2026",
+      "vlr_total_produtos": 17426.96,
+      "margem": 33.67,
+      "nome_cliente": "JM COMERCIO DE PRODUTOS FARMACEUTICOS LTDA",
+      "uf_cliente": "AM",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "M REIS DE OLIVEIRA",
+      "ultimo_status": "Em Separação"
+    },
+    {
+      "numero_pedido": "717191",
+      "emissao_pv": "29/10/2026",
+      "vlr_total_produtos": 2339.72,
+      "margem": 30.34,
+      "nome_cliente": "JM COMERCIO DE PRODUTOS FARMACEUTICOS LTDA",
+      "uf_cliente": "AM",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "M REIS DE OLIVEIRA",
+      "ultimo_status": "Em Separação"
+    },
+    {
+      "numero_pedido": "717193",
+      "emissao_pv": "29/10/2026",
+      "vlr_total_produtos": 1491.54,
+      "margem": 25.65,
+      "nome_cliente": "JESSYCA LAYANE SAVIO MAZUR",
+      "uf_cliente": "PR",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "LUCIANA APARECIDA BRESSAN",
+      "ultimo_status": "Em Separação"
+    },
+    {
+      "numero_pedido": "717195",
+      "emissao_pv": "29/10/2026",
+      "vlr_total_produtos": 3399.78,
+      "margem": 33.57,
+      "nome_cliente": "R M PAULUK E CIA LTDA",
+      "uf_cliente": "PR",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "NEOLANDI SANTOS",
+      "ultimo_status": "Separado"
+    },
+    {
+      "numero_pedido": "717197",
+      "emissao_pv": "29/10/2026",
+      "vlr_total_produtos": 2550.24,
+      "margem": 27.12,
+      "nome_cliente": "DONEGATE DISTRIBUIDORA LTDA",
+      "uf_cliente": "RJ",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "FLAVIA BADARO VELIS",
+      "ultimo_status": "Em Separação"
+    },
+    {
+      "numero_pedido": "717199",
+      "emissao_pv": "29/10/2026",
+      "vlr_total_produtos": 9238.92,
+      "margem": 25.17,
+      "nome_cliente": "DMI MATERIAL MEDICO HOSPITALAR LTDA",
+      "uf_cliente": "GO",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "SUPREMO REP. E CONSULTORIA EIRELLI",
+      "ultimo_status": "Em Separação"
+    },
+    {
+      "numero_pedido": "717201",
+      "emissao_pv": "29/10/2026",
+      "vlr_total_produtos": 4295.91,
+      "margem": 26.63,
+      "nome_cliente": "ATHAN COMMERCE EQUIPAMENTOS MEDICOS HOSPITALARES L",
+      "uf_cliente": "SP",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "JOELMA XAVIER NUNES",
+      "ultimo_status": "Análise de Crédito"
+    },
+    {
+      "numero_pedido": "717203",
+      "emissao_pv": "29/10/2026",
+      "vlr_total_produtos": 6063.43,
+      "margem": 26.08,
+      "nome_cliente": "MED TECH LTDA",
+      "uf_cliente": "BA",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "JOELMA XAVIER NUNES",
+      "ultimo_status": "Em Separação"
+    },
+    {
+      "numero_pedido": "717204",
+      "emissao_pv": "29/10/2026",
+      "vlr_total_produtos": 1831.6,
+      "margem": 44.57,
+      "nome_cliente": "CUNHA   SAVAZI DISTRIBUIDORA DE MEDICAMENTOS LTDA",
+      "uf_cliente": "MG",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "JOELMA XAVIER NUNES",
+      "ultimo_status": "Em Separação"
+    },
+    {
+      "numero_pedido": "717205",
+      "emissao_pv": "29/10/2026",
+      "vlr_total_produtos": 25711.54,
+      "margem": 3.78,
+      "nome_cliente": "CAPITAL MEDH DISTRIBUIDORA DE MEDICAMENTOS E MATER",
+      "uf_cliente": "DF",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "SUPREMO REP. E CONSULTORIA EIRELLI",
+      "ultimo_status": "Em Separação"
+    },
+    {
+      "numero_pedido": "717208",
+      "emissao_pv": "29/10/2026",
+      "vlr_total_produtos": 991.66,
+      "margem": 43.61,
+      "nome_cliente": "RAMON ANTONIO NUNES DA SILVA",
+      "uf_cliente": "PB",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "DIEGO RICARDO CECILIO",
+      "ultimo_status": "Em Separação"
+    },
+    {
+      "numero_pedido": "717210",
+      "emissao_pv": "29/10/2026",
+      "vlr_total_produtos": 19376.28,
+      "margem": 18.9,
+      "nome_cliente": "CAJIENSE DISTRIBUIDORA FARMACEUTICA LTDA",
+      "uf_cliente": "BA",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "ALEXANDRA QUEREGATTE MARTINS RIBEIRO",
+      "ultimo_status": "Em Separação"
+    },
+    {
+      "numero_pedido": "717212",
+      "emissao_pv": "29/10/2026",
+      "vlr_total_produtos": 597.89,
+      "margem": "0",
+      "nome_cliente": "LABORATORIO DE ANALISES CLINICAS ESTIMA DE BARRETO",
+      "uf_cliente": "SP",
+      "tipo_cliente": "CONS.FINAL",
+      "vendedor": "E-COMMERCE",
+      "ultimo_status": "Em Separação"
+    },
+    {
+      "numero_pedido": "717214",
+      "emissao_pv": "29/10/2026",
+      "vlr_total_produtos": 139159.39,
+      "margem": -1.41,
+      "nome_cliente": "ALTAMED DISTRIBUIDORA DE MEDICAMENTOS LTDA",
+      "uf_cliente": "PA",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "ALEXANDRA QUEREGATTE MARTINS RIBEIRO",
+      "ultimo_status": "Análise de Crédito"
+    },
+    {
+      "numero_pedido": "717216",
+      "emissao_pv": "29/10/2026",
+      "vlr_total_produtos": 3316.63,
+      "margem": 15.4,
+      "nome_cliente": "FERREIRA COMERCIO DE ARTIGOS MEDICOS E ORTOPEDICOS",
+      "uf_cliente": "SP",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "ALEXANDRA QUEREGATTE MARTINS RIBEIRO",
+      "ultimo_status": "Análise de Crédito"
+    },
+    {
+      "numero_pedido": "717217",
+      "emissao_pv": "29/10/2026",
+      "vlr_total_produtos": 9561.32,
+      "margem": 27.41,
+      "nome_cliente": "M4 PARTICIPACOES LTDA",
+      "uf_cliente": "PE",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "JOELMA XAVIER NUNES",
+      "ultimo_status": "Análise de Crédito"
+    },
+    {
+      "numero_pedido": "717219",
+      "emissao_pv": "29/10/2026",
+      "vlr_total_produtos": 4386.64,
+      "margem": 14.69,
+      "nome_cliente": "PREMIUM HOSPITALAR LTDA",
+      "uf_cliente": "GO",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "SUPREMO REP. E CONSULTORIA EIRELLI",
+      "ultimo_status": "Em Separação"
+    },
+    {
+      "numero_pedido": "717222",
+      "emissao_pv": "29/10/2026",
+      "vlr_total_produtos": 1646.4,
+      "margem": 35.8,
+      "nome_cliente": "RN DISTRIBUIDORA HOSPITALAR LTDA",
+      "uf_cliente": "BA",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "LUCIANA APARECIDA BRESSAN",
+      "ultimo_status": "Em Separação"
+    },
+    {
+      "numero_pedido": "717224",
+      "emissao_pv": "29/10/2026",
+      "vlr_total_produtos": 1122.35,
+      "margem": 41.32,
+      "nome_cliente": "MED EMERGENCIA LTDA",
+      "uf_cliente": "BA",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "DENNYS WINSTON RICCI DOS SANTOS",
+      "ultimo_status": "Análise de Crédito"
+    },
+    {
+      "numero_pedido": "717226",
+      "emissao_pv": "29/10/2026",
+      "vlr_total_produtos": 1048.23,
+      "margem": 45.88,
+      "nome_cliente": "EXCELENCIA DISTRIBUIDORA DE PRODUTOS E SERVICOS LT",
+      "uf_cliente": "RJ",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "LUCIA MARIA ANDRADE FLORESTA",
+      "ultimo_status": "Aguard. Envio Separação"
+    },
+    {
+      "numero_pedido": "717228",
+      "emissao_pv": "29/10/2026",
+      "vlr_total_produtos": 3566.87,
+      "margem": 26.98,
+      "nome_cliente": "DENTAL SORRIA LTDA",
+      "uf_cliente": "MG",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "LUCIANA APARECIDA BRESSAN",
+      "ultimo_status": "Análise de Crédito"
+    },
+    {
+      "numero_pedido": "717229",
+      "emissao_pv": "29/10/2026",
+      "vlr_total_produtos": 22087.9,
+      "margem": 15.77,
+      "nome_cliente": "C B S  MEDICO CIENTIFICA LTDA",
+      "uf_cliente": "SP",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "HELEIDA REPRESENTACOES LTDA",
+      "ultimo_status": "Aguard. Envio Separação"
+    },
+    {
+      "numero_pedido": "717230",
+      "emissao_pv": "29/10/2026",
+      "vlr_total_produtos": 13437.73,
+      "margem": 15.72,
+      "nome_cliente": "LABNORTE MATERIAIS MEDICOS  HOSPITALARES E LABORAT",
+      "uf_cliente": "PR",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "FERNANDA TORRES GUIMARAES",
+      "ultimo_status": "Análise de Crédito"
+    },
+    {
+      "numero_pedido": "717233",
+      "emissao_pv": "29/10/2026",
+      "vlr_total_produtos": 1082.98,
+      "margem": 26.26,
+      "nome_cliente": "HOSP MEDIC  SERVICOS LTDA",
+      "uf_cliente": "PR",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "LUCIANA APARECIDA BRESSAN",
+      "ultimo_status": "Análise de Crédito"
+    },
+    {
+      "numero_pedido": "717236",
+      "emissao_pv": "29/10/2026",
+      "vlr_total_produtos": 32311.15,
+      "margem": 23.45,
+      "nome_cliente": "AVANCE MEDICAMENTOS LTDA",
+      "uf_cliente": "BA",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "FLAVIA BADARO VELIS",
+      "ultimo_status": "Em Separação"
+    },
+    {
+      "numero_pedido": "717238",
+      "emissao_pv": "29/10/2026",
+      "vlr_total_produtos": 17531.32,
+      "margem": -3.89,
+      "nome_cliente": "CORUMBA HOSPITALAR LTDA",
+      "uf_cliente": "GO",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "FLAVIA BADARO VELIS",
+      "ultimo_status": "Análise de Crédito"
+    },
+    {
+      "numero_pedido": "717241",
+      "emissao_pv": "29/10/2026",
+      "vlr_total_produtos": 1272.19,
+      "margem": 29.11,
+      "nome_cliente": "SANTA MARIA MEDICAL  DISTRIBUIDORA DE MATERIAIS HO",
+      "uf_cliente": "RS",
+      "tipo_cliente": "REVENDEDOR",
+      "vendedor": "LUCIANA APARECIDA BRESSAN",
+      "ultimo_status": "2.1    - ALVARA SANITARIO"
+    }
+  ],
+  "tv_alert": {
+    "enabled": false,
+    "id": "Nova Transportadora: JAMEF",
+    "title": "Atenção",
+    "message": "Atenção: nova transportadora liberada. A Jamef já está disponível para envio de encomendas urgentes. Fiquem atentos aos orçamentos.",
+    "duration_seconds": 25,
+    "created_at": "2026-02-23T11:10:00-03:00",
+    "ttl_minutes": 720
+},
+  "performance_gerencial": {
+    "mes_atual": {
+     "periodo": "outubro/2026",
+     "frete_pago": "578098,65",
+     "faturamento": "13471698,89",
+     "frete_repassado": "479127,73",
+     "entrega_realizada": "1227",
+     "entrega_no_prazo": "1178",
+     "qtd_notas_fiscais": "1908",
+     "entrega_fora_prazo": "49"
+},
+  "mes_anterior": {
+     "periodo": "setembro/2026",
+     "entrega_realizada": "2168",
+     "entrega_no_prazo": "2047"
+  }
+},
+  "expedicao": {
+     "aguardando_coleta": 0,
+     "coletado": 0,
+     "valor_coletado": 0,
+     "valor_pendente_coleta": 0
+},
+
+
+"estoque": {
+  "ocupacao_total_armazem": 84.84,
+  "ocupacao_operacional": 92.23,
+  "areas": [
+    { "nome": "Picking", "taxa": 89.87},
+    { "nome": "Pulmão de Abastecimento", "taxa": 92.63},
+    { "nome": "Flowrack", "taxa": 44.86},
+    { "nome": "Área de Qualidade", "taxa": 50.00},
+    { "nome": "Área de Amostra", "taxa": 0.00},
+    { "nome": "Área de Avarias", "taxa": 27.91}
+]
+}
+}
