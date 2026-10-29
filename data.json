@@ -1,58 +1,19 @@
 {
-  "updated_at": "29/10/2026, 17:45:28",
-  "kpis": {},
+  "updated_at": "29/10/2026 18:39",
+  "kpis": {
+  },
   "pedidos_status": [
-    {
-      "status": "Aguardando Liberação",
-      "quantidade": 4,
-      "valor": 70441.6
-    },
-    {
-      "status": "Alvará Sanitário",
-      "quantidade": 0,
-      "valor": "0"
-    },
-    {
-      "status": "Bloqueado por regra",
-      "quantidade": 0,
-      "valor": "0"
-    },
-    {
-      "status": "Análise de Crédito",
-      "quantidade": 25,
-      "valor": 504261.9
-    },
-    {
-      "status": "Total em Disputa",
-      "quantidade": 29,
-      "valor": 574703.5
-    },
-    {
-      "status": "Aguard. Envio Separação",
-      "quantidade": 2,
-      "valor": 2078.3
-    },
-    {
-      "status": "Em Separação",
-      "quantidade": 34,
-      "valor": 408697.29
-    },
-    {
-      "status": "Separado",
-      "quantidade": 9,
-      "valor": 59184.38
-    },
-    {
-      "status": "Faturado",
-      "quantidade": 138,
-      "valor": 1252320.33
-    },
-    {
-      "status": "Total",
-      "quantidade": 2062,
-      "valor": 15037829.38
-    }
-  ],
+    { "status": "Aguardando Liberação", "quantidade": 2, "valor": "20961,4" },
+    { "status": "Alvará Sanitário", "quantidade": 0, "valor": "0" },
+    { "status": "Bloqueado por regra", "quantidade": 0, "valor": "0" },
+    { "status": "Análise de Crédito", "quantidade": 21, "valor": "407511,17" },
+    { "status": "Total em Disputa", "quantidade": 23, "valor": "428472,57" },
+    { "status": "Aguard. Envio Separação", "quantidade": 1, "valor": "41944,7" },
+    { "status": "Em Separação", "quantidade": 40, "valor": "607192,56" },
+    { "status": "Separado", "quantidade": 2, "valor": "10925,5" },
+    { "status": "Faturado", "quantidade": 155, "valor": "1370918,69" },
+    { "status": "Total", "quantidade": 198, "valor": "2030981,45" }
+ ],
   "recebimento_produtos": [
     {
       "processo": "2026I166",
