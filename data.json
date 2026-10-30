@@ -1,5 +1,5 @@
 {
-  "updated_at": "30/10/2026, 10:15:20",
+  "updated_at": "30/10/2026, 11:45:18",
   "kpis": {},
   "pedidos_status": [
     {
@@ -19,23 +19,23 @@
     },
     {
       "status": "Análise de Crédito",
-      "quantidade": 17,
-      "valor": 420931.54
+      "quantidade": 15,
+      "valor": 419122.05
     },
     {
       "status": "Total em Disputa",
-      "quantidade": 18,
-      "valor": 424531.54
+      "quantidade": 16,
+      "valor": 422722.05
     },
     {
       "status": "Aguard. Envio Separação",
       "quantidade": 1,
-      "valor": 75710.88
+      "valor": 41.84
     },
     {
       "status": "Em Separação",
-      "quantidade": 15,
-      "valor": 117827.49
+      "quantidade": 26,
+      "valor": 248570.93
     },
     {
       "status": "Separado",
@@ -49,8 +49,8 @@
     },
     {
       "status": "Total",
-      "quantidade": 2103,
-      "valor": 16064455.42
+      "quantidade": 2114,
+      "valor": 16119529.82
     }
 
   ],
