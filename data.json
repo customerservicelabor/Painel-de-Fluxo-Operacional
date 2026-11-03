@@ -1,11 +1,11 @@
 {
-  "updated_at": "30/10/2026, 11:45:18",
+  "updated_at": "03/11/2026, 01:45:12",
   "kpis": {},
   "pedidos_status": [
     {
       "status": "Aguardando Liberação",
-      "quantidade": 1,
-      "valor": "3600"
+      "quantidade": 0,
+      "valor": "0"
     },
     {
       "status": "Alvará Sanitário",
@@ -19,23 +19,23 @@
     },
     {
       "status": "Análise de Crédito",
-      "quantidade": 15,
-      "valor": 419122.05
+      "quantidade": 0,
+      "valor": "0"
     },
     {
       "status": "Total em Disputa",
-      "quantidade": 16,
-      "valor": 422722.05
+      "quantidade": 0,
+      "valor": "0"
     },
     {
       "status": "Aguard. Envio Separação",
-      "quantidade": 1,
-      "valor": 41.84
+      "quantidade": 0,
+      "valor": "0"
     },
     {
       "status": "Em Separação",
-      "quantidade": 26,
-      "valor": 248570.93
+      "quantidade": 0,
+      "valor": "0"
     },
     {
       "status": "Separado",
@@ -49,9 +49,10 @@
     },
     {
       "status": "Total",
-      "quantidade": 2114,
-      "valor": 16119529.82
+      "quantidade": 0,
+      "valor": "0"
     }
+
 
   ],
   "recebimento_produtos": [
@@ -895,19 +896,19 @@
 },
   "performance_gerencial": {
     "mes_atual": {
-     "periodo": "outubro/2026",
-     "frete_pago": "627432,55",
-     "faturamento": "14786126,78",
-     "frete_repassado": "556543,52",
-     "entrega_realizada": "1314",
-     "entrega_no_prazo": "1262",
-     "qtd_notas_fiscais": "2029",
-     "entrega_fora_prazo": "52"
+     "periodo": "novembro/2026",
+     "frete_pago": "0",
+     "faturamento": "0",
+     "frete_repassado": "0",
+     "entrega_realizada": "2",
+     "entrega_no_prazo": "1",
+     "qtd_notas_fiscais": "1",
+     "entrega_fora_prazo": "0"
 },
   "mes_anterior": {
-     "periodo": "setembro/2026",
-     "entrega_realizada": "2169",
-     "entrega_no_prazo": "2047"
+     "periodo": "outubro/2026",
+     "entrega_realizada": "1447",
+     "entrega_no_prazo": "1368"
   }
 },
   "expedicao": {
@@ -919,13 +920,13 @@
 
 
 "estoque": {
-  "ocupacao_total_armazem": 84.84,
-  "ocupacao_operacional": 92.23,
+  "ocupacao_total_armazem": 81.08,
+  "ocupacao_operacional": 87.65,
   "areas": [
-    { "nome": "Picking", "taxa": 89.87},
-    { "nome": "Pulmão de Abastecimento", "taxa": 92.63},
-    { "nome": "Flowrack", "taxa": 44.86},
-    { "nome": "Área de Qualidade", "taxa": 50.00},
+    { "nome": "Picking", "taxa": 90.39},
+    { "nome": "Pulmão de Abastecimento", "taxa": 87.18},
+    { "nome": "Flowrack", "taxa": 44.61},
+    { "nome": "Área de Qualidade", "taxa": 64.71},
     { "nome": "Área de Amostra", "taxa": 0.00},
     { "nome": "Área de Avarias", "taxa": 27.91}
 ]
