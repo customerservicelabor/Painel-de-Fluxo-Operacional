@@ -1,11 +1,11 @@
 {
-  "updated_at": "05/11/2026, 08:15",
+  "updated_at": "05/11/2026, 10:00:15",
   "kpis": {},
   "pedidos_status": [
     {
       "status": "Aguardando Liberação",
-      "quantidade": 5,
-      "valor": 310328.4
+      "quantidade": 4,
+      "valor": 8982.2
     },
     {
       "status": "Alvará Sanitário",
@@ -19,13 +19,13 @@
     },
     {
       "status": "Análise de Crédito",
-      "quantidade": 8,
-      "valor": 148423.35
+      "quantidade": 10,
+      "valor": 300973.5
     },
     {
       "status": "Total em Disputa",
-      "quantidade": 13,
-      "valor": 458751.75
+      "quantidade": 14,
+      "valor": 309955.7
     },
     {
       "status": "Aguard. Envio Separação",
@@ -34,8 +34,8 @@
     },
     {
       "status": "Em Separação",
-      "quantidade": 2,
-      "valor": 12263.15
+      "quantidade": 21,
+      "valor": 248642.9
     },
     {
       "status": "Separado",
@@ -49,8 +49,8 @@
     },
     {
       "status": "Total",
-      "quantidade": 164,
-      "valor": 882532.39
+      "quantidade": 183,
+      "valor": 1118912.14
     }
   ],
   "recebimento_produtos": [
