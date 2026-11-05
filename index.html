@@ -1502,6 +1502,7 @@
           <div class="headerActions">
             <button class="miniBtn" onclick="openPedidosModal('alvara')">Ver Alvará</button>
             <button class="miniBtn" onclick="openPedidosModal('credito')">Ver Crédito</button>
+            <button class="miniBtn" onclick="openPedidosModal('bloqueio_regra')">Ver Bloquio por regra</button>
             <div class="badge" id="pedidosCount">— itens</div>
           </div>
         </div>
@@ -1765,17 +1766,18 @@ function startAutoScroll(el, {
     }
 
     function parseUpdatedDate(updatedAtStr){
-      // Aceita "29/10/2026, 09:02:00" e "29/10/2026 09:02:00".
-      const raw = String(updatedAtStr || '').trim();
-      const match = raw.match(/^(\d{2})\/(\d{2})\/(\d{4})\s*,?\s*(\d{1,2}):(\d{2})(?::(\d{2}))?$/);
-      if (!match) return null;
+      const parts = String(updatedAtStr || '').split(" ");
+      const datePart = parts[0] || "01/01/1970";
+      const timePart = parts[1] || "00:00";
 
-      const [, dd, mm, yyyy, HH, MM, SS = '0'] = match;
-      const d = new Date(+yyyy, +mm - 1, +dd, +HH, +MM, +SS);
-      // Impede datas inválidas de acionarem um falso alerta.
-      if (d.getFullYear() !== +yyyy || d.getMonth() !== +mm - 1 ||
-          d.getDate() !== +dd || d.getHours() !== +HH ||
-          d.getMinutes() !== +MM || d.getSeconds() !== +SS) return null;
+      let d = parseDateFlex(datePart);
+      if(!d){
+        const [dd, mm, yyyy] = datePart.split("/").map(Number);
+        d = new Date(yyyy || 1970, (mm || 1)-1, dd || 1);
+      }
+
+      const [HH, MM] = timePart.split(":").map(Number);
+      d.setHours(HH || 0, MM || 0, 0, 0);
       return d;
     }
 
@@ -1787,14 +1789,15 @@ function startAutoScroll(el, {
       el.textContent = 'Atualizado em: ' + (data.updated_at || '--/--/----');
 
       const updated = parseUpdatedDate(data.updated_at);
-      if (!updated) return;
       const diffMs = Date.now() - updated.getTime();
       if (!Number.isFinite(diffMs)) return;
 
       const diffMin = Math.floor(diffMs / 60000);
 
-      if (diffMin >= 60){
+      if (diffMin > 120){
         el.classList.add('stale-bad');
+      } else if (diffMin > 60){
+        el.classList.add('stale-warn');
       }
     }
 
@@ -2068,8 +2071,9 @@ function startAutoScroll(el, {
         valorNum: aguardLib.valorNum + alvara.valorNum + bloqueado.valorNum + analise.valorNum
       };
 
-      // Total Faturamento Previsto = Aguard. Envio Separação + Em Separação
-      // + Separado + Faturado. Desconsidera Total em Disputa.
+      // Total Faturamento Previsto = soma dos itens solicitados:
+      // Total em Disputa + Aguard. Envio Separação + Em Separação
+      // + Separado + Faturado.
       const totalPrevisto = {
         label: 'Total Faturamento Previsto',
         qtd:
@@ -2537,6 +2541,10 @@ function renderSlaGauge(sla){
         return list.filter(it => normKey(it.ultimo_status) === normKey('Análise de Crédito'));
       }
 
+      if (tipo === 'bloqueio_regra'){
+        return list.filter(it => normKey(it.ultimo_status) === normKey('Bloqueado por regra'));
+      }
+
       return [];
     }
 
@@ -2564,6 +2572,9 @@ function renderSlaGauge(sla){
       } else if (tipo === 'credito'){
         title.textContent = 'Pedidos em Análise de Crédito';
         lista = getPedidosFiltradosPorTipo('credito');
+      } else if (tipo === 'bloqueio_regra'){
+        title.textContent = 'Pedidos Bloqueados por Regra';
+        lista = getPedidosFiltradosPorTipo('bloqueio_regra');
       }
 
       lista.sort((a, b) => {
@@ -2718,12 +2729,7 @@ async function atualizarPainel(){
 
 atualizarPainel();
 
-setInterval(atualizarPainel, 1800000);
-
-// Reavalia o alerta a cada minuto, mesmo entre consultas ao data.json.
-setInterval(() => {
-  if (DATA_CACHE) formatUpdatedAtToBadge(DATA_CACHE);
-}, 60000);
+setInterval(atualizarPainel, 120000);
       </script>
 </body>
 </html>
