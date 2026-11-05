@@ -1,11 +1,11 @@
 {
-  "updated_at": "04/11/2026, 17:00:15",
+  "updated_at": "05/11/2026, 01:30:13",
   "kpis": {},
   "pedidos_status": [
     {
       "status": "Aguardando Liberação",
-      "quantidade": 3,
-      "valor": 3746.8
+      "quantidade": 5,
+      "valor": 310328.4
     },
     {
       "status": "Alvará Sanitário",
@@ -19,38 +19,38 @@
     },
     {
       "status": "Análise de Crédito",
-      "quantidade": 9,
-      "valor": 87426.19
+      "quantidade": 8,
+      "valor": 148423.35
     },
     {
       "status": "Total em Disputa",
-      "quantidade": 12,
-      "valor": 91172.99
+      "quantidade": 13,
+      "valor": 458751.75
     },
     {
       "status": "Aguard. Envio Separação",
-      "quantidade": 2,
-      "valor": 55.5
-    },
-    {
-      "status": "Em Separação",
-      "quantidade": 25,
-      "valor": 168706.03
-    },
-    {
-      "status": "Separado",
       "quantidade": 0,
       "valor": "0"
     },
     {
+      "status": "Em Separação",
+      "quantidade": 2,
+      "valor": 12263.15
+    },
+    {
+      "status": "Separado",
+      "quantidade": 1,
+      "valor": "581"
+    },
+    {
       "status": "Faturado",
-      "quantidade": 72,
-      "valor": 391734.67
+      "quantidade": 0,
+      "valor": "0"
     },
     {
       "status": "Total",
-      "quantidade": 153,
-      "valor": 801755.75
+      "quantidade": 164,
+      "valor": 882532.39
     }
   ],
   "recebimento_produtos": [
@@ -539,18 +539,18 @@
   "performance_gerencial": {
     "mes_atual": {
      "periodo": "novembro/2026",
-     "frete_pago": "11469,05",
-     "faturamento": "488310,86",
-     "frete_repassado": "16920,14",
-     "entrega_realizada": "2",
-     "entrega_no_prazo": "1",
-     "qtd_notas_fiscais": "90",
-     "entrega_fora_prazo": "1"
+     "frete_pago": "37942,35",
+     "faturamento": "1215574,45",
+     "frete_repassado": "42892,49",
+     "entrega_realizada": "8",
+     "entrega_no_prazo": "7",
+     "qtd_notas_fiscais": "193",
+     "entrega_fora_prazo": "0"
 },
   "mes_anterior": {
      "periodo": "outubro/2026",
-     "entrega_realizada": "1601",
-     "entrega_no_prazo": "1510"
+     "entrega_realizada": "1720",
+     "entrega_no_prazo": "1621"
   }
 },
   "expedicao": {
@@ -574,3 +574,4 @@
 ]
 }
 }
+
