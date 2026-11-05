@@ -1,5 +1,5 @@
 {
-  "updated_at": "05/11/2026, 12:30:16",
+  "updated_at": "05/11/2026, 13:30:11",
   "kpis": {},
   "pedidos_status": [
     {
@@ -19,13 +19,13 @@
     },
     {
       "status": "Análise de Crédito",
-      "quantidade": 11,
-      "valor": 301493.81
+      "quantidade": 9,
+      "valor": 289711.4
     },
     {
       "status": "Total em Disputa",
-      "quantidade": 15,
-      "valor": 310476.01
+      "quantidade": 13,
+      "valor": 298693.6
     },
     {
       "status": "Aguard. Envio Separação",
@@ -34,8 +34,8 @@
     },
     {
       "status": "Em Separação",
-      "quantidade": 27,
-      "valor": 264892.22
+      "quantidade": 18,
+      "valor": 217031.54
     },
     {
       "status": "Separado",
@@ -44,13 +44,13 @@
     },
     {
       "status": "Faturado",
-      "quantidade": 12,
-      "valor": 65157.05
+      "quantidade": 24,
+      "valor": 123171.28
     },
     {
       "status": "Total",
-      "quantidade": 201,
-      "valor": 1199744.11
+      "quantidade": 204,
+      "valor": 1209897.66
     }
   ],
   "recebimento_produtos": [
