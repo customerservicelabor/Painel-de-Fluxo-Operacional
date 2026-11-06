@@ -128,7 +128,7 @@
       "uf_cliente": "SP",
       "tipo_cliente": "CONS.FINAL",
       "vendedor": "FLAVIA BADARO VELIS",
-      "ultimo_status": "BLOQUEIO PAGAMENTO"
+      "ultimo_status": "BLOQUEADO POR REGRA"
     },
     {
       "numero_pedido": "717436",
