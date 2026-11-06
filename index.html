@@ -1456,6 +1456,78 @@
       h1{ font-size:30px; }
       .modalCard{ width: 98vw; }
     }
+
+    /* Aviso de alteração do endereço do painel — independente dos alertas operacionais */
+    .avisoNovoEnderecoOverlay{
+      position:fixed;
+      inset:0;
+      z-index:10020;
+      display:none;
+      align-items:center;
+      justify-content:center;
+      padding:20px;
+      background:rgba(11,16,32,.72);
+      backdrop-filter:blur(5px);
+    }
+    .avisoNovoEnderecoOverlay.visivel{display:flex;}
+    .avisoNovoEnderecoCard{
+      width:min(630px,100%);
+      position:relative;
+      border-radius:20px;
+      padding:34px 32px 30px;
+      background:#fff;
+      color:#0b1b3a;
+      box-shadow:0 24px 70px rgba(0,0,0,.40);
+      border-top:6px solid #0b86ff;
+      text-align:center;
+    }
+    .avisoNovoEnderecoFechar{
+      position:absolute;
+      right:13px;
+      top:12px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      width:36px;
+      height:36px;
+      border:0;
+      border-radius:50%;
+      font-size:26px;
+      line-height:1;
+      background:transparent;
+      color:#334155;
+      cursor:pointer;
+    }
+    .avisoNovoEnderecoFechar:hover,
+    .avisoNovoEnderecoFechar:focus-visible{background:#e2e8f0;outline-offset:2px;}
+    .avisoNovoEnderecoIcone{
+      width:54px;
+      height:54px;
+      border-radius:50%;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      margin:0 auto 16px;
+      background:#dbeafe;
+      color:#1d4ed8;
+      font-weight:900;
+      font-size:29px;
+    }
+    .avisoNovoEnderecoCard h2{margin:0 0 14px;font-size:23px;line-height:1.2;}
+    .avisoNovoEnderecoCard p{font-size:16px;line-height:1.55;margin:0 0 16px;}
+    .avisoNovoEnderecoLink{
+      display:block;
+      padding:13px 15px;
+      background:#eef6ff;
+      border:1px solid #bfdbfe;
+      border-radius:11px;
+      overflow-wrap:anywhere;
+      font-weight:750;
+      color:#0759b4;
+      text-decoration:underline;
+    }
+    .avisoNovoEnderecoNota{margin-top:16px!important;margin-bottom:0!important;font-size:13px!important;color:#64748b;}
+    @media(max-width:520px){.avisoNovoEnderecoCard{padding:32px 19px 23px}.avisoNovoEnderecoCard h2{font-size:20px}}
   </style>
 </head>
 
@@ -1657,6 +1729,19 @@
         </table>
         <div class="modalEmpty" id="pedidosModalEmpty" style="display:none;">Nenhum pedido encontrado.</div>
       </div>
+    </div>
+  </div>
+
+
+  <!-- Aviso periódico da mudança de endereço (09/11/2026) -->
+  <div class="avisoNovoEnderecoOverlay" id="avisoNovoEndereco" role="dialog" aria-modal="true" aria-labelledby="avisoNovoEnderecoTitulo" aria-describedby="avisoNovoEnderecoDescricao">
+    <div class="avisoNovoEnderecoCard">
+      <button class="avisoNovoEnderecoFechar" id="avisoNovoEnderecoFechar" type="button" aria-label="Fechar aviso" title="Fechar aviso">&times;</button>
+      <div class="avisoNovoEnderecoIcone" aria-hidden="true">i</div>
+      <h2 id="avisoNovoEnderecoTitulo">Atenção: novo endereço do Painel Operacional</h2>
+      <p id="avisoNovoEnderecoDescricao">Informamos que, a partir de <strong>09/11/2026</strong>, o acompanhamento do Painel Operacional deverá ser realizado pelo novo endereço abaixo.</p>
+      <a class="avisoNovoEnderecoLink" href="http://10.55.55.246:8099/painel_logistico/index.html" target="_blank" rel="noopener noreferrer">http://10.55.55.246:8099/painel_logistico/index.html</a>
+      <p class="avisoNovoEnderecoNota">Este comunicado será apresentado novamente a cada 2 horas.</p>
     </div>
   </div>
 
@@ -2730,6 +2815,40 @@ async function atualizarPainel(){
 atualizarPainel();
 
 setInterval(atualizarPainel, 120000);
+
+    // Exibe na primeira visita e, depois, no máximo uma vez a cada duas horas
+    // no mesmo navegador, inclusive em caso de atualização da página.
+    (function configurarAvisoNovoEndereco(){
+      const overlay = document.getElementById('avisoNovoEndereco');
+      const fechar = document.getElementById('avisoNovoEnderecoFechar');
+      const storageKey = 'painel_operacional_aviso_endereco_20261109_ultima_exibicao';
+      const intervalo = 2 * 60 * 60 * 1000;
+      let ultimaExibicaoMemoria = 0;
+
+      function obterUltimaExibicao(){
+        try { return Number(localStorage.getItem(storageKey)) || ultimaExibicaoMemoria; }
+        catch (_erro) { return ultimaExibicaoMemoria; }
+      }
+      function registrarExibicao(agora){
+        ultimaExibicaoMemoria = agora;
+        try { localStorage.setItem(storageKey, String(agora)); }
+        catch (_erro) { /* Sem armazenamento: mantém controle na aba atual. */ }
+      }
+      function verificarAviso(){
+        const agora = Date.now();
+        const ultima = obterUltimaExibicao();
+        if (!ultima || agora - ultima >= intervalo || agora < ultima){
+          overlay.classList.add('visivel');
+          registrarExibicao(agora);
+        }
+      }
+      fechar.addEventListener('click', () => overlay.classList.remove('visivel'));
+      verificarAviso();
+      setInterval(verificarAviso, 60 * 1000);
+      document.addEventListener('visibilitychange', () => {
+        if (!document.hidden) verificarAviso();
+      });
+    })();
       </script>
 </body>
 </html>
