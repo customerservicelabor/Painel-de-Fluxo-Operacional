@@ -1462,7 +1462,7 @@
       position:fixed;
       inset:0;
       z-index:10020;
-      display:none;
+      display:flex;
       align-items:center;
       justify-content:center;
       padding:20px;
@@ -1481,25 +1481,6 @@
       border-top:6px solid #0b86ff;
       text-align:center;
     }
-    .avisoNovoEnderecoFechar{
-      position:absolute;
-      right:13px;
-      top:12px;
-      display:flex;
-      align-items:center;
-      justify-content:center;
-      width:36px;
-      height:36px;
-      border:0;
-      border-radius:50%;
-      font-size:26px;
-      line-height:1;
-      background:transparent;
-      color:#334155;
-      cursor:pointer;
-    }
-    .avisoNovoEnderecoFechar:hover,
-    .avisoNovoEnderecoFechar:focus-visible{background:#e2e8f0;outline-offset:2px;}
     .avisoNovoEnderecoIcone{
       width:54px;
       height:54px;
@@ -1733,10 +1714,9 @@
   </div>
 
 
-  <!-- Aviso periódico da mudança de endereço (09/11/2026) -->
+  <!-- Aviso permanente da mudança de endereço (09/11/2026) -->
   <div class="avisoNovoEnderecoOverlay" id="avisoNovoEndereco" role="dialog" aria-modal="true" aria-labelledby="avisoNovoEnderecoTitulo" aria-describedby="avisoNovoEnderecoDescricao">
     <div class="avisoNovoEnderecoCard">
-      <button class="avisoNovoEnderecoFechar" id="avisoNovoEnderecoFechar" type="button" aria-label="Fechar aviso" title="Fechar aviso">&times;</button>
       <div class="avisoNovoEnderecoIcone" aria-hidden="true">i</div>
       <h2 id="avisoNovoEnderecoTitulo">Atenção: novo endereço do Painel Operacional</h2>
       <p id="avisoNovoEnderecoDescricao">Informamos que, a partir de <strong>09/11/2026</strong>, o acompanhamento do Painel Operacional deverá ser realizado pelo novo endereço abaixo.</p>
@@ -2816,39 +2796,6 @@ atualizarPainel();
 
 setInterval(atualizarPainel, 120000);
 
-    // Exibe na primeira visita e, depois, no máximo uma vez a cada duas horas
-    // no mesmo navegador, inclusive em caso de atualização da página.
-    (function configurarAvisoNovoEndereco(){
-      const overlay = document.getElementById('avisoNovoEndereco');
-      const fechar = document.getElementById('avisoNovoEnderecoFechar');
-      const storageKey = 'painel_operacional_aviso_endereco_20261109_ultima_exibicao';
-      const intervalo = 2 * 60 * 60 * 1000;
-      let ultimaExibicaoMemoria = 0;
-
-      function obterUltimaExibicao(){
-        try { return Number(localStorage.getItem(storageKey)) || ultimaExibicaoMemoria; }
-        catch (_erro) { return ultimaExibicaoMemoria; }
-      }
-      function registrarExibicao(agora){
-        ultimaExibicaoMemoria = agora;
-        try { localStorage.setItem(storageKey, String(agora)); }
-        catch (_erro) { /* Sem armazenamento: mantém controle na aba atual. */ }
-      }
-      function verificarAviso(){
-        const agora = Date.now();
-        const ultima = obterUltimaExibicao();
-        if (!ultima || agora - ultima >= intervalo || agora < ultima){
-          overlay.classList.add('visivel');
-          registrarExibicao(agora);
-        }
-      }
-      fechar.addEventListener('click', () => overlay.classList.remove('visivel'));
-      verificarAviso();
-      setInterval(verificarAviso, 60 * 1000);
-      document.addEventListener('visibilitychange', () => {
-        if (!document.hidden) verificarAviso();
-      });
-    })();
       </script>
 </body>
 </html>
